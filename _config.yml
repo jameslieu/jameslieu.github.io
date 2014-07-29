@@ -1,0 +1,12 @@
+# Site settings
+title: James Lieu
+email: j.lieu888@gmail.com
+description: "Hi I'm James, I'm a Junior web developer, Illustrator and Animator"
+baseurl: ""
+url: "http://yourdomain.com"
+twitter_username: J_Lieu
+github_username:  jamesl88
+
+# Build settings
+markdown: kramdown
+permalink: pretty
