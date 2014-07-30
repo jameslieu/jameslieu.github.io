@@ -4,8 +4,13 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hi my name is James Lieu, I'm a graduate of [makersacademy.com](http://makersacademy.com/)
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+I've experienced creative side of the industry and from there I have discovered the technical.
+
+Learning to code provides the right amount of challenge as well as a chance to work with passionate and creative people.
+
+I love the fact that coding presents the opportunity for me to design, create and to constantly educate myself.
+
+I've started this blog to keep track of any programming snippets or tips I found useful as well as commands which I tend to forget.

@@ -61,17 +61,18 @@
   </header>
 
   <article class="post-content">
-  <p>When building a new Rails app, I’ve found that I constantly have had to drop the database, create it again and run a migration.</p>
+  <p>When building a new Rails app, I’ve found that I constantly have had to drop the database, create it, run a migration and finally the seed.</p>
 
-<p><code>rake db:drop</code>
-<code>rake db:create</code>
-<code>rake db:migrate</code></p>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">drop</span>
+<span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">create</span>
+<span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">migrate</span>
+<span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">seed</span>
 
-<h1 id="and-for-the-test-environment">=&gt; And for the test environment</h1>
-<p>RAILS_ENV=test rake db:drop
-RAILS_ENV=test rake db:create
-RAILS_ENV=test rake db:migrate
-`</p>
+<span class="c1">#=&gt; And for the test environment</span>
+<span class="no">RAILS_ENV</span><span class="o">=</span><span class="nb">test</span> <span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">drop</span>
+<span class="no">RAILS_ENV</span><span class="o">=</span><span class="nb">test</span> <span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">create</span>
+<span class="no">RAILS_ENV</span><span class="o">=</span><span class="nb">test</span> <span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">migrate</span>
+<span class="no">RAILS_ENV</span><span class="o">=</span><span class="nb">test</span> <span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">seed</span></code></pre></div>
 
 <p>This as you can tell can be very tedious. A better solution I’ve found is to create a rake task to handle it all.</p>
 
@@ -87,12 +88,12 @@ RAILS_ENV=test rake db:migrate
   <span class="k">end</span>
 <span class="k">end</span></code></pre></div>
 
-<p>With this all you have to do is run</p>
+<p>With this all you have to do is run the following rake command:</p>
 
 <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">rebuild</span>
 <span class="no">RAILS_ENV</span><span class="o">=</span><span class="nb">test</span> <span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">rebuild</span></code></pre></div>
 
-<p>Magic!</p>
+<p><code>NOTE: it goes without saying, NEVER do this when your application is live!</code></p>
 
   </article>
 
