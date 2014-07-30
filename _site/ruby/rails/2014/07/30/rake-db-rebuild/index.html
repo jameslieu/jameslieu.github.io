@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Tired of dropping database and rebuilding it</title>
+    <title>Tired of your dropping database and restarting it over again</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Hi I'm James, I'm a Junior web developer, Illustrator and Animator">
     <link rel="canonical" href="http://yourdomain.com/ruby/rails/2014/07/30/rake-db-rebuild/">
@@ -56,23 +56,24 @@
       <div class="post">
 
   <header class="post-header">
-    <h1>Tired of dropping database and rebuilding it</h1>
+    <h1>Tired of your dropping database and restarting it over again</h1>
     <p class="meta">Jul 30, 2014</p>
   </header>
 
   <article class="post-content">
   <p>When building a new Rails app, I’ve found that I constantly have had to drop the database, create it again and run a migration.</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">drop</span>
-<span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">create</span>
-<span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">migrate</span>
+<p><code>rake db:drop</code>
+<code>rake db:create</code>
+<code>rake db:migrate</code></p>
 
-<span class="c1">#=&gt; And for the test environment</span>
-<span class="no">RAILS_ENV</span><span class="o">=</span><span class="nb">test</span> <span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">drop</span>
-<span class="no">RAILS_ENV</span><span class="o">=</span><span class="nb">test</span> <span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">create</span>
-<span class="no">RAILS_ENV</span><span class="o">=</span><span class="nb">test</span> <span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">migrate</span></code></pre></div>
+<h1 id="and-for-the-test-environment">=&gt; And for the test environment</h1>
+<p>RAILS_ENV=test rake db:drop
+RAILS_ENV=test rake db:create
+RAILS_ENV=test rake db:migrate
+`</p>
 
-<p>This is you can tell can be very tedious. A better solution I’ve found is to create a rake task to handle it all.</p>
+<p>This as you can tell can be very tedious. A better solution I’ve found is to create a rake task to handle it all.</p>
 
 <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#=&gt; /lib/tasks/db.rake</span>
 

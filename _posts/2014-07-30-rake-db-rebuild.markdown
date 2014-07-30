@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Tired of dropping database and rebuilding it"
+title:  "Tired of your dropping database and restarting it over again"
 date:   2014-07-30 11:41:30
 categories: ruby rails
 ---
@@ -21,7 +21,7 @@ RAILS_ENV=test rake db:migrate
 {% endhighlight %}
 
 
-This is you can tell can be very tedious. A better solution I've found is to create a rake task to handle it all.
+This as you can tell can be very tedious. A better solution I've found is to create a rake task to handle it all.
 
 
 {% highlight ruby %}
