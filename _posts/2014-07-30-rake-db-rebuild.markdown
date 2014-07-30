@@ -25,7 +25,7 @@ RAILS_ENV=test rake db:seed
 
 This as you can tell can be very tedious. A better solution I've found is to create a rake task to handle it all.
 
-
+`You can name your task what ever you like`
 {% highlight ruby %}
 #=> /lib/tasks/db.rake
 
