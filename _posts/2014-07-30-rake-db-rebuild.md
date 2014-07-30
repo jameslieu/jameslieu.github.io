@@ -55,4 +55,4 @@ RAILS_ENV=test rake db:rebuild
 {% endhighlight %}
 
 <br />
-And there you have it, one command for test and/or development which drops the database, recreates it again, runs a migration and finally the seeds. Be sure not to use this in production because it will drop any data you have in your database.
+And there you have it, a single rake task for both test and development which drops the database, recreates it again, runs a migration and finally the seeds. Be sure not to use this in production because it will drop any data you have in your database.
