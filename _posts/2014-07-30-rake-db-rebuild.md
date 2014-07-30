@@ -25,7 +25,7 @@ RAILS_ENV=test rake db:seed
 {% endhighlight %}
 
 <br />
-This as you can tell can be very tedious. It got me thinking 'What if there was a way to do all of that in one command'. Turns out there is, One way to do it is to create a rake task to run them one after the other.
+This as you can tell can be very tedious. It got me thinking 'What if there was a way to do all of that in one command'. Turns out there is, one way to do it is to create a rake task to run them one after the other.
 
 `You can name your task what ever you like`
 {% highlight ruby %}
