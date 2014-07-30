@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>James Lieu</title>
+	<title>Dropping and resetting database all in one rake task</title>
 	
 	<meta name="author" content="James Lieu">
 
@@ -149,86 +149,128 @@
 
 	<div class="col-sm-10 col-sm-offset-2">
 		<div class="page-header">
-  <h1>James Lieu </h1>
+  <h1>Dropping and resetting database all in one rake task </h1>
 </div>
+	
+<article>
 
+	<div class="col-sm-10">
+	 <span class="post-date">
+	   
+	   July 
+	   30th,
+	   
+	   2014
+	 </span>
+	  <div class="article_body">
+	  <p>When building a new Rails app, I’ve found that I constantly have had to drop the database, create it, run a migration and finally the seed.</p>
 
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">rake db:drop
+rake db:create
+rake db:migrate
+rake db:seed
 
-<article class="home">
+#=&gt; And for the test environment
+RAILS_ENV=test rake db:drop
+RAILS_ENV=test rake db:create
+RAILS_ENV=test rake db:migrate
+RAILS_ENV=test rake db:seed</code></pre></div>
 
-  <span class="post-date">
-    
-    July
-    30th,
-    
-    2014
-  </span>
+<p>This as you can tell can be very tedious. A better solution I’ve found is to create a rake task to handle it all.</p>
 
-  <h2>
-    <a href="/ruby/rails/2014/07/30/rake-db-rebuild.html">Dropping and resetting database all in one rake task</a>
-  </h2>
+<p><code>You can name your task what ever you like</code></p>
 
-  <div>
-    
-    
-    <p>When building a new Rails app, I’ve found that I constantly have had to drop the database, create it, run a migration and finally the seed.</p>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">#=&gt; /lib/tasks/db.rake
 
+namespace :db do
+  task :rebuild =&gt; :environment do
+    raise &quot;Cannot run this task in #{Rails.env}&quot; unless [&#39;development&#39;, &#39;test&#39;].include? Rails.env
+    puts Rake::Task[&quot;db:drop&quot;].invoke
+    puts Rake::Task[&quot;db:create&quot;].invoke
+    puts Rake::Task[&quot;db:migrate&quot;].invoke
+    puts Rake::Task[&quot;db:seed&quot;].invoke if Rails.env == &#39;development&#39;
+  end
+end</code></pre></div>
 
-    
-    
-  </div>
+<p>With this all you have to do is run the following rake command:</p>
 
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">rake db:rebuild
+RAILS_ENV=test rake db:rebuild</code></pre></div>
+
+<p><code>NOTE: it goes without saying, NEVER use this in production!</code></p>
+
+	  </div>
+
+		
+		<ul class="tag_box list-unstyled list-inline">
+		  <li><i class="fa fa-folder-open"></i></li>
+		  
+		  
+			 
+				<li><a href="/categories.html#ruby-ref">
+					ruby <span>(2)</span>
+					,
+				</a></li>
+			 
+				<li><a href="/categories.html#rails-ref">
+					rails <span>(2)</span>
+					
+				</a></li>
+			
+		  
+		</ul>
+		  
+
+		  
+
+		<hr>
+
+		<div>
+      <section class="share col-sm-6">
+        <h4 class="section-title">Share Post</h4>
+        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=Dropping and resetting database all in one rake task&via=J_Lieu"
+           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+          <i class="fa fa-twitter fa-lg"></i>
+          Twitter
+        </a>
+        <a class="btn btn-default btn-sm facebook" href="https://www.facebook.com/sharer/sharer.php"
+           onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+          <i class="fa fa-facebook fa-lg"></i>
+          Facebook
+        </a>
+        <a class="btn btn-default btn-sm gplus"
+           onclick="window.open('https://plus.google.com/share?url='+window.location.href, 'google-plus-share', 'width=490,height=530');return false;">
+          <i class="fa fa-google-plus fa-lg"></i>
+          Google+
+        </a>
+      </section>
+
+      <section class="col-sm-6 author">
+        <img src="http://www.gravatar.com/avatar/9bf1ab535d46b551178bb29637428f4c" class="img-rounded author-image" />
+        <h4 class="section-title author-name">James Lieu</h4>
+        <p class="author-bio">Hi I'm James, I'm a Junior web developer, Illustrator and Animator</p>
+      </section>
+    </div>
+
+    <div class="clearfix"></div>
+
+		<ul class="pager">
+		  
+		  <li class="previous"><a href="/ruby/rails/2014/07/29/my-first-post.html" title="My first post!">&larr; Previous</a></li>
+		  
+		  
+			<li class="next disabled"><a>Next &rarr;</a>
+		  
+		</ul>
+
+		<hr>
+	</div>
+	
+	<div class="col-sm-2 sidebar-2">
+	
+	</div>
 </article>
-
-
-<article class="home">
-
-  <span class="post-date">
-    
-    July
-    29th,
-    
-    2014
-  </span>
-
-  <h2>
-    <a href="/ruby/rails/2014/07/29/my-first-post.html">My first post!</a>
-  </h2>
-
-  <div>
-    
-    
-    <p>This is my first blog post. The post below is the basic markdown used in Jekyll which I’ll leave here for reference</p>
-
-
-    
-    
-  </div>
-
-</article>
-
-<hr/>
-
-<ul class="pager"> 
-
-  
-  <li class="previous disabled">
-    <a>&larr; Newer</a>
-  </li>
-  
-  
-  <li>
-    <span class="page_number">Page: 1 of 1</span>
-  </li>
-
-  
-  <li class="next disabled">
-    <a>Older &rarr;</a>        
-  </li>
-  
-
-</ul>
-
+<div class="clearfix"></div>
 
 
 

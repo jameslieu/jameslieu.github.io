@@ -1,12 +1,32 @@
-# Site settings
-title: James Lieu
-email: j.lieu888@gmail.com
-description: "Hi I'm James, I'm a Junior web developer, Illustrator and Animator"
-baseurl: ""
-url: "http://jameslieu.co.uk"
-twitter_username: J_Lieu
-github_username:  jamesl88
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-# Build settings
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: true
 markdown: kramdown
-permalink: pretty
+
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: James Lieu
+
+description: "Hi I'm James, I'm a Junior web developer, Illustrator and Animator"
+author:
+  name: James Lieu
+  email: j.lieu@gmail.com
+  github: jamesl88
+  twitter: J_Lieu
+  pinterest:
+  linkedin: jameslieu1
+  bio: "Hi I'm James, I'm a Junior web developer, Illustrator and Animator"
+  email_md5: 9bf1ab535d46b551178bb29637428f4c
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:
