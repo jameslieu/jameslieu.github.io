@@ -47,4 +47,4 @@ rake db:rebuild
 RAILS_ENV=test rake db:rebuild
 {% endhighlight %}
 
-`NOTE: it goes without saying, NEVER do this when your application is live!`
+`NOTE: it goes without saying, NEVER use this in production!`
