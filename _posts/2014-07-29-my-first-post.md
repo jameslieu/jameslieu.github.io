@@ -3,6 +3,7 @@ layout: post
 title:  "My first post!"
 date:   2014-07-29 13:02:30
 categories: ruby rails
+comments: true
 ---
 
 This is my first blog post. The post below is the basic markdown used in Jekyll which I'll leave here for reference
