@@ -7,6 +7,82 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>How to set up port forwarding on VirtualBox</title>
+				<description>&lt;p&gt;One of the rails project I worked with required me to get VirtualBox up and running with the following specs: Ubuntu 14.04 server amd64 on a 2GB RAM 2 core VM with VT-x/ AMD-v.&lt;/p&gt;
+
+&lt;p&gt;And in there, I had to set up ruby via RVM, install a lot of extra tools and ruby gems. To make things easier for me I used port forwarding.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;Port forwarding allows remote computers (for example, computers on the Internet) to connect to a specific computer or service within a private local-area network (LAN) - &lt;em&gt;according to wikipedia&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;One benefit of using port forwarding is that it allows you to run tasks on the command-line without having to work directly in VirtualBox by using your host terminal.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;First thing I did was to install the OpenSSH client applications on Ubuntu&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;sudo apt-get install openssh-server&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Then to setup a port forwarding into the guest’s port 22 so I can access it from my host terminal.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;To enable port forwarding, open the settings for your Virtual Machine &lt;strong&gt;(For OS X)&lt;/strong&gt;&lt;br /&gt;
+  &lt;em&gt;You can do this from the VirtualBox Manager, choose Settings(found on the top left)&lt;/em&gt;&lt;/li&gt;
+  &lt;br /&gt;
+  &lt;li&gt;Select the &lt;strong&gt;Network&lt;/strong&gt; tab&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/port_forwarding_1.png&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Make sure that &lt;strong&gt;NAT&lt;/strong&gt; is selected in the &lt;strong&gt;Attached to: selector.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Click on the Port Forwarding button.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/port_forwarding_2.png&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Pick a port on our Host, for example 2222, and forward TCP connections received on this port, to port 22/TCP (SSH) on our guest.
+    (&lt;em&gt;To do this, click on the green (+) button on the right&lt;/em&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+  &lt;li&gt;Host IP is set to nothing - this is on purpose, and is equivalent to saying 0.0.0.0.
+    However, it does mean that ANY MACHINE that can access your Host on TCP port 2222 will be able to talk to the SSH on your guest. &lt;/li&gt;
+  &lt;li&gt;Theres no need to change the Guest IP so leave it blank.&lt;/li&gt;
+  &lt;li&gt;Now confirm all the changes and click &lt;strong&gt;ok&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Restart the Virtual Machine so the changes are applied&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now you should be ready to connect to the guest.
+&lt;em&gt;Note: Make sure you have created a username on your guest. You cannot log in as root using SSH`&lt;/em&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Start your VM.
+In your terminal enter:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;ssh -l [user_name] -p 2222 127.0.0.1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;Don’t forget to replace &lt;strong&gt;[user_name]&lt;/strong&gt; with the user you created.&lt;/em&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;You will be prompted to accept the host key so be sure to enter &lt;strong&gt;yes&lt;/strong&gt;. Then finally you’ll be prompted to enter the password for the username:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;[user_name]@127.0.0.1&amp;#39;s password:&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Enter your password and you should now be logged in!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Now you should be able to run commands in the terminal without going into the VM directly. Great for running specs for your rails applications or adding new gems and tools.&lt;/p&gt;
+
+</description>
+				<pubDate>Thu, 31 Jul 2014 11:43:30 +0100</pubDate>
+				<link>/virtual-box/ubuntu/2014/07/31/port-forwarding.html</link>
+				<guid isPermaLink="true">/virtual-box/ubuntu/2014/07/31/port-forwarding.html</guid>
+			</item>
+		
+			<item>
 				<title>Dropping and resetting database all in one rake task</title>
 				<description>&lt;p&gt;When building a new Rails app, I’ve found that I constantly have had to drop the database, create it, run a migration and finally the seed.&lt;/p&gt;
 
@@ -24,7 +100,7 @@ RAILS_ENV=test rake db:migrate
 RAILS_ENV=test rake db:seed&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;
-This as you can tell can be very tedious. It got me thinking ‘What if there was a way to do all of that in one command’. Turns out there is, One way to do it is to create a rake task to run them one after the other.&lt;/p&gt;
+This as you can tell can be very tedious. It got me thinking ‘What if there was a way to do all of that in one command’. Turns out there is, one way to do it is to create a rake task to run them one after the other.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;You can name your task what ever you like&lt;/code&gt;&lt;/p&gt;
 
@@ -52,7 +128,7 @@ With this all you have to do is run the following rake command:
 RAILS_ENV=test rake db:rebuild&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;
-And there you have it, one command for test and/or development which drops the database, recreates it again, runs a migration and finally the seeds. Be sure not to use this in production because it will drop any data you have in your database.&lt;/p&gt;
+And there you have it, a single rake task for both test and development which drops the database, recreates it again, runs a migration and finally the seeds. Be sure not to use this in production because it will drop any data you have in your database.&lt;/p&gt;
 </description>
 				<pubDate>Wed, 30 Jul 2014 12:41:30 +0100</pubDate>
 				<link>/ruby/rails/2014/07/30/rake-db-rebuild.html</link>
