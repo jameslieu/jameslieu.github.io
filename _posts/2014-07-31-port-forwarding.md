@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to set up port forwarding on VirtualBox"
+title:  "How to setup port forwarding on VirtualBox"
 date:   2014-07-31 10:43:30
 categories: virtual-box ubuntu
 comments: true
