@@ -7,7 +7,98 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>How to set up port forwarding on VirtualBox</title>
+				<title>SSH Cheat Sheet</title>
+				<description>&lt;p&gt;SSH otherwise know as Secure Shell is a protocol that allows data to be transferred securely between two networked devices. To put it simply, it’s a way of connecting to and using another machine either next to you, or the other side of the world securely.&lt;/p&gt;
+
+&lt;p&gt;I’ve found these commands to be very useful at at the same time I can just as easily forget them. Therefore in this post I wanted to add a cheat sheet so I can refer back to it whenever I need to. If there are any you think will also be useful please let me know in the comments below.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;exploring-a-directory&quot;&gt;Exploring a directory&lt;/h3&gt;
+&lt;p&gt;To look at the current directory:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;ls&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;ls -la&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;To change directory:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;cd pathname/directory/subdirectory&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Or to go up a level:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;cd ../&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Or you can chain these commands together:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;cd ../../themes/images&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;copy-a-file&quot;&gt;Copy a file&lt;/h3&gt;
+&lt;p&gt;To copy a file with the same directory simply type:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;cp filename-to-copy.txt new-file-name.txt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;cp index.html index.back.html&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;To copy between directories:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;cp filename.txt ../../new-directory/filename.txt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;For example&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;cp contact.php ../contact/contact.php&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;To copy all files from one directory to another, use the * character, which unofficially means all:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;cp images/* ../skin/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;move-a-file&quot;&gt;Move a file&lt;/h3&gt;
+&lt;p&gt;To move a file simply type:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;mv current-directory/file.txt ../new-directory/file&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;For Example:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;mv images/image.jpg ../docs/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;rename-a-file&quot;&gt;Rename a file&lt;/h3&gt;
+&lt;p&gt;To rename a file, use the ‘mv’ but change the name of the file when stating the directory receiving the file.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;mv oldfilename.txt newfilename.txt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;For Example&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;mv index.php index.bac.php&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;delete-a-file&quot;&gt;Delete a file&lt;/h3&gt;
+&lt;p&gt;To delete a file type:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;rm filename.txt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Alternatively if you wish to delete a directory, and all directories and files within that recursively, type:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;rm -r&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+</description>
+				<pubDate>Tue, 05 Aug 2014 14:09:30 +0100</pubDate>
+				<link>/ssh/2014/08/05/ssh-cheatsheet.html</link>
+				<guid isPermaLink="true">/ssh/2014/08/05/ssh-cheatsheet.html</guid>
+			</item>
+		
+			<item>
+				<title>How to setup port forwarding on VirtualBox</title>
 				<description>&lt;p&gt;One of the rails project I worked with required me to get VirtualBox up and running with the following specs: Ubuntu 14.04 server amd64 on a 2GB RAM 2 core VM with VT-x/ AMD-v.&lt;/p&gt;
 
 &lt;p&gt;And in there, I had to set up ruby via RVM, install a lot of extra tools and ruby gems. To make things easier for me I used port forwarding.&lt;/p&gt;

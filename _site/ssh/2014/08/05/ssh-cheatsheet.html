@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Dropping and resetting database all in one rake task</title>
+	<title>SSH Cheat Sheet</title>
 	
 	<meta name="author" content="James Lieu">
 
@@ -159,7 +159,7 @@
 
 	<div class="col-sm-10 col-sm-offset-2">
 		<div class="page-header">
-  <h1>Dropping and resetting database all in one rake task </h1>
+  <h1>SSH Cheat Sheet </h1>
 </div>
 
 <article>
@@ -167,57 +167,95 @@
 	<div class="col-sm-10">
 	 <span class="post-date">
 	   
-	   July
-	   30th,
+	   August
+	   5th,
 	   
 	   2014
 	 </span>
 	  <div class="article_body">
-	  <p>When building a new Rails app, I’ve found that I constantly have had to drop the database, create it, run a migration and finally the seed.</p>
+	  <p>SSH otherwise know as Secure Shell is a protocol that allows data to be transferred securely between two networked devices. To put it simply, it’s a way of connecting to and using another machine either next to you, or the other side of the world securely.</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">rake db:drop
-rake db:create
-rake db:migrate
-rake db:seed
+<p>I’ve found these commands to be very useful at at the same time I can just as easily forget them. Therefore in this post I wanted to add a cheat sheet so I can refer back to it whenever I need to. If there are any you think will also be useful please let me know in the comments below.</p>
 
+<hr />
 
-#=&gt; And for the test environment
+<h3 id="exploring-a-directory">Exploring a directory</h3>
+<p>To look at the current directory:</p>
 
-RAILS_ENV=test rake db:drop
-RAILS_ENV=test rake db:create
-RAILS_ENV=test rake db:migrate
-RAILS_ENV=test rake db:seed</code></pre></div>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">ls</code></pre></div>
 
-<p><br />
-This as you can tell can be very tedious. It got me thinking ‘What if there was a way to do all of that in one command’. Turns out there is, one way to do it is to create a rake task to run them one after the other.</p>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">ls -la</code></pre></div>
 
-<p><code>You can name your task what ever you like</code></p>
+<p>To change directory:</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">#=&gt; /lib/tasks/db.rake
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cd pathname/directory/subdirectory</code></pre></div>
 
-namespace :db do
-  task :rebuild =&gt; :environment do
-    raise &quot;Cannot run this task in #{Rails.env}&quot;
-      unless [&#39;development&#39;, &#39;test&#39;].include? Rails.env
+<p>Or to go up a level:</p>
 
-    puts Rake::Task[&quot;db:drop&quot;].invoke
-    puts Rake::Task[&quot;db:create&quot;].invoke
-    puts Rake::Task[&quot;db:migrate&quot;].invoke
-    puts Rake::Task[&quot;db:seed&quot;].invoke if Rails.env == &#39;development&#39;
-  end
-end</code></pre></div>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cd ../</code></pre></div>
 
-<p><br />
-With this all you have to do is run the following rake command:
-<br />
-<code>NOTE: it goes without saying, NEVER use this in production!</code></p>
+<p>Or you can chain these commands together:</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">rake db:rebuild
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cd ../../themes/images</code></pre></div>
 
-RAILS_ENV=test rake db:rebuild</code></pre></div>
+<hr />
 
-<p><br />
-And there you have it, a single rake task for both test and development which drops the database, recreates it again, runs a migration and finally the seeds. Be sure not to use this in production because it will drop any data you have in your database.</p>
+<h3 id="copy-a-file">Copy a file</h3>
+<p>To copy a file with the same directory simply type:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cp filename-to-copy.txt new-file-name.txt</code></pre></div>
+
+<p>For example:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cp index.html index.back.html</code></pre></div>
+
+<p>To copy between directories:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cp filename.txt ../../new-directory/filename.txt</code></pre></div>
+
+<p>For example</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cp contact.php ../contact/contact.php</code></pre></div>
+
+<p>To copy all files from one directory to another, use the * character, which unofficially means all:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cp images/* ../skin/</code></pre></div>
+
+<hr />
+
+<h3 id="move-a-file">Move a file</h3>
+<p>To move a file simply type:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">mv current-directory/file.txt ../new-directory/file</code></pre></div>
+
+<p>For Example:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">mv images/image.jpg ../docs/</code></pre></div>
+
+<hr />
+
+<h3 id="rename-a-file">Rename a file</h3>
+<p>To rename a file, use the ‘mv’ but change the name of the file when stating the directory receiving the file.</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">mv oldfilename.txt newfilename.txt</code></pre></div>
+
+<p>For Example</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">mv index.php index.bac.php</code></pre></div>
+
+<hr />
+
+<h3 id="delete-a-file">Delete a file</h3>
+<p>To delete a file type:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">rm filename.txt</code></pre></div>
+
+<p>Alternatively if you wish to delete a directory, and all directories and files within that recursively, type:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">rm -r</code></pre></div>
+
+<hr />
+
 
 	  </div>
 
@@ -227,13 +265,8 @@ And there you have it, a single rake task for both test and development which dr
 		  
 		  
 			
-				<li><a href="/categories.html#ruby-ref">
-					ruby <span>(2)</span>
-					,
-				</a></li>
-			
-				<li><a href="/categories.html#rails-ref">
-					rails <span>(2)</span>
+				<li><a href="/categories.html#ssh-ref">
+					ssh <span>(1)</span>
 					
 				</a></li>
 			
@@ -248,7 +281,7 @@ And there you have it, a single rake task for both test and development which dr
 		<div>
       <section class="share col-sm-6">
         <h4 class="section-title">Share Post</h4>
-        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=Dropping and resetting database all in one rake task&via=J_Lieu"
+        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=SSH Cheat Sheet&via=J_Lieu"
            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
           <i class="fa fa-twitter fa-lg"></i>
         </a>
@@ -273,10 +306,10 @@ And there you have it, a single rake task for both test and development which dr
 
 		<ul class="pager">
 		  
-		  <li class="previous"><a href="/ruby/rails/2014/07/29/my-first-post.html" title="My first post!">&larr; Previous</a></li>
+		  <li class="previous"><a href="/virtual-box/ubuntu/2014/07/31/port-forwarding.html" title="How to setup port forwarding on VirtualBox">&larr; Previous</a></li>
 		  
 		  
-		  <li class="next"><a href="/virtual-box/ubuntu/2014/07/31/port-forwarding.html" title="How to setup port forwarding on VirtualBox">Next &rarr;</a></li>
+			<li class="next disabled"><a>Next &rarr;</a>
 		  
 		</ul>
 
