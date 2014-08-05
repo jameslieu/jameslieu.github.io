@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "SSH Cheat Sheet"
+title:  "Linux/Unix Cheat Sheet"
 date:   2014-08-05 13:09:30
 categories: ssh
 comments: true
 ---
 
-SSH otherwise know as Secure Shell is a protocol that allows data to be transferred securely between two networked devices. To put it simply, it’s a way of connecting to and using another machine either next to you, or the other side of the world securely.
+I've found these commands to be very useful but at the same time I can just as easily forget them. Therefore in this post I wanted to add a cheat sheet so I can refer back to it whenever I need to. These are the common ones I used the most
 
-I've found these commands to be very useful at at the same time I can just as easily forget them. Therefore in this post I wanted to add a cheat sheet so I can refer back to it whenever I need to. If there are any you think will also be useful please let me know in the comments below.
+If there are any you think will also be useful please let me know in the comments below.
 
 ---
 
