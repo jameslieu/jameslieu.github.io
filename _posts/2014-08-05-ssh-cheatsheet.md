@@ -43,24 +43,22 @@ To copy a file with the same directory simply type:
 
 {% highlight ruby %}
 cp filename-to-copy.txt new-file-name.txt
-{% endhighlight %}
 
-For example:
-{% highlight ruby %}
+#=> For example
 cp index.html index.back.html
 {% endhighlight %}
+
+<br />
 
 To copy between directories:
 
 {% highlight ruby %}
 cp filename.txt ../../new-directory/filename.txt
-{% endhighlight %}
 
-For example
-
-{% highlight ruby %}
+#=> For example
 cp contact.php ../contact/contact.php
 {% endhighlight %}
+<br />
 
 To copy all files from one directory to another, use the * character, which unofficially means all:
 
@@ -74,12 +72,12 @@ cp images/* ../skin/
 To move a file simply type:
 {% highlight ruby %}
 mv current-directory/file.txt ../new-directory/file
-{% endhighlight %}
 
-For Example:
-{% highlight ruby %}
+
+#=> For example
 mv images/image.jpg ../docs/
 {% endhighlight %}
+
 
 ---
 
@@ -87,12 +85,12 @@ mv images/image.jpg ../docs/
 To rename a file, use the ‘mv’ but change the name of the file when stating the directory receiving the file.
 {% highlight ruby %}
 mv oldfilename.txt newfilename.txt
-{% endhighlight %}
 
-For Example
-{% highlight ruby %}
+
+#=> For example
 mv index.php index.bac.php
 {% endhighlight %}
+
 
 ---
 
@@ -101,6 +99,7 @@ To delete a file type:
 {% highlight ruby %}
 rm filename.txt
 {% endhighlight %}
+<br />
 Alternatively if you wish to delete a directory, and all directories and files within that recursively, type:
 {% highlight ruby %}
 rm -r

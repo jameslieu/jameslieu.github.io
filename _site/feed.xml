@@ -38,19 +38,21 @@
 &lt;h3 id=&quot;copy-a-file&quot;&gt;Copy a file&lt;/h3&gt;
 &lt;p&gt;To copy a file with the same directory simply type:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;cp filename-to-copy.txt new-file-name.txt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;cp filename-to-copy.txt new-file-name.txt
 
-&lt;p&gt;For example:&lt;/p&gt;
+#=&amp;gt; For example
+cp index.html index.back.html&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;cp index.html index.back.html&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;To copy between directories:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;cp filename.txt ../../new-directory/filename.txt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;cp filename.txt ../../new-directory/filename.txt
 
-&lt;p&gt;For example&lt;/p&gt;
+#=&amp;gt; For example
+cp contact.php ../contact/contact.php&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;cp contact.php ../contact/contact.php&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;To copy all files from one directory to another, use the * character, which unofficially means all:&lt;/p&gt;
 
@@ -61,22 +63,22 @@
 &lt;h3 id=&quot;move-a-file&quot;&gt;Move a file&lt;/h3&gt;
 &lt;p&gt;To move a file simply type:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;mv current-directory/file.txt ../new-directory/file&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;mv current-directory/file.txt ../new-directory/file
 
-&lt;p&gt;For Example:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;mv images/image.jpg ../docs/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+#=&amp;gt; For example
+mv images/image.jpg ../docs/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 
 &lt;h3 id=&quot;rename-a-file&quot;&gt;Rename a file&lt;/h3&gt;
 &lt;p&gt;To rename a file, use the ‘mv’ but change the name of the file when stating the directory receiving the file.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;mv oldfilename.txt newfilename.txt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;mv oldfilename.txt newfilename.txt
 
-&lt;p&gt;For Example&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;mv index.php index.bac.php&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+#=&amp;gt; For example
+mv index.php index.bac.php&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 
@@ -85,7 +87,8 @@
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;rm filename.txt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;Alternatively if you wish to delete a directory, and all directories and files within that recursively, type:&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+Alternatively if you wish to delete a directory, and all directories and files within that recursively, type:&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;rm -r&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 

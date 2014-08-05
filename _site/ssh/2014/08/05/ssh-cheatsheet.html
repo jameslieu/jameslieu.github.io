@@ -203,19 +203,21 @@
 <h3 id="copy-a-file">Copy a file</h3>
 <p>To copy a file with the same directory simply type:</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cp filename-to-copy.txt new-file-name.txt</code></pre></div>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cp filename-to-copy.txt new-file-name.txt
 
-<p>For example:</p>
+#=&gt; For example
+cp index.html index.back.html</code></pre></div>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cp index.html index.back.html</code></pre></div>
+<p><br /></p>
 
 <p>To copy between directories:</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cp filename.txt ../../new-directory/filename.txt</code></pre></div>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cp filename.txt ../../new-directory/filename.txt
 
-<p>For example</p>
+#=&gt; For example
+cp contact.php ../contact/contact.php</code></pre></div>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cp contact.php ../contact/contact.php</code></pre></div>
+<p><br /></p>
 
 <p>To copy all files from one directory to another, use the * character, which unofficially means all:</p>
 
@@ -226,22 +228,22 @@
 <h3 id="move-a-file">Move a file</h3>
 <p>To move a file simply type:</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">mv current-directory/file.txt ../new-directory/file</code></pre></div>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">mv current-directory/file.txt ../new-directory/file
 
-<p>For Example:</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">mv images/image.jpg ../docs/</code></pre></div>
+#=&gt; For example
+mv images/image.jpg ../docs/</code></pre></div>
 
 <hr />
 
 <h3 id="rename-a-file">Rename a file</h3>
 <p>To rename a file, use the ‘mv’ but change the name of the file when stating the directory receiving the file.</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">mv oldfilename.txt newfilename.txt</code></pre></div>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">mv oldfilename.txt newfilename.txt
 
-<p>For Example</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">mv index.php index.bac.php</code></pre></div>
+#=&gt; For example
+mv index.php index.bac.php</code></pre></div>
 
 <hr />
 
@@ -250,7 +252,8 @@
 
 <div class="highlight"><pre><code class="language-ruby" data-lang="ruby">rm filename.txt</code></pre></div>
 
-<p>Alternatively if you wish to delete a directory, and all directories and files within that recursively, type:</p>
+<p><br />
+Alternatively if you wish to delete a directory, and all directories and files within that recursively, type:</p>
 
 <div class="highlight"><pre><code class="language-ruby" data-lang="ruby">rm -r</code></pre></div>
 
