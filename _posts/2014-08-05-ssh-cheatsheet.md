@@ -20,17 +20,20 @@ To look at the current directory:
 {% highlight ruby %}
   ls -la
 {% endhighlight %}
+<br />
 
 To change directory:
-
 {% highlight ruby %}
   cd pathname/directory/subdirectory
 {% endhighlight %}
+<br />
 
 Or to go up a level:
 {% highlight ruby %}
 cd ../
 {% endhighlight %}
+<br />
+
 Or you can chain these commands together:
 {% highlight ruby %}
 cd ../../themes/images
