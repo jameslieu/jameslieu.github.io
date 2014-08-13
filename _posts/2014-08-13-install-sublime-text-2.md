@@ -6,7 +6,7 @@ categories: sublime text ubuntu linux
 comments: true
 ---
 
-### The fastest way I've found to install sublime text 2.
+The fastest way I've found to install sublime text 2.
 
 Copy and paste the following into the terminal
 {% highlight ruby %}

@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>SSH Cheat Sheet</title>
+	<title>Install Sublime Text 2 on Ubuntu</title>
 	
 	<meta name="author" content="James Lieu">
 
@@ -159,7 +159,7 @@
 
 	<div class="col-sm-10 col-sm-offset-2">
 		<div class="page-header">
-  <h1>SSH Cheat Sheet </h1>
+  <h1>Install Sublime Text 2 on Ubuntu </h1>
 </div>
 
 <article>
@@ -168,103 +168,21 @@
 	 <span class="post-date">
 	   
 	   August
-	   5th,
+	   13th,
 	   
 	   2014
 	 </span>
 	  <div class="article_body">
-	  <p>SSH otherwise know as Secure Shell is a protocol that allows data to be transferred securely between two networked devices. To put it simply, it’s a way of connecting to and using another machine either next to you, or the other side of the world securely.</p>
+	  <p>The fastest way I’ve found to install sublime text 2.</p>
 
-<p>I’ve found these commands to be very useful at at the same time I can just as easily forget them. Therefore in this post I wanted to add a cheat sheet so I can refer back to it whenever I need to. If there are any you think will also be useful please let me know in the comments below.</p>
+<p>Copy and paste the following into the terminal</p>
 
-<hr />
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">sudo add-apt-repository ppa:webupd8team/sublime-text-2
+  sudo apt-get update
+  sudo apt-get install sublime-text</code></pre></div>
 
-<h3 id="exploring-a-directory">Exploring a directory</h3>
-<p>To look at the current directory:</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">ls</code></pre></div>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">ls -la</code></pre></div>
-
-<p><br /></p>
-
-<p>To change directory:</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cd pathname/directory/subdirectory</code></pre></div>
-
-<p><br /></p>
-
-<p>Or to go up a level:</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cd ../</code></pre></div>
-
-<p><br /></p>
-
-<p>Or you can chain these commands together:</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cd ../../themes/images</code></pre></div>
-
-<hr />
-
-<h3 id="copy-a-file">Copy a file</h3>
-<p>To copy a file with the same directory simply type:</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cp filename-to-copy.txt new-file-name.txt
-
-#=&gt; For example
-cp index.html index.back.html</code></pre></div>
-
-<p><br /></p>
-
-<p>To copy between directories:</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cp filename.txt ../../new-directory/filename.txt
-
-#=&gt; For example
-cp contact.php ../contact/contact.php</code></pre></div>
-
-<p><br /></p>
-
-<p>To copy all files from one directory to another, use the * character, which unofficially means all:</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cp images/* ../skin/</code></pre></div>
-
-<hr />
-
-<h3 id="move-a-file">Move a file</h3>
-<p>To move a file simply type:</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">mv current-directory/file.txt ../new-directory/file
-
-
-#=&gt; For example
-mv images/image.jpg ../docs/</code></pre></div>
-
-<hr />
-
-<h3 id="rename-a-file">Rename a file</h3>
-<p>To rename a file, use the ‘mv’ but change the name of the file when stating the directory receiving the file.</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">mv oldfilename.txt newfilename.txt
-
-
-#=&gt; For example
-mv index.php index.bac.php</code></pre></div>
-
-<hr />
-
-<h3 id="delete-a-file">Delete a file</h3>
-<p>To delete a file type:</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">rm filename.txt</code></pre></div>
-
-<p><br />
-Alternatively if you wish to delete a directory, and all directories and files within that recursively, type:</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">rm -r</code></pre></div>
-
-<hr />
-
+<p>After running this, Sublime Text 2 should have been installed within the /usr/lib/sublime-text-2 directory and can be launched from the Dashboard
+Alternatively by typing <strong>subl</strong>, <strong>sublime-text</strong> or <strong>sublime-text-2</strong> into a Terminal window.</p>
 
 	  </div>
 
@@ -274,8 +192,23 @@ Alternatively if you wish to delete a directory, and all directories and files w
 		  
 		  
 			
-				<li><a href="/categories.html#ssh-ref">
-					ssh <span>(1)</span>
+				<li><a href="/categories.html#sublime-ref">
+					sublime <span>(1)</span>
+					,
+				</a></li>
+			
+				<li><a href="/categories.html#text-ref">
+					text <span>(1)</span>
+					,
+				</a></li>
+			
+				<li><a href="/categories.html#ubuntu-ref">
+					ubuntu <span>(2)</span>
+					,
+				</a></li>
+			
+				<li><a href="/categories.html#linux-ref">
+					linux <span>(1)</span>
 					
 				</a></li>
 			
@@ -290,7 +223,7 @@ Alternatively if you wish to delete a directory, and all directories and files w
 		<div>
       <section class="share col-sm-6">
         <h4 class="section-title">Share Post</h4>
-        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=SSH Cheat Sheet&via=J_Lieu"
+        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=Install Sublime Text 2 on Ubuntu&via=J_Lieu"
            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
           <i class="fa fa-twitter fa-lg"></i>
         </a>
@@ -315,7 +248,7 @@ Alternatively if you wish to delete a directory, and all directories and files w
 
 		<ul class="pager">
 		  
-		  <li class="previous"><a href="/virtual-box/ubuntu/2014/07/31/port-forwarding.html" title="How to setup port forwarding on VirtualBox">&larr; Previous</a></li>
+		  <li class="previous"><a href="/ssh/2014/08/05/linux-cheatsheet.html" title="Linux/Unix Cheat Sheet">&larr; Previous</a></li>
 		  
 		  
 			<li class="next disabled"><a>Next &rarr;</a>

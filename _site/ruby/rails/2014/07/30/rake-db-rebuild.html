@@ -198,12 +198,12 @@ This as you can tell can be very tedious. It got me thinking ‘What if there wa
 namespace :db do
   task :rebuild =&gt; :environment do
     raise &quot;Cannot run this task in #{Rails.env}&quot;
-      unless [&#39;development&#39;, &#39;test&#39;].include? Rails.env
+      unless ['development', 'test'].include? Rails.env
 
     puts Rake::Task[&quot;db:drop&quot;].invoke
     puts Rake::Task[&quot;db:create&quot;].invoke
     puts Rake::Task[&quot;db:migrate&quot;].invoke
-    puts Rake::Task[&quot;db:seed&quot;].invoke if Rails.env == &#39;development&#39;
+    puts Rake::Task[&quot;db:seed&quot;].invoke if Rails.env == 'development'
   end
 end</code></pre></div>
 

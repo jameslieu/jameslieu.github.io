@@ -7,10 +7,28 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>SSH Cheat Sheet</title>
-				<description>&lt;p&gt;SSH otherwise know as Secure Shell is a protocol that allows data to be transferred securely between two networked devices. To put it simply, it’s a way of connecting to and using another machine either next to you, or the other side of the world securely.&lt;/p&gt;
+				<title>Install Sublime Text 2 on Ubuntu</title>
+				<description>&lt;p&gt;The fastest way I’ve found to install sublime text 2.&lt;/p&gt;
 
-&lt;p&gt;I’ve found these commands to be very useful at at the same time I can just as easily forget them. Therefore in this post I wanted to add a cheat sheet so I can refer back to it whenever I need to. If there are any you think will also be useful please let me know in the comments below.&lt;/p&gt;
+&lt;p&gt;Copy and paste the following into the terminal&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;sudo add-apt-repository ppa:webupd8team/sublime-text-2
+  sudo apt-get update
+  sudo apt-get install sublime-text&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;After running this, Sublime Text 2 should have been installed within the /usr/lib/sublime-text-2 directory and can be launched from the Dashboard
+Alternatively by typing &lt;strong&gt;subl&lt;/strong&gt;, &lt;strong&gt;sublime-text&lt;/strong&gt; or &lt;strong&gt;sublime-text-2&lt;/strong&gt; into a Terminal window.&lt;/p&gt;
+</description>
+				<pubDate>Wed, 13 Aug 2014 10:47:00 +0100</pubDate>
+				<link>/sublime/text/ubuntu/linux/2014/08/13/install-sublime-text-2.html</link>
+				<guid isPermaLink="true">/sublime/text/ubuntu/linux/2014/08/13/install-sublime-text-2.html</guid>
+			</item>
+		
+			<item>
+				<title>Linux/Unix Cheat Sheet</title>
+				<description>&lt;p&gt;I’ve found these commands to be very useful but at the same time I can just as easily forget them. Therefore in this post I wanted to add a cheat sheet so I can refer back to it whenever I need to. These are the common ones I used the most&lt;/p&gt;
+
+&lt;p&gt;If there are any you think will also be useful please let me know in the comments below.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -102,8 +120,8 @@ Alternatively if you wish to delete a directory, and all directories and files w
 
 </description>
 				<pubDate>Tue, 05 Aug 2014 14:09:30 +0100</pubDate>
-				<link>/ssh/2014/08/05/ssh-cheatsheet.html</link>
-				<guid isPermaLink="true">/ssh/2014/08/05/ssh-cheatsheet.html</guid>
+				<link>/ssh/2014/08/05/linux-cheatsheet.html</link>
+				<guid isPermaLink="true">/ssh/2014/08/05/linux-cheatsheet.html</guid>
 			</item>
 		
 			<item>
@@ -169,7 +187,7 @@ In your terminal enter:&lt;/p&gt;
 
 &lt;p&gt;You will be prompted to accept the host key so be sure to enter &lt;strong&gt;yes&lt;/strong&gt;. Then finally you’ll be prompted to enter the password for the username:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;[user_name]@127.0.0.1&amp;#39;s password:&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;[user_name]@127.0.0.1's password:&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Enter your password and you should now be logged in!&lt;/p&gt;
 
@@ -209,12 +227,12 @@ This as you can tell can be very tedious. It got me thinking ‘What if there wa
 namespace :db do
   task :rebuild =&amp;gt; :environment do
     raise &amp;quot;Cannot run this task in #{Rails.env}&amp;quot;
-      unless [&amp;#39;development&amp;#39;, &amp;#39;test&amp;#39;].include? Rails.env
+      unless ['development', 'test'].include? Rails.env
 
     puts Rake::Task[&amp;quot;db:drop&amp;quot;].invoke
     puts Rake::Task[&amp;quot;db:create&amp;quot;].invoke
     puts Rake::Task[&amp;quot;db:migrate&amp;quot;].invoke
-    puts Rake::Task[&amp;quot;db:seed&amp;quot;].invoke if Rails.env == &amp;#39;development&amp;#39;
+    puts Rake::Task[&amp;quot;db:seed&amp;quot;].invoke if Rails.env == 'development'
   end
 end&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
@@ -247,8 +265,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;def print_hi(name)
   puts &amp;quot;Hi, #{name}&amp;quot;
 end
-print_hi(&amp;#39;Tom&amp;#39;)
-#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+print_hi('Tom')
+#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
 

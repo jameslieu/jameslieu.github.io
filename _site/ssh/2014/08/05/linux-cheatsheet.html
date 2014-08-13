@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>My first post!</title>
+	<title>Linux/Unix Cheat Sheet</title>
 	
 	<meta name="author" content="James Lieu">
 
@@ -159,7 +159,7 @@
 
 	<div class="col-sm-10 col-sm-offset-2">
 		<div class="page-header">
-  <h1>My first post! </h1>
+  <h1>Linux/Unix Cheat Sheet </h1>
 </div>
 
 <article>
@@ -167,26 +167,103 @@
 	<div class="col-sm-10">
 	 <span class="post-date">
 	   
-	   July
-	   29th,
+	   August
+	   5th,
 	   
 	   2014
 	 </span>
 	  <div class="article_body">
-	  <p>This is my first blog post. The post below is the basic markdown used in Jekyll which I’ll leave here for reference</p>
+	  <p>I’ve found these commands to be very useful but at the same time I can just as easily forget them. Therefore in this post I wanted to add a cheat sheet so I can refer back to it whenever I need to. These are the common ones I used the most</p>
 
-<p>You’ll find this post in your <code>_posts</code> directory - edit this post and re-build (or run with the <code>-w</code> switch) to see your changes!
-To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention: YYYY-MM-DD-name-of-post.ext.</p>
+<p>If there are any you think will also be useful please let me know in the comments below.</p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<hr />
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">def print_hi(name)
-  puts &quot;Hi, #{name}&quot;
-end
-print_hi('Tom')
-#=&gt; prints 'Hi, Tom' to STDOUT.</code></pre></div>
+<h3 id="exploring-a-directory">Exploring a directory</h3>
+<p>To look at the current directory:</p>
 
-<p>Check out the <a href="http://jekyllrb.com">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>.</p>
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">ls</code></pre></div>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">ls -la</code></pre></div>
+
+<p><br /></p>
+
+<p>To change directory:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cd pathname/directory/subdirectory</code></pre></div>
+
+<p><br /></p>
+
+<p>Or to go up a level:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cd ../</code></pre></div>
+
+<p><br /></p>
+
+<p>Or you can chain these commands together:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cd ../../themes/images</code></pre></div>
+
+<hr />
+
+<h3 id="copy-a-file">Copy a file</h3>
+<p>To copy a file with the same directory simply type:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cp filename-to-copy.txt new-file-name.txt
+
+#=&gt; For example
+cp index.html index.back.html</code></pre></div>
+
+<p><br /></p>
+
+<p>To copy between directories:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cp filename.txt ../../new-directory/filename.txt
+
+#=&gt; For example
+cp contact.php ../contact/contact.php</code></pre></div>
+
+<p><br /></p>
+
+<p>To copy all files from one directory to another, use the * character, which unofficially means all:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cp images/* ../skin/</code></pre></div>
+
+<hr />
+
+<h3 id="move-a-file">Move a file</h3>
+<p>To move a file simply type:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">mv current-directory/file.txt ../new-directory/file
+
+
+#=&gt; For example
+mv images/image.jpg ../docs/</code></pre></div>
+
+<hr />
+
+<h3 id="rename-a-file">Rename a file</h3>
+<p>To rename a file, use the ‘mv’ but change the name of the file when stating the directory receiving the file.</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">mv oldfilename.txt newfilename.txt
+
+
+#=&gt; For example
+mv index.php index.bac.php</code></pre></div>
+
+<hr />
+
+<h3 id="delete-a-file">Delete a file</h3>
+<p>To delete a file type:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">rm filename.txt</code></pre></div>
+
+<p><br />
+Alternatively if you wish to delete a directory, and all directories and files within that recursively, type:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">rm -r</code></pre></div>
+
+<hr />
 
 
 	  </div>
@@ -197,13 +274,8 @@ print_hi('Tom')
 		  
 		  
 			
-				<li><a href="/categories.html#ruby-ref">
-					ruby <span>(2)</span>
-					,
-				</a></li>
-			
-				<li><a href="/categories.html#rails-ref">
-					rails <span>(2)</span>
+				<li><a href="/categories.html#ssh-ref">
+					ssh <span>(1)</span>
 					
 				</a></li>
 			
@@ -218,7 +290,7 @@ print_hi('Tom')
 		<div>
       <section class="share col-sm-6">
         <h4 class="section-title">Share Post</h4>
-        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=My first post!&via=J_Lieu"
+        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=Linux/Unix Cheat Sheet&via=J_Lieu"
            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
           <i class="fa fa-twitter fa-lg"></i>
         </a>
@@ -243,10 +315,10 @@ print_hi('Tom')
 
 		<ul class="pager">
 		  
-		  <li class="previous disabled"><a>&larr; Previous</a></li>
+		  <li class="previous"><a href="/virtual-box/ubuntu/2014/07/31/port-forwarding.html" title="How to setup port forwarding on VirtualBox">&larr; Previous</a></li>
 		  
 		  
-		  <li class="next"><a href="/ruby/rails/2014/07/30/rake-db-rebuild.html" title="Dropping and resetting database all in one rake task">Next &rarr;</a></li>
+		  <li class="next"><a href="/sublime/text/ubuntu/linux/2014/08/13/install-sublime-text-2.html" title="Install Sublime Text 2 on Ubuntu">Next &rarr;</a></li>
 		  
 		</ul>
 
