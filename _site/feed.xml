@@ -25,98 +25,161 @@ Alternatively by typing &lt;strong&gt;subl&lt;/strong&gt;, &lt;strong&gt;sublime
 			</item>
 		
 			<item>
-				<title>Linux/Unix Cheat Sheet</title>
+				<title>Bash command line for Linux - Cheat Sheet</title>
 				<description>&lt;p&gt;I’ve found these commands to be very useful but at the same time I can just as easily forget them. Therefore in this post I wanted to add a cheat sheet so I can refer back to it whenever I need to. These are the common ones I used the most&lt;/p&gt;
 
 &lt;p&gt;If there are any you think will also be useful please let me know in the comments below.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;exploring-a-directory&quot;&gt;Exploring a directory&lt;/h3&gt;
-&lt;p&gt;To look at the current directory:&lt;/p&gt;
+&lt;h3 id=&quot;useful-commands&quot;&gt;Useful commands&lt;/h3&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;ls&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The Commands below are the ones I also find useful and need to use more. Learning to master &lt;strong&gt;grep&lt;/strong&gt; is definitely one of my priorities.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;ls -la&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Command&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cat&lt;/td&gt;
+      &lt;td&gt;Concatenate and print (display) the content of files&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;chmod&lt;/td&gt;
+      &lt;td&gt;Change access permissions&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;df&lt;/td&gt;
+      &lt;td&gt;Display free disk space&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;echo&lt;/td&gt;
+      &lt;td&gt;Display message on screen&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;env&lt;/td&gt;
+      &lt;td&gt;Environment variables&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;eval&lt;/td&gt;
+      &lt;td&gt;Evaluate several commands/arguments&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;exit&lt;/td&gt;
+      &lt;td&gt;Exit the shell&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;grep&lt;/td&gt;
+      &lt;td&gt;Search file(s) for lines that match a given pattern&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;mkdir&lt;/td&gt;
+      &lt;td&gt;Create new folder(s)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;passwd&lt;/td&gt;
+      &lt;td&gt;Modify a user password&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;pwd&lt;/td&gt;
+      &lt;td&gt;Print Working Directory&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ssh&lt;/td&gt;
+      &lt;td&gt;Secure Shell client (remote login program)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;su&lt;/td&gt;
+      &lt;td&gt;Substitute user identity&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;sudo&lt;/td&gt;
+      &lt;td&gt;Execute a command as another user&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;tail&lt;/td&gt;
+      &lt;td&gt;Output the last part of file&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;tar&lt;/td&gt;
+      &lt;td&gt;Store, list or extract files in an archive&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;exploring-and-changing-files&quot;&gt;Exploring and changing files&lt;/h3&gt;
 
-&lt;p&gt;To change directory:&lt;/p&gt;
+&lt;p&gt;These commands are the commands I feel improves my workflow the most and overall productivity when working on a project. Easy to remember and definitely a good place to start for beginners&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;cd pathname/directory/subdirectory&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Command&lt;/th&gt;
+      &lt;th&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ls&lt;/td&gt;
+      &lt;td&gt;List the files/folders in a directory&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ls -la&lt;/td&gt;
+      &lt;td&gt;List all the files/folders in a directory (including hidden files) and displays additional information about them&lt;/td&gt;
+    &lt;/tr&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cd pathname/directory/subdirectory&lt;/td&gt;
+      &lt;td&gt;To change directory&lt;/td&gt;
+    &lt;/tr&gt;
 
-&lt;p&gt;Or to go up a level:&lt;/p&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cd ../&lt;/td&gt;
+      &lt;td&gt;To go up a level of a directory&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cd ../../themes/images&lt;/td&gt;
+      &lt;td&gt;Or you can chain these commands together to navigate across directories&lt;/td&gt;
+    &lt;/tr&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;cd ../&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cp filename-to-copy.txt new-file-name.txt&lt;/td&gt;
+      &lt;td&gt;To copy a file with the same directory simply type&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cp filename.txt ../../new-directory/filename.txt&lt;/td&gt;
+      &lt;td&gt;To copy between directories:&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;cp images/* ../skin/&lt;/td&gt;
+      &lt;td&gt;To copy all files from one directory to another, use the * character, which unofficially means all&lt;/td&gt;
+    &lt;/tr&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+    &lt;tr&gt;
+      &lt;td&gt;mv current-directory/file.txt ../new-directory/file&lt;/td&gt;
+      &lt;td&gt;Move a file&lt;/td&gt;
+    &lt;/tr&gt;
 
-&lt;p&gt;Or you can chain these commands together:&lt;/p&gt;
+    &lt;tr&gt;
+      &lt;td&gt;mv oldfilename.txt newfilename.txt&lt;/td&gt;
+      &lt;td&gt;To rename a file, use the ‘mv’ but change the name of the file when stating the directory receiving the file.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;rm filename.txt&lt;/td&gt;
+      &lt;td&gt;To delete a file type&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;rm -r folder&lt;/td&gt;
+      &lt;td&gt;Alternatively if you wish to delete a directory, and all directories and files within that recursively, type&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;cd ../../themes/images&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;copy-a-file&quot;&gt;Copy a file&lt;/h3&gt;
-&lt;p&gt;To copy a file with the same directory simply type:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;cp filename-to-copy.txt new-file-name.txt
-
-#=&amp;gt; For example
-cp index.html index.back.html&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;To copy between directories:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;cp filename.txt ../../new-directory/filename.txt
-
-#=&amp;gt; For example
-cp contact.php ../contact/contact.php&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;To copy all files from one directory to another, use the * character, which unofficially means all:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;cp images/* ../skin/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;move-a-file&quot;&gt;Move a file&lt;/h3&gt;
-&lt;p&gt;To move a file simply type:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;mv current-directory/file.txt ../new-directory/file
-
-
-#=&amp;gt; For example
-mv images/image.jpg ../docs/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;rename-a-file&quot;&gt;Rename a file&lt;/h3&gt;
-&lt;p&gt;To rename a file, use the ‘mv’ but change the name of the file when stating the directory receiving the file.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;mv oldfilename.txt newfilename.txt
-
-
-#=&amp;gt; For example
-mv index.php index.bac.php&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;delete-a-file&quot;&gt;Delete a file&lt;/h3&gt;
-&lt;p&gt;To delete a file type:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;rm filename.txt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;
-Alternatively if you wish to delete a directory, and all directories and files within that recursively, type:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;rm -r&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
+&lt;p&gt;These are some basic command&lt;/p&gt;
 
 </description>
 				<pubDate>Tue, 05 Aug 2014 14:09:30 +0100</pubDate>

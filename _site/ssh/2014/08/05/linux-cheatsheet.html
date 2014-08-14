@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Linux/Unix Cheat Sheet</title>
+	<title>Bash command line for Linux - Cheat Sheet</title>
 	
 	<meta name="author" content="James Lieu">
 
@@ -159,7 +159,7 @@
 
 	<div class="col-sm-10 col-sm-offset-2">
 		<div class="page-header">
-  <h1>Linux/Unix Cheat Sheet </h1>
+  <h1>Bash command line for Linux - Cheat Sheet </h1>
 </div>
 
 <article>
@@ -179,91 +179,154 @@
 
 <hr />
 
-<h3 id="exploring-a-directory">Exploring a directory</h3>
-<p>To look at the current directory:</p>
+<h3 id="useful-commands">Useful commands</h3>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">ls</code></pre></div>
+<p>The Commands below are the ones I also find useful and need to use more. Learning to master <strong>grep</strong> is definitely one of my priorities.</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">ls -la</code></pre></div>
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>cat</td>
+      <td>Concatenate and print (display) the content of files</td>
+    </tr>
+    <tr>
+      <td>chmod</td>
+      <td>Change access permissions</td>
+    </tr>
+    <tr>
+      <td>df</td>
+      <td>Display free disk space</td>
+    </tr>
+    <tr>
+      <td>echo</td>
+      <td>Display message on screen</td>
+    </tr>
+    <tr>
+      <td>env</td>
+      <td>Environment variables</td>
+    </tr>
+    <tr>
+      <td>eval</td>
+      <td>Evaluate several commands/arguments</td>
+    </tr>
+    <tr>
+      <td>exit</td>
+      <td>Exit the shell</td>
+    </tr>
+    <tr>
+      <td>grep</td>
+      <td>Search file(s) for lines that match a given pattern</td>
+    </tr>
+    <tr>
+      <td>mkdir</td>
+      <td>Create new folder(s)</td>
+    </tr>
+    <tr>
+      <td>passwd</td>
+      <td>Modify a user password</td>
+    </tr>
+    <tr>
+      <td>pwd</td>
+      <td>Print Working Directory</td>
+    </tr>
+    <tr>
+      <td>ssh</td>
+      <td>Secure Shell client (remote login program)</td>
+    </tr>
+    <tr>
+      <td>su</td>
+      <td>Substitute user identity</td>
+    </tr>
+    <tr>
+      <td>sudo</td>
+      <td>Execute a command as another user</td>
+    </tr>
+    <tr>
+      <td>tail</td>
+      <td>Output the last part of file</td>
+    </tr>
+    <tr>
+      <td>tar</td>
+      <td>Store, list or extract files in an archive</td>
+    </tr>
+  </tbody>
+</table>
 
-<p><br /></p>
+<h3 id="exploring-and-changing-files">Exploring and changing files</h3>
 
-<p>To change directory:</p>
+<p>These commands are the commands I feel improves my workflow the most and overall productivity when working on a project. Easy to remember and definitely a good place to start for beginners</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cd pathname/directory/subdirectory</code></pre></div>
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ls</td>
+      <td>List the files/folders in a directory</td>
+    </tr>
+    <tr>
+      <td>ls -la</td>
+      <td>List all the files/folders in a directory (including hidden files) and displays additional information about them</td>
+    </tr>
 
-<p><br /></p>
+    <tr>
+      <td>cd pathname/directory/subdirectory</td>
+      <td>To change directory</td>
+    </tr>
 
-<p>Or to go up a level:</p>
+    <tr>
+      <td>cd ../</td>
+      <td>To go up a level of a directory</td>
+    </tr>
+    <tr>
+      <td>cd ../../themes/images</td>
+      <td>Or you can chain these commands together to navigate across directories</td>
+    </tr>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cd ../</code></pre></div>
+    <tr>
+      <td>cp filename-to-copy.txt new-file-name.txt</td>
+      <td>To copy a file with the same directory simply type</td>
+    </tr>
+    <tr>
+      <td>cp filename.txt ../../new-directory/filename.txt</td>
+      <td>To copy between directories:</td>
+    </tr>
+    <tr>
+      <td>cp images/* ../skin/</td>
+      <td>To copy all files from one directory to another, use the * character, which unofficially means all</td>
+    </tr>
 
-<p><br /></p>
+    <tr>
+      <td>mv current-directory/file.txt ../new-directory/file</td>
+      <td>Move a file</td>
+    </tr>
 
-<p>Or you can chain these commands together:</p>
+    <tr>
+      <td>mv oldfilename.txt newfilename.txt</td>
+      <td>To rename a file, use the ‘mv’ but change the name of the file when stating the directory receiving the file.</td>
+    </tr>
+    <tr>
+      <td>rm filename.txt</td>
+      <td>To delete a file type</td>
+    </tr>
+    <tr>
+      <td>rm -r folder</td>
+      <td>Alternatively if you wish to delete a directory, and all directories and files within that recursively, type</td>
+    </tr>
+  </tbody>
+</table>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cd ../../themes/images</code></pre></div>
-
-<hr />
-
-<h3 id="copy-a-file">Copy a file</h3>
-<p>To copy a file with the same directory simply type:</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cp filename-to-copy.txt new-file-name.txt
-
-#=&gt; For example
-cp index.html index.back.html</code></pre></div>
-
-<p><br /></p>
-
-<p>To copy between directories:</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cp filename.txt ../../new-directory/filename.txt
-
-#=&gt; For example
-cp contact.php ../contact/contact.php</code></pre></div>
-
-<p><br /></p>
-
-<p>To copy all files from one directory to another, use the * character, which unofficially means all:</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">cp images/* ../skin/</code></pre></div>
-
-<hr />
-
-<h3 id="move-a-file">Move a file</h3>
-<p>To move a file simply type:</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">mv current-directory/file.txt ../new-directory/file
-
-
-#=&gt; For example
-mv images/image.jpg ../docs/</code></pre></div>
-
-<hr />
-
-<h3 id="rename-a-file">Rename a file</h3>
-<p>To rename a file, use the ‘mv’ but change the name of the file when stating the directory receiving the file.</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">mv oldfilename.txt newfilename.txt
-
-
-#=&gt; For example
-mv index.php index.bac.php</code></pre></div>
-
-<hr />
-
-<h3 id="delete-a-file">Delete a file</h3>
-<p>To delete a file type:</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">rm filename.txt</code></pre></div>
-
-<p><br />
-Alternatively if you wish to delete a directory, and all directories and files within that recursively, type:</p>
-
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">rm -r</code></pre></div>
-
-<hr />
+<p>These are some basic command</p>
 
 
 	  </div>
@@ -290,7 +353,7 @@ Alternatively if you wish to delete a directory, and all directories and files w
 		<div>
       <section class="share col-sm-6">
         <h4 class="section-title">Share Post</h4>
-        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=Linux/Unix Cheat Sheet&via=J_Lieu"
+        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=Bash command line for Linux - Cheat Sheet&via=J_Lieu"
            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
           <i class="fa fa-twitter fa-lg"></i>
         </a>
