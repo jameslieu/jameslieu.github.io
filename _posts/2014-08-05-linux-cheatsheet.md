@@ -159,9 +159,3 @@ These commands are the commands I feel improves my workflow the most and overall
     </tr>
   </tbody>
 </table>
-
-
-
-
-These are some basic command
-
