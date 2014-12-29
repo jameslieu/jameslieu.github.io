@@ -7,6 +7,100 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>What is Polymorphism?</title>
+				<description>&lt;p&gt;&lt;img src=&quot;/assets/media/polymorphism_example.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;What is polymorphism?&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve found that this question in particular is asked quite frequently in tech interviews. I was asked this in a phone interview once and I did not know the answer to this unfortunately. I believe that it was this question that prevented me from getting to the next stage of the interview, so of course I decided to look into it.&lt;/p&gt;
+
+&lt;p&gt;Polymorphism essentially means &lt;em&gt;many forms&lt;/em&gt; and is one of the fundamental features of object oriented programming. It lets us automatically do the correct behavior even if what we’re working with could take one of many different forms, simply put; it means being able to send the same massage and get different results. Here’s the most basic example I’ve found; the &lt;strong&gt;+&lt;/strong&gt; operator.&lt;/p&gt;
+
+&lt;p&gt;In Ruby the &lt;strong&gt;+&lt;/strong&gt; operator will &lt;em&gt;behave&lt;/em&gt; differently depending on how you use it.&lt;/p&gt;
+
+&lt;p&gt;For example, lets say you have two variables; &lt;strong&gt;a&lt;/strong&gt; and &lt;strong&gt;b&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;If the two variables are &lt;strong&gt;numbers&lt;/strong&gt;, the &lt;strong&gt;+&lt;/strong&gt; operator will numerically add them.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;a = 1
+b = 2
+
+a + b
+=&amp;gt; 3&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;However, what if the two variables were &lt;strong&gt;strings&lt;/strong&gt; instead?&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;a = &amp;quot;Hello &amp;quot;
+b = &amp;quot;World&amp;quot;
+
+a + b
+=&amp;gt; &amp;quot;Hello World&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;As you can see, using &lt;strong&gt;+&lt;/strong&gt; operator for &lt;strong&gt;strings&lt;/strong&gt; will &lt;em&gt;concatenate&lt;/em&gt; them instead.&lt;/p&gt;
+
+&lt;p&gt;Now this is a basic example of how polymorphism works and is built into a lot of programming languages, but we can use the same idea with our own classes and objects.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Here is an example:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;class Animal
+    
+    def make_noise 
+        &amp;quot;Some noise&amp;quot;
+    end
+
+    def sleep 
+        puts &amp;quot;#{self.class.name} is sleeping.&amp;quot; 
+    end
+  
+end
+
+class Dog &amp;lt; Animal
+    
+    def make_noise 
+        &amp;#39;Woof!&amp;#39;         
+    end 
+    
+end
+
+class Cat &amp;lt; Animal 
+    
+    def make_noise 
+        &amp;#39;Meow!&amp;#39; 
+    end 
+end&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Lets say we have a simple inheritance hierarchy. There is an &lt;strong&gt;Animal&lt;/strong&gt; superclass and two descendant subclasses, a &lt;strong&gt;Cat&lt;/strong&gt; and a &lt;strong&gt;Dog&lt;/strong&gt;. Each of these three classes has its own implementation of the &lt;em&gt;make_noise&lt;/em&gt; method. The implementation of the method of the descendants replaces the definition of a method in the &lt;strong&gt;Animal&lt;/strong&gt; class.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;class Dog &amp;lt; Animal
+    
+    def make_noise 
+        &amp;#39;Woof!&amp;#39;         
+    end 
+    
+end&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The &lt;em&gt;make_noise&lt;/em&gt; method in the &lt;strong&gt;Dog&lt;/strong&gt; class replaces the &lt;em&gt;make_noise&lt;/em&gt; method of the &lt;strong&gt;Animal&lt;/strong&gt; class. The idea is that even though the &lt;strong&gt;Dog&lt;/strong&gt; class is &lt;em&gt;inheriting&lt;/em&gt; from the &lt;strong&gt;Animal&lt;/strong&gt; class and would therefore already have access to the &lt;em&gt;make_noise&lt;/em&gt; method, the &lt;strong&gt;Dog&lt;/strong&gt; class will have its own &lt;em&gt;specialized&lt;/em&gt; version of that method which is unique to that particular class. This is referred to as overiding the method of the superclass, which just means you write it again.&lt;/p&gt;
+
+&lt;p&gt;This means is that the method will change its behaviour depending where it was originally instantiated from. Now you may wonder why this would be useful.. Here is an example:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;[Animal.new, Dog.new, Cat.new].each do |animal|
+  puts animal.make_noise
+end
+
+=&amp;gt;
+Some noise
+Woof!
+Meow!&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;If you had an array of &lt;strong&gt;Animal&lt;/strong&gt;, &lt;strong&gt;Dog&lt;/strong&gt; or &lt;strong&gt;Cat&lt;/strong&gt; objects as shown above, you can call the &lt;em&gt;make_noise&lt;/em&gt; method on all of them and it will return the &lt;strong&gt;correct&lt;/strong&gt; output as expected. While this is a relatively simplified example, you can see why this would be useful if we had an array of a thousand of these objects. We won’t need to look into where they were originally instantiated from, we just know that it works.&lt;/p&gt;
+</description>
+				<pubDate>Mon, 29 Dec 2014 17:07:00 +0000</pubDate>
+				<link>/polymorphism/2014/12/29/what-is-polymorphism.html</link>
+				<guid isPermaLink="true">/polymorphism/2014/12/29/what-is-polymorphism.html</guid>
+			</item>
+		
+			<item>
 				<title>Install Sublime Text 2 on Ubuntu</title>
 				<description>&lt;p&gt;The fastest way I’ve found to install sublime text 2.&lt;/p&gt;
 
@@ -178,9 +272,6 @@ Alternatively by typing &lt;strong&gt;subl&lt;/strong&gt;, &lt;strong&gt;sublime
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-
-&lt;p&gt;These are some basic command&lt;/p&gt;
-
 </description>
 				<pubDate>Tue, 05 Aug 2014 14:09:30 +0100</pubDate>
 				<link>/ssh/2014/08/05/linux-cheatsheet.html</link>
@@ -250,7 +341,7 @@ In your terminal enter:&lt;/p&gt;
 
 &lt;p&gt;You will be prompted to accept the host key so be sure to enter &lt;strong&gt;yes&lt;/strong&gt;. Then finally you’ll be prompted to enter the password for the username:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;[user_name]@127.0.0.1's password:&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;[user_name]@127.0.0.1&amp;#39;s password:&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Enter your password and you should now be logged in!&lt;/p&gt;
 
@@ -290,12 +381,12 @@ This as you can tell can be very tedious. It got me thinking ‘What if there wa
 namespace :db do
   task :rebuild =&amp;gt; :environment do
     raise &amp;quot;Cannot run this task in #{Rails.env}&amp;quot;
-      unless ['development', 'test'].include? Rails.env
+      unless [&amp;#39;development&amp;#39;, &amp;#39;test&amp;#39;].include? Rails.env
 
     puts Rake::Task[&amp;quot;db:drop&amp;quot;].invoke
     puts Rake::Task[&amp;quot;db:create&amp;quot;].invoke
     puts Rake::Task[&amp;quot;db:migrate&amp;quot;].invoke
-    puts Rake::Task[&amp;quot;db:seed&amp;quot;].invoke if Rails.env == 'development'
+    puts Rake::Task[&amp;quot;db:seed&amp;quot;].invoke if Rails.env == &amp;#39;development&amp;#39;
   end
 end&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
@@ -328,8 +419,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;def print_hi(name)
   puts &amp;quot;Hi, #{name}&amp;quot;
 end
-print_hi('Tom')
-#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+print_hi(&amp;#39;Tom&amp;#39;)
+#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
 
