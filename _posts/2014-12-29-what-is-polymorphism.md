@@ -6,13 +6,11 @@ categories: polymorphism
 comments: true
 ---
 
+<b>What is polymorphism?</b>
 
 <img src="/assets/media/polymorphism_example.png" />
 
-<b>What is polymorphism?</b>
-
-
-I've found that this question in particular is asked quite frequently in tech interviews. I was asked this in a phone interview once and I did not know the answer to this unfortunately. I believe that it was this question that prevented me from getting to the next stage of the interview, so of course I decided to look into it.
+What is polymorphism? I've found that this question in particular is asked quite frequently in tech interviews. I was asked this in a phone interview once and I did not know the answer to this unfortunately. I believe that it was this question that prevented me from getting to the next stage of the interview, so of course I decided to look into it.
 
 Polymorphism essentially means <em>many forms</em> and is one of the fundamental features of object oriented programming. It lets us automatically do the correct behavior even if what we're working with could take one of many different forms, simply put; it means being able to send the same massage and get different results. Here's the most basic example I've found; the <strong>+</strong> operator.
 
@@ -43,7 +41,7 @@ As you can see, using <strong>+</strong> operator for <strong>strings</strong> w
 Now this is a basic example of how polymorphism works and is built into a lot of programming languages, but we can use the same idea with our own classes and objects.
 
 ----
-Here is an example:
+Here is an example of a polymorphic association:
 
 {% highlight ruby %}
 
