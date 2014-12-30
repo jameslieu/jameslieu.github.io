@@ -104,4 +104,4 @@ Meow!
 
 {% endhighlight %}
 
-If you had an array of <strong>Animal</strong>, <strong>Dog</strong> or <strong>Cat</strong> objects as shown above, you can call the <em>make_noise</em> method on all of them and it will return the <strong>correct</strong> output as expected. While this is a relatively simplified example, you can see why this would be useful if we had an array of a thousand of these objects. We won't need to look into where they were originally instantiated from, we just know that it works.
+If you had an array of <strong>Animal</strong>, <strong>Dog</strong> or <strong>Cat</strong> objects as shown above, you can call the <em>make_noise</em> method on all of them and it will return the <strong>correct</strong> output as expected. While this is a relatively simplified example, you can see why this would be useful if we had an array of a thousand of these objects. We wouldn't need to look into where they were originally instantiated from, we just know that it works.
