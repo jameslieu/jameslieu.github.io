@@ -93,7 +93,7 @@ Some noise
 Woof!
 Meow!&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;If you had an array of &lt;strong&gt;Animal&lt;/strong&gt;, &lt;strong&gt;Dog&lt;/strong&gt; or &lt;strong&gt;Cat&lt;/strong&gt; objects as shown above, you can call the &lt;em&gt;make_noise&lt;/em&gt; method on all of them and it will return the &lt;strong&gt;correct&lt;/strong&gt; output as expected. While this is a relatively simplified example, you can see why this would be useful if we had an array of a thousand of these objects. We wouldn’t need to look into where they were originally instantiated from, we just know that it works.&lt;/p&gt;
+&lt;p&gt;If you had an array of &lt;strong&gt;Animal&lt;/strong&gt;, &lt;strong&gt;Dog&lt;/strong&gt; or &lt;strong&gt;Cat&lt;/strong&gt; objects as shown above, you can call the &lt;em&gt;make_noise&lt;/em&gt; method on all of them and it will return the &lt;strong&gt;correct&lt;/strong&gt; output as expected. While this is a relatively simplified example, you can see why this would be useful if we had an array of a thousand of these objects. We wouldn’t need to look into what class they were originally instantiated from, we just know that it works.&lt;/p&gt;
 </description>
 				<pubDate>Mon, 29 Dec 2014 17:07:00 +0000</pubDate>
 				<link>/polymorphism/2014/12/29/what-is-polymorphism.html</link>
