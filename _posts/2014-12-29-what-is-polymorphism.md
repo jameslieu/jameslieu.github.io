@@ -12,7 +12,7 @@ comments: true
 
 What is polymorphism? I've found that this question in particular is asked quite frequently in tech interviews. I was asked this in a phone interview once and I did not know the answer to this unfortunately. I believe that it was this question that prevented me from getting to the next stage of the interview, so of course I decided to look into it.
 
-Polymorphism essentially means <em>many forms</em> and is one of the fundamental features of object oriented programming. It lets us automatically do the correct behavior even if what we're working with could take one of many different forms, simply put; it means being able to send the same massage and get different results. Here's the most basic example I've found; the <strong>+</strong> operator.
+Polymorphism essentially means <em>many forms</em> and is one of the fundamental features of object oriented programming. It lets us automatically do the correct behavior even if what we're working with could take one of many different forms, simply put; it means being able to send the same message and get different results. Here's the most basic example I've found; the <strong>+</strong> operator.
 
 In Ruby the <strong>+</strong> operator will <em>behave</em> differently depending on how you use it.
 
@@ -70,6 +70,7 @@ class Cat < Animal
     def make_noise 
         'Meow!' 
     end 
+    
 end
 
 {% endhighlight %}
