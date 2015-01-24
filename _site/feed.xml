@@ -3,10 +3,10 @@
   <channel>
     <title></title>
     <description>Hi I&#39;m James and I&#39;m a web developer</description>
-    <link>http://127.0.0.1:4000/</link>
-    <atom:link href="http://127.0.0.1:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 24 Jan 2015 15:44:30 +0000</pubDate>
-    <lastBuildDate>Sat, 24 Jan 2015 15:44:30 +0000</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 24 Jan 2015 15:46:43 +0000</pubDate>
+    <lastBuildDate>Sat, 24 Jan 2015 15:46:43 +0000</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -100,8 +100,8 @@
 &lt;p&gt;If you had an array of &lt;strong&gt;Animal&lt;/strong&gt;, &lt;strong&gt;Dog&lt;/strong&gt; or &lt;strong&gt;Cat&lt;/strong&gt; objects as shown above, you can call the &lt;em&gt;make_noise&lt;/em&gt; method on all of them and it will return the &lt;strong&gt;correct&lt;/strong&gt; output as expected. While this is a relatively simplified example, you can see why this would be useful if we had an array of a thousand of these objects. We wouldn’t need to look into what class they were originally instantiated from, we just know that it works.&lt;/p&gt;
 </description>
         <pubDate>Mon, 29 Dec 2014 17:07:00 +0000</pubDate>
-        <link>http://127.0.0.1:4000/polymorphism/2014/12/29/what-is-polymorphism/</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/polymorphism/2014/12/29/what-is-polymorphism/</guid>
+        <link>/polymorphism/2014/12/29/what-is-polymorphism/</link>
+        <guid isPermaLink="true">/polymorphism/2014/12/29/what-is-polymorphism/</guid>
         
         
         <category>polymorphism</category>
@@ -122,8 +122,8 @@
 Alternatively by typing &lt;strong&gt;subl&lt;/strong&gt;, &lt;strong&gt;sublime-text&lt;/strong&gt; or &lt;strong&gt;sublime-text-2&lt;/strong&gt; into a Terminal window.&lt;/p&gt;
 </description>
         <pubDate>Wed, 13 Aug 2014 10:47:00 +0100</pubDate>
-        <link>http://127.0.0.1:4000/sublime/text/ubuntu/linux/2014/08/13/install-sublime-text-2/</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/sublime/text/ubuntu/linux/2014/08/13/install-sublime-text-2/</guid>
+        <link>/sublime/text/ubuntu/linux/2014/08/13/install-sublime-text-2/</link>
+        <guid isPermaLink="true">/sublime/text/ubuntu/linux/2014/08/13/install-sublime-text-2/</guid>
         
         
         <category>sublime</category>
@@ -292,8 +292,8 @@ Alternatively by typing &lt;strong&gt;subl&lt;/strong&gt;, &lt;strong&gt;sublime
 &lt;/table&gt;
 </description>
         <pubDate>Tue, 05 Aug 2014 14:09:30 +0100</pubDate>
-        <link>http://127.0.0.1:4000/ssh/2014/08/05/linux-cheatsheet/</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/ssh/2014/08/05/linux-cheatsheet/</guid>
+        <link>/ssh/2014/08/05/linux-cheatsheet/</link>
+        <guid isPermaLink="true">/ssh/2014/08/05/linux-cheatsheet/</guid>
         
         
         <category>ssh</category>
@@ -372,8 +372,8 @@ Now you should be able to run commands in the terminal without going into the VM
 
 </description>
         <pubDate>Thu, 31 Jul 2014 11:43:30 +0100</pubDate>
-        <link>http://127.0.0.1:4000/virtual-box/ubuntu/2014/07/31/port-forwarding/</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/virtual-box/ubuntu/2014/07/31/port-forwarding/</guid>
+        <link>/virtual-box/ubuntu/2014/07/31/port-forwarding/</link>
+        <guid isPermaLink="true">/virtual-box/ubuntu/2014/07/31/port-forwarding/</guid>
         
         
         <category>virtual-box</category>
@@ -431,8 +431,8 @@ With this all you have to do is run the following rake command:
 And there you have it, a single rake task for both test and development which drops the database, recreates it again, runs a migration and finally the seeds. Be sure not to use this in production because it will drop any data you have in your database.&lt;/p&gt;
 </description>
         <pubDate>Wed, 30 Jul 2014 12:41:30 +0100</pubDate>
-        <link>http://127.0.0.1:4000/ruby/rails/2014/07/30/rake-db-rebuild/</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/ruby/rails/2014/07/30/rake-db-rebuild/</guid>
+        <link>/ruby/rails/2014/07/30/rake-db-rebuild/</link>
+        <guid isPermaLink="true">/ruby/rails/2014/07/30/rake-db-rebuild/</guid>
         
         
         <category>ruby</category>
@@ -460,8 +460,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 </description>
         <pubDate>Tue, 29 Jul 2014 14:02:30 +0100</pubDate>
-        <link>http://127.0.0.1:4000/ruby/rails/2014/07/29/my-first-post/</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/ruby/rails/2014/07/29/my-first-post/</guid>
+        <link>/ruby/rails/2014/07/29/my-first-post/</link>
+        <guid isPermaLink="true">/ruby/rails/2014/07/29/my-first-post/</guid>
         
         
         <category>ruby</category>
@@ -483,8 +483,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 </description>
         <pubDate>Mon, 28 Jul 2014 23:48:45 +0100</pubDate>
-        <link>http://127.0.0.1:4000/blog/jekyll/2014/07/28/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/blog/jekyll/2014/07/28/welcome-to-jekyll/</guid>
+        <link>/blog/jekyll/2014/07/28/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">/blog/jekyll/2014/07/28/welcome-to-jekyll/</guid>
         
         
         <category>blog</category>
@@ -553,8 +553,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 &lt;p&gt;Want me to suggest something? Please &lt;a href=&quot;https://github.com/web-create/harmony/issues/new&quot;&gt;Send me a request&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 28 Jul 2014 00:56:45 +0100</pubDate>
-        <link>http://127.0.0.1:4000/sample-post</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/sample-post</guid>
+        <link>/sample-post</link>
+        <guid isPermaLink="true">/sample-post</guid>
         
         
         <category>blog</category>
