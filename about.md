@@ -12,7 +12,7 @@ Learning to code provides the right amount of challenge as well as a chance to w
 I love the fact that coding presents the opportunity for me to design, create and to constantly educate myself.
 
 
-### Contact me
+#### Contact me
 
 Find me on [Github][github] / [Twitter][Twitter] or just say `Hello` at 
 [info@jameslieu.co.uk](info@jameslieu.co.uk).
