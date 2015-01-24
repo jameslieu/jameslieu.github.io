@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>How to setup port forwarding on VirtualBox</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">        
+        <meta name="description" content="Hi I'm James and I'm a web developer">
+        <link rel="canonical" 
+        href="http://127.0.0.1:4000/virtual-box/ubuntu/2014/07/31/port-forwarding/">
+        
+        <!-- Harmony styles -->
+        <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+
+        <!-- Modernizr js -->
+        <script async src="/assets/js/modernizr.js"></script>    
+
+        <!-- IE Fixes -->
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->        
+    </head>
+    <body class="theme-base-01">
+        <header class="main-header">
+            <div class="wc-container">
+                <h2><a href="/">Hi I'm James and I'm a web developer</a></h2>
+                <ul>
+	<li>
+		<a href="http://127.0.0.1:4000/about">About</a>
+	</li>
+	<li>
+		<a href="http://127.0.0.1:4000/blog">Blog</a><span>/</span>
+	</li>
+	
+	<li>
+		<a title="jamesl88 on Github" 
+			href="https://github.com/jamesl88" target="_blank">
+			Github
+		</a><span>/</span>
+	</li>
+	
+</ul>                
+            </div>
+        </header>
+        <div class="page-content wc-container">
+	
+	<div class="post">
+		<h1>How to setup port forwarding on VirtualBox</h1>
+		<p class="post-meta">
+			
+      <span class="categories">
+      virtual-box and ubuntu
+      </span> |
+	    
+	    <span class="post-date">
+    	Jul 31, 2014 
+	    </span>
+		</p>		
+		<div class="post">
+			<p>One of the rails project I worked with required me to get VirtualBox up and running with the following specs: Ubuntu 14.04 server amd64 on a 2GB RAM 2 core VM with VT-x/ AMD-v.</p>
+
+<p>And in there, I had to set up ruby via RVM, install a lot of extra tools and ruby gems. To make things easier for me I used port forwarding.</p>
+<hr />
+
+<p>Port forwarding allows remote computers (for example, computers on the Internet) to connect to a specific computer or service within a private local-area network (LAN) - <em>according to wikipedia</em></p>
+
+<p>One benefit of using port forwarding is that it allows you to run tasks on the command-line without having to work directly in VirtualBox by using your host terminal.
+<br />
+<br /></p>
+
+<p>First thing I did was to install the OpenSSH client applications on Ubuntu</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">openssh</span><span class="o">-</span><span class="n">server</span></code></pre></div>
+
+<p><br />
+Then to setup a port forwarding into the guest’s port 22 so I can access it from my host terminal.</p>
+
+<ul>
+  <li>To enable port forwarding, open the settings for your Virtual Machine <strong>(For OS X)</strong><br />
+  <em>You can do this from the VirtualBox Manager, choose Settings(found on the top left)</em></li>
+  <br />
+  <li>Select the <strong>Network</strong> tab</li>
+</ul>
+
+<p><img src="/assets/media/port_forwarding_1.png" /></p>
+
+<ul>
+  <li>Make sure that <strong>NAT</strong> is selected in the <strong>Attached to: selector.</strong></li>
+  <li>Click on the Port Forwarding button.</li>
+</ul>
+
+<p><img src="/assets/media/port_forwarding_2.png" /></p>
+
+<ul>
+  <li>Pick a port on our Host, for example 2222, and forward TCP connections received on this port, to port 22/TCP (SSH) on our guest.
+    (<em>To do this, click on the green (+) button on the right</em>).</li>
+</ul>
+<ul>
+  <li>Host IP is set to nothing - this is on purpose, and is equivalent to saying 0.0.0.0.
+    However, it does mean that ANY MACHINE that can access your Host on TCP port 2222 will be able to talk to the SSH on your guest. </li>
+  <li>Theres no need to change the Guest IP so leave it blank.</li>
+  <li>Now confirm all the changes and click <strong>ok</strong></li>
+  <li>Restart the Virtual Machine so the changes are applied</li>
+</ul>
+
+<p>Now you should be ready to connect to the guest.
+<em>Note: Make sure you have created a username on your guest. You cannot log in as root using SSH`</em>
+<br />
+<br /></p>
+
+<p>Start your VM.
+In your terminal enter:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">ssh</span> <span class="o">-</span><span class="n">l</span> <span class="o">[</span><span class="n">user_name</span><span class="o">]</span> <span class="o">-</span><span class="nb">p</span> <span class="mi">2222</span> <span class="mi">127</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">1</span></code></pre></div>
+
+<p><em>Don’t forget to replace <strong>[user_name]</strong> with the user you created.</em>
+<br /></p>
+
+<p>You will be prompted to accept the host key so be sure to enter <strong>yes</strong>. Then finally you’ll be prompted to enter the password for the username:</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">[</span><span class="n">user_name</span><span class="o">]</span><span class="err">@</span><span class="mi">127</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">1</span><span class="err">&#39;</span><span class="n">s</span> <span class="ss">password</span><span class="p">:</span></code></pre></div>
+
+<p>Enter your password and you should now be logged in!</p>
+
+<p><br />
+Now you should be able to run commands in the terminal without going into the VM directly. Great for running specs for your rails applications or adding new gems and tools.</p>
+
+
+		</div>
+	</div>
+
+
+	
+	<div class="related">
+		<h4>Related Posts</h2>
+		<ul class="posts">
+		    
+		    <li>
+			  <span>29 Dec 2014 &raquo;</span>
+			  <a href="http://127.0.0.1:4000/polymorphism/2014/12/29/what-is-polymorphism/">What is Polymorphism?</a>
+		    </li>
+		    
+		    <li>
+			  <span>13 Aug 2014 &raquo;</span>
+			  <a href="http://127.0.0.1:4000/sublime/text/ubuntu/linux/2014/08/13/install-sublime-text-2/">Install Sublime Text 2 on Ubuntu</a>
+		    </li>
+		    
+		    <li>
+			  <span>05 Aug 2014 &raquo;</span>
+			  <a href="http://127.0.0.1:4000/ssh/2014/08/05/linux-cheatsheet/">Bash command line for Linux - Cheat Sheet</a>
+		    </li>
+		    
+		</ul>
+	</div>
+	
+
+	<div class="post-footer">
+		<div class="column-1">
+			
+				<a href="http://127.0.0.1:4000/ruby/rails/2014/07/30/rake-db-rebuild/"><< Older</a>
+			
+		</div>
+		<div class="column-2"><a href="http://127.0.0.1:4000/ ">Home</a></div>
+		<div class="column-3">
+			
+				<a href="http://127.0.0.1:4000/ssh/2014/08/05/linux-cheatsheet/">Newer >></a>
+			
+		</div>
+	</div>
+</div>
+ 
+
+        <footer class="main-footer">
+            <div class="wc-container">
+                <div class="column one">
+                    <h6>Few more links</h6>
+<ul class="menu">
+    <li><a href="http://127.0.0.1:4000/about">About</a></li>
+    <li><a href="http://127.0.0.1:4000/blog">Blog</a></li>
+    <li><a href="jameslieu.co.uk">Personal website</a></li>
+</ul>		                    
+                </div>
+                <div class="column two">
+                    <h6>Follow me</h6>
+
+<ul class="social-media">
+
+
+    
+    <li>
+        <a title="J_Lieu on Twitter" 
+            href="https://twitter.com/J_Lieu" 
+            class="twitter wc-img-replace" target="_blank">Twitter</a>
+    </li>   
+    
+
+    
+    <li>
+        <a title="jamesl88 on Github" 
+            href="https://github.com/jamesl88" 
+            class="github wc-img-replace" target="_blank">Github</a>
+    </li>
+     
+
+    
+
+    
+
+    
+
+    
+
+</ul>
+                </div>
+            </div>
+            <p class="wc-container disclaimer">
+                
+<!-- Powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a> -->
+            </p>
+        </footer>
+        <script type="text/javascript">
+          /* To avoid render blocking css */
+          var cb = function() {
+            var l = document.createElement('link'); l.rel = 'stylesheet';
+            l.href = 'http://fonts.googleapis.com/css?family=Ubuntu+Mono&subset=latin';
+            var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+          };
+          var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+              webkitRequestAnimationFrame || msRequestAnimationFrame;
+          if (raf) raf(cb);
+          else window.addEventListener('load', cb);
+        </script>
+        <!-- jQuery -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <!-- When no internet load JQuery from local -->
+        <script>window.jQuery || document.write('<script src="/assets/js/jquery.min.js"><\/script>')</script>
+        <!-- Site js -->
+        <script src="/assets/js/all.js"></script>
+        <!-- Google analytics  -->
+        
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-xxxx-x']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+    </body>        
+</html>

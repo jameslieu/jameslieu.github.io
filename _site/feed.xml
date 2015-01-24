@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title></title>
-		<description>Hi I'm James, I'm a Junior web developer, Illustrator and Animator</description>
-		<link>/</link>
-		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-		
-			<item>
-				<title>What is Polymorphism?</title>
-				<description>&lt;p&gt;&lt;b&gt;What is polymorphism?&lt;/b&gt;&lt;/p&gt;
+  <channel>
+    <title></title>
+    <description>Hi I&#39;m James and I&#39;m a web developer</description>
+    <link>http://127.0.0.1:4000/</link>
+    <atom:link href="http://127.0.0.1:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 24 Jan 2015 15:44:30 +0000</pubDate>
+    <lastBuildDate>Sat, 24 Jan 2015 15:44:30 +0000</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>What is Polymorphism?</title>
+        <description>&lt;p&gt;&lt;b&gt;What is polymorphism?&lt;/b&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/polymorphism_example.png&quot; /&gt;&lt;/p&gt;
 
@@ -22,19 +25,19 @@
 
 &lt;p&gt;If the two variables are &lt;strong&gt;numbers&lt;/strong&gt;, the &lt;strong&gt;+&lt;/strong&gt; operator will numerically add them.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;a = 1
-b = 2
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
 
-a + b
-=&amp;gt; 3&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;However, what if the two variables were &lt;strong&gt;strings&lt;/strong&gt; instead?&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;a = &amp;quot;Hello &amp;quot;
-b = &amp;quot;World&amp;quot;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hello &amp;quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;World&amp;quot;&lt;/span&gt;
 
-a + b
-=&amp;gt; &amp;quot;Hello World&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hello World&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;As you can see, using &lt;strong&gt;+&lt;/strong&gt; operator for &lt;strong&gt;strings&lt;/strong&gt; will &lt;em&gt;concatenate&lt;/em&gt; them instead.&lt;/p&gt;
 
@@ -43,85 +46,99 @@ a + b
 &lt;hr /&gt;
 &lt;p&gt;Here is an example of a polymorphic association:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;class Animal
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Animal&lt;/span&gt;
     
-    def make_noise 
-        &amp;quot;Some noise&amp;quot;
-    end
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;make_noise&lt;/span&gt; 
+        &lt;span class=&quot;s2&quot;&gt;&amp;quot;Some noise&amp;quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 
-    def sleep 
-        puts &amp;quot;#{self.class.name} is sleeping.&amp;quot; 
-    end
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sleep&lt;/span&gt; 
+        &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; is sleeping.&amp;quot;&lt;/span&gt; 
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
   
-end
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 
-class Dog &amp;lt; Animal
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Dog&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Animal&lt;/span&gt;
     
-    def make_noise 
-        &amp;#39;Woof!&amp;#39;         
-    end 
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;make_noise&lt;/span&gt; 
+        &lt;span class=&quot;s1&quot;&gt;&amp;#39;Woof!&amp;#39;&lt;/span&gt;         
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; 
     
-end
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 
-class Cat &amp;lt; Animal 
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Cat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Animal&lt;/span&gt; 
     
-    def make_noise 
-        &amp;#39;Meow!&amp;#39; 
-    end 
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;make_noise&lt;/span&gt; 
+        &lt;span class=&quot;s1&quot;&gt;&amp;#39;Meow!&amp;#39;&lt;/span&gt; 
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; 
     
-end&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Lets say we have a simple inheritance hierarchy. There is an &lt;strong&gt;Animal&lt;/strong&gt; superclass and two descendant subclasses, a &lt;strong&gt;Cat&lt;/strong&gt; and a &lt;strong&gt;Dog&lt;/strong&gt;. Each of these three classes has its own implementation of the &lt;em&gt;make_noise&lt;/em&gt; method. The implementation of the method of the descendants replaces the definition of a method in the &lt;strong&gt;Animal&lt;/strong&gt; class.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;class Dog &amp;lt; Animal
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Dog&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Animal&lt;/span&gt;
     
-    def make_noise 
-        &amp;#39;Woof!&amp;#39;         
-    end 
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;make_noise&lt;/span&gt; 
+        &lt;span class=&quot;s1&quot;&gt;&amp;#39;Woof!&amp;#39;&lt;/span&gt;         
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; 
     
-end&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;The &lt;em&gt;make_noise&lt;/em&gt; method in the &lt;strong&gt;Dog&lt;/strong&gt; class replaces the &lt;em&gt;make_noise&lt;/em&gt; method of the &lt;strong&gt;Animal&lt;/strong&gt; class. The idea is that even though the &lt;strong&gt;Dog&lt;/strong&gt; class is &lt;em&gt;inheriting&lt;/em&gt; from the &lt;strong&gt;Animal&lt;/strong&gt; class and would therefore already have access to the &lt;em&gt;make_noise&lt;/em&gt; method, the &lt;strong&gt;Dog&lt;/strong&gt; class will have its own &lt;em&gt;specialized&lt;/em&gt; version of that method which is unique to that particular class. This is referred to as overiding the method of the superclass, which just means you write it again.&lt;/p&gt;
 
 &lt;p&gt;This means is that the method will change its behaviour depending where it was originally instantiated from. Now you may wonder why this would be useful.. Here is an example:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;[Animal.new, Dog.new, Cat.new].each do |animal|
-  puts animal.make_noise
-end
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Animal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Dog&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Cat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;animal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;animal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;make_noise&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 
-=&amp;gt;
-Some noise
-Woof!
-Meow!&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;Some&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;noise&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;Woof&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;Meow&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;If you had an array of &lt;strong&gt;Animal&lt;/strong&gt;, &lt;strong&gt;Dog&lt;/strong&gt; or &lt;strong&gt;Cat&lt;/strong&gt; objects as shown above, you can call the &lt;em&gt;make_noise&lt;/em&gt; method on all of them and it will return the &lt;strong&gt;correct&lt;/strong&gt; output as expected. While this is a relatively simplified example, you can see why this would be useful if we had an array of a thousand of these objects. We wouldn’t need to look into what class they were originally instantiated from, we just know that it works.&lt;/p&gt;
 </description>
-				<pubDate>Mon, 29 Dec 2014 17:07:00 +0000</pubDate>
-				<link>/polymorphism/2014/12/29/what-is-polymorphism.html</link>
-				<guid isPermaLink="true">/polymorphism/2014/12/29/what-is-polymorphism.html</guid>
-			</item>
-		
-			<item>
-				<title>Install Sublime Text 2 on Ubuntu</title>
-				<description>&lt;p&gt;The fastest way I’ve found to install sublime text 2.&lt;/p&gt;
+        <pubDate>Mon, 29 Dec 2014 17:07:00 +0000</pubDate>
+        <link>http://127.0.0.1:4000/polymorphism/2014/12/29/what-is-polymorphism/</link>
+        <guid isPermaLink="true">http://127.0.0.1:4000/polymorphism/2014/12/29/what-is-polymorphism/</guid>
+        
+        
+        <category>polymorphism</category>
+        
+      </item>
+    
+      <item>
+        <title>Install Sublime Text 2 on Ubuntu</title>
+        <description>&lt;p&gt;The fastest way I’ve found to install sublime text 2.&lt;/p&gt;
 
 &lt;p&gt;Copy and paste the following into the terminal&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;sudo add-apt-repository ppa:webupd8team/sublime-text-2
-  sudo apt-get update
-  sudo apt-get install sublime-text&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;repository&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;ppa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;webupd8team&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sublime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;update&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sublime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;After running this, Sublime Text 2 should have been installed within the /usr/lib/sublime-text-2 directory and can be launched from the Dashboard
 Alternatively by typing &lt;strong&gt;subl&lt;/strong&gt;, &lt;strong&gt;sublime-text&lt;/strong&gt; or &lt;strong&gt;sublime-text-2&lt;/strong&gt; into a Terminal window.&lt;/p&gt;
 </description>
-				<pubDate>Wed, 13 Aug 2014 10:47:00 +0100</pubDate>
-				<link>/sublime/text/ubuntu/linux/2014/08/13/install-sublime-text-2.html</link>
-				<guid isPermaLink="true">/sublime/text/ubuntu/linux/2014/08/13/install-sublime-text-2.html</guid>
-			</item>
-		
-			<item>
-				<title>Bash command line for Linux - Cheat Sheet</title>
-				<description>&lt;p&gt;I’ve found these commands to be very useful but at the same time I can just as easily forget them. Therefore in this post I wanted to add a cheat sheet so I can refer back to it whenever I need to. These are the common ones I used the most&lt;/p&gt;
+        <pubDate>Wed, 13 Aug 2014 10:47:00 +0100</pubDate>
+        <link>http://127.0.0.1:4000/sublime/text/ubuntu/linux/2014/08/13/install-sublime-text-2/</link>
+        <guid isPermaLink="true">http://127.0.0.1:4000/sublime/text/ubuntu/linux/2014/08/13/install-sublime-text-2/</guid>
+        
+        
+        <category>sublime</category>
+        
+        <category>text</category>
+        
+        <category>ubuntu</category>
+        
+        <category>linux</category>
+        
+      </item>
+    
+      <item>
+        <title>Bash command line for Linux - Cheat Sheet</title>
+        <description>&lt;p&gt;I’ve found these commands to be very useful but at the same time I can just as easily forget them. Therefore in this post I wanted to add a cheat sheet so I can refer back to it whenever I need to. These are the common ones I used the most&lt;/p&gt;
 
 &lt;p&gt;If there are any you think will also be useful please let me know in the comments below.&lt;/p&gt;
 
@@ -274,14 +291,18 @@ Alternatively by typing &lt;strong&gt;subl&lt;/strong&gt;, &lt;strong&gt;sublime
   &lt;/tbody&gt;
 &lt;/table&gt;
 </description>
-				<pubDate>Tue, 05 Aug 2014 14:09:30 +0100</pubDate>
-				<link>/ssh/2014/08/05/linux-cheatsheet.html</link>
-				<guid isPermaLink="true">/ssh/2014/08/05/linux-cheatsheet.html</guid>
-			</item>
-		
-			<item>
-				<title>How to setup port forwarding on VirtualBox</title>
-				<description>&lt;p&gt;One of the rails project I worked with required me to get VirtualBox up and running with the following specs: Ubuntu 14.04 server amd64 on a 2GB RAM 2 core VM with VT-x/ AMD-v.&lt;/p&gt;
+        <pubDate>Tue, 05 Aug 2014 14:09:30 +0100</pubDate>
+        <link>http://127.0.0.1:4000/ssh/2014/08/05/linux-cheatsheet/</link>
+        <guid isPermaLink="true">http://127.0.0.1:4000/ssh/2014/08/05/linux-cheatsheet/</guid>
+        
+        
+        <category>ssh</category>
+        
+      </item>
+    
+      <item>
+        <title>How to setup port forwarding on VirtualBox</title>
+        <description>&lt;p&gt;One of the rails project I worked with required me to get VirtualBox up and running with the following specs: Ubuntu 14.04 server amd64 on a 2GB RAM 2 core VM with VT-x/ AMD-v.&lt;/p&gt;
 
 &lt;p&gt;And in there, I had to set up ruby via RVM, install a lot of extra tools and ruby gems. To make things easier for me I used port forwarding.&lt;/p&gt;
 &lt;hr /&gt;
@@ -294,7 +315,7 @@ Alternatively by typing &lt;strong&gt;subl&lt;/strong&gt;, &lt;strong&gt;sublime
 
 &lt;p&gt;First thing I did was to install the OpenSSH client applications on Ubuntu&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;sudo apt-get install openssh-server&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;openssh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;server&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;
 Then to setup a port forwarding into the guest’s port 22 so I can access it from my host terminal.&lt;/p&gt;
@@ -335,14 +356,14 @@ Then to setup a port forwarding into the guest’s port 22 so I can access it fr
 &lt;p&gt;Start your VM.
 In your terminal enter:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;ssh -l [user_name] -p 2222 127.0.0.1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;ssh&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user_name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2222&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;127&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;em&gt;Don’t forget to replace &lt;strong&gt;[user_name]&lt;/strong&gt; with the user you created.&lt;/em&gt;
 &lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;You will be prompted to accept the host key so be sure to enter &lt;strong&gt;yes&lt;/strong&gt;. Then finally you’ll be prompted to enter the password for the username:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;[user_name]@127.0.0.1&amp;#39;s password:&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user_name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;127&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;password&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Enter your password and you should now be logged in!&lt;/p&gt;
 
@@ -350,86 +371,195 @@ In your terminal enter:&lt;/p&gt;
 Now you should be able to run commands in the terminal without going into the VM directly. Great for running specs for your rails applications or adding new gems and tools.&lt;/p&gt;
 
 </description>
-				<pubDate>Thu, 31 Jul 2014 11:43:30 +0100</pubDate>
-				<link>/virtual-box/ubuntu/2014/07/31/port-forwarding.html</link>
-				<guid isPermaLink="true">/virtual-box/ubuntu/2014/07/31/port-forwarding.html</guid>
-			</item>
-		
-			<item>
-				<title>Dropping and resetting database all in one rake task</title>
-				<description>&lt;p&gt;When building a new Rails app, I’ve found that I constantly have had to drop the database, create it, run a migration and finally the seed.&lt;/p&gt;
+        <pubDate>Thu, 31 Jul 2014 11:43:30 +0100</pubDate>
+        <link>http://127.0.0.1:4000/virtual-box/ubuntu/2014/07/31/port-forwarding/</link>
+        <guid isPermaLink="true">http://127.0.0.1:4000/virtual-box/ubuntu/2014/07/31/port-forwarding/</guid>
+        
+        
+        <category>virtual-box</category>
+        
+        <category>ubuntu</category>
+        
+      </item>
+    
+      <item>
+        <title>Dropping and resetting database all in one rake task</title>
+        <description>&lt;p&gt;When building a new Rails app, I’ve found that I constantly have had to drop the database, create it, run a migration and finally the seed.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;rake db:drop
-rake db:create
-rake db:migrate
-rake db:seed
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;drop&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;create&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;migrate&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;seed&lt;/span&gt;
 
 
-#=&amp;gt; And for the test environment
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; And for the test environment&lt;/span&gt;
 
-RAILS_ENV=test rake db:drop
-RAILS_ENV=test rake db:create
-RAILS_ENV=test rake db:migrate
-RAILS_ENV=test rake db:seed&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;no&quot;&gt;RAILS_ENV&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;drop&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;RAILS_ENV&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;create&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;RAILS_ENV&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;migrate&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;RAILS_ENV&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;seed&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;
 This as you can tell can be very tedious. It got me thinking ‘What if there was a way to do all of that in one command’. Turns out there is, one way to do it is to create a rake task to run them one after the other.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;You can name your task what ever you like&lt;/code&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;#=&amp;gt; /lib/tasks/db.rake
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; /lib/tasks/db.rake&lt;/span&gt;
 
-namespace :db do
-  task :rebuild =&amp;gt; :environment do
-    raise &amp;quot;Cannot run this task in #{Rails.env}&amp;quot;
-      unless [&amp;#39;development&amp;#39;, &amp;#39;test&amp;#39;].include? Rails.env
+&lt;span class=&quot;n&quot;&gt;namespace&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:db&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;task&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:rebuild&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:environment&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;raise&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Cannot run this task in &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Rails&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;unless&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;development&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;test&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;include?&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Rails&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;env&lt;/span&gt;
 
-    puts Rake::Task[&amp;quot;db:drop&amp;quot;].invoke
-    puts Rake::Task[&amp;quot;db:create&amp;quot;].invoke
-    puts Rake::Task[&amp;quot;db:migrate&amp;quot;].invoke
-    puts Rake::Task[&amp;quot;db:seed&amp;quot;].invoke if Rails.env == &amp;#39;development&amp;#39;
-  end
-end&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Rake&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Task&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;db:drop&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;invoke&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Rake&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Task&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;db:create&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;invoke&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Rake&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Task&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;db:migrate&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;invoke&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Rake&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Task&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;db:seed&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;invoke&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Rails&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;env&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;development&amp;#39;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;
 With this all you have to do is run the following rake command:
 &lt;br /&gt;
 &lt;code&gt;NOTE: it goes without saying, NEVER use this in production!&lt;/code&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;rake db:rebuild
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rebuild&lt;/span&gt;
 
-RAILS_ENV=test rake db:rebuild&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;no&quot;&gt;RAILS_ENV&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rebuild&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;
 And there you have it, a single rake task for both test and development which drops the database, recreates it again, runs a migration and finally the seeds. Be sure not to use this in production because it will drop any data you have in your database.&lt;/p&gt;
 </description>
-				<pubDate>Wed, 30 Jul 2014 12:41:30 +0100</pubDate>
-				<link>/ruby/rails/2014/07/30/rake-db-rebuild.html</link>
-				<guid isPermaLink="true">/ruby/rails/2014/07/30/rake-db-rebuild.html</guid>
-			</item>
-		
-			<item>
-				<title>My first post!</title>
-				<description>&lt;p&gt;This is my first blog post. The post below is the basic markdown used in Jekyll which I’ll leave here for reference&lt;/p&gt;
+        <pubDate>Wed, 30 Jul 2014 12:41:30 +0100</pubDate>
+        <link>http://127.0.0.1:4000/ruby/rails/2014/07/30/rake-db-rebuild/</link>
+        <guid isPermaLink="true">http://127.0.0.1:4000/ruby/rails/2014/07/30/rake-db-rebuild/</guid>
+        
+        
+        <category>ruby</category>
+        
+        <category>rails</category>
+        
+      </item>
+    
+      <item>
+        <title>My first post!</title>
+        <description>&lt;p&gt;This is my first blog post. The post below is the basic markdown used in Jekyll which I’ll leave here for reference&lt;/p&gt;
 
 &lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
 To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
 
 &lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;def print_hi(name)
-  puts &amp;quot;Hi, #{name}&amp;quot;
-end
-print_hi(&amp;#39;Tom&amp;#39;)
-#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-				<pubDate>Tue, 29 Jul 2014 14:02:30 +0100</pubDate>
-				<link>/ruby/rails/2014/07/29/my-first-post.html</link>
-				<guid isPermaLink="true">/ruby/rails/2014/07/29/my-first-post.html</guid>
-			</item>
-		
-	</channel>
+        <pubDate>Tue, 29 Jul 2014 14:02:30 +0100</pubDate>
+        <link>http://127.0.0.1:4000/ruby/rails/2014/07/29/my-first-post/</link>
+        <guid isPermaLink="true">http://127.0.0.1:4000/ruby/rails/2014/07/29/my-first-post/</guid>
+        
+        
+        <category>ruby</category>
+        
+        <category>rails</category>
+        
+      </item>
+    
+      <item>
+        <title>What is Jekyll!</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. Here is a little quote from the official website:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It takes a template directory containing raw text files in various formats, runs it through &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt; (or &lt;a href=&quot;http://redcloth.org/textile&quot;&gt;Textile&lt;/a&gt;) and Liquid converters, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server. Jekyll also happens to be the engine behind &lt;a href=&quot;http://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;, which means you can use Jekyll to host your project’s page, blog, or website from GitHub’s servers for free.
+- jekyllrb.com&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 28 Jul 2014 23:48:45 +0100</pubDate>
+        <link>http://127.0.0.1:4000/blog/jekyll/2014/07/28/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://127.0.0.1:4000/blog/jekyll/2014/07/28/welcome-to-jekyll/</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>Sample post from harmony</title>
+        <description>&lt;p&gt;Just a sample post to show some of the &lt;em&gt;typography&lt;/em&gt; elements supported from 
+&lt;strong&gt;harmony&lt;/strong&gt; theme.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;A blockquote:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Donec in mollis eros, nec rutrum turpis. &lt;strong&gt;Curabitur&lt;/strong&gt; sem elit, semper nec volutpat quis, laoreet et sapien. In felis erat, rhoncus sed pellentesque mollis, tincidunt quis elit.
+- By Someone&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;header-2&quot;&gt;Header 2&lt;/h2&gt;
+
+&lt;p&gt;Duis lacinia commodo dui, vel aliquam metus hendrerit eu. Integer et scelerisque dui. Sed nec molestie quam. Donec sit amet nisl a massa commodo ultrices nec quis nunc. Aenean aliquet eu arcu adipiscing dignissim. Nunc dictum elit vitae dolor molestie aliquet.&lt;/p&gt;
+
+&lt;p&gt;Example code: &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;A list: &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Praesent nisi elit, bibendum ut consectetur ac, aliquet in nunc&lt;/li&gt;
+  &lt;li&gt;Donec ante est, volutpat in mi et, pulvinar congue dolor.&lt;/li&gt;
+  &lt;li&gt;Quisque ultrices pulvinar sollicitudin.&lt;/li&gt;
+  &lt;li&gt;Duis elementum odio eu euismod suscipit.&lt;/li&gt;
+  &lt;li&gt;Integer enim lorem, interdum sit amet consectetur non, bibendum eget neque.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A numbered list: &lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Praesent nisi elit, bibendum ut consectetur ac, aliquet in nunc. &lt;/li&gt;
+  &lt;li&gt;Donec ante est, volutpat in mi et, pulvinar congue dolor.&lt;/li&gt;
+  &lt;li&gt;Quisque ultrices pulvinar sollicitudin.&lt;/li&gt;
+  &lt;li&gt;Duis elementum odio eu euismod suscipit.&lt;/li&gt;
+  &lt;li&gt;Integer enim lorem, interdum sit amet consectetur non, bibendum eget neque.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Definition list:&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Curabitur cursus magna eu sem cursus&lt;/dt&gt;
+  &lt;dd&gt;ac ultrices urna pharetra.&lt;/dd&gt;
+  &lt;dd&gt;Duis scelerisque ipsum eu luctus elementum. &lt;/dd&gt;
+  &lt;dt&gt;Pellentesque habitant morbi tristique senectus&lt;/dt&gt;
+  &lt;dd&gt;Curabitur malesuada lacus ac gravida porttitor&lt;/dd&gt;
+  &lt;dd&gt;Duis sodales feugiat lorem et mollis. &lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;Want me to suggest something? Please &lt;a href=&quot;https://github.com/web-create/harmony/issues/new&quot;&gt;Send me a request&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 28 Jul 2014 00:56:45 +0100</pubDate>
+        <link>http://127.0.0.1:4000/sample-post</link>
+        <guid isPermaLink="true">http://127.0.0.1:4000/sample-post</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+  </channel>
 </rss>
