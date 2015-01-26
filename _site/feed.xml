@@ -5,25 +5,166 @@
     <description>Hi I&#39;m James and I&#39;m a web developer</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 24 Jan 2015 16:20:39 +0000</pubDate>
-    <lastBuildDate>Sat, 24 Jan 2015 16:20:39 +0000</lastBuildDate>
+    <pubDate>Mon, 26 Jan 2015 01:39:53 +0000</pubDate>
+    <lastBuildDate>Mon, 26 Jan 2015 01:39:53 +0000</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
+        <title>Simply git-rebase</title>
+        <description>&lt;p&gt;Today I’ve decided to write about &lt;code&gt;Git Rebasing&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;To be honest I’ve only recently discovered rebasing and I’m not too familiar with all of its uses or commands. What I do know is that the &lt;code&gt;git rebase&lt;/code&gt; command allows me to modify the history of my repository by changing my &lt;code&gt;commits&lt;/code&gt;. &lt;code&gt;Git rebase&lt;/code&gt; can reorder, edit, or squash commits together. I’ve found this especially useful when commiting very minor changes such as removing white space or correcting typos. It happens all too frequently and these commits do nothing but clutter my repository history. Being able to combine those to a previous commit has made my commit history a lot cleaner.&lt;/p&gt;
+
+&lt;p&gt;Based on my experience I would typically use &lt;code&gt;git rebase&lt;/code&gt; to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Delete commit messages or commits that are no longer necessary&lt;/li&gt;
+  &lt;li&gt;Squash multiple commits into one&lt;/li&gt;
+  &lt;li&gt;Edit my commit messages&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Let me demonstrate an example with &lt;code&gt;git rebase -i HEAD~3&lt;/code&gt;. Git rebase with the &lt;code&gt;-i&lt;/code&gt; flag begins an interactive rebasing session. The &lt;code&gt;HEAD~3&lt;/code&gt; flag refers to the latest commits with &lt;code&gt;~3&lt;/code&gt; meaning how many commits or how far in my history I want to edit, in this case three commits.&lt;/p&gt;
+
+&lt;p&gt;This will then display the following: &lt;/p&gt;
+
+&lt;pre&gt;
+  pick 3dd14f1 second commit
+  pick 0daba41 third commit
+  pick f0111b0 fourth commit
+
+  # Rebase 5376924..f0111b0 onto 5376924
+  #
+  # Commands:
+  #  p, pick = use commit
+  #  r, reword = use commit, but edit the commit message
+  #  e, edit = use commit, but stop for amending
+  #  s, squash = use commit, but meld into previous commit
+  #  f, fixup = like &quot;squash&quot;, but discard this commit&#39;s log message
+  #  x, exec = run command (the rest of the line) using shell
+  #
+  # These lines can be re-ordered; they are executed from top to bottom.
+  #
+  # If you remove a line here THAT COMMIT WILL BE LOST.
+  #
+  # However, if you remove everything, the rebase will be aborted.
+  #
+  # Note that empty commits are commented out
+  ~
+  ~
+  ~
+&lt;/pre&gt;
+
+&lt;p&gt;The top three lines represent my commits. &lt;code&gt;pick&lt;/code&gt; being the command, following that is the commit identifier e.g.&lt;code&gt;3dd14f1&lt;/code&gt; and finally your message e.g. &lt;code&gt;second commit&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The rest are comments provided by &lt;code&gt;git&lt;/code&gt; for additional information as indicated with a &lt;code&gt;#&lt;/code&gt; at the start of the line. These are the commands that are available. However, I’ve only needed to use &lt;code&gt;pick&lt;/code&gt;, &lt;code&gt;squash&lt;/code&gt; and &lt;code&gt;fixup&lt;/code&gt; thus far. &lt;/p&gt;
+
+&lt;pre&gt;
+  # Commands:
+  #  p, pick = use commit
+  #  r, reword = use commit, but edit the commit message
+  #  e, edit = use commit, but stop for amending
+  #  s, squash = use commit, but meld into previous commit
+  #  f, fixup = like &quot;squash&quot;, but discard this commit&#39;s log message
+  #  x, exec = run command (the rest of the line) using shell
+&lt;/pre&gt;
+
+&lt;p&gt;Its always good to save certain changes or updates I make as I develop a feature or make additions to my codebase. Its a good habit to have, yet as I’m doing this, I would sometimes make two, three or even over five commits which represent the same feature. Therefore the commit messages are either very similar or will be too brief, which then can be confusing if read out of context.&lt;/p&gt;
+
+&lt;p&gt;This is would be a good time to &lt;code&gt;squash&lt;/code&gt; my commits. &lt;code&gt;Squashing&lt;/code&gt; commits essentially means combining my commit messages into one single commit which can therefore make more sense as a ‘record’ in my repository history. Sometimes I would need to look back on my respository history and it would be easier if the code or feature I’m looking for is located in a single commit as opposed to many smaller and unclear commits. &lt;/p&gt;
+
+&lt;p&gt;To &lt;code&gt;squash&lt;/code&gt; my commits, I would have to select the commits I want to combine and use the &lt;code&gt;squash&lt;/code&gt; command (leaving the &lt;code&gt;pick&lt;/code&gt; command on the commit you want the other commits to ‘combine’ into).&lt;/p&gt;
+
+&lt;pre&gt;
+  pick 3dd14f1 second commit
+  squash 0daba41 third commit
+  squash f0111b0 fourth commit
+&lt;/pre&gt;
+
+&lt;p&gt;Once I make those changes and save. I would then be moved on to the next stage which then gives me the option to edit those messages if I wanted to. Which is great if I had typos or wanted to make my message more comprehensible, as an example I’ll change the 2nd commit message to &lt;code&gt;Updated third commit&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;
+  # This is a combination of 3 commits.
+  # The first commit&#39;s message is:
+  second commit
+
+  # This is the 2nd commit message:
+
+  Updated third commit
+
+  # This is the 3rd commit message:
+
+  fourth commit
+
+  # Please enter the commit message for your changes. Lines starting
+  # with &#39;#&#39; will be ignored, and an empty message aborts the commit.
+  # rebase in progress; onto 5376924
+  # You are currently editing a commit while rebasing branch &#39;master&#39; on &#39;5376924&#39;.
+  #
+  # Changes to be committed:
+  #       modified:   README.md
+  #
+  ~
+  ~
+  ~
+&lt;/pre&gt;
+&lt;p&gt;NOTE: Remember that these are the three latest commits as I used the &lt;code&gt;HEAD~3&lt;/code&gt; flag &lt;/p&gt;
+
+&lt;p&gt;Save that and thats all there is to it! If I ran &lt;code&gt;git log&lt;/code&gt; to see my current commits, I would only have two commits instead of four as both commit two, three and four are now &lt;code&gt;squashed&lt;/code&gt; into a single commit and therefore makes my commit history cleaner and more organised.&lt;/p&gt;
+
+&lt;pre&gt;
+  james$ git log
+
+  commit 73031c36716b6891dc1b7cd6304d156e369a515d
+  Author: James Lieu &amp;lt;j.lieu888@gmail.com&amp;gt;
+  Date:   Mon Jan 26 00:01:13 2015 +0000
+
+      second commit
+
+      Updated third commit
+
+      fourth commit
+
+  commit 537692465b7d350fb74870363e5abb3bbbb42ea7
+  Author: James Lieu &amp;lt;j.lieu888@gmail.com&amp;gt;
+  Date:   Mon Jan 26 00:00:58 2015 +0000
+
+      initial commit
+&lt;/pre&gt;
+
+&lt;p&gt;When I add minor changes to my code such as removal of white spacing or new lines, they still need to be committed. This can be annoying if I have already made a commit before doing this. But having a commit message for those are unnecessary or irrelevant to my code/feature. This is where I can use the &lt;code&gt;fixup&lt;/code&gt; command. The process is the same as &lt;code&gt;squashing&lt;/code&gt;, meaning that the commits will be combined together. However, the commits that I use the &lt;code&gt;fixup&lt;/code&gt; command on will then have its message removed. &lt;/p&gt;
+
+&lt;p&gt;NOTE: If you are performing a squash/fixup command on commits that have already been pushed to your remote repository your will have to &lt;code&gt;force&lt;/code&gt; push your branch to the remote. For example, &lt;code&gt;git push -f origin master&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Another great git command is &lt;code&gt;git commit --amend&lt;/code&gt;. This allows me to edit my last git message which is great for when I want a quick solution to fix typos or make changes to a commit I’ve just created.&lt;/p&gt;
+
+&lt;p&gt;This is the extent of my git rebasing experience so far, I have yet to find out what the other features of &lt;code&gt;git rebasing&lt;/code&gt; does. Discovering these git techniques have made my commit history a lot more organised and cleaner. It also means less embarassing pull requests, espcially when I overlook something, fix typos and white spacing!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 25 Jan 2015 23:00:00 +0000</pubDate>
+        <link>/git-rebase/git/rebase/2015/01/25/simply-git-rebasing/</link>
+        <guid isPermaLink="true">/git-rebase/git/rebase/2015/01/25/simply-git-rebasing/</guid>
+        
+        
+        <category>git-rebase</category>
+        
+        <category>git</category>
+        
+        <category>rebase</category>
+        
+      </item>
+    
+      <item>
         <title>What is Polymorphism?</title>
-        <description>&lt;p&gt;&lt;b&gt;What is polymorphism?&lt;/b&gt;&lt;/p&gt;
+        <description>&lt;p&gt;What is polymorphism? I’ve found that this question in particular is asked quite frequently in tech interviews. I was asked this in a phone interview once and I did not know the answer to this unfortunately. I believe that it was this question that prevented me from getting to the next stage of the interview, so of course I decided to look into it.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/polymorphism_example.png&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;What is polymorphism? I’ve found that this question in particular is asked quite frequently in tech interviews. I was asked this in a phone interview once and I did not know the answer to this unfortunately. I believe that it was this question that prevented me from getting to the next stage of the interview, so of course I decided to look into it.&lt;/p&gt;
+&lt;p&gt;Polymorphism essentially means &lt;em&gt;many forms&lt;/em&gt; and is one of the fundamental features of object oriented programming. It lets us automatically do the correct behavior even if what we’re working with could take one of many different forms, simply put; it means being able to send the same message and get different results. Here’s the most basic example I’ve found; the &lt;code&gt;+&lt;/code&gt; operator.&lt;/p&gt;
 
-&lt;p&gt;Polymorphism essentially means &lt;em&gt;many forms&lt;/em&gt; and is one of the fundamental features of object oriented programming. It lets us automatically do the correct behavior even if what we’re working with could take one of many different forms, simply put; it means being able to send the same message and get different results. Here’s the most basic example I’ve found; the &lt;strong&gt;+&lt;/strong&gt; operator.&lt;/p&gt;
+&lt;p&gt;In Ruby the &lt;code&gt;+&lt;/code&gt; operator will &lt;em&gt;behave&lt;/em&gt; differently depending on how you use it.&lt;/p&gt;
 
-&lt;p&gt;In Ruby the &lt;strong&gt;+&lt;/strong&gt; operator will &lt;em&gt;behave&lt;/em&gt; differently depending on how you use it.&lt;/p&gt;
+&lt;p&gt;For example, lets say you have two variables; &lt;code&gt;a&lt;/code&gt; and &lt;code&gt;b&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;For example, lets say you have two variables; &lt;strong&gt;a&lt;/strong&gt; and &lt;strong&gt;b&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;If the two variables are &lt;strong&gt;numbers&lt;/strong&gt;, the &lt;strong&gt;+&lt;/strong&gt; operator will numerically add them.&lt;/p&gt;
+&lt;p&gt;If the two variables are &lt;code&gt;integers&lt;/code&gt;, the &lt;code&gt;+&lt;/code&gt; operator will numerically add them.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
@@ -31,7 +172,7 @@
 &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;However, what if the two variables were &lt;strong&gt;strings&lt;/strong&gt; instead?&lt;/p&gt;
+&lt;p&gt;However, what if the two variables were &lt;code&gt;strings&lt;/code&gt; instead?&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hello &amp;quot;&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;World&amp;quot;&lt;/span&gt;
@@ -39,7 +180,7 @@
 &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hello World&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;As you can see, using &lt;strong&gt;+&lt;/strong&gt; operator for &lt;strong&gt;strings&lt;/strong&gt; will &lt;em&gt;concatenate&lt;/em&gt; them instead.&lt;/p&gt;
+&lt;p&gt;As you can see, using &lt;code&gt;+&lt;/code&gt; operator for &lt;code&gt;strings&lt;/code&gt; will &lt;strong&gt;concatenate&lt;/strong&gt; them instead.&lt;/p&gt;
 
 &lt;p&gt;Now this is a basic example of how polymorphism works and is built into a lot of programming languages, but we can use the same idea with our own classes and objects.&lt;/p&gt;
 
@@ -47,44 +188,44 @@
 &lt;p&gt;Here is an example of a polymorphic association:&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Animal&lt;/span&gt;
-    
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;make_noise&lt;/span&gt; 
-        &lt;span class=&quot;s2&quot;&gt;&amp;quot;Some noise&amp;quot;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sleep&lt;/span&gt; 
-        &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; is sleeping.&amp;quot;&lt;/span&gt; 
-    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-  
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;make_noise&lt;/span&gt; 
+    &lt;span class=&quot;s2&quot;&gt;&amp;quot;Some noise&amp;quot;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sleep&lt;/span&gt; 
+    &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; is sleeping.&amp;quot;&lt;/span&gt; 
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 
 &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Dog&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Animal&lt;/span&gt;
     
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;make_noise&lt;/span&gt; 
-        &lt;span class=&quot;s1&quot;&gt;&amp;#39;Woof!&amp;#39;&lt;/span&gt;         
-    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; 
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;make_noise&lt;/span&gt; 
+    &lt;span class=&quot;s1&quot;&gt;&amp;#39;Woof!&amp;#39;&lt;/span&gt;         
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; 
     
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 
 &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Cat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Animal&lt;/span&gt; 
     
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;make_noise&lt;/span&gt; 
-        &lt;span class=&quot;s1&quot;&gt;&amp;#39;Meow!&amp;#39;&lt;/span&gt; 
-    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; 
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;make_noise&lt;/span&gt; 
+    &lt;span class=&quot;s1&quot;&gt;&amp;#39;Meow!&amp;#39;&lt;/span&gt; 
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; 
     
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;Lets say we have a simple inheritance hierarchy. There is an &lt;strong&gt;Animal&lt;/strong&gt; superclass and two descendant subclasses, a &lt;strong&gt;Cat&lt;/strong&gt; and a &lt;strong&gt;Dog&lt;/strong&gt;. Each of these three classes has its own implementation of the &lt;em&gt;make_noise&lt;/em&gt; method. The implementation of the method of the descendants replaces the definition of a method in the &lt;strong&gt;Animal&lt;/strong&gt; class.&lt;/p&gt;
+&lt;p&gt;Lets say we have a simple inheritance hierarchy. There is an &lt;code&gt;Animal&lt;/code&gt; superclass and two descendant subclasses, a &lt;code&gt;Cat&lt;/code&gt; and a &lt;code&gt;Dog&lt;/code&gt;. Each of these three classes has its own implementation of the &lt;code&gt;make_noise&lt;/code&gt; method. The implementation of the method of the descendants replaces the definition of a method in the &lt;code&gt;Animal&lt;/code&gt; class.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Dog&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Animal&lt;/span&gt;
     
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;make_noise&lt;/span&gt; 
-        &lt;span class=&quot;s1&quot;&gt;&amp;#39;Woof!&amp;#39;&lt;/span&gt;         
-    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; 
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;make_noise&lt;/span&gt; 
+    &lt;span class=&quot;s1&quot;&gt;&amp;#39;Woof!&amp;#39;&lt;/span&gt;         
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; 
     
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;The &lt;em&gt;make_noise&lt;/em&gt; method in the &lt;strong&gt;Dog&lt;/strong&gt; class replaces the &lt;em&gt;make_noise&lt;/em&gt; method of the &lt;strong&gt;Animal&lt;/strong&gt; class. The idea is that even though the &lt;strong&gt;Dog&lt;/strong&gt; class is &lt;em&gt;inheriting&lt;/em&gt; from the &lt;strong&gt;Animal&lt;/strong&gt; class and would therefore already have access to the &lt;em&gt;make_noise&lt;/em&gt; method, the &lt;strong&gt;Dog&lt;/strong&gt; class will have its own &lt;em&gt;specialized&lt;/em&gt; version of that method which is unique to that particular class. This is referred to as overiding the method of the superclass, which just means you write it again.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;make_noise&lt;/code&gt; method in the &lt;code&gt;Dog&lt;/code&gt; class replaces the &lt;code&gt;make_noise&lt;/code&gt; method of the &lt;code&gt;Animal&lt;/code&gt; class. The idea is that even though the &lt;code&gt;Dog&lt;/code&gt; class is &lt;em&gt;inheriting&lt;/em&gt; from the &lt;code&gt;Animal&lt;/code&gt; class and would therefore already have access to the &lt;code&gt;make_noise&lt;/code&gt; method, the &lt;code&gt;Dog&lt;/code&gt; class will have its own &lt;em&gt;specialized&lt;/em&gt; version of that method which is unique to that particular class. This is referred to as overiding the method of the superclass, which just means you write it again.&lt;/p&gt;
 
 &lt;p&gt;This means is that the method will change its behaviour depending where it was originally instantiated from. Now you may wonder why this would be useful.. Here is an example:&lt;/p&gt;
 
@@ -97,7 +238,7 @@
 &lt;span class=&quot;no&quot;&gt;Woof&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;
 &lt;span class=&quot;no&quot;&gt;Meow&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;If you had an array of &lt;strong&gt;Animal&lt;/strong&gt;, &lt;strong&gt;Dog&lt;/strong&gt; or &lt;strong&gt;Cat&lt;/strong&gt; objects as shown above, you can call the &lt;em&gt;make_noise&lt;/em&gt; method on all of them and it will return the &lt;strong&gt;correct&lt;/strong&gt; output as expected. While this is a relatively simplified example, you can see why this would be useful if we had an array of a thousand of these objects. We wouldn’t need to look into what class they were originally instantiated from, we just know that it works.&lt;/p&gt;
+&lt;p&gt;If you had an array of &lt;code&gt;Animal&lt;/code&gt;, &lt;code&gt;Dog&lt;/code&gt; or &lt;code&gt;Cat&lt;/code&gt; objects as shown above, you can call the &lt;code&gt;make_noise&lt;/code&gt; method on all of them and it will return the &lt;strong&gt;correct&lt;/strong&gt; output as expected. While this is a relatively simplified example, you can see why this would be useful if we had an array of a thousand of these objects. We wouldn’t need to look into what class they were originally instantiated from, we just know that it works.&lt;/p&gt;
 </description>
         <pubDate>Mon, 29 Dec 2014 17:07:00 +0000</pubDate>
         <link>/polymorphism/2014/12/29/what-is-polymorphism/</link>
@@ -113,10 +254,11 @@
         <description>&lt;p&gt;The fastest way I’ve found to install sublime text 2.&lt;/p&gt;
 
 &lt;p&gt;Copy and paste the following into the terminal&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;repository&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;ppa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;webupd8team&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sublime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;update&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sublime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;pre&gt;
+sudo add-apt-repository ppa:webupd8team/sublime-text-2
+sudo apt-get update
+sudo apt-get install sublime-text
+&lt;/pre&gt;
 
 &lt;p&gt;After running this, Sublime Text 2 should have been installed within the /usr/lib/sublime-text-2 directory and can be launched from the Dashboard
 Alternatively by typing &lt;strong&gt;subl&lt;/strong&gt;, &lt;strong&gt;sublime-text&lt;/strong&gt; or &lt;strong&gt;sublime-text-2&lt;/strong&gt; into a Terminal window.&lt;/p&gt;
@@ -310,21 +452,24 @@ Alternatively by typing &lt;strong&gt;subl&lt;/strong&gt;, &lt;strong&gt;sublime
 &lt;p&gt;Port forwarding allows remote computers (for example, computers on the Internet) to connect to a specific computer or service within a private local-area network (LAN) - &lt;em&gt;according to wikipedia&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;One benefit of using port forwarding is that it allows you to run tasks on the command-line without having to work directly in VirtualBox by using your host terminal.
-&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;First thing I did was to install the OpenSSH client applications on Ubuntu&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;openssh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;server&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;pre&gt;
+sudo apt-get install openssh-server
+&lt;/pre&gt;
 
 &lt;p&gt;&lt;br /&gt;
 Then to setup a port forwarding into the guest’s port 22 so I can access it from my host terminal.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;To enable port forwarding, open the settings for your Virtual Machine &lt;strong&gt;(For OS X)&lt;/strong&gt;&lt;br /&gt;
-  &lt;em&gt;You can do this from the VirtualBox Manager, choose Settings(found on the top left)&lt;/em&gt;&lt;/li&gt;
-  &lt;br /&gt;
-  &lt;li&gt;Select the &lt;strong&gt;Network&lt;/strong&gt; tab&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To enable port forwarding, open the settings for your Virtual Machine &lt;strong&gt;(For OS X)&lt;/strong&gt;&lt;br /&gt;
+&lt;em&gt;You can do this from the VirtualBox Manager, choose Settings(found on the top left)&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Select the &lt;strong&gt;Network&lt;/strong&gt; tab&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/port_forwarding_1.png&quot; /&gt;&lt;/p&gt;
@@ -337,12 +482,10 @@ Then to setup a port forwarding into the guest’s port 22 so I can access it fr
 &lt;p&gt;&lt;img src=&quot;/assets/media/port_forwarding_2.png&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Pick a port on our Host, for example 2222, and forward TCP connections received on this port, to port 22/TCP (SSH) on our guest.
-    (&lt;em&gt;To do this, click on the green (+) button on the right&lt;/em&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-  &lt;li&gt;Host IP is set to nothing - this is on purpose, and is equivalent to saying 0.0.0.0.
-    However, it does mean that ANY MACHINE that can access your Host on TCP port 2222 will be able to talk to the SSH on your guest. &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pick a port on our Host, for example 2222, and forward TCP connections received on this port, to port 22/TCP (SSH) on our guest. (&lt;em&gt;To do this, click on the green (+) button on the right&lt;/em&gt;).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Host IP is set to nothing - this is on purpose, and is equivalent to saying 0.0.0.0. However, it does mean that ANY MACHINE that can access your Host on TCP port 2222 will be able to talk to the SSH on your guest. &lt;/li&gt;
   &lt;li&gt;Theres no need to change the Guest IP so leave it blank.&lt;/li&gt;
   &lt;li&gt;Now confirm all the changes and click &lt;strong&gt;ok&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;Restart the Virtual Machine so the changes are applied&lt;/li&gt;
@@ -350,26 +493,26 @@ Then to setup a port forwarding into the guest’s port 22 so I can access it fr
 
 &lt;p&gt;Now you should be ready to connect to the guest.
 &lt;em&gt;Note: Make sure you have created a username on your guest. You cannot log in as root using SSH`&lt;/em&gt;
-&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Start your VM.
 In your terminal enter:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;ssh&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user_name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2222&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;127&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;pre&gt;
+ssh -l [user_name] -p 2222 127.0.0.1
+&lt;/pre&gt;
 
-&lt;p&gt;&lt;em&gt;Don’t forget to replace &lt;strong&gt;[user_name]&lt;/strong&gt; with the user you created.&lt;/em&gt;
-&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Don’t forget to replace &lt;strong&gt;[user_name]&lt;/strong&gt; with the user you created.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;You will be prompted to accept the host key so be sure to enter &lt;strong&gt;yes&lt;/strong&gt;. Then finally you’ll be prompted to enter the password for the username:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user_name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;127&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;password&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;pre&gt;
+[user_name]@127.0.0.1&#39;s password:
+&lt;/pre&gt;
 
 &lt;p&gt;Enter your password and you should now be logged in!&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;
-Now you should be able to run commands in the terminal without going into the VM directly. Great for running specs for your rails applications or adding new gems and tools.&lt;/p&gt;
-
+&lt;p&gt;Now you should be able to run commands in the terminal without going into the VM directly. Great for running specs for your rails applications or adding new gems and tools.&lt;/p&gt;
 </description>
         <pubDate>Thu, 31 Jul 2014 11:43:30 +0100</pubDate>
         <link>/virtual-box/ubuntu/2014/07/31/port-forwarding/</link>
@@ -391,18 +534,15 @@ Now you should be able to run commands in the terminal without going into the VM
 &lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;migrate&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;seed&lt;/span&gt;
 
-
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; And for the test environment&lt;/span&gt;
-
 &lt;span class=&quot;no&quot;&gt;RAILS_ENV&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;drop&lt;/span&gt;
 &lt;span class=&quot;no&quot;&gt;RAILS_ENV&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;create&lt;/span&gt;
 &lt;span class=&quot;no&quot;&gt;RAILS_ENV&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;migrate&lt;/span&gt;
 &lt;span class=&quot;no&quot;&gt;RAILS_ENV&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;seed&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;br /&gt;
-This as you can tell can be very tedious. It got me thinking ‘What if there was a way to do all of that in one command’. Turns out there is, one way to do it is to create a rake task to run them one after the other.&lt;/p&gt;
+&lt;p&gt;This as you can tell can be very tedious. It got me thinking ‘What if there was a way to do all of that in one command’. Turns out there is, one way to do it is to create a rake task to run them one after the other.&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;You can name your task what ever you like&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;You can name your task what ever you like:&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; /lib/tasks/db.rake&lt;/span&gt;
 
@@ -427,8 +567,7 @@ With this all you have to do is run the following rake command:
 
 &lt;span class=&quot;no&quot;&gt;RAILS_ENV&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rake&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;db&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rebuild&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;br /&gt;
-And there you have it, a single rake task for both test and development which drops the database, recreates it again, runs a migration and finally the seeds. Be sure not to use this in production because it will drop any data you have in your database.&lt;/p&gt;
+&lt;p&gt;And there you have it, a single rake task for both test and development which drops the database, recreates it again, runs a migration and finally the seeds. Be sure not to use this in production because it will drop any data you have in your database.&lt;/p&gt;
 </description>
         <pubDate>Wed, 30 Jul 2014 12:41:30 +0100</pubDate>
         <link>/ruby/rails/2014/07/30/rake-db-rebuild/</link>

@@ -36,6 +36,7 @@ body {
   font: {
     size: 100%;
     family: $primary-font; // variables inside partials > _variables.scss
+    weight: 300;
   }
 }
 
@@ -118,7 +119,7 @@ p {
   line-height: 1.6;
   @include font-size(14px);
   @include MQ(M) {
-    @include font-size(14px);
+    @include font-size(16px);
   }
 }
 
@@ -275,6 +276,9 @@ footer.main-footer {
       padding-right: 10px;        
       @include MQ(M) {
         @include font-size(16px);          
+      }
+      a {
+        color: $base-07;
       }
     }
   }
@@ -475,6 +479,10 @@ body.theme-base-01 {
     @extend .default-anchor;   
   }
 
+  .menu.footer {
+    color:#f9f7f3;
+  }
+
   footer.main-footer {
     background-color: $base-01;
     color: $base-07;
@@ -546,8 +554,8 @@ code, pre {
 code {  
   padding: .25em .5em;
   font-size: 85%;
-  color: $base-08;
-  background-color: rgba($base-08, .1);
+  color: $color-2;
+  background-color: rgba($color-2, .1);
 }
 pre {
   display: block;
@@ -560,7 +568,7 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: $color-white;
+  background-color: $code-bg;
   border: 1px solid $base-05;
   code {
     padding: 0;

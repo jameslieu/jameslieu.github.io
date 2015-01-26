@@ -14,9 +14,7 @@ rake db:create
 rake db:migrate
 rake db:seed
 
-
 #=> And for the test environment
-
 RAILS_ENV=test rake db:drop
 RAILS_ENV=test rake db:create
 RAILS_ENV=test rake db:migrate
@@ -24,10 +22,9 @@ RAILS_ENV=test rake db:seed
 
 {% endhighlight %}
 
-<br />
 This as you can tell can be very tedious. It got me thinking 'What if there was a way to do all of that in one command'. Turns out there is, one way to do it is to create a rake task to run them one after the other.
 
-`You can name your task what ever you like`
+You can name your task what ever you like:
 {% highlight ruby %}
 #=> /lib/tasks/db.rake
 
@@ -53,6 +50,4 @@ rake db:rebuild
 
 RAILS_ENV=test rake db:rebuild
 {% endhighlight %}
-
-<br />
 And there you have it, a single rake task for both test and development which drops the database, recreates it again, runs a migration and finally the seeds. Be sure not to use this in production because it will drop any data you have in your database.

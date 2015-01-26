@@ -14,8 +14,8 @@ I love the fact that coding presents the opportunity for me to design, create an
 
 #### Contact me
 
-Find me on [Github][github] / [Twitter][Twitter] or just say `Hello` at 
-[info@jameslieu.co.uk](info@jameslieu.co.uk).
+Find me on [Github][github] / [Twitter][Twitter] or just say Hello at 
+`info@jameslieu.co.uk`.
 
 
 [github]: https://github.com/jamesl88

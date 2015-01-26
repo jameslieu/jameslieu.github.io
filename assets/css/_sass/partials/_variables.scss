@@ -4,7 +4,7 @@ $color-white: #FFF;
 $color-black: #000;
 
 $color-1: $color-white;
-$color-2: #515151;
+$color-2: #3C3C3C; // Font colour?
 
 // Color schemes for themes based on https://github.com/chriskempson/base16
 $base-00: #2b2b2b;
@@ -24,7 +24,8 @@ $base-0D: #6d9cbe;
 $base-0E: #b6b3eb;
 $base-0F: #bc9458;
 
+$code-bg: #F9F9F9;
 
 
 // Fonts 
-$primary-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$primary-font: "Roboto","Helvetica Neue", Helvetica, Arial, sans-serif;
