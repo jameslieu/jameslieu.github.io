@@ -5,9 +5,48 @@
     <description>Hi I&#39;m James and I&#39;m a web developer</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 26 Jan 2015 01:39:53 +0000</pubDate>
-    <lastBuildDate>Mon, 26 Jan 2015 01:39:53 +0000</lastBuildDate>
+    <pubDate>Sun, 15 Mar 2015 20:34:36 +0000</pubDate>
+    <lastBuildDate>Sun, 15 Mar 2015 20:34:36 +0000</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Autocomplete git commands and branch names</title>
+        <description>&lt;p&gt;In bash in Mac OS X, you can use [TAB] to autocomplete file paths. By default this doesn’t work with git commands,  I’ll have to manually configurate it. Here’s how:&lt;/p&gt;
+
+&lt;p&gt;Paste this command into the terminal, this will download the &lt;code&gt;git-completion.bash&lt;/code&gt; script needed to execute the autocomplete:&lt;/p&gt;
+&lt;pre&gt;
+  curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+&lt;/pre&gt;
+
+&lt;p&gt;Next, add this to the &lt;code&gt;.bash_profile&lt;/code&gt;. This line will tell bash to execute the git autocomplete script if it exists.&lt;/p&gt;
+
+&lt;pre&gt;
+  if [ -f ~/.git-completion.bash ]; then
+    . ~/.git-completion.bash
+  fi
+&lt;/pre&gt;
+
+&lt;p&gt;Restart bash and then autocomplete should work for git commands&lt;/p&gt;
+
+&lt;p&gt;If this doesn’t work right off the bat, permission is probably needed to run the script:&lt;/p&gt;
+&lt;pre&gt;
+  chmod -X ~/.git-completion.bash
+&lt;/pre&gt;
+
+&lt;p&gt;When working in git I tend to come across or create long-winded git branch names so being able to autocomplete this will definietely improve my workflow.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 15 Mar 2015 20:15:00 +0000</pubDate>
+        <link>/git/branch/autocomplete/2015/03/15/Autocomplete-git-commands-and-branch-names/</link>
+        <guid isPermaLink="true">/git/branch/autocomplete/2015/03/15/Autocomplete-git-commands-and-branch-names/</guid>
+        
+        
+        <category>git</category>
+        
+        <category>branch</category>
+        
+        <category>autocomplete</category>
+        
+      </item>
     
       <item>
         <title>Simply git-rebase</title>

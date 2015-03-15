@@ -3,11 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Blog archive</title>
+        <title>Autocomplete git commands and branch names</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">        
         <meta name="description" content="Hi I'm James and I'm a web developer">
         <link rel="canonical" 
-        href="/blog/">
+        href="/git/branch/autocomplete/2015/03/15/Autocomplete-git-commands-and-branch-names/">
         
         <!-- Harmony styles -->
         <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
@@ -49,60 +49,87 @@
             </div>
         </header>
         <div class="page-content wc-container">
-  <h3>Blog Archive</h3>  
-  
-  	
-  	
-    	
-    		<h5>2015</h5>
-    		<ul class="posts">
-    		 
-  		
-    <li><a href="/git/branch/autocomplete/2015/03/15/Autocomplete-git-commands-and-branch-names/">Autocomplete git commands and branch names</a></li>
+	
+	<div class="post">
+		<h3>Autocomplete git commands and branch names</h3>
+		<p class="post-meta">
+			
+      <span class="categories">
+      git, branch, and autocomplete
+      </span> |
+	    
+	    <span class="post-date">
+    	Mar 15, 2015 
+	    </span>
+		</p>		
+		<div class="post">
+			<p>In bash in Mac OS X, you can use [TAB] to autocomplete file paths. By default this doesn’t work with git commands,  I’ll have to manually configurate it. Here’s how:</p>
 
-  	
-  	
-    <li><a href="/git-rebase/git/rebase/2015/01/25/simply-git-rebasing/">Simply git-rebase</a></li>
+<p>Paste this command into the terminal, this will download the <code>git-completion.bash</code> script needed to execute the autocomplete:</p>
+<pre>
+  curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+</pre>
 
-  	
-  	
-    	</ul>
-    		<h5>2014</h5>
-    		<ul class="posts">
-    		 
-  		
-    <li><a href="/polymorphism/2014/12/29/what-is-polymorphism/">What is Polymorphism?</a></li>
+<p>Next, add this to the <code>.bash_profile</code>. This line will tell bash to execute the git autocomplete script if it exists.</p>
 
-  	
-  	
-    <li><a href="/sublime/text/ubuntu/linux/2014/08/13/install-sublime-text-2/">Install Sublime Text 2 on Ubuntu</a></li>
+<pre>
+  if [ -f ~/.git-completion.bash ]; then
+    . ~/.git-completion.bash
+  fi
+</pre>
 
-  	
-  	
-    <li><a href="/ssh/2014/08/05/linux-cheatsheet/">Bash command line for Linux - Cheat Sheet</a></li>
+<p>Restart bash and then autocomplete should work for git commands</p>
 
-  	
-  	
-    <li><a href="/virtual-box/ubuntu/2014/07/31/port-forwarding/">How to setup port forwarding on VirtualBox</a></li>
+<p>If this doesn’t work right off the bat, permission is probably needed to run the script:</p>
+<pre>
+  chmod -X ~/.git-completion.bash
+</pre>
 
-  	
-  	
-    <li><a href="/ruby/rails/2014/07/30/rake-db-rebuild/">Dropping and resetting database all in one rake task</a></li>
+<p>When working in git I tend to come across or create long-winded git branch names so being able to autocomplete this will definietely improve my workflow.</p>
 
-  	
-  	
-    <li><a href="/ruby/rails/2014/07/29/my-first-post/">My first post!</a></li>
-
-  	
-  	
-    <li><a href="/blog/jekyll/2014/07/28/welcome-to-jekyll/">What is Jekyll!</a></li>
-
-  	
-  	
-    <li><a href="/sample-post">Sample post from harmony</a></li>
+		</div>
+	</div>
 
 
-</ul></div>
+	
+	<div class="related">
+		<h4>Related Posts</h2>
+		<ul class="posts">
+		    
+		    <li>
+			  <span>25 Jan 2015 &raquo;</span>
+			  <a href="/git-rebase/git/rebase/2015/01/25/simply-git-rebasing/">Simply git-rebase</a>
+		    </li>
+		    
+		    <li>
+			  <span>29 Dec 2014 &raquo;</span>
+			  <a href="/polymorphism/2014/12/29/what-is-polymorphism/">What is Polymorphism?</a>
+		    </li>
+		    
+		    <li>
+			  <span>13 Aug 2014 &raquo;</span>
+			  <a href="/sublime/text/ubuntu/linux/2014/08/13/install-sublime-text-2/">Install Sublime Text 2 on Ubuntu</a>
+		    </li>
+		    
+		</ul>
+	</div>
+	
+
+	<div class="post-footer">
+		<div class="column-1">
+			
+				<a href="/git-rebase/git/rebase/2015/01/25/simply-git-rebasing/"><< Older</a>
+			
+		</div>
+		<div class="column-2"><a href="/ ">Home</a></div>
+		<div class="column-3">
+			
+				<span>Newer >></span>
+			
+		</div>
+	</div>
+</div>
+ 
 
         <footer class="main-footer">
             <div class="wc-container">
