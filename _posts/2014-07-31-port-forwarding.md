@@ -53,6 +53,12 @@ Start your VM.
 In your terminal enter:
 
 <pre>
+ssh [user_name]@127.0.0.1 -p 2222
+</pre>
+
+or
+
+<pre>
 ssh -l [user_name] -p 2222 127.0.0.1
 </pre>
 
