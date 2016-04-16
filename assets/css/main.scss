@@ -61,6 +61,56 @@ body {
   background-position: center center;
 }
 
+div.page-content div.style-ol ol {
+  counter-reset: first-counter;
+  list-style-type: none;
+  position: relative;
+  padding-left: 20px;
+  margin-left: 15px;
+}
+
+div.page-content div.style-ol ol li {
+  margin: 10px 0;
+}
+
+div.page-content div.style-ol ol li:before {
+  content: counter(first-counter) '.';
+  counter-increment: first-counter;
+  position: absolute;
+  left: 0px;
+}
+
+div.page-content div.style-ol ol ol {
+  counter-reset: second-counter;
+  list-style-type: none;
+}
+
+div.page-content div.style-ol ol ol li {
+  padding-left: 15px;
+}
+
+div.page-content div.style-ol ol ol li:before {
+  content: counter(second-counter, lower-alpha) '.';
+  counter-increment: second-counter;
+  list-style-type: none;
+  left: 10px;
+  position: absolute;
+}
+
+div.page-content div.style-ol ol ol ol {
+  counter-reset: third-counter;
+}
+
+div.page-content div.style-ol ol ol ol li {
+  padding-left: 15px;
+}
+
+div.page-content div.style-ol ol ol ol li:before {
+  list-style-type: none;
+  content: counter(third-counter, lower-roman) '.';
+  counter-increment: third-counter;
+}
+
 /* --------------------------------
 
  Small Typography
@@ -397,7 +447,7 @@ div.page-content {
       }
     }
   }
-  ol { 
+div.page-content div.style-ol ol { 
     @include font-size(12px);
     // padding-top: 1em;
     padding-bottom: 1em;

@@ -3,11 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Autocomplete git commands and branch names</title>
+        <title>How to style nested ordered lists using css</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">        
         <meta name="description" content="Hi I'm James and I'm a web developer">
         <link rel="canonical" 
-        href="/git/branch/autocomplete/2015/03/15/Autocomplete-git-commands-and-branch-names/">
+        href="/css/2016/04/15/how-to-style-ordered-lists-using-css/">
         
         <!-- Harmony styles -->
         <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
@@ -51,41 +51,151 @@
         <div class="page-content wc-container">
 	
 	<div class="post">
-		<h3>Autocomplete git commands and branch names</h3>
+		<h3>How to style nested ordered lists using css</h3>
 		<p class="post-meta">
 			
       <span class="categories">
-      git, branch, and autocomplete
+      css
       </span> |
 	    
 	    <span class="post-date">
-    	Mar 15, 2015 
+    	Apr 15, 2016 
 	    </span>
 		</p>		
 		<div class="post">
-			<p>In bash in Mac OS X, you can use [TAB] to autocomplete file paths. By default this doesn’t work with git commands,  I’ll have to manually configurate it. Here’s how:</p>
+			<p>I’ve found that it can be quite difficult to figure out how to style ordered lists using css. Imagine if I needed to put together a contract or Terms and conditions document using HTML and CSS.</p>
 
-<p>Paste this command into the terminal, this will download the <code>git-completion.bash</code> script needed to execute the autocomplete:</p>
+<p>An example can look something like this:</p>
+
+<div class="style-ol">
+  <ol>
+    <li>
+      Alpha
+    </li>
+    <li>
+      Beta
+    </li>
+    <li>
+      Charlie
+    </li>
+    <ol>
+      <li>
+        Delta
+      </li>
+      <li>
+        Echo
+      </li>
+      <ol>
+        <li>
+          Foxtrot
+        </li>
+        <li>
+          Golf
+        </li>
+        <li>
+          Hotel
+        </li>
+      </ol>
+    </ol>
+  </ol>
+</div>
+
+<p>Its not uncommon for contracts to use sub sections and so the document will likely use nested ordered lists (when using HTML). In the example above, the first list style is numeric, the second are made up of letters and the third in roman numerals:</p>
+
+<p>Here is what the css would look like:</p>
+
 <pre>
-  curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+  ol {
+    counter-reset: first-counter;
+    list-style-type: none;
+    position: relative;
+    padding-left: 20px;
+    margin-left: 15px;
+  }
+
+  ol li {
+    margin: 10px 0;
+  }
+
+  ol li:before {
+    content: counter(first-counter) '.';
+    counter-increment: first-counter;
+    position: absolute;
+    left: 0px;
+  }
+
+  ol ol {
+    counter-reset: second-counter;
+    list-style-type: none;
+  }
+
+  ol ol li {
+    padding-left: 15px;
+  }
+
+  ol ol li:before {
+    content: counter(second-counter, lower-alpha) '.';
+    counter-increment: second-counter;
+    list-style-type: none;
+    left: 10px;
+    position: absolute;
+  }
+
+  ol ol ol {
+    counter-reset: third-counter;
+  }
+
+  ol ol ol li {
+    padding-left: 15px;
+  }
+
+  ol ol ol li:before {
+    list-style-type: none;
+    content: counter(third-counter, lower-roman) '.';
+    counter-increment: third-counter;
+  }
 </pre>
 
-<p>Next, add this to the <code>.bash_profile</code>. This line will tell bash to execute the git autocomplete script if it exists.</p>
+<p>Firstly, you’ll have to use <code>counter-reset</code>, and give it a sensible variable name e.g. <code>first-counter</code>, <code>second-counter</code> and <code>third-counter</code>.</p>
 
 <pre>
-  if [ -f ~/.git-completion.bash ]; then
-    . ~/.git-completion.bash
-  fi
+  ol {
+    counter-reset: first-counter;
+    list-style-type: none;
+    position: relative;
+    padding-left: 20px;
+    margin-left: 15px;
+  }
 </pre>
 
-<p>Restart bash and then autocomplete should work for git commands</p>
+<p>I then set <code>list-style-type: none;</code>, which pretty much removes the list style completely</p>
 
-<p>If this doesn’t work right off the bat, permission is probably needed to run the script:</p>
 <pre>
-  chmod -X ~/.git-completion.bash
+  ol li:before {
+    content: counter(first-counter) '.';
+    counter-increment: first-counter;
+    position: absolute;
+    left: 0px;
+  }
 </pre>
 
-<p>When working in git I tend to come across or create long-winded git branch names so being able to autocomplete this will definietely improve my workflow.</p>
+<p>Then in the psudo-element <code>:before</code>, you append the content style <code>content: counter(first-counter)</code>
+<code>first-counter</code> is the variable you declared earlier and will be incremented using <code>counter-increment</code>. Then you’ll need to use the <code>position</code> style to adjust the position accordingly.</p>
+
+<p>To change the list style type you can pass that in as a second argument 
+<code>content: counter(second-counter, lower-alpha) '.';</code></p>
+
+<p>And finally, if I wanted to change the character (decimal point) after the list-style, all I have to do is change the string: <code>content: counter(first-counter) '%';</code></p>
+
+<pre>
+  1% foo
+  2% bar
+  3% baz
+</pre>
+
+<p>As you can see, this is extremely hacky and at the moment seems to be the only way you can style nested ordered lists this way.</p>
+
+<p>In any case, it felt great to have finally found the solution, and I’ll definitely be refering to this post next time I’m asked to style ordered lists.</p>
 
 		</div>
 	</div>
@@ -97,13 +207,13 @@
 		<ul class="posts">
 		    
 		    <li>
-			  <span>15 Apr 2016 &raquo;</span>
-			  <a href="/css/2016/04/15/how-to-style-nested-ordered-lists-using-css/">How to style nested ordered lists using css</a>
+			  <span>04 Oct 2015 &raquo;</span>
+			  <a href="/sublime/text/ubuntu/linux/2015/10/04/launch-sublime-3-using-terminal/">Launch Sublime Text 3 using command line</a>
 		    </li>
 		    
 		    <li>
-			  <span>04 Oct 2015 &raquo;</span>
-			  <a href="/sublime/text/ubuntu/linux/2015/10/04/launch-sublime-3-using-terminal/">Launch Sublime Text 3 using command line</a>
+			  <span>15 Mar 2015 &raquo;</span>
+			  <a href="/git/branch/autocomplete/2015/03/15/Autocomplete-git-commands-and-branch-names/">Autocomplete git commands and branch names</a>
 		    </li>
 		    
 		    <li>
@@ -118,13 +228,13 @@
 	<div class="post-footer">
 		<div class="column-1">
 			
-				<a href="/git-rebase/git/rebase/2015/01/25/simply-git-rebasing/"><< Older</a>
+				<a href="/sublime/text/ubuntu/linux/2015/10/04/launch-sublime-3-using-terminal/"><< Older</a>
 			
 		</div>
 		<div class="column-2"><a href="/ ">Home</a></div>
 		<div class="column-3">
 			
-				<a href="/sublime/text/ubuntu/linux/2015/10/04/launch-sublime-3-using-terminal/">Newer >></a>
+				<span>Newer >></span>
 			
 		</div>
 	</div>

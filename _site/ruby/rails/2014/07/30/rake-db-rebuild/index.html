@@ -65,7 +65,7 @@
 		<div class="post">
 			<p>When building a new Rails app, I’ve found that I constantly have had to drop the database, create it, run a migration and finally the seed.</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">drop</span>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">drop</span>
 <span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">create</span>
 <span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">migrate</span>
 <span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">seed</span>
@@ -74,13 +74,13 @@
 <span class="no">RAILS_ENV</span><span class="o">=</span><span class="nb">test</span> <span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">drop</span>
 <span class="no">RAILS_ENV</span><span class="o">=</span><span class="nb">test</span> <span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">create</span>
 <span class="no">RAILS_ENV</span><span class="o">=</span><span class="nb">test</span> <span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">migrate</span>
-<span class="no">RAILS_ENV</span><span class="o">=</span><span class="nb">test</span> <span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">seed</span></code></pre></div>
+<span class="no">RAILS_ENV</span><span class="o">=</span><span class="nb">test</span> <span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">seed</span></code></pre></figure>
 
 <p>This as you can tell can be very tedious. It got me thinking ‘What if there was a way to do all of that in one command’. Turns out there is, one way to do it is to create a rake task to run them one after the other.</p>
 
 <p>You can name your task what ever you like:</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#=&gt; /lib/tasks/db.rake</span>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#=&gt; /lib/tasks/db.rake</span>
 
 <span class="n">namespace</span> <span class="ss">:db</span> <span class="k">do</span>
   <span class="n">task</span> <span class="ss">:rebuild</span> <span class="o">=&gt;</span> <span class="ss">:environment</span> <span class="k">do</span>
@@ -92,16 +92,16 @@
     <span class="nb">puts</span> <span class="no">Rake</span><span class="o">::</span><span class="no">Task</span><span class="o">[</span><span class="s2">&quot;db:migrate&quot;</span><span class="o">].</span><span class="n">invoke</span>
     <span class="nb">puts</span> <span class="no">Rake</span><span class="o">::</span><span class="no">Task</span><span class="o">[</span><span class="s2">&quot;db:seed&quot;</span><span class="o">].</span><span class="n">invoke</span> <span class="k">if</span> <span class="no">Rails</span><span class="o">.</span><span class="n">env</span> <span class="o">==</span> <span class="s1">&#39;development&#39;</span>
   <span class="k">end</span>
-<span class="k">end</span></code></pre></div>
+<span class="k">end</span></code></pre></figure>
 
 <p><br />
 With this all you have to do is run the following rake command:
 <br />
 <code>NOTE: it goes without saying, NEVER use this in production!</code></p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">rebuild</span>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">rebuild</span>
 
-<span class="no">RAILS_ENV</span><span class="o">=</span><span class="nb">test</span> <span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">rebuild</span></code></pre></div>
+<span class="no">RAILS_ENV</span><span class="o">=</span><span class="nb">test</span> <span class="n">rake</span> <span class="ss">db</span><span class="p">:</span><span class="n">rebuild</span></code></pre></figure>
 
 <p>And there you have it, a single rake task for both test and development which drops the database, recreates it again, runs a migration and finally the seeds. Be sure not to use this in production because it will drop any data you have in your database.</p>
 
@@ -115,6 +115,11 @@ With this all you have to do is run the following rake command:
 		<ul class="posts">
 		    
 		    <li>
+			  <span>15 Apr 2016 &raquo;</span>
+			  <a href="/css/2016/04/15/how-to-style-nested-ordered-lists-using-css/">How to style nested ordered lists using css</a>
+		    </li>
+		    
+		    <li>
 			  <span>04 Oct 2015 &raquo;</span>
 			  <a href="/sublime/text/ubuntu/linux/2015/10/04/launch-sublime-3-using-terminal/">Launch Sublime Text 3 using command line</a>
 		    </li>
@@ -122,11 +127,6 @@ With this all you have to do is run the following rake command:
 		    <li>
 			  <span>15 Mar 2015 &raquo;</span>
 			  <a href="/git/branch/autocomplete/2015/03/15/Autocomplete-git-commands-and-branch-names/">Autocomplete git commands and branch names</a>
-		    </li>
-		    
-		    <li>
-			  <span>25 Jan 2015 &raquo;</span>
-			  <a href="/git-rebase/git/rebase/2015/01/25/simply-git-rebasing/">Simply git-rebase</a>
 		    </li>
 		    
 		</ul>
