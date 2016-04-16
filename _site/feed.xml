@@ -5,13 +5,15 @@
     <description>Hi I&#39;m James and I&#39;m a web developer</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 16 Apr 2016 01:04:27 +0100</pubDate>
-    <lastBuildDate>Sat, 16 Apr 2016 01:04:27 +0100</lastBuildDate>
+    <pubDate>Sat, 16 Apr 2016 01:06:18 +0100</pubDate>
+    <lastBuildDate>Sat, 16 Apr 2016 01:06:18 +0100</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       <item>
         <title>How to style nested ordered lists using css</title>
         <description>&lt;p&gt;I’ve found that it can be quite difficult to figure out how to style nested ordered lists using css. Imagine if I needed to put together a contract or Terms and conditions document using HTML and CSS.&lt;/p&gt;
+
+&lt;p&gt;Its not uncommon for contracts to use sub sections and so the document will likely use nested ordered lists in HTML. What if the sub sections are styled differently?&lt;/p&gt;
 
 &lt;p&gt;An example can look something like this:&lt;/p&gt;
 
@@ -47,8 +49,6 @@
     &lt;/ol&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
-
-&lt;p&gt;Its not uncommon for contracts to use sub sections and so the document will likely use nested ordered lists in HTML. What if the sub sections are styled differently?&lt;/p&gt;
 
 &lt;p&gt;In the example above, the first list style is numeric, the second are made up of letters and the third using roman numerals:&lt;/p&gt;
 

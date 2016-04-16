@@ -8,6 +8,8 @@ comments: true
 
 I've found that it can be quite difficult to figure out how to style nested ordered lists using css. Imagine if I needed to put together a contract or Terms and conditions document using HTML and CSS.
 
+Its not uncommon for contracts to use sub sections and so the document will likely use nested ordered lists in HTML. What if the sub sections are styled differently? 
+
 An example can look something like this:
 
 <div class='style-ol'>
@@ -42,8 +44,6 @@ An example can look something like this:
     </ol>
   </ol>
 </div>
-
-Its not uncommon for contracts to use sub sections and so the document will likely use nested ordered lists in HTML. What if the sub sections are styled differently? 
 
 In the example above, the first list style is numeric, the second are made up of letters and the third using roman numerals:
 
