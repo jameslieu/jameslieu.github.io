@@ -4,12 +4,24 @@ title: About me
 permalink: /about/
 ---
 
-Hi, I am James Lieu, a developer.
+Hi, I am James Lieu, a Software engineer.
 
-I've experienced creative side of the industry and from there I have discovered the technical. 
-Learning to code provides the right amount of challenge as well as a chance to work with passionate and creative people.
+With a background in Illustration and Animation, I evolved my career to become a full-time web developer, firstly by taking a leap of faith and enrolling in the web development bootcamp known as Makers Academy (makersacademy.com). 
 
-I love the fact that coding presents the opportunity for me to design, create and to constantly educate myself.
+I enjoy programming as it provides a challenging environment as well as the opportunity to work with passionate and creative people.
+
+I also appreciate the chance it offers for me to design, create and constantly educate myself.
+
+- Ruby
+- Ruby on Rails
+- Javascript
+- jQuery
+- HTML
+- CSS
+- GIT
+- Rspec (incl RR)
+- ReactJS (currently studying)
+- C# (currently studying)
 
 
 #### Contact me
