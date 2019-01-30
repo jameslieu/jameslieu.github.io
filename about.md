@@ -4,7 +4,7 @@ title: About me
 permalink: /about/
 ---
 
-Hi, I am James Lieu, a Software engineer.
+Hi, I am James Lieu
 
 I'm a web developer with 5+ years of commercial experience. I am familiar with the SOLID principles, OOP, MVC, ORM, API development, relational database design and RESTful conventions.
 
