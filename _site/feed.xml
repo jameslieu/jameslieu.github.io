@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <description>Hi I&#39;m James and I&#39;m a web developer</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 16 Apr 2016 01:20:44 +0100</pubDate>
-    <lastBuildDate>Sat, 16 Apr 2016 01:20:44 +0100</lastBuildDate>
-    <generator>Jekyll v3.0.3</generator>
+    <description>Hi I'm James and I'm a web developer</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 30 Jan 2019 09:12:24 +0000</pubDate>
+    <lastBuildDate>Wed, 30 Jan 2019 09:12:24 +0000</lastBuildDate>
+    <generator>Jekyll v3.7.4</generator>
     
       <item>
         <title>How to style nested ordered lists using css</title>
@@ -68,7 +68,7 @@
   }
 
   ol li:before {
-    content: counter(first-counter) &#39;.&#39;;
+    content: counter(first-counter) '.';
     counter-increment: first-counter;
     position: absolute;
     left: 0px;
@@ -84,7 +84,7 @@
   }
 
   ol ol li:before {
-    content: counter(second-counter, lower-alpha) &#39;.&#39;;
+    content: counter(second-counter, lower-alpha) '.';
     counter-increment: second-counter;
     list-style-type: none;
     left: 10px;
@@ -101,7 +101,7 @@
 
   ol ol ol li:before {
     list-style-type: none;
-    content: counter(third-counter, lower-roman) &#39;.&#39;;
+    content: counter(third-counter, lower-roman) '.';
     counter-increment: third-counter;
   }
 &lt;/pre&gt;
@@ -122,7 +122,7 @@
 
 &lt;pre&gt;
   ol li:before {
-    content: counter(first-counter) &#39;.&#39;;
+    content: counter(first-counter) '.';
     counter-increment: first-counter;
     position: absolute;
     left: 0px;
@@ -137,7 +137,7 @@
 &lt;p&gt;Increment using &lt;code&gt;counter-increment&lt;/code&gt;. Then you’ll need to use the &lt;code&gt;position&lt;/code&gt; style to adjust the position accordingly.&lt;/p&gt;
 
 &lt;p&gt;To change the list style type you can pass that in as a second argument 
-&lt;code&gt;content: counter(second-counter, lower-alpha) &#39;.&#39;;&lt;/code&gt;&lt;/p&gt;
+&lt;code&gt;content: counter(second-counter, lower-alpha) '.';&lt;/code&gt;&lt;/p&gt;
 
 &lt;pre&gt;
   a. foo
@@ -145,7 +145,7 @@
   c. baz
 &lt;/pre&gt;
 
-&lt;p&gt;And finally, if I wanted to change the character (decimal point) after the list-style, all I have to do is change the string: &lt;code&gt;content: counter(first-counter) &#39;%&#39;;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;And finally, if I wanted to change the character (decimal point) after the list-style, all I have to do is change the string: &lt;code&gt;content: counter(first-counter) '%';&lt;/code&gt;&lt;/p&gt;
 
 &lt;pre&gt;
   1% foo
@@ -158,8 +158,8 @@
 &lt;p&gt;In any case, it felt great to have finally found the solution, and I’ll definitely be refering to this post next time I’m asked to style ordered lists.&lt;/p&gt;
 </description>
         <pubDate>Fri, 15 Apr 2016 23:51:00 +0100</pubDate>
-        <link>/css/2016/04/15/how-to-style-nested-ordered-lists-using-css/</link>
-        <guid isPermaLink="true">/css/2016/04/15/how-to-style-nested-ordered-lists-using-css/</guid>
+        <link>http://localhost:4000/css/2016/04/15/how-to-style-nested-ordered-lists-using-css/</link>
+        <guid isPermaLink="true">http://localhost:4000/css/2016/04/15/how-to-style-nested-ordered-lists-using-css/</guid>
         
         
         <category>css</category>
@@ -182,8 +182,8 @@
 &lt;p&gt;Now typing &lt;code&gt;subl&lt;/code&gt; in the command line should open Sublime&lt;/p&gt;
 </description>
         <pubDate>Sun, 04 Oct 2015 14:35:00 +0100</pubDate>
-        <link>/sublime/text/ubuntu/linux/2015/10/04/launch-sublime-3-using-terminal/</link>
-        <guid isPermaLink="true">/sublime/text/ubuntu/linux/2015/10/04/launch-sublime-3-using-terminal/</guid>
+        <link>http://localhost:4000/sublime/text/ubuntu/linux/2015/10/04/launch-sublime-3-using-terminal/</link>
+        <guid isPermaLink="true">http://localhost:4000/sublime/text/ubuntu/linux/2015/10/04/launch-sublime-3-using-terminal/</guid>
         
         
         <category>sublime</category>
@@ -223,8 +223,8 @@
 &lt;p&gt;When working in git I tend to come across or create long-winded git branch names so being able to autocomplete this will definietely improve my workflow.&lt;/p&gt;
 </description>
         <pubDate>Sun, 15 Mar 2015 20:15:00 +0000</pubDate>
-        <link>/git/branch/autocomplete/2015/03/15/Autocomplete-git-commands-and-branch-names/</link>
-        <guid isPermaLink="true">/git/branch/autocomplete/2015/03/15/Autocomplete-git-commands-and-branch-names/</guid>
+        <link>http://localhost:4000/git/branch/autocomplete/2015/03/15/Autocomplete-git-commands-and-branch-names/</link>
+        <guid isPermaLink="true">http://localhost:4000/git/branch/autocomplete/2015/03/15/Autocomplete-git-commands-and-branch-names/</guid>
         
         
         <category>git</category>
@@ -265,7 +265,7 @@
   #  r, reword = use commit, but edit the commit message
   #  e, edit = use commit, but stop for amending
   #  s, squash = use commit, but meld into previous commit
-  #  f, fixup = like &quot;squash&quot;, but discard this commit&#39;s log message
+  #  f, fixup = like &quot;squash&quot;, but discard this commit's log message
   #  x, exec = run command (the rest of the line) using shell
   #
   # These lines can be re-ordered; they are executed from top to bottom.
@@ -290,7 +290,7 @@
   #  r, reword = use commit, but edit the commit message
   #  e, edit = use commit, but stop for amending
   #  s, squash = use commit, but meld into previous commit
-  #  f, fixup = like &quot;squash&quot;, but discard this commit&#39;s log message
+  #  f, fixup = like &quot;squash&quot;, but discard this commit's log message
   #  x, exec = run command (the rest of the line) using shell
 &lt;/pre&gt;
 
@@ -310,7 +310,7 @@
 
 &lt;pre&gt;
   # This is a combination of 3 commits.
-  # The first commit&#39;s message is:
+  # The first commit's message is:
   second commit
 
   # This is the 2nd commit message:
@@ -322,9 +322,9 @@
   fourth commit
 
   # Please enter the commit message for your changes. Lines starting
-  # with &#39;#&#39; will be ignored, and an empty message aborts the commit.
+  # with '#' will be ignored, and an empty message aborts the commit.
   # rebase in progress; onto 5376924
-  # You are currently editing a commit while rebasing branch &#39;master&#39; on &#39;5376924&#39;.
+  # You are currently editing a commit while rebasing branch 'master' on '5376924'.
   #
   # Changes to be committed:
   #       modified:   README.md
@@ -366,8 +366,8 @@
 &lt;p&gt;This is the extent of my git rebasing experience so far, I have yet to find out what the other features of &lt;code&gt;git rebasing&lt;/code&gt; does. Discovering these git techniques have made my commit history a lot more organised and cleaner. It also means less embarassing pull requests, espcially when I overlook something, fix typos and white spacing!&lt;/p&gt;
 </description>
         <pubDate>Sun, 25 Jan 2015 23:00:00 +0000</pubDate>
-        <link>/git-rebase/git/rebase/2015/01/25/simply-git-rebasing/</link>
-        <guid isPermaLink="true">/git-rebase/git/rebase/2015/01/25/simply-git-rebasing/</guid>
+        <link>http://localhost:4000/git-rebase/git/rebase/2015/01/25/simply-git-rebasing/</link>
+        <guid isPermaLink="true">http://localhost:4000/git-rebase/git/rebase/2015/01/25/simply-git-rebasing/</guid>
         
         
         <category>git-rebase</category>
@@ -467,8 +467,8 @@
 &lt;p&gt;If you had an array of &lt;code&gt;Animal&lt;/code&gt;, &lt;code&gt;Dog&lt;/code&gt; or &lt;code&gt;Cat&lt;/code&gt; objects as shown above, you can call the &lt;code&gt;make_noise&lt;/code&gt; method on all of them and it will return the &lt;strong&gt;correct&lt;/strong&gt; output as expected. While this is a relatively simplified example, you can see why this would be useful if we had an array of a thousand of these objects. We wouldn’t need to look into what class they were originally instantiated from, we just know that it works.&lt;/p&gt;
 </description>
         <pubDate>Mon, 29 Dec 2014 17:07:00 +0000</pubDate>
-        <link>/polymorphism/2014/12/29/what-is-polymorphism/</link>
-        <guid isPermaLink="true">/polymorphism/2014/12/29/what-is-polymorphism/</guid>
+        <link>http://localhost:4000/polymorphism/2014/12/29/what-is-polymorphism/</link>
+        <guid isPermaLink="true">http://localhost:4000/polymorphism/2014/12/29/what-is-polymorphism/</guid>
         
         
         <category>polymorphism</category>
@@ -490,8 +490,8 @@ sudo apt-get install sublime-text
 Alternatively by typing &lt;strong&gt;subl&lt;/strong&gt;, &lt;strong&gt;sublime-text&lt;/strong&gt; or &lt;strong&gt;sublime-text-2&lt;/strong&gt; into a Terminal window.&lt;/p&gt;
 </description>
         <pubDate>Wed, 13 Aug 2014 10:47:00 +0100</pubDate>
-        <link>/sublime/text/ubuntu/linux/2014/08/13/install-sublime-text-2/</link>
-        <guid isPermaLink="true">/sublime/text/ubuntu/linux/2014/08/13/install-sublime-text-2/</guid>
+        <link>http://localhost:4000/sublime/text/ubuntu/linux/2014/08/13/install-sublime-text-2/</link>
+        <guid isPermaLink="true">http://localhost:4000/sublime/text/ubuntu/linux/2014/08/13/install-sublime-text-2/</guid>
         
         
         <category>sublime</category>
@@ -660,8 +660,8 @@ Alternatively by typing &lt;strong&gt;subl&lt;/strong&gt;, &lt;strong&gt;sublime
 &lt;/table&gt;
 </description>
         <pubDate>Tue, 05 Aug 2014 14:09:30 +0100</pubDate>
-        <link>/ssh/2014/08/05/linux-cheatsheet/</link>
-        <guid isPermaLink="true">/ssh/2014/08/05/linux-cheatsheet/</guid>
+        <link>http://localhost:4000/ssh/2014/08/05/linux-cheatsheet/</link>
+        <guid isPermaLink="true">http://localhost:4000/ssh/2014/08/05/linux-cheatsheet/</guid>
         
         
         <category>ssh</category>
@@ -739,7 +739,7 @@ ssh -l [user_name] -p 2222 127.0.0.1
 &lt;p&gt;You will be prompted to accept the host key so be sure to enter &lt;strong&gt;yes&lt;/strong&gt;. Then finally you’ll be prompted to enter the password for the username:&lt;/p&gt;
 
 &lt;pre&gt;
-[user_name]@127.0.0.1&#39;s password:
+[user_name]@127.0.0.1's password:
 &lt;/pre&gt;
 
 &lt;p&gt;Enter your password and you should now be logged in!&lt;/p&gt;
@@ -747,8 +747,8 @@ ssh -l [user_name] -p 2222 127.0.0.1
 &lt;p&gt;Now you should be able to run commands in the terminal without going into the VM directly. Great for running specs for your rails applications or adding new gems and tools.&lt;/p&gt;
 </description>
         <pubDate>Thu, 31 Jul 2014 11:43:30 +0100</pubDate>
-        <link>/virtual-box/ubuntu/2014/07/31/port-forwarding/</link>
-        <guid isPermaLink="true">/virtual-box/ubuntu/2014/07/31/port-forwarding/</guid>
+        <link>http://localhost:4000/virtual-box/ubuntu/2014/07/31/port-forwarding/</link>
+        <guid isPermaLink="true">http://localhost:4000/virtual-box/ubuntu/2014/07/31/port-forwarding/</guid>
         
         
         <category>virtual-box</category>
@@ -802,8 +802,8 @@ With this all you have to do is run the following rake command:
 &lt;p&gt;And there you have it, a single rake task for both test and development which drops the database, recreates it again, runs a migration and finally the seeds. Be sure not to use this in production because it will drop any data you have in your database.&lt;/p&gt;
 </description>
         <pubDate>Wed, 30 Jul 2014 12:41:30 +0100</pubDate>
-        <link>/ruby/rails/2014/07/30/rake-db-rebuild/</link>
-        <guid isPermaLink="true">/ruby/rails/2014/07/30/rake-db-rebuild/</guid>
+        <link>http://localhost:4000/ruby/rails/2014/07/30/rake-db-rebuild/</link>
+        <guid isPermaLink="true">http://localhost:4000/ruby/rails/2014/07/30/rake-db-rebuild/</guid>
         
         
         <category>ruby</category>
@@ -831,8 +831,8 @@ To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; direc
 
 </description>
         <pubDate>Tue, 29 Jul 2014 14:02:30 +0100</pubDate>
-        <link>/ruby/rails/2014/07/29/my-first-post/</link>
-        <guid isPermaLink="true">/ruby/rails/2014/07/29/my-first-post/</guid>
+        <link>http://localhost:4000/ruby/rails/2014/07/29/my-first-post/</link>
+        <guid isPermaLink="true">http://localhost:4000/ruby/rails/2014/07/29/my-first-post/</guid>
         
         
         <category>ruby</category>
