@@ -3,11 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>How to style nested ordered lists using css</title>
+        <title>The Miracle Morning review</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">        
         <meta name="description" content="Hi I'm James and I'm a web developer">
         <link rel="canonical" 
-        href="http://localhost:4000/css/2016/04/15/how-to-style-nested-ordered-lists-using-css/">
+        href="http://localhost:4000/book/review/2019/01/30/the-miracle-morning/">
         
         <!-- Harmony styles -->
         <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
@@ -55,163 +55,39 @@
         <div class="page-content wc-container">
 	
 	<div class="post">
-		<h3>How to style nested ordered lists using css</h3>
+		<h3>The Miracle Morning review</h3>
 		<p class="post-meta">
 			
       <span class="categories">
-      css
+      book and review
       </span> |
 	    
 	    <span class="post-date">
-    	Apr 15, 2016 
+    	Jan 30, 2019 
 	    </span>
 		</p>		
 		<div class="post">
-			<p>I’ve found that it can be quite difficult to figure out how to style nested ordered lists using css. Imagine if I needed to put together a contract or Terms and conditions document using HTML and CSS.</p>
+			<p>Just finished a short book “The Miracle Morning” By Hal Elrod.</p>
 
-<p>Its not uncommon for contracts to use sub sections and so the document will likely use nested ordered lists in HTML. What if the sub sections are styled differently?</p>
+<p>My take of this book is essentially about how, if you changed your routine to sleep and wake up early (5-6am for example) and follow 6 steps (S.A.V.E.R.S) outlined in the book. You can drastically improve your life.</p>
 
-<p>An example can look something like this:</p>
+<p>For example,</p>
 
-<div class="style-ol">
-  <ol>
-    <li>
-      Alpha
-    </li>
-    <li>
-      Beta
-    </li>
-    <li>
-      Charlie
-    </li>
-    <ol>
-      <li>
-        Delta
-      </li>
-      <li>
-        Echo
-      </li>
-      <ol>
-        <li>
-          Foxtrot
-        </li>
-        <li>
-          Golf
-        </li>
-        <li>
-          Hotel
-        </li>
-      </ol>
-    </ol>
-  </ol>
-</div>
+<p><em>1) Silence - take a moment to appreciate the quiet environment you’re in at this time of day, everyone else around you is asleep. Use this time to meditate/pray/reflect (5 minutes).</em></p>
 
-<p>In the example above, the first list style is numeric, the second are made up of letters and the third using roman numerals:</p>
+<p><em>2) Affirmations - having positive affirmations and reading/saying them out loud can have a powerful affect on your mindset and can really boost your self-confidence and drive to achieve your goals and dreams. (5 minutes)</em></p>
 
-<p>Here is my solution:</p>
+<p><em>3) Visualisation - Take a moment to visualise what your goals and dreams are, this supposedly makes it seem more attainable to you and motivates you to do tasks necessary get you closer to those dreams. (5 minutes)</em></p>
 
-<pre>
-  ol {
-    counter-reset: first-counter;
-    list-style-type: none;
-    position: relative;
-    padding-left: 20px;
-    margin-left: 15px;
-  }
+<p><em>4) Exercise - Most people’s excuse for not exercising is they’re either too tired or have no time. Waking up this early mitigates both of these excuses. At this time in the morning, you shouldn’t be tired or have little time, 20 minutes of exercise should be achievable. Do this every morning daily, and you’re sure to improve your health and well-being. ( 20 minutes )</em></p>
 
-  ol li {
-    margin: 10px 0;
-  }
+<p><em>5) Reading - Read 10 pages of a good book. Imagine doing this everyday for a year. That’s 3650 pages! Easily a good few books, and only 10-20minutes of your morning. This is one of the best ways to ‘invest’ in yourself and is quite simple/easy to do per day. (20 minutes)</em></p>
 
-  ol li:before {
-    content: counter(first-counter) '.';
-    counter-increment: first-counter;
-    position: absolute;
-    left: 0px;
-  }
+<p><em>6) Scribing - Write in your journal, if you haven’t got one then start one. There is something satisfying about putting down your thoughts or how you’re feeling that morning. Also write down 3 things you’re grateful for, this will put you in a positive mindset. (5 minutes)</em></p>
 
-  ol ol {
-    counter-reset: second-counter;
-    list-style-type: none;
-  }
+<p>You should be able to do all of these steps in about an hour or so, that’s not to say that you have to do it in this particular order, these can be customised and tailored to your individual circumstances, in fact the book states that you can do the whole thing in 6 minutes (1 minute each). Supposedly if you did this before you start your day, you really start it on a high note, with positivity and motivation. All of these individual steps are things that have some benefit to your life in one way or another. And being a developer who has issues with ‘burnout’ from time to time, I wonder if this morning routine will help with that.</p>
 
-  ol ol li {
-    padding-left: 15px;
-  }
-
-  ol ol li:before {
-    content: counter(second-counter, lower-alpha) '.';
-    counter-increment: second-counter;
-    list-style-type: none;
-    left: 10px;
-    position: absolute;
-  }
-
-  ol ol ol {
-    counter-reset: third-counter;
-  }
-
-  ol ol ol li {
-    padding-left: 15px;
-  }
-
-  ol ol ol li:before {
-    list-style-type: none;
-    content: counter(third-counter, lower-roman) '.';
-    counter-increment: third-counter;
-  }
-</pre>
-
-<p>Firstly, you’ll have to use <code>counter-reset</code>, and give it a sensible variable name e.g. <code>first-counter</code>, <code>second-counter</code> and <code>third-counter</code>.</p>
-
-<pre>
-  ol {
-    counter-reset: first-counter;
-    list-style-type: none;
-    position: relative;
-    padding-left: 20px;
-    margin-left: 15px;
-  }
-</pre>
-
-<p>I then set <code>list-style-type: none;</code>, which pretty much removes the original list style completely</p>
-
-<pre>
-  ol li:before {
-    content: counter(first-counter) '.';
-    counter-increment: first-counter;
-    position: absolute;
-    left: 0px;
-  }
-</pre>
-
-<p>Then in the psudo-element <code>:before</code>, append the content style:</p>
-
-<p><code>content: counter(first-counter)</code>
-(‘first-counter’ is the variable you declared earlier)</p>
-
-<p>Increment using <code>counter-increment</code>. Then you’ll need to use the <code>position</code> style to adjust the position accordingly.</p>
-
-<p>To change the list style type you can pass that in as a second argument 
-<code>content: counter(second-counter, lower-alpha) '.';</code></p>
-
-<pre>
-  a. foo
-  b. bar
-  c. baz
-</pre>
-
-<p>And finally, if I wanted to change the character (decimal point) after the list-style, all I have to do is change the string: <code>content: counter(first-counter) '%';</code></p>
-
-<pre>
-  1% foo
-  2% bar
-  3% baz
-</pre>
-
-<p>As you can see, this is extremely hacky and as far as I can tell, seems to be the only way you can style nested ordered lists.</p>
-
-<p>In any case, it felt great to have finally found the solution, and I’ll definitely be refering to this post next time I’m asked to style ordered lists.</p>
+<p>I’ve kind of tried waking up early last December, managed to do it for a few weeks. But eventually stopped due to the holidays and lack of structure. I’m going to give this a go again, really interested to see whether my life does in fact improve. Either way, I recommend this book, its easy to read and I wish I read it much earlier in life.</p>
 
 		</div>
 	</div>
@@ -223,8 +99,8 @@
 		<ul class="posts">
 		    
 		    <li>
-			  <span>30 Jan 2019 &raquo;</span>
-			  <a href="http://localhost:4000/book/review/2019/01/30/the-miracle-morning/">The Miracle Morning review</a>
+			  <span>15 Apr 2016 &raquo;</span>
+			  <a href="http://localhost:4000/css/2016/04/15/how-to-style-nested-ordered-lists-using-css/">How to style nested ordered lists using css</a>
 		    </li>
 		    
 		    <li>
@@ -244,13 +120,13 @@
 	<div class="post-footer">
 		<div class="column-1">
 			
-				<a href="http://localhost:4000/sublime/text/ubuntu/linux/2015/10/04/launch-sublime-3-using-terminal/"><< Older</a>
+				<a href="http://localhost:4000/css/2016/04/15/how-to-style-nested-ordered-lists-using-css/"><< Older</a>
 			
 		</div>
 		<div class="column-2"><a href="http://localhost:4000/ ">Home</a></div>
 		<div class="column-3">
 			
-				<a href="http://localhost:4000/book/review/2019/01/30/the-miracle-morning/">Newer >></a>
+				<span>Newer >></span>
 			
 		</div>
 	</div>
