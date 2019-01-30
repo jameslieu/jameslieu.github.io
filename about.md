@@ -6,22 +6,24 @@ permalink: /about/
 
 Hi, I am James Lieu, a Software engineer.
 
-With a background in Illustration and Animation, I evolved my career to become a full-time web developer, firstly by taking a leap of faith and enrolling in the web development bootcamp known as Makers Academy (makersacademy.com).
+I'm a web developer with 5+ years of commercial experience. I am familiar with the SOLID principles, OOP, MVC, ORM, API development, relational database design and RESTful conventions.
 
-I enjoy programming as it provides a challenging environment as well as the opportunity to work with passionate and creative people.
+I spend my free time solving problems, trying or learning new technologies.  My primary skills are web development and I've adapted to many tech stacks. While I have experience in Ruby, JavaScript and PHP, a lot of the core concepts and fundamentals of what I learned there are transferable. I've got a portfolio of C# projects to outline what my coding style is and what projects and problems I've solved. So this should provide an idea of some of my skillset and proficiency in the programming language.
 
-I also appreciate the chance it offers for me to design, create and constantly educate myself.
+I have experience in agile development environments, MVC, web development. I feel that, not only with my professional experience but my github portfolio, I have demonstrated my willingness to learn or try new technologies. I've demonstrated a desire to branch of areas outside my comfort zone in order to challenge and grow as a developer.
 
-- Ruby
-- Ruby on Rails
-- Javascript
-- jQuery
-- HTML
-- CSS
-- GIT
-- Rspec (incl RR)
-- ReactJS (currently studying)
-- C# (currently studying)
+
+- C# / .NET Core
+- Javascript / Typescript
+- Angular 7 / ReactJS / VueJS / jQuery
+- PHP / Laravel
+- Ruby / Ruby on Rails
+- HTML / CSS
+- Bootstrap / Bulma / Material
+- Git
+- RESTful APIs / JSON
+- MVC
+- SOLID principles
 
 
 #### Contact me
