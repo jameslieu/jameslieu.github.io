@@ -71,87 +71,87 @@
 
 <p><img src="/assets/media/polymorphism_example.png" /></p>
 
-<p>Polymorphism essentially means <em>many forms</em> and is one of the fundamental features of object oriented programming. It lets us automatically do the correct behavior even if what we’re working with could take one of many different forms, simply put; it means being able to send the same message and get different results. Here’s the most basic example I’ve found; the <code>+</code> operator.</p>
+<p>Polymorphism essentially means <em>many forms</em> and is one of the fundamental features of object oriented programming. It lets us automatically do the correct behavior even if what we’re working with could take one of many different forms, simply put; it means being able to send the same message and get different results. Here’s the most basic example I’ve found; the <code class="highlighter-rouge">+</code> operator.</p>
 
-<p>In Ruby the <code>+</code> operator will <em>behave</em> differently depending on how you use it.</p>
+<p>In Ruby the <code class="highlighter-rouge">+</code> operator will <em>behave</em> differently depending on how you use it.</p>
 
-<p>For example, lets say you have two variables; <code>a</code> and <code>b</code>.</p>
+<p>For example, lets say you have two variables; <code class="highlighter-rouge">a</code> and <code class="highlighter-rouge">b</code>.</p>
 
-<p>If the two variables are <code>integers</code>, the <code>+</code> operator will numerically add them.</p>
+<p>If the two variables are <code class="highlighter-rouge">integers</code>, the <code class="highlighter-rouge">+</code> operator will numerically add them.</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">a = 1
-b = 2
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">a</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">b</span> <span class="o">=</span> <span class="mi">2</span>
 
-a + b
-=&gt; 3</code></pre></figure>
+<span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+<span class="o">=&gt;</span> <span class="mi">3</span></code></pre></figure>
 
-<p>However, what if the two variables were <code>strings</code> instead?</p>
+<p>However, what if the two variables were <code class="highlighter-rouge">strings</code> instead?</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">a = &quot;Hello &quot;
-b = &quot;World&quot;
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">a</span> <span class="o">=</span> <span class="s2">"Hello "</span>
+<span class="n">b</span> <span class="o">=</span> <span class="s2">"World"</span>
 
-a + b
-=&gt; &quot;Hello World&quot;</code></pre></figure>
+<span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+<span class="o">=&gt;</span> <span class="s2">"Hello World"</span></code></pre></figure>
 
-<p>As you can see, using <code>+</code> operator for <code>strings</code> will <strong>concatenate</strong> them instead.</p>
+<p>As you can see, using <code class="highlighter-rouge">+</code> operator for <code class="highlighter-rouge">strings</code> will <strong>concatenate</strong> them instead.</p>
 
 <p>Now this is a basic example of how polymorphism works and is built into a lot of programming languages, but we can use the same idea with our own classes and objects.</p>
 
 <hr />
 <p>Here is an example of a polymorphic association:</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">class Animal
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">Animal</span>
 
-  def make_noise 
-    &quot;Some noise&quot;
-  end
+  <span class="k">def</span> <span class="nf">make_noise</span> 
+    <span class="s2">"Some noise"</span>
+  <span class="k">end</span>
 
-  def sleep 
-    puts &quot;#{self.class.name} is sleeping.&quot; 
-  end
+  <span class="k">def</span> <span class="nf">sleep</span> 
+    <span class="nb">puts</span> <span class="s2">"</span><span class="si">#{</span><span class="nb">self</span><span class="p">.</span><span class="nf">class</span><span class="p">.</span><span class="nf">name</span><span class="si">}</span><span class="s2"> is sleeping."</span> 
+  <span class="k">end</span>
 
-end
+<span class="k">end</span>
 
-class Dog &lt; Animal
+<span class="k">class</span> <span class="nc">Dog</span> <span class="o">&lt;</span> <span class="no">Animal</span>
     
-  def make_noise 
-    &#39;Woof!&#39;         
-  end 
+  <span class="k">def</span> <span class="nf">make_noise</span> 
+    <span class="s1">'Woof!'</span>         
+  <span class="k">end</span> 
     
-end
+<span class="k">end</span>
 
-class Cat &lt; Animal 
+<span class="k">class</span> <span class="nc">Cat</span> <span class="o">&lt;</span> <span class="no">Animal</span> 
     
-  def make_noise 
-    &#39;Meow!&#39; 
-  end 
+  <span class="k">def</span> <span class="nf">make_noise</span> 
+    <span class="s1">'Meow!'</span> 
+  <span class="k">end</span> 
     
-end</code></pre></figure>
+<span class="k">end</span></code></pre></figure>
 
-<p>Lets say we have a simple inheritance hierarchy. There is an <code>Animal</code> superclass and two descendant subclasses, a <code>Cat</code> and a <code>Dog</code>. Each of these three classes has its own implementation of the <code>make_noise</code> method. The implementation of the method of the descendants replaces the definition of a method in the <code>Animal</code> class.</p>
+<p>Lets say we have a simple inheritance hierarchy. There is an <code class="highlighter-rouge">Animal</code> superclass and two descendant subclasses, a <code class="highlighter-rouge">Cat</code> and a <code class="highlighter-rouge">Dog</code>. Each of these three classes has its own implementation of the <code class="highlighter-rouge">make_noise</code> method. The implementation of the method of the descendants replaces the definition of a method in the <code class="highlighter-rouge">Animal</code> class.</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">class Dog &lt; Animal
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">Dog</span> <span class="o">&lt;</span> <span class="no">Animal</span>
     
-  def make_noise 
-    &#39;Woof!&#39;         
-  end 
+  <span class="k">def</span> <span class="nf">make_noise</span> 
+    <span class="s1">'Woof!'</span>         
+  <span class="k">end</span> 
     
-end</code></pre></figure>
+<span class="k">end</span></code></pre></figure>
 
-<p>The <code>make_noise</code> method in the <code>Dog</code> class replaces the <code>make_noise</code> method of the <code>Animal</code> class. The idea is that even though the <code>Dog</code> class is <em>inheriting</em> from the <code>Animal</code> class and would therefore already have access to the <code>make_noise</code> method, the <code>Dog</code> class will have its own <em>specialized</em> version of that method which is unique to that particular class. This is referred to as overiding the method of the superclass, which just means you write it again.</p>
+<p>The <code class="highlighter-rouge">make_noise</code> method in the <code class="highlighter-rouge">Dog</code> class replaces the <code class="highlighter-rouge">make_noise</code> method of the <code class="highlighter-rouge">Animal</code> class. The idea is that even though the <code class="highlighter-rouge">Dog</code> class is <em>inheriting</em> from the <code class="highlighter-rouge">Animal</code> class and would therefore already have access to the <code class="highlighter-rouge">make_noise</code> method, the <code class="highlighter-rouge">Dog</code> class will have its own <em>specialized</em> version of that method which is unique to that particular class. This is referred to as overiding the method of the superclass, which just means you write it again.</p>
 
 <p>This means is that the method will change its behaviour depending where it was originally instantiated from. Now you may wonder why this would be useful.. Here is an example:</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">[Animal.new, Dog.new, Cat.new].each do |animal|
-  puts animal.make_noise
-end
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="p">[</span><span class="no">Animal</span><span class="p">.</span><span class="nf">new</span><span class="p">,</span> <span class="no">Dog</span><span class="p">.</span><span class="nf">new</span><span class="p">,</span> <span class="no">Cat</span><span class="p">.</span><span class="nf">new</span><span class="p">].</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">animal</span><span class="o">|</span>
+  <span class="nb">puts</span> <span class="n">animal</span><span class="p">.</span><span class="nf">make_noise</span>
+<span class="k">end</span>
 
-=&gt;
-Some noise
-Woof!
-Meow!</code></pre></figure>
+<span class="o">=&gt;</span>
+<span class="no">Some</span> <span class="n">noise</span>
+<span class="no">Woof</span><span class="o">!</span>
+<span class="no">Meow</span><span class="o">!</span></code></pre></figure>
 
-<p>If you had an array of <code>Animal</code>, <code>Dog</code> or <code>Cat</code> objects as shown above, you can call the <code>make_noise</code> method on all of them and it will return the <strong>correct</strong> output as expected. While this is a relatively simplified example, you can see why this would be useful if we had an array of a thousand of these objects. We wouldn’t need to look into what class they were originally instantiated from, we just know that it works.</p>
+<p>If you had an array of <code class="highlighter-rouge">Animal</code>, <code class="highlighter-rouge">Dog</code> or <code class="highlighter-rouge">Cat</code> objects as shown above, you can call the <code class="highlighter-rouge">make_noise</code> method on all of them and it will return the <strong>correct</strong> output as expected. While this is a relatively simplified example, you can see why this would be useful if we had an array of a thousand of these objects. We wouldn’t need to look into what class they were originally instantiated from, we just know that it works.</p>
 
 		</div>
 	</div>

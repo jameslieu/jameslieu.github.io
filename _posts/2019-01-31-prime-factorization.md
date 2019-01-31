@@ -57,7 +57,7 @@ The first method that was added was the `is_prime?(n)` to check if the passed ar
 
 The `next_prime_number(n=0, next=nil, first_pass=true)` method was written as a recursive algorithm. On its 'first pass' we increment the number parameter so that if the number parameter is already a prime number we increment by 1. We then check if the `next` parameter is nil and do the same. We use the `is_prime?(n)` method to check the number and if true then we return the number if not we continue with the recursion.
 
-```
+```ruby
 def self.next_prime_number(number=0, next_number=nil, first_pass=true)
   raise unless number.is_a?(Numeric)
   if (first_pass)
@@ -79,7 +79,8 @@ end
 I then wrote a `PrimeFactors` class, constructor and the method `get_prime_factors(value=@num, prime_number=2, result=[])` passing in 3 parameters; the value, the prime number (setting the default value to 2) and a result array parameter. The unit tests came after, testing the value `10` with the assertions being `[2,5]` as per the example on the code challenge. I added more tests to test `12`, `17`, `147` as those seem to account for different scenarios as seen in the context url provided (https://www.mathsisfun.com/prime-factorization.html).
 
 Within the `get_prime_factors(value=@num, prime_number=2, result=[])` method, we first check the value itself is a prime number, if so then we return it and end the loop early. If it isn't, we move on and check if the value divided by the prime number is NOT a whole integer first. If this is the case we get the next prime number and we change the recursion parameters.
-```
+
+```ruby
 if (value % prime_number != 0 )
   next_prime_number = PrimeNumber.next_prime_number(prime_number)
   return get_prime_factors(value, next_prime_number, result)
@@ -87,7 +88,8 @@ end
 ```
 
 If it is a whole integer we first append the prime number to the results array, we do the division calulation and setting the result to a variable. Now we check if that variable is a prime number, if it is then we append it to the results array and then return it as that should be the last available prime factor. If not, then we continue with the recursion passing in the new variable.
-```
+
+```ruby
 result.push(prime_number)
 value = value / prime_number
 

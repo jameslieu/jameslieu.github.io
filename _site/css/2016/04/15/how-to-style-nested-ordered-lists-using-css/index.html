@@ -162,7 +162,7 @@
   }
 </pre>
 
-<p>Firstly, you’ll have to use <code>counter-reset</code>, and give it a sensible variable name e.g. <code>first-counter</code>, <code>second-counter</code> and <code>third-counter</code>.</p>
+<p>Firstly, you’ll have to use <code class="highlighter-rouge">counter-reset</code>, and give it a sensible variable name e.g. <code class="highlighter-rouge">first-counter</code>, <code class="highlighter-rouge">second-counter</code> and <code class="highlighter-rouge">third-counter</code>.</p>
 
 <pre>
   ol {
@@ -174,7 +174,7 @@
   }
 </pre>
 
-<p>I then set <code>list-style-type: none;</code>, which pretty much removes the original list style completely</p>
+<p>I then set <code class="highlighter-rouge">list-style-type: none;</code>, which pretty much removes the original list style completely</p>
 
 <pre>
   ol li:before {
@@ -185,15 +185,15 @@
   }
 </pre>
 
-<p>Then in the psudo-element <code>:before</code>, append the content style:</p>
+<p>Then in the psudo-element <code class="highlighter-rouge">:before</code>, append the content style:</p>
 
-<p><code>content: counter(first-counter)</code>
+<p><code class="highlighter-rouge">content: counter(first-counter)</code>
 (‘first-counter’ is the variable you declared earlier)</p>
 
-<p>Increment using <code>counter-increment</code>. Then you’ll need to use the <code>position</code> style to adjust the position accordingly.</p>
+<p>Increment using <code class="highlighter-rouge">counter-increment</code>. Then you’ll need to use the <code class="highlighter-rouge">position</code> style to adjust the position accordingly.</p>
 
 <p>To change the list style type you can pass that in as a second argument 
-<code>content: counter(second-counter, lower-alpha) '.';</code></p>
+<code class="highlighter-rouge">content: counter(second-counter, lower-alpha) '.';</code></p>
 
 <pre>
   a. foo
@@ -201,7 +201,7 @@
   c. baz
 </pre>
 
-<p>And finally, if I wanted to change the character (decimal point) after the list-style, all I have to do is change the string: <code>content: counter(first-counter) '%';</code></p>
+<p>And finally, if I wanted to change the character (decimal point) after the list-style, all I have to do is change the string: <code class="highlighter-rouge">content: counter(first-counter) '%';</code></p>
 
 <pre>
   1% foo

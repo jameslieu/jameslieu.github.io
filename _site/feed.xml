@@ -5,8 +5,8 @@
     <description>Hi I'm James and I'm a web developer</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 31 Jan 2019 08:49:43 +0000</pubDate>
-    <lastBuildDate>Thu, 31 Jan 2019 08:49:43 +0000</lastBuildDate>
+    <pubDate>Thu, 31 Jan 2019 09:03:59 +0000</pubDate>
+    <lastBuildDate>Thu, 31 Jan 2019 09:03:59 +0000</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -19,8 +19,8 @@
 The number should be received as an argument from the command line, as illustrated below.
 Example of execution:&lt;/em&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;executable_script_name&amp;gt; --number 10
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;executable_script_name&amp;gt; --number 10
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;em&gt;The expected output in this instance would be:
 2, 5&lt;/em&gt;&lt;/p&gt;
 
@@ -36,12 +36,12 @@ your own code. Feel free to use ruby gems for scripting and testing.&lt;/em&gt;&
 
 &lt;p&gt;Here is the link to the &lt;a href=&quot;https://github.com/jameslieu/project_euler/tree/master/prime_factors/ruby&quot;&gt;repository&lt;/a&gt; if you wanted to look at the code.&lt;/p&gt;
 
-&lt;p&gt;The Ruby version used was Ruby &lt;code&gt;2.5.1&lt;/code&gt; with no gems. I used TDD to assist with this challenge and used &lt;code&gt;Test::Unit::TestCase&lt;/code&gt; for testing.
+&lt;p&gt;The Ruby version used was Ruby &lt;code class=&quot;highlighter-rouge&quot;&gt;2.5.1&lt;/code&gt; with no gems. I used TDD to assist with this challenge and used &lt;code class=&quot;highlighter-rouge&quot;&gt;Test::Unit::TestCase&lt;/code&gt; for testing.
 To use it, simply run the script with the –number option:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;'ruby init.rb --number 10'
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;'ruby init.rb --number 10'
 =&amp;gt; 2,5
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;hr /&gt;
 
@@ -58,66 +58,68 @@ To use it, simply run the script with the –number option:&lt;/p&gt;
   &lt;li&gt;A recursive algorithm will also work with the &lt;strong&gt;‘Find next prime number’&lt;/strong&gt; method as well for the same reason&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;The first method that was added was the &lt;code&gt;is_prime?(n)&lt;/code&gt; to check if the passed argument is a prime number and the &lt;code&gt;next_prime_number(n=0, next=nil, first_pass=true)&lt;/code&gt; to get the next prime number from the argument passed in. The &lt;code&gt;is_prime?(n)&lt;/code&gt; method I found on stackoverflow but the &lt;code&gt;next_prime_number(n=0, next=nil, first_pass=true)&lt;/code&gt; method I wrote myself.&lt;/p&gt;
+&lt;p&gt;The first method that was added was the &lt;code class=&quot;highlighter-rouge&quot;&gt;is_prime?(n)&lt;/code&gt; to check if the passed argument is a prime number and the &lt;code class=&quot;highlighter-rouge&quot;&gt;next_prime_number(n=0, next=nil, first_pass=true)&lt;/code&gt; to get the next prime number from the argument passed in. The &lt;code class=&quot;highlighter-rouge&quot;&gt;is_prime?(n)&lt;/code&gt; method I found on stackoverflow but the &lt;code class=&quot;highlighter-rouge&quot;&gt;next_prime_number(n=0, next=nil, first_pass=true)&lt;/code&gt; method I wrote myself.&lt;/p&gt;
 
-&lt;p&gt;The &lt;code&gt;next_prime_number(n=0, next=nil, first_pass=true)&lt;/code&gt; method was written as a recursive algorithm. On its ‘first pass’ we increment the number parameter so that if the number parameter is already a prime number we increment by 1. We then check if the &lt;code&gt;next&lt;/code&gt; parameter is nil and do the same. We use the &lt;code&gt;is_prime?(n)&lt;/code&gt; method to check the number and if true then we return the number if not we continue with the recursion.&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;next_prime_number(n=0, next=nil, first_pass=true)&lt;/code&gt; method was written as a recursive algorithm. On its ‘first pass’ we increment the number parameter so that if the number parameter is already a prime number we increment by 1. We then check if the &lt;code class=&quot;highlighter-rouge&quot;&gt;next&lt;/code&gt; parameter is nil and do the same. We use the &lt;code class=&quot;highlighter-rouge&quot;&gt;is_prime?(n)&lt;/code&gt; method to check the number and if true then we return the number if not we continue with the recursion.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;def self.next_prime_number(number=0, next_number=nil, first_pass=true)
-  raise unless number.is_a?(Numeric)
-  if (first_pass)
-    number = number+1
-  end
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;next_prime_number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;next_number&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kp&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;first_pass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;raise&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;unless&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;is_a?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Numeric&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;first_pass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;number&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 
-  if (next_number.nil?)
-    next_number = number+1
-  end
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;next_number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;nil?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;next_number&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 
-  if (is_prime?(number))
-    return number
-  end
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;is_prime?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 
-  next_prime_number(next_number, next_number+1, false)
-end
-&lt;/code&gt;&lt;/pre&gt;
+  &lt;span class=&quot;n&quot;&gt;next_prime_number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;next_number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;next_number&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;I then wrote a &lt;code&gt;PrimeFactors&lt;/code&gt; class, constructor and the method &lt;code&gt;get_prime_factors(value=@num, prime_number=2, result=[])&lt;/code&gt; passing in 3 parameters; the value, the prime number (setting the default value to 2) and a result array parameter. The unit tests came after, testing the value &lt;code&gt;10&lt;/code&gt; with the assertions being &lt;code&gt;[2,5]&lt;/code&gt; as per the example on the code challenge. I added more tests to test &lt;code&gt;12&lt;/code&gt;, &lt;code&gt;17&lt;/code&gt;, &lt;code&gt;147&lt;/code&gt; as those seem to account for different scenarios as seen in the context url provided (https://www.mathsisfun.com/prime-factorization.html).&lt;/p&gt;
+&lt;p&gt;I then wrote a &lt;code class=&quot;highlighter-rouge&quot;&gt;PrimeFactors&lt;/code&gt; class, constructor and the method &lt;code class=&quot;highlighter-rouge&quot;&gt;get_prime_factors(value=@num, prime_number=2, result=[])&lt;/code&gt; passing in 3 parameters; the value, the prime number (setting the default value to 2) and a result array parameter. The unit tests came after, testing the value &lt;code class=&quot;highlighter-rouge&quot;&gt;10&lt;/code&gt; with the assertions being &lt;code class=&quot;highlighter-rouge&quot;&gt;[2,5]&lt;/code&gt; as per the example on the code challenge. I added more tests to test &lt;code class=&quot;highlighter-rouge&quot;&gt;12&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;17&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;147&lt;/code&gt; as those seem to account for different scenarios as seen in the context url provided (https://www.mathsisfun.com/prime-factorization.html).&lt;/p&gt;
 
-&lt;p&gt;Within the &lt;code&gt;get_prime_factors(value=@num, prime_number=2, result=[])&lt;/code&gt; method, we first check the value itself is a prime number, if so then we return it and end the loop early. If it isn’t, we move on and check if the value divided by the prime number is NOT a whole integer first. If this is the case we get the next prime number and we change the recursion parameters.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;if (value % prime_number != 0 )
-  next_prime_number = PrimeNumber.next_prime_number(prime_number)
-  return get_prime_factors(value, next_prime_number, result)
-end
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Within the &lt;code class=&quot;highlighter-rouge&quot;&gt;get_prime_factors(value=@num, prime_number=2, result=[])&lt;/code&gt; method, we first check the value itself is a prime number, if so then we return it and end the loop early. If it isn’t, we move on and check if the value divided by the prime number is NOT a whole integer first. If this is the case we get the next prime number and we change the recursion parameters.&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prime_number&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;next_prime_number&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;PrimeNumber&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;next_prime_number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;prime_number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get_prime_factors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;next_prime_number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;If it is a whole integer we first append the prime number to the results array, we do the division calulation and setting the result to a variable. Now we check if that variable is a prime number, if it is then we append it to the results array and then return it as that should be the last available prime factor. If not, then we continue with the recursion passing in the new variable.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;result.push(prime_number)
-value = value / prime_number
 
-if (!PrimeNumber.is_prime?(value))
-  return get_prime_factors(value, prime_number, result)
-end
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;prime_number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prime_number&lt;/span&gt;
 
-result.push(value)
-return result
-&lt;/code&gt;&lt;/pre&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;PrimeNumber&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;is_prime?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get_prime_factors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prime_number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 
-&lt;p&gt;Finally, I realised that we want to run the script on the command line with an option &lt;code&gt;--number&lt;/code&gt; and a argument. I used the &lt;a href=&quot;http://ruby-doc.org/stdlib-2.6.1/libdoc/optparse/rdoc/OptionParser.html&quot;&gt;OptionParser&lt;/a&gt; to achieve this. Which also includes usage information:&lt;/p&gt;
+&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;pre&gt;&lt;code&gt;$ ruby init.rb --number 10
+&lt;p&gt;Finally, I realised that we want to run the script on the command line with an option &lt;code class=&quot;highlighter-rouge&quot;&gt;--number&lt;/code&gt; and a argument. I used the &lt;a href=&quot;http://ruby-doc.org/stdlib-2.6.1/libdoc/optparse/rdoc/OptionParser.html&quot;&gt;OptionParser&lt;/a&gt; to achieve this. Which also includes usage information:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ ruby init.rb --number 10
 =&amp;gt; 2,5
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;$ ruby init.rb
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ ruby init.rb
 Usage: init [options]
         --number NUMBER              Enter a NUMBER to get it's prime factors
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;$ ruby init.rb --help
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ ruby init.rb --help
 Usage: init [options]
         --number NUMBER              Enter a NUMBER to get it's prime factors
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;The time complexity on this I believe is O(n^2) as we can potentially have a nested loop. Although my knowledge on Big O Notation is pretty limited so I’m not 100% sure to be honest. The first loop is the &lt;code&gt;get_prime_factors&lt;/code&gt; recursion and the second, is from the returned value by dividing the prime number if is not a positive integer; we use the &lt;code&gt;next_prime_number&lt;/code&gt;  which is also a recursive algorithm.&lt;/p&gt;
+&lt;p&gt;The time complexity on this I believe is O(n^2) as we can potentially have a nested loop. Although my knowledge on Big O Notation is pretty limited so I’m not 100% sure to be honest. The first loop is the &lt;code class=&quot;highlighter-rouge&quot;&gt;get_prime_factors&lt;/code&gt; recursion and the second, is from the returned value by dividing the prime number if is not a positive integer; we use the &lt;code class=&quot;highlighter-rouge&quot;&gt;next_prime_number&lt;/code&gt;  which is also a recursive algorithm.&lt;/p&gt;
 
-&lt;p&gt;I’ve separated the &lt;code&gt;PrimeNumber&lt;/code&gt; specific methods into its own class so I could test it in isolation as well as treat it as static methods as it doesn’t feel right to instantiate it each time it needs to be used. It also means it be reused if we were to do other prime number specific tasks.&lt;/p&gt;
+&lt;p&gt;I’ve separated the &lt;code class=&quot;highlighter-rouge&quot;&gt;PrimeNumber&lt;/code&gt; specific methods into its own class so I could test it in isolation as well as treat it as static methods as it doesn’t feel right to instantiate it each time it needs to be used. It also means it be reused if we were to do other prime number specific tasks.&lt;/p&gt;
 
 &lt;p&gt;Overall I enjoyed this challenge, it is one of those challenges, which at first glance, feels very tricky and may have hidden gotchas but when taking a step back to carefully look at the requirements and properly planning how to solve this, it makes it substantially easier and less intimidating. I haven’t written in Ruby in quite some time, so it was great to use it again for this challenge. I really enjoy using it, it is unfortunate that there are so little job prospects in Milton Keynes (where I’m based) and Ruby itself seems to be losing popularity overall.&lt;/p&gt;
 </description>
@@ -266,7 +268,7 @@ Usage: init [options]
   }
 &lt;/pre&gt;
 
-&lt;p&gt;Firstly, you’ll have to use &lt;code&gt;counter-reset&lt;/code&gt;, and give it a sensible variable name e.g. &lt;code&gt;first-counter&lt;/code&gt;, &lt;code&gt;second-counter&lt;/code&gt; and &lt;code&gt;third-counter&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Firstly, you’ll have to use &lt;code class=&quot;highlighter-rouge&quot;&gt;counter-reset&lt;/code&gt;, and give it a sensible variable name e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;first-counter&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;second-counter&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;third-counter&lt;/code&gt;.&lt;/p&gt;
 
 &lt;pre&gt;
   ol {
@@ -278,7 +280,7 @@ Usage: init [options]
   }
 &lt;/pre&gt;
 
-&lt;p&gt;I then set &lt;code&gt;list-style-type: none;&lt;/code&gt;, which pretty much removes the original list style completely&lt;/p&gt;
+&lt;p&gt;I then set &lt;code class=&quot;highlighter-rouge&quot;&gt;list-style-type: none;&lt;/code&gt;, which pretty much removes the original list style completely&lt;/p&gt;
 
 &lt;pre&gt;
   ol li:before {
@@ -289,15 +291,15 @@ Usage: init [options]
   }
 &lt;/pre&gt;
 
-&lt;p&gt;Then in the psudo-element &lt;code&gt;:before&lt;/code&gt;, append the content style:&lt;/p&gt;
+&lt;p&gt;Then in the psudo-element &lt;code class=&quot;highlighter-rouge&quot;&gt;:before&lt;/code&gt;, append the content style:&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;content: counter(first-counter)&lt;/code&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;content: counter(first-counter)&lt;/code&gt;
 (‘first-counter’ is the variable you declared earlier)&lt;/p&gt;
 
-&lt;p&gt;Increment using &lt;code&gt;counter-increment&lt;/code&gt;. Then you’ll need to use the &lt;code&gt;position&lt;/code&gt; style to adjust the position accordingly.&lt;/p&gt;
+&lt;p&gt;Increment using &lt;code class=&quot;highlighter-rouge&quot;&gt;counter-increment&lt;/code&gt;. Then you’ll need to use the &lt;code class=&quot;highlighter-rouge&quot;&gt;position&lt;/code&gt; style to adjust the position accordingly.&lt;/p&gt;
 
 &lt;p&gt;To change the list style type you can pass that in as a second argument 
-&lt;code&gt;content: counter(second-counter, lower-alpha) '.';&lt;/code&gt;&lt;/p&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;content: counter(second-counter, lower-alpha) '.';&lt;/code&gt;&lt;/p&gt;
 
 &lt;pre&gt;
   a. foo
@@ -305,7 +307,7 @@ Usage: init [options]
   c. baz
 &lt;/pre&gt;
 
-&lt;p&gt;And finally, if I wanted to change the character (decimal point) after the list-style, all I have to do is change the string: &lt;code&gt;content: counter(first-counter) '%';&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;And finally, if I wanted to change the character (decimal point) after the list-style, all I have to do is change the string: &lt;code class=&quot;highlighter-rouge&quot;&gt;content: counter(first-counter) '%';&lt;/code&gt;&lt;/p&gt;
 
 &lt;pre&gt;
   1% foo
@@ -328,18 +330,18 @@ Usage: init [options]
     
       <item>
         <title>Launch Sublime Text 3 using command line</title>
-        <description>&lt;p&gt;Sublime Text 3 ships with a CLI called &lt;code&gt;subl&lt;/code&gt;. You will have to do a minor configuration though.&lt;/p&gt;
+        <description>&lt;p&gt;Sublime Text 3 ships with a CLI called &lt;code class=&quot;highlighter-rouge&quot;&gt;subl&lt;/code&gt;. You will have to do a minor configuration though.&lt;/p&gt;
 
-&lt;p&gt;Firstly, check your &lt;code&gt;$PATH&lt;/code&gt; by running: &lt;code&gt;echo $PATH&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Firstly, check your &lt;code class=&quot;highlighter-rouge&quot;&gt;$PATH&lt;/code&gt; by running: &lt;code class=&quot;highlighter-rouge&quot;&gt;echo $PATH&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;It should look like this:
-&lt;code&gt;/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin&lt;/code&gt;&lt;/p&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Then copy this into terminal:&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;ln -s &quot;/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl&quot; /usr/local/bin/subl&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ln -s &quot;/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl&quot; /usr/local/bin/subl&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Now typing &lt;code&gt;subl&lt;/code&gt; in the command line should open Sublime&lt;/p&gt;
+&lt;p&gt;Now typing &lt;code class=&quot;highlighter-rouge&quot;&gt;subl&lt;/code&gt; in the command line should open Sublime&lt;/p&gt;
 </description>
         <pubDate>Sun, 04 Oct 2015 14:35:00 +0100</pubDate>
         <link>http://localhost:4000/sublime/text/ubuntu/linux/2015/10/04/launch-sublime-3-using-terminal/</link>
@@ -360,12 +362,12 @@ Usage: init [options]
         <title>Autocomplete git commands and branch names</title>
         <description>&lt;p&gt;In bash in Mac OS X, you can use [TAB] to autocomplete file paths. By default this doesn’t work with git commands,  I’ll have to manually configurate it. Here’s how:&lt;/p&gt;
 
-&lt;p&gt;Paste this command into the terminal, this will download the &lt;code&gt;git-completion.bash&lt;/code&gt; script needed to execute the autocomplete:&lt;/p&gt;
+&lt;p&gt;Paste this command into the terminal, this will download the &lt;code class=&quot;highlighter-rouge&quot;&gt;git-completion.bash&lt;/code&gt; script needed to execute the autocomplete:&lt;/p&gt;
 &lt;pre&gt;
   curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
 &lt;/pre&gt;
 
-&lt;p&gt;Next, add this to the &lt;code&gt;.bash_profile&lt;/code&gt;. This line will tell bash to execute the git autocomplete script if it exists.&lt;/p&gt;
+&lt;p&gt;Next, add this to the &lt;code class=&quot;highlighter-rouge&quot;&gt;.bash_profile&lt;/code&gt;. This line will tell bash to execute the git autocomplete script if it exists.&lt;/p&gt;
 
 &lt;pre&gt;
   if [ -f ~/.git-completion.bash ]; then
@@ -397,11 +399,11 @@ Usage: init [options]
     
       <item>
         <title>Simply git-rebase</title>
-        <description>&lt;p&gt;Today I’ve decided to write about &lt;code&gt;Git Rebasing&lt;/code&gt;.&lt;/p&gt;
+        <description>&lt;p&gt;Today I’ve decided to write about &lt;code class=&quot;highlighter-rouge&quot;&gt;Git Rebasing&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;To be honest I’ve only recently discovered rebasing and I’m not too familiar with all of its uses or commands. What I do know is that the &lt;code&gt;git rebase&lt;/code&gt; command allows me to modify the history of my repository by changing my &lt;code&gt;commits&lt;/code&gt;. &lt;code&gt;Git rebase&lt;/code&gt; can reorder, edit, or squash commits together. I’ve found this especially useful when commiting very minor changes such as removing white space or correcting typos. It happens all too frequently and these commits do nothing but clutter my repository history. Being able to combine those to a previous commit has made my commit history a lot cleaner.&lt;/p&gt;
+&lt;p&gt;To be honest I’ve only recently discovered rebasing and I’m not too familiar with all of its uses or commands. What I do know is that the &lt;code class=&quot;highlighter-rouge&quot;&gt;git rebase&lt;/code&gt; command allows me to modify the history of my repository by changing my &lt;code class=&quot;highlighter-rouge&quot;&gt;commits&lt;/code&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;Git rebase&lt;/code&gt; can reorder, edit, or squash commits together. I’ve found this especially useful when commiting very minor changes such as removing white space or correcting typos. It happens all too frequently and these commits do nothing but clutter my repository history. Being able to combine those to a previous commit has made my commit history a lot cleaner.&lt;/p&gt;
 
-&lt;p&gt;Based on my experience I would typically use &lt;code&gt;git rebase&lt;/code&gt; to:&lt;/p&gt;
+&lt;p&gt;Based on my experience I would typically use &lt;code class=&quot;highlighter-rouge&quot;&gt;git rebase&lt;/code&gt; to:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Delete commit messages or commits that are no longer necessary&lt;/li&gt;
@@ -409,7 +411,7 @@ Usage: init [options]
   &lt;li&gt;Edit my commit messages&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Let me demonstrate an example with &lt;code&gt;git rebase -i HEAD~3&lt;/code&gt;. Git rebase with the &lt;code&gt;-i&lt;/code&gt; flag begins an interactive rebasing session. The &lt;code&gt;HEAD~3&lt;/code&gt; flag refers to the latest commits with &lt;code&gt;~3&lt;/code&gt; meaning how many commits or how far in my history I want to edit, in this case three commits.&lt;/p&gt;
+&lt;p&gt;Let me demonstrate an example with &lt;code class=&quot;highlighter-rouge&quot;&gt;git rebase -i HEAD~3&lt;/code&gt;. Git rebase with the &lt;code class=&quot;highlighter-rouge&quot;&gt;-i&lt;/code&gt; flag begins an interactive rebasing session. The &lt;code class=&quot;highlighter-rouge&quot;&gt;HEAD~3&lt;/code&gt; flag refers to the latest commits with &lt;code class=&quot;highlighter-rouge&quot;&gt;~3&lt;/code&gt; meaning how many commits or how far in my history I want to edit, in this case three commits.&lt;/p&gt;
 
 &lt;p&gt;This will then display the following:&lt;/p&gt;
 
@@ -440,9 +442,9 @@ Usage: init [options]
   ~
 &lt;/pre&gt;
 
-&lt;p&gt;The top three lines represent my commits. &lt;code&gt;pick&lt;/code&gt; being the command, following that is the commit identifier e.g.&lt;code&gt;3dd14f1&lt;/code&gt; and finally your message e.g. &lt;code&gt;second commit&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The top three lines represent my commits. &lt;code class=&quot;highlighter-rouge&quot;&gt;pick&lt;/code&gt; being the command, following that is the commit identifier e.g.&lt;code class=&quot;highlighter-rouge&quot;&gt;3dd14f1&lt;/code&gt; and finally your message e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;second commit&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;The rest are comments provided by &lt;code&gt;git&lt;/code&gt; for additional information as indicated with a &lt;code&gt;#&lt;/code&gt; at the start of the line. These are the commands that are available. However, I’ve only needed to use &lt;code&gt;pick&lt;/code&gt;, &lt;code&gt;squash&lt;/code&gt; and &lt;code&gt;fixup&lt;/code&gt; thus far.&lt;/p&gt;
+&lt;p&gt;The rest are comments provided by &lt;code class=&quot;highlighter-rouge&quot;&gt;git&lt;/code&gt; for additional information as indicated with a &lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt; at the start of the line. These are the commands that are available. However, I’ve only needed to use &lt;code class=&quot;highlighter-rouge&quot;&gt;pick&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;squash&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;fixup&lt;/code&gt; thus far.&lt;/p&gt;
 
 &lt;pre&gt;
   # Commands:
@@ -456,9 +458,9 @@ Usage: init [options]
 
 &lt;p&gt;Its always good to save certain changes or updates I make as I develop a feature or make additions to my codebase. Its a good habit to have, yet as I’m doing this, I would sometimes make two, three or even over five commits which represent the same feature. Therefore the commit messages are either very similar or will be too brief, which then can be confusing if read out of context.&lt;/p&gt;
 
-&lt;p&gt;This is would be a good time to &lt;code&gt;squash&lt;/code&gt; my commits. &lt;code&gt;Squashing&lt;/code&gt; commits essentially means combining my commit messages into one single commit which can therefore make more sense as a ‘record’ in my repository history. Sometimes I would need to look back on my respository history and it would be easier if the code or feature I’m looking for is located in a single commit as opposed to many smaller and unclear commits.&lt;/p&gt;
+&lt;p&gt;This is would be a good time to &lt;code class=&quot;highlighter-rouge&quot;&gt;squash&lt;/code&gt; my commits. &lt;code class=&quot;highlighter-rouge&quot;&gt;Squashing&lt;/code&gt; commits essentially means combining my commit messages into one single commit which can therefore make more sense as a ‘record’ in my repository history. Sometimes I would need to look back on my respository history and it would be easier if the code or feature I’m looking for is located in a single commit as opposed to many smaller and unclear commits.&lt;/p&gt;
 
-&lt;p&gt;To &lt;code&gt;squash&lt;/code&gt; my commits, I would have to select the commits I want to combine and use the &lt;code&gt;squash&lt;/code&gt; command (leaving the &lt;code&gt;pick&lt;/code&gt; command on the commit you want the other commits to ‘combine’ into).&lt;/p&gt;
+&lt;p&gt;To &lt;code class=&quot;highlighter-rouge&quot;&gt;squash&lt;/code&gt; my commits, I would have to select the commits I want to combine and use the &lt;code class=&quot;highlighter-rouge&quot;&gt;squash&lt;/code&gt; command (leaving the &lt;code class=&quot;highlighter-rouge&quot;&gt;pick&lt;/code&gt; command on the commit you want the other commits to ‘combine’ into).&lt;/p&gt;
 
 &lt;pre&gt;
   pick 3dd14f1 second commit
@@ -466,7 +468,7 @@ Usage: init [options]
   squash f0111b0 fourth commit
 &lt;/pre&gt;
 
-&lt;p&gt;Once I make those changes and save. I would then be moved on to the next stage which then gives me the option to edit those messages if I wanted to. Which is great if I had typos or wanted to make my message more comprehensible, as an example I’ll change the 2nd commit message to &lt;code&gt;Updated third commit&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Once I make those changes and save. I would then be moved on to the next stage which then gives me the option to edit those messages if I wanted to. Which is great if I had typos or wanted to make my message more comprehensible, as an example I’ll change the 2nd commit message to &lt;code class=&quot;highlighter-rouge&quot;&gt;Updated third commit&lt;/code&gt;.&lt;/p&gt;
 
 &lt;pre&gt;
   # This is a combination of 3 commits.
@@ -493,9 +495,9 @@ Usage: init [options]
   ~
   ~
 &lt;/pre&gt;
-&lt;p&gt;NOTE: Remember that these are the three latest commits as I used the &lt;code&gt;HEAD~3&lt;/code&gt; flag&lt;/p&gt;
+&lt;p&gt;NOTE: Remember that these are the three latest commits as I used the &lt;code class=&quot;highlighter-rouge&quot;&gt;HEAD~3&lt;/code&gt; flag&lt;/p&gt;
 
-&lt;p&gt;Save that and thats all there is to it! If I ran &lt;code&gt;git log&lt;/code&gt; to see my current commits, I would only have two commits instead of four as both commit two, three and four are now &lt;code&gt;squashed&lt;/code&gt; into a single commit and therefore makes my commit history cleaner and more organised.&lt;/p&gt;
+&lt;p&gt;Save that and thats all there is to it! If I ran &lt;code class=&quot;highlighter-rouge&quot;&gt;git log&lt;/code&gt; to see my current commits, I would only have two commits instead of four as both commit two, three and four are now &lt;code class=&quot;highlighter-rouge&quot;&gt;squashed&lt;/code&gt; into a single commit and therefore makes my commit history cleaner and more organised.&lt;/p&gt;
 
 &lt;pre&gt;
   james$ git log
@@ -517,13 +519,13 @@ Usage: init [options]
       initial commit
 &lt;/pre&gt;
 
-&lt;p&gt;When I add minor changes to my code such as removal of white spacing or new lines, they still need to be committed. This can be annoying if I have already made a commit before doing this. But having a commit message for those are unnecessary or irrelevant to my code/feature. This is where I can use the &lt;code&gt;fixup&lt;/code&gt; command. The process is the same as &lt;code&gt;squashing&lt;/code&gt;, meaning that the commits will be combined together. However, the commits that I use the &lt;code&gt;fixup&lt;/code&gt; command on will then have its message removed.&lt;/p&gt;
+&lt;p&gt;When I add minor changes to my code such as removal of white spacing or new lines, they still need to be committed. This can be annoying if I have already made a commit before doing this. But having a commit message for those are unnecessary or irrelevant to my code/feature. This is where I can use the &lt;code class=&quot;highlighter-rouge&quot;&gt;fixup&lt;/code&gt; command. The process is the same as &lt;code class=&quot;highlighter-rouge&quot;&gt;squashing&lt;/code&gt;, meaning that the commits will be combined together. However, the commits that I use the &lt;code class=&quot;highlighter-rouge&quot;&gt;fixup&lt;/code&gt; command on will then have its message removed.&lt;/p&gt;
 
-&lt;p&gt;NOTE: If you are performing a squash/fixup command on commits that have already been pushed to your remote repository your will have to &lt;code&gt;force&lt;/code&gt; push your branch to the remote. For example, &lt;code&gt;git push -f origin master&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;NOTE: If you are performing a squash/fixup command on commits that have already been pushed to your remote repository your will have to &lt;code class=&quot;highlighter-rouge&quot;&gt;force&lt;/code&gt; push your branch to the remote. For example, &lt;code class=&quot;highlighter-rouge&quot;&gt;git push -f origin master&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Another great git command is &lt;code&gt;git commit --amend&lt;/code&gt;. This allows me to edit my last git message which is great for when I want a quick solution to fix typos or make changes to a commit I’ve just created.&lt;/p&gt;
+&lt;p&gt;Another great git command is &lt;code class=&quot;highlighter-rouge&quot;&gt;git commit --amend&lt;/code&gt;. This allows me to edit my last git message which is great for when I want a quick solution to fix typos or make changes to a commit I’ve just created.&lt;/p&gt;
 
-&lt;p&gt;This is the extent of my git rebasing experience so far, I have yet to find out what the other features of &lt;code&gt;git rebasing&lt;/code&gt; does. Discovering these git techniques have made my commit history a lot more organised and cleaner. It also means less embarassing pull requests, espcially when I overlook something, fix typos and white spacing!&lt;/p&gt;
+&lt;p&gt;This is the extent of my git rebasing experience so far, I have yet to find out what the other features of &lt;code class=&quot;highlighter-rouge&quot;&gt;git rebasing&lt;/code&gt; does. Discovering these git techniques have made my commit history a lot more organised and cleaner. It also means less embarassing pull requests, espcially when I overlook something, fix typos and white spacing!&lt;/p&gt;
 </description>
         <pubDate>Sun, 25 Jan 2015 23:00:00 +0000</pubDate>
         <link>http://localhost:4000/git-rebase/git/rebase/2015/01/25/simply-git-rebasing/</link>
@@ -544,87 +546,87 @@ Usage: init [options]
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/polymorphism_example.png&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Polymorphism essentially means &lt;em&gt;many forms&lt;/em&gt; and is one of the fundamental features of object oriented programming. It lets us automatically do the correct behavior even if what we’re working with could take one of many different forms, simply put; it means being able to send the same message and get different results. Here’s the most basic example I’ve found; the &lt;code&gt;+&lt;/code&gt; operator.&lt;/p&gt;
+&lt;p&gt;Polymorphism essentially means &lt;em&gt;many forms&lt;/em&gt; and is one of the fundamental features of object oriented programming. It lets us automatically do the correct behavior even if what we’re working with could take one of many different forms, simply put; it means being able to send the same message and get different results. Here’s the most basic example I’ve found; the &lt;code class=&quot;highlighter-rouge&quot;&gt;+&lt;/code&gt; operator.&lt;/p&gt;
 
-&lt;p&gt;In Ruby the &lt;code&gt;+&lt;/code&gt; operator will &lt;em&gt;behave&lt;/em&gt; differently depending on how you use it.&lt;/p&gt;
+&lt;p&gt;In Ruby the &lt;code class=&quot;highlighter-rouge&quot;&gt;+&lt;/code&gt; operator will &lt;em&gt;behave&lt;/em&gt; differently depending on how you use it.&lt;/p&gt;
 
-&lt;p&gt;For example, lets say you have two variables; &lt;code&gt;a&lt;/code&gt; and &lt;code&gt;b&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;For example, lets say you have two variables; &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;If the two variables are &lt;code&gt;integers&lt;/code&gt;, the &lt;code&gt;+&lt;/code&gt; operator will numerically add them.&lt;/p&gt;
+&lt;p&gt;If the two variables are &lt;code class=&quot;highlighter-rouge&quot;&gt;integers&lt;/code&gt;, the &lt;code class=&quot;highlighter-rouge&quot;&gt;+&lt;/code&gt; operator will numerically add them.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;a = 1
-b = 2
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
 
-a + b
-=&amp;gt; 3&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;However, what if the two variables were &lt;code&gt;strings&lt;/code&gt; instead?&lt;/p&gt;
+&lt;p&gt;However, what if the two variables were &lt;code class=&quot;highlighter-rouge&quot;&gt;strings&lt;/code&gt; instead?&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;a = &amp;quot;Hello &amp;quot;
-b = &amp;quot;World&amp;quot;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hello &quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;World&quot;&lt;/span&gt;
 
-a + b
-=&amp;gt; &amp;quot;Hello World&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;As you can see, using &lt;code&gt;+&lt;/code&gt; operator for &lt;code&gt;strings&lt;/code&gt; will &lt;strong&gt;concatenate&lt;/strong&gt; them instead.&lt;/p&gt;
+&lt;p&gt;As you can see, using &lt;code class=&quot;highlighter-rouge&quot;&gt;+&lt;/code&gt; operator for &lt;code class=&quot;highlighter-rouge&quot;&gt;strings&lt;/code&gt; will &lt;strong&gt;concatenate&lt;/strong&gt; them instead.&lt;/p&gt;
 
 &lt;p&gt;Now this is a basic example of how polymorphism works and is built into a lot of programming languages, but we can use the same idea with our own classes and objects.&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;Here is an example of a polymorphic association:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;class Animal
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Animal&lt;/span&gt;
 
-  def make_noise 
-    &amp;quot;Some noise&amp;quot;
-  end
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;make_noise&lt;/span&gt; 
+    &lt;span class=&quot;s2&quot;&gt;&quot;Some noise&quot;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 
-  def sleep 
-    puts &amp;quot;#{self.class.name} is sleeping.&amp;quot; 
-  end
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sleep&lt;/span&gt; 
+    &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; is sleeping.&quot;&lt;/span&gt; 
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 
-end
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 
-class Dog &amp;lt; Animal
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Dog&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Animal&lt;/span&gt;
     
-  def make_noise 
-    &amp;#39;Woof!&amp;#39;         
-  end 
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;make_noise&lt;/span&gt; 
+    &lt;span class=&quot;s1&quot;&gt;'Woof!'&lt;/span&gt;         
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; 
     
-end
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 
-class Cat &amp;lt; Animal 
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Cat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Animal&lt;/span&gt; 
     
-  def make_noise 
-    &amp;#39;Meow!&amp;#39; 
-  end 
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;make_noise&lt;/span&gt; 
+    &lt;span class=&quot;s1&quot;&gt;'Meow!'&lt;/span&gt; 
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; 
     
-end&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Lets say we have a simple inheritance hierarchy. There is an &lt;code&gt;Animal&lt;/code&gt; superclass and two descendant subclasses, a &lt;code&gt;Cat&lt;/code&gt; and a &lt;code&gt;Dog&lt;/code&gt;. Each of these three classes has its own implementation of the &lt;code&gt;make_noise&lt;/code&gt; method. The implementation of the method of the descendants replaces the definition of a method in the &lt;code&gt;Animal&lt;/code&gt; class.&lt;/p&gt;
+&lt;p&gt;Lets say we have a simple inheritance hierarchy. There is an &lt;code class=&quot;highlighter-rouge&quot;&gt;Animal&lt;/code&gt; superclass and two descendant subclasses, a &lt;code class=&quot;highlighter-rouge&quot;&gt;Cat&lt;/code&gt; and a &lt;code class=&quot;highlighter-rouge&quot;&gt;Dog&lt;/code&gt;. Each of these three classes has its own implementation of the &lt;code class=&quot;highlighter-rouge&quot;&gt;make_noise&lt;/code&gt; method. The implementation of the method of the descendants replaces the definition of a method in the &lt;code class=&quot;highlighter-rouge&quot;&gt;Animal&lt;/code&gt; class.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;class Dog &amp;lt; Animal
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Dog&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Animal&lt;/span&gt;
     
-  def make_noise 
-    &amp;#39;Woof!&amp;#39;         
-  end 
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;make_noise&lt;/span&gt; 
+    &lt;span class=&quot;s1&quot;&gt;'Woof!'&lt;/span&gt;         
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; 
     
-end&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;The &lt;code&gt;make_noise&lt;/code&gt; method in the &lt;code&gt;Dog&lt;/code&gt; class replaces the &lt;code&gt;make_noise&lt;/code&gt; method of the &lt;code&gt;Animal&lt;/code&gt; class. The idea is that even though the &lt;code&gt;Dog&lt;/code&gt; class is &lt;em&gt;inheriting&lt;/em&gt; from the &lt;code&gt;Animal&lt;/code&gt; class and would therefore already have access to the &lt;code&gt;make_noise&lt;/code&gt; method, the &lt;code&gt;Dog&lt;/code&gt; class will have its own &lt;em&gt;specialized&lt;/em&gt; version of that method which is unique to that particular class. This is referred to as overiding the method of the superclass, which just means you write it again.&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;make_noise&lt;/code&gt; method in the &lt;code class=&quot;highlighter-rouge&quot;&gt;Dog&lt;/code&gt; class replaces the &lt;code class=&quot;highlighter-rouge&quot;&gt;make_noise&lt;/code&gt; method of the &lt;code class=&quot;highlighter-rouge&quot;&gt;Animal&lt;/code&gt; class. The idea is that even though the &lt;code class=&quot;highlighter-rouge&quot;&gt;Dog&lt;/code&gt; class is &lt;em&gt;inheriting&lt;/em&gt; from the &lt;code class=&quot;highlighter-rouge&quot;&gt;Animal&lt;/code&gt; class and would therefore already have access to the &lt;code class=&quot;highlighter-rouge&quot;&gt;make_noise&lt;/code&gt; method, the &lt;code class=&quot;highlighter-rouge&quot;&gt;Dog&lt;/code&gt; class will have its own &lt;em&gt;specialized&lt;/em&gt; version of that method which is unique to that particular class. This is referred to as overiding the method of the superclass, which just means you write it again.&lt;/p&gt;
 
 &lt;p&gt;This means is that the method will change its behaviour depending where it was originally instantiated from. Now you may wonder why this would be useful.. Here is an example:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;[Animal.new, Dog.new, Cat.new].each do |animal|
-  puts animal.make_noise
-end
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Animal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Dog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Cat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;animal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;animal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;make_noise&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 
-=&amp;gt;
-Some noise
-Woof!
-Meow!&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;Some&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;noise&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;Woof&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;Meow&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;If you had an array of &lt;code&gt;Animal&lt;/code&gt;, &lt;code&gt;Dog&lt;/code&gt; or &lt;code&gt;Cat&lt;/code&gt; objects as shown above, you can call the &lt;code&gt;make_noise&lt;/code&gt; method on all of them and it will return the &lt;strong&gt;correct&lt;/strong&gt; output as expected. While this is a relatively simplified example, you can see why this would be useful if we had an array of a thousand of these objects. We wouldn’t need to look into what class they were originally instantiated from, we just know that it works.&lt;/p&gt;
+&lt;p&gt;If you had an array of &lt;code class=&quot;highlighter-rouge&quot;&gt;Animal&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Dog&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;Cat&lt;/code&gt; objects as shown above, you can call the &lt;code class=&quot;highlighter-rouge&quot;&gt;make_noise&lt;/code&gt; method on all of them and it will return the &lt;strong&gt;correct&lt;/strong&gt; output as expected. While this is a relatively simplified example, you can see why this would be useful if we had an array of a thousand of these objects. We wouldn’t need to look into what class they were originally instantiated from, we just know that it works.&lt;/p&gt;
 </description>
         <pubDate>Mon, 29 Dec 2014 17:07:00 +0000</pubDate>
         <link>http://localhost:4000/polymorphism/2014/12/29/what-is-polymorphism/</link>

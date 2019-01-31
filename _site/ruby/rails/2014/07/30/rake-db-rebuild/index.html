@@ -69,43 +69,43 @@
 		<div class="post">
 			<p>When building a new Rails app, I’ve found that I constantly have had to drop the database, create it, run a migration and finally the seed.</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">rake db:drop
-rake db:create
-rake db:migrate
-rake db:seed
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">rake</span> <span class="n">db</span><span class="ss">:drop</span>
+<span class="n">rake</span> <span class="n">db</span><span class="ss">:create</span>
+<span class="n">rake</span> <span class="n">db</span><span class="ss">:migrate</span>
+<span class="n">rake</span> <span class="n">db</span><span class="ss">:seed</span>
 
-#=&gt; And for the test environment
-RAILS_ENV=test rake db:drop
-RAILS_ENV=test rake db:create
-RAILS_ENV=test rake db:migrate
-RAILS_ENV=test rake db:seed</code></pre></figure>
+<span class="c1">#=&gt; And for the test environment</span>
+<span class="no">RAILS_ENV</span><span class="o">=</span><span class="nb">test</span> <span class="n">rake</span> <span class="n">db</span><span class="ss">:drop</span>
+<span class="no">RAILS_ENV</span><span class="o">=</span><span class="nb">test</span> <span class="n">rake</span> <span class="n">db</span><span class="ss">:create</span>
+<span class="no">RAILS_ENV</span><span class="o">=</span><span class="nb">test</span> <span class="n">rake</span> <span class="n">db</span><span class="ss">:migrate</span>
+<span class="no">RAILS_ENV</span><span class="o">=</span><span class="nb">test</span> <span class="n">rake</span> <span class="n">db</span><span class="ss">:seed</span></code></pre></figure>
 
 <p>This as you can tell can be very tedious. It got me thinking ‘What if there was a way to do all of that in one command’. Turns out there is, one way to do it is to create a rake task to run them one after the other.</p>
 
 <p>You can name your task what ever you like:</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">#=&gt; /lib/tasks/db.rake
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#=&gt; /lib/tasks/db.rake</span>
 
-namespace :db do
-  task :rebuild =&gt; :environment do
-    raise &quot;Cannot run this task in #{Rails.env}&quot;
-      unless [&#39;development&#39;, &#39;test&#39;].include? Rails.env
+<span class="n">namespace</span> <span class="ss">:db</span> <span class="k">do</span>
+  <span class="n">task</span> <span class="ss">:rebuild</span> <span class="o">=&gt;</span> <span class="ss">:environment</span> <span class="k">do</span>
+    <span class="k">raise</span> <span class="s2">"Cannot run this task in </span><span class="si">#{</span><span class="no">Rails</span><span class="p">.</span><span class="nf">env</span><span class="si">}</span><span class="s2">"</span>
+      <span class="k">unless</span> <span class="p">[</span><span class="s1">'development'</span><span class="p">,</span> <span class="s1">'test'</span><span class="p">].</span><span class="nf">include?</span> <span class="no">Rails</span><span class="p">.</span><span class="nf">env</span>
 
-    puts Rake::Task[&quot;db:drop&quot;].invoke
-    puts Rake::Task[&quot;db:create&quot;].invoke
-    puts Rake::Task[&quot;db:migrate&quot;].invoke
-    puts Rake::Task[&quot;db:seed&quot;].invoke if Rails.env == &#39;development&#39;
-  end
-end</code></pre></figure>
+    <span class="nb">puts</span> <span class="no">Rake</span><span class="o">::</span><span class="no">Task</span><span class="p">[</span><span class="s2">"db:drop"</span><span class="p">].</span><span class="nf">invoke</span>
+    <span class="nb">puts</span> <span class="no">Rake</span><span class="o">::</span><span class="no">Task</span><span class="p">[</span><span class="s2">"db:create"</span><span class="p">].</span><span class="nf">invoke</span>
+    <span class="nb">puts</span> <span class="no">Rake</span><span class="o">::</span><span class="no">Task</span><span class="p">[</span><span class="s2">"db:migrate"</span><span class="p">].</span><span class="nf">invoke</span>
+    <span class="nb">puts</span> <span class="no">Rake</span><span class="o">::</span><span class="no">Task</span><span class="p">[</span><span class="s2">"db:seed"</span><span class="p">].</span><span class="nf">invoke</span> <span class="k">if</span> <span class="no">Rails</span><span class="p">.</span><span class="nf">env</span> <span class="o">==</span> <span class="s1">'development'</span>
+  <span class="k">end</span>
+<span class="k">end</span></code></pre></figure>
 
 <p><br />
 With this all you have to do is run the following rake command:
 <br />
-<code>NOTE: it goes without saying, NEVER use this in production!</code></p>
+<code class="highlighter-rouge">NOTE: it goes without saying, NEVER use this in production!</code></p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">rake db:rebuild
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">rake</span> <span class="n">db</span><span class="ss">:rebuild</span>
 
-RAILS_ENV=test rake db:rebuild</code></pre></figure>
+<span class="no">RAILS_ENV</span><span class="o">=</span><span class="nb">test</span> <span class="n">rake</span> <span class="n">db</span><span class="ss">:rebuild</span></code></pre></figure>
 
 <p>And there you have it, a single rake task for both test and development which drops the database, recreates it again, runs a migration and finally the seeds. Be sure not to use this in production because it will drop any data you have in your database.</p>
 

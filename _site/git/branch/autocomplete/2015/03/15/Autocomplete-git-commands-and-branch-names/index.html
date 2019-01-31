@@ -69,12 +69,12 @@
 		<div class="post">
 			<p>In bash in Mac OS X, you can use [TAB] to autocomplete file paths. By default this doesn’t work with git commands,  I’ll have to manually configurate it. Here’s how:</p>
 
-<p>Paste this command into the terminal, this will download the <code>git-completion.bash</code> script needed to execute the autocomplete:</p>
+<p>Paste this command into the terminal, this will download the <code class="highlighter-rouge">git-completion.bash</code> script needed to execute the autocomplete:</p>
 <pre>
   curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
 </pre>
 
-<p>Next, add this to the <code>.bash_profile</code>. This line will tell bash to execute the git autocomplete script if it exists.</p>
+<p>Next, add this to the <code class="highlighter-rouge">.bash_profile</code>. This line will tell bash to execute the git autocomplete script if it exists.</p>
 
 <pre>
   if [ -f ~/.git-completion.bash ]; then
