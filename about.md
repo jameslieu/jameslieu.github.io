@@ -29,7 +29,7 @@ I have experience in agile development environments, MVC, web development. I fee
 #### Contact me
 
 Find me on [Github][github] / [Twitter][Twitter] or just say Hello at
-`info@jameslieu.co.uk`.
+`j.lieu888@gmail.com`.
 
 
 [github]: https://github.com/jameslieu
