@@ -5,9 +5,134 @@
     <description>Hi I'm James and I'm a web developer</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 31 Jan 2019 07:36:17 +0000</pubDate>
-    <lastBuildDate>Thu, 31 Jan 2019 07:36:17 +0000</lastBuildDate>
+    <pubDate>Thu, 31 Jan 2019 08:47:19 +0000</pubDate>
+    <lastBuildDate>Thu, 31 Jan 2019 08:47:19 +0000</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Get The Prime Factors</title>
+        <description>&lt;p&gt;Recently I was tasked to complete a coding challenge.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Write a shell executable program in Ruby that prints the prime factors of a positive integer number.
+The number should be received as an argument from the command line, as illustrated below.
+Example of execution:&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;executable_script_name&amp;gt; --number 10
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;The expected output in this instance would be:
+2, 5&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;You can find some context about prime factors ( https://www.mathsisfun.com/prime-factorization.html ).&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;When implementing a solution, please don’t use stdlib Prime or any ruby gems for your “production
+code” - the decomposition of the input number into its prime factors should be implemented by
+your own code. Feel free to use ruby gems for scripting and testing.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This challenge was for a Ruby On Rails role, so naturally it had to be written in Ruby. I haven’t written anything in Ruby for a while so it was a breath of fresh air to use it again.&lt;/p&gt;
+
+&lt;p&gt;Here is the link to the &lt;a href=&quot;https://github.com/jameslieu/project_euler/tree/master/prime_factors/ruby&quot;&gt;repository&lt;/a&gt; if you wanted to look at the code.&lt;/p&gt;
+
+&lt;p&gt;The Ruby version used was Ruby &lt;code&gt;2.5.1&lt;/code&gt; with no gems. I used TDD to assist with this challenge and used &lt;code&gt;Test::Unit::TestCase&lt;/code&gt; for testing.
+To use it, simply run the script with the –number option:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;'ruby init.rb --number 10'
+=&amp;gt; 2,5
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I just wanted to write a summary of my thought process for this coding challenge.&lt;/p&gt;
+
+&lt;p&gt;The prime factor context provided was very useful. It states that: “Prime Factorization” is &lt;strong&gt;finding which prime numbers multiply together to make the original number&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;With this as well as the examples, we can gauge what steps we will need in order to achieve this.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;We’ll need a &lt;strong&gt;‘Find next prime number’&lt;/strong&gt; function&lt;/li&gt;
+  &lt;li&gt;A method to determine if a number is a prime number&lt;/li&gt;
+  &lt;li&gt;Check if a value divided by the prime number is a positive integer using the modulo operator&lt;/li&gt;
+  &lt;li&gt;Because we don’t quite know ‘where’ the loop ends, a recursive algorithm could work better for us here&lt;/li&gt;
+  &lt;li&gt;A recursive algorithm will also work with the &lt;strong&gt;‘Find next prime number’&lt;/strong&gt; method as well for the same reason&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The first method that was added was the &lt;code&gt;is_prime?(n)&lt;/code&gt; to check if the passed argument is a prime number and the &lt;code&gt;next_prime_number(n=0, next=nil, first_pass=true)&lt;/code&gt; to get the next prime number from the argument passed in. The &lt;code&gt;is_prime?(n)&lt;/code&gt; method I found on stackoverflow but the &lt;code&gt;next_prime_number(n=0, next=nil, first_pass=true)&lt;/code&gt; method I wrote myself.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code&gt;next_prime_number(n=0, next=nil, first_pass=true)&lt;/code&gt; method was written as a recursive algorithm. On its ‘first pass’ we increment the number parameter so that if the number parameter is already a prime number we increment by 1. We then check if the &lt;code&gt;next&lt;/code&gt; parameter is nil and do the same. We use the &lt;code&gt;is_prime?(n)&lt;/code&gt; method to check the number and if true then we return the number if not we continue with the recursion.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def self.next_prime_number(number=0, next_number=nil, first_pass=true)
+  raise unless number.is_a?(Numeric)
+  if (first_pass)
+    number = number+1
+  end
+
+  if (next_number.nil?)
+    next_number = number+1
+  end
+
+  if (is_prime?(number))
+    return number
+  end
+
+  next_prime_number(next_number, next_number+1, false)
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I then wrote a &lt;code&gt;PrimeFactors&lt;/code&gt; class, constructor and the method &lt;code&gt;get_prime_factors(value=@num, prime_number=2, result=[])&lt;/code&gt; passing in 3 parameters; the value, the prime number (setting the default value to 2) and a result array parameter. The unit tests came after, testing the value &lt;code&gt;10&lt;/code&gt; with the assertions being &lt;code&gt;[2,5]&lt;/code&gt; as per the example on the code challenge. I added more tests to test &lt;code&gt;12&lt;/code&gt;, &lt;code&gt;17&lt;/code&gt;, &lt;code&gt;147&lt;/code&gt; as those seem to account for different scenarios as seen in the context url provided (https://www.mathsisfun.com/prime-factorization.html).&lt;/p&gt;
+
+&lt;p&gt;Within the &lt;code&gt;get_prime_factors(value=@num, prime_number=2, result=[])&lt;/code&gt; method, we first check the value itself is a prime number, if so then we return it and end the loop early. If it isn’t, we move on and check if the value divided by the prime number is NOT a whole integer first. If this is the case we get the next prime number and we change the recursion parameters.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;if (value % prime_number != 0 )
+  next_prime_number = PrimeNumber.next_prime_number(prime_number)
+  return get_prime_factors(value, next_prime_number, result)
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If it is a whole integer we first append the prime number to the results array, we do the division calulation and setting the result to a variable. Now we check if that variable is a prime number, if it is then we append it to the results array and then return it as that should be the last available prime factor. If not, then we continue with the recursion passing in the new variable.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;result.push(prime_number)
+value = value / prime_number
+
+if (!PrimeNumber.is_prime?(value))
+  return get_prime_factors(value, prime_number, result)
+end
+
+result.push(value)
+return result
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Finally, I realised that we want to run the script on the command line with an option &lt;code&gt;--number&lt;/code&gt; and a argument. I used the &lt;a href=&quot;http://ruby-doc.org/stdlib-2.6.1/libdoc/optparse/rdoc/OptionParser.html&quot;&gt;OptionParser&lt;/a&gt; to achieve this. Which also includes usage information:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ ruby init.rb --number 10
+=&amp;gt; 2,5
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ ruby init.rb
+Usage: init [options]
+        --number NUMBER              Enter a NUMBER to get it's prime factors
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;$ ruby init.rb --help
+Usage: init [options]
+        --number NUMBER              Enter a NUMBER to get it's prime factors
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The time complexity on this I believe is O(n^2) as we can potentially have a nested loop. Although my knowledge on Big O Notation is pretty limited so I’m not 100% sure to be honest. The first loop is the &lt;code&gt;get_prime_factors&lt;/code&gt; recursion and the second, is from the returned value by dividing the prime number if is not a positive integer; we use the &lt;code&gt;next_prime_number&lt;/code&gt;  which is also a recursive algorithm.&lt;/p&gt;
+
+&lt;p&gt;I’ve separated the &lt;code&gt;PrimeNumber&lt;/code&gt; specific methods into its own class so I could test it in isolation as well as treat it as static methods as it doesn’t feel right to instantiate it each time it needs to be used. It also means it be reused if we were to do other prime number specific tasks.&lt;/p&gt;
+
+&lt;p&gt;Overall I enjoyed this challenge, it is one of those challenges, which at first glance, feels very tricky and may have hidden gotchas but when taking a step back to carefully look at the requirements and properly planning how to solve this, it makes it substantially easier and less intimidating. I haven’t written in Ruby in quite some time, so it was great to use it again for this challenge. I really enjoy using it, it is unfortunate that there are so little job prospects in Milton Keynes (where I’m based) and Ruby itself seems to be losing popularity overall.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 31 Jan 2019 07:45:00 +0000</pubDate>
+        <link>http://localhost:4000/ruby/prime-numbers/prime-factors/2019/01/31/prime-factorization/</link>
+        <guid isPermaLink="true">http://localhost:4000/ruby/prime-numbers/prime-factors/2019/01/31/prime-factorization/</guid>
+        
+        
+        <category>ruby</category>
+        
+        <category>prime-numbers</category>
+        
+        <category>prime-factors</category>
+        
+      </item>
     
       <item>
         <title>The Miracle Morning review</title>
@@ -789,61 +914,6 @@ ssh -l [user_name] -p 2222 127.0.0.1
         <category>virtual-box</category>
         
         <category>ubuntu</category>
-        
-      </item>
-    
-      <item>
-        <title>Dropping and resetting database all in one rake task</title>
-        <description>&lt;p&gt;When building a new Rails app, I’ve found that I constantly have had to drop the database, create it, run a migration and finally the seed.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;rake db:drop
-rake db:create
-rake db:migrate
-rake db:seed
-
-#=&amp;gt; And for the test environment
-RAILS_ENV=test rake db:drop
-RAILS_ENV=test rake db:create
-RAILS_ENV=test rake db:migrate
-RAILS_ENV=test rake db:seed&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;This as you can tell can be very tedious. It got me thinking ‘What if there was a way to do all of that in one command’. Turns out there is, one way to do it is to create a rake task to run them one after the other.&lt;/p&gt;
-
-&lt;p&gt;You can name your task what ever you like:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;#=&amp;gt; /lib/tasks/db.rake
-
-namespace :db do
-  task :rebuild =&amp;gt; :environment do
-    raise &amp;quot;Cannot run this task in #{Rails.env}&amp;quot;
-      unless [&amp;#39;development&amp;#39;, &amp;#39;test&amp;#39;].include? Rails.env
-
-    puts Rake::Task[&amp;quot;db:drop&amp;quot;].invoke
-    puts Rake::Task[&amp;quot;db:create&amp;quot;].invoke
-    puts Rake::Task[&amp;quot;db:migrate&amp;quot;].invoke
-    puts Rake::Task[&amp;quot;db:seed&amp;quot;].invoke if Rails.env == &amp;#39;development&amp;#39;
-  end
-end&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;br /&gt;
-With this all you have to do is run the following rake command:
-&lt;br /&gt;
-&lt;code&gt;NOTE: it goes without saying, NEVER use this in production!&lt;/code&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;rake db:rebuild
-
-RAILS_ENV=test rake db:rebuild&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;And there you have it, a single rake task for both test and development which drops the database, recreates it again, runs a migration and finally the seeds. Be sure not to use this in production because it will drop any data you have in your database.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 30 Jul 2014 12:41:30 +0100</pubDate>
-        <link>http://localhost:4000/ruby/rails/2014/07/30/rake-db-rebuild/</link>
-        <guid isPermaLink="true">http://localhost:4000/ruby/rails/2014/07/30/rake-db-rebuild/</guid>
-        
-        
-        <category>ruby</category>
-        
-        <category>rails</category>
         
       </item>
     

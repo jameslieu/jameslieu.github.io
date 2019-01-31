@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Get The Prime Factors</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">        
+        <meta name="description" content="Hi I'm James and I'm a web developer">
+        <link rel="canonical" 
+        href="http://localhost:4000/ruby/prime-numbers/prime-factors/2019/01/31/prime-factorization/">
+        
+        <!-- Harmony styles -->
+        <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+
+        <!-- Modernizr js -->
+        <script async src="/assets/js/modernizr.js"></script>    
+
+        <!-- IE Fixes -->
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->        
+    </head>
+    <body class="theme-base-01">
+        <header class="main-header">
+            <div class="wc-container">
+                <h2><a href="/">Hi I'm James and I'm a web developer</a></h2>
+                <ul>
+	<li>
+		<a href="http://localhost:4000/">Home</a>
+	</li>
+	<li>
+		<a href="http://localhost:4000/about">About</a>
+		<span>/</span>
+	</li>
+	<li>
+		<a href="http://localhost:4000/blog">Blog</a><span>/</span>
+	</li>
+	
+	<li>
+		<a title="jameslieu on Github"
+			href="https://github.com/jameslieu" target="_blank">
+			Github
+		</a><span>/</span>
+	</li>
+	
+	<li>
+	</li>
+</ul>         
+            </div>
+        </header>
+        <div class="page-content wc-container">
+	
+	<div class="post">
+		<h3>Get The Prime Factors</h3>
+		<p class="post-meta">
+			
+      <span class="categories">
+      ruby, prime-numbers, and prime-factors
+      </span> |
+	    
+	    <span class="post-date">
+    	Jan 31, 2019 
+	    </span>
+		</p>		
+		<div class="post">
+			<p>Recently I was tasked to complete a coding challenge.</p>
+
+<hr />
+
+<p><em>Write a shell executable program in Ruby that prints the prime factors of a positive integer number.
+The number should be received as an argument from the command line, as illustrated below.
+Example of execution:</em></p>
+
+<pre><code>&lt;executable_script_name&gt; --number 10
+</code></pre>
+<p><em>The expected output in this instance would be:
+2, 5</em></p>
+
+<p><em>You can find some context about prime factors ( https://www.mathsisfun.com/prime-factorization.html ).</em></p>
+
+<p><em>When implementing a solution, please don’t use stdlib Prime or any ruby gems for your “production
+code” - the decomposition of the input number into its prime factors should be implemented by
+your own code. Feel free to use ruby gems for scripting and testing.</em></p>
+
+<hr />
+
+<p>This challenge was for a Ruby On Rails role, so naturally it had to be written in Ruby. I haven’t written anything in Ruby for a while so it was a breath of fresh air to use it again.</p>
+
+<p>Here is the link to the <a href="https://github.com/jameslieu/project_euler/tree/master/prime_factors/ruby">repository</a> if you wanted to look at the code.</p>
+
+<p>The Ruby version used was Ruby <code>2.5.1</code> with no gems. I used TDD to assist with this challenge and used <code>Test::Unit::TestCase</code> for testing.
+To use it, simply run the script with the –number option:</p>
+
+<pre><code>'ruby init.rb --number 10'
+=&gt; 2,5
+</code></pre>
+
+<hr />
+
+<p>I just wanted to write a summary of my thought process for this coding challenge.</p>
+
+<p>The prime factor context provided was very useful. It states that: “Prime Factorization” is <strong>finding which prime numbers multiply together to make the original number</strong>.</p>
+
+<p>With this as well as the examples, we can gauge what steps we will need in order to achieve this.</p>
+<ul>
+  <li>We’ll need a <strong>‘Find next prime number’</strong> function</li>
+  <li>A method to determine if a number is a prime number</li>
+  <li>Check if a value divided by the prime number is a positive integer using the modulo operator</li>
+  <li>Because we don’t quite know ‘where’ the loop ends, a recursive algorithm could work better for us here</li>
+  <li>A recursive algorithm will also work with the <strong>‘Find next prime number’</strong> method as well for the same reason</li>
+</ul>
+
+<p>The first method that was added was the <code>is_prime?(n)</code> to check if the passed argument is a prime number and the <code>next_prime_number(n=0, next=nil, first_pass=true)</code> to get the next prime number from the argument passed in. The <code>is_prime?(n)</code> method I found on stackoverflow but the <code>next_prime_number(n=0, next=nil, first_pass=true)</code> method I wrote myself.</p>
+
+<p>The <code>next_prime_number(n=0, next=nil, first_pass=true)</code> method was written as a recursive algorithm. On its ‘first pass’ we increment the number parameter so that if the number parameter is already a prime number we increment by 1. We then check if the <code>next</code> parameter is nil and do the same. We use the <code>is_prime?(n)</code> method to check the number and if true then we return the number if not we continue with the recursion.</p>
+
+<pre><code>def self.next_prime_number(number=0, next_number=nil, first_pass=true)
+  raise unless number.is_a?(Numeric)
+  if (first_pass)
+    number = number+1
+  end
+
+  if (next_number.nil?)
+    next_number = number+1
+  end
+
+  if (is_prime?(number))
+    return number
+  end
+
+  next_prime_number(next_number, next_number+1, false)
+end
+</code></pre>
+
+<p>I then wrote a <code>PrimeFactors</code> class, constructor and the method <code>get_prime_factors(value=@num, prime_number=2, result=[])</code> passing in 3 parameters; the value, the prime number (setting the default value to 2) and a result array parameter. The unit tests came after, testing the value <code>10</code> with the assertions being <code>[2,5]</code> as per the example on the code challenge. I added more tests to test <code>12</code>, <code>17</code>, <code>147</code> as those seem to account for different scenarios as seen in the context url provided (https://www.mathsisfun.com/prime-factorization.html).</p>
+
+<p>Within the <code>get_prime_factors(value=@num, prime_number=2, result=[])</code> method, we first check the value itself is a prime number, if so then we return it and end the loop early. If it isn’t, we move on and check if the value divided by the prime number is NOT a whole integer first. If this is the case we get the next prime number and we change the recursion parameters.</p>
+<pre><code>if (value % prime_number != 0 )
+  next_prime_number = PrimeNumber.next_prime_number(prime_number)
+  return get_prime_factors(value, next_prime_number, result)
+end
+</code></pre>
+
+<p>If it is a whole integer we first append the prime number to the results array, we do the division calulation and setting the result to a variable. Now we check if that variable is a prime number, if it is then we append it to the results array and then return it as that should be the last available prime factor. If not, then we continue with the recursion passing in the new variable.</p>
+<pre><code>result.push(prime_number)
+value = value / prime_number
+
+if (!PrimeNumber.is_prime?(value))
+  return get_prime_factors(value, prime_number, result)
+end
+
+result.push(value)
+return result
+</code></pre>
+
+<p>Finally, I realised that we want to run the script on the command line with an option <code>--number</code> and a argument. I used the <a href="http://ruby-doc.org/stdlib-2.6.1/libdoc/optparse/rdoc/OptionParser.html">OptionParser</a> to achieve this. Which also includes usage information:</p>
+
+<pre><code>$ ruby init.rb --number 10
+=&gt; 2,5
+</code></pre>
+<pre><code>$ ruby init.rb
+Usage: init [options]
+        --number NUMBER              Enter a NUMBER to get it's prime factors
+</code></pre>
+<pre><code>$ ruby init.rb --help
+Usage: init [options]
+        --number NUMBER              Enter a NUMBER to get it's prime factors
+</code></pre>
+
+<p>The time complexity on this I believe is O(n^2) as we can potentially have a nested loop. Although my knowledge on Big O Notation is pretty limited so I’m not 100% sure to be honest. The first loop is the <code>get_prime_factors</code> recursion and the second, is from the returned value by dividing the prime number if is not a positive integer; we use the <code>next_prime_number</code>  which is also a recursive algorithm.</p>
+
+<p>I’ve separated the <code>PrimeNumber</code> specific methods into its own class so I could test it in isolation as well as treat it as static methods as it doesn’t feel right to instantiate it each time it needs to be used. It also means it be reused if we were to do other prime number specific tasks.</p>
+
+<p>Overall I enjoyed this challenge, it is one of those challenges, which at first glance, feels very tricky and may have hidden gotchas but when taking a step back to carefully look at the requirements and properly planning how to solve this, it makes it substantially easier and less intimidating. I haven’t written in Ruby in quite some time, so it was great to use it again for this challenge. I really enjoy using it, it is unfortunate that there are so little job prospects in Milton Keynes (where I’m based) and Ruby itself seems to be losing popularity overall.</p>
+
+		</div>
+	</div>
+
+
+	
+	<div class="related">
+		<h4>Related Posts</h2>
+		<ul class="posts">
+		    
+		    <li>
+			  <span>30 Jan 2019 &raquo;</span>
+			  <a href="http://localhost:4000/book/review/2019/01/30/the-miracle-morning/">The Miracle Morning review</a>
+		    </li>
+		    
+		    <li>
+			  <span>15 Apr 2016 &raquo;</span>
+			  <a href="http://localhost:4000/css/2016/04/15/how-to-style-nested-ordered-lists-using-css/">How to style nested ordered lists using css</a>
+		    </li>
+		    
+		    <li>
+			  <span>04 Oct 2015 &raquo;</span>
+			  <a href="http://localhost:4000/sublime/text/ubuntu/linux/2015/10/04/launch-sublime-3-using-terminal/">Launch Sublime Text 3 using command line</a>
+		    </li>
+		    
+		</ul>
+	</div>
+	
+
+	<div class="post-footer">
+		<div class="column-1">
+			
+				<a href="http://localhost:4000/book/review/2019/01/30/the-miracle-morning/"><< Older</a>
+			
+		</div>
+		<div class="column-2"><a href="http://localhost:4000/ ">Home</a></div>
+		<div class="column-3">
+			
+				<span>Newer >></span>
+			
+		</div>
+	</div>
+</div>
+ 
+
+        <footer class="main-footer">
+            <div class="wc-container">
+                <div class="column one">
+                    <h6>Few more links</h6>
+<ul class="menu footer">
+    <li><a href="http://localhost:4000/about">About</a></li>
+    <li><a href="http://localhost:4000/blog">Blog</a></li>
+</ul>		                    
+                </div>
+                <div class="column two">
+                    <h6>Follow me</h6>
+
+<ul class="social-media">
+
+
+    
+    <li>
+        <a title="J_Lieu on Twitter" 
+            href="https://twitter.com/J_Lieu" 
+            class="twitter wc-img-replace" target="_blank">Twitter</a>
+    </li>   
+    
+
+    
+    <li>
+        <a title="jameslieu on Github" 
+            href="https://github.com/jameslieu" 
+            class="github wc-img-replace" target="_blank">Github</a>
+    </li>
+     
+
+    
+
+    
+
+    
+
+    
+
+</ul>
+                </div>
+            </div>
+            <p class="wc-container disclaimer">
+                
+<!-- Powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a> -->
+            </p>
+        </footer>
+        <script type="text/javascript">
+          /* To avoid render blocking css */
+          var cb = function() {
+            var l = document.createElement('link'); l.rel = 'stylesheet';
+            l.href = 'http://fonts.googleapis.com/css?family=Ubuntu+Mono&subset=latin';
+            var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+          };
+          var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+              webkitRequestAnimationFrame || msRequestAnimationFrame;
+          if (raf) raf(cb);
+          else window.addEventListener('load', cb);
+        </script>
+        <!-- jQuery -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <!-- When no internet load JQuery from local -->
+        <script>window.jQuery || document.write('<script src="/assets/js/jquery.min.js"><\/script>')</script>
+        <!-- Site js -->
+        <script src="/assets/js/all.js"></script>
+        <!-- Google analytics  -->
+        
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-xxxx-x']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+    </body>        
+</html>
