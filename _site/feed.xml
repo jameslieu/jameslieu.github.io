@@ -5,9 +5,84 @@
     <description>Hi I'm James and I'm a web developer</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 31 Jan 2019 09:03:59 +0000</pubDate>
-    <lastBuildDate>Thu, 31 Jan 2019 09:03:59 +0000</lastBuildDate>
+    <pubDate>Fri, 01 Feb 2019 21:10:57 +0000</pubDate>
+    <lastBuildDate>Fri, 01 Feb 2019 21:10:57 +0000</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Redundancy And How I Handled It</title>
+        <description>&lt;p&gt;It was the start of the new year, we had all just come back in from the Christmas / New year break. Usually the conversations begin with how was your break? What did you get up to? Did you do any Christmas shopping? It started out like this for me and everyone else in the room but it got a lot less wholesome later on.&lt;/p&gt;
+
+&lt;p&gt;Around mid-day I was asked by the CEO of my company to have a chat. We went into a meeting room, my line manager was present. The first thing that was said was ‘I’m sorry to say, but this isn’t good news’.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I’m sorry to say, but this isn’t good news - CEO of company&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So that was when I was told that my role was at risk of redundancy due to the lack of success from the product I was hired to build and maintain (within a team). Having heard all of this, I sat back and began to intentionally make myself more relaxed as we got into more detail. My notice period was 3 months from the redundancy start date, and we’ll come to the conclusion meeting 2 weeks from ‘today’ to determine whether the redundancy becomes official.&lt;/p&gt;
+
+&lt;p&gt;When it was my turn to speak, I had already calmed my nerves by this point and told them that I understood the situation, I appreciate that this was something that had to be done and I thanked them for the opportunity. The CEO was pretty surprised, and respected my response. He thanked me for handling the news well and already offered to give me a good reference and assistance with anything I needed in order for me to take the necessary next steps pertaining the formal notice of risk of redundancy. I was able to work from home from now on which really helped with contacting and communicating with recruiters.&lt;/p&gt;
+
+&lt;p&gt;The process was to begin starting from that day, a letter was handed to me and we were to have another consultation meeting, to give me the opportunity to make my own case or suggestions for alternative work within the company.&lt;/p&gt;
+
+&lt;p&gt;As soon as that meeting had ended, the first thing I did was call my wife to tell her the news but at the same time, that I was pretty prepared to start looking at other opportunities immediately. No prerequisites required nor any up front work. I then called the last recruiter that got me this job to see if he has anything, then immediately making my online cv available for recruiters to find not before removing my phone number from my cv and profiles.&lt;/p&gt;
+
+&lt;p&gt;In my mind, I wasn’t too worried. The reason being that I’ve already accounted for this scenario a long while ago. Not that I anticipated a risk of redundancy but having the understanding and foresight that it could happen at any time.&lt;/p&gt;
+
+&lt;p&gt;I made sure my cv was pretty up-to-date throughout the past year and my personal portfolio of programming projects were also pretty recent. I’ve been working with C# and .NET exclusively for personal projects in order to learn the technology. So all of that was up-to-date and ready to go.&lt;/p&gt;
+
+&lt;p&gt;I was on the job hunt immediately and was already being contacted by recruiters over the course of the week. I had deliberately decided to focus my efforts on C# and the Microsoft stack as I think I’ll want to specialise with that technology moving forward. The issue was that I would naturally have very little commercial .NET and C# experience, which is a deterrent to any company HR team who are looking for someone senior etc. Regardless, I persevered and managed to a few telephone interviews booked.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;the-second-consultancy-meeting&quot;&gt;The Second Consultancy Meeting&lt;/h3&gt;
+
+&lt;p&gt;By the time of the second consultancy meeting, I had already done a telephone interview and had a few more booked later that week. Things were moving quickly, but also positive. I was hoping to find out exactly where I stood with the redundancy and was hoping to find out more about what financial aspects of the redundancy I need to be aware of. I’ve already briefly looked into it on the gov website but I wanted to see whether the company had their own package as well. But they were hoping that I would come up with ideas for alternative work I can do in order to save my employment status. It was disappointing but I had a lengthy chat with my line-manager afterwards and he was very sympathetic and helpful with any questions I had. The CEO also gave me an update call a few days later to answer some of my questions in that meeting as well.&lt;/p&gt;
+
+&lt;p&gt;A few days after the meeting I had a few more telephone interviews, one of which provided me a coding challenge to complete (blog post pending). I spent a large part of the weekend solving this one, I’m pretty proud of it and the feedback was positive enough to secure a final face-to-face interview the following week.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;the-final-week&quot;&gt;The Final Week&lt;/h3&gt;
+&lt;p&gt;The final week (week 3) was the busiest. I had a final interview on Monday which turned out really well. Very casual and didn’t require any technical test. They made me an offer. Although I didn’t get the formal document until late Wednesday&lt;/p&gt;
+
+&lt;p&gt;On Tuesday I had my final consultation meeting and it was decided that my role is officially redundant and the notice period of 3 months begins ‘today’.&lt;/p&gt;
+
+&lt;p&gt;The other company (who I did the coding challenge for) wanted to meet on Wednesday for a final face-to-face interview. I met with them, they demoed their products and then they wanted me to explain my thought processes regarding my completed coding challenge. It was quite a long interview (2 hours) it seemed to have gone really well because I was made an offer there and then. Not only did they make me an offer, they offered £2000 more than what they were initially advertising, they wanted me to join their team. I had to tell them that I’ll need time to think about it and consider all of the options before I make a decision.&lt;/p&gt;
+
+&lt;p&gt;At around the same time, a recruiter had called me back to inform me that yet another company wanted to meet for an interview. I told him it has to be this week and I already have two offers on the table. He managed to sort one out on the Thursday. So again, I attended this one as well. It also seemed to have gone really well, I was provided a technical test in the same evening which I then proceeded to complete in time for them to make a decision whether to make me an offer. Sadly, they were not able to unless I met with them the following week for a final interview. I quite liked the company as well.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, another company was interested in my CV. This was actually for a Ruby On Rails role based in London. However, they had pretty generous remote working options so I told the recruiter to put me forward and then they sent me a technical test to do. This one was in Ruby and the deadline for this was Friday as well, I’d thought I’ll take on the challenge to see where I get with it. I also completed this on Thursday night. Pretty impressed with myself for being able to solve two tech tests on the same evening. I didn’t hear back from this one, but to be fair I had decided to accept one of the earlier offers as it was in Milton Keynes (where I’m based)&lt;/p&gt;
+
+&lt;p&gt;So on Friday, my wife and I looked at the numbers for the two offers on the table so far, I was hoping to hear back from the third company earlier, but it wasn’t until the late afternoon did I decide that I shouldn’t delay any longer. We had discovered that although the second company offered a substantially higher base salary, the location of the first was so close to my home that I can essentially give up our second car which brings the overall expenses right down.&lt;/p&gt;
+
+&lt;p&gt;It was a really busy week. But in the end I’m happy with the way things had turned out and the company I had gone with. I’ll be starting my first day on 1st February 2019. Looking forward to it.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
+&lt;p&gt;Its good to look back at this experience an consider what can be learned from it. I managed to cope really well primarily because I had prepared for it.&lt;/p&gt;
+
+&lt;p&gt;My CV was up-to-date, I had made sure that I put in the correct bullet points for what impact I had made on that role. I had taken on some commercial C# experience during my time there.&lt;/p&gt;
+
+&lt;p&gt;My personal portfolio also had up-to-date projects on there. I created a repo called &lt;a href=&quot;https://github.com/jameslieu/csharp_projects&quot;&gt;csharp_projects&lt;/a&gt; and put all of my C# mini projects or C# experiments in there. It was quite a good number of projects at this point&lt;/p&gt;
+
+&lt;p&gt;Some of the questions and technical knowledge I was tested on were topics on things I had learned or read about not too long ago. I regularly read articles, read programming blogs and watch programming related videos. This habit of mine has allowed me to gain knowledge on topics that I were able to talk about which really helped with the interviews I had attended. Constantly improving my knowledge and continued learning is something I, as a web developer, should never be ignored. Otherwise, its easy to fall behind and miss out on new opportunities.&lt;/p&gt;
+
+&lt;p&gt;While I didn’t do this to prepare me for interviews, but my soft skills seem to be better lately. In these interviews whether it was on the telephone or face-to-face, the feedback overall was pretty good. The people I met seemed to find me likeable and that is definitely due to my soft skills. I’m not too sure how and when I had improved on this, but I wonder if it was because I began reading more self development books and watching videos on personal development as well. In any case, I feel that me having displayed some good soft skills played a huge role in getting me these offers.&lt;/p&gt;
+
+&lt;p&gt;Again, I didn’t really intentionally prepare any of this, but having done so, allowed me to swiftly move on and find/gain more opportunities for me. It reminds me of a topic in Jordan Petersons ‘12 Rules For Life’ book, the difference between order and chaos. ‘Order’ being normal day-to-day routines and ‘chaos’ occurring if something unexpected happens which is serious enough to disrupt your life such as receiving an eviction notice or your job role is being made redundant for example. I managed to avoid or substantially reduce ‘chaos’ by being prepared and having all of the necessary resources and steps done and in ‘order’ before the ‘chaos’ took control and would therefore cause a tremendous amount of stress in order to deal and solve the situation.&lt;/p&gt;
+
+&lt;p&gt;Wow this was a long post, I don’t really expect anyone to read this but myself really but writing down my experiences here allows me to have a record of how I handled everything and what my thought process was. I managed to secure 2 (possibly 3) offers in two weeks, in a completely different tech stack without taking a pay cut.&lt;/p&gt;
+
+&lt;p&gt;I’m pretty proud of myself.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Feb 2019 20:53:00 +0000</pubDate>
+        <link>http://localhost:4000/redundancy/2019/02/01/redundancy-and-how-i-handled-it/</link>
+        <guid isPermaLink="true">http://localhost:4000/redundancy/2019/02/01/redundancy-and-how-i-handled-it/</guid>
+        
+        
+        <category>redundancy</category>
+        
+      </item>
     
       <item>
         <title>Get The Prime Factors</title>
@@ -827,95 +902,6 @@ Alternatively by typing &lt;strong&gt;subl&lt;/strong&gt;, &lt;strong&gt;sublime
         
         
         <category>ssh</category>
-        
-      </item>
-    
-      <item>
-        <title>How to setup port forwarding on VirtualBox</title>
-        <description>&lt;p&gt;One of the rails project I worked with required me to get VirtualBox up and running with the following specs: Ubuntu 14.04 server amd64 on a 2GB RAM 2 core VM with VT-x/ AMD-v.&lt;/p&gt;
-
-&lt;p&gt;And in there, I had to set up ruby via RVM, install a lot of extra tools and ruby gems. To make things easier for me I used port forwarding.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;Port forwarding allows remote computers (for example, computers on the Internet) to connect to a specific computer or service within a private local-area network (LAN) - &lt;em&gt;according to wikipedia&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;One benefit of using port forwarding is that it allows you to run tasks on the command-line without having to work directly in VirtualBox by using your host terminal.
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;First thing I did was to install the OpenSSH client applications on Ubuntu&lt;/p&gt;
-&lt;pre&gt;
-sudo apt-get install openssh-server
-&lt;/pre&gt;
-
-&lt;p&gt;&lt;br /&gt;
-Then to setup a port forwarding into the guest’s port 22 so I can access it from my host terminal.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;To enable port forwarding, open the settings for your Virtual Machine &lt;strong&gt;(For OS X)&lt;/strong&gt;&lt;br /&gt;
-&lt;em&gt;You can do this from the VirtualBox Manager, choose Settings(found on the top left)&lt;/em&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Select the &lt;strong&gt;Network&lt;/strong&gt; tab&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/port_forwarding_1.png&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Make sure that &lt;strong&gt;NAT&lt;/strong&gt; is selected in the &lt;strong&gt;Attached to: selector.&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Click on the Port Forwarding button.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/port_forwarding_2.png&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Pick a port on our Host, for example 2222, and forward TCP connections received on this port, to port 22/TCP (SSH) on our guest. (&lt;em&gt;To do this, click on the green (+) button on the right&lt;/em&gt;).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Host IP is set to nothing - this is on purpose, and is equivalent to saying 0.0.0.0. However, it does mean that ANY MACHINE that can access your Host on TCP port 2222 will be able to talk to the SSH on your guest.&lt;/li&gt;
-  &lt;li&gt;Theres no need to change the Guest IP so leave it blank.&lt;/li&gt;
-  &lt;li&gt;Now confirm all the changes and click &lt;strong&gt;ok&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Restart the Virtual Machine so the changes are applied&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Now you should be ready to connect to the guest.
-&lt;em&gt;Note: Make sure you have created a username on your guest. You cannot log in as root using SSH`&lt;/em&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Start your VM.
-In your terminal enter:&lt;/p&gt;
-
-&lt;pre&gt;
-ssh [user_name]@127.0.0.1 -p 2222
-&lt;/pre&gt;
-
-&lt;p&gt;or&lt;/p&gt;
-
-&lt;pre&gt;
-ssh -l [user_name] -p 2222 127.0.0.1
-&lt;/pre&gt;
-
-&lt;p&gt;&lt;em&gt;Don’t forget to replace &lt;strong&gt;[user_name]&lt;/strong&gt; with the user you created.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;You will be prompted to accept the host key so be sure to enter &lt;strong&gt;yes&lt;/strong&gt;. Then finally you’ll be prompted to enter the password for the username:&lt;/p&gt;
-
-&lt;pre&gt;
-[user_name]@127.0.0.1's password:
-&lt;/pre&gt;
-
-&lt;p&gt;Enter your password and you should now be logged in!&lt;/p&gt;
-
-&lt;p&gt;Now you should be able to run commands in the terminal without going into the VM directly. Great for running specs for your rails applications or adding new gems and tools.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 31 Jul 2014 11:43:30 +0100</pubDate>
-        <link>http://localhost:4000/virtual-box/ubuntu/2014/07/31/port-forwarding/</link>
-        <guid isPermaLink="true">http://localhost:4000/virtual-box/ubuntu/2014/07/31/port-forwarding/</guid>
-        
-        
-        <category>virtual-box</category>
-        
-        <category>ubuntu</category>
         
       </item>
     
