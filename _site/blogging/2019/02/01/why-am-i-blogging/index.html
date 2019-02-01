@@ -3,11 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>How to style nested ordered lists using css</title>
+        <title>Why Am I Blogging?</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">        
         <meta name="description" content="Hi I'm James and I'm a web developer">
         <link rel="canonical" 
-        href="http://localhost:4000/css/2016/04/15/how-to-style-nested-ordered-lists-using-css/">
+        href="http://localhost:4000/blogging/2019/02/01/why-am-i-blogging/">
         
         <!-- Harmony styles -->
         <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
@@ -55,163 +55,40 @@
         <div class="page-content wc-container">
 	
 	<div class="post">
-		<h3>How to style nested ordered lists using css</h3>
+		<h3>Why Am I Blogging?</h3>
 		<p class="post-meta">
 			
       <span class="categories">
-      css
+      blogging
       </span> |
 	    
 	    <span class="post-date">
-    	Apr 15, 2016 
+    	Feb 1, 2019 
 	    </span>
 		</p>		
 		<div class="post">
-			<p>I’ve found that it can be quite difficult to figure out how to style nested ordered lists using css. Imagine if I needed to put together a contract or Terms and conditions document using HTML and CSS.</p>
+			<p>You may have noticed that there is a hiatus in blog posts between 2016 and 2019</p>
 
-<p>Its not uncommon for contracts to use sub sections and so the document will likely use nested ordered lists in HTML. What if the sub sections are styled differently?</p>
+<p>To be honest, I basically forgot about the blog really. It wasn’t on my list of priorities, and I guess I initially started the blog to help with my
+chances for job opportunities. Being a junior at the time, it was tough to brake into a role without some experience under your belt.</p>
 
-<p>An example can look something like this:</p>
+<p>Also I didn’t really have any topics to blog about. Initially the blog was supposed to only have programming related topics, but my stance on that has changed now,
+I’ll blog about anything that I find interesting to write about from now on.</p>
 
-<div class="style-ol">
-  <ol>
-    <li>
-      Alpha
-    </li>
-    <li>
-      Beta
-    </li>
-    <li>
-      Charlie
-    </li>
-    <ol>
-      <li>
-        Delta
-      </li>
-      <li>
-        Echo
-      </li>
-      <ol>
-        <li>
-          Foxtrot
-        </li>
-        <li>
-          Golf
-        </li>
-        <li>
-          Hotel
-        </li>
-      </ol>
-    </ol>
-  </ol>
-</div>
+<p>I had to restore my blog a little by updating the Ruby Gems this blog was using. Once that was all done, it was rather easy to start creating posts. Jekyll is an amazing tool for this
+and I’m glad I was able to create content immediately because of it.</p>
 
-<p>In the example above, the first list style is numeric, the second are made up of letters and the third using roman numerals:</p>
+<p>The reason I’ve started blogging again was due to watching a Youtube video about how to be successful or something similar, the content creator gave his top X tips
+and one of the things he recommends was to write in a journal or blog. Writing regularly will likely improve my communication skills. It’s also really fun to read
+back on something I’ve written after a long while and compare it to my current way of thinking today. I actually started a programming journal but that has some really personal experiences with programming and
+I often forget to fill it in or have any content for it.</p>
 
-<p>Here is my solution:</p>
+<p>So much has changed since my last blog post and my experience as a developer has grown quite a bit. My career path has switched between technology stacks quite a few times as well.
+I’m also reading more personal development books and I’m thinking of writing reviews on the ones that have an impact on my life. Sharing this knowledge also helps me
+develop myself further as well by becoming better at articulating something as well as testing to see if I truly understand what topic I’m writing about. I’m also not expecting
+anyone to read this blog either, this is really for personal use.</p>
 
-<pre>
-  ol {
-    counter-reset: first-counter;
-    list-style-type: none;
-    position: relative;
-    padding-left: 20px;
-    margin-left: 15px;
-  }
-
-  ol li {
-    margin: 10px 0;
-  }
-
-  ol li:before {
-    content: counter(first-counter) '.';
-    counter-increment: first-counter;
-    position: absolute;
-    left: 0px;
-  }
-
-  ol ol {
-    counter-reset: second-counter;
-    list-style-type: none;
-  }
-
-  ol ol li {
-    padding-left: 15px;
-  }
-
-  ol ol li:before {
-    content: counter(second-counter, lower-alpha) '.';
-    counter-increment: second-counter;
-    list-style-type: none;
-    left: 10px;
-    position: absolute;
-  }
-
-  ol ol ol {
-    counter-reset: third-counter;
-  }
-
-  ol ol ol li {
-    padding-left: 15px;
-  }
-
-  ol ol ol li:before {
-    list-style-type: none;
-    content: counter(third-counter, lower-roman) '.';
-    counter-increment: third-counter;
-  }
-</pre>
-
-<p>Firstly, you’ll have to use <code class="highlighter-rouge">counter-reset</code>, and give it a sensible variable name e.g. <code class="highlighter-rouge">first-counter</code>, <code class="highlighter-rouge">second-counter</code> and <code class="highlighter-rouge">third-counter</code>.</p>
-
-<pre>
-  ol {
-    counter-reset: first-counter;
-    list-style-type: none;
-    position: relative;
-    padding-left: 20px;
-    margin-left: 15px;
-  }
-</pre>
-
-<p>I then set <code class="highlighter-rouge">list-style-type: none;</code>, which pretty much removes the original list style completely</p>
-
-<pre>
-  ol li:before {
-    content: counter(first-counter) '.';
-    counter-increment: first-counter;
-    position: absolute;
-    left: 0px;
-  }
-</pre>
-
-<p>Then in the psudo-element <code class="highlighter-rouge">:before</code>, append the content style:</p>
-
-<p><code class="highlighter-rouge">content: counter(first-counter)</code>
-(‘first-counter’ is the variable you declared earlier)</p>
-
-<p>Increment using <code class="highlighter-rouge">counter-increment</code>. Then you’ll need to use the <code class="highlighter-rouge">position</code> style to adjust the position accordingly.</p>
-
-<p>To change the list style type you can pass that in as a second argument 
-<code class="highlighter-rouge">content: counter(second-counter, lower-alpha) '.';</code></p>
-
-<pre>
-  a. foo
-  b. bar
-  c. baz
-</pre>
-
-<p>And finally, if I wanted to change the character (decimal point) after the list-style, all I have to do is change the string: <code class="highlighter-rouge">content: counter(first-counter) '%';</code></p>
-
-<pre>
-  1% foo
-  2% bar
-  3% baz
-</pre>
-
-<p>As you can see, this is extremely hacky and as far as I can tell, seems to be the only way you can style nested ordered lists.</p>
-
-<p>In any case, it felt great to have finally found the solution, and I’ll definitely be refering to this post next time I’m asked to style ordered lists.</p>
+<p>I’m not sure how long I’d be able to maintain or add new content to the blog, but I’ll take on the challenge nonetheless.</p>
 
 		</div>
 	</div>
@@ -224,17 +101,17 @@
 		    
 		    <li>
 			  <span>01 Feb 2019 &raquo;</span>
-			  <a href="http://localhost:4000/blogging/2019/02/01/why-am-i-blogging/">Why Am I Blogging?</a>
-		    </li>
-		    
-		    <li>
-			  <span>01 Feb 2019 &raquo;</span>
 			  <a href="http://localhost:4000/redundancy/2019/02/01/redundancy-and-how-i-handled-it/">Redundancy And How I Handled It</a>
 		    </li>
 		    
 		    <li>
 			  <span>31 Jan 2019 &raquo;</span>
 			  <a href="http://localhost:4000/ruby/prime-numbers/prime-factors/2019/01/31/prime-factorization/">Get The Prime Factors</a>
+		    </li>
+		    
+		    <li>
+			  <span>30 Jan 2019 &raquo;</span>
+			  <a href="http://localhost:4000/book/review/2019/01/30/the-miracle-morning/">The Miracle Morning review</a>
 		    </li>
 		    
 		</ul>
@@ -244,13 +121,13 @@
 	<div class="post-footer">
 		<div class="column-1">
 			
-				<a href="http://localhost:4000/sublime/text/ubuntu/linux/2015/10/04/launch-sublime-3-using-terminal/"><< Older</a>
+				<a href="http://localhost:4000/redundancy/2019/02/01/redundancy-and-how-i-handled-it/"><< Older</a>
 			
 		</div>
 		<div class="column-2"><a href="http://localhost:4000/ ">Home</a></div>
 		<div class="column-3">
 			
-				<a href="http://localhost:4000/book/review/2019/01/30/the-miracle-morning/">Newer >></a>
+				<span>Newer >></span>
 			
 		</div>
 	</div>

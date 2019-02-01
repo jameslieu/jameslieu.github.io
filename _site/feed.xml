@@ -5,9 +5,43 @@
     <description>Hi I'm James and I'm a web developer</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 01 Feb 2019 21:57:29 +0000</pubDate>
-    <lastBuildDate>Fri, 01 Feb 2019 21:57:29 +0000</lastBuildDate>
+    <pubDate>Fri, 01 Feb 2019 22:19:14 +0000</pubDate>
+    <lastBuildDate>Fri, 01 Feb 2019 22:19:14 +0000</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Why Am I Blogging?</title>
+        <description>&lt;p&gt;You may have noticed that there is a hiatus in blog posts between 2016 and 2019&lt;/p&gt;
+
+&lt;p&gt;To be honest, I basically forgot about the blog really. It wasn’t on my list of priorities, and I guess I initially started the blog to help with my
+chances for job opportunities. Being a junior at the time, it was tough to brake into a role without some experience under your belt.&lt;/p&gt;
+
+&lt;p&gt;Also I didn’t really have any topics to blog about. Initially the blog was supposed to only have programming related topics, but my stance on that has changed now,
+I’ll blog about anything that I find interesting to write about from now on.&lt;/p&gt;
+
+&lt;p&gt;I had to restore my blog a little by updating the Ruby Gems this blog was using. Once that was all done, it was rather easy to start creating posts. Jekyll is an amazing tool for this
+and I’m glad I was able to create content immediately because of it.&lt;/p&gt;
+
+&lt;p&gt;The reason I’ve started blogging again was due to watching a Youtube video about how to be successful or something similar, the content creator gave his top X tips
+and one of the things he recommends was to write in a journal or blog. Writing regularly will likely improve my communication skills. It’s also really fun to read
+back on something I’ve written after a long while and compare it to my current way of thinking today. I actually started a programming journal but that has some really personal experiences with programming and
+I often forget to fill it in or have any content for it.&lt;/p&gt;
+
+&lt;p&gt;So much has changed since my last blog post and my experience as a developer has grown quite a bit. My career path has switched between technology stacks quite a few times as well.
+I’m also reading more personal development books and I’m thinking of writing reviews on the ones that have an impact on my life. Sharing this knowledge also helps me
+develop myself further as well by becoming better at articulating something as well as testing to see if I truly understand what topic I’m writing about. I’m also not expecting
+anyone to read this blog either, this is really for personal use.&lt;/p&gt;
+
+&lt;p&gt;I’m not sure how long I’d be able to maintain or add new content to the blog, but I’ll take on the challenge nonetheless.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Feb 2019 22:00:00 +0000</pubDate>
+        <link>http://localhost:4000/blogging/2019/02/01/why-am-i-blogging/</link>
+        <guid isPermaLink="true">http://localhost:4000/blogging/2019/02/01/why-am-i-blogging/</guid>
+        
+        
+        <category>blogging</category>
+        
+      </item>
     
       <item>
         <title>Redundancy And How I Handled It</title>
@@ -745,170 +779,6 @@ Alternatively by typing &lt;strong&gt;subl&lt;/strong&gt;, &lt;strong&gt;sublime
         <category>ubuntu</category>
         
         <category>linux</category>
-        
-      </item>
-    
-      <item>
-        <title>Bash command line for Linux - Cheat Sheet</title>
-        <description>&lt;p&gt;I’ve found these commands to be very useful but at the same time I can just as easily forget them. Therefore in this post I wanted to add a cheat sheet so I can refer back to it whenever I need to. These are the common ones I used the most&lt;/p&gt;
-
-&lt;p&gt;If there are any you think will also be useful please let me know in the comments below.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;useful-commands&quot;&gt;Useful commands&lt;/h3&gt;
-
-&lt;p&gt;The Commands below are the ones I also find useful and need to use more. Learning to master &lt;strong&gt;grep&lt;/strong&gt; is definitely one of my priorities.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Command&lt;/th&gt;
-      &lt;th&gt;Description&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;cat&lt;/td&gt;
-      &lt;td&gt;Concatenate and print (display) the content of files&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;chmod&lt;/td&gt;
-      &lt;td&gt;Change access permissions&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;df&lt;/td&gt;
-      &lt;td&gt;Display free disk space&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;echo&lt;/td&gt;
-      &lt;td&gt;Display message on screen&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;env&lt;/td&gt;
-      &lt;td&gt;Environment variables&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;eval&lt;/td&gt;
-      &lt;td&gt;Evaluate several commands/arguments&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;exit&lt;/td&gt;
-      &lt;td&gt;Exit the shell&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;grep&lt;/td&gt;
-      &lt;td&gt;Search file(s) for lines that match a given pattern&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;mkdir&lt;/td&gt;
-      &lt;td&gt;Create new folder(s)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;passwd&lt;/td&gt;
-      &lt;td&gt;Modify a user password&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;pwd&lt;/td&gt;
-      &lt;td&gt;Print Working Directory&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;ssh&lt;/td&gt;
-      &lt;td&gt;Secure Shell client (remote login program)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;su&lt;/td&gt;
-      &lt;td&gt;Substitute user identity&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;sudo&lt;/td&gt;
-      &lt;td&gt;Execute a command as another user&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;tail&lt;/td&gt;
-      &lt;td&gt;Output the last part of file&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;tar&lt;/td&gt;
-      &lt;td&gt;Store, list or extract files in an archive&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;exploring-and-changing-files&quot;&gt;Exploring and changing files&lt;/h3&gt;
-
-&lt;p&gt;These commands are the commands I feel improves my workflow the most and overall productivity when working on a project. Easy to remember and definitely a good place to start for beginners&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Command&lt;/th&gt;
-      &lt;th&gt;Description&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;ls&lt;/td&gt;
-      &lt;td&gt;List the files/folders in a directory&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;ls -la&lt;/td&gt;
-      &lt;td&gt;List all the files/folders in a directory (including hidden files) and displays additional information about them&lt;/td&gt;
-    &lt;/tr&gt;
-
-    &lt;tr&gt;
-      &lt;td&gt;cd pathname/directory/subdirectory&lt;/td&gt;
-      &lt;td&gt;To change directory&lt;/td&gt;
-    &lt;/tr&gt;
-
-    &lt;tr&gt;
-      &lt;td&gt;cd ../&lt;/td&gt;
-      &lt;td&gt;To go up a level of a directory&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;cd ../../themes/images&lt;/td&gt;
-      &lt;td&gt;Or you can chain these commands together to navigate across directories&lt;/td&gt;
-    &lt;/tr&gt;
-
-    &lt;tr&gt;
-      &lt;td&gt;cp filename-to-copy.txt new-file-name.txt&lt;/td&gt;
-      &lt;td&gt;To copy a file with the same directory simply type&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;cp filename.txt ../../new-directory/filename.txt&lt;/td&gt;
-      &lt;td&gt;To copy between directories:&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;cp images/* ../skin/&lt;/td&gt;
-      &lt;td&gt;To copy all files from one directory to another, use the * character, which unofficially means all&lt;/td&gt;
-    &lt;/tr&gt;
-
-    &lt;tr&gt;
-      &lt;td&gt;mv current-directory/file.txt ../new-directory/file&lt;/td&gt;
-      &lt;td&gt;Move a file&lt;/td&gt;
-    &lt;/tr&gt;
-
-    &lt;tr&gt;
-      &lt;td&gt;mv oldfilename.txt newfilename.txt&lt;/td&gt;
-      &lt;td&gt;To rename a file, use the ‘mv’ but change the name of the file when stating the directory receiving the file.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;rm filename.txt&lt;/td&gt;
-      &lt;td&gt;To delete a file type&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;rm -r folder&lt;/td&gt;
-      &lt;td&gt;Alternatively if you wish to delete a directory, and all directories and files within that recursively, type&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Tue, 05 Aug 2014 14:09:30 +0100</pubDate>
-        <link>http://localhost:4000/ssh/2014/08/05/linux-cheatsheet/</link>
-        <guid isPermaLink="true">http://localhost:4000/ssh/2014/08/05/linux-cheatsheet/</guid>
-        
-        
-        <category>ssh</category>
         
       </item>
     
