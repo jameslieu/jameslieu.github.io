@@ -18,9 +18,11 @@ She's made a huge impact regardless, but in the form of other improvements and y
 
 > "Yeah but what was your technical contribution"
 
-I guess the promotion would mean that, had she been considered, her role would change from **Engineer** to **Senior Engineer**. And I guess particular role would not be a good fit for her given that her contributions related to her actual role were maybe less than ideal.
+I guess the promotion would mean that, had she been considered, her role would change from **Engineer** to **Senior Engineer**. And I guess that particular role would not be a good fit for her, given that her contributions related to her actual role were maybe less than ideal.
 
-We really should be asking **"would her current skillset fit a Senior Engineer role"**? Perhaps the reason she's made it this far was because she's brought value to the company in other ways. Assuming she didn't do of these other tasks, would she have even made this this far? It could well be that (at that particular company) an *Engineer's salary* is **equal or potentially higher** than a *Product Manager's salary*, if this is true then arguably she was being paid *more* or at a *premium* to do tasks that a *Product Manager* would typically be doing perhaps? (All Speculation at this point, I don't actually know if this were the case).
+We really should be asking **"would her current skillset fit a Senior Engineer role"?** Perhaps the reason she's made it this far, was because she's brought value to the company in other ways. Assuming she didn't do any of these other tasks, would she have even made this this far?
+
+It could well be that (at that particular company) an *Engineer's salary* is **equal or potentially higher** than a *Product Manager's salary*, if this is true then arguably she was being paid *more* or at a *premium* to do tasks that a *Product Manager* would typically be doing perhaps? (All Speculation at this point, I don't actually know if this were the case).
 
 ### My Opinion
 A little controversal to say but I believe you should just do the work you were hired to do within the hours you're obligated to do it in.
