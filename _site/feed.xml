@@ -5,9 +5,65 @@
     <description>Hi I'm James and I'm a web developer</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 03 Feb 2019 20:48:10 +0000</pubDate>
-    <lastBuildDate>Sun, 03 Feb 2019 20:48:10 +0000</lastBuildDate>
+    <pubDate>Mon, 04 Feb 2019 21:43:18 +0000</pubDate>
+    <lastBuildDate>Mon, 04 Feb 2019 21:43:18 +0000</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Being The Glue</title>
+        <description>&lt;p&gt;I read this interesting &lt;a href=&quot;https://www.slideshare.net/TanyaReilly/being-glue&quot;&gt;SlideShare article&lt;/a&gt; today.&lt;/p&gt;
+
+&lt;p&gt;It was about a software engineer who used some of her time not only to work on the codebase of her company but to also to solve other problems outside the scope of her role. She wasn’t too confident with her skills as a developer, working with this codebase and its complexity but she did identify some other unrelated improvements for her team such as realising that her team is often interrupted by questions on Slack, so she began to document the answers thus the team gets fewer interruptions.&lt;/p&gt;
+
+&lt;p&gt;Another example was that she remembers her difficult first few weeks so she wrote onboarding documents so new employees joining the team will have an easier time. After doing these managerial and leadership tasks, her team started to treat her as an unofficial lead.&lt;/p&gt;
+
+&lt;p&gt;However, by doing all of this, she didn’t contribute much to her actual role, it seems she didn’t contribute to the codebase very much at all and her ‘actual’ resposibilities were left or delegated to somebody else maybe.&lt;/p&gt;
+
+&lt;p&gt;She’s made a huge impact regardless, but in the form of other improvements and yet when it came to the companies promotion process, she was not considered for promotion. The reasons were that her project wasn’t finished, she wasn’t producing much code and she didn’t have enough ‘impact’ yet. She outlined all of the impactful things she’s done over the years but their response was “Yeah but what was your technical contribution”.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Yeah but what was your technical contribution”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I guess the promotion would mean that, had she been considered, her role would change from &lt;strong&gt;Engineer&lt;/strong&gt; to &lt;strong&gt;Senior Engineer&lt;/strong&gt;. And I guess particular role would not be a good fit for her given that her contributions related to her actual role were maybe less than ideal.&lt;/p&gt;
+
+&lt;p&gt;We really should be asking &lt;strong&gt;“would her current skillset fit a Senior Engineer role”&lt;/strong&gt;? Perhaps the reason she’s made it this far was because she’s brought value to the company in other ways. Assuming she didn’t do of these other tasks, would she have even made this this far? It could well be that (at that particular company) an &lt;em&gt;Engineer’s salary&lt;/em&gt; is &lt;strong&gt;equal or potentially higher&lt;/strong&gt; than a &lt;em&gt;Product Manager’s salary&lt;/em&gt;, if this is true then arguably she was being paid &lt;em&gt;more&lt;/em&gt; or at a &lt;em&gt;premium&lt;/em&gt; to do tasks that a &lt;em&gt;Product Manager&lt;/em&gt; would typically be doing perhaps? (All Speculation at this point, I don’t actually know if this were the case).&lt;/p&gt;
+
+&lt;h3 id=&quot;my-opinion&quot;&gt;My Opinion&lt;/h3&gt;
+&lt;p&gt;A little controversal to say but I believe you should just do the work you were hired to do within the hours you’re obligated to do it in.&lt;/p&gt;
+
+&lt;p&gt;Don’t go out of your way to do anything more than what you’re asked to. If I identify a more efficient way to do something or improving a workflow of some sort, I would run it by the team during stand up and make sure that everyone is not only onboard, but is aware that I’m doing these things and during work hours. Keep a record of the work and see if you can’t do a before/after benchmark on whatever you did to improve things. If you’re asked to work more hours or stay late, always ask whether you’re being compensated for it or get time off in lieu.&lt;/p&gt;
+
+&lt;p&gt;The only time I would consider going against this rule is if I can see how doing this benefits me personally. For example, the opportunity to network with other people within the company, improve my communication or sales skills, learning a new technology or automating processes which I can then have for personal use.&lt;/p&gt;
+
+&lt;p&gt;It sounded like the person in the example basically took on other work because she wasn’t confident with the technical side of things. Or was worried she worked too slowly, or was worried that she asked too many questions. The advice I would take is to not stop asking questions, maybe study in their own time regarding the technology that she’s not sure off and be sure to take notes, you’ll get up to speed eventually.&lt;/p&gt;
+
+&lt;p&gt;The reality is that she was hired to fill a role, but she didn’t really ‘perform’ as per the expectation of the role, so should she really have been promoted for it?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;..she didn’t really &lt;em&gt;perform&lt;/em&gt; as per the expectation of the role&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’m not saying that she doesn’t deserve it either, but the great job she did is arguably tasks that belong to a different position/role and therefore she should technically be reviewed based on that instead. I’m guessing a Project Manager type role and Software Developer roles pay differently. Would she have accepted a ‘promotion’ into a Project Manager role whereby she would potentially get ‘Project manager rates’ which could mean a paycut?&lt;/p&gt;
+
+&lt;p&gt;Stay focused on the task at hand and don’t sell yourself short. Never ‘expect’ to get a promotion just because you’ve worked more overtime etc. But if you did do a great job and feel like you deserve a promotion, be sure to bring forth a all of the reasons why and list them out during the performance review meeting. If the company still doesn’t give you the promotion you think you deserve, then you’ll need to consider whether you want to be in a company which values you or not.&lt;/p&gt;
+
+&lt;p&gt;For me personally, the moral of this story is to stop volunteering. Its a nice thing to do but if you don’t gain anything from it or are not rewarded for it then I think you’ll start feeling resentful and that’s not good for you.&lt;/p&gt;
+
+&lt;p&gt;An interesting article to read, nice to learn about different perspectives and consider how I would approach the same problem if I were in their shoes.&lt;/p&gt;
+
+&lt;p&gt;A smart person learns from their mistakes, a wise person learns from other people’s mistakes.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 04 Feb 2019 19:57:00 +0000</pubDate>
+        <link>http://localhost:4000/being/glue/2019/02/04/being-the-glue/</link>
+        <guid isPermaLink="true">http://localhost:4000/being/glue/2019/02/04/being-the-glue/</guid>
+        
+        
+        <category>Being</category>
+        
+        <category>Glue</category>
+        
+      </item>
     
       <item>
         <title>Achieving Inbox Zero</title>
@@ -686,103 +742,6 @@ Usage: init [options]
         <category>git</category>
         
         <category>rebase</category>
-        
-      </item>
-    
-      <item>
-        <title>What is Polymorphism?</title>
-        <description>&lt;p&gt;What is polymorphism? I’ve found that this question in particular is asked quite frequently in tech interviews. I was asked this in a phone interview once and I did not know the answer to this unfortunately. I believe that it was this question that prevented me from getting to the next stage of the interview, so of course I decided to look into it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/polymorphism_example.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Polymorphism essentially means &lt;em&gt;many forms&lt;/em&gt; and is one of the fundamental features of object oriented programming. It lets us automatically do the correct behavior even if what we’re working with could take one of many different forms, simply put; it means being able to send the same message and get different results. Here’s the most basic example I’ve found; the &lt;code class=&quot;highlighter-rouge&quot;&gt;+&lt;/code&gt; operator.&lt;/p&gt;
-
-&lt;p&gt;In Ruby the &lt;code class=&quot;highlighter-rouge&quot;&gt;+&lt;/code&gt; operator will &lt;em&gt;behave&lt;/em&gt; differently depending on how you use it.&lt;/p&gt;
-
-&lt;p&gt;For example, lets say you have two variables; &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;If the two variables are &lt;code class=&quot;highlighter-rouge&quot;&gt;integers&lt;/code&gt;, the &lt;code class=&quot;highlighter-rouge&quot;&gt;+&lt;/code&gt; operator will numerically add them.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;However, what if the two variables were &lt;code class=&quot;highlighter-rouge&quot;&gt;strings&lt;/code&gt; instead?&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hello &quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;World&quot;&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hello World&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;As you can see, using &lt;code class=&quot;highlighter-rouge&quot;&gt;+&lt;/code&gt; operator for &lt;code class=&quot;highlighter-rouge&quot;&gt;strings&lt;/code&gt; will &lt;strong&gt;concatenate&lt;/strong&gt; them instead.&lt;/p&gt;
-
-&lt;p&gt;Now this is a basic example of how polymorphism works and is built into a lot of programming languages, but we can use the same idea with our own classes and objects.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;Here is an example of a polymorphic association:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Animal&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;make_noise&lt;/span&gt; 
-    &lt;span class=&quot;s2&quot;&gt;&quot;Some noise&quot;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-
-  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sleep&lt;/span&gt; 
-    &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; is sleeping.&quot;&lt;/span&gt; 
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Dog&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Animal&lt;/span&gt;
-    
-  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;make_noise&lt;/span&gt; 
-    &lt;span class=&quot;s1&quot;&gt;'Woof!'&lt;/span&gt;         
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; 
-    
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Cat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Animal&lt;/span&gt; 
-    
-  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;make_noise&lt;/span&gt; 
-    &lt;span class=&quot;s1&quot;&gt;'Meow!'&lt;/span&gt; 
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; 
-    
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Lets say we have a simple inheritance hierarchy. There is an &lt;code class=&quot;highlighter-rouge&quot;&gt;Animal&lt;/code&gt; superclass and two descendant subclasses, a &lt;code class=&quot;highlighter-rouge&quot;&gt;Cat&lt;/code&gt; and a &lt;code class=&quot;highlighter-rouge&quot;&gt;Dog&lt;/code&gt;. Each of these three classes has its own implementation of the &lt;code class=&quot;highlighter-rouge&quot;&gt;make_noise&lt;/code&gt; method. The implementation of the method of the descendants replaces the definition of a method in the &lt;code class=&quot;highlighter-rouge&quot;&gt;Animal&lt;/code&gt; class.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Dog&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Animal&lt;/span&gt;
-    
-  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;make_noise&lt;/span&gt; 
-    &lt;span class=&quot;s1&quot;&gt;'Woof!'&lt;/span&gt;         
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; 
-    
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;make_noise&lt;/code&gt; method in the &lt;code class=&quot;highlighter-rouge&quot;&gt;Dog&lt;/code&gt; class replaces the &lt;code class=&quot;highlighter-rouge&quot;&gt;make_noise&lt;/code&gt; method of the &lt;code class=&quot;highlighter-rouge&quot;&gt;Animal&lt;/code&gt; class. The idea is that even though the &lt;code class=&quot;highlighter-rouge&quot;&gt;Dog&lt;/code&gt; class is &lt;em&gt;inheriting&lt;/em&gt; from the &lt;code class=&quot;highlighter-rouge&quot;&gt;Animal&lt;/code&gt; class and would therefore already have access to the &lt;code class=&quot;highlighter-rouge&quot;&gt;make_noise&lt;/code&gt; method, the &lt;code class=&quot;highlighter-rouge&quot;&gt;Dog&lt;/code&gt; class will have its own &lt;em&gt;specialized&lt;/em&gt; version of that method which is unique to that particular class. This is referred to as overiding the method of the superclass, which just means you write it again.&lt;/p&gt;
-
-&lt;p&gt;This means is that the method will change its behaviour depending where it was originally instantiated from. Now you may wonder why this would be useful.. Here is an example:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Animal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Dog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Cat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;animal&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;animal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;make_noise&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-
-&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;no&quot;&gt;Some&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;noise&lt;/span&gt;
-&lt;span class=&quot;no&quot;&gt;Woof&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;
-&lt;span class=&quot;no&quot;&gt;Meow&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;If you had an array of &lt;code class=&quot;highlighter-rouge&quot;&gt;Animal&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Dog&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;Cat&lt;/code&gt; objects as shown above, you can call the &lt;code class=&quot;highlighter-rouge&quot;&gt;make_noise&lt;/code&gt; method on all of them and it will return the &lt;strong&gt;correct&lt;/strong&gt; output as expected. While this is a relatively simplified example, you can see why this would be useful if we had an array of a thousand of these objects. We wouldn’t need to look into what class they were originally instantiated from, we just know that it works.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 29 Dec 2014 17:07:00 +0000</pubDate>
-        <link>http://localhost:4000/polymorphism/2014/12/29/what-is-polymorphism/</link>
-        <guid isPermaLink="true">http://localhost:4000/polymorphism/2014/12/29/what-is-polymorphism/</guid>
-        
-        
-        <category>polymorphism</category>
         
       </item>
     
