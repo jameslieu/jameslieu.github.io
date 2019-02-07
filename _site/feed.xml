@@ -5,9 +5,46 @@
     <description>Hi I'm James and I'm a web developer</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 04 Feb 2019 21:43:18 +0000</pubDate>
-    <lastBuildDate>Mon, 04 Feb 2019 21:43:18 +0000</lastBuildDate>
+    <pubDate>Thu, 07 Feb 2019 21:48:16 +0000</pubDate>
+    <lastBuildDate>Thu, 07 Feb 2019 21:48:16 +0000</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Moving From Ruby To PHP</title>
+        <description>&lt;p&gt;When I changed jobs from a Ruby role to a PHP role. A lot of people asked why? They anecdotally tell me that it is often the other way round where developers who specialised in PHP, moves to Ruby instead (Well at least this was the common talk back in 2016).&lt;/p&gt;
+
+&lt;p&gt;The main reason to be honest was that I relocated from London to Milton Keynes. In London there is a huge demand of Ruby roles available and they also appear to be prepared to pay top dollar for the developers as well, presumably due to the demand.&lt;/p&gt;
+
+&lt;p&gt;However, in Milton Keynes, there were only a handful of companies who were looking for developers who had Ruby experience. Fewer than 5 I’d say. When I relocated, I did apply for those roles but in the event I didn’t get an offer, then I would’ve had to stay at my current role based in London.&lt;/p&gt;
+
+&lt;p&gt;I didn’t mind too much, the company took good care of me and I had a great team to work with but my wife and I just had a child (less than a month old), the commute, both in the morning and evening would mean I’ll be out of the house for long periods and so I wouldn’t be able to help her as much as I would’ve liked.&lt;/p&gt;
+
+&lt;p&gt;I looked at other developer roles in the area and found that there were a few that stood out for me in terms of opportunity count. C# and PHP roles. Given that I was going to move within a few months I needed to decided between PHP and C#, which to go for and study up fast. PHP being a scripting language and having many similarities to Ruby, that made it an easy choice. I’ve dabbled with C# for a bit, but the learning curve definitely feels steeper and time wasn’t a luxury I could afford at that moment.&lt;/p&gt;
+
+&lt;p&gt;Anyway, while I was learning PHP and building a portfolio of projects, I was also applying for opportunities. I’m pretty honest in my CV and mentioned my proficiency with Ruby and JavaScript, but also learning PHP. After speaking with many recruiters, I managed to secure two interviews in the same week, both based in Milton Keynes.&lt;/p&gt;
+
+&lt;p&gt;The first one was for a PHP role, on the job spec it mentioned ‘Ruby experience desirable’. Perfect, I might be able to secure this one if I do well enough. They provided a mini test to do at home which was to build this HTML page with CSS to match an screenshot of their own page. At the interview I was asked to create 3 input fields and save the contents to the database. Easy enough.&lt;/p&gt;
+
+&lt;p&gt;The second company I interviewed with was a front end role, they asked basic questions and they provided a quick question/answer test to fill in. I remember doing very poorly at this stage but I think I interviewed well.&lt;/p&gt;
+
+&lt;p&gt;At the end of all of this, I had gotten offers from both companies and I used this situation to my advantage and negotiated a higher salary. I went with the first company as they were using PHP which I believed will be better for my career moving forward even though the other company offered more money.&lt;/p&gt;
+
+&lt;p&gt;So that’s how I ended up moving to a PHP role. The key thing (in my opinion) here was my willingness to adapt to the environment I’m in. Its not too difficult to switch tech-stacks once you have some grounding on the fundamentals, but the deterrent for some people seems to be learning something new or stepping outside your comfort zone. In order to survive in this industry, I believe you have to keep on learning and improving, staying stagnant just because you feel like you have job security can be dire if you’re not prepared. In fact, I was recently made redundant and I managed to solve that situation very quickly because I was prepared. You can read more about that experience &lt;a href=&quot;http://jameslieu.github.io/redundancy/2019/02/01/redundancy-and-how-i-handled-it/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In hindsight, I definitely felt I made the right choice choosing that offer over the other, I was lucky to have had the opportunity to work with a really good PHP developer at that company. He taught me a lot and my experience and growth there was pretty huge.&lt;/p&gt;
+
+&lt;p&gt;Would I go back to using Ruby again? I don’t know to be honest, I actually really enjoyed Ruby and how elegant it is to work with, I’ve also had the opportunity to work with it in a technical test (which I wrote a &lt;a href=&quot;http://jameslieu.github.io/ruby/prime-numbers/prime-factors/2019/01/31/prime-factorization/&quot;&gt;blog post&lt;/a&gt; about) but the trends are suggesting that it is a dying language, there seems to be fewer companies using it and it doesn’t look to be change its downward course anytime soon.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 07 Feb 2019 21:41:00 +0000</pubDate>
+        <link>http://localhost:4000/ruby/php/2019/02/07/moving-from-ruby-to-php/</link>
+        <guid isPermaLink="true">http://localhost:4000/ruby/php/2019/02/07/moving-from-ruby-to-php/</guid>
+        
+        
+        <category>Ruby</category>
+        
+        <category>PHP</category>
+        
+      </item>
     
       <item>
         <title>Being The Glue</title>
@@ -25,9 +62,11 @@
   &lt;p&gt;“Yeah but what was your technical contribution”&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;I guess the promotion would mean that, had she been considered, her role would change from &lt;strong&gt;Engineer&lt;/strong&gt; to &lt;strong&gt;Senior Engineer&lt;/strong&gt;. And I guess particular role would not be a good fit for her given that her contributions related to her actual role were maybe less than ideal.&lt;/p&gt;
+&lt;p&gt;I guess the promotion would mean that, had she been considered, her role would change from &lt;strong&gt;Engineer&lt;/strong&gt; to &lt;strong&gt;Senior Engineer&lt;/strong&gt;. And I guess that particular role would not be a good fit for her, given that her contributions related to her actual role were maybe less than ideal.&lt;/p&gt;
 
-&lt;p&gt;We really should be asking &lt;strong&gt;“would her current skillset fit a Senior Engineer role”&lt;/strong&gt;? Perhaps the reason she’s made it this far was because she’s brought value to the company in other ways. Assuming she didn’t do of these other tasks, would she have even made this this far? It could well be that (at that particular company) an &lt;em&gt;Engineer’s salary&lt;/em&gt; is &lt;strong&gt;equal or potentially higher&lt;/strong&gt; than a &lt;em&gt;Product Manager’s salary&lt;/em&gt;, if this is true then arguably she was being paid &lt;em&gt;more&lt;/em&gt; or at a &lt;em&gt;premium&lt;/em&gt; to do tasks that a &lt;em&gt;Product Manager&lt;/em&gt; would typically be doing perhaps? (All Speculation at this point, I don’t actually know if this were the case).&lt;/p&gt;
+&lt;p&gt;We really should be asking &lt;strong&gt;“would her current skillset fit a Senior Engineer role”?&lt;/strong&gt; Perhaps the reason she’s made it this far, was because she’s brought value to the company in other ways. Assuming she didn’t do any of these other tasks, would she have even made this this far?&lt;/p&gt;
+
+&lt;p&gt;It could well be that (at that particular company) an &lt;em&gt;Engineer’s salary&lt;/em&gt; is &lt;strong&gt;equal or potentially higher&lt;/strong&gt; than a &lt;em&gt;Product Manager’s salary&lt;/em&gt;, if this is true then arguably she was being paid &lt;em&gt;more&lt;/em&gt; or at a &lt;em&gt;premium&lt;/em&gt; to do tasks that a &lt;em&gt;Product Manager&lt;/em&gt; would typically be doing perhaps? (All Speculation at this point, I don’t actually know if this were the case).&lt;/p&gt;
 
 &lt;h3 id=&quot;my-opinion&quot;&gt;My Opinion&lt;/h3&gt;
 &lt;p&gt;A little controversal to say but I believe you should just do the work you were hired to do within the hours you’re obligated to do it in.&lt;/p&gt;
@@ -599,149 +638,6 @@ Usage: init [options]
         <category>branch</category>
         
         <category>autocomplete</category>
-        
-      </item>
-    
-      <item>
-        <title>Simply git-rebase</title>
-        <description>&lt;p&gt;Today I’ve decided to write about &lt;code class=&quot;highlighter-rouge&quot;&gt;Git Rebasing&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;To be honest I’ve only recently discovered rebasing and I’m not too familiar with all of its uses or commands. What I do know is that the &lt;code class=&quot;highlighter-rouge&quot;&gt;git rebase&lt;/code&gt; command allows me to modify the history of my repository by changing my &lt;code class=&quot;highlighter-rouge&quot;&gt;commits&lt;/code&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;Git rebase&lt;/code&gt; can reorder, edit, or squash commits together. I’ve found this especially useful when commiting very minor changes such as removing white space or correcting typos. It happens all too frequently and these commits do nothing but clutter my repository history. Being able to combine those to a previous commit has made my commit history a lot cleaner.&lt;/p&gt;
-
-&lt;p&gt;Based on my experience I would typically use &lt;code class=&quot;highlighter-rouge&quot;&gt;git rebase&lt;/code&gt; to:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Delete commit messages or commits that are no longer necessary&lt;/li&gt;
-  &lt;li&gt;Squash multiple commits into one&lt;/li&gt;
-  &lt;li&gt;Edit my commit messages&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Let me demonstrate an example with &lt;code class=&quot;highlighter-rouge&quot;&gt;git rebase -i HEAD~3&lt;/code&gt;. Git rebase with the &lt;code class=&quot;highlighter-rouge&quot;&gt;-i&lt;/code&gt; flag begins an interactive rebasing session. The &lt;code class=&quot;highlighter-rouge&quot;&gt;HEAD~3&lt;/code&gt; flag refers to the latest commits with &lt;code class=&quot;highlighter-rouge&quot;&gt;~3&lt;/code&gt; meaning how many commits or how far in my history I want to edit, in this case three commits.&lt;/p&gt;
-
-&lt;p&gt;This will then display the following:&lt;/p&gt;
-
-&lt;pre&gt;
-  pick 3dd14f1 second commit
-  pick 0daba41 third commit
-  pick f0111b0 fourth commit
-
-  # Rebase 5376924..f0111b0 onto 5376924
-  #
-  # Commands:
-  #  p, pick = use commit
-  #  r, reword = use commit, but edit the commit message
-  #  e, edit = use commit, but stop for amending
-  #  s, squash = use commit, but meld into previous commit
-  #  f, fixup = like &quot;squash&quot;, but discard this commit's log message
-  #  x, exec = run command (the rest of the line) using shell
-  #
-  # These lines can be re-ordered; they are executed from top to bottom.
-  #
-  # If you remove a line here THAT COMMIT WILL BE LOST.
-  #
-  # However, if you remove everything, the rebase will be aborted.
-  #
-  # Note that empty commits are commented out
-  ~
-  ~
-  ~
-&lt;/pre&gt;
-
-&lt;p&gt;The top three lines represent my commits. &lt;code class=&quot;highlighter-rouge&quot;&gt;pick&lt;/code&gt; being the command, following that is the commit identifier e.g.&lt;code class=&quot;highlighter-rouge&quot;&gt;3dd14f1&lt;/code&gt; and finally your message e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;second commit&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;The rest are comments provided by &lt;code class=&quot;highlighter-rouge&quot;&gt;git&lt;/code&gt; for additional information as indicated with a &lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt; at the start of the line. These are the commands that are available. However, I’ve only needed to use &lt;code class=&quot;highlighter-rouge&quot;&gt;pick&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;squash&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;fixup&lt;/code&gt; thus far.&lt;/p&gt;
-
-&lt;pre&gt;
-  # Commands:
-  #  p, pick = use commit
-  #  r, reword = use commit, but edit the commit message
-  #  e, edit = use commit, but stop for amending
-  #  s, squash = use commit, but meld into previous commit
-  #  f, fixup = like &quot;squash&quot;, but discard this commit's log message
-  #  x, exec = run command (the rest of the line) using shell
-&lt;/pre&gt;
-
-&lt;p&gt;Its always good to save certain changes or updates I make as I develop a feature or make additions to my codebase. Its a good habit to have, yet as I’m doing this, I would sometimes make two, three or even over five commits which represent the same feature. Therefore the commit messages are either very similar or will be too brief, which then can be confusing if read out of context.&lt;/p&gt;
-
-&lt;p&gt;This is would be a good time to &lt;code class=&quot;highlighter-rouge&quot;&gt;squash&lt;/code&gt; my commits. &lt;code class=&quot;highlighter-rouge&quot;&gt;Squashing&lt;/code&gt; commits essentially means combining my commit messages into one single commit which can therefore make more sense as a ‘record’ in my repository history. Sometimes I would need to look back on my respository history and it would be easier if the code or feature I’m looking for is located in a single commit as opposed to many smaller and unclear commits.&lt;/p&gt;
-
-&lt;p&gt;To &lt;code class=&quot;highlighter-rouge&quot;&gt;squash&lt;/code&gt; my commits, I would have to select the commits I want to combine and use the &lt;code class=&quot;highlighter-rouge&quot;&gt;squash&lt;/code&gt; command (leaving the &lt;code class=&quot;highlighter-rouge&quot;&gt;pick&lt;/code&gt; command on the commit you want the other commits to ‘combine’ into).&lt;/p&gt;
-
-&lt;pre&gt;
-  pick 3dd14f1 second commit
-  squash 0daba41 third commit
-  squash f0111b0 fourth commit
-&lt;/pre&gt;
-
-&lt;p&gt;Once I make those changes and save. I would then be moved on to the next stage which then gives me the option to edit those messages if I wanted to. Which is great if I had typos or wanted to make my message more comprehensible, as an example I’ll change the 2nd commit message to &lt;code class=&quot;highlighter-rouge&quot;&gt;Updated third commit&lt;/code&gt;.&lt;/p&gt;
-
-&lt;pre&gt;
-  # This is a combination of 3 commits.
-  # The first commit's message is:
-  second commit
-
-  # This is the 2nd commit message:
-
-  Updated third commit
-
-  # This is the 3rd commit message:
-
-  fourth commit
-
-  # Please enter the commit message for your changes. Lines starting
-  # with '#' will be ignored, and an empty message aborts the commit.
-  # rebase in progress; onto 5376924
-  # You are currently editing a commit while rebasing branch 'master' on '5376924'.
-  #
-  # Changes to be committed:
-  #       modified:   README.md
-  #
-  ~
-  ~
-  ~
-&lt;/pre&gt;
-&lt;p&gt;NOTE: Remember that these are the three latest commits as I used the &lt;code class=&quot;highlighter-rouge&quot;&gt;HEAD~3&lt;/code&gt; flag&lt;/p&gt;
-
-&lt;p&gt;Save that and thats all there is to it! If I ran &lt;code class=&quot;highlighter-rouge&quot;&gt;git log&lt;/code&gt; to see my current commits, I would only have two commits instead of four as both commit two, three and four are now &lt;code class=&quot;highlighter-rouge&quot;&gt;squashed&lt;/code&gt; into a single commit and therefore makes my commit history cleaner and more organised.&lt;/p&gt;
-
-&lt;pre&gt;
-  james$ git log
-
-  commit 73031c36716b6891dc1b7cd6304d156e369a515d
-  Author: James Lieu &amp;lt;j.lieu888@gmail.com&amp;gt;
-  Date:   Mon Jan 26 00:01:13 2015 +0000
-
-      second commit
-
-      Updated third commit
-
-      fourth commit
-
-  commit 537692465b7d350fb74870363e5abb3bbbb42ea7
-  Author: James Lieu &amp;lt;j.lieu888@gmail.com&amp;gt;
-  Date:   Mon Jan 26 00:00:58 2015 +0000
-
-      initial commit
-&lt;/pre&gt;
-
-&lt;p&gt;When I add minor changes to my code such as removal of white spacing or new lines, they still need to be committed. This can be annoying if I have already made a commit before doing this. But having a commit message for those are unnecessary or irrelevant to my code/feature. This is where I can use the &lt;code class=&quot;highlighter-rouge&quot;&gt;fixup&lt;/code&gt; command. The process is the same as &lt;code class=&quot;highlighter-rouge&quot;&gt;squashing&lt;/code&gt;, meaning that the commits will be combined together. However, the commits that I use the &lt;code class=&quot;highlighter-rouge&quot;&gt;fixup&lt;/code&gt; command on will then have its message removed.&lt;/p&gt;
-
-&lt;p&gt;NOTE: If you are performing a squash/fixup command on commits that have already been pushed to your remote repository your will have to &lt;code class=&quot;highlighter-rouge&quot;&gt;force&lt;/code&gt; push your branch to the remote. For example, &lt;code class=&quot;highlighter-rouge&quot;&gt;git push -f origin master&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Another great git command is &lt;code class=&quot;highlighter-rouge&quot;&gt;git commit --amend&lt;/code&gt;. This allows me to edit my last git message which is great for when I want a quick solution to fix typos or make changes to a commit I’ve just created.&lt;/p&gt;
-
-&lt;p&gt;This is the extent of my git rebasing experience so far, I have yet to find out what the other features of &lt;code class=&quot;highlighter-rouge&quot;&gt;git rebasing&lt;/code&gt; does. Discovering these git techniques have made my commit history a lot more organised and cleaner. It also means less embarassing pull requests, espcially when I overlook something, fix typos and white spacing!&lt;/p&gt;
-</description>
-        <pubDate>Sun, 25 Jan 2015 23:00:00 +0000</pubDate>
-        <link>http://localhost:4000/git-rebase/git/rebase/2015/01/25/simply-git-rebasing/</link>
-        <guid isPermaLink="true">http://localhost:4000/git-rebase/git/rebase/2015/01/25/simply-git-rebasing/</guid>
-        
-        
-        <category>git-rebase</category>
-        
-        <category>git</category>
-        
-        <category>rebase</category>
         
       </item>
     
