@@ -5,9 +5,79 @@
     <description>Hi I'm James and I'm a web developer</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 07 Feb 2019 21:48:16 +0000</pubDate>
-    <lastBuildDate>Thu, 07 Feb 2019 21:48:16 +0000</lastBuildDate>
+    <pubDate>Sat, 09 Feb 2019 19:37:56 +0000</pubDate>
+    <lastBuildDate>Sat, 09 Feb 2019 19:37:56 +0000</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>To Hire a Junior Vs Senior Developer</title>
+        <description>&lt;p&gt;Just read an interesting post from LinkedIn regarding hiring practices between junior or senior engineers. I didn’t feel I was at liberty to comment (as I’m not a hiring manager) but I had some thoughts.&lt;/p&gt;
+
+&lt;p&gt;Here is the question:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;When hiring, you often have a choice between a more junior person who may not have all the required experience but for whom the job will be an exciting challenge, and a more senior person who certainly has the skills but who won’t be as challenged by the role. I’ve seen success over the years with both approaches. Do you have a bias for one or the other? Or it depends? On what?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Well I guess it depends on why the role needs to be filled. Sometimes a role exists because there is a lot of work to be done, if this is the case, how fast will the junior get up to speed? If the answer is ‘fast enough’ then maybe. If this is the case, then could be an advantage for the company and they should look at the pros and cons between hiring the senior and the junior. While it may be on a per company basis and per candidate basis, here is what I believe are the pros and cons (generally speaking) for hiring:&lt;/p&gt;
+
+&lt;h6 id=&quot;junior&quot;&gt;Junior:&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;Pros
+    &lt;ul&gt;
+      &lt;li&gt;You can justify a lower salary&lt;/li&gt;
+      &lt;li&gt;They may be eager to learn and put in some extra hours&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Cons
+    &lt;ul&gt;
+      &lt;li&gt;It’ll take longer to get up to speed&lt;/li&gt;
+      &lt;li&gt;It’ll take more of the other developers time meaning, the productivity of the development team will drop&lt;/li&gt;
+      &lt;li&gt;May not have the confidence to add to the product development discussions&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;senior&quot;&gt;Senior:&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;Pros
+    &lt;ul&gt;
+      &lt;li&gt;They will get up to speed faster&lt;/li&gt;
+      &lt;li&gt;May be able to get by without taking anybody’s time&lt;/li&gt;
+      &lt;li&gt;Will be more inclined to add to the discussions surrounding the product development&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Cons
+    &lt;ul&gt;
+      &lt;li&gt;Their salary will be higher&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In my opinion, the reality is, that the only reason a company needs to fill a role is because they need to increase productivity. What will the role require? Is it to delegate some of the more simpler easier development tasks to somebody else? Is it to fill a role which used to be filled by another developer (junior, mid-level or senior) who has left the company? Or is the work going to be ‘high level’ and they need someone who needs to be able to keep up with the other developers on the team (all of whom are mid-senior level)?&lt;/p&gt;
+
+&lt;p&gt;And back to the original question, just because the senior wouldn’t feel challenged, doesn’t mean that he is of less value to the company. The only thing I can see it being a problem is that the senior may decide to leave the company sooner than the junior would. But before then, how much more productivity would that senior have brought to the company during his or her time there (when being compared with the junior developer)?&lt;/p&gt;
+
+&lt;p&gt;In fact, once the junior gains more experience then it’s possible that he or she will no longer feel challenged as well. And in some ways, are more likely to leave the company earlier because, moving jobs from junior to a mid-level (or even senior) developer will yield a greater salary increase, than if a senior changes roles, as the senior could already be at the top end of the salary ceiling of their specialty (or near it). Also the senior could’ve already moved from job to job when he or she were a junior themselves, and therefore more likely to ‘settle down’ with the company they’re in.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;I appreciate and understand why the person might ask the question or start a debate on the topic. Although, in my opinion, the only reason to consider a junior is either, the company has a lower budget than the senior developer market rate. Or it may be that the role simply can’t be filled due to the product or technology they’re using perhaps i.e. legacy code or technology that no one else is using.&lt;/p&gt;
+
+&lt;p&gt;If they have a budget for a senior developer, then in my opinion, they should just hire a senior developer, there is no benefit to hiring somebody who will return less productivity than the other.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 09 Feb 2019 19:11:00 +0000</pubDate>
+        <link>http://localhost:4000/hire/junior/senior/developer/2019/02/09/to-hire-a-junior-vs-senior-developer/</link>
+        <guid isPermaLink="true">http://localhost:4000/hire/junior/senior/developer/2019/02/09/to-hire-a-junior-vs-senior-developer/</guid>
+        
+        
+        <category>Hire</category>
+        
+        <category>Junior</category>
+        
+        <category>Senior</category>
+        
+        <category>Developer</category>
+        
+      </item>
     
       <item>
         <title>Moving From Ruby To PHP</title>
@@ -29,11 +99,11 @@
 
 &lt;p&gt;At the end of all of this, I had gotten offers from both companies and I used this situation to my advantage and negotiated a higher salary. I went with the first company as they were using PHP which I believed will be better for my career moving forward even though the other company offered more money.&lt;/p&gt;
 
-&lt;p&gt;So that’s how I ended up moving to a PHP role. The key thing (in my opinion) here was my willingness to adapt to the environment I’m in. Its not too difficult to switch tech-stacks once you have some grounding on the fundamentals, but the deterrent for some people seems to be learning something new or stepping outside your comfort zone. In order to survive in this industry, I believe you have to keep on learning and improving, staying stagnant just because you feel like you have job security can be dire if you’re not prepared. In fact, I was recently made redundant and I managed to solve that situation very quickly because I was prepared. You can read more about that experience &lt;a href=&quot;http://jameslieu.github.io/redundancy/2019/02/01/redundancy-and-how-i-handled-it/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;So that’s how I ended up moving to a PHP role. The key thing (in my opinion) here was my willingness to adapt to the environment I’m in. Its not too difficult to switch tech-stacks once you have some grounding on the fundamentals, but the deterrent for some people seems to be learning something new or stepping outside your comfort zone. In order to survive in this industry, I believe you have to keep on learning and improving, staying stagnant just because you feel like you have job security can be dire if you’re not prepared. In fact, I was recently made redundant and I managed to solve that situation very quickly because I was prepared. You can read more about that experience &lt;a href=&quot;https://jameslieu.github.io/redundancy/2019/02/01/redundancy-and-how-i-handled-it/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;In hindsight, I definitely felt I made the right choice choosing that offer over the other, I was lucky to have had the opportunity to work with a really good PHP developer at that company. He taught me a lot and my experience and growth there was pretty huge.&lt;/p&gt;
 
-&lt;p&gt;Would I go back to using Ruby again? I don’t know to be honest, I actually really enjoyed Ruby and how elegant it is to work with, I’ve also had the opportunity to work with it in a technical test (which I wrote a &lt;a href=&quot;http://jameslieu.github.io/ruby/prime-numbers/prime-factors/2019/01/31/prime-factorization/&quot;&gt;blog post&lt;/a&gt; about) but the trends are suggesting that it is a dying language, there seems to be fewer companies using it and it doesn’t look to be change its downward course anytime soon.&lt;/p&gt;
+&lt;p&gt;Would I go back to using Ruby again? I don’t know to be honest, I actually really enjoyed Ruby and how elegant it is to work with, I’ve also had the opportunity to work with it in a technical test (which I wrote a &lt;a href=&quot;https://jameslieu.github.io/ruby/prime-numbers/prime-factors/2019/01/31/prime-factorization/&quot;&gt;blog post&lt;/a&gt; about) but the trends are suggesting that it is a dying language, there seems to be fewer companies using it and it doesn’t look to be change its downward course anytime soon.&lt;/p&gt;
 </description>
         <pubDate>Thu, 07 Feb 2019 21:41:00 +0000</pubDate>
         <link>http://localhost:4000/ruby/php/2019/02/07/moving-from-ruby-to-php/</link>
@@ -599,45 +669,6 @@ Usage: init [options]
         <category>ubuntu</category>
         
         <category>linux</category>
-        
-      </item>
-    
-      <item>
-        <title>Autocomplete git commands and branch names</title>
-        <description>&lt;p&gt;In bash in Mac OS X, you can use [TAB] to autocomplete file paths. By default this doesn’t work with git commands,  I’ll have to manually configurate it. Here’s how:&lt;/p&gt;
-
-&lt;p&gt;Paste this command into the terminal, this will download the &lt;code class=&quot;highlighter-rouge&quot;&gt;git-completion.bash&lt;/code&gt; script needed to execute the autocomplete:&lt;/p&gt;
-&lt;pre&gt;
-  curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
-&lt;/pre&gt;
-
-&lt;p&gt;Next, add this to the &lt;code class=&quot;highlighter-rouge&quot;&gt;.bash_profile&lt;/code&gt;. This line will tell bash to execute the git autocomplete script if it exists.&lt;/p&gt;
-
-&lt;pre&gt;
-  if [ -f ~/.git-completion.bash ]; then
-    . ~/.git-completion.bash
-  fi
-&lt;/pre&gt;
-
-&lt;p&gt;Restart bash and then autocomplete should work for git commands&lt;/p&gt;
-
-&lt;p&gt;If this doesn’t work right off the bat, permission is probably needed to run the script:&lt;/p&gt;
-&lt;pre&gt;
-  chmod -X ~/.git-completion.bash
-&lt;/pre&gt;
-
-&lt;p&gt;When working in git I tend to come across or create long-winded git branch names so being able to autocomplete this will definietely improve my workflow.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 15 Mar 2015 20:15:00 +0000</pubDate>
-        <link>http://localhost:4000/git/branch/autocomplete/2015/03/15/Autocomplete-git-commands-and-branch-names/</link>
-        <guid isPermaLink="true">http://localhost:4000/git/branch/autocomplete/2015/03/15/Autocomplete-git-commands-and-branch-names/</guid>
-        
-        
-        <category>git</category>
-        
-        <category>branch</category>
-        
-        <category>autocomplete</category>
         
       </item>
     
