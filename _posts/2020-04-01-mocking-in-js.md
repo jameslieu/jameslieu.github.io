@@ -7,8 +7,10 @@ comments: true
 ---
 
 Proxyquire VS SinonJS
-The purpose of this post is to compare the libraries we're currently using for mocking in our tests.
 
+<!--more-->
+
+The purpose of this post is to compare the libraries we're currently using for mocking in our tests.
 The two primary libraries we're using are `Proxyquire` and `Sinon`. 
 
 At the moment we're using those interchangeably, and there seems to be some confusion to which one we should use or sometimes even both are used in the same test. The initial motivation for writing this blog was because of some of the challenges or confusion that we have faced when attempting to mock/stub the AWS SDK in our unit tests. So I have put together these notes to compare the ways we can achieve the same test for each library.
