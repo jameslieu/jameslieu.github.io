@@ -75,7 +75,7 @@
 The number should be received as an argument from the command line, as illustrated below.
 Example of execution:</em></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;executable_script_name&gt; --number 10
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;executable_script_name&gt; --number 10
 </code></pre></div></div>
 <p><em>The expected output in this instance would be:
 2, 5</em></p>
@@ -92,10 +92,10 @@ your own code. Feel free to use ruby gems for scripting and testing.</em></p>
 
 <p>Here is the link to the <a href="https://github.com/jameslieu/project_euler/tree/master/prime_factors/ruby">repository</a> if you wanted to look at the code.</p>
 
-<p>The Ruby version used was Ruby <code class="highlighter-rouge">2.5.1</code> with no gems. I used TDD to assist with this challenge and used <code class="highlighter-rouge">Test::Unit::TestCase</code> for testing.
+<p>The Ruby version used was Ruby <code class="language-plaintext highlighter-rouge">2.5.1</code> with no gems. I used TDD to assist with this challenge and used <code class="language-plaintext highlighter-rouge">Test::Unit::TestCase</code> for testing.
 To use it, simply run the script with the –number option:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>'ruby init.rb --number 10'
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>'ruby init.rb --number 10'
 =&gt; 2,5
 </code></pre></div></div>
 
@@ -114,9 +114,9 @@ To use it, simply run the script with the –number option:</p>
   <li>A recursive algorithm will also work with the <strong>‘Find next prime number’</strong> method as well for the same reason</li>
 </ul>
 
-<p>The first method that was added was the <code class="highlighter-rouge">is_prime?(n)</code> to check if the passed argument is a prime number and the <code class="highlighter-rouge">next_prime_number(n=0, next=nil, first_pass=true)</code> to get the next prime number from the argument passed in. The <code class="highlighter-rouge">is_prime?(n)</code> method I found on stackoverflow but the <code class="highlighter-rouge">next_prime_number(n=0, next=nil, first_pass=true)</code> method I wrote myself.</p>
+<p>The first method that was added was the <code class="language-plaintext highlighter-rouge">is_prime?(n)</code> to check if the passed argument is a prime number and the <code class="language-plaintext highlighter-rouge">next_prime_number(n=0, next=nil, first_pass=true)</code> to get the next prime number from the argument passed in. The <code class="language-plaintext highlighter-rouge">is_prime?(n)</code> method I found on stackoverflow but the <code class="language-plaintext highlighter-rouge">next_prime_number(n=0, next=nil, first_pass=true)</code> method I wrote myself.</p>
 
-<p>The <code class="highlighter-rouge">next_prime_number(n=0, next=nil, first_pass=true)</code> method was written as a recursive algorithm. On its ‘first pass’ we increment the number parameter so that if the number parameter is already a prime number we increment by 1. We then check if the <code class="highlighter-rouge">next</code> parameter is nil and do the same. We use the <code class="highlighter-rouge">is_prime?(n)</code> method to check the number and if true then we return the number if not we continue with the recursion.</p>
+<p>The <code class="language-plaintext highlighter-rouge">next_prime_number(n=0, next=nil, first_pass=true)</code> method was written as a recursive algorithm. On its ‘first pass’ we increment the number parameter so that if the number parameter is already a prime number we increment by 1. We then check if the <code class="language-plaintext highlighter-rouge">next</code> parameter is nil and do the same. We use the <code class="language-plaintext highlighter-rouge">is_prime?(n)</code> method to check the number and if true then we return the number if not we continue with the recursion.</p>
 
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nc">self</span><span class="o">.</span><span class="nf">next_prime_number</span><span class="p">(</span><span class="n">number</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">next_number</span><span class="o">=</span><span class="kp">nil</span><span class="p">,</span> <span class="n">first_pass</span><span class="o">=</span><span class="kp">true</span><span class="p">)</span>
   <span class="k">raise</span> <span class="k">unless</span> <span class="n">number</span><span class="p">.</span><span class="nf">is_a?</span><span class="p">(</span><span class="no">Numeric</span><span class="p">)</span>
@@ -136,9 +136,9 @@ To use it, simply run the script with the –number option:</p>
 <span class="k">end</span>
 </code></pre></div></div>
 
-<p>I then wrote a <code class="highlighter-rouge">PrimeFactors</code> class, constructor and the method <code class="highlighter-rouge">get_prime_factors(value=@num, prime_number=2, result=[])</code> passing in 3 parameters; the value, the prime number (setting the default value to 2) and a result array parameter. The unit tests came after, testing the value <code class="highlighter-rouge">10</code> with the assertions being <code class="highlighter-rouge">[2,5]</code> as per the example on the code challenge. I added more tests to test <code class="highlighter-rouge">12</code>, <code class="highlighter-rouge">17</code>, <code class="highlighter-rouge">147</code> as those seem to account for different scenarios as seen in the context url provided (https://www.mathsisfun.com/prime-factorization.html).</p>
+<p>I then wrote a <code class="language-plaintext highlighter-rouge">PrimeFactors</code> class, constructor and the method <code class="language-plaintext highlighter-rouge">get_prime_factors(value=@num, prime_number=2, result=[])</code> passing in 3 parameters; the value, the prime number (setting the default value to 2) and a result array parameter. The unit tests came after, testing the value <code class="language-plaintext highlighter-rouge">10</code> with the assertions being <code class="language-plaintext highlighter-rouge">[2,5]</code> as per the example on the code challenge. I added more tests to test <code class="language-plaintext highlighter-rouge">12</code>, <code class="language-plaintext highlighter-rouge">17</code>, <code class="language-plaintext highlighter-rouge">147</code> as those seem to account for different scenarios as seen in the context url provided (https://www.mathsisfun.com/prime-factorization.html).</p>
 
-<p>Within the <code class="highlighter-rouge">get_prime_factors(value=@num, prime_number=2, result=[])</code> method, we first check the value itself is a prime number, if so then we return it and end the loop early. If it isn’t, we move on and check if the value divided by the prime number is NOT a whole integer first. If this is the case we get the next prime number and we change the recursion parameters.</p>
+<p>Within the <code class="language-plaintext highlighter-rouge">get_prime_factors(value=@num, prime_number=2, result=[])</code> method, we first check the value itself is a prime number, if so then we return it and end the loop early. If it isn’t, we move on and check if the value divided by the prime number is NOT a whole integer first. If this is the case we get the next prime number and we change the recursion parameters.</p>
 
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="p">(</span><span class="n">value</span> <span class="o">%</span> <span class="n">prime_number</span> <span class="o">!=</span> <span class="mi">0</span> <span class="p">)</span>
   <span class="n">next_prime_number</span> <span class="o">=</span> <span class="no">PrimeNumber</span><span class="p">.</span><span class="nf">next_prime_number</span><span class="p">(</span><span class="n">prime_number</span><span class="p">)</span>
@@ -159,23 +159,23 @@ To use it, simply run the script with the –number option:</p>
 <span class="k">return</span> <span class="n">result</span>
 </code></pre></div></div>
 
-<p>Finally, I realised that we want to run the script on the command line with an option <code class="highlighter-rouge">--number</code> and a argument. I used the <a href="http://ruby-doc.org/stdlib-2.6.1/libdoc/optparse/rdoc/OptionParser.html">OptionParser</a> to achieve this. Which also includes usage information:</p>
+<p>Finally, I realised that we want to run the script on the command line with an option <code class="language-plaintext highlighter-rouge">--number</code> and a argument. I used the <a href="http://ruby-doc.org/stdlib-2.6.1/libdoc/optparse/rdoc/OptionParser.html">OptionParser</a> to achieve this. Which also includes usage information:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ ruby init.rb --number 10
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ ruby init.rb --number 10
 =&gt; 2,5
 </code></pre></div></div>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ ruby init.rb
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ ruby init.rb
 Usage: init [options]
         --number NUMBER              Enter a NUMBER to get it's prime factors
 </code></pre></div></div>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ ruby init.rb --help
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ ruby init.rb --help
 Usage: init [options]
         --number NUMBER              Enter a NUMBER to get it's prime factors
 </code></pre></div></div>
 
-<p>The time complexity on this I believe is O(n^2) as we can potentially have a nested loop. Although my knowledge on Big O Notation is pretty limited so I’m not 100% sure to be honest. The first loop is the <code class="highlighter-rouge">get_prime_factors</code> recursion and the second, is from the returned value by dividing the prime number if is not a positive integer; we use the <code class="highlighter-rouge">next_prime_number</code>  which is also a recursive algorithm.</p>
+<p>The time complexity on this I believe is O(n^2) as we can potentially have a nested loop. Although my knowledge on Big O Notation is pretty limited so I’m not 100% sure to be honest. The first loop is the <code class="language-plaintext highlighter-rouge">get_prime_factors</code> recursion and the second, is from the returned value by dividing the prime number if is not a positive integer; we use the <code class="language-plaintext highlighter-rouge">next_prime_number</code>  which is also a recursive algorithm.</p>
 
-<p>I’ve separated the <code class="highlighter-rouge">PrimeNumber</code> specific methods into its own class so I could test it in isolation as well as treat it as static methods as it doesn’t feel right to instantiate it each time it needs to be used. It also means it be reused if we were to do other prime number specific tasks.</p>
+<p>I’ve separated the <code class="language-plaintext highlighter-rouge">PrimeNumber</code> specific methods into its own class so I could test it in isolation as well as treat it as static methods as it doesn’t feel right to instantiate it each time it needs to be used. It also means it be reused if we were to do other prime number specific tasks.</p>
 
 <p>Overall I enjoyed this challenge, it is one of those challenges, which at first glance, feels very tricky and may have hidden gotchas but when taking a step back to carefully look at the requirements and properly planning how to solve this, it makes it substantially easier and less intimidating. I haven’t written in Ruby in quite some time, so it was great to use it again for this challenge. I really enjoy using it, it is unfortunate that there are so little job prospects in Milton Keynes (where I’m based) and Ruby itself seems to be losing popularity overall.</p>
 

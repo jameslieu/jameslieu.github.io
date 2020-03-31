@@ -71,13 +71,13 @@
 
 <p><img src="/assets/media/polymorphism_example.png" /></p>
 
-<p>Polymorphism essentially means <em>many forms</em> and is one of the fundamental features of object oriented programming. It lets us automatically do the correct behavior even if what we’re working with could take one of many different forms, simply put; it means being able to send the same message and get different results. Here’s the most basic example I’ve found; the <code class="highlighter-rouge">+</code> operator.</p>
+<p>Polymorphism essentially means <em>many forms</em> and is one of the fundamental features of object oriented programming. It lets us automatically do the correct behavior even if what we’re working with could take one of many different forms, simply put; it means being able to send the same message and get different results. Here’s the most basic example I’ve found; the <code class="language-plaintext highlighter-rouge">+</code> operator.</p>
 
-<p>In Ruby the <code class="highlighter-rouge">+</code> operator will <em>behave</em> differently depending on how you use it.</p>
+<p>In Ruby the <code class="language-plaintext highlighter-rouge">+</code> operator will <em>behave</em> differently depending on how you use it.</p>
 
-<p>For example, lets say you have two variables; <code class="highlighter-rouge">a</code> and <code class="highlighter-rouge">b</code>.</p>
+<p>For example, lets say you have two variables; <code class="language-plaintext highlighter-rouge">a</code> and <code class="language-plaintext highlighter-rouge">b</code>.</p>
 
-<p>If the two variables are <code class="highlighter-rouge">integers</code>, the <code class="highlighter-rouge">+</code> operator will numerically add them.</p>
+<p>If the two variables are <code class="language-plaintext highlighter-rouge">integers</code>, the <code class="language-plaintext highlighter-rouge">+</code> operator will numerically add them.</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">a</span> <span class="o">=</span> <span class="mi">1</span>
 <span class="n">b</span> <span class="o">=</span> <span class="mi">2</span>
@@ -85,7 +85,7 @@
 <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
 <span class="o">=&gt;</span> <span class="mi">3</span></code></pre></figure>
 
-<p>However, what if the two variables were <code class="highlighter-rouge">strings</code> instead?</p>
+<p>However, what if the two variables were <code class="language-plaintext highlighter-rouge">strings</code> instead?</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">a</span> <span class="o">=</span> <span class="s2">"Hello "</span>
 <span class="n">b</span> <span class="o">=</span> <span class="s2">"World"</span>
@@ -93,7 +93,7 @@
 <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
 <span class="o">=&gt;</span> <span class="s2">"Hello World"</span></code></pre></figure>
 
-<p>As you can see, using <code class="highlighter-rouge">+</code> operator for <code class="highlighter-rouge">strings</code> will <strong>concatenate</strong> them instead.</p>
+<p>As you can see, using <code class="language-plaintext highlighter-rouge">+</code> operator for <code class="language-plaintext highlighter-rouge">strings</code> will <strong>concatenate</strong> them instead.</p>
 
 <p>Now this is a basic example of how polymorphism works and is built into a lot of programming languages, but we can use the same idea with our own classes and objects.</p>
 
@@ -128,7 +128,7 @@
     
 <span class="k">end</span></code></pre></figure>
 
-<p>Lets say we have a simple inheritance hierarchy. There is an <code class="highlighter-rouge">Animal</code> superclass and two descendant subclasses, a <code class="highlighter-rouge">Cat</code> and a <code class="highlighter-rouge">Dog</code>. Each of these three classes has its own implementation of the <code class="highlighter-rouge">make_noise</code> method. The implementation of the method of the descendants replaces the definition of a method in the <code class="highlighter-rouge">Animal</code> class.</p>
+<p>Lets say we have a simple inheritance hierarchy. There is an <code class="language-plaintext highlighter-rouge">Animal</code> superclass and two descendant subclasses, a <code class="language-plaintext highlighter-rouge">Cat</code> and a <code class="language-plaintext highlighter-rouge">Dog</code>. Each of these three classes has its own implementation of the <code class="language-plaintext highlighter-rouge">make_noise</code> method. The implementation of the method of the descendants replaces the definition of a method in the <code class="language-plaintext highlighter-rouge">Animal</code> class.</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">Dog</span> <span class="o">&lt;</span> <span class="no">Animal</span>
     
@@ -138,7 +138,7 @@
     
 <span class="k">end</span></code></pre></figure>
 
-<p>The <code class="highlighter-rouge">make_noise</code> method in the <code class="highlighter-rouge">Dog</code> class replaces the <code class="highlighter-rouge">make_noise</code> method of the <code class="highlighter-rouge">Animal</code> class. The idea is that even though the <code class="highlighter-rouge">Dog</code> class is <em>inheriting</em> from the <code class="highlighter-rouge">Animal</code> class and would therefore already have access to the <code class="highlighter-rouge">make_noise</code> method, the <code class="highlighter-rouge">Dog</code> class will have its own <em>specialized</em> version of that method which is unique to that particular class. This is referred to as overiding the method of the superclass, which just means you write it again.</p>
+<p>The <code class="language-plaintext highlighter-rouge">make_noise</code> method in the <code class="language-plaintext highlighter-rouge">Dog</code> class replaces the <code class="language-plaintext highlighter-rouge">make_noise</code> method of the <code class="language-plaintext highlighter-rouge">Animal</code> class. The idea is that even though the <code class="language-plaintext highlighter-rouge">Dog</code> class is <em>inheriting</em> from the <code class="language-plaintext highlighter-rouge">Animal</code> class and would therefore already have access to the <code class="language-plaintext highlighter-rouge">make_noise</code> method, the <code class="language-plaintext highlighter-rouge">Dog</code> class will have its own <em>specialized</em> version of that method which is unique to that particular class. This is referred to as overiding the method of the superclass, which just means you write it again.</p>
 
 <p>This means is that the method will change its behaviour depending where it was originally instantiated from. Now you may wonder why this would be useful.. Here is an example:</p>
 
@@ -151,7 +151,7 @@
 <span class="no">Woof</span><span class="o">!</span>
 <span class="no">Meow</span><span class="o">!</span></code></pre></figure>
 
-<p>If you had an array of <code class="highlighter-rouge">Animal</code>, <code class="highlighter-rouge">Dog</code> or <code class="highlighter-rouge">Cat</code> objects as shown above, you can call the <code class="highlighter-rouge">make_noise</code> method on all of them and it will return the <strong>correct</strong> output as expected. While this is a relatively simplified example, you can see why this would be useful if we had an array of a thousand of these objects. We wouldn’t need to look into what class they were originally instantiated from, we just know that it works.</p>
+<p>If you had an array of <code class="language-plaintext highlighter-rouge">Animal</code>, <code class="language-plaintext highlighter-rouge">Dog</code> or <code class="language-plaintext highlighter-rouge">Cat</code> objects as shown above, you can call the <code class="language-plaintext highlighter-rouge">make_noise</code> method on all of them and it will return the <strong>correct</strong> output as expected. While this is a relatively simplified example, you can see why this would be useful if we had an array of a thousand of these objects. We wouldn’t need to look into what class they were originally instantiated from, we just know that it works.</p>
 
 		</div>
 	</div>

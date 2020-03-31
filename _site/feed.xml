@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
+    <title>jameslieu.github.io</title>
     <description>Hi, I'm James and I'm a web developer</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 31 Mar 2020 12:34:29 +0100</pubDate>
-    <lastBuildDate>Tue, 31 Mar 2020 12:34:29 +0100</lastBuildDate>
+    <pubDate>Tue, 31 Mar 2020 12:47:27 +0100</pubDate>
+    <lastBuildDate>Tue, 31 Mar 2020 12:47:27 +0100</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -395,7 +395,7 @@ I spent a large part of the weekend working on this one however. I’m pretty pr
 The number should be received as an argument from the command line, as illustrated below.
 Example of execution:&lt;/em&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;executable_script_name&amp;gt; --number 10
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;executable_script_name&amp;gt; --number 10
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;em&gt;The expected output in this instance would be:
 2, 5&lt;/em&gt;&lt;/p&gt;
@@ -412,10 +412,10 @@ your own code. Feel free to use ruby gems for scripting and testing.&lt;/em&gt;&
 
 &lt;p&gt;Here is the link to the &lt;a href=&quot;https://github.com/jameslieu/project_euler/tree/master/prime_factors/ruby&quot;&gt;repository&lt;/a&gt; if you wanted to look at the code.&lt;/p&gt;
 
-&lt;p&gt;The Ruby version used was Ruby &lt;code class=&quot;highlighter-rouge&quot;&gt;2.5.1&lt;/code&gt; with no gems. I used TDD to assist with this challenge and used &lt;code class=&quot;highlighter-rouge&quot;&gt;Test::Unit::TestCase&lt;/code&gt; for testing.
+&lt;p&gt;The Ruby version used was Ruby &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2.5.1&lt;/code&gt; with no gems. I used TDD to assist with this challenge and used &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Test::Unit::TestCase&lt;/code&gt; for testing.
 To use it, simply run the script with the –number option:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;'ruby init.rb --number 10'
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;'ruby init.rb --number 10'
 =&amp;gt; 2,5
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -434,9 +434,9 @@ To use it, simply run the script with the –number option:&lt;/p&gt;
   &lt;li&gt;A recursive algorithm will also work with the &lt;strong&gt;‘Find next prime number’&lt;/strong&gt; method as well for the same reason&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;The first method that was added was the &lt;code class=&quot;highlighter-rouge&quot;&gt;is_prime?(n)&lt;/code&gt; to check if the passed argument is a prime number and the &lt;code class=&quot;highlighter-rouge&quot;&gt;next_prime_number(n=0, next=nil, first_pass=true)&lt;/code&gt; to get the next prime number from the argument passed in. The &lt;code class=&quot;highlighter-rouge&quot;&gt;is_prime?(n)&lt;/code&gt; method I found on stackoverflow but the &lt;code class=&quot;highlighter-rouge&quot;&gt;next_prime_number(n=0, next=nil, first_pass=true)&lt;/code&gt; method I wrote myself.&lt;/p&gt;
+&lt;p&gt;The first method that was added was the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;is_prime?(n)&lt;/code&gt; to check if the passed argument is a prime number and the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;next_prime_number(n=0, next=nil, first_pass=true)&lt;/code&gt; to get the next prime number from the argument passed in. The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;is_prime?(n)&lt;/code&gt; method I found on stackoverflow but the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;next_prime_number(n=0, next=nil, first_pass=true)&lt;/code&gt; method I wrote myself.&lt;/p&gt;
 
-&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;next_prime_number(n=0, next=nil, first_pass=true)&lt;/code&gt; method was written as a recursive algorithm. On its ‘first pass’ we increment the number parameter so that if the number parameter is already a prime number we increment by 1. We then check if the &lt;code class=&quot;highlighter-rouge&quot;&gt;next&lt;/code&gt; parameter is nil and do the same. We use the &lt;code class=&quot;highlighter-rouge&quot;&gt;is_prime?(n)&lt;/code&gt; method to check the number and if true then we return the number if not we continue with the recursion.&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;next_prime_number(n=0, next=nil, first_pass=true)&lt;/code&gt; method was written as a recursive algorithm. On its ‘first pass’ we increment the number parameter so that if the number parameter is already a prime number we increment by 1. We then check if the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;next&lt;/code&gt; parameter is nil and do the same. We use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;is_prime?(n)&lt;/code&gt; method to check the number and if true then we return the number if not we continue with the recursion.&lt;/p&gt;
 
 &lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;next_prime_number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;next_number&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kp&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;first_pass&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;raise&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;unless&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;is_a?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Numeric&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -456,9 +456,9 @@ To use it, simply run the script with the –number option:&lt;/p&gt;
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;I then wrote a &lt;code class=&quot;highlighter-rouge&quot;&gt;PrimeFactors&lt;/code&gt; class, constructor and the method &lt;code class=&quot;highlighter-rouge&quot;&gt;get_prime_factors(value=@num, prime_number=2, result=[])&lt;/code&gt; passing in 3 parameters; the value, the prime number (setting the default value to 2) and a result array parameter. The unit tests came after, testing the value &lt;code class=&quot;highlighter-rouge&quot;&gt;10&lt;/code&gt; with the assertions being &lt;code class=&quot;highlighter-rouge&quot;&gt;[2,5]&lt;/code&gt; as per the example on the code challenge. I added more tests to test &lt;code class=&quot;highlighter-rouge&quot;&gt;12&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;17&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;147&lt;/code&gt; as those seem to account for different scenarios as seen in the context url provided (https://www.mathsisfun.com/prime-factorization.html).&lt;/p&gt;
+&lt;p&gt;I then wrote a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PrimeFactors&lt;/code&gt; class, constructor and the method &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;get_prime_factors(value=@num, prime_number=2, result=[])&lt;/code&gt; passing in 3 parameters; the value, the prime number (setting the default value to 2) and a result array parameter. The unit tests came after, testing the value &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;10&lt;/code&gt; with the assertions being &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[2,5]&lt;/code&gt; as per the example on the code challenge. I added more tests to test &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;12&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;17&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;147&lt;/code&gt; as those seem to account for different scenarios as seen in the context url provided (https://www.mathsisfun.com/prime-factorization.html).&lt;/p&gt;
 
-&lt;p&gt;Within the &lt;code class=&quot;highlighter-rouge&quot;&gt;get_prime_factors(value=@num, prime_number=2, result=[])&lt;/code&gt; method, we first check the value itself is a prime number, if so then we return it and end the loop early. If it isn’t, we move on and check if the value divided by the prime number is NOT a whole integer first. If this is the case we get the next prime number and we change the recursion parameters.&lt;/p&gt;
+&lt;p&gt;Within the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;get_prime_factors(value=@num, prime_number=2, result=[])&lt;/code&gt; method, we first check the value itself is a prime number, if so then we return it and end the loop early. If it isn’t, we move on and check if the value divided by the prime number is NOT a whole integer first. If this is the case we get the next prime number and we change the recursion parameters.&lt;/p&gt;
 
 &lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prime_number&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
   &lt;span class=&quot;n&quot;&gt;next_prime_number&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;PrimeNumber&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;next_prime_number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;prime_number&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -479,23 +479,23 @@ To use it, simply run the script with the –number option:&lt;/p&gt;
 &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Finally, I realised that we want to run the script on the command line with an option &lt;code class=&quot;highlighter-rouge&quot;&gt;--number&lt;/code&gt; and a argument. I used the &lt;a href=&quot;http://ruby-doc.org/stdlib-2.6.1/libdoc/optparse/rdoc/OptionParser.html&quot;&gt;OptionParser&lt;/a&gt; to achieve this. Which also includes usage information:&lt;/p&gt;
+&lt;p&gt;Finally, I realised that we want to run the script on the command line with an option &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--number&lt;/code&gt; and a argument. I used the &lt;a href=&quot;http://ruby-doc.org/stdlib-2.6.1/libdoc/optparse/rdoc/OptionParser.html&quot;&gt;OptionParser&lt;/a&gt; to achieve this. Which also includes usage information:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ ruby init.rb --number 10
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ ruby init.rb --number 10
 =&amp;gt; 2,5
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ ruby init.rb
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ ruby init.rb
 Usage: init [options]
         --number NUMBER              Enter a NUMBER to get it's prime factors
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ ruby init.rb --help
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ ruby init.rb --help
 Usage: init [options]
         --number NUMBER              Enter a NUMBER to get it's prime factors
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;The time complexity on this I believe is O(n^2) as we can potentially have a nested loop. Although my knowledge on Big O Notation is pretty limited so I’m not 100% sure to be honest. The first loop is the &lt;code class=&quot;highlighter-rouge&quot;&gt;get_prime_factors&lt;/code&gt; recursion and the second, is from the returned value by dividing the prime number if is not a positive integer; we use the &lt;code class=&quot;highlighter-rouge&quot;&gt;next_prime_number&lt;/code&gt;  which is also a recursive algorithm.&lt;/p&gt;
+&lt;p&gt;The time complexity on this I believe is O(n^2) as we can potentially have a nested loop. Although my knowledge on Big O Notation is pretty limited so I’m not 100% sure to be honest. The first loop is the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;get_prime_factors&lt;/code&gt; recursion and the second, is from the returned value by dividing the prime number if is not a positive integer; we use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;next_prime_number&lt;/code&gt;  which is also a recursive algorithm.&lt;/p&gt;
 
-&lt;p&gt;I’ve separated the &lt;code class=&quot;highlighter-rouge&quot;&gt;PrimeNumber&lt;/code&gt; specific methods into its own class so I could test it in isolation as well as treat it as static methods as it doesn’t feel right to instantiate it each time it needs to be used. It also means it be reused if we were to do other prime number specific tasks.&lt;/p&gt;
+&lt;p&gt;I’ve separated the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PrimeNumber&lt;/code&gt; specific methods into its own class so I could test it in isolation as well as treat it as static methods as it doesn’t feel right to instantiate it each time it needs to be used. It also means it be reused if we were to do other prime number specific tasks.&lt;/p&gt;
 
 &lt;p&gt;Overall I enjoyed this challenge, it is one of those challenges, which at first glance, feels very tricky and may have hidden gotchas but when taking a step back to carefully look at the requirements and properly planning how to solve this, it makes it substantially easier and less intimidating. I haven’t written in Ruby in quite some time, so it was great to use it again for this challenge. I really enjoy using it, it is unfortunate that there are so little job prospects in Milton Keynes (where I’m based) and Ruby itself seems to be losing popularity overall.&lt;/p&gt;
 </description>
@@ -644,7 +644,7 @@ Usage: init [options]
   }
 &lt;/pre&gt;
 
-&lt;p&gt;Firstly, you’ll have to use &lt;code class=&quot;highlighter-rouge&quot;&gt;counter-reset&lt;/code&gt;, and give it a sensible variable name e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;first-counter&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;second-counter&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;third-counter&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Firstly, you’ll have to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;counter-reset&lt;/code&gt;, and give it a sensible variable name e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;first-counter&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;second-counter&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;third-counter&lt;/code&gt;.&lt;/p&gt;
 
 &lt;pre&gt;
   ol {
@@ -656,7 +656,7 @@ Usage: init [options]
   }
 &lt;/pre&gt;
 
-&lt;p&gt;I then set &lt;code class=&quot;highlighter-rouge&quot;&gt;list-style-type: none;&lt;/code&gt;, which pretty much removes the original list style completely&lt;/p&gt;
+&lt;p&gt;I then set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;list-style-type: none;&lt;/code&gt;, which pretty much removes the original list style completely&lt;/p&gt;
 
 &lt;pre&gt;
   ol li:before {
@@ -667,15 +667,15 @@ Usage: init [options]
   }
 &lt;/pre&gt;
 
-&lt;p&gt;Then in the psudo-element &lt;code class=&quot;highlighter-rouge&quot;&gt;:before&lt;/code&gt;, append the content style:&lt;/p&gt;
+&lt;p&gt;Then in the psudo-element &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:before&lt;/code&gt;, append the content style:&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;content: counter(first-counter)&lt;/code&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;content: counter(first-counter)&lt;/code&gt;
 (‘first-counter’ is the variable you declared earlier)&lt;/p&gt;
 
-&lt;p&gt;Increment using &lt;code class=&quot;highlighter-rouge&quot;&gt;counter-increment&lt;/code&gt;. Then you’ll need to use the &lt;code class=&quot;highlighter-rouge&quot;&gt;position&lt;/code&gt; style to adjust the position accordingly.&lt;/p&gt;
+&lt;p&gt;Increment using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;counter-increment&lt;/code&gt;. Then you’ll need to use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;position&lt;/code&gt; style to adjust the position accordingly.&lt;/p&gt;
 
 &lt;p&gt;To change the list style type you can pass that in as a second argument 
-&lt;code class=&quot;highlighter-rouge&quot;&gt;content: counter(second-counter, lower-alpha) '.';&lt;/code&gt;&lt;/p&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;content: counter(second-counter, lower-alpha) '.';&lt;/code&gt;&lt;/p&gt;
 
 &lt;pre&gt;
   a. foo
@@ -683,7 +683,7 @@ Usage: init [options]
   c. baz
 &lt;/pre&gt;
 
-&lt;p&gt;And finally, if I wanted to change the character (decimal point) after the list-style, all I have to do is change the string: &lt;code class=&quot;highlighter-rouge&quot;&gt;content: counter(first-counter) '%';&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;And finally, if I wanted to change the character (decimal point) after the list-style, all I have to do is change the string: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;content: counter(first-counter) '%';&lt;/code&gt;&lt;/p&gt;
 
 &lt;pre&gt;
   1% foo
