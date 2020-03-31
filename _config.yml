@@ -4,7 +4,7 @@
 # baseurl: /harmony
 
 # Site live URL
-# url: jameslieu.github.io
+url: https://jameslieu.github.io
 
 # Localhost
 # url: http://127.0.0.1:4000
@@ -13,11 +13,11 @@
 harmony:
   name: James Lieu
   # Little description about your site
-  description: "Hi, I'm James and I'm a web developer"
+  description: "James Lieu"
   # meta_description: Write an awesome description for your new site here.
   # It will appear in your document head meta (for Google search results) and
   # in your feed.xml site description.
-  meta_description: "Hi, I'm James and I'm a web developer"
+  meta_description: "James Lieu"
   basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
   author: # Author details
     name: James Lieu
@@ -40,12 +40,14 @@ harmony:
   show_disclaimer: false
 
 # Conversion / Build settings
-markdown:    kramdown
+markdown: kramdown
 # This is how you put pygments config in jekyll 2.0 instead of pygments: true
 highlighter: rouge
 
+excerpt_separator: "<!--more-->"
+
 # Permalinks
-permalink:        pretty
+permalink: pretty
 
 exclude:
   - CNAME

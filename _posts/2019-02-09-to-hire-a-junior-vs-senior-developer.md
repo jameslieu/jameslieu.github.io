@@ -8,6 +8,8 @@ comments: true
 
 Just read an interesting post from LinkedIn regarding hiring practices between junior or senior engineers. I didn't feel I was at liberty to comment (as I'm not a hiring manager) but I had some thoughts.
 
+<!--more-->
+
 Here is the question:
 
 *When hiring, you often have a choice between a more junior person who may not have all the required experience but for whom the job will be an exciting challenge, and a more senior person who certainly has the skills but who won’t be as challenged by the role. I’ve seen success over the years with both approaches. Do you have a bias for one or the other? Or it depends? On what?*

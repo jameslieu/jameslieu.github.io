@@ -8,6 +8,8 @@ comments: true
 
 Recently I was tasked to complete a coding challenge.
 
+<!--more-->
+
 ---
 
 _Write a shell executable program in Ruby that prints the prime factors of a positive integer number.

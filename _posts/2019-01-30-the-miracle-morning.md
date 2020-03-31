@@ -8,6 +8,8 @@ comments: true
 
 Just finished a short book "The Miracle Morning" By Hal Elrod.
 
+<!--more-->
+
 My take of this book is essentially about how, if you changed your routine to sleep and wake up early (5-6am for example) and follow 6 steps (S.A.V.E.R.S) outlined in the book. You can drastically improve your life.
 
 For example,

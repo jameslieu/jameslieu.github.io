@@ -4,16 +4,13 @@ title: About me
 permalink: /about/
 ---
 
-Hi, I am James Lieu
+I'm a software developer with 7+ years of commercial experience. I am familiar with the SOLID principles, OOP, MVC, ORM, API development, relational database design and RESTful conventions.
 
-I'm a web developer with 5+ years of commercial experience. I am familiar with the SOLID principles, OOP, MVC, ORM, API development, relational database design and RESTful conventions.
-
-I spend my free time solving problems, trying or learning new technologies.  My primary skills are web development and I've adapted to many tech stacks. While I have experience in Ruby, JavaScript and PHP, a lot of the core concepts and fundamentals of what I learned there are transferable. I've got a portfolio of C# projects to outline what my coding style is and what projects and problems I've solved. So this should provide an idea of some of my skillset and proficiency in the programming language.
-
-I have experience in agile development environments, MVC, web development. I feel that, not only with my professional experience but my github portfolio, I have demonstrated my willingness to learn or try new technologies. I've demonstrated a desire to branch of areas outside my comfort zone in order to challenge and grow as a developer.
-
+I enjoy solving programming problems in C#. Here is a repository of some examples:
+https://github.com/jameslieu/csharp_projects
 
 - C# / .NET Core
+- AWS
 - Javascript / Typescript
 - Angular 7 / ReactJS / VueJS / jQuery
 - PHP / Laravel
@@ -30,7 +27,6 @@ I have experience in agile development environments, MVC, web development. I fee
 
 Find me on [Github][github] / [Twitter][Twitter] or just say Hello at
 `j.lieu888@gmail.com`.
-
 
 [github]: https://github.com/jameslieu
 [twitter]: https://twitter.com/J_lieu

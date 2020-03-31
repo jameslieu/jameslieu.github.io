@@ -8,7 +8,9 @@ comments: true
 
 I've found that it can be quite difficult to figure out how to style nested ordered lists using css. Imagine if I needed to put together a contract or Terms and conditions document using HTML and CSS.
 
-Its not uncommon for contracts to use sub sections and so the document will likely use nested ordered lists in HTML. What if the sub sections are styled differently? 
+<!--more-->
+
+Its not uncommon for contracts to use sub sections and so the document will likely use nested ordered lists in HTML. What if the sub sections are styled differently?
 
 An example can look something like this:
 
@@ -127,11 +129,11 @@ I then set `list-style-type: none;`, which pretty much removes the original list
 Then in the psudo-element `:before`, append the content style:
 
 `content: counter(first-counter)`
-('first-counter' is the variable you declared earlier) 
+('first-counter' is the variable you declared earlier)
 
 Increment using `counter-increment`. Then you'll need to use the `position` style to adjust the position accordingly.
 
-To change the list style type you can pass that in as a second argument 
+To change the list style type you can pass that in as a second argument
 `content: counter(second-counter, lower-alpha) '.';`
 
 <pre>

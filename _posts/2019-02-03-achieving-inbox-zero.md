@@ -8,6 +8,8 @@ comments: true
 
 There was a time when my email inbox had gotten so cluttered and had 4000+ unread messages, maybe another 5000 read messages as well.
 
+<!--more-->
+
 Loads of promotional, spam, order confirmations, recruiter emails, notifications, receipts and irrelevant/useless emails kept over that past 9-10 years. Could be worse though, I've seen somebody who had 13000+ unread messages, this is not including their read messages.
 
 I've stumbled across a blog I read online (though I didn't think to save the link) which talked about "Inbox Zero". The idea was to set up a email management system in order to boost productivity. Start by setting up some labels for common emails you normally get such as 'Receipts', 'Business' and 'Personal'. When you receive these particular emails, when you've read them and actioned any task associated with them, attach the relevant label and then archive it. Archiving emails just removes it from your 'inbox' but will still be available and searchable either within the label category or via the search feature of your email client. Any other emails, you delete as they're end up cluttering your email inbox.

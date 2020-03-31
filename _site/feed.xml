@@ -2,16 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>jameslieu.github.io</title>
-    <description>Hi, I'm James and I'm a web developer</description>
+    <description>James Lieu</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 31 Mar 2020 12:47:27 +0100</pubDate>
-    <lastBuildDate>Tue, 31 Mar 2020 12:47:27 +0100</lastBuildDate>
+    <pubDate>Tue, 31 Mar 2020 14:16:50 +0100</pubDate>
+    <lastBuildDate>Tue, 31 Mar 2020 14:16:50 +0100</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Interesting Conversation On Salary</title>
-        <description>&lt;p&gt;I had a interesting discussion on Slack today.&lt;/p&gt;
+        <description>&lt;p&gt;I had an interesting discussion on Slack today.&lt;/p&gt;
+
+&lt;!--more--&gt;
 
 &lt;p&gt;We were initially talking about how the interview process for a individual (let’s call him Person-A) was tough in the US market. Its apparently quite different and difficult. I had praised the way Person-A handled it however. He mentioned he did a ton of research on the market, spoken with other developers at the company and really seems to know what he is worth and what offer would be deemed acceptable.&lt;/p&gt;
 
@@ -74,6 +76,8 @@ You can say that you want 10k more because of the experience and value you can b
       <item>
         <title>To Hire a Junior Vs Senior Developer</title>
         <description>&lt;p&gt;Just read an interesting post from LinkedIn regarding hiring practices between junior or senior engineers. I didn’t feel I was at liberty to comment (as I’m not a hiring manager) but I had some thoughts.&lt;/p&gt;
+
+&lt;!--more--&gt;
 
 &lt;p&gt;Here is the question:&lt;/p&gt;
 
@@ -145,6 +149,8 @@ You can say that you want 10k more because of the experience and value you can b
         <title>Moving From Ruby To PHP</title>
         <description>&lt;p&gt;When I changed jobs from a Ruby role to a PHP role. A lot of people asked why? They anecdotally tell me that it is often the other way round where developers who specialised in PHP, moves to Ruby instead (Well at least this was the common talk back in 2016).&lt;/p&gt;
 
+&lt;!--more--&gt;
+
 &lt;p&gt;The main reason to be honest was that I relocated from London to Milton Keynes. In London there is a huge demand of Ruby roles available and they also appear to be prepared to pay top dollar for the developers as well, presumably due to the demand.&lt;/p&gt;
 
 &lt;p&gt;However, in Milton Keynes, there were only a handful of companies who were looking for developers who had Ruby experience. Fewer than 5 I’d say. When I relocated, I did apply for those roles but in the event I didn’t get an offer, then I would’ve had to stay at my current role based in London.&lt;/p&gt;
@@ -181,6 +187,8 @@ You can say that you want 10k more because of the experience and value you can b
       <item>
         <title>Being The Glue</title>
         <description>&lt;p&gt;I read this interesting &lt;a href=&quot;https://www.slideshare.net/TanyaReilly/being-glue&quot;&gt;SlideShare article&lt;/a&gt; today.&lt;/p&gt;
+
+&lt;!--more--&gt;
 
 &lt;p&gt;It was about a software engineer who used some of her time not only to work on the codebase of her company but to also to solve other problems outside the scope of her role. She wasn’t too confident with her skills as a developer, working with this codebase and its complexity but she did identify some other unrelated improvements for her team such as realising that her team is often interrupted by questions on Slack, so she began to document the answers thus the team gets fewer interruptions.&lt;/p&gt;
 
@@ -240,6 +248,8 @@ You can say that you want 10k more because of the experience and value you can b
         <title>Achieving Inbox Zero</title>
         <description>&lt;p&gt;There was a time when my email inbox had gotten so cluttered and had 4000+ unread messages, maybe another 5000 read messages as well.&lt;/p&gt;
 
+&lt;!--more--&gt;
+
 &lt;p&gt;Loads of promotional, spam, order confirmations, recruiter emails, notifications, receipts and irrelevant/useless emails kept over that past 9-10 years. Could be worse though, I’ve seen somebody who had 13000+ unread messages, this is not including their read messages.&lt;/p&gt;
 
 &lt;p&gt;I’ve stumbled across a blog I read online (though I didn’t think to save the link) which talked about “Inbox Zero”. The idea was to set up a email management system in order to boost productivity. Start by setting up some labels for common emails you normally get such as ‘Receipts’, ‘Business’ and ‘Personal’. When you receive these particular emails, when you’ve read them and actioned any task associated with them, attach the relevant label and then archive it. Archiving emails just removes it from your ‘inbox’ but will still be available and searchable either within the label category or via the search feature of your email client. Any other emails, you delete as they’re end up cluttering your email inbox.&lt;/p&gt;
@@ -272,6 +282,8 @@ You can say that you want 10k more because of the experience and value you can b
       <item>
         <title>Why Am I Blogging?</title>
         <description>&lt;p&gt;You may have noticed that there is a hiatus in blog posts between 2016 and 2019&lt;/p&gt;
+
+&lt;!--more--&gt;
 
 &lt;p&gt;To be honest, I basically forgot about the blog really. It wasn’t on my list of priorities, and I guess I initially started the blog to help with my
 chances for job opportunities. Being a junior at the time, it was tough to brake into a role without some experience under your belt.&lt;/p&gt;
@@ -306,6 +318,8 @@ anyone to read this blog either, this is really for personal use.&lt;/p&gt;
       <item>
         <title>Redundancy And How I Handled It</title>
         <description>&lt;p&gt;It was the start of the new year, we had all just come back in from the Christmas / New year break. Usually the conversations begin with how was your break? What did you get up to? Did you do any Christmas shopping? It started out like this for me and everyone else in the room but it got a lot less wholesome later on.&lt;/p&gt;
+
+&lt;!--more--&gt;
 
 &lt;p&gt;Around mid-day I was asked by the CEO of my company to have a chat. We went into a meeting room, my line manager was present. The first thing that was said was ‘I’m sorry to say, but this isn’t good news’.&lt;/p&gt;
 
@@ -388,6 +402,8 @@ I spent a large part of the weekend working on this one however. I’m pretty pr
       <item>
         <title>Get The Prime Factors</title>
         <description>&lt;p&gt;Recently I was tasked to complete a coding challenge.&lt;/p&gt;
+
+&lt;!--more--&gt;
 
 &lt;hr /&gt;
 
@@ -516,6 +532,8 @@ Usage: init [options]
         <title>The Miracle Morning review</title>
         <description>&lt;p&gt;Just finished a short book “The Miracle Morning” By Hal Elrod.&lt;/p&gt;
 
+&lt;!--more--&gt;
+
 &lt;p&gt;My take of this book is essentially about how, if you changed your routine to sleep and wake up early (5-6am for example) and follow 6 steps (S.A.V.E.R.S) outlined in the book. You can drastically improve your life.&lt;/p&gt;
 
 &lt;p&gt;For example,&lt;/p&gt;
@@ -550,6 +568,8 @@ Usage: init [options]
       <item>
         <title>How to style nested ordered lists using css</title>
         <description>&lt;p&gt;I’ve found that it can be quite difficult to figure out how to style nested ordered lists using css. Imagine if I needed to put together a contract or Terms and conditions document using HTML and CSS.&lt;/p&gt;
+
+&lt;!--more--&gt;
 
 &lt;p&gt;Its not uncommon for contracts to use sub sections and so the document will likely use nested ordered lists in HTML. What if the sub sections are styled differently?&lt;/p&gt;
 
@@ -674,7 +694,7 @@ Usage: init [options]
 
 &lt;p&gt;Increment using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;counter-increment&lt;/code&gt;. Then you’ll need to use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;position&lt;/code&gt; style to adjust the position accordingly.&lt;/p&gt;
 
-&lt;p&gt;To change the list style type you can pass that in as a second argument 
+&lt;p&gt;To change the list style type you can pass that in as a second argument
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;content: counter(second-counter, lower-alpha) '.';&lt;/code&gt;&lt;/p&gt;
 
 &lt;pre&gt;

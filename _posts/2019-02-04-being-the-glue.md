@@ -8,6 +8,8 @@ comments: true
 
 I read this interesting [SlideShare article](https://www.slideshare.net/TanyaReilly/being-glue) today.
 
+<!--more-->
+
 It was about a software engineer who used some of her time not only to work on the codebase of her company but to also to solve other problems outside the scope of her role. She wasn't too confident with her skills as a developer, working with this codebase and its complexity but she did identify some other unrelated improvements for her team such as realising that her team is often interrupted by questions on Slack, so she began to document the answers thus the team gets fewer interruptions.
 
 Another example was that she remembers her difficult first few weeks so she wrote onboarding documents so new employees joining the team will have an easier time. After doing these managerial and leadership tasks, her team started to treat her as an unofficial lead.

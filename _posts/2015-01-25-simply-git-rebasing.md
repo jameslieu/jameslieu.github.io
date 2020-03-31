@@ -8,6 +8,8 @@ comments: true
 
 Today I've decided to write about `Git Rebasing`.
 
+<!--more-->
+
 To be honest I've only recently discovered rebasing and I'm not too familiar with all of its uses or commands. What I do know is that the `git rebase` command allows me to modify the history of my repository by changing my `commits`. `Git rebase` can reorder, edit, or squash commits together. I've found this especially useful when commiting very minor changes such as removing white space or correcting typos. It happens all too frequently and these commits do nothing but clutter my repository history. Being able to combine those to a previous commit has made my commit history a lot cleaner.
 
 Based on my experience I would typically use `git rebase` to:
@@ -18,7 +20,7 @@ Based on my experience I would typically use `git rebase` to:
 
 Let me demonstrate an example with `git rebase -i HEAD~3`. Git rebase with the `-i` flag begins an interactive rebasing session. The `HEAD~3` flag refers to the latest commits with `~3` meaning how many commits or how far in my history I want to edit, in this case three commits.
 
-This will then display the following: 
+This will then display the following:
 
 <pre>
   pick 3dd14f1 second commit
@@ -49,7 +51,7 @@ This will then display the following:
 
 The top three lines represent my commits. `pick` being the command, following that is the commit identifier e.g.`3dd14f1` and finally your message e.g. `second commit`.
 
-The rest are comments provided by `git` for additional information as indicated with a `#` at the start of the line. These are the commands that are available. However, I've only needed to use `pick`, `squash` and `fixup` thus far. 
+The rest are comments provided by `git` for additional information as indicated with a `#` at the start of the line. These are the commands that are available. However, I've only needed to use `pick`, `squash` and `fixup` thus far.
 
 <pre>
   # Commands:
@@ -63,7 +65,7 @@ The rest are comments provided by `git` for additional information as indicated 
 
 Its always good to save certain changes or updates I make as I develop a feature or make additions to my codebase. Its a good habit to have, yet as I'm doing this, I would sometimes make two, three or even over five commits which represent the same feature. Therefore the commit messages are either very similar or will be too brief, which then can be confusing if read out of context.
 
-This is would be a good time to `squash` my commits. `Squashing` commits essentially means combining my commit messages into one single commit which can therefore make more sense as a 'record' in my repository history. Sometimes I would need to look back on my respository history and it would be easier if the code or feature I'm looking for is located in a single commit as opposed to many smaller and unclear commits. 
+This is would be a good time to `squash` my commits. `Squashing` commits essentially means combining my commit messages into one single commit which can therefore make more sense as a 'record' in my repository history. Sometimes I would need to look back on my respository history and it would be easier if the code or feature I'm looking for is located in a single commit as opposed to many smaller and unclear commits.
 
 To `squash` my commits, I would have to select the commits I want to combine and use the `squash` command (leaving the `pick` command on the commit you want the other commits to 'combine' into).
 
@@ -100,7 +102,7 @@ Once I make those changes and save. I would then be moved on to the next stage w
   ~
   ~
 </pre>
-NOTE: Remember that these are the three latest commits as I used the `HEAD~3` flag 
+NOTE: Remember that these are the three latest commits as I used the `HEAD~3` flag
 
 Save that and thats all there is to it! If I ran `git log` to see my current commits, I would only have two commits instead of four as both commit two, three and four are now `squashed` into a single commit and therefore makes my commit history cleaner and more organised.
 
@@ -124,7 +126,7 @@ Save that and thats all there is to it! If I ran `git log` to see my current com
       initial commit
 </pre>
 
-When I add minor changes to my code such as removal of white spacing or new lines, they still need to be committed. This can be annoying if I have already made a commit before doing this. But having a commit message for those are unnecessary or irrelevant to my code/feature. This is where I can use the `fixup` command. The process is the same as `squashing`, meaning that the commits will be combined together. However, the commits that I use the `fixup` command on will then have its message removed. 
+When I add minor changes to my code such as removal of white spacing or new lines, they still need to be committed. This can be annoying if I have already made a commit before doing this. But having a commit message for those are unnecessary or irrelevant to my code/feature. This is where I can use the `fixup` command. The process is the same as `squashing`, meaning that the commits will be combined together. However, the commits that I use the `fixup` command on will then have its message removed.
 
 NOTE: If you are performing a squash/fixup command on commits that have already been pushed to your remote repository your will have to `force` push your branch to the remote. For example, `git push -f origin master`
 

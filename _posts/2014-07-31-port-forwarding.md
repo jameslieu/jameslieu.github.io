@@ -7,6 +7,8 @@ comments: true
 ---
 One of the rails project I worked with required me to get VirtualBox up and running with the following specs: Ubuntu 14.04 server amd64 on a 2GB RAM 2 core VM with VT-x/ AMD-v.
 
+<!--more-->
+
 And in there, I had to set up ruby via RVM, install a lot of extra tools and ruby gems. To make things easier for me I used port forwarding.
 <hr />
 
@@ -26,7 +28,7 @@ Then to setup a port forwarding into the guest's port 22 so I can access it from
 
 - To enable port forwarding, open the settings for your Virtual Machine <strong>(For OS X)</strong><br />
   <em>You can do this from the VirtualBox Manager, choose Settings(found on the top left)</em>
-  
+
 - Select the <strong>Network</strong> tab
 
 <img src="/assets/media/port_forwarding_1.png" />
@@ -39,7 +41,7 @@ Then to setup a port forwarding into the guest's port 22 so I can access it from
 - Pick a port on our Host, for example 2222, and forward TCP connections received on this port, to port 22/TCP (SSH) on our guest. (<em>To do this, click on the green (+) button on the right</em>).
 
 
-- Host IP is set to nothing - this is on purpose, and is equivalent to saying 0.0.0.0. However, it does mean that ANY MACHINE that can access your Host on TCP port 2222 will be able to talk to the SSH on your guest. 
+- Host IP is set to nothing - this is on purpose, and is equivalent to saying 0.0.0.0. However, it does mean that ANY MACHINE that can access your Host on TCP port 2222 will be able to talk to the SSH on your guest.
 - Theres no need to change the Guest IP so leave it blank.
 - Now confirm all the changes and click <strong>ok</strong>
 - Restart the Virtual Machine so the changes are applied

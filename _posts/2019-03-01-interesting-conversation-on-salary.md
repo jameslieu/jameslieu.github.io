@@ -6,7 +6,9 @@ categories: Salary
 comments: true
 ---
 
-I had a interesting discussion on Slack today.
+I had an interesting discussion on Slack today.
+
+<!--more-->
 
 We were initially talking about how the interview process for a individual (let's call him Person-A) was tough in the US market. Its apparently quite different and difficult. I had praised the way Person-A handled it however. He mentioned he did a ton of research on the market, spoken with other developers at the company and really seems to know what he is worth and what offer would be deemed acceptable.
 

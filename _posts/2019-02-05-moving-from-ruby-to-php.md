@@ -8,6 +8,8 @@ comments: true
 
 When I changed jobs from a Ruby role to a PHP role. A lot of people asked why? They anecdotally tell me that it is often the other way round where developers who specialised in PHP, moves to Ruby instead (Well at least this was the common talk back in 2016).
 
+<!--more-->
+
 The main reason to be honest was that I relocated from London to Milton Keynes. In London there is a huge demand of Ruby roles available and they also appear to be prepared to pay top dollar for the developers as well, presumably due to the demand.
 
 However, in Milton Keynes, there were only a handful of companies who were looking for developers who had Ruby experience. Fewer than 5 I'd say. When I relocated, I did apply for those roles but in the event I didn't get an offer, then I would've had to stay at my current role based in London.

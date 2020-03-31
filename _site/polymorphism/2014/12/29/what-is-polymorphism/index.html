@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>What is Polymorphism?</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Hi, I'm James and I'm a web developer">
+        <meta name="description" content="James Lieu">
         <link rel="canonical"
         href="http://localhost:4000/polymorphism/2014/12/29/what-is-polymorphism/">
 
@@ -27,7 +27,7 @@
     <body class="theme-base-01">
         <header class="main-header">
             <div class="wc-container">
-                <h2><a href="/">Hi, I'm James and I'm a web developer</a></h2>
+                <h2><a href="/">James Lieu</a></h2>
                 <ul>
 	<li>
 		<a href="http://localhost:4000/">Home</a>
@@ -53,7 +53,6 @@
             </div>
         </header>
         <div class="page-content wc-container">
-	
 	<div class="post">
 		<h3>What is Polymorphism?</h3>
 		<p class="post-meta">
@@ -63,11 +62,13 @@
       </span> |
 	    
 	    <span class="post-date">
-    	Dec 29, 2014 
+    	Dec 29, 2014
 	    </span>
-		</p>		
+		</p>
 		<div class="post">
 			<p>What is polymorphism? I’ve found that this question in particular is asked quite frequently in tech interviews. I was asked this in a phone interview once and I did not know the answer to this unfortunately. I believe that it was this question that prevented me from getting to the next stage of the interview, so of course I decided to look into it.</p>
+
+<!--more-->
 
 <p><img src="/assets/media/polymorphism_example.png" /></p>
 
@@ -102,40 +103,40 @@
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">Animal</span>
 
-  <span class="k">def</span> <span class="nf">make_noise</span> 
+  <span class="k">def</span> <span class="nf">make_noise</span>
     <span class="s2">"Some noise"</span>
   <span class="k">end</span>
 
-  <span class="k">def</span> <span class="nf">sleep</span> 
-    <span class="nb">puts</span> <span class="s2">"</span><span class="si">#{</span><span class="nb">self</span><span class="p">.</span><span class="nf">class</span><span class="p">.</span><span class="nf">name</span><span class="si">}</span><span class="s2"> is sleeping."</span> 
+  <span class="k">def</span> <span class="nf">sleep</span>
+    <span class="nb">puts</span> <span class="s2">"</span><span class="si">#{</span><span class="nb">self</span><span class="p">.</span><span class="nf">class</span><span class="p">.</span><span class="nf">name</span><span class="si">}</span><span class="s2"> is sleeping."</span>
   <span class="k">end</span>
 
 <span class="k">end</span>
 
 <span class="k">class</span> <span class="nc">Dog</span> <span class="o">&lt;</span> <span class="no">Animal</span>
-    
-  <span class="k">def</span> <span class="nf">make_noise</span> 
-    <span class="s1">'Woof!'</span>         
-  <span class="k">end</span> 
-    
+
+  <span class="k">def</span> <span class="nf">make_noise</span>
+    <span class="s1">'Woof!'</span>
+  <span class="k">end</span>
+
 <span class="k">end</span>
 
-<span class="k">class</span> <span class="nc">Cat</span> <span class="o">&lt;</span> <span class="no">Animal</span> 
-    
-  <span class="k">def</span> <span class="nf">make_noise</span> 
-    <span class="s1">'Meow!'</span> 
-  <span class="k">end</span> 
-    
+<span class="k">class</span> <span class="nc">Cat</span> <span class="o">&lt;</span> <span class="no">Animal</span>
+
+  <span class="k">def</span> <span class="nf">make_noise</span>
+    <span class="s1">'Meow!'</span>
+  <span class="k">end</span>
+
 <span class="k">end</span></code></pre></figure>
 
 <p>Lets say we have a simple inheritance hierarchy. There is an <code class="language-plaintext highlighter-rouge">Animal</code> superclass and two descendant subclasses, a <code class="language-plaintext highlighter-rouge">Cat</code> and a <code class="language-plaintext highlighter-rouge">Dog</code>. Each of these three classes has its own implementation of the <code class="language-plaintext highlighter-rouge">make_noise</code> method. The implementation of the method of the descendants replaces the definition of a method in the <code class="language-plaintext highlighter-rouge">Animal</code> class.</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">Dog</span> <span class="o">&lt;</span> <span class="no">Animal</span>
-    
-  <span class="k">def</span> <span class="nf">make_noise</span> 
-    <span class="s1">'Woof!'</span>         
-  <span class="k">end</span> 
-    
+
+  <span class="k">def</span> <span class="nf">make_noise</span>
+    <span class="s1">'Woof!'</span>
+  <span class="k">end</span>
+
 <span class="k">end</span></code></pre></figure>
 
 <p>The <code class="language-plaintext highlighter-rouge">make_noise</code> method in the <code class="language-plaintext highlighter-rouge">Dog</code> class replaces the <code class="language-plaintext highlighter-rouge">make_noise</code> method of the <code class="language-plaintext highlighter-rouge">Animal</code> class. The idea is that even though the <code class="language-plaintext highlighter-rouge">Dog</code> class is <em>inheriting</em> from the <code class="language-plaintext highlighter-rouge">Animal</code> class and would therefore already have access to the <code class="language-plaintext highlighter-rouge">make_noise</code> method, the <code class="language-plaintext highlighter-rouge">Dog</code> class will have its own <em>specialized</em> version of that method which is unique to that particular class. This is referred to as overiding the method of the superclass, which just means you write it again.</p>
@@ -195,7 +196,6 @@
 		</div>
 	</div>
 </div>
- 
 
         <footer class="main-footer">
             <div class="wc-container">

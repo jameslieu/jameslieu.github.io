@@ -8,6 +8,8 @@ comments: true
 
 The fastest way I've found to install sublime text 2.
 
+<!--more-->
+
 Copy and paste the following into the terminal
 <pre>
 sudo add-apt-repository ppa:webupd8team/sublime-text-2

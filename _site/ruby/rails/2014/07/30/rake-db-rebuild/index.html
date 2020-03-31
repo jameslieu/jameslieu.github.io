@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Dropping and resetting database all in one rake task</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Hi, I'm James and I'm a web developer">
+        <meta name="description" content="James Lieu">
         <link rel="canonical"
         href="http://localhost:4000/ruby/rails/2014/07/30/rake-db-rebuild/">
 
@@ -27,7 +27,7 @@
     <body class="theme-base-01">
         <header class="main-header">
             <div class="wc-container">
-                <h2><a href="/">Hi, I'm James and I'm a web developer</a></h2>
+                <h2><a href="/">James Lieu</a></h2>
                 <ul>
 	<li>
 		<a href="http://localhost:4000/">Home</a>
@@ -53,7 +53,6 @@
             </div>
         </header>
         <div class="page-content wc-container">
-	
 	<div class="post">
 		<h3>Dropping and resetting database all in one rake task</h3>
 		<p class="post-meta">
@@ -63,11 +62,13 @@
       </span> |
 	    
 	    <span class="post-date">
-    	Jul 30, 2014 
+    	Jul 30, 2014
 	    </span>
-		</p>		
+		</p>
 		<div class="post">
 			<p>When building a new Rails app, I’ve found that I constantly have had to drop the database, create it, run a migration and finally the seed.</p>
+
+<!--more-->
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">rake</span> <span class="n">db</span><span class="ss">:drop</span>
 <span class="n">rake</span> <span class="n">db</span><span class="ss">:create</span>
@@ -153,7 +154,6 @@ With this all you have to do is run the following rake command:
 		</div>
 	</div>
 </div>
- 
 
         <footer class="main-footer">
             <div class="wc-container">

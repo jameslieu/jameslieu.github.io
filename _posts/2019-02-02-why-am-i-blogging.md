@@ -8,6 +8,8 @@ comments: true
 
 You may have noticed that there is a hiatus in blog posts between 2016 and 2019
 
+<!--more-->
+
 To be honest, I basically forgot about the blog really. It wasn't on my list of priorities, and I guess I initially started the blog to help with my
 chances for job opportunities. Being a junior at the time, it was tough to brake into a role without some experience under your belt.
 

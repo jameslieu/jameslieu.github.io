@@ -8,6 +8,8 @@ comments: true
 
 When building a new Rails app, I've found that I constantly have had to drop the database, create it, run a migration and finally the seed.
 
+<!--more-->
+
 {% highlight ruby %}
 rake db:drop
 rake db:create
