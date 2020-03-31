@@ -3,11 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>How to setup port forwarding on VirtualBox</title>
+        <title>The S.P.A Argument</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="James Lieu">
         <link rel="canonical"
-        href="http://localhost:4000/virtual-box/ubuntu/2014/07/31/port-forwarding/">
+        href="http://localhost:4000/javascript/2020/03/31/the-spa-argument/">
 
         <!-- Harmony styles -->
         <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
@@ -54,95 +54,42 @@
         </header>
         <div class="page-content wc-container">
 	<div class="post">
-		<h3>How to setup port forwarding on VirtualBox</h3>
+		<h3>The S.P.A Argument</h3>
 		<p class="post-meta">
 			
       <span class="categories">
-      virtual-box and ubuntu
+      JavaScript
       </span> |
 	    
 	    <span class="post-date">
-    	Jul 31, 2014
+    	Mar 31, 2020
 	    </span>
 		</p>
 		<div class="post">
-			<p>One of the rails project I worked with required me to get VirtualBox up and running with the following specs: Ubuntu 14.04 server amd64 on a 2GB RAM 2 core VM with VT-x/ AMD-v.</p>
+			<p>There was a short debate I had with some people regarding whether SPAs are necessary based off an article on the subject.</p>
 
 <!--more-->
 
-<p>And in there, I had to set up ruby via RVM, install a lot of extra tools and ruby gems. To make things easier for me I used port forwarding.</p>
-<hr />
+<p>Here’s the article
+https://journal.plausible.io/you-probably-dont-need-a-single-page-app</p>
 
-<p>Port forwarding allows remote computers (for example, computers on the Internet) to connect to a specific computer or service within a private local-area network (LAN) - <em>according to wikipedia</em></p>
+<blockquote>
+  <p>It all comes down to tradeoffs
+As with everything in programming, there isn’t a single answer in the SPA vs traditional architecture dilemma. There are cases where it makes sense to go with a SPA because you need a snappy, real-time UI. However, we should recognize that this comes at a cost to the development speed. And if a single-page app is not a requirement, we can avoid the additional complexity and move much quicker by going the traditional route.
+Picking the right architecture for the job makes a huge difference in productivity, and ultimately, success. We should aim to have both architectures in our toolbox, so we can use the optimal solution in each case.</p>
+</blockquote>
 
-<p>One benefit of using port forwarding is that it allows you to run tasks on the command-line without having to work directly in VirtualBox by using your host terminal.
-<br /></p>
+<p>I’m not sure if this article was a bash at JS developers, but more so debating whether ‘defaulting’ to SPAs is the best solution as a starting point. Why not just build your app in NodeJS/ExpressJS, thats still Javascript and I don’t see anything wrong with this.</p>
 
-<p>First thing I did was to install the OpenSSH client applications on Ubuntu</p>
-<pre>
-sudo apt-get install openssh-server
-</pre>
+<p>I actually have some personal experience with this in my previous company, we were rewriting a legacy app, it used to be built with Ruby on Rails but the company wanted to use PHP instead primarily because of how difficult it was to find a Rails dev (in Milton Keynes). The senior developer and myself had started at the same time, But he being the senior there had selected the tech stack: Laravel API with an Angular 2 (SPA).</p>
 
-<p><br />
-Then to setup a port forwarding into the guest’s port 22 so I can access it from my host terminal.</p>
+<p>Developing with Laravel was a breeze and he was already well-versed with it, but why did he go for Angular 2? Or an SPA for that matter. When I asked him, he basically said that it was ‘modern’ (and I wouldn’t be surprised if he just wanted to learn the tech).</p>
 
-<ul>
-  <li>
-    <p>To enable port forwarding, open the settings for your Virtual Machine <strong>(For OS X)</strong><br />
-<em>You can do this from the VirtualBox Manager, choose Settings(found on the top left)</em></p>
-  </li>
-  <li>
-    <p>Select the <strong>Network</strong> tab</p>
-  </li>
-</ul>
+<p>After two years of developing with it, he openly admitted regretting going that route when comparing to just using the Laravel framework to handle everything incl the front end, then perhaps going with the hybrid option and using VueJS to apply the rich UI interactions.</p>
 
-<p><img src="/assets/media/port_forwarding_1.png" /></p>
+<p>The problems we’ve had with Angular were error handling, guards, intercepting calls (to handle refresh tokens) to name a few. These things can go completely without when going the traditional route, Laravel would’ve handled that stuff for us out of the box. I personally don’t regret learning Angular but I can see why my colleague says he has regrets over it, it took us substantially longer to develop anything and the question was whether it was even <em>necessary</em> for <em>this particular app</em></p>
 
-<ul>
-  <li>Make sure that <strong>NAT</strong> is selected in the <strong>Attached to: selector.</strong></li>
-  <li>Click on the Port Forwarding button.</li>
-</ul>
-
-<p><img src="/assets/media/port_forwarding_2.png" /></p>
-
-<ul>
-  <li>
-    <p>Pick a port on our Host, for example 2222, and forward TCP connections received on this port, to port 22/TCP (SSH) on our guest. (<em>To do this, click on the green (+) button on the right</em>).</p>
-  </li>
-  <li>Host IP is set to nothing - this is on purpose, and is equivalent to saying 0.0.0.0. However, it does mean that ANY MACHINE that can access your Host on TCP port 2222 will be able to talk to the SSH on your guest.</li>
-  <li>Theres no need to change the Guest IP so leave it blank.</li>
-  <li>Now confirm all the changes and click <strong>ok</strong></li>
-  <li>Restart the Virtual Machine so the changes are applied</li>
-</ul>
-
-<p>Now you should be ready to connect to the guest.
-<em>Note: Make sure you have created a username on your guest. You cannot log in as root using SSH`</em>
-<br /></p>
-
-<p>Start your VM.
-In your terminal enter:</p>
-
-<pre>
-ssh [user_name]@127.0.0.1 -p 2222
-</pre>
-
-<p>or</p>
-
-<pre>
-ssh -l [user_name] -p 2222 127.0.0.1
-</pre>
-
-<p><em>Don’t forget to replace <strong>[user_name]</strong> with the user you created.</em></p>
-
-<p>You will be prompted to accept the host key so be sure to enter <strong>yes</strong>. Then finally you’ll be prompted to enter the password for the username:</p>
-
-<pre>
-[user_name]@127.0.0.1's password:
-</pre>
-
-<p>Enter your password and you should now be logged in!</p>
-
-<p>Now you should be able to run commands in the terminal without going into the VM directly. Great for running specs for your rails applications or adding new gems and tools.</p>
+<p>The SPA route ‘arguably’ adds extra complexity and setup costs when compared to the traditional route and I think that was where the author of that article was getting at.</p>
 
 		</div>
 	</div>
@@ -154,11 +101,6 @@ ssh -l [user_name] -p 2222 127.0.0.1
 		<ul class="posts">
 		    
 		    <li>
-			  <span>31 Mar 2020 &raquo;</span>
-			  <a href="http://localhost:4000/javascript/2020/03/31/the-spa-argument/">The S.P.A Argument</a>
-		    </li>
-		    
-		    <li>
 			  <span>01 Mar 2019 &raquo;</span>
 			  <a href="http://localhost:4000/salary/2019/03/01/interesting-conversation-on-salary/">Interesting Conversation On Salary</a>
 		    </li>
@@ -168,6 +110,11 @@ ssh -l [user_name] -p 2222 127.0.0.1
 			  <a href="http://localhost:4000/hire/junior/senior/developer/2019/02/09/to-hire-a-junior-vs-senior-developer/">To Hire a Junior Vs Senior Developer</a>
 		    </li>
 		    
+		    <li>
+			  <span>07 Feb 2019 &raquo;</span>
+			  <a href="http://localhost:4000/ruby/php/2019/02/07/moving-from-ruby-to-php/">Moving From Ruby To PHP</a>
+		    </li>
+		    
 		</ul>
 	</div>
 	
@@ -175,13 +122,13 @@ ssh -l [user_name] -p 2222 127.0.0.1
 	<div class="post-footer">
 		<div class="column-1">
 			
-				<a href="http://localhost:4000/ruby/rails/2014/07/30/rake-db-rebuild/"><< Older</a>
+				<a href="http://localhost:4000/salary/2019/03/01/interesting-conversation-on-salary/"><< Older</a>
 			
 		</div>
 		<div class="column-2"><a href="http://localhost:4000/ ">Home</a></div>
 		<div class="column-3">
 			
-				<a href="http://localhost:4000/ssh/2014/08/05/linux-cheatsheet/">Newer >></a>
+				<span>Newer >></span>
 			
 		</div>
 	</div>
