@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Introduction to SNS and SQS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="James Lieu">
+        <link rel="canonical"
+        href="http://localhost:4000/aws/sqs/sns/2020/04/01/introduction-to-sqs-and-sns/">
+
+        <!-- Harmony styles -->
+        <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+
+        <!-- Modernizr js -->
+        <script async src="/assets/js/modernizr.js"></script>
+
+        <!-- IE Fixes -->
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body class="theme-base-01">
+        <header class="main-header">
+            <div class="wc-container">
+                <h2><a href="/">James Lieu</a></h2>
+                <ul>
+	<li>
+		<a href="http://localhost:4000/">Home</a>
+	</li>
+	<li>
+		<a href="http://localhost:4000/about">About</a>
+		<span>/</span>
+	</li>
+	<li>
+		<a href="http://localhost:4000/blog">Blog</a><span>/</span>
+	</li>
+	
+	<li>
+		<a title="jameslieu on Github"
+			href="https://github.com/jameslieu" target="_blank">
+			Github
+		</a><span>/</span>
+	</li>
+	
+	<li>
+	</li>
+</ul>
+            </div>
+        </header>
+        <div class="page-content wc-container">
+	<div class="post">
+		<h3>Introduction to SNS and SQS</h3>
+		<p class="post-meta">
+			
+      <span class="categories">
+      AWS, SQS, and SNS
+      </span> |
+	    
+	    <span class="post-date">
+    	Apr 1, 2020
+	    </span>
+		</p>
+		<div class="post">
+			<p>So for this post I’ll be covering a basic overview of Amazon’s Simple Queue Service (known as SQS) and Amazon’s Simple Notification Service (known as SNS).</p>
+
+<!--more-->
+
+<hr />
+
+<h3 id="agenda">Agenda</h3>
+
+<ul>
+  <li>What is SQS?</li>
+  <li>What is SNS?</li>
+  <li>The difference between SNS and SQS</li>
+  <li>Advantages of using SNS and SQS together</li>
+</ul>
+
+<p>I’ll be running through briefly, what is SQS before moving on to, what is SNS? The differences between the two and the advantages of using them together.</p>
+
+<hr />
+
+<h3 id="what-is-amazons-simple-queue-service-sqs">What is Amazon’s Simple Queue Service (SQS)?</h3>
+<p><img src="/assets/media/sqs-logo.png" style="float: right; height: 200px;" /></p>
+
+<p>SQS is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications.</p>
+
+<p>Using SQS, you can send, store, and receive messages between software components at any volume, without losing messages or requiring other services to be available
+ 
+ 
+ </p>
+
+<hr />
+
+<h6 id="sqs-offers-two-types-of-message-queues">SQS offers two types of message queues:</h6>
+
+<table>
+  <thead>
+    <tr>
+      <th>Standard Queues</th>
+      <th>FIFO (First in, First Out) Queues</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Unlimited Throughput: Support a nearly unlimited number of transactions per second per API action.</td>
+      <td>High Throughput: By default, FIFO queues support up to 300 messages per second</td>
+    </tr>
+    <tr>
+      <td>Best-Effort Ordering: Occasionally, messages might be delivered in an order different from which they were sent.</td>
+      <td>Exactly-Once Processing: A message is delivered once and remains available until a consumer processes and deletes it. Duplicates aren’t introduced into the queue.</td>
+    </tr>
+    <tr>
+      <td>At-Least-Once Delivery: A delivered at least once, but occasionally more than one copy of a message is delivered.</td>
+      <td>First-In-First-Out Delivery: The order in which messages are sent and received is strictly preserved (i.e. First-In-First-Out).</td>
+    </tr>
+    <tr>
+      <td><img src="/assets/media/sqs-1.png" /></td>
+      <td><img src="/assets/media/sqs-2.png" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="working-with-sqs-messages">Working with SQS Messages</h4>
+
+<ul>
+  <li>
+    <p>Messages are persisted and is stored for some configurable duration. The default is 4 days but it can be up to 14 days before they’re automatically deleted.</p>
+  </li>
+  <li>Messages can contain up to 256 KB of text data, including XML, JSON and unformatted text</li>
+  <li>
+    <p>An external service is needed to poll and grab messages from SQS to process. Once the service has successfully processed them, the message can be deleted from the queue.</p>
+  </li>
+  <li>Alternatively, you can configure your queue to trigger a lambda function to process the message. The lambda will only delete the message from the queue if your function has returned successfully without any errors. If the function fails to process, a <strong>dead-letter queue</strong> can be leveraged to store those failed messages</li>
+</ul>
+
+<h4 id="what-is-a-dead-letter-queue-dlq">What is a Dead-letter queue (DLQ)?</h4>
+
+<p>A dead-letter queue is simply an SQS queue for messages that can’t be delivered successfully, for example due to client or server errors.</p>
+
+<p>Those messages can be held in this queue for reprocessing, we can also configure an alarm for messages arriving into this queue, as well as examine them for further analysis</p>
+
+<h3 id="quick-summary">Quick Summary</h3>
+
+<ul>
+  <li>A fully managed message queuing service</li>
+  <li>Send, store, and receive messages</li>
+  <li>Supports Lambda triggers</li>
+  <li>Dead letter queue support</li>
+</ul>
+
+<p>So just a quick summary, SQS is a fully managed queuing service. It can send store and receive messages. It supports lambda triggers and can be used as a dead letter queue for storing failed messages.</p>
+
+<hr />
+
+<h3 id="what-is-amazons-simple-notification-service-sns">What is Amazon’s Simple Notification Service (SNS)?</h3>
+<p><img src="/assets/media/sns-logo.png" style="float: right; height: 200px;" />
+SNS is a fully managed publish/subscribe messaging service that coordinates and manages the delivery or sending of messages to subscribing endpoints or clients.</p>
+
+<p>It provides ‘topics’ which are messaging channels that any number of subscribers can subscribe to. When the Topic receives an event or message, it pushes it to all subscribers at the same time.</p>
+
+<p> 
+ 
+ </p>
+
+<p>There are two types of clients to be aware of, subscribers and publishers</p>
+
+<p><img src="/assets/media/sns.png" /></p>
+
+<h4 id="subscribers">Subscribers</h4>
+
+<ul>
+  <li>Web servers</li>
+  <li>Email</li>
+  <li>SQS queues</li>
+  <li>Lambda functions</li>
+</ul>
+
+<p>Subscribers (i.e. web servers, email addresses,  SQS queues,  Lambda functions) consume or receive messages from the topic they’re subscribed to.</p>
+
+<h4 id="publishers">Publishers</h4>
+
+<p>Publishers such as distributed systems, microservices and other AWS services can communicate asynchronously with subscribers by producing and sending messages to an SNS topic</p>
+
+<h3 id="basic-usage">Basic Usage</h3>
+
+<p><img src="/assets/media/sns-2.png" style="height: 250px;" /></p>
+
+<p>To use SNS, a topic needs to be created. We can control access to it by defining policies that determine which publishers and subscribers can communicate with it.
+ 
+A message is sent directly to the topic. SNS matches the topic to a list of subscribers who have subscribed to it, and delivers the message to each of those subscribers.</p>
+
+<p>I’ll run through some common scenarios.</p>
+
+<h4 id="scenario-1-message-fanout">Scenario 1: Message Fanout</h4>
+
+<p>So message fanout occurs when a message, is published to a topic, which is then pushed to multiple subscribers or endpoints.
+This provides asynchronous event notifications, which in turn allows for parallel processing.  
+ 
+<img src="/assets/media/sns-3.png" style="height: 250px;" /></p>
+
+<p>For example, imagine a topic which has some SQS queues subscribed to it, and imagine we have an application that sends a message to this topic whenever an order is placed for a product.</p>
+
+<p>When an order is placed, the SQS queues would receive identical messages for that new order at the same time. A service receiving the message from one of the queues could be responsible for the processing of the order, while the other queue can be used by a different service to store the ‘order data’ in a database.</p>
+
+<p><img src="/assets/media/sns-4.png" style="height: 200px;" /></p>
+
+<h4 id="scenario-2-application-and-system-alerts">Scenario 2: Application and System Alerts</h4>
+
+<p>Application and System alerts, so notifications or alerts that are triggered by a breach of predefined thresholds for monitoring for example</p>
+
+<p><img src="/assets/media/sns-5.png" style="height: 150px;" /></p>
+
+<h4 id="other-scenarios">Other Scenarios</h4>
+
+<p>Other Scenarios can be:</p>
+
+<ul>
+  <li>Push email or text messaging i.e. Targeted news headlines to subscribers by email or SMS</li>
+  <li>Mobile push notifications i.e. Send messages directly to mobile apps, indicating that an update is available for example.</li>
+</ul>
+
+<p><img src="/assets/media/sns-6.png" style="height: 250px;" /></p>
+
+<h3 id="message-delivery-retries">Message Delivery Retries</h3>
+
+<p>SNS defines a delivery policy for each delivery protocol. The delivery policy defines how SNS, retries the delivery of a message if it is undeliverable for whatever reason.
+ 
+Apart from HTTP, delivery protocols do not support custom delivery policies, so you can’t customise SNS-defined delivery policies.</p>
+
+<p>When the delivery policy is exhausted, SNS stops retrying the delivery and discards the message. Although, if a dead-letter queue, is configured to the subscription however, then the message will be held there. The dead letter queue is configured on the subscription rather than a topic because message deliveries happen at the subscription level.</p>
+
+<p><img src="/assets/media/sns-7.png" /></p>
+
+<hr />
+
+<h3 id="the-differences-between-sns-and-sqs">The differences between SNS and SQS</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th><img src="/assets/media/sns-logo.png" style="height: 150px;" /></th>
+      <th><img src="/assets/media/sqs-logo.png" style="height: 150px;" /></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Fully managed publish-subscribe system.</td>
+      <td>Fully managed Queuing system</td>
+    </tr>
+    <tr>
+      <td>There is no persistence. So the message isn’t stored by SNS.</td>
+      <td>Decoupling applications / Parallel asynchronous processing</td>
+    </tr>
+    <tr>
+      <td>Fanout - Processing the same message in multiple ways</td>
+      <td>Messages are persisted for some (configurable) duration</td>
+    </tr>
+    <tr>
+      <td>Push mechanism - Messages are pushed to subscribers/consumers</td>
+      <td>Pull mechanism - Receivers must poll and pull messages</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>SNS is a distributed publish-subscribe system.  There is no persistence, so the message isn’t stored by SNS.
+Leveraging SNS allows for processing the same message in multiple ways and at the same time. It uses a push mechanism, so messages are pushed to subscribers.</p>
+
+<p>Whereas SQS is a queuing system, used for decoupling applications and allowing parallel asynchronous processing.  Messages are persisted and is stored for some configurable duration. It can be up to 14 days before they’re automatically deleted
+SQS uses a pull mechanism – So messages are NOT pushed to receivers. Receivers would have to poll or pull messages. Although SQS does support lambda triggers so we don’t necessarily have to poll for messages, we can leverage that instead.</p>
+
+<h3 id="why-might-we-use-sns-with-sqs-together">Why might we use SNS with SQS together?</h3>
+
+<p><img src="/assets/media/sns-8.png" style="height: 250px;" /></p>
+
+<p>There may be different kinds of subscribers of the same topic where, some need the immediate delivery of messages such as alerts or email. But others might require the message to persist, for later usage or processing.</p>
+
+<h5 id="asynchronous-processing">Asynchronous Processing</h5>
+<p>When a message is published to a topic, it can be distributed to multiple SQS queues which can then be processed in parallel.</p>
+
+<h5 id="persistent-storage">Persistent Storage</h5>
+<p>By leveraging SQS, the message can be stored, the service can poll and receive the message as and when it decides. If the service were to become unavailable for some reason, the message would still be available within the queue.  Once the service is available again, it can then continue to poll and process those messages.</p>
+
+<h5 id="dead-letter-queue">Dead letter queue</h5>
+<p>If SNS pushes a notification directly to a subscribed Service, and that service is unavailable, then the message will be lost. Leveraging dead-letter queues will solve this issue.</p>
+
+<p>Also, even if the service has ‘received’ the message. What happens if an error occurs during processing or that processing fails? The message can be pushed to this queue making it available for repossessing or further analysis. And configured to only delete the message when processed successfully.</p>
+
+<h5 id="achieve-guaranteed-delivery">Achieve Guaranteed Delivery</h5>
+<p>So by coupling SNS with SQS, we can achieve guaranteed delivery by receiving messages at our own pace.</p>
+
+<hr />
+
+<h3 id="summary">Summary</h3>
+
+<p>So to summarize:
+SNS distributes several copies of the same message to several subscribers, to be processed in parallel.
+SQS is mainly used to decouple or integrate applications. It also allows clients to be offline and is tolerant to network and host failures.</p>
+
+<p>Coupling the two together we can achieve:</p>
+<ul>
+  <li>Parallel asynchronous processing</li>
+  <li>Fault tolerant systems</li>
+  <li>Guaranteed delivery</li>
+</ul>
+
+<p>As well as the other benefits mentioned.</p>
+
+<p>So that concludes my basic overview of the SNS and SQS.
+We’ve covered what is SQS, what is SNS, the difference between the two and the advantages of using them together.</p>
+
+		</div>
+	</div>
+
+
+	
+	<div class="related">
+		<h4>Related Posts</h2>
+		<ul class="posts">
+		    
+		    <li>
+			  <span>01 Apr 2020 &raquo;</span>
+			  <a href="http://localhost:4000/javascript/2020/04/01/mocking-in-js/">Mocking In JS</a>
+		    </li>
+		    
+		    <li>
+			  <span>31 Mar 2020 &raquo;</span>
+			  <a href="http://localhost:4000/javascript/2020/03/31/the-spa-argument/">The S.P.A Argument</a>
+		    </li>
+		    
+		    <li>
+			  <span>01 Mar 2019 &raquo;</span>
+			  <a href="http://localhost:4000/salary/2019/03/01/interesting-conversation-on-salary/">Interesting Conversation On Salary</a>
+		    </li>
+		    
+		</ul>
+	</div>
+	
+
+	<div class="post-footer">
+		<div class="column-1">
+			
+				<a href="http://localhost:4000/javascript/2020/04/01/mocking-in-js/"><< Older</a>
+			
+		</div>
+		<div class="column-2"><a href="http://localhost:4000/ ">Home</a></div>
+		<div class="column-3">
+			
+				<span>Newer >></span>
+			
+		</div>
+	</div>
+</div>
+
+        <footer class="main-footer">
+            <div class="wc-container">
+                <div class="column one">
+                    <h6>Few more links</h6>
+<ul class="menu footer">
+    <li><a href="http://localhost:4000/about">About</a></li>
+    <li><a href="http://localhost:4000/blog">Blog</a></li>
+</ul>		
+                </div>
+                <div class="column two">
+                    <h6>Follow me</h6>
+
+<ul class="social-media">
+
+
+    
+    <li>
+        <a title="J_Lieu on Twitter" 
+            href="https://twitter.com/J_Lieu" 
+            class="twitter wc-img-replace" target="_blank">Twitter</a>
+    </li>   
+    
+
+    
+    <li>
+        <a title="jameslieu on Github" 
+            href="https://github.com/jameslieu" 
+            class="github wc-img-replace" target="_blank">Github</a>
+    </li>
+     
+
+    
+
+    
+
+    
+
+    
+
+</ul>
+                </div>
+            </div>
+            <p class="wc-container disclaimer">
+                
+<!-- Powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a> -->
+            </p>
+        </footer>
+        <script type="text/javascript">
+          /* To avoid render blocking css */
+          var cb = function() {
+            var l = document.createElement('link'); l.rel = 'stylesheet';
+            l.href = 'https://fonts.googleapis.com/css?family=Ubuntu+Mono&subset=latin';
+            var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+          };
+          var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+              webkitRequestAnimationFrame || msRequestAnimationFrame;
+          if (raf) raf(cb);
+          else window.addEventListener('load', cb);
+        </script>
+        <!-- jQuery -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <!-- When no internet load JQuery from local -->
+        <script>window.jQuery || document.write('<script src="/assets/js/jquery.min.js"><\/script>')</script>
+        <!-- Site js -->
+        <script src="/assets/js/all.js"></script>
+        <!-- Google analytics  -->
+        
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-xxxx-x']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+    </body>
+</html>
