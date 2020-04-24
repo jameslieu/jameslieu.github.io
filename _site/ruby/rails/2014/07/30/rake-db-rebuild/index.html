@@ -75,7 +75,8 @@
 <span class="n">rake</span> <span class="n">db</span><span class="ss">:migrate</span>
 <span class="n">rake</span> <span class="n">db</span><span class="ss">:seed</span>
 
-<span class="c1">#=&gt; And for the test environment</span>
+<span class="c1">#=&gt; And for the test environment
+</span>
 <span class="no">RAILS_ENV</span><span class="o">=</span><span class="nb">test</span> <span class="n">rake</span> <span class="n">db</span><span class="ss">:drop</span>
 <span class="no">RAILS_ENV</span><span class="o">=</span><span class="nb">test</span> <span class="n">rake</span> <span class="n">db</span><span class="ss">:create</span>
 <span class="no">RAILS_ENV</span><span class="o">=</span><span class="nb">test</span> <span class="n">rake</span> <span class="n">db</span><span class="ss">:migrate</span>
@@ -85,7 +86,8 @@
 
 <p>You can name your task what ever you like:</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#=&gt; /lib/tasks/db.rake</span>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#=&gt; /lib/tasks/db.rake
+</span>
 
 <span class="n">namespace</span> <span class="ss">:db</span> <span class="k">do</span>
   <span class="n">task</span> <span class="ss">:rebuild</span> <span class="o">=&gt;</span> <span class="ss">:environment</span> <span class="k">do</span>
@@ -120,6 +122,11 @@ With this all you have to do is run the following rake command:
 		<ul class="posts">
 		    
 		    <li>
+			  <span>24 Apr 2020 &raquo;</span>
+			  <a href="http://localhost:4000/salary/2020/04/24/provide-expected-salary/">Should I Provide An Expected Salary?</a>
+		    </li>
+		    
+		    <li>
 			  <span>01 Apr 2020 &raquo;</span>
 			  <a href="http://localhost:4000/aws/sqs/sns/2020/04/01/introduction-to-sqs-and-sns/">Introduction to SNS and SQS</a>
 		    </li>
@@ -127,11 +134,6 @@ With this all you have to do is run the following rake command:
 		    <li>
 			  <span>01 Apr 2020 &raquo;</span>
 			  <a href="http://localhost:4000/javascript/2020/04/01/mocking-in-js/">Mocking In JS</a>
-		    </li>
-		    
-		    <li>
-			  <span>31 Mar 2020 &raquo;</span>
-			  <a href="http://localhost:4000/javascript/2020/03/31/the-spa-argument/">The S.P.A Argument</a>
 		    </li>
 		    
 		</ul>
