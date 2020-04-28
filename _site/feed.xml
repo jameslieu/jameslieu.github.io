@@ -5,9 +5,121 @@
     <description>James Lieu</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 24 Apr 2020 17:23:55 +0100</pubDate>
-    <lastBuildDate>Fri, 24 Apr 2020 17:23:55 +0100</lastBuildDate>
+    <pubDate>Tue, 28 Apr 2020 17:40:55 +0100</pubDate>
+    <lastBuildDate>Tue, 28 Apr 2020 17:40:55 +0100</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Git Workflow</title>
+        <description>&lt;p&gt;At a previous company, many of my colleagues had little to no experience with version-control. Git was recently introduced into their workflow :)&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h3 id=&quot;background&quot;&gt;Background&lt;/h3&gt;
+
+&lt;p&gt;I had just started a new role there, they were not using any version control (which led to many problems) and so Git was introduced into their workflow by the tech lead who had also just started his role a month prior.
+Within the team and the work they were doing - there were so many issues:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Huge merge conflicts&lt;/li&gt;
+  &lt;li&gt;Trying to commit without staging work&lt;/li&gt;
+  &lt;li&gt;Long-lived branches&lt;/li&gt;
+  &lt;li&gt;Out-of-date local master and feature branches&lt;/li&gt;
+  &lt;li&gt;Merging other people’s branches&lt;/li&gt;
+  &lt;li&gt;Hot fixes for bugs&lt;/li&gt;
+  &lt;li&gt;Undoing commits or deleting them thus losing work&lt;/li&gt;
+  &lt;li&gt;etc&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;While I had just joined the team, I had worked with Git for a few years, so I was asked on many occasions to explain to my colleagues where they may have gone wrong and what they need to do to fix it. There was one QA engineer in particular who was struggling to grasp the basics even after many conversations with him. So I took it upon myself to prepare a document so the team can refer to if they get stuck or I can use to help explain things.&lt;/p&gt;
+
+&lt;p&gt;Here is the original document I wrote:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;git-clarification&quot;&gt;Git Clarification&lt;/h3&gt;
+
+&lt;p&gt;The first clarification I think is important to remember is the fundamental idea that Git tracks &lt;strong&gt;Commits&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Think of Commits as the &lt;strong&gt;state&lt;/strong&gt; of the codebase. So, if you branch off master for example, you have all of master’s &lt;strong&gt;Commits&lt;/strong&gt;. In the new branch you add some code then &lt;strong&gt;Commit&lt;/strong&gt; it, your branch has those &lt;strong&gt;Commits&lt;/strong&gt; including master’s &lt;strong&gt;Commits&lt;/strong&gt; (since you last git pulled) but master will not have your new &lt;strong&gt;Commits&lt;/strong&gt; (until you merge them)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/git-1.png&quot; style=&quot;height: 500px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;basic-diagram&quot;&gt;Basic Diagram&lt;/h3&gt;
+
+&lt;p&gt;This here is a basic diagram for what maybe is a typical feature you guys might be working on. The lines represent branches and the &lt;strong&gt;Commits&lt;/strong&gt; are the represented by circles.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/git-2.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This example is the scenario of working on a feature with two user stories (&lt;strong&gt;US-1&lt;/strong&gt; and &lt;strong&gt;US-2&lt;/strong&gt;).
+Master is branched off into a new ‘feature’ branch, then the feature branch is to be branched off into the &lt;strong&gt;US-1&lt;/strong&gt; branch. &lt;strong&gt;US-2&lt;/strong&gt; is also branched off the feature branch.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;US-1&lt;/strong&gt; is finished first, a pull request is opened then merged back into the feature branch (if approved). Meanwhile, &lt;strong&gt;US-2&lt;/strong&gt; is being worked on, once it is ready, before opening a pull request, pull from the feature branch (which contains &lt;strong&gt;Commits&lt;/strong&gt; from &lt;strong&gt;US-1&lt;/strong&gt;), then open a pull request into the feature branch. This will allow your branch (&lt;strong&gt;US-2&lt;/strong&gt;) to be ‘up to date’ with the feature branch if this makes sense.&lt;/p&gt;
+
+&lt;p&gt;Once &lt;strong&gt;US-2&lt;/strong&gt; is approved and merged into the feature branch. A new pull request can be made from ‘feature branch’ to ‘Master’. This feature branch by now will contain &lt;strong&gt;Commits&lt;/strong&gt; from both &lt;strong&gt;US-1&lt;/strong&gt; and &lt;strong&gt;US-2&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;When everything is merged into master, we create a separate branch for the release. Remember, git only tracks the &lt;strong&gt;Commits&lt;/strong&gt;, so in this scenario, the release branch will contain exactly the same &lt;strong&gt;Commits&lt;/strong&gt; as master.&lt;/p&gt;
+
+&lt;h3 id=&quot;advance-diagram&quot;&gt;Advance Diagram&lt;/h3&gt;
+
+&lt;p&gt;The above diagram is designed to be basic so it’s easier to explain. The below diagram is designed to demonstrate exactly what is happening in the same scenario.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/git-3.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;One thing you have to bear in mind is that you have your Local Repository and there is a Remote Repository. Your local one is the one stored on your machine and the remote is on Azure DevOps.&lt;/p&gt;
+
+&lt;p&gt;Each repository will have their own branches. So technically (in this example) there are two master branches, one local and one remote. It is your responsibility to make sure that your local master branch is up to date with the remote master branch as it is possible that it has been updated since you’ve last ‘pulled’ down the changes into your local master while working on your feature.&lt;/p&gt;
+
+&lt;p&gt;When you’re ready to open your pull request, you actually need to push your branch into the Remote repo&lt;/p&gt;
+
+&lt;p&gt;This example also demonstrates what happens if your pull request is rejected or requires some change. You add more &lt;strong&gt;Commits&lt;/strong&gt; to your Local repo and then push those &lt;strong&gt;Commits&lt;/strong&gt; to the Remote repo branch, it will just appear in the pull request to be reviewed again, you don’t need to create a new one.&lt;/p&gt;
+
+&lt;p&gt;After everything is approved and merged. A new release branch is created and you can pull master to update your Local master branch.&lt;/p&gt;
+
+&lt;p&gt;Note: These examples are under the assumption that a single developer is working on this feature. If there is a feature where the user stories are being worked on by multiple developers, then the feature branch would normally be available on the Remote Repo first, and you all work off that branch.&lt;/p&gt;
+
+&lt;h3 id=&quot;bonus-hot-fixes&quot;&gt;Bonus: Hot Fixes&lt;/h3&gt;
+
+&lt;p&gt;Here is an example how to deal with Hotfixes&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/git-4.png&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Branch off the Release&lt;/li&gt;
+  &lt;li&gt;Fix/patch the bug.&lt;/li&gt;
+  &lt;li&gt;Open a pull request against the Release branch&lt;/li&gt;
+  &lt;li&gt;Merge if approved&lt;/li&gt;
+  &lt;li&gt;Merge into master as well&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;my-thoughts&quot;&gt;My Thoughts&lt;/h3&gt;
+
+&lt;p&gt;The above example demonstrates the Git workflow we were working with. I believe its commonly known as the &lt;a href=&quot;https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&quot;&gt;Gitflow Workflow&lt;/a&gt;. We had release and feature branches along with tickets that had sub-tasks and/or user-stories which meant having to create a feature branch and branching off that to create ‘user-story’ branches. Not to mention applying patch/hot fixes. It isn’t my prefered Git Workflow and anecdotally can be very confusing for beginners.&lt;/p&gt;
+
+&lt;p&gt;This kind of workflow requires a good understanding of how Git works and so it is unsurprising that the team struggled to grasp the basics and ran into so many issues. While I was happy to help them with this, it did take a lot of patience to explain and assist with their branches and commits, which at times were pretty disruptive for me.&lt;/p&gt;
+
+&lt;p&gt;I’m not necessarily saying that my document here is particularly good, and my diagrams/notes can be improved but I remember that I didn’t want to spend too much effort on it at the time. Having look at those now, I wonder if they added to the confusion? I wouldn’t know how else to simplify it further to be honest, it was a real challenge trying to teach my colleagues this topic, I could sense their frustration and sometimes their unwillingness to learn this topic at all. Having to explain to them ‘why’ was very difficult and I suppose they wished they could’ve reverted back to the old way of working before the tech lead had made this change.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;Thinking back on this experience, in my opinion, it was probably not a good idea for the tech lead to transition everyone to a new (version-control) system they were not familiar with, without first giving them time to learn and adapt.&lt;/p&gt;
+
+&lt;p&gt;It would’ve been much more effective to run through a workshop to teach the basics instead of carrying on and trying to fix the conflicts and challenges as they arise (to improve knowledge on Git). Also just sending an article/blog about Git via email is good but will not be effective if no one actually spends time to read it.&lt;/p&gt;
+
+&lt;p&gt;In any case, I would’ve prefered we used a more simple Git Workflow such as the &lt;a href=&quot;https://guides.github.com/introduction/flow/&quot;&gt;GitHub Flow&lt;/a&gt; to avoid overwhelming them with some of Git’s more complicated features (present in the &lt;a href=&quot;https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&quot;&gt;Gitflow Workflow&lt;/a&gt;) while they learn.&lt;/p&gt;
+
+&lt;p&gt;Maybe I’ll one day, now that I have some experience with both Git Workflows, write a blog post to compare &lt;a href=&quot;https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&quot;&gt;Gitflow Workflow&lt;/a&gt; vs &lt;a href=&quot;https://guides.github.com/introduction/flow/&quot;&gt;GitHub Flow&lt;/a&gt; and see the pros/cons of each workflow.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 28 Apr 2020 12:50:00 +0100</pubDate>
+        <link>http://localhost:4000/git/2020/04/28/git-workflow/</link>
+        <guid isPermaLink="true">http://localhost:4000/git/2020/04/28/git-workflow/</guid>
+        
+        
+        <category>Git</category>
+        
+      </item>
     
       <item>
         <title>Should I Provide An Expected Salary?</title>
@@ -934,42 +1046,6 @@ You can say that you want 10k more because of the experience and value you can b
         <category>Zero</category>
         
         <category>Email</category>
-        
-      </item>
-    
-      <item>
-        <title>Why Am I Blogging?</title>
-        <description>&lt;p&gt;You may have noticed that there is a hiatus in blog posts between 2016 and 2019&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;To be honest, I basically forgot about the blog really. It wasn’t on my list of priorities, and I guess I initially started the blog to help with my
-chances for job opportunities. Being a junior at the time, it was tough to brake into a role without some experience under your belt.&lt;/p&gt;
-
-&lt;p&gt;Also I didn’t really have any topics to blog about. Initially the blog was supposed to only have programming related topics, but my stance on that has changed now,
-I’ll blog about anything that I find interesting to write about from now on.&lt;/p&gt;
-
-&lt;p&gt;I had to restore my blog a little by updating the Ruby Gems this blog was using. Once that was all done, it was rather easy to start creating posts. Jekyll is an amazing tool for this
-and I’m glad I was able to create content immediately because of it.&lt;/p&gt;
-
-&lt;p&gt;The reason I’ve started blogging again was due to watching a Youtube video about how to be successful or something similar, the content creator gave his top X tips
-and one of the things he recommends was to write in a journal or blog. Writing regularly will likely improve my communication skills. It’s also really fun to read
-back on something I’ve written after a long while and compare it to my current way of thinking today. I actually started a programming journal but that has some really personal experiences with programming and
-I often forget to fill it in or have any content for it.&lt;/p&gt;
-
-&lt;p&gt;So much has changed since my last blog post (before the hiatus in 2016) and my experience as a developer has grown quite a bit. My career path has switched between technology stacks quite a few times as well.
-I’m also reading more personal development books and I’m thinking of writing reviews on the ones that have an impact on my life. Sharing this knowledge also helps me
-develop myself further as well by becoming better at articulating something as well as testing to see if I truly understand what topic I’m writing about. I’m also not expecting
-anyone to read this blog either, this is really for personal use.&lt;/p&gt;
-
-&lt;p&gt;I’m not sure how long I’d be able to maintain or add new content to the blog, but I’ll take on the challenge nonetheless.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 02 Feb 2019 22:00:00 +0000</pubDate>
-        <link>http://localhost:4000/blogging/2019/02/02/why-am-i-blogging/</link>
-        <guid isPermaLink="true">http://localhost:4000/blogging/2019/02/02/why-am-i-blogging/</guid>
-        
-        
-        <category>blogging</category>
         
       </item>
     
