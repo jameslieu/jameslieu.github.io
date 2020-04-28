@@ -36,13 +36,13 @@ The first clarification I think is important to remember is the fundamental idea
 
 Think of Commits as the **state** of the codebase. So, if you branch off master for example, you have all of master’s **Commits**. In the new branch you add some code then **Commit** it, your branch has those **Commits** including master's **Commits** (since you last git pulled) but master will not have your new **Commits** (until you merge them)
 
-<img src="/assets/media/git-1.png" style="height: 500px;"/>
+<img src="/assets/media/git-workflow-1.png" style="height: 500px;"/>
 
 ### Basic Diagram
 
 This here is a basic diagram for what maybe is a typical feature you guys might be working on. The lines represent branches and the **Commits** are the represented by circles.
 
-<img src="/assets/media/git-2.png" style="width: 600px;"/>
+<img src="/assets/media/git-workflow-2.png" style="width: 600px;"/>
 
 This example is the scenario of working on a feature with two user stories (**US-1** and **US-2**).
 Master is branched off into a new ‘feature’ branch, then the feature branch is to be branched off into the **US-1** branch. **US-2** is also branched off the feature branch.
@@ -57,7 +57,7 @@ When everything is merged into master, we create a separate branch for the relea
 
 The above diagram is designed to be basic so it’s easier to explain. The below diagram is designed to demonstrate exactly what is happening in the same scenario.
 
-<img src="/assets/media/git-3.png"/>
+<img src="/assets/media/git-workflow-3.png"/>
 
 One thing you have to bear in mind is that you have your Local Repository and there is a Remote Repository. Your local one is the one stored on your machine and the remote is on Azure DevOps.
 
@@ -75,7 +75,7 @@ Note: These examples are under the assumption that a single developer is working
 
 Here is an example how to deal with Hotfixes
 
-<img src="/assets/media/git-4.png"/>
+<img src="/assets/media/git-workflow-4.png"/>
 
 - Branch off the Release
 - Fix/patch the bug.

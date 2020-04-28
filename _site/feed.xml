@@ -5,8 +5,8 @@
     <description>James Lieu</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 28 Apr 2020 17:40:55 +0100</pubDate>
-    <lastBuildDate>Tue, 28 Apr 2020 17:40:55 +0100</lastBuildDate>
+    <pubDate>Tue, 28 Apr 2020 17:45:37 +0100</pubDate>
+    <lastBuildDate>Tue, 28 Apr 2020 17:45:37 +0100</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -43,13 +43,13 @@ Within the team and the work they were doing - there were so many issues:&lt;/p&
 
 &lt;p&gt;Think of Commits as the &lt;strong&gt;state&lt;/strong&gt; of the codebase. So, if you branch off master for example, you have all of master’s &lt;strong&gt;Commits&lt;/strong&gt;. In the new branch you add some code then &lt;strong&gt;Commit&lt;/strong&gt; it, your branch has those &lt;strong&gt;Commits&lt;/strong&gt; including master’s &lt;strong&gt;Commits&lt;/strong&gt; (since you last git pulled) but master will not have your new &lt;strong&gt;Commits&lt;/strong&gt; (until you merge them)&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/media/git-1.png&quot; style=&quot;height: 500px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/media/git-workflow-1.png&quot; style=&quot;height: 500px;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;basic-diagram&quot;&gt;Basic Diagram&lt;/h3&gt;
 
 &lt;p&gt;This here is a basic diagram for what maybe is a typical feature you guys might be working on. The lines represent branches and the &lt;strong&gt;Commits&lt;/strong&gt; are the represented by circles.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/media/git-2.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/media/git-workflow-2.png&quot; style=&quot;width: 600px;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This example is the scenario of working on a feature with two user stories (&lt;strong&gt;US-1&lt;/strong&gt; and &lt;strong&gt;US-2&lt;/strong&gt;).
 Master is branched off into a new ‘feature’ branch, then the feature branch is to be branched off into the &lt;strong&gt;US-1&lt;/strong&gt; branch. &lt;strong&gt;US-2&lt;/strong&gt; is also branched off the feature branch.&lt;/p&gt;
@@ -64,7 +64,7 @@ Master is branched off into a new ‘feature’ branch, then the feature branch 
 
 &lt;p&gt;The above diagram is designed to be basic so it’s easier to explain. The below diagram is designed to demonstrate exactly what is happening in the same scenario.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/media/git-3.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/media/git-workflow-3.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;One thing you have to bear in mind is that you have your Local Repository and there is a Remote Repository. Your local one is the one stored on your machine and the remote is on Azure DevOps.&lt;/p&gt;
 
@@ -82,7 +82,7 @@ Master is branched off into a new ‘feature’ branch, then the feature branch 
 
 &lt;p&gt;Here is an example how to deal with Hotfixes&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/media/git-4.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/media/git-workflow-4.png&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Branch off the Release&lt;/li&gt;
