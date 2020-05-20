@@ -5,8 +5,8 @@
     <description>James Lieu</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 20 May 2020 17:02:24 +0100</pubDate>
-    <lastBuildDate>Wed, 20 May 2020 17:02:24 +0100</lastBuildDate>
+    <pubDate>Wed, 20 May 2020 17:25:34 +0100</pubDate>
+    <lastBuildDate>Wed, 20 May 2020 17:25:34 +0100</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -17,7 +17,7 @@
 
 &lt;p&gt;I’m subscribed to the subreddit &lt;a href=&quot;https://www.reddit.com/r/ProgrammerHumor/&quot;&gt;/r/programmerhumour&lt;/a&gt; - dedicated to humor and jokes relating to programmers and programming.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/media/is-php-bad-1.jpg&quot; style=&quot;height: 400px;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/media/is-php-bad-3.jpg&quot; style=&quot;height: 400px;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;There are loads of great memes and jokes but my favourite has to be the hate that PHP gets on here. Its very amusing to see how offended some people get. &lt;a href=&quot;https://www.reddit.com/r/ProgrammerHumor/comments/ezornw/pppphp/&quot;&gt;Here’s one example&lt;/a&gt;&lt;/p&gt;
 
@@ -25,21 +25,21 @@
 
 &lt;h3 id=&quot;why-is-php-disliked&quot;&gt;Why is PHP disliked?&lt;/h3&gt;
 
-&lt;p&gt;I think PHP has a lot of dislike primarily because of the experience of working with it. Here is a somewhat famous blog post about the design of PHP: &lt;a href=&quot;https://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/&quot;&gt;PHP: a fractal of bad design&lt;/a&gt;. This outlines a very detailed view of the poor design choices of the language, some of which have since been addressed in later PHP versions but still are things to be aware of when working with PHP.&lt;/p&gt;
+&lt;p&gt;I think PHP has a lot of dislike primarily because of the experience of working with it. Here is a somewhat famous &lt;a href=&quot;https://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/&quot;&gt;blog post about PHP&lt;/a&gt;. This outlines a very detailed view of the poor design choices of the language, some of which have since been addressed in later PHP versions but still are things to be aware of.&lt;/p&gt;
 
-&lt;p&gt;Just because a lot of websites on the internet are built with PHP, doesn’t mean that the code behind them are good, clean and scallable. There is a reason why PHP code often associated with ‘Legacy’ code, its too easy to write code that ‘works’ but also poor, unscalable and unmaintainable.&lt;/p&gt;
+&lt;p&gt;A common ‘pro’ for PHP is that a lot of sites on the internet was built with it. My counter argument to this is, just because a lot of websites on the internet are built with PHP, doesn’t mean that the code behind them are good. There is a reason why PHP code often associated with ‘Legacy’ code, its too easy to write code that ‘works’ but also poor and unmaintainable. The argument that, majority of sites are built with PHP does not necessarily mean that that is a good thing.&lt;/p&gt;
 
-&lt;p&gt;Also, while “Facebook” was built in PHP, they literally created a programming language called &lt;a href=&quot;https://hacklang.org/&quot;&gt;Hack&lt;/a&gt; which can seemlessly work with PHP to alleviate the problems and headaches their developers were having when working with the language.&lt;/p&gt;
+&lt;p&gt;Another common ‘pro’ is that Facebook is built with PHP. While this is true, Facebook also created a new programming language called &lt;a href=&quot;https://hacklang.org/&quot;&gt;Hack&lt;/a&gt; to alleviate the problems and headaches their developers were having when working with PHP.&lt;/p&gt;
 
-&lt;p&gt;It is of course mostly subjective when people say bad things about PHP (including me) and their experience working with it are also anecdotes. But if you’re asking on a forum for someone’s opinion, you need to expect at least this much. Having experienced PHP professionally, I can kind of see why it gets a lot of hate. When comparing it to other languages, it does seem to be the one I would recommend the least.&lt;/p&gt;
+&lt;p&gt;It is mostly subjective when people say bad things about PHP (including me). Their experience working with are also anecdotes. But if you’re asking on a forum for someone’s opinion, you need to expect at least this much. Having experienced PHP professionally, I can kind of see why it gets a lot of hate. When comparing it to other languages, it is the one I would recommend the least.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h5 id=&quot;is-it-worth-learning-php-anyway&quot;&gt;Is it worth learning PHP anyway?&lt;/h5&gt;
 
-&lt;p&gt;Why would anyone go for PHP when there are other better options out there? The only reason I can think of is the job opportunities. If you have a lot of PHP opportunities/developers in your area then it makes sense to learn it. However, if there are good opportunities in Python, C#, Java, Ruby or any other modern programming language, I personally would go with those instead.&lt;/p&gt;
+&lt;p&gt;PHP over the years has gotten much better now. Its faster and frameworks associated with the language  help with a lot of its problems. So using frameworks like Laravel can certainly help with the overall experience. If you can get past the awkward and clunkiness aspects of PHP, then by all means learn it.&lt;/p&gt;
 
-&lt;p&gt;PHP over the years has gotten much better now. Its faster and frameworks associated with the language do help with a lot of its problems. So using frameworks like Laravel can certainly help with the overall experience. If you can get past the awkward and clunkiness aspects of PHP, then by all means learn it.&lt;/p&gt;
+&lt;p&gt;However, the only strong reason I would consider PHP is because of job opportunities. If you have a lot of PHP opportunities in the area you live then it makes sense to learn it. However, if there are job opportunities in Python, C#, Java, Ruby or any other modern programming language, I personally would recommend those instead.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -52,25 +52,31 @@
   &lt;p&gt;its because the low learning curve and the flexibility of the language ironically allows new programmers to ignore best practices and learn bad habits really quickly if they’re not careful. The tutorials availble online are often out of date and are terrible to begin with. This can be a detriment to their growth as a developer.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;I’ve left some examples of my own personal experiences with PHP and why I believed that PHP is not particularly a great programming language to start off with. Though in hindsight, my reasoning in the response is not necessarily an issue exclusive to PHP, and any dynamically typed language can experience this. So maybe that excerpt isn’t a valid reason why PHP in particular is bad. A lot of the counter arguments are often related to the bad code being the result of developers instead of the language itself.&lt;/p&gt;
+&lt;p&gt;I’ve left some examples of my own personal experiences with PHP and why I believed that PHP is not particularly a great programming language to start off with. Though in hindsight, my reasoning in the response is not necessarily an issue exclusive to PHP, and any dynamically typed language can experience this.&lt;/p&gt;
+
+&lt;p&gt;So maybe that excerpt isn’t a valid reason why PHP in particular is bad. A lot of the counter arguments are often related to the bad code being the result of developers instead of the language itself.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/is-php-bad-2.jpg&quot; style=&quot;height: 400px;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;While this may be true, I still feel that when compared to other programming languages, PHP is the least enjoyable to work with. The syntax can be an eyesore, its very noticable when a third-party service supports multiple programming languages and you can toggle between them in their documentation, PHP is in my opinion the ugliest.&lt;/p&gt;
+&lt;p&gt;While this may be true, I still feel that when compared to other programming languages, PHP is the least enjoyable to work with in my experience. The syntax can be an eyesore, its very noticable when a third-party service supports multiple programming languages and you can toggle between them in their documentation, PHP is in my opinion the ugliest.&lt;/p&gt;
 
-&lt;p&gt;Other issues from setting up a development environment to inheriting legacy projects in PHP is also less than ideal. In my experience, it seems harder to get up and running as a beginner. Note that these are from my own personal experiences.&lt;/p&gt;
+&lt;p&gt;Other issues from setting up a development environment to inheriting legacy projects in PHP is also less than ideal. In my experience, it seems harder to get up and running as a beginner.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
 
-&lt;p&gt;Is PHP bad? Not necessarily. Is PHP bad when compared to other modern programming languages? I would say yes.&lt;/p&gt;
+&lt;p&gt;Is PHP bad? Not necessarily. Is PHP bad when compared to other modern programming languages? In my opinion, I would say yes.&lt;/p&gt;
+
+&lt;p&gt;It seems to me that there isn’t anything that PHP particularly excels in. All modern programming languages can do what PHP can.&lt;/p&gt;
 
 &lt;p&gt;There are many other more enjoyable programming languages. Languages such as Python, Ruby, JavaScript, C# all can basically do what PHP can and more. They all have frameworks, libraries, package managers and open source projects available. &lt;strong&gt;So when factoring all of PHP’s pros and cons, what can PHP do great which other languages can’t&lt;/strong&gt;?&lt;/p&gt;
 
-&lt;p&gt;Would I recommend a beginner learn the PHP? Only if there are no other opportunities which uses a different programming language. If the area you live in has opportunities in Python, Java, C# or Javascript/NodeJS/Typescript, then I would highly recommend those languages instead. After this, if you do want to learn PHP or are relocating and there are only PHP opportunities in the area, then learn PHP.&lt;/p&gt;
+&lt;p&gt;Would I recommend a beginner learn PHP? Only if there are no other opportunities which uses a different programming language. If the area you live in has opportunities in Python, Java, C# or Javascript/NodeJS/Typescript, then I would highly recommend those languages instead. Its only worth learning PHP if there are no other options in terms of job opportunities.&lt;/p&gt;
 
 &lt;p&gt;In any case, it is still good to have an open mind, anyone defending/attacking PHP should hopefully have had experience with it as well as other languages before casting judgement. Best to avoid focusing on what other people think and enjoy the memes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/is-php-bad-1.jpg&quot; style=&quot;height: 400px;&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 04 May 2020 16:30:00 +0100</pubDate>
         <link>http://localhost:4000/php/2020/05/04/is-php-bad/</link>
