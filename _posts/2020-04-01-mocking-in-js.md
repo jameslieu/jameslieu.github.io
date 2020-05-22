@@ -2,7 +2,7 @@
 layout: post
 title:  "Mocking In JS"
 date:   2020-04-01 00:00
-categories: JavaScript
+categories: javascript
 comments: true
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Should I Provide An Expected Salary?"
 date:   2020-04-24 16:30
-categories: Salary
+categories: career
 comments: true
 ---
 

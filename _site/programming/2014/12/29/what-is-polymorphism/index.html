@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>What is Polymorphism?</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description"
+            content="James Lieu">
+        <link rel="canonical"
+            href="http://localhost:4000/programming/2014/12/29/what-is-polymorphism/">
+
+        <!-- Harmony styles -->
+        <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+        <!-- Modernizr js -->
+        <script async src="/assets/js/modernizr.js"></script>
+
+        <!-- IE Fixes -->
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body class="theme-base-01">
+        <header class="main-header">
+            <div class="wc-container">
+                <a a href="/ " alt="James Lieu">
+                    <img src="/assets/media/JL-monogram.png" style="height: 65px; margin: auto" alt="James Lieu" />
+                </a>
+                <ul>
+	<li>
+		<a href="http://localhost:4000/">Home</a>
+	</li>
+	<li>
+		<a href="http://localhost:4000/about">About</a>
+		<span>/</span>
+	</li>
+	<li>
+		<a href="http://localhost:4000/blog">Blog</a><span>/</span>
+	</li>
+	
+	<li>
+		<a title="jameslieu on Github"
+			href="https://github.com/jameslieu" target="_blank">
+			Github
+		</a><span>/</span>
+	</li>
+	
+	<li>
+	</li>
+</ul>
+            </div>
+        </header>
+        <div class="page-content wc-container">
+	<div class="post">
+		<h3>What is Polymorphism?</h3>
+		<p class="post-meta">
+			
+      <span class="categories">
+      programming
+      </span> |
+	    
+	    <span class="post-date">
+    	Dec 29, 2014
+	    </span>
+		</p>
+		<div class="post">
+			<p>What is polymorphism? I’ve found that this question in particular is asked quite frequently in tech interviews. I was asked this in a phone interview once and I did not know the answer to this unfortunately. I believe that it was this question that prevented me from getting to the next stage of the interview, so of course I decided to look into it.</p>
+
+<!--more-->
+
+<p><img src="/assets/media/polymorphism_example.png" /></p>
+
+<p>Polymorphism essentially means <em>many forms</em> and is one of the fundamental features of object oriented programming. It lets us automatically do the correct behavior even if what we’re working with could take one of many different forms, simply put; it means being able to send the same message and get different results. Here’s the most basic example I’ve found; the <code class="language-plaintext highlighter-rouge">+</code> operator.</p>
+
+<p>In Ruby the <code class="language-plaintext highlighter-rouge">+</code> operator will <em>behave</em> differently depending on how you use it.</p>
+
+<p>For example, lets say you have two variables; <code class="language-plaintext highlighter-rouge">a</code> and <code class="language-plaintext highlighter-rouge">b</code>.</p>
+
+<p>If the two variables are <code class="language-plaintext highlighter-rouge">integers</code>, the <code class="language-plaintext highlighter-rouge">+</code> operator will numerically add them.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">a</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">b</span> <span class="o">=</span> <span class="mi">2</span>
+
+<span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+<span class="o">=&gt;</span> <span class="mi">3</span></code></pre></figure>
+
+<p>However, what if the two variables were <code class="language-plaintext highlighter-rouge">strings</code> instead?</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">a</span> <span class="o">=</span> <span class="s2">"Hello "</span>
+<span class="n">b</span> <span class="o">=</span> <span class="s2">"World"</span>
+
+<span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+<span class="o">=&gt;</span> <span class="s2">"Hello World"</span></code></pre></figure>
+
+<p>As you can see, using <code class="language-plaintext highlighter-rouge">+</code> operator for <code class="language-plaintext highlighter-rouge">strings</code> will <strong>concatenate</strong> them instead.</p>
+
+<p>Now this is a basic example of how polymorphism works and is built into a lot of programming languages, but we can use the same idea with our own classes and objects.</p>
+
+<hr />
+<p>Here is an example of a polymorphic association:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">Animal</span>
+
+  <span class="k">def</span> <span class="nf">make_noise</span>
+    <span class="s2">"Some noise"</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">sleep</span>
+    <span class="nb">puts</span> <span class="s2">"</span><span class="si">#{</span><span class="nb">self</span><span class="p">.</span><span class="nf">class</span><span class="p">.</span><span class="nf">name</span><span class="si">}</span><span class="s2"> is sleeping."</span>
+  <span class="k">end</span>
+
+<span class="k">end</span>
+
+<span class="k">class</span> <span class="nc">Dog</span> <span class="o">&lt;</span> <span class="no">Animal</span>
+
+  <span class="k">def</span> <span class="nf">make_noise</span>
+    <span class="s1">'Woof!'</span>
+  <span class="k">end</span>
+
+<span class="k">end</span>
+
+<span class="k">class</span> <span class="nc">Cat</span> <span class="o">&lt;</span> <span class="no">Animal</span>
+
+  <span class="k">def</span> <span class="nf">make_noise</span>
+    <span class="s1">'Meow!'</span>
+  <span class="k">end</span>
+
+<span class="k">end</span></code></pre></figure>
+
+<p>Lets say we have a simple inheritance hierarchy. There is an <code class="language-plaintext highlighter-rouge">Animal</code> superclass and two descendant subclasses, a <code class="language-plaintext highlighter-rouge">Cat</code> and a <code class="language-plaintext highlighter-rouge">Dog</code>. Each of these three classes has its own implementation of the <code class="language-plaintext highlighter-rouge">make_noise</code> method. The implementation of the method of the descendants replaces the definition of a method in the <code class="language-plaintext highlighter-rouge">Animal</code> class.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">Dog</span> <span class="o">&lt;</span> <span class="no">Animal</span>
+
+  <span class="k">def</span> <span class="nf">make_noise</span>
+    <span class="s1">'Woof!'</span>
+  <span class="k">end</span>
+
+<span class="k">end</span></code></pre></figure>
+
+<p>The <code class="language-plaintext highlighter-rouge">make_noise</code> method in the <code class="language-plaintext highlighter-rouge">Dog</code> class replaces the <code class="language-plaintext highlighter-rouge">make_noise</code> method of the <code class="language-plaintext highlighter-rouge">Animal</code> class. The idea is that even though the <code class="language-plaintext highlighter-rouge">Dog</code> class is <em>inheriting</em> from the <code class="language-plaintext highlighter-rouge">Animal</code> class and would therefore already have access to the <code class="language-plaintext highlighter-rouge">make_noise</code> method, the <code class="language-plaintext highlighter-rouge">Dog</code> class will have its own <em>specialized</em> version of that method which is unique to that particular class. This is referred to as overiding the method of the superclass, which just means you write it again.</p>
+
+<p>This means is that the method will change its behaviour depending where it was originally instantiated from. Now you may wonder why this would be useful.. Here is an example:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="p">[</span><span class="no">Animal</span><span class="p">.</span><span class="nf">new</span><span class="p">,</span> <span class="no">Dog</span><span class="p">.</span><span class="nf">new</span><span class="p">,</span> <span class="no">Cat</span><span class="p">.</span><span class="nf">new</span><span class="p">].</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">animal</span><span class="o">|</span>
+  <span class="nb">puts</span> <span class="n">animal</span><span class="p">.</span><span class="nf">make_noise</span>
+<span class="k">end</span>
+
+<span class="o">=&gt;</span>
+<span class="no">Some</span> <span class="n">noise</span>
+<span class="no">Woof</span><span class="o">!</span>
+<span class="no">Meow</span><span class="o">!</span></code></pre></figure>
+
+<p>If you had an array of <code class="language-plaintext highlighter-rouge">Animal</code>, <code class="language-plaintext highlighter-rouge">Dog</code> or <code class="language-plaintext highlighter-rouge">Cat</code> objects as shown above, you can call the <code class="language-plaintext highlighter-rouge">make_noise</code> method on all of them and it will return the <strong>correct</strong> output as expected. While this is a relatively simplified example, you can see why this would be useful if we had an array of a thousand of these objects. We wouldn’t need to look into what class they were originally instantiated from, we just know that it works.</p>
+
+		</div>
+	</div>
+
+
+	
+	<div class="related">
+		<h4>Related Posts</h2>
+		<ul class="posts">
+		    
+		    <li>
+			  <span>22 May 2020 &raquo;</span>
+			  <a href="http://localhost:4000/career/2020/05/22/should-companies-be-hiring-juniors/">Should Companies Be Hiring Juniors?</a>
+		    </li>
+		    
+		    <li>
+			  <span>21 May 2020 &raquo;</span>
+			  <a href="http://localhost:4000/career/2020/05/21/preferably-5-years-of-experience/">Preferably 5+ years of experience</a>
+		    </li>
+		    
+		    <li>
+			  <span>04 May 2020 &raquo;</span>
+			  <a href="http://localhost:4000/php/2020/05/04/is-php-bad/">Is PHP Bad?</a>
+		    </li>
+		    
+		</ul>
+	</div>
+	
+
+	<div class="post-footer">
+		<div class="column-1">
+			
+				<a href="http://localhost:4000/sublime/2014/08/13/install-sublime-text-2/"><< Older</a>
+			
+		</div>
+		<div class="column-2"><a href="http://localhost:4000/ ">Home</a></div>
+		<div class="column-3">
+			
+				<a href="http://localhost:4000/git/2015/01/25/simply-git-rebasing/">Newer >></a>
+			
+		</div>
+	</div>
+</div>
+
+        <footer class="main-footer">
+            <div class="wc-container">
+                <div class="column one">
+                    <h6>Few more links</h6>
+<ul class="menu footer">
+    <li><a href="http://localhost:4000/about">About</a></li>
+    <li><a href="http://localhost:4000/blog">Blog</a></li>
+</ul>		
+                </div>
+                <div class="column two">
+                    <h6>Follow me</h6>
+
+<ul class="social-media">
+
+
+    
+    <li>
+        <a title="J_Lieu on Twitter" 
+            href="https://twitter.com/J_Lieu" 
+            class="twitter wc-img-replace" target="_blank">Twitter</a>
+    </li>   
+    
+
+    
+    <li>
+        <a title="jameslieu on Github" 
+            href="https://github.com/jameslieu" 
+            class="github wc-img-replace" target="_blank">Github</a>
+    </li>
+     
+
+    
+
+    
+
+    
+
+    
+
+</ul>
+                </div>
+            </div>
+            <p class="wc-container disclaimer">
+                
+<!-- Powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a> -->
+            </p>
+        </footer>
+        <script type="text/javascript">
+            /* To avoid render blocking css */
+            var cb = function () {
+                var l = document.createElement('link'); l.rel = 'stylesheet';
+                l.href = 'https://fonts.googleapis.com/css?family=Ubuntu+Mono&subset=latin';
+                var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+            };
+            var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+                webkitRequestAnimationFrame || msRequestAnimationFrame;
+            if (raf) raf(cb);
+            else window.addEventListener('load', cb);
+        </script>
+        <!-- jQuery -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <!-- When no internet load JQuery from local -->
+        <script>window.jQuery || document.write('<script src="/assets/js/jquery.min.js"><\/script>')</script>
+        <!-- Site js -->
+        <script src="/assets/js/all.js"></script>
+        <!-- Google analytics  -->
+        
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-xxxx-x']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+    </body>
+
+</html>

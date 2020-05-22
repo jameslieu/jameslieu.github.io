@@ -2,7 +2,7 @@
 layout: post
 title:  "Launch Sublime Text 3 using command line"
 date:   2015-10-04 13:35:00
-categories: sublime text ubuntu linux
+categories: sublime
 comments: true
 ---
 

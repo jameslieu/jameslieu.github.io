@@ -2,7 +2,7 @@
 layout: post
 title:  "My first post!"
 date:   2014-07-29 13:02:30
-categories: ruby rails
+categories: blog
 comments: true
 ---
 

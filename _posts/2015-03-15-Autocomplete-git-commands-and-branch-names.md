@@ -2,7 +2,7 @@
 layout: post
 title:  "Autocomplete git commands and branch names"
 date:   2015-03-15 20:15:00
-categories: git branch autocomplete
+categories: git
 comments: true
 ---
 

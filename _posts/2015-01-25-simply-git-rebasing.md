@@ -2,7 +2,7 @@
 layout: post
 title:  "Simply git-rebase"
 date:   2015-01-25 23:00:00
-categories: git-rebase git rebase
+categories: git
 comments: true
 ---
 

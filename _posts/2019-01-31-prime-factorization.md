@@ -2,7 +2,7 @@
 layout: post
 title:  "Get The Prime Factors"
 date:   2019-01-31 07:45
-categories: ruby prime-numbers prime-factors
+categories: ruby
 comments: true
 ---
 

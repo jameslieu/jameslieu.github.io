@@ -2,7 +2,7 @@
 layout: post
 title:  "Redundancy And How I Handled It"
 date:   2019-02-01 20:53
-categories: redundancy
+categories: career
 comments: true
 ---
 

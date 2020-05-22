@@ -2,7 +2,7 @@
 layout: post
 title:  "Install Sublime Text 2 on Ubuntu"
 date:   2014-08-13 09:47:00
-categories: sublime text ubuntu linux
+categories: sublime
 comments: true
 ---
 

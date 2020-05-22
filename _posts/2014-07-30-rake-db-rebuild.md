@@ -2,7 +2,7 @@
 layout: post
 title:  "Dropping and resetting database all in one rake task"
 date:   2014-07-30 11:41:30
-categories: ruby rails
+categories: ruby
 comments: true
 ---
 

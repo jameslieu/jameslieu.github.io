@@ -2,7 +2,7 @@
 layout: post
 title:  "What is Polymorphism?"
 date:   2014-12-29 17:07:00
-categories: polymorphism
+categories: programming
 comments: true
 ---
 

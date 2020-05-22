@@ -2,7 +2,7 @@
 layout: post
 title: "Preferably 5+ years of experience"
 date: 2020-05-21 23:58
-categories: Job
+categories: career
 comments: true
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Interesting Conversation On Salary"
 date:   2019-03-01 00:19
-categories: Salary
+categories: career
 comments: true
 ---
 

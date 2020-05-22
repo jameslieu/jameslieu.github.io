@@ -2,7 +2,7 @@
 layout: post
 title:  "Bash command line for Linux - Cheat Sheet"
 date:   2014-08-05 13:09:30
-categories: ssh
+categories: linux
 comments: true
 ---
 

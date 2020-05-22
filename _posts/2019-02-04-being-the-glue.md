@@ -2,7 +2,7 @@
 layout: post
 title:  "Being The Glue"
 date:   2019-02-04 19:57
-categories: Being Glue
+categories: career
 comments: true
 ---
 

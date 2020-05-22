@@ -2,7 +2,7 @@
 layout: post
 title:  "Moving From Ruby To PHP"
 date:   2019-02-07 21:41
-categories: Ruby PHP
+categories: php
 comments: true
 ---
 

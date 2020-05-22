@@ -2,7 +2,7 @@
 layout: post
 title:  "To Hire a Junior Vs Senior Developer"
 date:   2019-02-09 19:11
-categories: Hire Junior Senior Developer
+categories: career
 comments: true
 ---
 

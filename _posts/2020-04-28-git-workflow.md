@@ -2,7 +2,7 @@
 layout: post
 title: "Git Workflow"
 date: 2020-04-28 12:50
-categories: Git
+categories: git
 comments: true
 ---
 

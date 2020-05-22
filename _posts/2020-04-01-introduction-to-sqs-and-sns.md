@@ -2,7 +2,7 @@
 layout: post
 title:  "Introduction to SNS and SQS"
 date:   2020-04-01 16:00
-categories: AWS SQS SNS
+categories: aws
 comments: true
 ---
 

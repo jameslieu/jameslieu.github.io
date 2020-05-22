@@ -2,7 +2,7 @@
 layout: post
 title:  "Why Am I Blogging?"
 date:   2019-02-02 22:00
-categories: blogging
+categories: blog
 comments: true
 ---
 

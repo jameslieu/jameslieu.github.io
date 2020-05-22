@@ -2,7 +2,7 @@
 layout: post
 title:  "Achieving Inbox Zero"
 date:   2019-02-03 20:19
-categories: Inbox Zero Email
+categories: productivity
 comments: true
 ---
 

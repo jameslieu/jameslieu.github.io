@@ -2,7 +2,7 @@
 layout: post
 title:  "The Miracle Morning review"
 date:   2019-01-30 10:09
-categories: book review
+categories: review
 comments: true
 ---
 

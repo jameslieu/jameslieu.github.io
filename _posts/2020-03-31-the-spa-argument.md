@@ -2,7 +2,7 @@
 layout: post
 title:  "The S.P.A Argument"
 date:   2020-03-31 14:36
-categories: JavaScript
+categories: javascript
 comments: true
 ---
 
