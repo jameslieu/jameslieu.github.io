@@ -5,9 +5,135 @@
     <description>James Lieu</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 21 May 2020 23:53:29 +0100</pubDate>
-    <lastBuildDate>Thu, 21 May 2020 23:53:29 +0100</lastBuildDate>
+    <pubDate>Fri, 22 May 2020 01:05:48 +0100</pubDate>
+    <lastBuildDate>Fri, 22 May 2020 01:05:48 +0100</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Preferably 5+ years of experience</title>
+        <description>&lt;p&gt;Applying for developer roles is not as complicated as one would think.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Somebody had posted a application in the #careers channel of the Slack group I’m a part of.
+And then somebody left this response:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ah. “You should have: –  Preferably 5+ years software development experience including Ruby.” Well, keep in touch if they’re hiring another more junior person&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;My response to this was:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Apply anyway. Include a cover letter honestly outlining your skillset and experience. You never know if they wouldn’t consider hiring a junior. That’s how I had gotten a role once&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Which is true, I had gotten my role at Rentify because I applied for their application, which was for a mid-level (if I remember correctly) and had asked whether they would consider a junior. This had gotten me the opportunity to send my CV and code examples which led to a technical test and then a face-to-face interview where I successfully achieved an offer for the role.&lt;/p&gt;
+
+&lt;p&gt;The junior’s reluctance to apply had inspired me to write this post as I had been in the same position once. And my intiative to apply back then, had gotten me one of the most crucial roles of my career as a junior.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Software developer job applications on the internet will usually come some requirements for what the employer expects in a candidate. Here is an example from the actual application:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;You should have:
+
+- Preferably 5+ years software development experience including Ruby.
+- Experience of writing apps using Ruby on Rails or a similar framework.
+- Experience of database technologies (e.g. MySQL or PostgreSQL).
+- Good knowledge of HTML, CSS and JavaScript.
+- Experience of using Git for source control.
+- Experience of software development best practices such as pairing and code review.
+- Experience of or an interest in learning about infrastructure and operations, mainly in the context of Amazon Web Services.
+- Good interpersonal skills and the ability to work with both technical and non-technical stakeholders.
+- Fluency in English and the ability to work in the UK without sponsorship.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;I can imagine this being quite intimidating for job seekers who may not fulfil some of the requirements on this list, especially junior developers. There appears to be a lot here and if you’re just starting out then perhaps your ‘imposter syndrome’ may kick in and deter you from applying.&lt;/p&gt;
+
+&lt;p&gt;My advice would be, instead of being intimidated by this, take advantage of the information provided. Read through the application and see if you can identify which requirements are (maybe) a &lt;strong&gt;must-have&lt;/strong&gt; and which are &lt;strong&gt;should-have&lt;/strong&gt; / &lt;strong&gt;nice-to-haves&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;According to the application, there are some mandatory requirements (in my opinion):&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fluency in English&lt;/li&gt;
+  &lt;li&gt;Ability to work in UK without sponsorship&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In terms of technology, I can see that you will need &lt;strong&gt;some&lt;/strong&gt; experience of the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ruby&lt;/li&gt;
+  &lt;li&gt;Ruby on Rails (or a similar framework)&lt;/li&gt;
+  &lt;li&gt;Database technologies i.e. MySQL / PostgresSQL&lt;/li&gt;
+  &lt;li&gt;Html / CSS / JavaScript&lt;/li&gt;
+  &lt;li&gt;Git&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The rest is difficult to judge how much you would need in order to satisfy the employer’s requirement, i.e.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Interest in learning about infrastructure and operations (AWS)&lt;/li&gt;
+  &lt;li&gt;good interpersonal skills or experience of best practices.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In my mind, those can essentially be ignored, they really ought to be in the ‘bonus/nice to have’ section of the job application.&lt;/p&gt;
+
+&lt;p&gt;And finally, the one that tends to stand out most is the number of years of experience you ‘should’ or ‘ideally’ have.&lt;/p&gt;
+
+&lt;p&gt;I’ll run through my thoughts of each category and how I would deal with each if I were applying.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;mandatory-non-technical-requirements&quot;&gt;Mandatory Non-technical Requirements&lt;/h3&gt;
+
+&lt;p&gt;Requirements like “ability to work in UK without sponsorship” are likely to be deal-breakers for the employer if they added these in to the job spec.  Other things like “fluency in English” also may fit into this category, if they need you to be able to speak English well, then that may be non-negotiable.&lt;/p&gt;
+
+&lt;p&gt;So its worth looking elsewhere if this is the case, although &lt;strong&gt;it doesn’t hurt to ask!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;technology-requirements&quot;&gt;Technology Requirements&lt;/h3&gt;
+
+&lt;p&gt;So here I think is where the experience level can be flexible a little bit, the reason being, is that you don’t actually know what the employer requires you to work on at this stage. You have an idea of the tech stack however, and so this is where you can use this knowledge to your advantage. Obviously if you have &lt;strong&gt;no&lt;/strong&gt; experience with requirements like Ruby or Ruby on Rails, then perhaps the role isn’t necessarily for you, but at the same time &lt;strong&gt;it doesn’t mean you can’t learn it in the meantime&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ruby / Ruby on Rails&lt;/strong&gt; - I’m assuming that the applicant will have at least some experience of this, if the applicant specialises in a different technology their chances of success when applying for other roles related to that would be greater. But lets say the applicant has little (but some) experience, the employer/interviewer can only really gauge your skill level on either the technical test or the verbal interview (either face-to-face or phone). This is actually one of the reasons why technical tests are usually part of the application process, its easy to say how good you are at something on paper, you’ll still need to prove it. Having some code examples or personal portfolio would also help.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Database technologies i.e. MySQL&lt;/strong&gt; - It would be advantageous to know some SQL, but developers using frameworks like RoR tend to rely on the migration features anyway. So I wouldn’t worry too much about it at this stage so long as you know the basics, and again, its something that you can learn meantime.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;HTML / CSS / JavaScript&lt;/strong&gt; - Seeing JavaScript placed in the same bullet-point as HTML and CSS suggests that its used but not widely within the tech stack, again its worth having some experience in it. I would think that it can be learned on the job (if the application is successful) and therefore not to worry about limited knowledge on it at this stage either.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Git&lt;/strong&gt; - It would be good to learn the basics of version control for sure. Can be learned while applying or on the job, not necessarily mandatory.&lt;/p&gt;
+
+&lt;h6 id=&quot;additional-thoughts-on-this&quot;&gt;Additional thoughts on this&lt;/h6&gt;
+
+&lt;p&gt;My point is that I wouldn’t think of these are deal-breakers if you cannot fulfil the requirement. It is unlikely the employer will completely reject your application if you, for example, had &lt;strong&gt;some&lt;/strong&gt; experience in Ruby but none in MySQL. Same with having experience with Ruby on Rails but no experience in version control with Git before.&lt;/p&gt;
+
+&lt;p&gt;Also, if there is a gap in your knowledge base, learn while applying for these roles. The better your knowledge, the greater your success rate.&lt;/p&gt;
+
+&lt;h3 id=&quot;preferably-x-years-of-experience&quot;&gt;Preferably x years of experience&lt;/h3&gt;
+
+&lt;p&gt;This is the one I think deters people the most. In my opinion I consider it to be too arbitrary. I’m not saying we should ignore it, it does give some indication what level they’re expecting which should be in line with the expected salary. But its possible to have 0 years of &lt;strong&gt;professional experience&lt;/strong&gt; but self-taught enough to be able to perform well in the role. So I would bear this in mind and apply anyway, doesn’t matter if you have 1, 2, 4 or 7 years of experience, just apply for the job.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Even if&lt;/strong&gt; the chances for an interview are low, say 5%, the odds for an interview is &lt;strong&gt;0% if you don’t apply at all&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
+
+&lt;p&gt;It doesn’t hurt to apply. Remember that your odds for an interview is &lt;strong&gt;0%&lt;/strong&gt; if you don’t.&lt;/p&gt;
+
+&lt;p&gt;A lot of this is based of my own personal experience and my advice is that you might as well apply to see whether you will be considered for the next stage (which could be a technical test or face to face interview).&lt;/p&gt;
+
+&lt;p&gt;There is no guarantee that you will get to that stage &lt;strong&gt;even if you did fulfil each requirement&lt;/strong&gt;. Its also possible that you may only fulfil only some requirements and there may be leeway with the employer.&lt;/p&gt;
+
+&lt;p&gt;If they need the role to be filled, they may be willing to at least have a conversation with you, which is your opportunity to convince them to make you an offer.&lt;/p&gt;
+
+&lt;p&gt;Also, don’t forget that you will likely be competing with other people as well, so don’t stop there, apply for many other job applications. The more you apply for, the greater your success rate. Maybe one of them will convert to an interview and potentially lead to an offer.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 21 May 2020 23:58:00 +0100</pubDate>
+        <link>http://localhost:4000/job/2020/05/21/preferably-5-years-of-experience/</link>
+        <guid isPermaLink="true">http://localhost:4000/job/2020/05/21/preferably-5-years-of-experience/</guid>
+        
+        
+        <category>Job</category>
+        
+      </item>
     
       <item>
         <title>Is PHP Bad?</title>
@@ -1029,66 +1155,6 @@ You can say that you want 10k more because of the experience and value you can b
         <category>Ruby</category>
         
         <category>PHP</category>
-        
-      </item>
-    
-      <item>
-        <title>Being The Glue</title>
-        <description>&lt;p&gt;I read this interesting &lt;a href=&quot;https://www.slideshare.net/TanyaReilly/being-glue&quot;&gt;SlideShare article&lt;/a&gt; today.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;It was about a software engineer who used some of her time not only to work on the codebase of her company but to also to solve other problems outside the scope of her role. She wasn’t too confident with her skills as a developer, working with this codebase and its complexity but she did identify some other unrelated improvements for her team such as realising that her team is often interrupted by questions on Slack, so she began to document the answers thus the team gets fewer interruptions.&lt;/p&gt;
-
-&lt;p&gt;Another example was that she remembers her difficult first few weeks so she wrote onboarding documents so new employees joining the team will have an easier time. After doing these managerial and leadership tasks, her team started to treat her as an unofficial lead.&lt;/p&gt;
-
-&lt;p&gt;However, by doing all of this, she didn’t contribute much to her actual role, it seems she didn’t contribute to the codebase very much at all and her ‘actual’ resposibilities were left or delegated to somebody else maybe.&lt;/p&gt;
-
-&lt;p&gt;She’s made a huge impact regardless, but in the form of other improvements and yet when it came to the companies promotion process, she was not considered for promotion. The reasons were that her project wasn’t finished, she wasn’t producing much code and she didn’t have enough ‘impact’ yet. She outlined all of the impactful things she’s done over the years but their response was “Yeah but what was your technical contribution”.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Yeah but what was your technical contribution”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I guess the promotion would mean that, had she been considered, her role would change from &lt;strong&gt;Engineer&lt;/strong&gt; to &lt;strong&gt;Senior Engineer&lt;/strong&gt;. And I guess that particular role would not be a good fit for her, given that her contributions related to her actual role were maybe less than ideal.&lt;/p&gt;
-
-&lt;p&gt;We really should be asking &lt;strong&gt;“would her current skillset fit a Senior Engineer role”?&lt;/strong&gt; Perhaps the reason she’s made it this far, was because she’s brought value to the company in other ways. Assuming she didn’t do any of these other tasks, would she have even made this this far?&lt;/p&gt;
-
-&lt;p&gt;It could well be that (at that particular company) an &lt;em&gt;Engineer’s salary&lt;/em&gt; is &lt;strong&gt;equal or potentially higher&lt;/strong&gt; than a &lt;em&gt;Product Manager’s salary&lt;/em&gt;, if this is true then arguably she was being paid &lt;em&gt;more&lt;/em&gt; or at a &lt;em&gt;premium&lt;/em&gt; to do tasks that a &lt;em&gt;Product Manager&lt;/em&gt; would typically be doing perhaps? (All Speculation at this point, I don’t actually know if this were the case).&lt;/p&gt;
-
-&lt;h3 id=&quot;my-opinion&quot;&gt;My Opinion&lt;/h3&gt;
-&lt;p&gt;A little controversal to say but I believe you should just do the work you were hired to do within the hours you’re obligated to do it in.&lt;/p&gt;
-
-&lt;p&gt;Don’t go out of your way to do anything more than what you’re asked to. If I identify a more efficient way to do something or improving a workflow of some sort, I would run it by the team during stand up and make sure that everyone is not only onboard, but is aware that I’m doing these things and during work hours. Keep a record of the work and see if you can’t do a before/after benchmark on whatever you did to improve things. If you’re asked to work more hours or stay late, always ask whether you’re being compensated for it or get time off in lieu.&lt;/p&gt;
-
-&lt;p&gt;The only time I would consider going against this rule is if I can see how doing this benefits me personally. For example, the opportunity to network with other people within the company, improve my communication or sales skills, learning a new technology or automating processes which I can then have for personal use.&lt;/p&gt;
-
-&lt;p&gt;It sounded like the person in the example basically took on other work because she wasn’t confident with the technical side of things. Or was worried she worked too slowly, or was worried that she asked too many questions. The advice I would take is to not stop asking questions, maybe study in their own time regarding the technology that she’s not sure off and be sure to take notes, you’ll get up to speed eventually.&lt;/p&gt;
-
-&lt;p&gt;The reality is that she was hired to fill a role, but she didn’t really ‘perform’ as per the expectation of the role, so should she really have been promoted for it?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;..she didn’t really &lt;em&gt;perform&lt;/em&gt; as per the expectation of the role&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I’m not saying that she doesn’t deserve it either, but the great job she did is arguably tasks that belong to a different position/role and therefore she should technically be reviewed based on that instead. I’m guessing a Project Manager type role and Software Developer roles pay differently. Would she have accepted a ‘promotion’ into a Project Manager role whereby she would potentially get ‘Project manager rates’ which could mean a paycut?&lt;/p&gt;
-
-&lt;p&gt;Stay focused on the task at hand and don’t sell yourself short. Never ‘expect’ to get a promotion just because you’ve worked more overtime etc. But if you did do a great job and feel like you deserve a promotion, be sure to bring forth a all of the reasons why and list them out during the performance review meeting. If the company still doesn’t give you the promotion you think you deserve, then you’ll need to consider whether you want to be in a company which values you or not.&lt;/p&gt;
-
-&lt;p&gt;For me personally, the moral of this story is to stop volunteering. Its a nice thing to do but if you don’t gain anything from it or are not rewarded for it then I think you’ll start feeling resentful and that’s not good for you.&lt;/p&gt;
-
-&lt;p&gt;An interesting article to read, nice to learn about different perspectives and consider how I would approach the same problem if I were in their shoes.&lt;/p&gt;
-
-&lt;p&gt;A smart person learns from their mistakes, a wise person learns from other people’s mistakes.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 04 Feb 2019 19:57:00 +0000</pubDate>
-        <link>http://localhost:4000/being/glue/2019/02/04/being-the-glue/</link>
-        <guid isPermaLink="true">http://localhost:4000/being/glue/2019/02/04/being-the-glue/</guid>
-        
-        
-        <category>Being</category>
-        
-        <category>Glue</category>
         
       </item>
     
