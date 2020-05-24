@@ -211,8 +211,6 @@ em, i { font-style: italic; }
 
 a.default-anchor {
 
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
   color: $base-08;
   &:hover, &:active, &:focus {
     @include transition(border-bottom-color .2s);
