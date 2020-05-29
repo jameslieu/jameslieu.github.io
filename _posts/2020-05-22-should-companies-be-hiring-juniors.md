@@ -50,7 +50,7 @@ I think that suggesting that companies 'should' be hiring juniors is a bit of wi
 
 £30k starting salary is quite decent, arguably too high for this skill level. On indeed.co.uk, some actual mid-level positions in London are £30k-£40k. The question is whether a junior can provide £30k worth of productivity annually?
 
-I've written a post previously about a related topic: [To Hire a Junior Vs Senior Developer](/career/2019/02/09/to-hire-a-junior-vs-senior-developer/) which outlines (my opinion) the differences between juniors and seniors and which would be logically the better choice given you have the budget for only one.
+I've written a post previously about a related topic: [To Hire a Junior Vs Senior Developer](/to-hire-a-junior-vs-senior-developer/) which outlines (my opinion) the differences between juniors and seniors and which would be logically the better choice given you have the budget for only one.
 
 At the end of the day, salaries should mostly be dictated by what amount of productivity an employer can bring. The more junior you are, the less productivity you can bring when compared to mid-senior level developers, but this can be offset by accepting a lower salary. So the answer to the titled question would depend on whether it is more expensive to hire said junior.
 

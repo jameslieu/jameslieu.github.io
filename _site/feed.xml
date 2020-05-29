@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-05-29T17:31:44+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Becoming a Software Developer - Part 1</title><link href="http://jameslieu.github.io/becoming-a-software-developer/" rel="alternate" type="text/html" title="Becoming a Software Developer - Part 1" /><published>2020-05-29T00:00:00+01:00</published><updated>2020-05-29T00:00:00+01:00</updated><id>http://jameslieu.github.io/becoming-a-software-developer</id><content type="html" xml:base="http://jameslieu.github.io/becoming-a-software-developer/">&lt;p&gt;Its been 7 years since I’ve made the big decision to change my career and become a developer. And so I thought it would be a great time to write a post on the subject and hopefully reflect on what went well, what went less well and learn from hindsight.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-05-29T17:47:44+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Becoming a Software Developer - Part 1</title><link href="http://jameslieu.github.io/becoming-a-software-developer/" rel="alternate" type="text/html" title="Becoming a Software Developer - Part 1" /><published>2020-05-29T00:00:00+01:00</published><updated>2020-05-29T00:00:00+01:00</updated><id>http://jameslieu.github.io/becoming-a-software-developer</id><content type="html" xml:base="http://jameslieu.github.io/becoming-a-software-developer/">&lt;p&gt;Its been 7 years since I’ve made the big decision to change my career and become a developer. And so I thought it would be a great time to write a post on the subject and hopefully reflect on what went well, what went less well and learn from hindsight.&lt;/p&gt;
 
 &lt;h3 id=&quot;7-years-ago&quot;&gt;7 Years ago…&lt;/h3&gt;
 &lt;p&gt;It all started in early 2013, my previous employer David Kramaley had gotten in touch by email and mentioned how he remembered I was curious about programming and used to ask questions about it when working with him. He said that a Coding Bootcamp might be something I may be interested in and provided a link to one based in America.&lt;/p&gt;
@@ -253,7 +253,7 @@ Not to mention requiring the time of existing developers to assist thus also add
 
 &lt;p&gt;£30k starting salary is quite decent, arguably too high for this skill level. On indeed.co.uk, some actual mid-level positions in London are £30k-£40k. The question is whether a junior can provide £30k worth of productivity annually?&lt;/p&gt;
 
-&lt;p&gt;I’ve written a post previously about a related topic: &lt;a href=&quot;/career/2019/02/09/to-hire-a-junior-vs-senior-developer/&quot;&gt;To Hire a Junior Vs Senior Developer&lt;/a&gt; which outlines (my opinion) the differences between juniors and seniors and which would be logically the better choice given you have the budget for only one.&lt;/p&gt;
+&lt;p&gt;I’ve written a post previously about a related topic: &lt;a href=&quot;/to-hire-a-junior-vs-senior-developer/&quot;&gt;To Hire a Junior Vs Senior Developer&lt;/a&gt; which outlines (my opinion) the differences between juniors and seniors and which would be logically the better choice given you have the budget for only one.&lt;/p&gt;
 
 &lt;p&gt;At the end of the day, salaries should mostly be dictated by what amount of productivity an employer can bring. The more junior you are, the less productivity you can bring when compared to mid-senior level developers, but this can be offset by accepting a lower salary. So the answer to the titled question would depend on whether it is more expensive to hire said junior.&lt;/p&gt;
 
@@ -888,7 +888,8 @@ The two primary libraries we’re using are &lt;code class=&quot;highligh
 
 &lt;ul&gt;
   &lt;li&gt;Doesn’t take over require&lt;/li&gt;
-  &lt;li&gt;It’s a more traditional mocking framework. Replace specified methods with fakes, or create a mock that tracks when it was called.&lt;/li&gt;
+  &lt;li&gt;It’s a more traditional mocking framework. &lt;/li&gt;
+  &lt;li&gt;Replace specified methods with fakes, or create a mock that tracks when it was called.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;

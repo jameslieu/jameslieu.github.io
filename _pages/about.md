@@ -6,8 +6,7 @@ permalink: /about/
 
 I'm a software developer with 7+ years of commercial experience. I am familiar with the SOLID principles, OOP, MVC, ORM, API development, relational database design and RESTful conventions.
 
-I enjoy solving programming problems in C#. Here is a repository of some examples:
-[https://github.com/jameslieu/csharp_projects](https://github.com/jameslieu/csharp_projects)
+I enjoy solving programming problems in C#. [Here is a repository of some examples](https://github.com/jameslieu/csharp_projects)
 
 ---
 
