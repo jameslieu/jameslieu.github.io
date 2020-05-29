@@ -5,7 +5,6 @@ categories: Career
 excerpt: Reflecting on how I began my programming journey.
 ---
 
-### From the beginning
 Its been 7 years since I've made the big decision to change my career and become a developer. And so I thought it would be a great time to write a post on the subject and hopefully reflect on what went well, what went less well and learn from hindsight.
 
 ### 7 Years ago...
