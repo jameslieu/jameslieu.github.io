@@ -53,7 +53,7 @@ _Note: I watch them at 1.5x speed so the exact number of hours displayed are not
 
 ___
 
-### Summary
+## Summary &#x1f4dd;
 
 So this is how I create my habits, I have a daily evening routine which I perform small tasks to remain productive. Here are a few examples which I have adopted:
 

@@ -110,7 +110,7 @@ So it gets pretty serious here, if you cannot keep up, they can get you to leave
 
 ---
 
-### Summary &#x1f7e2;
+## Summary &#x1f4dd;
 
 So this is how it all started, its been 7 years since I enrolled into the May cohort. Makers Academy was a highly selective 12-week Coding Bootcamp. They probably designed their policies this way to make sure they get the most committed students and I was very determined to be one of those students.
 

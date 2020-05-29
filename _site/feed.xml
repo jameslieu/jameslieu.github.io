@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-05-29T22:46:29+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Becoming a Software Developer - Part 1</title><link href="http://jameslieu.github.io/becoming-a-software-developer/" rel="alternate" type="text/html" title="Becoming a Software Developer - Part 1" /><published>2020-05-29T00:00:00+01:00</published><updated>2020-05-29T00:00:00+01:00</updated><id>http://jameslieu.github.io/becoming-a-software-developer</id><content type="html" xml:base="http://jameslieu.github.io/becoming-a-software-developer/">&lt;p&gt;Its been 7 years since I’ve made the decision to change my career and become a developer. And so I thought it would be a great time to write a post on the subject and reflect on my journey to become a software developer.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-05-29T23:31:37+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Becoming a Software Developer - Part 1</title><link href="http://jameslieu.github.io/becoming-a-software-developer/" rel="alternate" type="text/html" title="Becoming a Software Developer - Part 1" /><published>2020-05-29T00:00:00+01:00</published><updated>2020-05-29T00:00:00+01:00</updated><id>http://jameslieu.github.io/becoming-a-software-developer</id><content type="html" xml:base="http://jameslieu.github.io/becoming-a-software-developer/">&lt;p&gt;Its been 7 years since I’ve made the decision to change my career and become a developer. And so I thought it would be a great time to write a post on the subject and reflect on my journey to become a software developer.&lt;/p&gt;
 
 &lt;h3 id=&quot;7-years-ago-&quot;&gt;7 Years ago… 📆&lt;/h3&gt;
 &lt;p&gt;It all started in early 2013, my previous employer David Kramaley had gotten in touch by email and mentioned how he remembered I was curious about programming and used to ask questions about it when working with him. He said that a Coding Bootcamp could be  something I may be interested in and provided a link to one based in America.&lt;/p&gt;
@@ -111,7 +111,7 @@ environment.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;summary-&quot;&gt;Summary 🟢&lt;/h3&gt;
+&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
 
 &lt;p&gt;So this is how it all started, its been 7 years since I enrolled into the May cohort. Makers Academy was a highly selective 12-week Coding Bootcamp. They probably designed their policies this way to make sure they get the most committed students and I was very determined to be one of those students.&lt;/p&gt;
 
@@ -121,7 +121,81 @@ environment.&lt;/p&gt;
 
 &lt;p&gt;So this is part 1 of my Becoming a Software Developer series. There is so much to write and so I need to break down this post into multiple posts.&lt;/p&gt;
 
-&lt;p&gt;In hindsight, I should’ve documented my experience at Makers Academy, they actually suggested it as well. But I suppose that wasn’t something I was interested in at the time. In any case, I look forward to reflecting and thinking about the next entry in this series. 🤔&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Reflecting on how I began my programming journey.</summary></entry><entry><title type="html">How I build habits</title><link href="http://jameslieu.github.io/how-i-build-habits/" rel="alternate" type="text/html" title="How I build habits" /><published>2020-05-25T00:00:00+01:00</published><updated>2020-05-25T00:00:00+01:00</updated><id>http://jameslieu.github.io/how-i-build-habits</id><content type="html" xml:base="http://jameslieu.github.io/how-i-build-habits/">&lt;p&gt;On 23rd November 2018, I finished reading a book called &lt;a href=&quot;https://www.goodreads.com/book/show/23130805-the-slight-edge&quot;&gt;The Slight Edge by Jeff Olson&lt;/a&gt; (which I re-read on August 21st 2019 - both dates according to my &lt;a href=&quot;https://www.goodreads.com/jameslieu&quot;&gt;Goodreads profile&lt;/a&gt;). I highly recommend the book and one major take-away for me was that &lt;strong&gt;small consistent actions compound and create big results&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;In hindsight, I should’ve documented my experience at Makers Academy, they actually suggested it as well. But I suppose that wasn’t something I was interested in at the time. In any case, I look forward to reflecting and thinking about the next entry in this series. 🤔&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Reflecting on how I began my programming journey.</summary></entry><entry><title type="html">Copy-and-paste Programming</title><link href="http://jameslieu.github.io/copy-and-paste-programming/" rel="alternate" type="text/html" title="Copy-and-paste Programming" /><published>2020-05-29T00:00:00+01:00</published><updated>2020-05-29T00:00:00+01:00</updated><id>http://jameslieu.github.io/copy-and-paste-programming</id><content type="html" xml:base="http://jameslieu.github.io/copy-and-paste-programming/">&lt;h2 id=&quot;what-is-copy-and-paste-programming&quot;&gt;What is copy and paste programming?&lt;/h2&gt;
+
+&lt;p&gt;According to &lt;a href=&quot;https://en.wikipedia.org/wiki/Copy-and-paste_programming&quot;&gt;Wikipedia&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Copy-and-paste programming is the production of highly repetitive computer programming code, as produced by copy and paste operations.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’ve begun experiencing this at work lately, We have a microservice architecture and each of these services are ASP.NET Core applications which are very similar to one another. When we need to create a new service, the infrastructure, packages/libraries and design of these services have similar requirements and can be ported across very easily by copy-and-pasting.&lt;/p&gt;
+
+&lt;h6 id=&quot;what-is-the-issue&quot;&gt;What is the issue?&lt;/h6&gt;
+&lt;p&gt;The issue I have is, that we’ve learned and improved since the creation of some of these older services but when copying the code across to the new service we tend to copy over &lt;strong&gt;everything&lt;/strong&gt;. And this &lt;strong&gt;process&lt;/strong&gt; of copying everything sometimes doesn’t include reading the code or file and considering whether it is relevant to port across.&lt;/p&gt;
+
+&lt;p&gt;Often the ticket to create this new service only requires us to create a new project that mimics the older services &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/ping&lt;/code&gt; endpoint and a unit test. Also to port across some of the core infrastructure code such as the logging configuration, and any dependencies such as libraries as well. It makes sense to copy-and-paste those across, but should things like helper classes, unused libraries, test helpers and unused common classes be copied across as well?&lt;/p&gt;
+
+&lt;p&gt;There is an argument for copying those across if we know we’re going to use them eventually. The issue with this is that it adds risk to include code we may not use at all. My suggestion to avoid this, is to only copy across code as and when you need them.&lt;/p&gt;
+
+&lt;p&gt;There was a good &lt;a href=&quot;https://stackoverflow.com/a/15700228/2405120&quot;&gt;StackOverflow post&lt;/a&gt;  about removing unused code which I think is relevant.&lt;/p&gt;
+
+&lt;p&gt;Below I’ll run through my opinion on what the pros and cons are for copy-and-paste programming.&lt;/p&gt;
+
+&lt;h2 id=&quot;pros-&quot;&gt;Pros 👍&lt;/h2&gt;
+
+&lt;h6 id=&quot;-its-faster&quot;&gt;🏃 Its faster&lt;/h6&gt;
+&lt;p&gt;It is in fact faster to do it this way. We know that the infrastructure is going to be mostly the same, why not just copy and paste the lot across and rename places that need it i.e. Namespaces. And by completing the task faster, we can move on to the next task thus feeling very productive&lt;/p&gt;
+
+&lt;h6 id=&quot;-no-need-to-think-as-much&quot;&gt;😏 No need to think as much&lt;/h6&gt;
+
+&lt;p&gt;When copy and pasting the code across, if you intend to reuse everything, you can do it without too much mental energy.&lt;/p&gt;
+
+&lt;h2 id=&quot;cons-&quot;&gt;Cons 👎&lt;/h2&gt;
+
+&lt;h6 id=&quot;-it-creates-new-challenges-when-reviewing-the-code&quot;&gt;🧐 It creates new challenges when reviewing the code&lt;/h6&gt;
+
+&lt;p&gt;The more code we port across, the easier it is to miss something. The initial ticket was to create a base/plain project which should ideally have only the necessary modules needed, now that there is other code in there, the reviewer now has to go into the code base and check which is being used and which isn’t.&lt;/p&gt;
+
+&lt;p&gt;Having to check each class or method and see if it is needed or not is incredibly time consuming.&lt;/p&gt;
+
+&lt;p&gt;It also causes confusion why those unnecessary classes are there at first glance. And asking the developer to remove the dead code requires even more time.&lt;/p&gt;
+
+&lt;h6 id=&quot;-it-invalidates-the-code-coverage&quot;&gt;📊 It invalidates the code coverage&lt;/h6&gt;
+
+&lt;p&gt;The Code that isn’t used in the new project messes with the code coverage, while in the previous projects they were used and had unit tests. The new project wouldn’t have those same tests as the methods using them are not ported across.&lt;/p&gt;
+
+&lt;p&gt;There is an argument that maybe some of those classes ought to have their own self contained unit tests however.&lt;/p&gt;
+
+&lt;h6 id=&quot;-it-takes-away-the-refactoring-opportunity&quot;&gt;🧹 It takes away the ‘refactoring’ opportunity&lt;/h6&gt;
+
+&lt;p&gt;Technically its not refactoring because its a new project, we’re not editing existing code in the new project. But over time, we as a team are improving the way we work and our knowledge, sometimes the code we’re copying across is perhaps an ‘outdated’ way of working. This can deter the developer to consider a different approach.&lt;/p&gt;
+
+&lt;h6 id=&quot;-the-developer-may-not-even-read-the-code&quot;&gt;🙈 The developer may not even read the code&lt;/h6&gt;
+
+&lt;p&gt;Entire files can be copied across, how will we know whether the code is still relevant to the new project. Not only this, it is the review who has to read it all during the code review. That said, the reviewer may also have the same mindset and approve the code because they know that it is a carbon copy-and-paste and therefore doesn’t feel the need to read it.&lt;/p&gt;
+
+&lt;h6 id=&quot;-there-is-risk-that-the-developer-doesnt-understand-the-code&quot;&gt;🙉 There is risk that the developer doesn’t understand the code&lt;/h6&gt;
+
+&lt;p&gt;Code that is copied across may have been code that they themselves haven’t seen before, instead of reading it and trying to understand the business logic, copying it across can mean you’re adding code that may not be relevant or even is an existing bug.&lt;/p&gt;
+
+&lt;h6 id=&quot;-introducing-bugs&quot;&gt;🐞 Introducing bugs&lt;/h6&gt;
+&lt;p&gt;A further problem is that bugs can easily be introduced by assumptions and design choices made in the separate sources that no longer apply when placed in the new environment.&lt;/p&gt;
+
+&lt;h6 id=&quot;-obfuscated-code&quot;&gt;🧐 Obfuscated code&lt;/h6&gt;
+&lt;p&gt;Such code may also, in effect, be unintentionally obfuscated, as the names of variables, classes, functions and the like are typically left unchanged, even though their purpose may be completely different in the new context.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
+
+&lt;p&gt;Copy-and-paste programming sounds good at first. Its a very attractive way of working as it can make you feel very productive, it also means you can quickly move on to other tasks/tickets.&lt;/p&gt;
+
+&lt;p&gt;But the number of problems that it can introduce is something to consider. I’m not advocating that we never use copy-and-paste but I think its worth actually reading the code and carefully consider whether that code is relevant. But to also take a moment to think whether that code can be improved. Sure it will take a little longer, but also reduce some of the cons above makes it worthwhile.&lt;/p&gt;
+
+&lt;h3 id=&quot;external-sources-&quot;&gt;External sources 💡&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Copy-and-paste_programming&quot;&gt;Wikipedia - Copy-and-paste Programming&lt;/a&gt;&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">What is copy and paste programming?</summary></entry><entry><title type="html">How I build habits</title><link href="http://jameslieu.github.io/how-i-build-habits/" rel="alternate" type="text/html" title="How I build habits" /><published>2020-05-25T00:00:00+01:00</published><updated>2020-05-25T00:00:00+01:00</updated><id>http://jameslieu.github.io/how-i-build-habits</id><content type="html" xml:base="http://jameslieu.github.io/how-i-build-habits/">&lt;p&gt;On 23rd November 2018, I finished reading a book called &lt;a href=&quot;https://www.goodreads.com/book/show/23130805-the-slight-edge&quot;&gt;The Slight Edge by Jeff Olson&lt;/a&gt; (which I re-read on August 21st 2019 - both dates according to my &lt;a href=&quot;https://www.goodreads.com/jameslieu&quot;&gt;Goodreads profile&lt;/a&gt;). I highly recommend the book and one major take-away for me was that &lt;strong&gt;small consistent actions compound and create big results&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;I can’t remember exactly when I adopted this principle into my life. But I still use it today and thought it would make for a good post. I incorporate this into my daily habits - one of which is do one set of push-ups.&lt;/p&gt;
 
@@ -169,7 +243,7 @@ environment.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
+&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
 
 &lt;p&gt;So this is how I create my habits, I have a daily evening routine which I perform small tasks to remain productive. Here are a few examples which I have adopted:&lt;/p&gt;
 
@@ -1089,23 +1163,4 @@ The two primary libraries we’re using are &lt;code class=&quot;language
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/sinonjs/sinon&quot;&gt;https://github.com/sinonjs/sinon&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/dwyl/aws-sdk-mock&quot;&gt;https://github.com/dwyl/aws-sdk-mock&lt;/a&gt;&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Proxyquire VS SinonJS</summary></entry><entry><title type="html">The S.P.A Argument</title><link href="http://jameslieu.github.io/the-spa-argument/" rel="alternate" type="text/html" title="The S.P.A Argument" /><published>2020-03-31T00:00:00+01:00</published><updated>2020-03-31T00:00:00+01:00</updated><id>http://jameslieu.github.io/the-spa-argument</id><content type="html" xml:base="http://jameslieu.github.io/the-spa-argument/">&lt;p&gt;Here’s the article
-https://journal.plausible.io/you-probably-dont-need-a-single-page-app&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It all comes down to tradeoffs
-As with everything in programming, there isn’t a single answer in the SPA vs traditional architecture dilemma. There are cases where it makes sense to go with a SPA because you need a snappy, real-time UI. However, we should recognize that this comes at a cost to the development speed. And if a single-page app is not a requirement, we can avoid the additional complexity and move much quicker by going the traditional route.
-Picking the right architecture for the job makes a huge difference in productivity, and ultimately, success. We should aim to have both architectures in our toolbox, so we can use the optimal solution in each case.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I’m not sure if this article was a bash at JS developers, but more so debating whether ‘defaulting’ to SPAs is the best solution as a starting point. Why not just build your app in NodeJS/ExpressJS, thats still Javascript and I don’t see anything wrong with this.&lt;/p&gt;
-
-&lt;p&gt;I actually have some personal experience with this in my previous company, we were rewriting a legacy app, it used to be built with Ruby on Rails but the company wanted to use PHP instead primarily because of how difficult it was to find a Rails dev (in Milton Keynes). The senior developer and myself had started at the same time, But he being the senior there had selected the tech stack: Laravel API with an Angular 2 (SPA).&lt;/p&gt;
-
-&lt;p&gt;Developing with Laravel was a breeze and he was already well-versed with it, but why did he go for Angular 2? Or an SPA for that matter. When I asked him, he basically said that it was ‘modern’ (and I wouldn’t be surprised if he just wanted to learn the tech).&lt;/p&gt;
-
-&lt;p&gt;After two years of developing with it, he openly admitted regretting going that route when comparing to just using the Laravel framework to handle everything incl the front end, then perhaps going with the hybrid option and using VueJS to apply the rich UI interactions.&lt;/p&gt;
-
-&lt;p&gt;The problems we’ve had with Angular were error handling, guards, intercepting calls (to handle refresh tokens) to name a few. These things can go completely without when going the traditional route, Laravel would’ve handled that stuff for us out of the box. I personally don’t regret learning Angular but I can see why my colleague says he has regrets over it, it took us substantially longer to develop anything and the question was whether it was even &lt;em&gt;necessary&lt;/em&gt; for &lt;em&gt;this particular app&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The SPA route ‘arguably’ adds extra complexity and setup costs when compared to the traditional route and I think that was where the author of that article was getting at.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">There was a short debate I had with some people regarding whether SPAs are necessary based off an article on the subject.</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://github.com/dwyl/aws-sdk-mock&quot;&gt;https://github.com/dwyl/aws-sdk-mock&lt;/a&gt;&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Proxyquire VS SinonJS</summary></entry></feed>
