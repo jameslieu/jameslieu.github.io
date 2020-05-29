@@ -1,4 +1,128 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-29T15:19:20+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">How I build habits</title><link href="http://localhost:4000/how-i-build-habits/" rel="alternate" type="text/html" title="How I build habits" /><published>2020-05-25T00:00:00+01:00</published><updated>2020-05-25T00:00:00+01:00</updated><id>http://localhost:4000/how-i-build-habits</id><content type="html" xml:base="http://localhost:4000/how-i-build-habits/">&lt;p&gt;On 23rd November 2018, I finished reading a book called &lt;a href=&quot;https://www.goodreads.com/book/show/23130805-the-slight-edge&quot;&gt;The Slight Edge by Jeff Olson&lt;/a&gt; (which I re-read on August 21st 2019 - both dates according to my &lt;a href=&quot;https://www.goodreads.com/jameslieu&quot;&gt;Goodreads profile&lt;/a&gt;). I highly recommend the book and one major take-away for me was that &lt;strong&gt;small consistent actions compound and create big results&lt;/strong&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-05-29T17:29:10+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Becoming a Software Developer - Part 1</title><link href="http://jameslieu.github.io/becoming-a-software-developer/" rel="alternate" type="text/html" title="Becoming a Software Developer - Part 1" /><published>2020-05-29T00:00:00+01:00</published><updated>2020-05-29T00:00:00+01:00</updated><id>http://jameslieu.github.io/becoming-a-software-developer</id><content type="html" xml:base="http://jameslieu.github.io/becoming-a-software-developer/">&lt;h3 id=&quot;from-the-beginning&quot;&gt;From the beginning&lt;/h3&gt;
+&lt;p&gt;Its been 7 years since I’ve made the big decision to change my career and become a developer. And so I thought it would be a great time to write a post on the subject and hopefully reflect on what went well, what went less well and learn from hindsight.&lt;/p&gt;
+
+&lt;h3 id=&quot;7-years-ago&quot;&gt;7 Years ago…&lt;/h3&gt;
+&lt;p&gt;It all started in early 2013, my previous employer David Kramaley had gotten in touch by email and mentioned how he remembered I was curious about programming and used to ask questions about it when working with him. He said that a Coding Bootcamp might be something I may be interested in and provided a link to one based in America.&lt;/p&gt;
+
+&lt;p&gt;I really wished I had the original email, I must’ve deleted it when I was cleaning up my inbox because of wanting to reach &lt;a href=&quot;/achieving-inbox-zero/&quot;&gt;“inbox zero”&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If I recall correctly, coincidently I had actually become more curious about programming due to hearing about &lt;a href=&quot;https://www.codecademy.com/&quot;&gt;Codecademy&lt;/a&gt;. I had already created an account and have been doing the introduction to programming path. According to my profile, I had created the Codecademy account on &lt;strong&gt;Feb 27th 2013&lt;/strong&gt;. So the email from David would’ve been in early to mid March.&lt;/p&gt;
+
+&lt;p&gt;I really liked the idea of a Coding Bootcamp, learning programming for 10 weeks then being able to get at least a junior position after graduation. This was very attractive to me as I was either unemployed, or I was working a part-time job doing deliveries and/or cashier work at a Chinese take-away. Else it was working my families Fish and Chip shop with my mother. This particular Bootcamp was based in America and I wasn’t willing to relocate, so I quickly Googled for Coding Bootcamps in the UK, there I discovered Makers Academy.&lt;/p&gt;
+
+&lt;h3 id=&quot;makers-academy&quot;&gt;Makers Academy&lt;/h3&gt;
+
+&lt;p&gt;I’m so thankful that a coding Bootcamp was based in a location I can attend. One thing I need to mention is that Makers Academy was a start-up company during this time, they had only &lt;strong&gt;just&lt;/strong&gt; started taking students in &lt;strong&gt;February 2013&lt;/strong&gt; which was literally the previous month. Here is a link to their blog post: &lt;a href=&quot;https://blog.makersacademy.com/we-just-turned-five-9a45da48206f&quot;&gt;We Just Turned 5&lt;/a&gt; (which should match the dates I mentioned)&lt;/p&gt;
+
+&lt;p&gt;The cohorts were &lt;strong&gt;very&lt;/strong&gt; small I think fewer than 8 students maybe? I don’t know exactly how many students there were at the time. But I’m guessing that this was intentional, the courses are very intensive and require a serious commitment from their students thus Makers Academy were &lt;strong&gt;very selective&lt;/strong&gt; in regards to who they allow to enrol.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;my-interview&quot;&gt;My Interview&lt;/h3&gt;
+
+&lt;p&gt;On 27th March 2013, I sent my application. I received a confirmation email and 10 minutes after this, invited to interview at Makers Academy.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/becoming-a-software-developer-1.png&quot; style=&quot;height: 100px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I had to schedule a time using a &lt;a href=&quot;https://doodle.com&quot;&gt;Doodle&lt;/a&gt; link, which was quite nice. And in the email I was asked:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Before arriving, please complete the first three tracks (Introduction to Ruby, Control Flow in Ruby &amp;amp; Looping with Ruby) at:  http://www.codecademy.com/tracks/ruby&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Perfect, I had been casually using Codecademy anyway. Codecademy still has my old achievements and what day I completed them (which is pretty cool to look at retrospectively):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/becoming-a-software-developer-2.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It looks like I started the ruby track on &lt;strong&gt;April 1st 2013&lt;/strong&gt;, so I guess I wasn’t as excited as I thought about the tracks at the time. Although, it could be that the appointment I had with Makers Academy was maybe a week or two ahead which was why I didn’t start the tracks straight away.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-day-of-the-interview&quot;&gt;The Day of The Interview&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Note: Its worth noting that this was 7 years ago, I may have misremembered some of this and I don’t have any of my emails to verify any of this.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This was the day I had met with Evgeny Shadchnev - the co-founder. They asked me some basic questions about my background, why I want to do this, what my motivations were and gauge how interested in programming I was.&lt;/p&gt;
+
+&lt;p&gt;We sat down to do a tech test. It was a very basic one that I should’ve learned through the Codecademy tracks as they requested. I can’t remember the specifics but I do remember failing to complete the (very basic) task. There was another task to do a problem solving exercise which I also failed to complete.&lt;/p&gt;
+
+&lt;p&gt;I can’t remember too well what happened afterwards, Evgeny either told me on the day or via email afterwards that they &lt;strong&gt;cannot&lt;/strong&gt; accept me into the course! I was rejected due to my poor performance. In hindsight, I blame myself for not spending more time going through the Codecademy tracks and studying harder! It was mentioned that I can apply again once I improve on the basics.&lt;/p&gt;
+
+&lt;h3 id=&quot;second-interview-attempt&quot;&gt;Second Interview Attempt&lt;/h3&gt;
+
+&lt;p&gt;I had gone home dejected but I didn’t give up. I remember immediately applying again, and attending a second interview shortly  after (a week or so), and I had again failed the tasks.&lt;/p&gt;
+
+&lt;p&gt;I remember that Evgeny had told this in person this time that they cannot accept me in the next cohort either because he didn’t think I was ready. If I remember correctly, he also mentioned that to ‘code’ I need to have better problem solving skills, this was arguably a skill that cannot be ‘learned’ and therefore programming was maybe not for me.&lt;/p&gt;
+
+&lt;p&gt;I was devastated but this time I was able to respond to him directly, mentioning that I was very serious about this course and if he were to give me a chance, I will not take it for granted. Thankfully, Evgeny had given me this opportunity to enrol me onto the course, perhaps he saw how persistence and determined I was which helped influenced this decision. This was probably the moment that had truly kickstarted my career.&lt;/p&gt;
+
+&lt;p&gt;I have a theory that my enrolling onto the course was a experiment for him to see whether someone (with poor problem solving skills) like me can truly thrive in this industry.&lt;/p&gt;
+
+&lt;p&gt;I was to join the May 2013 cohort.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;course-fees&quot;&gt;Course fees&lt;/h3&gt;
+
+&lt;p&gt;At the time, the course fees were &lt;strong&gt;£5000&lt;/strong&gt; for &lt;strong&gt;10 weeks&lt;/strong&gt;. If you were a female then you would automatically get a discount of £500 thus costing &lt;strong&gt;£4500&lt;/strong&gt;. A bit controversial in my opinion but as a private company they’re within their rights to charge whatever they want.&lt;/p&gt;
+
+&lt;p&gt;I still have the terms in my email. Here were the payment plan options available to me (in 2013):&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Standard Payment Plan&lt;/strong&gt; – 50% in advance, 50% over six months following the course&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Advance Payment Plan&lt;/strong&gt; – 90% in advance, 10% discount applies&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Deferred Payment Plan&lt;/strong&gt; – no payment due until after the course, with 20% surcharge&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;With the standed and advance plan, the deposit is payable not later than seven days before the commencement of the course. The deposit is non-refundable if the student withdraws from the course within the seven days prior to the start of the course.&lt;/p&gt;
+
+&lt;p&gt;The caveat was that if Makers Academy hadn’t received the deposit seven days before the commencement of a course, Makers Academy may, at its option, re-allocate the place reserved for the student to a wait-listed  student in which case the original student will no longer be able to attend the course.&lt;/p&gt;
+
+&lt;h6 id=&quot;the-standard-plan&quot;&gt;The Standard Plan&lt;/h6&gt;
+
+&lt;p&gt;A deposit of 50% up-front and the remaining 50% of the course fee is payable in six equal monthly instalments with the first being due at the  end of the month following the end of the course.&lt;/p&gt;
+
+&lt;p&gt;This for me seemed like a great option for those who wouldn’t normally be able to afford the fees for the course upfront. So a deposit of £2500 and then a monthly plan to pay the rest &lt;strong&gt;after the course&lt;/strong&gt;. Hopefully the student would’ve managed to secure a junior developer role and then pay back a portion of the fee with their salary each month.&lt;/p&gt;
+
+&lt;h6 id=&quot;the-deferred-payment-plan&quot;&gt;The Deferred Payment Plan&lt;/h6&gt;
+
+&lt;p&gt;The remaining full course fee plus a surcharge of 20% of the course fee is payable in twelve equal monthly instalments with the first being due at the end of the month following the end of the course.&lt;/p&gt;
+
+&lt;p&gt;This option was for those who can’t pay anything. There are additional terms with this one, one of which the student has to agree that if they get a role through a partner of Makers Academy, the course fee
+payments may, at the option of Makers Academy, be paid directly to Makers Academy by the Partner by deduction from the salary of the student. So there are some serious caveats associated with this one, nonetheless provide another great option for some people.&lt;/p&gt;
+
+&lt;h6 id=&quot;the-advance-payment-plan&quot;&gt;The Advance Payment Plan&lt;/h6&gt;
+
+&lt;p&gt;90% in advance and the remaining 10% discounted. This was the plan I had gone for, having no job or money of my own, I turned to my family for a loan, my sister had savings and had happily loaned me the cost of the full course, I’m still so very grateful for that. This meant that it cost me £4500 in total thanks to the discount. Even if my family couldn’t loan me the money, my girlfriend (now wife) also offered to loan me the money if I were unable get it from my family, so I’m very fortunate in this regard.&lt;/p&gt;
+
+&lt;p&gt;I was to pay back my sister with my salary as soon as I get my first paid developer role which I did. When I secured a role I paid her back monthly instalments of £500 over 9 months.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;course-attendance-and-conduct&quot;&gt;Course Attendance and Conduct.&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Makers Academy courses are intensive courses that require a serious commitment from all students. Makers Academy wants to ensure that all students on its courses have the best possible opportunity to succeed and therefore reserves the right to suspend from the course any student who in any way disrupts the course
+environment.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If, despite our careful selection process, we find that a student is failing to keep up with the demands of the course they have chosen, and after consulting with the student we decide that the student is not likely to successfully complete the course, we reserve the right to require the student to leave the course.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So it gets pretty serious here, if you cannot keep up, they can get you to leave the course though at their discretion, offer a refund for any remaining time. Makes sense, they’re taking a risk with the student and the career change of becoming a software developer requires a huge commitment and you need to hold yourself accountable if you fall behind.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
+
+&lt;p&gt;So this is how it all started, its been 7 years since I enrolled into the May cohort. Makers Academy was a highly selective 12-week Coding Bootcamp. They probably designed their policies this way to make sure they get the most committed students and I was very determined to be one of those students.&lt;/p&gt;
+
+&lt;p&gt;£4500 - £5000 for 10 weeks seems like a lot (though &lt;strong&gt;during&lt;/strong&gt; my course they changed it to &lt;strong&gt;12 weeks&lt;/strong&gt;). It all comes down to what you think you’ll get out of it. If you can secure a role, you’ll very quickly make that money back. Investing in yourself never a bad idea, though it all depends on personal responsibility, how committed and determined you are, what sacrifices are you prepared to make in order to achieve your goals.&lt;/p&gt;
+
+&lt;p&gt;Looking back, I actually think Evgeny was right in some ways when he told me that some problem solving skills are not ones you can ‘learn’ and so I will struggle in this industry. I still think this is true today, my problem solving skills are very poor when compared to my colleagues, but I believe that it is my determination and persistence that drives me to success.&lt;/p&gt;
+
+&lt;p&gt;So this is part 1 of my Becoming a Software Developer series. There is so much to write and so I need to break down this post into multiple posts.&lt;/p&gt;
+
+&lt;p&gt;In hindsight, I should’ve documented my experience at Makers Academy, they actually suggested it as well. But I suppose that wasn’t something I was interested in at the time. In any case, I look forward to reflecting and thinking about the next entry in this series.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Reflecting on how I began my programming journey.</summary></entry><entry><title type="html">How I build habits</title><link href="http://jameslieu.github.io/how-i-build-habits/" rel="alternate" type="text/html" title="How I build habits" /><published>2020-05-25T00:00:00+01:00</published><updated>2020-05-25T00:00:00+01:00</updated><id>http://jameslieu.github.io/how-i-build-habits</id><content type="html" xml:base="http://jameslieu.github.io/how-i-build-habits/">&lt;p&gt;On 23rd November 2018, I finished reading a book called &lt;a href=&quot;https://www.goodreads.com/book/show/23130805-the-slight-edge&quot;&gt;The Slight Edge by Jeff Olson&lt;/a&gt; (which I re-read on August 21st 2019 - both dates according to my &lt;a href=&quot;https://www.goodreads.com/jameslieu&quot;&gt;Goodreads profile&lt;/a&gt;). I highly recommend the book and one major take-away for me was that &lt;strong&gt;small consistent actions compound and create big results&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;I can’t remember exactly when I adopted this principle into my life. But I still use it today and thought it would make for a good post. I incorporate this into my daily habits - one of which is do one set of push-ups.&lt;/p&gt;
 
@@ -78,7 +202,7 @@
 
 &lt;p&gt;&lt;em&gt;[1] The 10 pages task, I don’t do consistently unless I have a book I want to read, however, once I decide on a book, I apply this principle in order to motivate me to complete it.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;[2] Based on average page size of 273 for a book from this site: &lt;a href=&quot;https://scribewriting.com/how-long-should-book-be/&quot;&gt;Scribe Writing&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">A guide on how I build habits..</summary></entry><entry><title type="html">Should Companies Be Hiring Juniors?</title><link href="http://localhost:4000/should-companies-be-hiring-juniors/" rel="alternate" type="text/html" title="Should Companies Be Hiring Juniors?" /><published>2020-05-22T17:00:00+01:00</published><updated>2020-05-22T17:00:00+01:00</updated><id>http://localhost:4000/should-companies-be-hiring-juniors</id><content type="html" xml:base="http://localhost:4000/should-companies-be-hiring-juniors/">&lt;p&gt;This question was asked by someone on the Slack channel.
+&lt;p&gt;&lt;em&gt;[2] Based on average page size of 273 for a book from this site: &lt;a href=&quot;https://scribewriting.com/how-long-should-book-be/&quot;&gt;Scribe Writing&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">A guide on how I build habits.</summary></entry><entry><title type="html">Should Companies Be Hiring Juniors?</title><link href="http://jameslieu.github.io/should-companies-be-hiring-juniors/" rel="alternate" type="text/html" title="Should Companies Be Hiring Juniors?" /><published>2020-05-22T17:00:00+01:00</published><updated>2020-05-22T17:00:00+01:00</updated><id>http://jameslieu.github.io/should-companies-be-hiring-juniors</id><content type="html" xml:base="http://jameslieu.github.io/should-companies-be-hiring-juniors/">&lt;p&gt;This question was asked by someone on the Slack channel.
 Here were some of the responses:&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -134,7 +258,7 @@ Not to mention requiring the time of existing developers to assist thus also add
 
 &lt;p&gt;At the end of the day, salaries should mostly be dictated by what amount of productivity an employer can bring. The more junior you are, the less productivity you can bring when compared to mid-senior level developers, but this can be offset by accepting a lower salary. So the answer to the titled question would depend on whether it is more expensive to hire said junior.&lt;/p&gt;
 
-&lt;p&gt;So in conclusion, as per my response: If you’re a junior-level developer, consider taking a low salary because in my opinion, the best thing for a junior, is getting their foot through the door first in order to gain things that are of greater value than salary.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Do any of you work in companies that should be hiring juniors but aren't? What's stopping them?</summary></entry><entry><title type="html">Preferably 5+ years of experience</title><link href="http://localhost:4000/preferably-5-years-of-experience/" rel="alternate" type="text/html" title="Preferably 5+ years of experience" /><published>2020-05-21T00:00:00+01:00</published><updated>2020-05-21T00:00:00+01:00</updated><id>http://localhost:4000/preferably-5-years-of-experience</id><content type="html" xml:base="http://localhost:4000/preferably-5-years-of-experience/">&lt;p&gt;Somebody had posted a application in the #careers channel of the Slack group I’m a part of.
+&lt;p&gt;So in conclusion, as per my response: If you’re a junior-level developer, consider taking a low salary because in my opinion, the best thing for a junior, is getting their foot through the door first in order to gain things that are of greater value than salary.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Do any of you work in companies that should be hiring juniors but aren't? What's stopping them?</summary></entry><entry><title type="html">Preferably 5+ years of experience</title><link href="http://jameslieu.github.io/preferably-5-years-of-experience/" rel="alternate" type="text/html" title="Preferably 5+ years of experience" /><published>2020-05-21T00:00:00+01:00</published><updated>2020-05-21T00:00:00+01:00</updated><id>http://jameslieu.github.io/preferably-5-years-of-experience</id><content type="html" xml:base="http://jameslieu.github.io/preferably-5-years-of-experience/">&lt;p&gt;Somebody had posted a application in the #careers channel of the Slack group I’m a part of.
 And then somebody left this response:&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -243,7 +367,7 @@ And then somebody left this response:&lt;/p&gt;
 
 &lt;p&gt;If they need the role to be filled, they may be willing to at least have a conversation with you, which is your opportunity to convince them to make you an offer.&lt;/p&gt;
 
-&lt;p&gt;Also, don’t forget that you will likely be competing with other people as well, so don’t stop there, apply for many other job applications. The more you apply for, the greater your success rate. Maybe one of them will convert to an interview and potentially lead to an offer.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Applying for developer roles is not as complicated as one would think.</summary></entry><entry><title type="html">Is PHP Bad?</title><link href="http://localhost:4000/is-php-bad/" rel="alternate" type="text/html" title="Is PHP Bad?" /><published>2020-05-04T00:00:00+01:00</published><updated>2020-05-04T00:00:00+01:00</updated><id>http://localhost:4000/is-php-bad</id><content type="html" xml:base="http://localhost:4000/is-php-bad/">&lt;p&gt;I’m subscribed to the subreddit &lt;a href=&quot;https://www.reddit.com/r/ProgrammerHumor/&quot;&gt;/r/programmerhumour&lt;/a&gt; - dedicated to humor and jokes relating to programmers and programming.&lt;/p&gt;
+&lt;p&gt;Also, don’t forget that you will likely be competing with other people as well, so don’t stop there, apply for many other job applications. The more you apply for, the greater your success rate. Maybe one of them will convert to an interview and potentially lead to an offer.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Applying for developer roles is not as complicated as one would think.</summary></entry><entry><title type="html">Is PHP Bad?</title><link href="http://jameslieu.github.io/is-php-bad/" rel="alternate" type="text/html" title="Is PHP Bad?" /><published>2020-05-04T00:00:00+01:00</published><updated>2020-05-04T00:00:00+01:00</updated><id>http://jameslieu.github.io/is-php-bad</id><content type="html" xml:base="http://jameslieu.github.io/is-php-bad/">&lt;p&gt;I’m subscribed to the subreddit &lt;a href=&quot;https://www.reddit.com/r/ProgrammerHumor/&quot;&gt;/r/programmerhumour&lt;/a&gt; - dedicated to humor and jokes relating to programmers and programming.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/is-php-bad-3.jpg&quot; style=&quot;height: 250px;&quot; /&gt;&lt;/p&gt;
 
@@ -304,7 +428,7 @@ And then somebody left this response:&lt;/p&gt;
 
 &lt;p&gt;In any case, it is still good to have an open mind, anyone defending/attacking PHP should hopefully have had experience with it as well as other languages before casting judgement. Best to avoid focusing on what other people think and enjoy the memes.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/media/is-php-bad-1.jpg&quot; style=&quot;height: 400px;&quot; /&gt;&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">The best meme in /r/ProgrammerHumor</summary></entry><entry><title type="html">Git Workflow</title><link href="http://localhost:4000/git-workflow/" rel="alternate" type="text/html" title="Git Workflow" /><published>2020-04-28T00:00:00+01:00</published><updated>2020-04-28T00:00:00+01:00</updated><id>http://localhost:4000/git-workflow</id><content type="html" xml:base="http://localhost:4000/git-workflow/">&lt;h3 id=&quot;background&quot;&gt;Background&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/media/is-php-bad-1.jpg&quot; style=&quot;height: 400px;&quot; /&gt;&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">The best meme in /r/ProgrammerHumor</summary></entry><entry><title type="html">Git Workflow</title><link href="http://jameslieu.github.io/git-workflow/" rel="alternate" type="text/html" title="Git Workflow" /><published>2020-04-28T00:00:00+01:00</published><updated>2020-04-28T00:00:00+01:00</updated><id>http://jameslieu.github.io/git-workflow</id><content type="html" xml:base="http://jameslieu.github.io/git-workflow/">&lt;h3 id=&quot;background&quot;&gt;Background&lt;/h3&gt;
 
 &lt;p&gt;I had just started a new role there, they were not using any version control (which led to many problems) and so Git was introduced into their workflow by the tech lead who had also just started his role a month prior.
 Within the team and the work they were doing - there were so many issues:&lt;/p&gt;
@@ -399,7 +523,7 @@ Master is branched off into a new ‘feature’ branch, then the feature branch 
 
 &lt;p&gt;In any case, I would’ve prefered we used a more simple Git Workflow such as the &lt;a href=&quot;https://guides.github.com/introduction/flow/&quot;&gt;GitHub Flow&lt;/a&gt; to avoid overwhelming them with some of Git’s more complicated features (present in the &lt;a href=&quot;https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&quot;&gt;Gitflow Workflow&lt;/a&gt;) while they learn.&lt;/p&gt;
 
-&lt;p&gt;Maybe I’ll one day, now that I have some experience with both Git Workflows, write a blog post to compare &lt;a href=&quot;https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&quot;&gt;Gitflow Workflow&lt;/a&gt; vs &lt;a href=&quot;https://guides.github.com/introduction/flow/&quot;&gt;GitHub Flow&lt;/a&gt; and see the pros/cons of each workflow.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">At a previous company, many of my colleagues had little to no experience with version-control. Git was recently introduced into their workflow :)</summary></entry><entry><title type="html">Should I Provide An Expected Salary?</title><link href="http://localhost:4000/provide-expected-salary/" rel="alternate" type="text/html" title="Should I Provide An Expected Salary?" /><published>2020-04-24T00:00:00+01:00</published><updated>2020-04-24T00:00:00+01:00</updated><id>http://localhost:4000/provide-expected-salary</id><content type="html" xml:base="http://localhost:4000/provide-expected-salary/">&lt;p&gt;There was a discussion asked in the Maker’s slack channel regarding providing an expected salary:&lt;/p&gt;
+&lt;p&gt;Maybe I’ll one day, now that I have some experience with both Git Workflows, write a blog post to compare &lt;a href=&quot;https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&quot;&gt;Gitflow Workflow&lt;/a&gt; vs &lt;a href=&quot;https://guides.github.com/introduction/flow/&quot;&gt;GitHub Flow&lt;/a&gt; and see the pros/cons of each workflow.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">At a previous company, many of my colleagues had little to no experience with version-control. Git was recently introduced into their workflow :)</summary></entry><entry><title type="html">Should I Provide An Expected Salary?</title><link href="http://jameslieu.github.io/provide-expected-salary/" rel="alternate" type="text/html" title="Should I Provide An Expected Salary?" /><published>2020-04-24T00:00:00+01:00</published><updated>2020-04-24T00:00:00+01:00</updated><id>http://jameslieu.github.io/provide-expected-salary</id><content type="html" xml:base="http://jameslieu.github.io/provide-expected-salary/">&lt;p&gt;There was a discussion asked in the Maker’s slack channel regarding providing an expected salary:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Anyone have any advice on how to fill in the “Expected Salary” field of a job application? Of note:&lt;/p&gt;
@@ -508,7 +632,7 @@ Master is branched off into a new ‘feature’ branch, then the feature branch 
 
 &lt;p&gt;These things should be considered when thinking about the offer, sometimes its not necessarily a bad thing to accept a lower salary but then also receiving a lot of other benefits as a result.&lt;/p&gt;
 
-&lt;p&gt;I personally would much rather choose a position with a sensible or fair salary that has great benefits instead of a position where it pays extremely well but everything else from work/life balance to who you’re working with is terrible.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">My opinion on whether providing an expected salary when applying for a role.</summary></entry><entry><title type="html">Introduction to SNS and SQS</title><link href="http://localhost:4000/introduction-to-sqs-and-sns/" rel="alternate" type="text/html" title="Introduction to SNS and SQS" /><published>2020-04-01T00:00:00+01:00</published><updated>2020-04-01T00:00:00+01:00</updated><id>http://localhost:4000/introduction-to-sqs-and-sns</id><content type="html" xml:base="http://localhost:4000/introduction-to-sqs-and-sns/">&lt;h3 id=&quot;agenda&quot;&gt;Agenda&lt;/h3&gt;
+&lt;p&gt;I personally would much rather choose a position with a sensible or fair salary that has great benefits instead of a position where it pays extremely well but everything else from work/life balance to who you’re working with is terrible.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">My opinion on whether providing an expected salary when applying for a role.</summary></entry><entry><title type="html">Introduction to SNS and SQS</title><link href="http://jameslieu.github.io/introduction-to-sqs-and-sns/" rel="alternate" type="text/html" title="Introduction to SNS and SQS" /><published>2020-04-01T00:00:00+01:00</published><updated>2020-04-01T00:00:00+01:00</updated><id>http://jameslieu.github.io/introduction-to-sqs-and-sns</id><content type="html" xml:base="http://jameslieu.github.io/introduction-to-sqs-and-sns/">&lt;h3 id=&quot;agenda&quot;&gt;Agenda&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;What is SQS?&lt;/li&gt;
@@ -748,7 +872,7 @@ SQS is mainly used to decouple or integrate applications. It also allows clients
 &lt;p&gt;As well as the other benefits mentioned.&lt;/p&gt;
 
 &lt;p&gt;So that concludes my basic overview of the SNS and SQS.
-We’ve covered what is SQS, what is SNS, the difference between the two and the advantages of using them together.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">So for this post I'll be covering a basic overview of Amazon's Simple Queue Service (known as SQS) and Amazon's Simple Notification Service (known as SNS).</summary></entry><entry><title type="html">Mocking In JS</title><link href="http://localhost:4000/mocking-in-js/" rel="alternate" type="text/html" title="Mocking In JS" /><published>2020-04-01T00:00:00+01:00</published><updated>2020-04-01T00:00:00+01:00</updated><id>http://localhost:4000/mocking-in-js</id><content type="html" xml:base="http://localhost:4000/mocking-in-js/">&lt;p&gt;The purpose of this post is to compare the libraries we’re currently using for mocking in our tests.
+We’ve covered what is SQS, what is SNS, the difference between the two and the advantages of using them together.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">So for this post I'll be covering a basic overview of Amazon's Simple Queue Service (known as SQS) and Amazon's Simple Notification Service (known as SNS).</summary></entry><entry><title type="html">Mocking In JS</title><link href="http://jameslieu.github.io/mocking-in-js/" rel="alternate" type="text/html" title="Mocking In JS" /><published>2020-04-01T00:00:00+01:00</published><updated>2020-04-01T00:00:00+01:00</updated><id>http://jameslieu.github.io/mocking-in-js</id><content type="html" xml:base="http://jameslieu.github.io/mocking-in-js/">&lt;p&gt;The purpose of this post is to compare the libraries we’re currently using for mocking in our tests.
 The two primary libraries we’re using are &lt;code class=&quot;highlighter-rouge&quot;&gt;Proxyquire&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;Sinon&lt;/code&gt;. &lt;/p&gt;
 
 &lt;p&gt;At the moment we’re using those interchangeably, and there seems to be some confusion to which one we should use or sometimes even both are used in the same test. The initial motivation for writing this blog was because of some of the challenges or confusion that we have faced when attempting to mock/stub the AWS SDK in our unit tests. So I have put together these notes to compare the ways we can achieve the same test for each library.&lt;/p&gt;
@@ -964,7 +1088,7 @@ The two primary libraries we’re using are &lt;code class=&quot;highligh
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/sinonjs/sinon&quot;&gt;https://github.com/sinonjs/sinon&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/dwyl/aws-sdk-mock&quot;&gt;https://github.com/dwyl/aws-sdk-mock&lt;/a&gt;&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Proxyquire VS SinonJS</summary></entry><entry><title type="html">The S.P.A Argument</title><link href="http://localhost:4000/the-spa-argument/" rel="alternate" type="text/html" title="The S.P.A Argument" /><published>2020-03-31T00:00:00+01:00</published><updated>2020-03-31T00:00:00+01:00</updated><id>http://localhost:4000/the-spa-argument</id><content type="html" xml:base="http://localhost:4000/the-spa-argument/">&lt;p&gt;Here’s the article
+&lt;p&gt;&lt;a href=&quot;https://github.com/dwyl/aws-sdk-mock&quot;&gt;https://github.com/dwyl/aws-sdk-mock&lt;/a&gt;&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Proxyquire VS SinonJS</summary></entry><entry><title type="html">The S.P.A Argument</title><link href="http://jameslieu.github.io/the-spa-argument/" rel="alternate" type="text/html" title="The S.P.A Argument" /><published>2020-03-31T00:00:00+01:00</published><updated>2020-03-31T00:00:00+01:00</updated><id>http://jameslieu.github.io/the-spa-argument</id><content type="html" xml:base="http://jameslieu.github.io/the-spa-argument/">&lt;p&gt;Here’s the article
 https://journal.plausible.io/you-probably-dont-need-a-single-page-app&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -983,51 +1107,4 @@ Picking the right architecture for the job makes a huge difference in productivi
 
 &lt;p&gt;The problems we’ve had with Angular were error handling, guards, intercepting calls (to handle refresh tokens) to name a few. These things can go completely without when going the traditional route, Laravel would’ve handled that stuff for us out of the box. I personally don’t regret learning Angular but I can see why my colleague says he has regrets over it, it took us substantially longer to develop anything and the question was whether it was even &lt;em&gt;necessary&lt;/em&gt; for &lt;em&gt;this particular app&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;The SPA route ‘arguably’ adds extra complexity and setup costs when compared to the traditional route and I think that was where the author of that article was getting at.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">There was a short debate I had with some people regarding whether SPAs are necessary based off an article on the subject.</summary></entry><entry><title type="html">Interesting Conversation On Salary</title><link href="http://localhost:4000/interesting-conversation-on-salary/" rel="alternate" type="text/html" title="Interesting Conversation On Salary" /><published>2019-03-01T00:00:00+00:00</published><updated>2019-03-01T00:00:00+00:00</updated><id>http://localhost:4000/interesting-conversation-on-salary</id><content type="html" xml:base="http://localhost:4000/interesting-conversation-on-salary/">&lt;p&gt;We were initially talking about how the interview process for a individual (let’s call him Person-A) was tough in the US market. Its apparently quite different and difficult. I had praised the way Person-A handled it however. He mentioned he did a ton of research on the market, spoken with other developers at the company and really seems to know what he is worth and what offer would be deemed acceptable.&lt;/p&gt;
-
-&lt;p&gt;It kind of escalated after somebody suggested that they would love to see open salaries and that it would be really interesting. I would agree, but I wonder if something similar to the BBC whereby they basically compared the top paid male presenters vs top paid female presenters. But they failed to include any other information such as years of experience, number of viewers, how much value and money they bring to the company or anything related to how successful the presenters were.&lt;/p&gt;
-
-&lt;p&gt;Here was my actual response:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;I would say that the problem with open salaries is that it will never paint the full picture. Some people may have jumped from one company to the next, whereas others are perfectly comfortable staying at the same company for up to 5+ years. Some people are perfectly happy to work unsociable hours such as weekends etc whereas the other requires more fixed times.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;For example, imagine two developers both with 5 years experience. ‘Developer A’ stayed at their company for 5 years, the other (Developer B) moved from job to job up to at least 3 times. It is more likely ‘Developer B’ has the higher salary despite having the same number of year experience than ‘Developer A’&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The reality is that the best way to boost your salary is to move from company to company. Pay rises at the same company will rarely exceed more than 3% even with negotiation. Whereas when moving to a new company its possible to grow your salary up to 30% (well at least that’s what I did, although I was probably in the right place at the right time).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;And when they responded with how if ‘Developer A’ were a women and more senior than ‘Developer B’; a man, then ‘Developer B’ will make more money… Here was my response:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Hmm, I’m not informed about any that to comment. All I’m sure of is that an individual’s salary is usually dictated through negotiation. Which is why I commend &lt;strong&gt;Person-A&lt;/strong&gt;’s methods. He did the research and due diligence has kept him knowledgeable on when he was receiving low-ball offers and stood his ground. I bet if he wanted to, he could’ve accepted those offers and be done with it (with a low salary).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;It kind of went back and fourth a little, but ultimately, I think what I was saying struck a nerve with some of those in the conversation. I guess they feel like its not fair that you would have to negotiate your salary and that you should just be paid what you’re worth. I actually agree, but the question and the challenge is &lt;strong&gt;how do you demonstrate to the employer how much you’re worth?&lt;/strong&gt; Surely by making a counter offer and then justifying why this offer would be deemed fair to you, which is basically negotiating right?&lt;/p&gt;
-
-&lt;p&gt;Its a tough conversation to have because these can be quite sensitive to those involved and its fairly easy to offend someone with topics like these. I think where it went wrong was because some people in the discussion kept put the example individuals into a group identity i.e. A woman or colour or a ethnic minority. Basically anyone not a cisgender white man.&lt;/p&gt;
-
-&lt;p&gt;The whole discussion started to get a little ridiculous, one person started to get a little annoyed when I said that the solution to getting a good salary is to improve your negotiation skills, but I feel like she misunderstood and sarcastically said something along the lines of ‘Yeah sure! we women need to get better at what men are good at’… I don’t remember specifically mentioning women at all, and when I tried to explain that by saying ‘And guys, I didn’t say anything about women not being able to do this’, one person accused me of not including her and one other person (both were women) because I used the word ‘guys’, which by the way, I used as a gender-neutral term.&lt;/p&gt;
-
-&lt;p&gt;I then proceeded to give an example of my original point in order to stay on topic:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I can give you an example, (although this is anecdotal).
-My sister (who is an architect) once applied for a position (which also outlines the salary range). She passed the interview and when they made an offer, she gave an counter offer of 10k more. She then proceeded to explain in detail why she believes she is worth that much and what value she brings to the company. The company hired her&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;After this I was accused of ‘mansplaining’. At this point, I felt the conversation was no longer constructive and that I was never going to learn anything new from that point on. I think in some ways its a real shame it ended up this way. Conversations like these are important and I believe will help a lot of people both men and women who are actually less than what they’re worth.&lt;/p&gt;
-
-&lt;p&gt;There are many factors to consider when receiving an offer at a particular company. What is the company’s situation? Are they desperate to fill the position due to deadlines and requirements? Are they desperate to fill a position that will be available as an existing employee is moving on from the company ? Do they have the budget to match even your minimum offer or exceed it by a significantly higher amount?&lt;/p&gt;
-
-&lt;p&gt;Crazily enough, the company can be considering similar factors which considering a candidate. Is the candidate desperate to fill the role? Is the candidate unemployed or going to be soon? What is their minimum range and will they negotiate? What actual experience do they have? Are they the best candidate we have based on the shortlist of candidates we’ve also interviewed? etc&lt;/p&gt;
-
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;Instead of pointing fingers and blaming others for things you have no control over, instead focus on what you do have control over. Do your research, know how much the market rate is and what your position is in regards to how much salary you can realistically achieve. Once you have a minimum range, then make sure you don’t accept any less, and be prepared to justify why. You can’t just say that you want 10k more and expect them to simply agree based on your character.
-You can say that you want 10k more because of the experience and value you can bring to the company.&lt;/p&gt;
-
-&lt;p&gt;You can dislike the game but ultimately the rules are set, are you going to complain or take the steps necessary to get better at the game and achieve the results you want?&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">I had an interesting discussion on Slack today.</summary></entry></feed>
+&lt;p&gt;The SPA route ‘arguably’ adds extra complexity and setup costs when compared to the traditional route and I think that was where the author of that article was getting at.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">There was a short debate I had with some people regarding whether SPAs are necessary based off an article on the subject.</summary></entry></feed>

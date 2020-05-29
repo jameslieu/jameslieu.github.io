@@ -2,7 +2,7 @@
 layout: post
 title: "How I build habits"
 categories: Productivity
-excerpt: A guide on how I build habits..
+excerpt: A guide on how I build habits.
 ---
 
 On 23rd November 2018, I finished reading a book called [The Slight Edge by Jeff Olson](https://www.goodreads.com/book/show/23130805-the-slight-edge) (which I re-read on August 21st 2019 - both dates according to my [Goodreads profile](https://www.goodreads.com/jameslieu)). I highly recommend the book and one major take-away for me was that **small consistent actions compound and create big results**.
