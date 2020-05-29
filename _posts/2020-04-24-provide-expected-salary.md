@@ -1,14 +1,9 @@
 ---
 layout: post
 title:  "Should I Provide An Expected Salary?"
-date:   2020-04-24 16:30
-categories: career
-comments: true
+categories: Career
+excerpt: My opinion on whether providing an expected salary when applying for a role.
 ---
-
-My opinion on whether providing an expected salary when applying for a role.
-
-<!--more-->
 
 There was a discussion asked in the Maker's slack channel regarding providing an expected salary:
 

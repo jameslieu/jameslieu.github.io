@@ -1,14 +1,9 @@
 ---
 layout: post
 title:  "To Hire a Junior Vs Senior Developer"
-date:   2019-02-09 19:11
-categories: career
-comments: true
+categories: Career
+excerpt: Just read an interesting post from LinkedIn regarding hiring practices between junior or senior engineers. I didn't feel I was at liberty to comment (as I'm not a hiring manager) but I had some thoughts.
 ---
-
-Just read an interesting post from LinkedIn regarding hiring practices between junior or senior engineers. I didn't feel I was at liberty to comment (as I'm not a hiring manager) but I had some thoughts.
-
-<!--more-->
 
 Here is the question:
 

@@ -1,15 +1,8 @@
 ---
 layout: post
 title:  "Introduction to SNS and SQS"
-date:   2020-04-01 16:00
-categories: aws
-comments: true
----
-
-So for this post I'll be covering a basic overview of Amazon's Simple Queue Service (known as SQS) and Amazon's Simple Notification Service (known as SNS).
-
-<!--more-->
-
+categories: Programming
+excerpt: So for this post I'll be covering a basic overview of Amazon's Simple Queue Service (known as SQS) and Amazon's Simple Notification Service (known as SNS).
 ---
 
 ### Agenda

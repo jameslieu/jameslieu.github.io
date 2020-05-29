@@ -1,11 +1,9 @@
 ---
 layout: post
 title:  "What is Polymorphism?"
-date:   2014-12-29 17:07:00
-categories: programming
-comments: true
+categories: Programming
+excerpt: What is polymorphism? I've found that this question in particular is asked quite frequently in tech interviews. I was asked this in a phone interview once and I did not know the answer to this unfortunately. I believe that it was this question that prevented me from getting to the next stage of the interview, so of course I decided to look into it.
 ---
-
 
 What is polymorphism? I've found that this question in particular is asked quite frequently in tech interviews. I was asked this in a phone interview once and I did not know the answer to this unfortunately. I believe that it was this question that prevented me from getting to the next stage of the interview, so of course I decided to look into it.
 

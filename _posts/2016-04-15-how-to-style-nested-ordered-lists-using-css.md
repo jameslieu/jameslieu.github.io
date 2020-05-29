@@ -2,13 +2,11 @@
 layout: post
 title:  "How to style nested ordered lists using css"
 date:   2016-04-15 23:51
-categories: css
-comments: true
+categories: Programming
+excerpt: I've found that it can be quite difficult to figure out how to style nested ordered lists using css. Imagine if I needed to put together a contract or Terms and conditions document using HTML and CSS.
 ---
 
 I've found that it can be quite difficult to figure out how to style nested ordered lists using css. Imagine if I needed to put together a contract or Terms and conditions document using HTML and CSS.
-
-<!--more-->
 
 Its not uncommon for contracts to use sub sections and so the document will likely use nested ordered lists in HTML. What if the sub sections are styled differently?
 

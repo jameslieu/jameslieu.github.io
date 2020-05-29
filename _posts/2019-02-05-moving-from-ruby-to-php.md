@@ -1,14 +1,9 @@
 ---
 layout: post
 title:  "Moving From Ruby To PHP"
-date:   2019-02-07 21:41
-categories: php
-comments: true
+categories: Programming
+excerpt: When I changed jobs from a Ruby role to a PHP role. A lot of people asked why? They anecdotally tell me that it is often the other way round where developers who specialised in PHP, moves to Ruby instead (Well at least this was the common talk back in 2016).
 ---
-
-When I changed jobs from a Ruby role to a PHP role. A lot of people asked why? They anecdotally tell me that it is often the other way round where developers who specialised in PHP, moves to Ruby instead (Well at least this was the common talk back in 2016).
-
-<!--more-->
 
 The main reason to be honest was that I relocated from London to Milton Keynes. In London there is a huge demand of Ruby roles available and they also appear to be prepared to pay top dollar for the developers as well, presumably due to the demand.
 

@@ -1,14 +1,9 @@
 ---
 layout: post
 title: "How I build habits"
-date: 2020-05-25 00:08
-categories: productivity
-comments: true
+categories: Productivity
+excerpt: A guide on how I build habits..
 ---
-
-A guide on how I build habits.
-
-<!--more-->
 
 On 23rd November 2018, I finished reading a book called [The Slight Edge by Jeff Olson](https://www.goodreads.com/book/show/23130805-the-slight-edge) (which I re-read on August 21st 2019 - both dates according to  my [Goodreads profile](https://www.goodreads.com/jameslieu)). I highly recommend the book and one major take-away for me was that **small consistent actions compound and create big results**.
 
@@ -48,7 +43,7 @@ My company had provided me an annual [Pluralsight](https://pluralsight.com/) mem
 
 In my habit tracker, I added a new daily task to "Watch 10 minutes of Pluralsight". I've missed only one day (which according to Pluralsight, it was 39 days ago because (as of today) I had just broken my record of a 38 day streak.
 
-<img src="/assets/media/how-i-build-habits-1.png" style="height: 350px;"/>
+<img src="/assets/media/how-i-build-habits-1.png" style="height: 250px;"/>
 _- My Pluralsight profile activity insights as of 24th May 2020_
 
 As you can see, by just aiming to watch 10 minutes a day (which sometimes ended up being 20-30 minutes), the results are huge and according to the "View Time" on my profile, the number of hours of content I've watched between March – May when compared to January and February has increased quite a lot.

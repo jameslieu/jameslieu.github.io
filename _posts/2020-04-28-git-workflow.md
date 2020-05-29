@@ -1,14 +1,9 @@
 ---
 layout: post
 title: "Git Workflow"
-date: 2020-04-28 12:50
-categories: git
-comments: true
+categories: Programming
+excerpt: At a previous company, many of my colleagues had little to no experience with version-control. Git was recently introduced into their workflow :)
 ---
-
-At a previous company, many of my colleagues had little to no experience with version-control. Git was recently introduced into their workflow :)
-
-<!--more-->
 
 ### Background
 

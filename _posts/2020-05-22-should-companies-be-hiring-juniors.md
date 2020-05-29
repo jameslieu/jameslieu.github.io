@@ -2,13 +2,9 @@
 layout: post
 title: "Should Companies Be Hiring Juniors?"
 date: 2020-05-22 17:00
-categories: career
-comments: true
+categories: Career
+excerpt: "Do any of you work in companies that should be hiring juniors but aren't? What's stopping them?"
 ---
-
-"Do any of you work in companies that should be hiring juniors but aren't? What's stopping them?"
-
-<!--more-->
 
 This question was asked by someone on the Slack channel.
 Here were some of the responses:

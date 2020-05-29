@@ -1,14 +1,11 @@
 ---
 layout: post
 title:  "Launch Sublime Text 3 using command line"
-date:   2015-10-04 13:35:00
-categories: sublime
-comments: true
+categories: Tooling
+excerpt: Sublime Text 3 ships with a CLI called `subl`. You will have to do a minor configuration though.
 ---
 
 Sublime Text 3 ships with a CLI called `subl`. You will have to do a minor configuration though.
-
-<!--more-->
 
 Firstly, check your `$PATH` by running: `echo $PATH`.
 

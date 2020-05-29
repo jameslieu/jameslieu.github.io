@@ -1,14 +1,9 @@
 ---
 layout: post
 title:  "Simply git-rebase"
-date:   2015-01-25 23:00:00
-categories: git
-comments: true
+categories: Programming
+excerpt: Today I've decided to write about `Git Rebasing`.
 ---
-
-Today I've decided to write about `Git Rebasing`.
-
-<!--more-->
 
 To be honest I've only recently discovered rebasing and I'm not too familiar with all of its uses or commands. What I do know is that the `git rebase` command allows me to modify the history of my repository by changing my `commits`. `Git rebase` can reorder, edit, or squash commits together. I've found this especially useful when commiting very minor changes such as removing white space or correcting typos. It happens all too frequently and these commits do nothing but clutter my repository history. Being able to combine those to a previous commit has made my commit history a lot cleaner.
 

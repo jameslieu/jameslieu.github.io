@@ -1,14 +1,11 @@
 ---
 layout: post
 title:  "Dropping and resetting database all in one rake task"
-date:   2014-07-30 11:41:30
-categories: ruby
-comments: true
+categories: Programming
+excerpt: When building a new Rails app, I've found that I constantly have had to drop the database, create it, run a migration and finally the seed.
 ---
 
 When building a new Rails app, I've found that I constantly have had to drop the database, create it, run a migration and finally the seed.
-
-<!--more-->
 
 {% highlight ruby %}
 rake db:drop

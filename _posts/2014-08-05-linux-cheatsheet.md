@@ -1,16 +1,11 @@
 ---
 layout: post
 title:  "Bash command line for Linux - Cheat Sheet"
-date:   2014-08-05 13:09:30
-categories: linux
-comments: true
+categories: Linux
+excerpt: I've found these commands to be very useful but at the same time I can just as easily forget them. Therefore in this post I wanted to add a cheat sheet so I can refer back to it whenever I need to. These are the common ones I used the most
 ---
 
 I've found these commands to be very useful but at the same time I can just as easily forget them. Therefore in this post I wanted to add a cheat sheet so I can refer back to it whenever I need to. These are the common ones I used the most
-
-<!--more-->
-
-If there are any you think will also be useful please let me know in the comments below.
 
 ---
 

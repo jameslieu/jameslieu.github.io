@@ -1,14 +1,11 @@
 ---
 layout: post
 title:  "Install Sublime Text 2 on Ubuntu"
-date:   2014-08-13 09:47:00
-categories: sublime
-comments: true
+categories: Tooling
+excerpt: The fastest way I've found to install sublime text 2.
 ---
 
 The fastest way I've found to install sublime text 2.
-
-<!--more-->
 
 Copy and paste the following into the terminal
 <pre>

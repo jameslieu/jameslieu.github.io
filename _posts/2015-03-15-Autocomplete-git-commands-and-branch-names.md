@@ -1,14 +1,11 @@
 ---
 layout: post
 title:  "Autocomplete git commands and branch names"
-date:   2015-03-15 20:15:00
-categories: git
-comments: true
+categories: Programming
+excerpt: In bash in Mac OS X, you can use TAB to autocomplete file paths. By default this doesn't work with git commands,  I'll have to manually configurate it
 ---
 
 In bash in Mac OS X, you can use [TAB] to autocomplete file paths. By default this doesn't work with git commands,  I'll have to manually configurate it. Here's how:
-
-<!--more-->
 
 Paste this command into the terminal, this will download the `git-completion.bash` script needed to execute the autocomplete:
 <pre>

@@ -1,14 +1,9 @@
 ---
 layout: post
 title:  "Why Am I Blogging?"
-date:   2019-02-02 22:00
-categories: blog
-comments: true
+categories: Misc
+excerpt: You may have noticed that there is a hiatus in blog posts between 2016 and 2019
 ---
-
-You may have noticed that there is a hiatus in blog posts between 2016 and 2019
-
-<!--more-->
 
 To be honest, I basically forgot about the blog really. It wasn't on my list of priorities, and I guess I initially started the blog to help with my
 chances for job opportunities. Being a junior at the time, it was tough to brake into a role without some experience under your belt.

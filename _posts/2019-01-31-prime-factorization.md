@@ -1,16 +1,11 @@
 ---
 layout: post
 title:  "Get The Prime Factors"
-date:   2019-01-31 07:45
-categories: ruby
-comments: true
+categories: Programming
+excerpt: Recently I was tasked to complete a coding challenge.
 ---
 
 Recently I was tasked to complete a coding challenge.
-
-<!--more-->
-
----
 
 _Write a shell executable program in Ruby that prints the prime factors of a positive integer number.
 The number should be received as an argument from the command line, as illustrated below.

@@ -1,21 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>jameslieu.github.io</title>
-    <description>James Lieu</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 25 May 2020 00:49:47 +0100</pubDate>
-    <lastBuildDate>Mon, 25 May 2020 00:49:47 +0100</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
-    
-      <item>
-        <title>How I build habits</title>
-        <description>&lt;p&gt;A guide on how I build habits.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;On 23rd November 2018, I finished reading a book called &lt;a href=&quot;https://www.goodreads.com/book/show/23130805-the-slight-edge&quot;&gt;The Slight Edge by Jeff Olson&lt;/a&gt; (which I re-read on August 21st 2019 - both dates according to  my &lt;a href=&quot;https://www.goodreads.com/jameslieu&quot;&gt;Goodreads profile&lt;/a&gt;). I highly recommend the book and one major take-away for me was that &lt;strong&gt;small consistent actions compound and create big results&lt;/strong&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-29T14:26:03+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">How I build habits</title><link href="http://localhost:4000/how-i-build-habits/" rel="alternate" type="text/html" title="How I build habits" /><published>2020-05-25T00:00:00+01:00</published><updated>2020-05-25T00:00:00+01:00</updated><id>http://localhost:4000/how-i-build-habits</id><content type="html" xml:base="http://localhost:4000/how-i-build-habits/">&lt;p&gt;On 23rd November 2018, I finished reading a book called &lt;a href=&quot;https://www.goodreads.com/book/show/23130805-the-slight-edge&quot;&gt;The Slight Edge by Jeff Olson&lt;/a&gt; (which I re-read on August 21st 2019 - both dates according to  my &lt;a href=&quot;https://www.goodreads.com/jameslieu&quot;&gt;Goodreads profile&lt;/a&gt;). I highly recommend the book and one major take-away for me was that &lt;strong&gt;small consistent actions compound and create big results&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;I can’t remember exactly when I started to adopt this principle into my life. But I still use it today and thought it would make for a good post here. I incorporate this into my daily habits. One of which is do one set of push-ups daily.&lt;/p&gt;
 
@@ -53,7 +36,7 @@
 
 &lt;p&gt;In my habit tracker, I added a new daily task to “Watch 10 minutes of Pluralsight”. I’ve missed only one day (which according to Pluralsight, it was 39 days ago because (as of today) I had just broken my record of a 38 day streak.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/media/how-i-build-habits-1.png&quot; style=&quot;height: 350px;&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/media/how-i-build-habits-1.png&quot; style=&quot;height: 250px;&quot; /&gt;
 &lt;em&gt;- My Pluralsight profile activity insights as of 24th May 2020&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;As you can see, by just aiming to watch 10 minutes a day (which sometimes ended up being 20-30 minutes), the results are huge and according to the “View Time” on my profile, the number of hours of content I’ve watched between March – May when compared to January and February has increased quite a lot.&lt;/p&gt;
@@ -94,24 +77,7 @@
 
 &lt;p&gt;&lt;em&gt;[1] The 10 pages task, I don’t do consistently unless I have a book I want to read, however, once I decide on a book, I apply this principle in order to motivate me to complete it.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;[2] Based on average page size of 273 for a book from this site: &lt;a href=&quot;https://scribewriting.com/how-long-should-book-be/&quot;&gt;Scribe Writing&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 25 May 2020 00:08:00 +0100</pubDate>
-        <link>http://localhost:4000/productivity/2020/05/25/how-i-build-habits/</link>
-        <guid isPermaLink="true">http://localhost:4000/productivity/2020/05/25/how-i-build-habits/</guid>
-        
-        
-        <category>productivity</category>
-        
-      </item>
-    
-      <item>
-        <title>Should Companies Be Hiring Juniors?</title>
-        <description>&lt;p&gt;“Do any of you work in companies that should be hiring juniors but aren’t? What’s stopping them?”&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;This question was asked by someone on the Slack channel.
+&lt;p&gt;&lt;em&gt;[2] Based on average page size of 273 for a book from this site: &lt;a href=&quot;https://scribewriting.com/how-long-should-book-be/&quot;&gt;Scribe Writing&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">A guide on how I build habits..</summary></entry><entry><title type="html">Should Companies Be Hiring Juniors?</title><link href="http://localhost:4000/should-companies-be-hiring-juniors/" rel="alternate" type="text/html" title="Should Companies Be Hiring Juniors?" /><published>2020-05-22T17:00:00+01:00</published><updated>2020-05-22T17:00:00+01:00</updated><id>http://localhost:4000/should-companies-be-hiring-juniors</id><content type="html" xml:base="http://localhost:4000/should-companies-be-hiring-juniors/">&lt;p&gt;This question was asked by someone on the Slack channel.
 Here were some of the responses:&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -167,24 +133,7 @@ Not to mention requiring the time of existing developers to assist thus also add
 
 &lt;p&gt;At the end of the day, salaries should mostly be dictated by what amount of productivity an employer can bring. The more junior you are, the less productivity you can bring when compared to mid-senior level developers, but this can be offset by accepting a lower salary. So the answer to the titled question would depend on whether it is more expensive to hire said junior.&lt;/p&gt;
 
-&lt;p&gt;So in conclusion, as per my response: If you’re a junior-level developer, consider taking a low salary because in my opinion, the best thing for a junior, is getting their foot through the door first in order to gain things that are of greater value than salary.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 22 May 2020 17:00:00 +0100</pubDate>
-        <link>http://localhost:4000/career/2020/05/22/should-companies-be-hiring-juniors/</link>
-        <guid isPermaLink="true">http://localhost:4000/career/2020/05/22/should-companies-be-hiring-juniors/</guid>
-        
-        
-        <category>career</category>
-        
-      </item>
-    
-      <item>
-        <title>Preferably 5+ years of experience</title>
-        <description>&lt;p&gt;Applying for developer roles is not as complicated as one would think.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;Somebody had posted a application in the #careers channel of the Slack group I’m a part of.
+&lt;p&gt;So in conclusion, as per my response: If you’re a junior-level developer, consider taking a low salary because in my opinion, the best thing for a junior, is getting their foot through the door first in order to gain things that are of greater value than salary.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Do any of you work in companies that should be hiring juniors but aren't? What's stopping them?</summary></entry><entry><title type="html">Preferably 5+ years of experience</title><link href="http://localhost:4000/preferably-5-years-of-experience/" rel="alternate" type="text/html" title="Preferably 5+ years of experience" /><published>2020-05-21T00:00:00+01:00</published><updated>2020-05-21T00:00:00+01:00</updated><id>http://localhost:4000/preferably-5-years-of-experience</id><content type="html" xml:base="http://localhost:4000/preferably-5-years-of-experience/">&lt;p&gt;Somebody had posted a application in the #careers channel of the Slack group I’m a part of.
 And then somebody left this response:&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -205,7 +154,7 @@ And then somebody left this response:&lt;/p&gt;
 
 &lt;p&gt;Software developer job applications on the internet will usually come some requirements for what the employer expects in a candidate. Here is an example from the actual application:&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;You should have:
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;You should have:
 
 - Preferably 5+ years software development experience including Ruby.
 - Experience of writing apps using Ruby on Rails or a similar framework.
@@ -293,24 +242,7 @@ And then somebody left this response:&lt;/p&gt;
 
 &lt;p&gt;If they need the role to be filled, they may be willing to at least have a conversation with you, which is your opportunity to convince them to make you an offer.&lt;/p&gt;
 
-&lt;p&gt;Also, don’t forget that you will likely be competing with other people as well, so don’t stop there, apply for many other job applications. The more you apply for, the greater your success rate. Maybe one of them will convert to an interview and potentially lead to an offer.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 21 May 2020 23:58:00 +0100</pubDate>
-        <link>http://localhost:4000/career/2020/05/21/preferably-5-years-of-experience/</link>
-        <guid isPermaLink="true">http://localhost:4000/career/2020/05/21/preferably-5-years-of-experience/</guid>
-        
-        
-        <category>career</category>
-        
-      </item>
-    
-      <item>
-        <title>Is PHP Bad?</title>
-        <description>&lt;p&gt;The best meme in /r/ProgrammerHumor&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;I’m subscribed to the subreddit &lt;a href=&quot;https://www.reddit.com/r/ProgrammerHumor/&quot;&gt;/r/programmerhumour&lt;/a&gt; - dedicated to humor and jokes relating to programmers and programming.&lt;/p&gt;
+&lt;p&gt;Also, don’t forget that you will likely be competing with other people as well, so don’t stop there, apply for many other job applications. The more you apply for, the greater your success rate. Maybe one of them will convert to an interview and potentially lead to an offer.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Applying for developer roles is not as complicated as one would think.</summary></entry><entry><title type="html">Is PHP Bad?</title><link href="http://localhost:4000/is-php-bad/" rel="alternate" type="text/html" title="Is PHP Bad?" /><published>2020-05-04T00:00:00+01:00</published><updated>2020-05-04T00:00:00+01:00</updated><id>http://localhost:4000/is-php-bad</id><content type="html" xml:base="http://localhost:4000/is-php-bad/">&lt;p&gt;I’m subscribed to the subreddit &lt;a href=&quot;https://www.reddit.com/r/ProgrammerHumor/&quot;&gt;/r/programmerhumour&lt;/a&gt; - dedicated to humor and jokes relating to programmers and programming.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/is-php-bad-3.jpg&quot; style=&quot;height: 250px;&quot; /&gt;&lt;/p&gt;
 
@@ -371,24 +303,7 @@ And then somebody left this response:&lt;/p&gt;
 
 &lt;p&gt;In any case, it is still good to have an open mind, anyone defending/attacking PHP should hopefully have had experience with it as well as other languages before casting judgement. Best to avoid focusing on what other people think and enjoy the memes.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/media/is-php-bad-1.jpg&quot; style=&quot;height: 400px;&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 04 May 2020 16:30:00 +0100</pubDate>
-        <link>http://localhost:4000/php/2020/05/04/is-php-bad/</link>
-        <guid isPermaLink="true">http://localhost:4000/php/2020/05/04/is-php-bad/</guid>
-        
-        
-        <category>php</category>
-        
-      </item>
-    
-      <item>
-        <title>Git Workflow</title>
-        <description>&lt;p&gt;At a previous company, many of my colleagues had little to no experience with version-control. Git was recently introduced into their workflow :)&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h3 id=&quot;background&quot;&gt;Background&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/media/is-php-bad-1.jpg&quot; style=&quot;height: 400px;&quot; /&gt;&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">The best meme in /r/ProgrammerHumor</summary></entry><entry><title type="html">Git Workflow</title><link href="http://localhost:4000/git-workflow/" rel="alternate" type="text/html" title="Git Workflow" /><published>2020-04-28T00:00:00+01:00</published><updated>2020-04-28T00:00:00+01:00</updated><id>http://localhost:4000/git-workflow</id><content type="html" xml:base="http://localhost:4000/git-workflow/">&lt;h3 id=&quot;background&quot;&gt;Background&lt;/h3&gt;
 
 &lt;p&gt;I had just started a new role there, they were not using any version control (which led to many problems) and so Git was introduced into their workflow by the tech lead who had also just started his role a month prior.
 Within the team and the work they were doing - there were so many issues:&lt;/p&gt;
@@ -483,24 +398,7 @@ Master is branched off into a new ‘feature’ branch, then the feature branch 
 
 &lt;p&gt;In any case, I would’ve prefered we used a more simple Git Workflow such as the &lt;a href=&quot;https://guides.github.com/introduction/flow/&quot;&gt;GitHub Flow&lt;/a&gt; to avoid overwhelming them with some of Git’s more complicated features (present in the &lt;a href=&quot;https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&quot;&gt;Gitflow Workflow&lt;/a&gt;) while they learn.&lt;/p&gt;
 
-&lt;p&gt;Maybe I’ll one day, now that I have some experience with both Git Workflows, write a blog post to compare &lt;a href=&quot;https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&quot;&gt;Gitflow Workflow&lt;/a&gt; vs &lt;a href=&quot;https://guides.github.com/introduction/flow/&quot;&gt;GitHub Flow&lt;/a&gt; and see the pros/cons of each workflow.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 28 Apr 2020 12:50:00 +0100</pubDate>
-        <link>http://localhost:4000/git/2020/04/28/git-workflow/</link>
-        <guid isPermaLink="true">http://localhost:4000/git/2020/04/28/git-workflow/</guid>
-        
-        
-        <category>git</category>
-        
-      </item>
-    
-      <item>
-        <title>Should I Provide An Expected Salary?</title>
-        <description>&lt;p&gt;My opinion on whether providing an expected salary when applying for a role.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;There was a discussion asked in the Maker’s slack channel regarding providing an expected salary:&lt;/p&gt;
+&lt;p&gt;Maybe I’ll one day, now that I have some experience with both Git Workflows, write a blog post to compare &lt;a href=&quot;https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow&quot;&gt;Gitflow Workflow&lt;/a&gt; vs &lt;a href=&quot;https://guides.github.com/introduction/flow/&quot;&gt;GitHub Flow&lt;/a&gt; and see the pros/cons of each workflow.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">At a previous company, many of my colleagues had little to no experience with version-control. Git was recently introduced into their workflow :)</summary></entry><entry><title type="html">Should I Provide An Expected Salary?</title><link href="http://localhost:4000/provide-expected-salary/" rel="alternate" type="text/html" title="Should I Provide An Expected Salary?" /><published>2020-04-24T00:00:00+01:00</published><updated>2020-04-24T00:00:00+01:00</updated><id>http://localhost:4000/provide-expected-salary</id><content type="html" xml:base="http://localhost:4000/provide-expected-salary/">&lt;p&gt;There was a discussion asked in the Maker’s slack channel regarding providing an expected salary:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Anyone have any advice on how to fill in the “Expected Salary” field of a job application? Of note:&lt;/p&gt;
@@ -609,26 +507,7 @@ Master is branched off into a new ‘feature’ branch, then the feature branch 
 
 &lt;p&gt;These things should be considered when thinking about the offer, sometimes its not necessarily a bad thing to accept a lower salary but then also receiving a lot of other benefits as a result.&lt;/p&gt;
 
-&lt;p&gt;I personally would much rather choose a position with a sensible or fair salary that has great benefits instead of a position where it pays extremely well but everything else from work/life balance to who you’re working with is terrible.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 24 Apr 2020 16:30:00 +0100</pubDate>
-        <link>http://localhost:4000/career/2020/04/24/provide-expected-salary/</link>
-        <guid isPermaLink="true">http://localhost:4000/career/2020/04/24/provide-expected-salary/</guid>
-        
-        
-        <category>career</category>
-        
-      </item>
-    
-      <item>
-        <title>Introduction to SNS and SQS</title>
-        <description>&lt;p&gt;So for this post I’ll be covering a basic overview of Amazon’s Simple Queue Service (known as SQS) and Amazon’s Simple Notification Service (known as SNS).&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;agenda&quot;&gt;Agenda&lt;/h3&gt;
+&lt;p&gt;I personally would much rather choose a position with a sensible or fair salary that has great benefits instead of a position where it pays extremely well but everything else from work/life balance to who you’re working with is terrible.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">My opinion on whether providing an expected salary when applying for a role.</summary></entry><entry><title type="html">Introduction to SNS and SQS</title><link href="http://localhost:4000/introduction-to-sqs-and-sns/" rel="alternate" type="text/html" title="Introduction to SNS and SQS" /><published>2020-04-01T00:00:00+01:00</published><updated>2020-04-01T00:00:00+01:00</updated><id>http://localhost:4000/introduction-to-sqs-and-sns</id><content type="html" xml:base="http://localhost:4000/introduction-to-sqs-and-sns/">&lt;h3 id=&quot;agenda&quot;&gt;Agenda&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;What is SQS?&lt;/li&gt;
@@ -868,25 +747,8 @@ SQS is mainly used to decouple or integrate applications. It also allows clients
 &lt;p&gt;As well as the other benefits mentioned.&lt;/p&gt;
 
 &lt;p&gt;So that concludes my basic overview of the SNS and SQS.
-We’ve covered what is SQS, what is SNS, the difference between the two and the advantages of using them together.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 01 Apr 2020 16:00:00 +0100</pubDate>
-        <link>http://localhost:4000/aws/2020/04/01/introduction-to-sqs-and-sns/</link>
-        <guid isPermaLink="true">http://localhost:4000/aws/2020/04/01/introduction-to-sqs-and-sns/</guid>
-        
-        
-        <category>aws</category>
-        
-      </item>
-    
-      <item>
-        <title>Mocking In JS</title>
-        <description>&lt;p&gt;Proxyquire VS SinonJS&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;The purpose of this post is to compare the libraries we’re currently using for mocking in our tests.
-The two primary libraries we’re using are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Proxyquire&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Sinon&lt;/code&gt;. &lt;/p&gt;
+We’ve covered what is SQS, what is SNS, the difference between the two and the advantages of using them together.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">So for this post I'll be covering a basic overview of Amazon's Simple Queue Service (known as SQS) and Amazon's Simple Notification Service (known as SNS).</summary></entry><entry><title type="html">Mocking In JS</title><link href="http://localhost:4000/mocking-in-js/" rel="alternate" type="text/html" title="Mocking In JS" /><published>2020-04-01T00:00:00+01:00</published><updated>2020-04-01T00:00:00+01:00</updated><id>http://localhost:4000/mocking-in-js</id><content type="html" xml:base="http://localhost:4000/mocking-in-js/">&lt;p&gt;The purpose of this post is to compare the libraries we’re currently using for mocking in our tests.
+The two primary libraries we’re using are &lt;code class=&quot;highlighter-rouge&quot;&gt;Proxyquire&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;Sinon&lt;/code&gt;. &lt;/p&gt;
 
 &lt;p&gt;At the moment we’re using those interchangeably, and there seems to be some confusion to which one we should use or sometimes even both are used in the same test. The initial motivation for writing this blog was because of some of the challenges or confusion that we have faced when attempting to mock/stub the AWS SDK in our unit tests. So I have put together these notes to compare the ways we can achieve the same test for each library.&lt;/p&gt;
 
@@ -1101,24 +963,7 @@ The two primary libraries we’re using are &lt;code class=&quot;language
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/sinonjs/sinon&quot;&gt;https://github.com/sinonjs/sinon&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/dwyl/aws-sdk-mock&quot;&gt;https://github.com/dwyl/aws-sdk-mock&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 01 Apr 2020 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/javascript/2020/04/01/mocking-in-js/</link>
-        <guid isPermaLink="true">http://localhost:4000/javascript/2020/04/01/mocking-in-js/</guid>
-        
-        
-        <category>javascript</category>
-        
-      </item>
-    
-      <item>
-        <title>The S.P.A Argument</title>
-        <description>&lt;p&gt;There was a short debate I had with some people regarding whether SPAs are necessary based off an article on the subject.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;Here’s the article
+&lt;p&gt;&lt;a href=&quot;https://github.com/dwyl/aws-sdk-mock&quot;&gt;https://github.com/dwyl/aws-sdk-mock&lt;/a&gt;&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Proxyquire VS SinonJS</summary></entry><entry><title type="html">The S.P.A Argument</title><link href="http://localhost:4000/the-spa-argument/" rel="alternate" type="text/html" title="The S.P.A Argument" /><published>2020-03-31T00:00:00+01:00</published><updated>2020-03-31T00:00:00+01:00</updated><id>http://localhost:4000/the-spa-argument</id><content type="html" xml:base="http://localhost:4000/the-spa-argument/">&lt;p&gt;Here’s the article
 https://journal.plausible.io/you-probably-dont-need-a-single-page-app&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -1137,24 +982,7 @@ Picking the right architecture for the job makes a huge difference in productivi
 
 &lt;p&gt;The problems we’ve had with Angular were error handling, guards, intercepting calls (to handle refresh tokens) to name a few. These things can go completely without when going the traditional route, Laravel would’ve handled that stuff for us out of the box. I personally don’t regret learning Angular but I can see why my colleague says he has regrets over it, it took us substantially longer to develop anything and the question was whether it was even &lt;em&gt;necessary&lt;/em&gt; for &lt;em&gt;this particular app&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;The SPA route ‘arguably’ adds extra complexity and setup costs when compared to the traditional route and I think that was where the author of that article was getting at.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 31 Mar 2020 14:36:00 +0100</pubDate>
-        <link>http://localhost:4000/javascript/2020/03/31/the-spa-argument/</link>
-        <guid isPermaLink="true">http://localhost:4000/javascript/2020/03/31/the-spa-argument/</guid>
-        
-        
-        <category>javascript</category>
-        
-      </item>
-    
-      <item>
-        <title>Interesting Conversation On Salary</title>
-        <description>&lt;p&gt;I had an interesting discussion on Slack today.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;We were initially talking about how the interview process for a individual (let’s call him Person-A) was tough in the US market. Its apparently quite different and difficult. I had praised the way Person-A handled it however. He mentioned he did a ton of research on the market, spoken with other developers at the company and really seems to know what he is worth and what offer would be deemed acceptable.&lt;/p&gt;
+&lt;p&gt;The SPA route ‘arguably’ adds extra complexity and setup costs when compared to the traditional route and I think that was where the author of that article was getting at.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">There was a short debate I had with some people regarding whether SPAs are necessary based off an article on the subject.</summary></entry><entry><title type="html">Interesting Conversation On Salary</title><link href="http://localhost:4000/interesting-conversation-on-salary/" rel="alternate" type="text/html" title="Interesting Conversation On Salary" /><published>2019-03-01T00:00:00+00:00</published><updated>2019-03-01T00:00:00+00:00</updated><id>http://localhost:4000/interesting-conversation-on-salary</id><content type="html" xml:base="http://localhost:4000/interesting-conversation-on-salary/">&lt;p&gt;We were initially talking about how the interview process for a individual (let’s call him Person-A) was tough in the US market. Its apparently quite different and difficult. I had praised the way Person-A handled it however. He mentioned he did a ton of research on the market, spoken with other developers at the company and really seems to know what he is worth and what offer would be deemed acceptable.&lt;/p&gt;
 
 &lt;p&gt;It kind of escalated after somebody suggested that they would love to see open salaries and that it would be really interesting. I would agree, but I wonder if something similar to the BBC whereby they basically compared the top paid male presenters vs top paid female presenters. But they failed to include any other information such as years of experience, number of viewers, how much value and money they bring to the company or anything related to how successful the presenters were.&lt;/p&gt;
 
@@ -1196,21 +1024,9 @@ My sister (who is an architect) once applied for a position (which also outlines
 
 &lt;p&gt;Crazily enough, the company can be considering similar factors which considering a candidate. Is the candidate desperate to fill the role? Is the candidate unemployed or going to be soon? What is their minimum range and will they negotiate? What actual experience do they have? Are they the best candidate we have based on the shortlist of candidates we’ve also interviewed? etc&lt;/p&gt;
 
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
 
 &lt;p&gt;Instead of pointing fingers and blaming others for things you have no control over, instead focus on what you do have control over. Do your research, know how much the market rate is and what your position is in regards to how much salary you can realistically achieve. Once you have a minimum range, then make sure you don’t accept any less, and be prepared to justify why. You can’t just say that you want 10k more and expect them to simply agree based on your character.
 You can say that you want 10k more because of the experience and value you can bring to the company.&lt;/p&gt;
 
-&lt;p&gt;You can dislike the game but ultimately the rules are set, are you going to complain or take the steps necessary to get better at the game and achieve the results you want?&lt;/p&gt;
-</description>
-        <pubDate>Fri, 01 Mar 2019 00:19:00 +0000</pubDate>
-        <link>http://localhost:4000/career/2019/03/01/interesting-conversation-on-salary/</link>
-        <guid isPermaLink="true">http://localhost:4000/career/2019/03/01/interesting-conversation-on-salary/</guid>
-        
-        
-        <category>career</category>
-        
-      </item>
-    
-  </channel>
-</rss>
+&lt;p&gt;You can dislike the game but ultimately the rules are set, are you going to complain or take the steps necessary to get better at the game and achieve the results you want?&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">I had an interesting discussion on Slack today.</summary></entry></feed>

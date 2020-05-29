@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "Being The Glue"
-date:   2019-02-04 19:57
-categories: career
-comments: true
+categories: Career
+excerpt: I read this interesting SlideShare article today
 ---
 
 I read this interesting [SlideShare article](https://www.slideshare.net/TanyaReilly/being-glue) today.

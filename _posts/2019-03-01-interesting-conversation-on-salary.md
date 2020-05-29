@@ -1,14 +1,9 @@
 ---
 layout: post
 title:  "Interesting Conversation On Salary"
-date:   2019-03-01 00:19
-categories: career
-comments: true
+categories: Career
+excerpt: I had an interesting discussion on Slack today.
 ---
-
-I had an interesting discussion on Slack today.
-
-<!--more-->
 
 We were initially talking about how the interview process for a individual (let's call him Person-A) was tough in the US market. Its apparently quite different and difficult. I had praised the way Person-A handled it however. He mentioned he did a ton of research on the market, spoken with other developers at the company and really seems to know what he is worth and what offer would be deemed acceptable.
 
@@ -43,7 +38,7 @@ There are many factors to consider when receiving an offer at a particular compa
 
 Crazily enough, the company can be considering similar factors which considering a candidate. Is the candidate desperate to fill the role? Is the candidate unemployed or going to be soon? What is their minimum range and will they negotiate? What actual experience do they have? Are they the best candidate we have based on the shortlist of candidates we've also interviewed? etc
 
-## Conclusion
+### Conclusion
 
 Instead of pointing fingers and blaming others for things you have no control over, instead focus on what you do have control over. Do your research, know how much the market rate is and what your position is in regards to how much salary you can realistically achieve. Once you have a minimum range, then make sure you don't accept any less, and be prepared to justify why. You can't just say that you want 10k more and expect them to simply agree based on your character.
 You can say that you want 10k more because of the experience and value you can bring to the company.

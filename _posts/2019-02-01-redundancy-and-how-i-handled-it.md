@@ -1,14 +1,11 @@
 ---
 layout: post
 title:  "Redundancy And How I Handled It"
-date:   2019-02-01 20:53
-categories: career
-comments: true
+categories: Career
+excerpt: It was the start of the new year, we had all just come back in from the Christmas / New year break. Usually the conversations begin with how was your break? What did you get up to? Did you do any Christmas shopping? It started out like this for me and everyone else in the room but it got a lot less wholesome later on
 ---
 
 It was the start of the new year, we had all just come back in from the Christmas / New year break. Usually the conversations begin with how was your break? What did you get up to? Did you do any Christmas shopping? It started out like this for me and everyone else in the room but it got a lot less wholesome later on.
-
-<!--more-->
 
 Around mid-day I was asked by the CEO of my company to have a chat. We went into a meeting room, my line manager was present. The first thing that was said was 'I'm sorry to say, but this isn't good news'.
 

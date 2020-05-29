@@ -1,13 +1,11 @@
 ---
 layout: post
 title:  "How to setup port forwarding on VirtualBox"
-date:   2014-07-31 10:43:30
-categories: ubuntu
-comments: true
+categories: Linux
+excerpt: One of the rails project I worked with required me to get VirtualBox up and running
 ---
-One of the rails project I worked with required me to get VirtualBox up and running with the following specs: Ubuntu 14.04 server amd64 on a 2GB RAM 2 core VM with VT-x/ AMD-v.
 
-<!--more-->
+One of the rails project I worked with required me to get VirtualBox up and running with the following specs: Ubuntu 14.04 server amd64 on a 2GB RAM 2 core VM with VT-x/ AMD-v.
 
 And in there, I had to set up ruby via RVM, install a lot of extra tools and ruby gems. To make things easier for me I used port forwarding.
 <hr />

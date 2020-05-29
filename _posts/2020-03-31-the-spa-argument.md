@@ -1,14 +1,9 @@
 ---
 layout: post
 title:  "The S.P.A Argument"
-date:   2020-03-31 14:36
-categories: javascript
-comments: true
+categories: Programming
+excerpt: There was a short debate I had with some people regarding whether SPAs are necessary based off an article on the subject.
 ---
-
-There was a short debate I had with some people regarding whether SPAs are necessary based off an article on the subject.
-
-<!--more-->
 
 Here's the article
 https://journal.plausible.io/you-probably-dont-need-a-single-page-app

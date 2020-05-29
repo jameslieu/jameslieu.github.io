@@ -1,14 +1,9 @@
 ---
 layout: post
 title:  "Achieving Inbox Zero"
-date:   2019-02-03 20:19
-categories: productivity
-comments: true
+categories: Productivity
+excerpt: There was a time when my email inbox had gotten so cluttered and had 4000+ unread messages, maybe another 5000 read messages as well.
 ---
-
-There was a time when my email inbox had gotten so cluttered and had 4000+ unread messages, maybe another 5000 read messages as well.
-
-<!--more-->
 
 Loads of promotional, spam, order confirmations, recruiter emails, notifications, receipts and irrelevant/useless emails kept over that past 9-10 years. Could be worse though, I've seen somebody who had 13000+ unread messages, this is not including their read messages.
 

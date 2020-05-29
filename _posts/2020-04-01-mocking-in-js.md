@@ -1,14 +1,9 @@
 ---
 layout: post
 title:  "Mocking In JS"
-date:   2020-04-01 00:00
-categories: javascript
-comments: true
+categories: Programming
+excerpt: Proxyquire VS SinonJS
 ---
-
-Proxyquire VS SinonJS
-
-<!--more-->
 
 The purpose of this post is to compare the libraries we're currently using for mocking in our tests.
 The two primary libraries we're using are `Proxyquire` and `Sinon`. 

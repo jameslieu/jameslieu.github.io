@@ -1,15 +1,11 @@
 ---
 layout: post
 title:  "My first post!"
-date:   2014-07-29 13:02:30
-categories: blog
-comments: true
+categories: Misc
+excerpt: This is my first blog post. The post below is the basic markdown used in Jekyll which I'll leave here for reference
 ---
 
 This is my first blog post. The post below is the basic markdown used in Jekyll which I'll leave here for reference
-
-<!--more-->
-
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
 To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.

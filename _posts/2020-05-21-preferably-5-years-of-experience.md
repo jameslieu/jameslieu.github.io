@@ -1,14 +1,9 @@
 ---
 layout: post
 title: "Preferably 5+ years of experience"
-date: 2020-05-21 23:58
-categories: career
-comments: true
+categories: Career
+excerpt: Applying for developer roles is not as complicated as one would think.
 ---
-
-Applying for developer roles is not as complicated as one would think.
-
-<!--more-->
 
 Somebody had posted a application in the #careers channel of the Slack group I'm a part of.
 And then somebody left this response:
