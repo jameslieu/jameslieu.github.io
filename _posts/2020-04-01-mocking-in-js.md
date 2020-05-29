@@ -20,7 +20,8 @@ At the moment we're using those interchangeably, and there seems to be
 
 - Doesn't take over require
 - It's a more traditional mocking framework. 
-- Replace specified methods with fakes, or create a mock that tracks when it was called.
+- Replace specified methods with fakes, 
+- Create a mock that tracks when it was called.
 
 ---
 
