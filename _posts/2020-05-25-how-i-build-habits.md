@@ -9,7 +9,7 @@ On 23rd November 2018, I finished reading a book called [The Slight Edge by Jeff
 
 I can't remember exactly when I adopted this principle into my life. But I still use it today and thought it would make for a good post. I incorporate this into my daily habits - one of which is do one set of push-ups.
 
-### Daily Push-ups &#x1F4C5;
+## Daily Push-ups &#x1F4C5;
 
 In my habit tracker, I have a daily habit of doing only **one set of push-ups – minimum 15 reps**. The idea of only doing one set of 15 repetitions (instead of 3-5 sets for example), is designed to be the very **minimum** I can and should achieve **even on a bad day**.
 
@@ -21,22 +21,20 @@ Also note that I've set only a **minimum** number of reps not a **maximum**. Sur
 
 This system for me has worked very well, if memory serves, I started this particular task last summer meaning I've been doing push-ups almost every day since August 2019, there were only two days I hadn't achieved this daily task.
 
-### Tricking your mind &#x1F60E;
+## Tricking your mind &#x1F60E;
 
 This also taps into another productivity trick. The reason why we procrastinate is usually because our minds just isn't in the 'mood' to do a particular task or chore, so we tend to put it off by doing something else. However, if you're able to just **start** the task, your motivation to continue immediately increases.
 
-###### The Wash Dishes Example
+##### The Wash Dishes Example
 Imagine after dinner, a pile of dishes are stacked into your sink. You had decided to do them after finishing the TV show or movie you were watching, when it finishes you walk to your kitchen and see the stack of dishes and in no mood to wash them right now, maybe you say to yourself that you'll do it in the morning. However, If you instead say to yourself, I'll just clean **one** plate, you might just decide "I might as well just wash them" and then proceed to do so.
 
 Simply actioning the task can be enough to motivate you and you're less likely to put it off if the task is quick and easy.
 
 So back to the push-ups example, making it an easy task by setting the minimum to **15** encourages me to just get it done and over with, it only takes 10-15 seconds to do them. However, once I begin, I can quickly decide whether I can do more, often my goal of only doing 15 reps (on that particular **bad day**) becomes 30-40 reps. And if not, I'll just do a guilt-free 15 reps.
 
-###### Big Results
+## Big Results &#x1f4c8;
 
 When I first started this habit, my initial minimum push-up repetition count was 5. I had gotten so out of shape, I was barely able to achieve 10-20 reps on a good day. Now I'm able to do up to 80+ (to failure) in a push-up set precisely because I've been doing them daily and so I increased the 'minimum' required to complete the task.
-
-### Other examples &#x1f4a1;
 
 So I used the push-ups as an example, but the principle can be applied to any task you want.
 

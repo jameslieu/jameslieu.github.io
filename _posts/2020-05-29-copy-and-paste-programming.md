@@ -14,17 +14,15 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/Copy-and-paste_programmin
 I've begun experiencing this at work lately, We have a microservice architecture and each of these services are ASP.NET Core applications which are very similar to one another. When we need to create a new service, the infrastructure, packages/libraries and design of these services have similar requirements and can be ported across very easily by copy-and-pasting.
 
 ###### What is the issue?
-The issue I have is, that we've learned and improved since the creation of some of these older services but when copying the code across to the new service we tend to copy over **everything**. And this **process** of copying everything sometimes doesn't include reading the code or file and considering whether it is relevant to port across.
+The issue I think is, that we've learned and improved since the creation of some of these older services, when copying the code across to the new service we tend to copy over **everything** as it was, not improving or updating any of the old logic. This **process** of copying everything sometimes doesn't even include reading the code/file and considering whether it is relevant.
 
-Often the ticket to create this new service only requires us to create a new project that mimics the older services `/ping` endpoint and a unit test. Also to port across some of the core infrastructure code such as the logging configuration, and any dependencies such as libraries as well. It makes sense to copy-and-paste those across, but should things like helper classes, unused libraries, test helpers and unused common classes be copied across as well?
+Often the ticket to create this new service only requires us in the first instance, to create a new project that mimics the older services `/ping` endpoint and a unit test. Also to port across some of the core infrastructure code such as the logging configuration, and any dependencies. It makes sense to copy-and-paste those across, but should things like helper classes, unused libraries, test helpers and (currently) unused common classes be copied across as well?
 
 There is an argument for copying those across if we know we're going to use them eventually. The issue with this is that it adds risk to include code we may not use at all. My suggestion to avoid this, is to only copy across code as and when you need them.
 
-There was a good [StackOverflow post](https://stackoverflow.com/a/15700228/2405120)  about removing unused code which I think is relevant.
-
+There was a good [StackOverflow post](https://stackoverflow.com/a/15700228/2405120) about removing unused code which I think is relevant.
 
 Below I'll run through my opinion on what the pros and cons are for copy-and-paste programming.
-
 
 ## Pros &#x1f44d;
 
@@ -75,7 +73,9 @@ Such code may also, in effect, be unintentionally obfuscated, as the names of va
 
 Copy-and-paste programming sounds good at first. Its a very attractive way of working as it can make you feel very productive, it also means you can quickly move on to other tasks/tickets.
 
-But the number of problems that it can introduce is something to consider. I'm not advocating that we never use copy-and-paste but I think its worth actually reading the code and carefully consider whether that code is relevant. But to also take a moment to think whether that code can be improved. Sure it will take a little longer, but also reduce some of the cons above makes it worthwhile.
+But the number of problems that it can introduce is something to consider. I'm not advocating that we never use copy-and-paste but I think its worth actually reading the code and carefully consider whether that code is relevant. And to also take a moment to think whether that code can be improved as well.
+
+Sure it will take a little longer, but also reduce some of the cons above, therefore makes it worthwhile in my opinion.
 
 
 

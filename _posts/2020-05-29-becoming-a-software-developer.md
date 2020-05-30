@@ -7,7 +7,7 @@ excerpt: Reflecting on how I began my programming journey.
 
 Its been 7 years since I've made the decision to change my career and become a developer. And so I thought it would be a great time to write a post on the subject and reflect on my journey to become a software developer.
 
-### 7 Years ago... &#x1f4c6;
+## 7 Years ago... &#x1f4c6;
 It all started in early 2013, my previous employer David Kramaley had gotten in touch by email and mentioned how he remembered I was curious about programming and used to ask questions about it when working with him. He said that a Coding Bootcamp could be  something I may be interested in and provided a link to one based in America.
 
 I really wished I had the original email, I must've deleted it when I was cleaning up my inbox because of wanting to reach [Inbox Zero](/achieving-inbox-zero/).
@@ -16,15 +16,13 @@ If I recall correctly, coincidently I had actually become more curious about pro
 
 I really liked the idea of a Coding Bootcamp, learning programming for 10 weeks then being able to get at least a junior position after graduation. This was very attractive to me as I was either unemployed, or I was working a part-time job doing deliveries and/or cashier work at a Chinese take-away. Else it was working my families Fish and Chip shop with my mother. This particular Bootcamp was based in America and I wasn't willing to relocate, so I quickly Googled for Coding Bootcamps in the UK, there I discovered Makers Academy.
 
-### Makers Academy &#1f3e2;
+## Makers Academy &#x1f3e2;
 
 I'm so thankful that a Coding Bootcamp was based in a location I can attend. One thing I need to mention is that Makers Academy was a start-up company during this time, they had only **just** started enrolling students in **February 2013** which was literally the previous month. Here is a link to their blog post: [We Just Turned 5](https://blog.makersacademy.com/we-just-turned-five-9a45da48206f) (which should match the dates I mentioned)
 
 The cohorts were **very** small, I think fewer than 8 students maybe? I don't know exactly how many students there were at the time. But I'm guessing that this was intentional, the courses are very intensive and require a serious commitment from their students thus Makers Academy were **very selective** in regards to who they allow to enrol.
 
----
-
-### My Interview &#x1f91e;
+## My Interview &#x1f91e;
 
 On **27th March 2013**, I sent my application. I received a confirmation email and 10 minutes after this, invited to interview at Makers Academy.
 
@@ -40,7 +38,7 @@ Perfect, I had been casually using Codecademy anyway. Codecademy still has my ol
 
 It looks like I started the ruby track on **April 1st 2013**, so I guess I wasn't as excited as I thought about the tracks at the time. Although, it could be that the appointment I had with Makers Academy was maybe a week or two ahead which was why I didn't start the tracks straight away.
 
-### The Day of The Interview &#x1f4c6;
+## The Day of The Interview &#x1f4c6;
 
 _Note: Its worth noting that this was 7 years ago, I may have misremembered some of this and I don't have any of my emails to verify any of this._
 
@@ -50,7 +48,7 @@ We sat down to do a tech test. It was a very basic task that I should've learnt 
 
 I can't remember too well what happened afterwards, Evgeny either told me on the day or via email afterwards that they **cannot accept me into the course**. I was rejected due to my poor performance. In hindsight, I blame myself for not spending more time going through the Codecademy tracks and studying harder! It was mentioned that I can apply again once I improve on the basics.
 
-### Second Interview Attempt &#x1f4c6;
+## Second Interview Attempt &#x1f4c6;
 
 I had gone home dejected but I didn't give up. I remember immediately applying again, and attending a second interview shortly after (a week or so), and I had again failed the tasks.
 
@@ -62,9 +60,7 @@ I have a theory that my enrolling onto the course was a experiment for him to se
 
 I was to join the May 2013 cohort.
 
----
-
-### Course fees &#x1f4b7;
+## Course fees &#x1f4b7;
 
 At the time, the course fees were **£5000** for **10 weeks**. If you were a female then you would automatically get a discount of **£500** thus costing **£4500**. A bit controversial in my opinion but as a private company they're within their rights to charge whatever they want.
 
@@ -97,9 +93,7 @@ payments may, at the option of Makers Academy, be paid directly to Makers Academ
 
 I was to pay back my sister with my salary as soon as I get my first paid developer role which I did. When I secured a role I paid her back monthly instalments of £500 over 9 months.
 
----
-
-### Course Attendance and Conduct. &#x1f4cb;
+## Course Attendance and Conduct. &#x1f4cb;
 
 > Makers Academy courses are intensive courses that require a serious commitment from all students. Makers Academy wants to ensure that all students on its courses have the best possible opportunity to succeed and therefore reserves the right to suspend from the course any student who in any way disrupts the course
 environment.
@@ -108,15 +102,30 @@ environment.
 
 So it gets pretty serious here, if you cannot keep up, they can get you to leave the course though at their discretion, offer a refund for any remaining time. Makes sense, they're taking a risk with the student and the career change of becoming a software developer requires a huge commitment and you need to hold yourself accountable if you fall behind.
 
+## Is It Worth It? &#x1f611;
+
+Coding Bootcamps are more expensive nowadays, costing at least **£8000**. Do I think it's worth it?
+
+ Investing in yourself never a bad idea. It all comes down to what you think you'll get out of it. If you can secure a role at the end of the course, you'll very quickly make that money back. Of course, if you don't secure a role or decide that you don't want to pursue a career in programming after graduating, then perhaps it wouldn't have been worth it.
+
+While it's possible to teach yourself with the many free resources online, joining a Coding Bootcamp is one way to fully commit 12 weeks to studying it because of the cost associated with it, not only will you get some structure through the curriculum, you'll be learning alongside other students whom are changing careers like yourself, have somebody who is teaching you and will take any questions you may have. During my time at Makers Academy, they would often host networking events and invite people from the programming community to do a talk on a programming topic which led to opportunities to talk and network afterwards
+
+ Without an interest in programming, it will be quite diffiult to stay motivated. Because of the sheer volume of knowledge and constant innovation in this industry, you're constantly having learn even after graduating the course to keep up and progress in your career. And it is dependant on how committed you are and your personal responsibility to continue to study and grow.
+
+ That said, if you are interested or passionate about programming, it is a very rewarding career, there is a lot a value placed in coding and so the salary ranges can be quite high depending where you live and what company you'll work for. So for me, pursuing a career in software development was one of the best choices I've made and enrolling into Makers Academy at that time has changed my life.
+
 ---
 
 ## Summary &#x1f4dd;
 
 So this is how it all started, its been 7 years since I enrolled into the May cohort. Makers Academy was a highly selective 12-week Coding Bootcamp. They probably designed their policies this way to make sure they get the most committed students and I was very determined to be one of those students.
 
-**£4500 - £5000 for 10 weeks** seems like a lot (though during my course they changed it to **12 weeks**). It all comes down to what you think you'll get out of it. If you can secure a role, you'll very quickly make that money back. Investing in yourself never a bad idea, though it all depends on personal responsibility, how committed and determined you are, what sacrifices are you prepared to make.
+**£4500 - £5000 for 10 weeks** seems like a lot (though during my course they changed it to **12 weeks**). Somebody in my cohort had applied at the very early stages (months ago) but attended the course in May as I did, he apparently paid **£1000-£2000**, so he got amazing value for that price.
 
-Looking back, I actually think Evgeny was right in some ways when he told me that some problem solving skills are not ones you can 'learn' and so I will struggle in this industry. I still think this is true today, my problem solving skills are very poor when compared to my colleagues, but I believe that that can be offset through determination and persistence.
+Looking back, I actually think Evgeny was right in some ways when he told me that some problem solving skills are not ones you can 'learn' and so I will struggle in this industry.
+> ...to 'code' I need to have better problem solving skills, this was arguably a skill that cannot be 'learned' and therefore programming was maybe not for me.
+
+I still think this is true today, my problem solving skills are very poor when compared to my colleagues, but I believe that that can be offset through determination and persistence.
 
 So this is part 1 of my Becoming a Software Developer series. There is so much to write and so I need to break down this post into multiple posts.
 
