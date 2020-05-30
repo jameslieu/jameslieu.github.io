@@ -74,20 +74,20 @@ With the standed and advance plan, the deposit is payable not later than seven d
 
 The caveat was that if Makers Academy hadn't received the deposit seven days before the commencement of a course, Makers Academy may, at its option, re-allocate the place reserved for the student to a wait-listed  student in which case the original student will no longer be able to attend the course.
 
-###### The Standard Plan &#x1f532;
+###### &#x1f532; The Standard Plan
 
 A deposit of 50% up-front and the remaining 50% of the course fee is payable in six equal monthly instalments with the first being due at the  end of the month following the end of the course.
 
 This for me seemed like a great option for those who wouldn't normally be able to afford the fees for the course upfront. So a deposit of £2500 and then a monthly plan to pay the rest **after the course**. Hopefully the student would've managed to secure a junior developer role and then pay back a portion of the fee with their salary each month.
 
-###### The Deferred Payment Plan &#x1f532;
+###### &#x1f532; The Deferred Payment Plan
 
 The remaining full course fee plus a surcharge of 20% of the course fee is payable in twelve equal monthly instalments with the first being due at the end of the month following the end of the course.
 
 This option was for those who can't pay anything. There are additional terms with this one, one of which the student has to agree that if they get a role through a partner of Makers Academy, the course fee
 payments may, at the option of Makers Academy, be paid directly to Makers Academy by the Partner by deduction from the salary of the student. So there are some serious caveats associated with this one, nonetheless provide another great option for some people.
 
-###### The Advance Payment Plan &#x1f532;
+###### &#x1f532; The Advance Payment Plan
 
 90% in advance and the remaining 10% discounted. This was the plan I had gone for, having no job or money of my own, I turned to my family for a loan, my sister had savings and had happily loaned me the cost of the full course, I'm still so very grateful for that. This meant that it cost me £4500 in total thanks to the discount. Even if my family couldn't loan me the money, my girlfriend (now wife) also offered to loan me the money if I were unable get it from my family, so I'm very fortunate in this regard.
 

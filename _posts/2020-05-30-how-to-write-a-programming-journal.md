@@ -2,7 +2,7 @@
 layout: post
 title: "How To Write a Programming Journal"
 categories: Programming
-excerpt: I've been going through my old notes and found this section. "How to write a programming journal" written on **8th July 2018**.
+excerpt: I've been going through my old notes and found this section. "How to write a programming journal" written on 8th July 2018.
 ---
 
 I've been going through my old notes and found this section: "How to write a programming journal" written on **8th July 2018**.
