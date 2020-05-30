@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How I build habits"
-categories: Productivity
+categories: Self-Improvement
 excerpt: A guide on how I build habits.
 ---
 

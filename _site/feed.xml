@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-05-30T09:30:47+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">How To Write a Programming Journal</title><link href="http://jameslieu.github.io/how-to-write-a-programming-journal/" rel="alternate" type="text/html" title="How To Write a Programming Journal" /><published>2020-05-30T00:00:00+01:00</published><updated>2020-05-30T00:00:00+01:00</updated><id>http://jameslieu.github.io/how-to-write-a-programming-journal</id><content type="html" xml:base="http://jameslieu.github.io/how-to-write-a-programming-journal/">&lt;p&gt;I’ve been going through my old notes and found this section: “How to write a programming journal” written on &lt;strong&gt;8th July 2018&lt;/strong&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-05-30T10:35:10+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">How To Write a Programming Journal</title><link href="http://jameslieu.github.io/how-to-write-a-programming-journal/" rel="alternate" type="text/html" title="How To Write a Programming Journal" /><published>2020-05-30T00:00:00+01:00</published><updated>2020-05-30T00:00:00+01:00</updated><id>http://jameslieu.github.io/how-to-write-a-programming-journal</id><content type="html" xml:base="http://jameslieu.github.io/how-to-write-a-programming-journal/">&lt;p&gt;I’ve been going through my old notes and found this section: “How to write a programming journal” written on &lt;strong&gt;8th July 2018&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;This was when I had decided to start daily journalling about programming topics and challenges I’ve encountered (although I had skipped many days and stopped altogether at the end of the year).&lt;/p&gt;
 
@@ -66,7 +66,45 @@
 
 &lt;p&gt;I’ve been reading back on my old journal entries written in 2018. It has some notes I made of concepts or questions I had, notes of events of that particular day and how I felt on those days including decisions that were made by the team or by management. Its a great way to see how I’ve grown since writing those entries.&lt;/p&gt;
 
-&lt;p&gt;I don’t know whether I’ll start journalling again but in many ways, these blog posts I’m writting are a form of journalling for me. I enjoy writing them as well as reading through them retrospectively. I may start to go through my old journal entries and create blog posts on the ones I think would be good to share.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">I've been going through my old notes and found this section. &quot;How to write a programming journal&quot; written on 8th July 2018.</summary></entry><entry><title type="html">Becoming a Software Developer - Part 1</title><link href="http://jameslieu.github.io/becoming-a-software-developer/" rel="alternate" type="text/html" title="Becoming a Software Developer - Part 1" /><published>2020-05-29T00:00:00+01:00</published><updated>2020-05-29T00:00:00+01:00</updated><id>http://jameslieu.github.io/becoming-a-software-developer</id><content type="html" xml:base="http://jameslieu.github.io/becoming-a-software-developer/">&lt;p&gt;Its been 7 years since I’ve made the decision to change my career and become a developer. And so I thought it would be a great time to write a post on the subject and reflect on my journey to become a software developer.&lt;/p&gt;
+&lt;p&gt;I don’t know whether I’ll start journalling again but in many ways, these blog posts I’m writting are a form of journalling for me. I enjoy writing them as well as reading through them retrospectively. I may start to go through my old journal entries and create blog posts on the ones I think would be good to share.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">I've been going through my old notes and found this section. &quot;How to write a programming journal&quot; written on 8th July 2018.</summary></entry><entry><title type="html">Journal Template</title><link href="http://jameslieu.github.io/journal-template/" rel="alternate" type="text/html" title="Journal Template" /><published>2020-05-30T00:00:00+01:00</published><updated>2020-05-30T00:00:00+01:00</updated><id>http://jameslieu.github.io/journal-template</id><content type="html" xml:base="http://jameslieu.github.io/journal-template/">&lt;p&gt;This was also found in my old notes dated in &lt;strong&gt;24th March 2019&lt;/strong&gt;. A good tip for journalling worth sharing.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;For regular journalling, a common stuggle is consistency. I’ve done some research online for tips and tricks to help with this issue.
+These ones I’ve taken as I usually journal in the evenings. I likely copied these from other sources although I don’t know where.&lt;/p&gt;
+
+&lt;h6 id=&quot;-what-did-i-achieve-today&quot;&gt;😉 What did I achieve today?&lt;/h6&gt;
+
+&lt;p&gt;This question helps me identify whether I actually achieved what I set out to accomplish in the morning, or if I got sidetracked. One lesson I’ve learned from answering this question is it’s easy to overestimate what you think you can achieve in a day, but I remind myself it’s not what you achieve in a day, it’s what you achieve eventually. This is what really matters.&lt;/p&gt;
+
+&lt;h6 id=&quot;-what-lessons-did-i-learn&quot;&gt;🙄 What lessons did I learn?&lt;/h6&gt;
+
+&lt;p&gt;This is my favourite question to answer. This is where you journal your “Aha!” moments. Answers can range from personal, “I learned how to say no to dessert”, to skill-based, “I learned how to remove plosives in an audio recording using Audacity”. The more thorough you are, here, the more you can return to it again and again and learn from it.&lt;/p&gt;
+
+&lt;h6 id=&quot;-im-grateful-for&quot;&gt;☺ I’m grateful for…&lt;/h6&gt;
+
+&lt;p&gt;Writing down three new things that you’re grateful for, for 21 days in a row, can actually rewire your brain, allowing your brain to work more optimistically and more successfully. I also thank my problems and ask myself what’s great about them. Realising my problem was great because I could make an improvement on the original.&lt;/p&gt;
+
+&lt;h6 id=&quot;-how-am-i-feeling-right-now&quot;&gt;😑 How am I feeling right now?&lt;/h6&gt;
+
+&lt;p&gt;This is an opportunity for me to be vulnerable, to let my guard down, to be open without censoring myself. I’m generally pretty happy, but if I’m feeling a negative emotion, I’ll identify the cause by using a why drill. I’ll ask myself why I’m feeling the emotion, in question, five times. This helps me be at the cause, rather than the effect of my concern.&lt;/p&gt;
+
+&lt;h6 id=&quot;-what-are-3-amazing-things-that-happened-today&quot;&gt;😁 What are 3 amazing things that happened today?&lt;/h6&gt;
+
+&lt;p&gt;I think it’s important to bookend your day by focusing on your “small wins.” “I said no to a dessert.” “I resisted the urge to give into temptation.” “I didn’t sleep in.” “I achieved my most important task.” … These tiny advantages build forward momentum and remind us that bigger achievements are within reach.&lt;/p&gt;
+
+&lt;h6 id=&quot;-how-could-i-have-made-today-better&quot;&gt;🤔 How could I have made today better?”&lt;/h6&gt;
+
+&lt;p&gt;Many of us, when dissatisfied with our day, prefer to write it off, to move past it as quickly and quietly as possible. But by asking yourself how you could have made the day better, you’re forcing your brain to look for improvements. Your day may have been stressful, but don’t write it off until you’ve learned something from it. Look for ONE Thing you can do, either prevent it from happening again or to help you deal with it more effectively.&lt;/p&gt;
+
+&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
+
+&lt;p&gt;If you plan on journalling consistently, having a consistent structure for your entries will really help.
+There were times where I couldn’t think of anything to write and therefore put in less effort for that particular entry. Having this template and predefined questions is enough to get you started.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, when reading through each entry retrospectively, you can see the progression of each day and even adapt your behaviour if you see a negative pattern.&lt;/p&gt;
+
+&lt;p&gt;I haven’t written any journal entries in a while but if I ever get back into it, I’ll likely use this template.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">For regular journalling, a common stuggle is consistency</summary></entry><entry><title type="html">Becoming a Software Developer - Part 1</title><link href="http://jameslieu.github.io/becoming-a-software-developer/" rel="alternate" type="text/html" title="Becoming a Software Developer - Part 1" /><published>2020-05-29T00:00:00+01:00</published><updated>2020-05-29T00:00:00+01:00</updated><id>http://jameslieu.github.io/becoming-a-software-developer</id><content type="html" xml:base="http://jameslieu.github.io/becoming-a-software-developer/">&lt;p&gt;Its been 7 years since I’ve made the decision to change my career and become a developer. And so I thought it would be a great time to write a post on the subject and reflect on my journey to become a software developer.&lt;/p&gt;
 
 &lt;h2 id=&quot;7-years-ago-&quot;&gt;7 Years ago… 📆&lt;/h2&gt;
 &lt;p&gt;It all started in early 2013, my previous employer David Kramaley had gotten in touch by email and mentioned how he remembered I was curious about programming and used to ask questions about it when working with him. He said that a Coding Bootcamp could be  something I may be interested in and provided a link to one based in America.&lt;/p&gt;
@@ -784,244 +822,4 @@ Master is branched off into a new ‘feature’ branch, then the feature branch 
 
 &lt;p&gt;These things should be considered when thinking about the offer, sometimes its not necessarily a bad thing to accept a lower salary but then also receiving a lot of other benefits as a result.&lt;/p&gt;
 
-&lt;p&gt;I personally would much rather choose a position with a sensible or fair salary that has great benefits instead of a position where it pays extremely well but everything else from work/life balance to who you’re working with is terrible.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">My opinion on whether providing an expected salary when applying for a role.</summary></entry><entry><title type="html">Introduction to SNS and SQS</title><link href="http://jameslieu.github.io/introduction-to-sqs-and-sns/" rel="alternate" type="text/html" title="Introduction to SNS and SQS" /><published>2020-04-01T00:00:00+01:00</published><updated>2020-04-01T00:00:00+01:00</updated><id>http://jameslieu.github.io/introduction-to-sqs-and-sns</id><content type="html" xml:base="http://jameslieu.github.io/introduction-to-sqs-and-sns/">&lt;h3 id=&quot;agenda&quot;&gt;Agenda&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;What is SQS?&lt;/li&gt;
-  &lt;li&gt;What is SNS?&lt;/li&gt;
-  &lt;li&gt;The difference between SNS and SQS&lt;/li&gt;
-  &lt;li&gt;Advantages of using SNS and SQS together&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I’ll be running through briefly, what is SQS before moving on to, what is SNS? The differences between the two and the advantages of using them together.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;what-is-amazons-simple-queue-service-sqs&quot;&gt;What is Amazon’s Simple Queue Service (SQS)?&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/media/sqs-logo.png&quot; style=&quot;float: right; height: 200px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;SQS is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications.&lt;/p&gt;
-
-&lt;p&gt;Using SQS, you can send, store, and receive messages between software components at any volume, without losing messages or requiring other services to be available
- 
- 
- &lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h6 id=&quot;sqs-offers-two-types-of-message-queues&quot;&gt;SQS offers two types of message queues:&lt;/h6&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Standard Queues&lt;/th&gt;
-      &lt;th&gt;FIFO (First in, First Out) Queues&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Unlimited Throughput: Support a nearly unlimited number of transactions per second per API action.&lt;/td&gt;
-      &lt;td&gt;High Throughput: By default, FIFO queues support up to 300 messages per second&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Best-Effort Ordering: Occasionally, messages might be delivered in an order different from which they were sent.&lt;/td&gt;
-      &lt;td&gt;Exactly-Once Processing: A message is delivered once and remains available until a consumer processes and deletes it. Duplicates aren’t introduced into the queue.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;At-Least-Once Delivery: A delivered at least once, but occasionally more than one copy of a message is delivered.&lt;/td&gt;
-      &lt;td&gt;First-In-First-Out Delivery: The order in which messages are sent and received is strictly preserved (i.e. First-In-First-Out).&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;img src=&quot;/assets/media/sqs-1.png&quot; /&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;img src=&quot;/assets/media/sqs-2.png&quot; /&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h4 id=&quot;working-with-sqs-messages&quot;&gt;Working with SQS Messages&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Messages are persisted and is stored for some configurable duration. The default is 4 days but it can be up to 14 days before they’re automatically deleted.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Messages can contain up to 256 KB of text data, including XML, JSON and unformatted text&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;An external service is needed to poll and grab messages from SQS to process. Once the service has successfully processed them, the message can be deleted from the queue.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Alternatively, you can configure your queue to trigger a lambda function to process the message. The lambda will only delete the message from the queue if your function has returned successfully without any errors. If the function fails to process, a &lt;strong&gt;dead-letter queue&lt;/strong&gt; can be leveraged to store those failed messages&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;what-is-a-dead-letter-queue-dlq&quot;&gt;What is a Dead-letter queue (DLQ)?&lt;/h4&gt;
-
-&lt;p&gt;A dead-letter queue is simply an SQS queue for messages that can’t be delivered successfully, for example due to client or server errors.&lt;/p&gt;
-
-&lt;p&gt;Those messages can be held in this queue for reprocessing, we can also configure an alarm for messages arriving into this queue, as well as examine them for further analysis&lt;/p&gt;
-
-&lt;h3 id=&quot;quick-summary&quot;&gt;Quick Summary&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A fully managed message queuing service&lt;/li&gt;
-  &lt;li&gt;Send, store, and receive messages&lt;/li&gt;
-  &lt;li&gt;Supports Lambda triggers&lt;/li&gt;
-  &lt;li&gt;Dead letter queue support&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;So just a quick summary, SQS is a fully managed queuing service. It can send store and receive messages. It supports lambda triggers and can be used as a dead letter queue for storing failed messages.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;what-is-amazons-simple-notification-service-sns&quot;&gt;What is Amazon’s Simple Notification Service (SNS)?&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/media/sns-logo.png&quot; style=&quot;float: right; height: 200px;&quot; /&gt;
-SNS is a fully managed publish/subscribe messaging service that coordinates and manages the delivery or sending of messages to subscribing endpoints or clients.&lt;/p&gt;
-
-&lt;p&gt;It provides ‘topics’ which are messaging channels that any number of subscribers can subscribe to. When the Topic receives an event or message, it pushes it to all subscribers at the same time.&lt;/p&gt;
-
-&lt;p&gt; 
- 
- &lt;/p&gt;
-
-&lt;p&gt;There are two types of clients to be aware of, subscribers and publishers&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/sns.png&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;subscribers&quot;&gt;Subscribers&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Web servers&lt;/li&gt;
-  &lt;li&gt;Email&lt;/li&gt;
-  &lt;li&gt;SQS queues&lt;/li&gt;
-  &lt;li&gt;Lambda functions&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Subscribers (i.e. web servers, email addresses,  SQS queues,  Lambda functions) consume or receive messages from the topic they’re subscribed to.&lt;/p&gt;
-
-&lt;h4 id=&quot;publishers&quot;&gt;Publishers&lt;/h4&gt;
-
-&lt;p&gt;Publishers such as distributed systems, microservices and other AWS services can communicate asynchronously with subscribers by producing and sending messages to an SNS topic&lt;/p&gt;
-
-&lt;h3 id=&quot;basic-usage&quot;&gt;Basic Usage&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/sns-2.png&quot; style=&quot;height: 250px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;To use SNS, a topic needs to be created. We can control access to it by defining policies that determine which publishers and subscribers can communicate with it.
- 
-A message is sent directly to the topic. SNS matches the topic to a list of subscribers who have subscribed to it, and delivers the message to each of those subscribers.&lt;/p&gt;
-
-&lt;p&gt;I’ll run through some common scenarios.&lt;/p&gt;
-
-&lt;h4 id=&quot;scenario-1-message-fanout&quot;&gt;Scenario 1: Message Fanout&lt;/h4&gt;
-
-&lt;p&gt;So message fanout occurs when a message, is published to a topic, which is then pushed to multiple subscribers or endpoints.
-This provides asynchronous event notifications, which in turn allows for parallel processing.  
- 
-&lt;img src=&quot;/assets/media/sns-3.png&quot; style=&quot;height: 250px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;For example, imagine a topic which has some SQS queues subscribed to it, and imagine we have an application that sends a message to this topic whenever an order is placed for a product.&lt;/p&gt;
-
-&lt;p&gt;When an order is placed, the SQS queues would receive identical messages for that new order at the same time. A service receiving the message from one of the queues could be responsible for the processing of the order, while the other queue can be used by a different service to store the ‘order data’ in a database.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/sns-4.png&quot; style=&quot;height: 200px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;scenario-2-application-and-system-alerts&quot;&gt;Scenario 2: Application and System Alerts&lt;/h4&gt;
-
-&lt;p&gt;Application and System alerts, so notifications or alerts that are triggered by a breach of predefined thresholds for monitoring for example&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/sns-5.png&quot; style=&quot;height: 150px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;other-scenarios&quot;&gt;Other Scenarios&lt;/h4&gt;
-
-&lt;p&gt;Other Scenarios can be:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Push email or text messaging i.e. Targeted news headlines to subscribers by email or SMS&lt;/li&gt;
-  &lt;li&gt;Mobile push notifications i.e. Send messages directly to mobile apps, indicating that an update is available for example.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/sns-6.png&quot; style=&quot;height: 250px;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;message-delivery-retries&quot;&gt;Message Delivery Retries&lt;/h3&gt;
-
-&lt;p&gt;SNS defines a delivery policy for each delivery protocol. The delivery policy defines how SNS, retries the delivery of a message if it is undeliverable for whatever reason.
- 
-Apart from HTTP, delivery protocols do not support custom delivery policies, so you can’t customise SNS-defined delivery policies.&lt;/p&gt;
-
-&lt;p&gt;When the delivery policy is exhausted, SNS stops retrying the delivery and discards the message. Although, if a dead-letter queue, is configured to the subscription however, then the message will be held there. The dead letter queue is configured on the subscription rather than a topic because message deliveries happen at the subscription level.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/sns-7.png&quot; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;the-differences-between-sns-and-sqs&quot;&gt;The differences between SNS and SQS&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;&lt;img src=&quot;/assets/media/sns-logo.png&quot; style=&quot;height: 150px;&quot; /&gt;&lt;/th&gt;
-      &lt;th&gt;&lt;img src=&quot;/assets/media/sqs-logo.png&quot; style=&quot;height: 150px;&quot; /&gt;&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Fully managed publish-subscribe system.&lt;/td&gt;
-      &lt;td&gt;Fully managed Queuing system&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;There is no persistence. So the message isn’t stored by SNS.&lt;/td&gt;
-      &lt;td&gt;Decoupling applications / Parallel asynchronous processing&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Fanout - Processing the same message in multiple ways&lt;/td&gt;
-      &lt;td&gt;Messages are persisted for some (configurable) duration&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Push mechanism - Messages are pushed to subscribers/consumers&lt;/td&gt;
-      &lt;td&gt;Pull mechanism - Receivers must poll and pull messages&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;SNS is a distributed publish-subscribe system.  There is no persistence, so the message isn’t stored by SNS.
-Leveraging SNS allows for processing the same message in multiple ways and at the same time. It uses a push mechanism, so messages are pushed to subscribers.&lt;/p&gt;
-
-&lt;p&gt;Whereas SQS is a queuing system, used for decoupling applications and allowing parallel asynchronous processing.  Messages are persisted and is stored for some configurable duration. It can be up to 14 days before they’re automatically deleted
-SQS uses a pull mechanism – So messages are NOT pushed to receivers. Receivers would have to poll or pull messages. Although SQS does support lambda triggers so we don’t necessarily have to poll for messages, we can leverage that instead.&lt;/p&gt;
-
-&lt;h3 id=&quot;why-might-we-use-sns-with-sqs-together&quot;&gt;Why might we use SNS with SQS together?&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/sns-8.png&quot; style=&quot;height: 250px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;There may be different kinds of subscribers of the same topic where, some need the immediate delivery of messages such as alerts or email. But others might require the message to persist, for later usage or processing.&lt;/p&gt;
-
-&lt;h5 id=&quot;asynchronous-processing&quot;&gt;Asynchronous Processing&lt;/h5&gt;
-&lt;p&gt;When a message is published to a topic, it can be distributed to multiple SQS queues which can then be processed in parallel.&lt;/p&gt;
-
-&lt;h5 id=&quot;persistent-storage&quot;&gt;Persistent Storage&lt;/h5&gt;
-&lt;p&gt;By leveraging SQS, the message can be stored, the service can poll and receive the message as and when it decides. If the service were to become unavailable for some reason, the message would still be available within the queue.  Once the service is available again, it can then continue to poll and process those messages.&lt;/p&gt;
-
-&lt;h5 id=&quot;dead-letter-queue&quot;&gt;Dead letter queue&lt;/h5&gt;
-&lt;p&gt;If SNS pushes a notification directly to a subscribed Service, and that service is unavailable, then the message will be lost. Leveraging dead-letter queues will solve this issue.&lt;/p&gt;
-
-&lt;p&gt;Also, even if the service has ‘received’ the message. What happens if an error occurs during processing or that processing fails? The message can be pushed to this queue making it available for repossessing or further analysis. And configured to only delete the message when processed successfully.&lt;/p&gt;
-
-&lt;h5 id=&quot;achieve-guaranteed-delivery&quot;&gt;Achieve Guaranteed Delivery&lt;/h5&gt;
-&lt;p&gt;So by coupling SNS with SQS, we can achieve guaranteed delivery by receiving messages at our own pace.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
-
-&lt;p&gt;So to summarize:
-SNS distributes several copies of the same message to several subscribers, to be processed in parallel.
-SQS is mainly used to decouple or integrate applications. It also allows clients to be offline and is tolerant to network and host failures.&lt;/p&gt;
-
-&lt;p&gt;Coupling the two together we can achieve:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Parallel asynchronous processing&lt;/li&gt;
-  &lt;li&gt;Fault tolerant systems&lt;/li&gt;
-  &lt;li&gt;Guaranteed delivery&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;As well as the other benefits mentioned.&lt;/p&gt;
-
-&lt;p&gt;So that concludes my basic overview of the SNS and SQS.
-We’ve covered what is SQS, what is SNS, the difference between the two and the advantages of using them together.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">So for this post I'll be covering a basic overview of Amazon's Simple Queue Service (known as SQS) and Amazon's Simple Notification Service (known as SNS).</summary></entry></feed>
+&lt;p&gt;I personally would much rather choose a position with a sensible or fair salary that has great benefits instead of a position where it pays extremely well but everything else from work/life balance to who you’re working with is terrible.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">My opinion on whether providing an expected salary when applying for a role.</summary></entry></feed>
