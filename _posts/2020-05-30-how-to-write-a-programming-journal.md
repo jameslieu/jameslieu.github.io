@@ -7,7 +7,7 @@ excerpt: I've been going through my old notes and found this section. "How to wr
 
 I've been going through my old notes and found this section: "How to write a programming journal" written on **8th July 2018**.
 
-This was when I had decided to start daily journalling about programming topics and challenges I've encountered (although I had skipped many days and stopped altogether at the end of the year).
+This was when I had decided to start daily journaling about programming topics and challenges I've encountered (although I had skipped many days and stopped altogether at the end of the year).
 
 I likely had done some research on writing a programming journal may have copied some of the content on this post. I can't remember whether I wrote my own take on the research I did on this or whether it is a direct copy-and-paste. Regardless, I'll share my notes here.
 
@@ -74,4 +74,4 @@ While I hadn't written in my programming journal in a while, I can see why it ca
 
 I've been reading back on my old journal entries written in 2018. It has some notes I made of concepts or questions I had, notes of events of that particular day and how I felt on those days including decisions that were made by the team or by management. Its a great way to see how I've grown since writing those entries.
 
-I don't know whether I'll start journalling again but in many ways, these blog posts I'm writting are a form of journalling for me. I enjoy writing them as well as reading through them retrospectively. I may start to go through my old journal entries and create blog posts on the ones I think would be good to share.
+I don't know whether I'll start journaling again but in many ways, these blog posts I'm writting are a form of journaling for me. I enjoy writing them as well as reading through them retrospectively. I may start to go through my old journal entries and create blog posts on the ones I think would be good to share.

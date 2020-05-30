@@ -2,15 +2,14 @@
 layout: post
 title: "Journal Template"
 categories: Self-Improvement
-excerpt: For regular journalling, a common stuggle is consistency
+excerpt: For regular journaling, a common stuggle is consistency
 ---
 
-This was also found in my old notes dated in **24th March 2019**. A good tip for journalling worth sharing.
-
----
-
-For regular journalling, a common stuggle is consistency. I've done some research online for tips and tricks to help with this issue.
+This was also found in my old notes dated in **24th March 2019**. A good tip for journaling worth sharing.
+For regular journaling, a common stuggle is consistency. I've done some research online for tips and tricks to help with this issue.
 These ones I've taken as I usually journal in the evenings. I likely copied these from other sources although I don't know where.
+
+---
 
 ###### &#x1f609; What did I achieve today?
 
@@ -38,7 +37,7 @@ I think it’s important to bookend your day by focusing on your “small wins.�
 
 ## Summary &#x1f4dd;
 
-If you plan on journalling consistently, having a consistent structure for your entries will really help.
+If you plan on journaling consistently, having a consistent structure for your entries will really help.
 There were times where I couldn't think of anything to write and therefore put in less effort for that particular entry. Having this template and predefined questions is enough to get you started.
 
 Furthermore, when reading through each entry retrospectively, you can see the progression of each day and even adapt your behaviour if you see a negative pattern.
