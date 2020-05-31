@@ -40,7 +40,7 @@ footer-links:
 disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics: UA-167989014-1
 
 # Your website URL (e.g. http://jameslieu.github.io or http://www.jameslieu.co.uk)
 # Used for Sitemap.xml and your RSS feed
