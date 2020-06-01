@@ -19,7 +19,7 @@ This question helps me identify whether I actually achieved what I set out to ac
 
 This is my favourite question to answer. This is where you journal your “Aha!” moments. Answers can range from personal, “I learned how to say no to dessert”, to skill-based, “I learned how to remove plosives in an audio recording using Audacity”. The more thorough you are, here, the more you can return to it again and again and learn from it.
 
-###### &#x263a; I'm grateful for...
+###### &#x1f642; I'm grateful for...
 
 Writing down three new things that you’re grateful for, for 21 days in a row, can actually rewire your brain, allowing your brain to work more optimistically and more successfully. I also thank my problems and ask myself what’s great about them. Realising my problem was great because I could make an improvement on the original.
 
