@@ -21,7 +21,7 @@ There are three personal plans you can choose from.
 
 - The monthly plan costs **£24.00pcm**
 - the annual subscription **£245.00** per year
-- the premium plan is **£370** per year
+- the premium plan is **£370.00** per year
 
 I had gone with the annual subscription as my company offered this as a perk. Although when I paid via PayPal, it had used the US pricing which was **$299.00** and then I accrued an additional charge of **£7.00** from my bank because of that transaction My mistake.
 
@@ -29,27 +29,27 @@ The monthly cost is a bit more affordable, but going for the annual cost is lowe
 
 ## Content
 
-So the main service is the huge video library of various courses you can learn. It covers multiple specialities and technologies in different areas. For example, for software development, there are courses in C#, JavaScript, .NET Core, VueJS,  AWS, Azure etc.
+So the main service is the huge video library of various courses you can learn from. It covers multiple specialities and technologies in different areas. For example, for software development, there are courses in C#, JavaScript, .NET Core, VueJS,  AWS, Azure etc.
 
-There are other types of general programming courses such as learning about Design Patterns, Domain Driven Design, Unit Testing and even courses outside of technology such as 'Mindfulness for Technologists' or 'Communications for Technologists'.
+There are other types of programming topics such as design patterns, domain driven design, unit testing and courses outside of technology such as 'Mindfulness for Technologists' or 'Communications for Technologists'.
 
-The video library is occasionally updated and new courses seem to be added regularly.
+The video library is occasionally updated and new courses added regularly.
 
 Each course and its video clips are pretty good. The quality of the content is done to a high standard and the videos are concise and  the length of the video clips are short enough to keep your attention.
 
-One thing I noticed is that feels like each video clip speed is slower than how the course author recorded it. So I have to watch it at 1.5x speed in order for it to sound like a normal audio speed. This kind of suggests that the course is actually shorter than it claims. It also skews the usage statistics as watching an course for **45 minutes** will record as **1 hour** in the report.
+One thing I noticed is that feels like each video clip speed is slower than how the course author recorded it. So I have to watch it at 1.5x - 2.0x speed in order for it to sound more natural. This suggests that the courses are actually shorter than it claims. It also skews the usage statistics as watching a course for **45 minutes** will record as **60 minutes** in the report.
 
 ## Features
 
 ### Paths and Skill IQ
-Pluralsight has a nice feature called 'Paths'. Paths are a collection of courses which were curated by Pluralsight to provide a degree of progression for the user as they learn. It is broken down into 'Beginner', 'Intermediate'  and 'Advance' categories each containing the course of the relevant level.
+Pluralsight has a nice feature called 'Paths'. Paths are a collection of courses which were curated by Pluralsight to provide a degree of progression for the user as they learn. It is broken down into 'Beginner', 'Intermediate'  and 'Advance' categories each containing courses of the relevant level.
 
-Before you begin a path, you're encouraged to take a 'Skill IQ' test in order to place you in a path for your skill level. After I took the test, its nice to see roughly what skill level Pluralsight thinks I'm at and places their recommendation based on that.
+Before you begin a path, you're encouraged to take a 'Skill IQ' test in order to recommend you a category based on how well you do.
 
 <img src='/assets/media/pluralsight-review-0.png' />
 _My Current Skill IQ rating as of June 2020_
 
-They also allow you to take the 'Skill IQ' test as many times you like. I recommend doing it a few months after learning a course or completing a path. It feels good to see how you've progressed.
+They also allow you to take this test as many times you like. I recommend doing it a few months after starting a path. It's good to see how you've progressed.
 
 <img src='/assets/media/pluralsight-review-1.png' />
 _My Skill IQ history_
@@ -60,7 +60,7 @@ This isn't some indicator of my _actual_ skill level really but is scored based 
 
 What I liked about the Path feature is that it provides me some direction when deciding what course or videos to watch. At the time, I had selected the C# path and seeing the courses in their associated category based on the skill level helps me choose which course to take next.
 
-One thing I believe is a disadvantage of the Skill IQ is, they don't encourage the user to still consider courses that are in the lower skill category. I think even though I have some experience with C# (in this scenario), that doesn't mean I'm an 'expert' because my 'Skill IQ' score claims I am. Even with many years of experience, there can be gaps in your knowledge base and so the user shouldn't ignore courses in a lower skill category such as the 'C# fundamentals' course.
+One minor critique I have of the 'Skill IQ' is, it may discourage the user from considering courses that are in the lower skill category. I think even though I have some experience with C# (in this scenario), that doesn't necessarily mean I'm an 'expert' because my 'Skill IQ' score claims I am. Even with many years of experience, there can be gaps in your knowledge base and so the user shouldn't ignore courses in a lower skill category such as the 'C# fundamentals' course.
 
 ## Personal Profile
 
@@ -69,7 +69,7 @@ Pluralsight provides some data to help you track your progress. Its good to be a
 <img src='/assets/media/pluralsight-review-2.png' />
 _My Personal Profile as of 5th June 2020_
 
- These kind of visual graphs and charts can be very insightful to see your progress and to motivate you to maintain your daily/monthly streaks. And to also allow some indication of how much value you're getting out of the subscription.
+ These kind of charts can be very insightful and motivate you to maintain your daily/monthly streaks. Also to give some indication of the value you're getting out of the subscription.
 
 ## Engagement
 
@@ -85,7 +85,7 @@ Pluralsight sends monthly usage statistics to your email. This reports on
 <img src='/assets/media/pluralsight-review-3.png' />
 _My monthly usage statistics email received on 5th June 2020_
 
-I would imagine that these emails serve a few purposes, the first is engagement with the user. It's good to see your progress broken down like this but I can see that it was designed to 'appear' better than it actually is.
+It's good to see your progress broken down like this but I can also see that it was designed to 'appear' better than it actually is.
 
 For example, the report is broken down into minutes instead of hours. I wonder if it's because it doesn't look as good if you're a casual user who doesn't log in as much.
 
@@ -95,9 +95,9 @@ It also presents some of the courses I've just started as well including your pr
 <img src='/assets/media/pluralsight-review-4.png' />
 _My monthly usage statistics email received on 5th June 2020_
 
-Seeing a report like this and seeing how little you use it may prompt you to unsubscribe to the service if you're on the monthly plan. If you're on the annual plan then you wouldn't be able to unsubscribe straight away but you may consider not renewing your membership the following year.
+Seeing a report like this can prompt you to unsubscribe to the service if you're not using it enough and you're on the monthly plan. If you're on the annual plan then you wouldn't be able to unsubscribe straight away but you may consider not renewing your membership the following year.
 
-One problem I can see is that its also a little inaccurate for me personally as I watch the course at 1.5x - 2.0x speed which isn't factored in these statistics.
+One problem I can see is that its also a little inaccurate for me personally as I watch the course at 1.5x - 2.0x speed which isn't factored in the usage statistics.
 
 There are many other features I haven't mentioned such as being able to write notes and downloading exercise files to with when watching a course, I've never personally used those features and so I shouldn't comment on them.
 
@@ -113,15 +113,15 @@ I'll quickly break down my opinion on the pros and cons of Pluralsight.
 
 ###### Cons
 - It's really expensive
-- I wished there were more business, communication and office related courses
-- It feels like each video clip speed is slower than how the course author recorded it
+- I wished there were more business, communication or office related courses
+- Each video clip speed feels slower than how the course author recorded it
 - Usage Statistics can be inaccurate depending on what speed you're watching the courses in
 
-Some of the cons can be written off depending on the user. But the main one I think is the price which is arguably strong enough to supercede **all** of the pros I've listed here. While the content and features are nice, I'm wondering in terms of raw value, is it worth the cost?
+Some of the cons can be written off depending on the user. But the main one I think is the price which is arguably strong enough to supercede **all** of the pros I've listed here. While the content and features are nice, I'm wondering in terms of raw value, is it worth the cost? Especially because there are other cheaper services you can subscribe to.
 
 ## Summary &#x1f4dd;
 
-Overall I like the service, it's great for IT professionals and the software development courses I've seen so far are very good. Watching courses like these can really improve your knowledge base on the subject you choose. There are courses for users of all levels and being able to track your progress through the Skill IQ and usage statistics are very welcome features.
+Overall I like the service, it's great for IT professionals and the software development courses I've seen so far are very good. Watching courses like these can really improve your knowledge base on the subject you choose. There are courses for users of all levels and being able to track your progress through the Skill IQ and usage statistics are very welcome features. I had heard that Pluralsight used to specialize in C# specific courses, which is probably why there are so many to choose from.
 
 The main issue I have is the price. Its very expensive, so to justify it, you need to make the most of the subscription by watching the course.
 

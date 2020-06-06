@@ -40,14 +40,14 @@ So I used the push-ups as an example, but the principle can be applied to any ta
 
 My company had provided me an annual [Pluralsight](https://pluralsight.com/) membership (In November 2019) so I can study at my leisure, I watched it a few times but not often at all. It wasn't until March did I decide that I should actually use the membership, so I applied the same principle.
 
-In my habit tracker, I added a new daily task to "Watch 10 minutes of Pluralsight". I've missed only one day (which according to Pluralsight, it was 39 days ago because (as of today) I had just broken my record of a 38 day streak.
+In my habit tracker, I added a new daily task to "Watch 10 minutes of Pluralsight". I've missed only two days since starting the habit which according to Pluralsight was **24th February**
 
 <img src="/assets/media/how-i-build-habits-1.png" style="height: 250px;"/>
 _- My Pluralsight profile activity insights as of 24th May 2020_
 
 As you can see, by just aiming to watch 10 minutes a day (which sometimes ended up being 20-30 minutes), the results are huge and according to the "View Time" on my profile, the number of hours of content I've watched between March – May when compared to January and February has increased quite a lot.
 
-_Note: I watch them at 1.5x speed so the exact number of hours displayed are not accurate_
+_Note: I watch them at 1.5x - 2.0x speed so the exact number of hours displayed are not accurate_
 
 ___
 

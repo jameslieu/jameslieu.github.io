@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-06-06T00:16:08+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Pluralsight Review</title><link href="http://jameslieu.github.io/pluralsight-review/" rel="alternate" type="text/html" title="Pluralsight Review" /><published>2020-06-05T00:00:00+01:00</published><updated>2020-06-05T00:00:00+01:00</updated><id>http://jameslieu.github.io/pluralsight-review</id><content type="html" xml:base="http://jameslieu.github.io/pluralsight-review/">&lt;p&gt;On 17th Oct 2019 I’ve purchased an annual Pluralsight subscription.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-06-06T22:49:11+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Pluralsight Review</title><link href="http://jameslieu.github.io/pluralsight-review/" rel="alternate" type="text/html" title="Pluralsight Review" /><published>2020-06-05T00:00:00+01:00</published><updated>2020-06-05T00:00:00+01:00</updated><id>http://jameslieu.github.io/pluralsight-review</id><content type="html" xml:base="http://jameslieu.github.io/pluralsight-review/">&lt;p&gt;On 17th Oct 2019 I’ve purchased an annual Pluralsight subscription.&lt;/p&gt;
 
 &lt;p&gt;I’ve watched it on and off around that time but since 24th February 2020 I’ve been watching it almost daily now and thought to myself to write a review here on my blog.&lt;/p&gt;
 
@@ -15,7 +15,7 @@
 &lt;ul&gt;
   &lt;li&gt;The monthly plan costs &lt;strong&gt;£24.00pcm&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;the annual subscription &lt;strong&gt;£245.00&lt;/strong&gt; per year&lt;/li&gt;
-  &lt;li&gt;the premium plan is &lt;strong&gt;£370&lt;/strong&gt; per year&lt;/li&gt;
+  &lt;li&gt;the premium plan is &lt;strong&gt;£370.00&lt;/strong&gt; per year&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;I had gone with the annual subscription as my company offered this as a perk. Although when I paid via PayPal, it had used the US pricing which was &lt;strong&gt;$299.00&lt;/strong&gt; and then I accrued an additional charge of &lt;strong&gt;£7.00&lt;/strong&gt; from my bank because of that transaction My mistake.&lt;/p&gt;
@@ -24,27 +24,27 @@
 
 &lt;h2 id=&quot;content&quot;&gt;Content&lt;/h2&gt;
 
-&lt;p&gt;So the main service is the huge video library of various courses you can learn. It covers multiple specialities and technologies in different areas. For example, for software development, there are courses in C#, JavaScript, .NET Core, VueJS,  AWS, Azure etc.&lt;/p&gt;
+&lt;p&gt;So the main service is the huge video library of various courses you can learn from. It covers multiple specialities and technologies in different areas. For example, for software development, there are courses in C#, JavaScript, .NET Core, VueJS,  AWS, Azure etc.&lt;/p&gt;
 
-&lt;p&gt;There are other types of general programming courses such as learning about Design Patterns, Domain Driven Design, Unit Testing and even courses outside of technology such as ‘Mindfulness for Technologists’ or ‘Communications for Technologists’.&lt;/p&gt;
+&lt;p&gt;There are other types of programming topics such as design patterns, domain driven design, unit testing and courses outside of technology such as ‘Mindfulness for Technologists’ or ‘Communications for Technologists’.&lt;/p&gt;
 
-&lt;p&gt;The video library is occasionally updated and new courses seem to be added regularly.&lt;/p&gt;
+&lt;p&gt;The video library is occasionally updated and new courses added regularly.&lt;/p&gt;
 
 &lt;p&gt;Each course and its video clips are pretty good. The quality of the content is done to a high standard and the videos are concise and  the length of the video clips are short enough to keep your attention.&lt;/p&gt;
 
-&lt;p&gt;One thing I noticed is that feels like each video clip speed is slower than how the course author recorded it. So I have to watch it at 1.5x speed in order for it to sound like a normal audio speed. This kind of suggests that the course is actually shorter than it claims. It also skews the usage statistics as watching an course for &lt;strong&gt;45 minutes&lt;/strong&gt; will record as &lt;strong&gt;1 hour&lt;/strong&gt; in the report.&lt;/p&gt;
+&lt;p&gt;One thing I noticed is that feels like each video clip speed is slower than how the course author recorded it. So I have to watch it at 1.5x - 2.0x speed in order for it to sound more natural. This suggests that the courses are actually shorter than it claims. It also skews the usage statistics as watching a course for &lt;strong&gt;45 minutes&lt;/strong&gt; will record as &lt;strong&gt;60 minutes&lt;/strong&gt; in the report.&lt;/p&gt;
 
 &lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
 
 &lt;h3 id=&quot;paths-and-skill-iq&quot;&gt;Paths and Skill IQ&lt;/h3&gt;
-&lt;p&gt;Pluralsight has a nice feature called ‘Paths’. Paths are a collection of courses which were curated by Pluralsight to provide a degree of progression for the user as they learn. It is broken down into ‘Beginner’, ‘Intermediate’  and ‘Advance’ categories each containing the course of the relevant level.&lt;/p&gt;
+&lt;p&gt;Pluralsight has a nice feature called ‘Paths’. Paths are a collection of courses which were curated by Pluralsight to provide a degree of progression for the user as they learn. It is broken down into ‘Beginner’, ‘Intermediate’  and ‘Advance’ categories each containing courses of the relevant level.&lt;/p&gt;
 
-&lt;p&gt;Before you begin a path, you’re encouraged to take a ‘Skill IQ’ test in order to place you in a path for your skill level. After I took the test, its nice to see roughly what skill level Pluralsight thinks I’m at and places their recommendation based on that.&lt;/p&gt;
+&lt;p&gt;Before you begin a path, you’re encouraged to take a ‘Skill IQ’ test in order to recommend you a category based on how well you do.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/pluralsight-review-0.png&quot; /&gt;
 &lt;em&gt;My Current Skill IQ rating as of June 2020&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;They also allow you to take the ‘Skill IQ’ test as many times you like. I recommend doing it a few months after learning a course or completing a path. It feels good to see how you’ve progressed.&lt;/p&gt;
+&lt;p&gt;They also allow you to take this test as many times you like. I recommend doing it a few months after starting a path. It’s good to see how you’ve progressed.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/pluralsight-review-1.png&quot; /&gt;
 &lt;em&gt;My Skill IQ history&lt;/em&gt;&lt;/p&gt;
@@ -55,7 +55,7 @@
 
 &lt;p&gt;What I liked about the Path feature is that it provides me some direction when deciding what course or videos to watch. At the time, I had selected the C# path and seeing the courses in their associated category based on the skill level helps me choose which course to take next.&lt;/p&gt;
 
-&lt;p&gt;One thing I believe is a disadvantage of the Skill IQ is, they don’t encourage the user to still consider courses that are in the lower skill category. I think even though I have some experience with C# (in this scenario), that doesn’t mean I’m an ‘expert’ because my ‘Skill IQ’ score claims I am. Even with many years of experience, there can be gaps in your knowledge base and so the user shouldn’t ignore courses in a lower skill category such as the ‘C# fundamentals’ course.&lt;/p&gt;
+&lt;p&gt;One minor critique I have of the ‘Skill IQ’ is, it may discourage the user from considering courses that are in the lower skill category. I think even though I have some experience with C# (in this scenario), that doesn’t necessarily mean I’m an ‘expert’ because my ‘Skill IQ’ score claims I am. Even with many years of experience, there can be gaps in your knowledge base and so the user shouldn’t ignore courses in a lower skill category such as the ‘C# fundamentals’ course.&lt;/p&gt;
 
 &lt;h2 id=&quot;personal-profile&quot;&gt;Personal Profile&lt;/h2&gt;
 
@@ -64,7 +64,7 @@
 &lt;p&gt;&lt;img src=&quot;/assets/media/pluralsight-review-2.png&quot; /&gt;
 &lt;em&gt;My Personal Profile as of 5th June 2020&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;These kind of visual graphs and charts can be very insightful to see your progress and to motivate you to maintain your daily/monthly streaks. And to also allow some indication of how much value you’re getting out of the subscription.&lt;/p&gt;
+&lt;p&gt;These kind of charts can be very insightful and motivate you to maintain your daily/monthly streaks. Also to give some indication of the value you’re getting out of the subscription.&lt;/p&gt;
 
 &lt;h2 id=&quot;engagement&quot;&gt;Engagement&lt;/h2&gt;
 
@@ -82,7 +82,7 @@
 &lt;p&gt;&lt;img src=&quot;/assets/media/pluralsight-review-3.png&quot; /&gt;
 &lt;em&gt;My monthly usage statistics email received on 5th June 2020&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;I would imagine that these emails serve a few purposes, the first is engagement with the user. It’s good to see your progress broken down like this but I can see that it was designed to ‘appear’ better than it actually is.&lt;/p&gt;
+&lt;p&gt;It’s good to see your progress broken down like this but I can also see that it was designed to ‘appear’ better than it actually is.&lt;/p&gt;
 
 &lt;p&gt;For example, the report is broken down into minutes instead of hours. I wonder if it’s because it doesn’t look as good if you’re a casual user who doesn’t log in as much.&lt;/p&gt;
 
@@ -92,9 +92,9 @@ It also presents some of the courses I’ve just started as well including your 
 &lt;p&gt;&lt;img src=&quot;/assets/media/pluralsight-review-4.png&quot; /&gt;
 &lt;em&gt;My monthly usage statistics email received on 5th June 2020&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Seeing a report like this and seeing how little you use it may prompt you to unsubscribe to the service if you’re on the monthly plan. If you’re on the annual plan then you wouldn’t be able to unsubscribe straight away but you may consider not renewing your membership the following year.&lt;/p&gt;
+&lt;p&gt;Seeing a report like this can prompt you to unsubscribe to the service if you’re not using it enough and you’re on the monthly plan. If you’re on the annual plan then you wouldn’t be able to unsubscribe straight away but you may consider not renewing your membership the following year.&lt;/p&gt;
 
-&lt;p&gt;One problem I can see is that its also a little inaccurate for me personally as I watch the course at 1.5x - 2.0x speed which isn’t factored in these statistics.&lt;/p&gt;
+&lt;p&gt;One problem I can see is that its also a little inaccurate for me personally as I watch the course at 1.5x - 2.0x speed which isn’t factored in the usage statistics.&lt;/p&gt;
 
 &lt;p&gt;There are many other features I haven’t mentioned such as being able to write notes and downloading exercise files to with when watching a course, I’ve never personally used those features and so I shouldn’t comment on them.&lt;/p&gt;
 
@@ -113,16 +113,16 @@ It also presents some of the courses I’ve just started as well including your 
 &lt;h6 id=&quot;cons&quot;&gt;Cons&lt;/h6&gt;
 &lt;ul&gt;
   &lt;li&gt;It’s really expensive&lt;/li&gt;
-  &lt;li&gt;I wished there were more business, communication and office related courses&lt;/li&gt;
-  &lt;li&gt;It feels like each video clip speed is slower than how the course author recorded it&lt;/li&gt;
+  &lt;li&gt;I wished there were more business, communication or office related courses&lt;/li&gt;
+  &lt;li&gt;Each video clip speed feels slower than how the course author recorded it&lt;/li&gt;
   &lt;li&gt;Usage Statistics can be inaccurate depending on what speed you’re watching the courses in&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Some of the cons can be written off depending on the user. But the main one I think is the price which is arguably strong enough to supercede &lt;strong&gt;all&lt;/strong&gt; of the pros I’ve listed here. While the content and features are nice, I’m wondering in terms of raw value, is it worth the cost?&lt;/p&gt;
+&lt;p&gt;Some of the cons can be written off depending on the user. But the main one I think is the price which is arguably strong enough to supercede &lt;strong&gt;all&lt;/strong&gt; of the pros I’ve listed here. While the content and features are nice, I’m wondering in terms of raw value, is it worth the cost? Especially because there are other cheaper services you can subscribe to.&lt;/p&gt;
 
 &lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
 
-&lt;p&gt;Overall I like the service, it’s great for IT professionals and the software development courses I’ve seen so far are very good. Watching courses like these can really improve your knowledge base on the subject you choose. There are courses for users of all levels and being able to track your progress through the Skill IQ and usage statistics are very welcome features.&lt;/p&gt;
+&lt;p&gt;Overall I like the service, it’s great for IT professionals and the software development courses I’ve seen so far are very good. Watching courses like these can really improve your knowledge base on the subject you choose. There are courses for users of all levels and being able to track your progress through the Skill IQ and usage statistics are very welcome features. I had heard that Pluralsight used to specialize in C# specific courses, which is probably why there are so many to choose from.&lt;/p&gt;
 
 &lt;p&gt;The main issue I have is the price. Its very expensive, so to justify it, you need to make the most of the subscription by watching the course.&lt;/p&gt;
 
@@ -631,14 +631,14 @@ environment.&lt;/p&gt;
 
 &lt;p&gt;My company had provided me an annual &lt;a href=&quot;https://pluralsight.com/&quot;&gt;Pluralsight&lt;/a&gt; membership (In November 2019) so I can study at my leisure, I watched it a few times but not often at all. It wasn’t until March did I decide that I should actually use the membership, so I applied the same principle.&lt;/p&gt;
 
-&lt;p&gt;In my habit tracker, I added a new daily task to “Watch 10 minutes of Pluralsight”. I’ve missed only one day (which according to Pluralsight, it was 39 days ago because (as of today) I had just broken my record of a 38 day streak.&lt;/p&gt;
+&lt;p&gt;In my habit tracker, I added a new daily task to “Watch 10 minutes of Pluralsight”. I’ve missed only two days since starting the habit which according to Pluralsight was &lt;strong&gt;24th February&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/how-i-build-habits-1.png&quot; style=&quot;height: 250px;&quot; /&gt;
 &lt;em&gt;- My Pluralsight profile activity insights as of 24th May 2020&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;As you can see, by just aiming to watch 10 minutes a day (which sometimes ended up being 20-30 minutes), the results are huge and according to the “View Time” on my profile, the number of hours of content I’ve watched between March – May when compared to January and February has increased quite a lot.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Note: I watch them at 1.5x speed so the exact number of hours displayed are not accurate&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note: I watch them at 1.5x - 2.0x speed so the exact number of hours displayed are not accurate&lt;/em&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
