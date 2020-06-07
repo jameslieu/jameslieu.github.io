@@ -74,4 +74,4 @@ While I hadn't written in my programming journal in a while, I can see why it ca
 
 I've been reading back on my old journal entries written in 2018. It has some notes I made of concepts or questions I had, notes of events of that particular day and how I felt on those days including decisions that were made by the team or by management. Its a great way to see how I've grown since writing those entries.
 
-I don't know whether I'll start journaling again but in many ways, these blog posts I'm writting are a form of journaling for me. I enjoy writing them as well as reading through them retrospectively. I may start to go through my old journal entries and create blog posts on the ones I think would be good to share.
+I don't know whether I'll start journaling again but in many ways, these blog posts I'm writing are a form of journaling for me. I enjoy writing them as well as reading through them retrospectively. I may start to go through my old journal entries and create blog posts on the ones I think would be good to share.

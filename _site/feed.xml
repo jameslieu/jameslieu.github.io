@@ -1,4 +1,82 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-06-06T22:49:11+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Pluralsight Review</title><link href="http://jameslieu.github.io/pluralsight-review/" rel="alternate" type="text/html" title="Pluralsight Review" /><published>2020-06-05T00:00:00+01:00</published><updated>2020-06-05T00:00:00+01:00</updated><id>http://jameslieu.github.io/pluralsight-review</id><content type="html" xml:base="http://jameslieu.github.io/pluralsight-review/">&lt;p&gt;On 17th Oct 2019 I’ve purchased an annual Pluralsight subscription.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-06-07T23:39:22+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">How To Improve Retention Rate When Learning</title><link href="http://jameslieu.github.io/how-to-improve-retention-rate-when-learning/" rel="alternate" type="text/html" title="How To Improve Retention Rate When Learning" /><published>2020-06-07T00:00:00+01:00</published><updated>2020-06-07T00:00:00+01:00</updated><id>http://jameslieu.github.io/how-to-improve-retention-rate-when-learning</id><content type="html" xml:base="http://jameslieu.github.io/how-to-improve-retention-rate-when-learning/">&lt;p&gt;For me personally, I struggle to remember much of conversations I’ve had, places I’ve visited or content I’ve read.&lt;/p&gt;
+
+&lt;p&gt;It’s one of the reasons why I find little value in travelling abroad for holidays. Not being able to remember much when compared to the cost associated, makes the whole experience less worth it for me from a financial perspective.&lt;/p&gt;
+
+&lt;p&gt;My ability to retain information is extremely poor and so I need to figure out a way to improve my retention rate.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-learning-pyramid-&quot;&gt;The Learning Pyramid 🎓&lt;/h2&gt;
+
+&lt;p&gt;There is a representation for retention for different types of learning called  &lt;a href=&quot;https://en.wikipedia.org/wiki/Learning_pyramid&quot;&gt;the learning pyramid&lt;/a&gt;. Which I ironically learned from someone else ‘teaching’ it to me.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/Learning-Pyramid.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The learning pyramid is a group of popular learning models and representations relating different degrees of retention induced from various type of learning.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Retention rate&lt;/th&gt;
+      &lt;th&gt;Learning activity before test of knowledge&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;90%&lt;/td&gt;
+      &lt;td&gt;Teach someone else/use immediately.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;75%&lt;/td&gt;
+      &lt;td&gt;Practice what one learned.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;50%&lt;/td&gt;
+      &lt;td&gt;Engaged in a group discussion.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;30%&lt;/td&gt;
+      &lt;td&gt;Watch a demonstration.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;20%&lt;/td&gt;
+      &lt;td&gt;Watch audiovisual.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10%&lt;/td&gt;
+      &lt;td&gt;Reading.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5%&lt;/td&gt;
+      &lt;td&gt;Listening to a lecture.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;According to &lt;a href=&quot;https://en.wikipedia.org/wiki/Learning_pyramid&quot;&gt;the learning pyramid&lt;/a&gt;, if I just read or listen to a lecture, the retention rate for that knowledge is low. However, if I were to practice what I’ve learned or teach someone else, then my retention rate would be substantially higher.&lt;/p&gt;
+
+&lt;h2 id=&quot;improving-my-retention-rate-&quot;&gt;Improving My Retention Rate 📈&lt;/h2&gt;
+
+&lt;p&gt;While I don’t actively teach anyone, I can think of some ways to practice what I’ve learned (depending on the topic).
+Alternatively, I think writing notes on what I’ve learned, can at least allow me to re-read key points and hopefully absorb the knowledge better.&lt;/p&gt;
+
+&lt;p&gt;As I learn something either from a book, from someone at work or an article on the internet, it’s probably a good idea to write notes somewhere I visit regularly so I can re-read it. I used to write in a journal, both physical and on the computer, but I never read from there regularly enough. So I think I’ll try adding these notes on this blog instead.&lt;/p&gt;
+
+&lt;p&gt;Writing in my own words can be a way to improve my understanding of the topic. Also leaving the notes somewhere I can access and shared publicly can maybe be a form of ‘teaching’ as well.&lt;/p&gt;
+
+&lt;p&gt;Although, I suspect some of the notes will be written based on content I’ve read somewhere else, so depending on the content, I may or may not write it in my own words.&lt;/p&gt;
+
+&lt;p&gt;It will likely be written in similar way to taking notes when watching a lecture or powerpoint presentation unlike previous blog posts where they’re written in a perspective where I’m sharing my opinion on a topic.&lt;/p&gt;
+
+&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
+
+&lt;p&gt;For me, I’ve been reading more and also stumbling across articles on the internet that has great nuggets of information and not being able to remember much of it is the issue.&lt;/p&gt;
+
+&lt;p&gt;Writing more is only &lt;strong&gt;one&lt;/strong&gt; way for me to address this and leaving them somewhere I can easily read and share in the form of blog posts is the plan, thankfully I’ve taken a liking to writing lately.&lt;/p&gt;
+
+&lt;p&gt;In many ways, I’m already resolving this issue by adding blog entries. However, they’re often based on topics on my mind, I wish to share, I do some degree of research and thinking before I write.&lt;/p&gt;
+
+&lt;p&gt;For this however, writing notes as and when I learn something of value is where I think is slightly different. And so I think I’ll prefix these particular posts with &lt;strong&gt;”&amp;lt;Category&amp;gt; Notes: &amp;lt;title&amp;gt;“&lt;/strong&gt; i.e. “Programming Notes: Software Construction”&lt;/p&gt;
+
+&lt;p&gt;I don’t expect anyone to read these but myself, it will primarily be used as a place for me to refer or to stumble across it if I ever browse through my blog. But the end goal is the continued learning and hopefully a strong retention rate off the back of it.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">I struggle to remember much of conversations I've had, places I've visited or content I've read. My ability to retain information is extremely poor and so I need to figure out a way to improve my retention rate.</summary></entry><entry><title type="html">Pluralsight Review</title><link href="http://jameslieu.github.io/pluralsight-review/" rel="alternate" type="text/html" title="Pluralsight Review" /><published>2020-06-05T00:00:00+01:00</published><updated>2020-06-05T00:00:00+01:00</updated><id>http://jameslieu.github.io/pluralsight-review</id><content type="html" xml:base="http://jameslieu.github.io/pluralsight-review/">&lt;p&gt;On 17th Oct 2019 I’ve purchased an annual Pluralsight subscription.&lt;/p&gt;
 
 &lt;p&gt;I’ve watched it on and off around that time but since 24th February 2020 I’ve been watching it almost daily now and thought to myself to write a review here on my blog.&lt;/p&gt;
 
@@ -349,7 +427,7 @@ It also presents some of the courses I’ve just started as well including your 
 
 &lt;p&gt;I’ve been reading back on my old journal entries written in 2018. It has some notes I made of concepts or questions I had, notes of events of that particular day and how I felt on those days including decisions that were made by the team or by management. Its a great way to see how I’ve grown since writing those entries.&lt;/p&gt;
 
-&lt;p&gt;I don’t know whether I’ll start journaling again but in many ways, these blog posts I’m writting are a form of journaling for me. I enjoy writing them as well as reading through them retrospectively. I may start to go through my old journal entries and create blog posts on the ones I think would be good to share.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">I've been going through my old notes and found this section. &quot;How to write a programming journal&quot; written on 8th July 2018.</summary></entry><entry><title type="html">Journal Template</title><link href="http://jameslieu.github.io/journal-template/" rel="alternate" type="text/html" title="Journal Template" /><published>2020-05-30T00:00:00+01:00</published><updated>2020-05-30T00:00:00+01:00</updated><id>http://jameslieu.github.io/journal-template</id><content type="html" xml:base="http://jameslieu.github.io/journal-template/">&lt;p&gt;This was also found in my old notes dated in &lt;strong&gt;24th March 2019&lt;/strong&gt;. A good tip for journaling worth sharing.
+&lt;p&gt;I don’t know whether I’ll start journaling again but in many ways, these blog posts I’m writing are a form of journaling for me. I enjoy writing them as well as reading through them retrospectively. I may start to go through my old journal entries and create blog posts on the ones I think would be good to share.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">I've been going through my old notes and found this section. &quot;How to write a programming journal&quot; written on 8th July 2018.</summary></entry><entry><title type="html">Journal Template</title><link href="http://jameslieu.github.io/journal-template/" rel="alternate" type="text/html" title="Journal Template" /><published>2020-05-30T00:00:00+01:00</published><updated>2020-05-30T00:00:00+01:00</updated><id>http://jameslieu.github.io/journal-template</id><content type="html" xml:base="http://jameslieu.github.io/journal-template/">&lt;p&gt;This was also found in my old notes dated in &lt;strong&gt;24th March 2019&lt;/strong&gt;. A good tip for journaling worth sharing.
 For regular journaling, a common stuggle is consistency. I’ve done some research online for tips and tricks to help with this issue.
 These ones I’ve taken as I usually journal in the evenings. I likely copied these from other sources although I don’t know where.&lt;/p&gt;
 
@@ -730,113 +808,4 @@ Not to mention requiring the time of existing developers to assist thus also add
 
 &lt;p&gt;At the end of the day, salaries should mostly be dictated by what amount of productivity an employer can bring. The more junior you are, the less productivity you can bring when compared to mid-senior level developers, but this can be offset by accepting a lower salary. So the answer to the titled question would depend on whether it is more expensive to hire said junior.&lt;/p&gt;
 
-&lt;p&gt;So in conclusion, as per my response: If you’re a junior-level developer, consider taking a low salary because in my opinion, the best thing for a junior, is getting their foot through the door first in order to gain things that are of greater value than salary.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Do any of you work in companies that should be hiring juniors but aren't? What's stopping them?</summary></entry><entry><title type="html">Preferably 5+ years of experience</title><link href="http://jameslieu.github.io/preferably-5-years-of-experience/" rel="alternate" type="text/html" title="Preferably 5+ years of experience" /><published>2020-05-21T00:00:00+01:00</published><updated>2020-05-21T00:00:00+01:00</updated><id>http://jameslieu.github.io/preferably-5-years-of-experience</id><content type="html" xml:base="http://jameslieu.github.io/preferably-5-years-of-experience/">&lt;p&gt;Somebody had posted a application in the #careers channel of the Slack group I’m a part of.
-And then somebody left this response:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Ah. “You should have: –  Preferably 5+ years software development experience including Ruby.” Well, keep in touch if they’re hiring another more junior person&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;My response to this was:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Apply anyway. Include a cover letter honestly outlining your skillset and experience. You never know if they wouldn’t consider hiring a junior. That’s how I had gotten a role once&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Which is true, I had gotten my role at Rentify because I applied for their application, which was for a mid-level (if I remember correctly) and had asked whether they would consider a junior. This had gotten me the opportunity to send my CV and code examples which led to a technical test and then a face-to-face interview where I successfully achieved an offer for the role.&lt;/p&gt;
-
-&lt;p&gt;The junior’s reluctance to apply had inspired me to write this post as I had been in the same position once. And my intiative to apply back then, had gotten me one of the most crucial roles of my career as a junior.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Software developer job applications on the internet will usually come some requirements for what the employer expects in a candidate. Here is an example from the actual application:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;You should have:
-
-- Preferably 5+ years software development experience including Ruby.
-- Experience of writing apps using Ruby on Rails or a similar framework.
-- Experience of database technologies (e.g. MySQL or PostgreSQL).
-- Good knowledge of HTML, CSS and JavaScript.
-- Experience of using Git for source control.
-- Experience of software development best practices such as pairing and code review.
-- Experience of or an interest in learning about infrastructure and operations, mainly in the context of Amazon Web Services.
-- Good interpersonal skills and the ability to work with both technical and non-technical stakeholders.
-- Fluency in English and the ability to work in the UK without sponsorship.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;I can imagine this being quite intimidating for job seekers who may not fulfil some of the requirements on this list, especially junior developers. There appears to be a lot here and if you’re just starting out then perhaps your ‘imposter syndrome’ may kick in and deter you from applying.&lt;/p&gt;
-
-&lt;p&gt;My advice would be, instead of being intimidated by this, take advantage of the information provided. Read through the application and see if you can identify which requirements are (maybe) a &lt;strong&gt;must-have&lt;/strong&gt; and which are &lt;strong&gt;should-have&lt;/strong&gt; / &lt;strong&gt;nice-to-haves&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;According to the application, there are some mandatory requirements (in my opinion):&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Fluency in English&lt;/li&gt;
-  &lt;li&gt;Ability to work in UK without sponsorship&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In terms of technology, I can see that you will need &lt;strong&gt;some&lt;/strong&gt; experience of the following:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Ruby&lt;/li&gt;
-  &lt;li&gt;Ruby on Rails (or a similar framework)&lt;/li&gt;
-  &lt;li&gt;Database technologies i.e. MySQL / PostgresSQL&lt;/li&gt;
-  &lt;li&gt;Html / CSS / JavaScript&lt;/li&gt;
-  &lt;li&gt;Git&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The rest is difficult to judge how much you would need in order to satisfy the employer’s requirement, i.e.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Interest in learning about infrastructure and operations (AWS)&lt;/li&gt;
-  &lt;li&gt;good interpersonal skills or experience of best practices.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In my mind, those can essentially be ignored, they really ought to be in the ‘bonus/nice to have’ section of the job application.&lt;/p&gt;
-
-&lt;p&gt;And finally, the one that tends to stand out most is the number of years of experience you ‘should’ or ‘ideally’ have.&lt;/p&gt;
-
-&lt;p&gt;I’ll run through my thoughts of each category and how I would deal with each if I were applying.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;mandatory-non-technical-requirements&quot;&gt;Mandatory Non-technical Requirements&lt;/h3&gt;
-
-&lt;p&gt;Requirements like “ability to work in UK without sponsorship” are likely to be deal-breakers for the employer if they added these in to the job spec.  Other things like “fluency in English” also may fit into this category, if they need you to be able to speak English well, then that may be non-negotiable.&lt;/p&gt;
-
-&lt;p&gt;So its worth looking elsewhere if this is the case, although &lt;strong&gt;it doesn’t hurt to ask!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;technology-requirements&quot;&gt;Technology Requirements&lt;/h3&gt;
-
-&lt;p&gt;So here I think is where the experience level can be flexible a little bit, the reason being, is that you don’t actually know what the employer requires you to work on at this stage. You have an idea of the tech stack however, and so this is where you can use this knowledge to your advantage. Obviously if you have &lt;strong&gt;no&lt;/strong&gt; experience with requirements like Ruby or Ruby on Rails, then perhaps the role isn’t necessarily for you, but at the same time &lt;strong&gt;it doesn’t mean you can’t learn it in the meantime&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Ruby / Ruby on Rails&lt;/strong&gt; - I’m assuming that the applicant will have at least some experience of this, if the applicant specialises in a different technology their chances of success when applying for other roles related to that would be greater. But lets say the applicant has little (but some) experience, the employer/interviewer can only really gauge your skill level on either the technical test or the verbal interview (either face-to-face or phone). This is actually one of the reasons why technical tests are usually part of the application process, its easy to say how good you are at something on paper, you’ll still need to prove it. Having some code examples or personal portfolio would also help.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Database technologies i.e. MySQL&lt;/strong&gt; - It would be advantageous to know some SQL, but developers using frameworks like RoR tend to rely on the migration features anyway. So I wouldn’t worry too much about it at this stage so long as you know the basics, and again, its something that you can learn meantime.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;HTML / CSS / JavaScript&lt;/strong&gt; - Seeing JavaScript placed in the same bullet-point as HTML and CSS suggests that its used but not widely within the tech stack, again its worth having some experience in it. I would think that it can be learned on the job (if the application is successful) and therefore not to worry about limited knowledge on it at this stage either.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Git&lt;/strong&gt; - It would be good to learn the basics of version control for sure. Can be learned while applying or on the job, not necessarily mandatory.&lt;/p&gt;
-
-&lt;h6 id=&quot;additional-thoughts-on-this&quot;&gt;Additional thoughts on this&lt;/h6&gt;
-
-&lt;p&gt;My point is that I wouldn’t think of these are deal-breakers if you cannot fulfil the requirement. It is unlikely the employer will completely reject your application if you, for example, had &lt;strong&gt;some&lt;/strong&gt; experience in Ruby but none in MySQL. Same with having experience with Ruby on Rails but no experience in version control with Git before.&lt;/p&gt;
-
-&lt;p&gt;Also, if there is a gap in your knowledge base, learn while applying for these roles. The better your knowledge, the greater your success rate.&lt;/p&gt;
-
-&lt;h3 id=&quot;preferably-x-years-of-experience&quot;&gt;Preferably x years of experience&lt;/h3&gt;
-
-&lt;p&gt;This is the one I think deters people the most. In my opinion I consider it to be too arbitrary. I’m not saying we should ignore it, it does give some indication what level they’re expecting which should be in line with the expected salary. But its possible to have 0 years of &lt;strong&gt;professional experience&lt;/strong&gt; but self-taught enough to be able to perform well in the role. So I would bear this in mind and apply anyway, doesn’t matter if you have 1, 2, 4 or 7 years of experience, just apply for the job.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Even if&lt;/strong&gt; the chances for an interview are low, say 5%, the odds for an interview is &lt;strong&gt;0% if you don’t apply at all&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
-
-&lt;p&gt;It doesn’t hurt to apply. Remember that your odds for an interview is &lt;strong&gt;0%&lt;/strong&gt; if you don’t.&lt;/p&gt;
-
-&lt;p&gt;A lot of this is based of my own personal experience and my advice is that you might as well apply to see whether you will be considered for the next stage (which could be a technical test or face to face interview).&lt;/p&gt;
-
-&lt;p&gt;There is no guarantee that you will get to that stage &lt;strong&gt;even if you did fulfil each requirement&lt;/strong&gt;. Its also possible that you may only fulfil only some requirements and there may be leeway with the employer.&lt;/p&gt;
-
-&lt;p&gt;If they need the role to be filled, they may be willing to at least have a conversation with you, which is your opportunity to convince them to make you an offer.&lt;/p&gt;
-
-&lt;p&gt;Also, don’t forget that you will likely be competing with other people as well, so don’t stop there, apply for many other job applications. The more you apply for, the greater your success rate. Maybe one of them will convert to an interview and potentially lead to an offer.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Applying for developer roles is not as complicated as one would think.</summary></entry></feed>
+&lt;p&gt;So in conclusion, as per my response: If you’re a junior-level developer, consider taking a low salary because in my opinion, the best thing for a junior, is getting their foot through the door first in order to gain things that are of greater value than salary.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Do any of you work in companies that should be hiring juniors but aren't? What's stopping them?</summary></entry></feed>
