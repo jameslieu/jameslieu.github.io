@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-06-07T23:39:22+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">How To Improve Retention Rate When Learning</title><link href="http://jameslieu.github.io/how-to-improve-retention-rate-when-learning/" rel="alternate" type="text/html" title="How To Improve Retention Rate When Learning" /><published>2020-06-07T00:00:00+01:00</published><updated>2020-06-07T00:00:00+01:00</updated><id>http://jameslieu.github.io/how-to-improve-retention-rate-when-learning</id><content type="html" xml:base="http://jameslieu.github.io/how-to-improve-retention-rate-when-learning/">&lt;p&gt;For me personally, I struggle to remember much of conversations I’ve had, places I’ve visited or content I’ve read.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-06-08T09:02:28+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Improve Retention Rate When Learning</title><link href="http://jameslieu.github.io/improve-retention-rate-when-learning/" rel="alternate" type="text/html" title="Improve Retention Rate When Learning" /><published>2020-06-07T00:00:00+01:00</published><updated>2020-06-07T00:00:00+01:00</updated><id>http://jameslieu.github.io/improve-retention-rate-when-learning</id><content type="html" xml:base="http://jameslieu.github.io/improve-retention-rate-when-learning/">&lt;p&gt;For me personally, I struggle to remember much of conversations I’ve had, places I’ve visited or content I’ve read.&lt;/p&gt;
 
 &lt;p&gt;It’s one of the reasons why I find little value in travelling abroad for holidays. Not being able to remember much when compared to the cost associated, makes the whole experience less worth it for me from a financial perspective.&lt;/p&gt;
 
@@ -72,7 +72,7 @@ Alternatively, I think writing notes on what I’ve learned, can at least allow 
 
 &lt;p&gt;Writing more is only &lt;strong&gt;one&lt;/strong&gt; way for me to address this and leaving them somewhere I can easily read and share in the form of blog posts is the plan, thankfully I’ve taken a liking to writing lately.&lt;/p&gt;
 
-&lt;p&gt;In many ways, I’m already resolving this issue by adding blog entries. However, they’re often based on topics on my mind, I wish to share, I do some degree of research and thinking before I write.&lt;/p&gt;
+&lt;p&gt;In many ways, I’m already resolving this issue by adding blog entries. However, they’re often based on topics I wish to share, so I do some degree of research and thinking before I create those posts.&lt;/p&gt;
 
 &lt;p&gt;For this however, writing notes as and when I learn something of value is where I think is slightly different. And so I think I’ll prefix these particular posts with &lt;strong&gt;”&amp;lt;Category&amp;gt; Notes: &amp;lt;title&amp;gt;“&lt;/strong&gt; i.e. “Programming Notes: Software Construction”&lt;/p&gt;
 
@@ -80,18 +80,18 @@ Alternatively, I think writing notes on what I’ve learned, can at least allow 
 
 &lt;p&gt;I’ve watched it on and off around that time but since 24th February 2020 I’ve been watching it almost daily now and thought to myself to write a review here on my blog.&lt;/p&gt;
 
-&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;h2 id=&quot;introduction-&quot;&gt;Introduction 🏁&lt;/h2&gt;
 
 &lt;p&gt;Pluralsight is a premium video streaming service dedicated to teaching courses relating to technology such as Software Development, Cyber Security and IT Ops.&lt;/p&gt;
 
 &lt;p&gt;The courses are focused on a specific topic which is broken down into smaller digestible videos.&lt;/p&gt;
 
-&lt;h3 id=&quot;pricing-plans&quot;&gt;Pricing Plans&lt;/h3&gt;
+&lt;h3 id=&quot;-pricing-plans&quot;&gt;💰 Pricing Plans&lt;/h3&gt;
 
 &lt;p&gt;There are three personal plans you can choose from.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;The monthly plan costs &lt;strong&gt;£24.00pcm&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;The monthly plan costs &lt;strong&gt;£24.00&lt;/strong&gt; per month&lt;/li&gt;
   &lt;li&gt;the annual subscription &lt;strong&gt;£245.00&lt;/strong&gt; per year&lt;/li&gt;
   &lt;li&gt;the premium plan is &lt;strong&gt;£370.00&lt;/strong&gt; per year&lt;/li&gt;
 &lt;/ul&gt;
@@ -100,7 +100,7 @@ Alternatively, I think writing notes on what I’ve learned, can at least allow 
 
 &lt;p&gt;The monthly cost is a bit more affordable, but going for the annual cost is lower overall (versus being on the monthly plan for 12 months). If you’re planning on using for under 10 months then the monthly plan would work out cheaper.&lt;/p&gt;
 
-&lt;h2 id=&quot;content&quot;&gt;Content&lt;/h2&gt;
+&lt;h2 id=&quot;content-&quot;&gt;Content 📜&lt;/h2&gt;
 
 &lt;p&gt;So the main service is the huge video library of various courses you can learn from. It covers multiple specialities and technologies in different areas. For example, for software development, there are courses in C#, JavaScript, .NET Core, VueJS,  AWS, Azure etc.&lt;/p&gt;
 
@@ -112,9 +112,9 @@ Alternatively, I think writing notes on what I’ve learned, can at least allow 
 
 &lt;p&gt;One thing I noticed is that feels like each video clip speed is slower than how the course author recorded it. So I have to watch it at 1.5x - 2.0x speed in order for it to sound more natural. This suggests that the courses are actually shorter than it claims. It also skews the usage statistics as watching a course for &lt;strong&gt;45 minutes&lt;/strong&gt; will record as &lt;strong&gt;60 minutes&lt;/strong&gt; in the report.&lt;/p&gt;
 
-&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+&lt;h2 id=&quot;features-&quot;&gt;Features ✅&lt;/h2&gt;
 
-&lt;h3 id=&quot;paths-and-skill-iq&quot;&gt;Paths and Skill IQ&lt;/h3&gt;
+&lt;h3 id=&quot;-paths-and-skill-iq&quot;&gt;⛰ Paths and Skill IQ&lt;/h3&gt;
 &lt;p&gt;Pluralsight has a nice feature called ‘Paths’. Paths are a collection of courses which were curated by Pluralsight to provide a degree of progression for the user as they learn. It is broken down into ‘Beginner’, ‘Intermediate’  and ‘Advance’ categories each containing courses of the relevant level.&lt;/p&gt;
 
 &lt;p&gt;Before you begin a path, you’re encouraged to take a ‘Skill IQ’ test in order to recommend you a category based on how well you do.&lt;/p&gt;
@@ -135,7 +135,7 @@ Alternatively, I think writing notes on what I’ve learned, can at least allow 
 
 &lt;p&gt;One minor critique I have of the ‘Skill IQ’ is, it may discourage the user from considering courses that are in the lower skill category. I think even though I have some experience with C# (in this scenario), that doesn’t necessarily mean I’m an ‘expert’ because my ‘Skill IQ’ score claims I am. Even with many years of experience, there can be gaps in your knowledge base and so the user shouldn’t ignore courses in a lower skill category such as the ‘C# fundamentals’ course.&lt;/p&gt;
 
-&lt;h2 id=&quot;personal-profile&quot;&gt;Personal Profile&lt;/h2&gt;
+&lt;h2 id=&quot;personal-profile-&quot;&gt;Personal Profile 😀&lt;/h2&gt;
 
 &lt;p&gt;Pluralsight provides some data to help you track your progress. Its good to be able to see what your daily streak is and compare progress on a month to month basis.&lt;/p&gt;
 
@@ -144,7 +144,7 @@ Alternatively, I think writing notes on what I’ve learned, can at least allow 
 
 &lt;p&gt;These kind of charts can be very insightful and motivate you to maintain your daily/monthly streaks. Also to give some indication of the value you’re getting out of the subscription.&lt;/p&gt;
 
-&lt;h2 id=&quot;engagement&quot;&gt;Engagement&lt;/h2&gt;
+&lt;h2 id=&quot;engagement-&quot;&gt;Engagement 📊&lt;/h2&gt;
 
 &lt;p&gt;Pluralsight sends monthly usage statistics to your email. This reports on&lt;/p&gt;
 
@@ -176,11 +176,11 @@ It also presents some of the courses I’ve just started as well including your 
 
 &lt;p&gt;There are many other features I haven’t mentioned such as being able to write notes and downloading exercise files to with when watching a course, I’ve never personally used those features and so I shouldn’t comment on them.&lt;/p&gt;
 
-&lt;h2 id=&quot;pros-and-cons&quot;&gt;Pros and Cons&lt;/h2&gt;
+&lt;h2 id=&quot;pros-and-cons-&quot;&gt;Pros and Cons ✊&lt;/h2&gt;
 
 &lt;p&gt;I’ll quickly break down my opinion on the pros and cons of Pluralsight.&lt;/p&gt;
 
-&lt;h6 id=&quot;pros&quot;&gt;Pros&lt;/h6&gt;
+&lt;h6 id=&quot;pros-&quot;&gt;Pros 👍&lt;/h6&gt;
 &lt;ul&gt;
   &lt;li&gt;The course library is abundant and varied&lt;/li&gt;
   &lt;li&gt;The authors and structure of the content is excellent&lt;/li&gt;
@@ -188,7 +188,7 @@ It also presents some of the courses I’ve just started as well including your 
   &lt;li&gt;The Path and Skill IQ feature&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h6 id=&quot;cons&quot;&gt;Cons&lt;/h6&gt;
+&lt;h6 id=&quot;cons-&quot;&gt;Cons 👎&lt;/h6&gt;
 &lt;ul&gt;
   &lt;li&gt;It’s really expensive&lt;/li&gt;
   &lt;li&gt;I wished there were more business, communication or office related courses&lt;/li&gt;
@@ -611,7 +611,7 @@ environment.&lt;/p&gt;
 &lt;h6 id=&quot;what-is-the-issue&quot;&gt;What is the issue?&lt;/h6&gt;
 &lt;p&gt;The issue I think is, that we’ve learned and improved since the creation of some of these older services, when copying the code across to the new service we tend to copy over &lt;strong&gt;everything&lt;/strong&gt; as it was, not improving or updating any of the old logic. This &lt;strong&gt;process&lt;/strong&gt; of copying everything sometimes doesn’t even include reading the code/file and considering whether it is relevant.&lt;/p&gt;
 
-&lt;p&gt;Often the ticket to create this new service only requires us in the first instance, to create a new project that mimics the older services &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/ping&lt;/code&gt; endpoint and a unit test. Also to port across some of the core infrastructure code such as the logging configuration, and any dependencies. It makes sense to copy-and-paste those across, but should things like helper classes, unused libraries, test helpers and (currently) unused common classes be copied across as well?&lt;/p&gt;
+&lt;p&gt;Often the ticket to create this new service only requires us in the first instance, to create a new project that mimics the older services &lt;code class=&quot;highlighter-rouge&quot;&gt;/ping&lt;/code&gt; endpoint and a unit test. Also to port across some of the core infrastructure code such as the logging configuration, and any dependencies. It makes sense to copy-and-paste those across, but should things like helper classes, unused libraries, test helpers and (currently) unused common classes be copied across as well?&lt;/p&gt;
 
 &lt;p&gt;There is an argument for copying those across if we know we’re going to use them eventually. The issue with this is that it adds risk to include code we may not use at all. My suggestion to avoid this, is to only copy across code as and when you need them.&lt;/p&gt;
 

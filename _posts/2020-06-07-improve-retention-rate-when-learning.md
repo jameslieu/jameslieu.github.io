@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How To Improve Retention Rate When Learning"
+title: "Improve Retention Rate When Learning"
 categories: Self-Improvement
 excerpt: I struggle to remember much of conversations I've had, places I've visited or content I've read. My ability to retain information is extremely poor and so I need to figure out a way to improve my retention rate.
 ---
@@ -50,7 +50,7 @@ For me, I've been reading more and also stumbling across articles on the interne
 
 Writing more is only **one** way for me to address this and leaving them somewhere I can easily read and share in the form of blog posts is the plan, thankfully I've taken a liking to writing lately.
 
-In many ways, I'm already resolving this issue by adding blog entries. However, they're often based on topics on my mind, I wish to share, I do some degree of research and thinking before I write.
+In many ways, I'm already resolving this issue by adding blog entries. However, they're often based on topics I wish to share, so I do some degree of research and thinking before I create those posts.
 
 For this however, writing notes as and when I learn something of value is where I think is slightly different. And so I think I'll prefix these particular posts with **"\<Category\> Notes: \<title\>"** i.e. "Programming Notes: Software Construction"
 
