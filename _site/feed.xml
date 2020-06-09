@@ -1,4 +1,84 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-06-08T09:02:28+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Improve Retention Rate When Learning</title><link href="http://jameslieu.github.io/improve-retention-rate-when-learning/" rel="alternate" type="text/html" title="Improve Retention Rate When Learning" /><published>2020-06-07T00:00:00+01:00</published><updated>2020-06-07T00:00:00+01:00</updated><id>http://jameslieu.github.io/improve-retention-rate-when-learning</id><content type="html" xml:base="http://jameslieu.github.io/improve-retention-rate-when-learning/">&lt;p&gt;For me personally, I struggle to remember much of conversations I’ve had, places I’ve visited or content I’ve read.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-06-09T17:45:19+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">My Experience With Recruiters</title><link href="http://jameslieu.github.io/my-experience-with-recruiters/" rel="alternate" type="text/html" title="My Experience With Recruiters" /><published>2020-06-09T00:00:00+01:00</published><updated>2020-06-09T00:00:00+01:00</updated><id>http://jameslieu.github.io/my-experience-with-recruiters</id><content type="html" xml:base="http://jameslieu.github.io/my-experience-with-recruiters/">&lt;p&gt;Developers have often spoken very negatively on their experiences with recruiters. I myself have had some poor experiences with a lot a recruiters.&lt;/p&gt;
+
+&lt;p&gt;Experiences such as:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Being lied to&lt;/li&gt;
+  &lt;li&gt;Lying to their client about my salary expectations&lt;/li&gt;
+  &lt;li&gt;Lying to their client about my skill level&lt;/li&gt;
+  &lt;li&gt;No updates on the state of the application&lt;/li&gt;
+  &lt;li&gt;Being rude&lt;/li&gt;
+  &lt;li&gt;Even getting angry towards me&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Despite this, I know those recruiters are the minority, majority of recruiters are usually very polite, professional and are just doing the best they can.&lt;/p&gt;
+
+&lt;p&gt;While I understand why some developers might talk about recruiters with distain, I think it is unfair to say that &lt;strong&gt;all&lt;/strong&gt; recruiters are bad. People often only remember the bad experiences anyway. What about the good ones?&lt;/p&gt;
+
+&lt;p&gt;I was recently thinking about how I would go about recruitment if I were in their shoes. It is certainly an industry I know nothing about and perhaps there is a reason why their customer service can either be a hit or miss.&lt;/p&gt;
+
+&lt;h2 id=&quot;some-bad-experiences-&quot;&gt;Some Bad Experiences 👎&lt;/h2&gt;
+
+&lt;p&gt;I remember being a junior and just graduated from the Coding Bootcamp course I’ve enrolled on. I’ve uploaded my CV online and created accounts on many job search portals such as indeed, jobsite, CWJobs etc.&lt;/p&gt;
+
+&lt;p&gt;These job portals have toggle feature where you can make your profile visible to recruiters. My mistake is adding my phone number because as soon as I toggled this on I was flooded with phone calls from recruiters.&lt;/p&gt;
+
+&lt;p&gt;At the time, I was job hunting so I answered all of them thinking that there are opportunities for me as my profile for these sites clearly states my experience, skill level, what technologies I’m using and what I’m looking for in a position. However, my experience with almost all of them doesn’t seem to be the case.&lt;/p&gt;
+
+&lt;p&gt;Those recruiters either had no idea what my experience level was and were trying to present me roles which I’m not qualified for at all. There were even a few times where the position wasn’t even for technologies I was familiar with.&lt;/p&gt;
+
+&lt;p&gt;Many of these recruiters also don’t seem to know much of the technology they’re recruiting for, although I understand that that isn’t necessarily a requirement for the role, they should at least know the difference between some of them i.e. Java vs JavaScript.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; the difference between &lt;strong&gt;Java&lt;/strong&gt; and &lt;strong&gt;JavaScript&lt;/strong&gt; is like the difference between &lt;strong&gt;Car&lt;/strong&gt; and &lt;strong&gt;Carpet&lt;/strong&gt; 😁&lt;/p&gt;
+
+&lt;h2 id=&quot;many-good-experiences-&quot;&gt;Many Good Experiences 👍&lt;/h2&gt;
+
+&lt;p&gt;That said, I’ve worked with many great recruiters, recruiters who have gone above and beyond to keep me informed on the &lt;strong&gt;state of an application&lt;/strong&gt;, the &lt;strong&gt;back and fourth communication between myself and the employer&lt;/strong&gt;. They get in touch from time to time and it is often clear that &lt;strong&gt;they have great relationships with their clients&lt;/strong&gt; as well.&lt;/p&gt;
+
+&lt;p&gt;It is these recruiters whom I think deserve credit where it’s due. Those whom I’ll add on LinkedIn and give a recommendation. These are the recruiters whom I directly contact to ask what opportunities there are when I’m on the market.&lt;/p&gt;
+
+&lt;p&gt;I’ve even had recruiters who’ve worked outside office hours for me. I’m sure it’s for their own self-interest, but that kind of motivation makes for great customer service and I think that kind of hard-work deserves recognition.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-challenges-&quot;&gt;The Challenges 🧗&lt;/h2&gt;
+
+&lt;p&gt;What are some of the challenges recruiters have to face? I’ll give my opinion on what I think those are.&lt;/p&gt;
+
+&lt;h6 id=&quot;-creating-leads&quot;&gt;🤞 Creating Leads&lt;/h6&gt;
+
+&lt;p&gt;&lt;strong&gt;One&lt;/strong&gt; of the challenges I believe recruiters are facing is creating leads, there are many developers who are already employed somewhere, it is not uncommon for developers to be &lt;strong&gt;open to opportunities&lt;/strong&gt; and not &lt;strong&gt;actively looking&lt;/strong&gt;. These are the pool of candidates that recruiters need to tap into, places to look are social media platforms like LinkedIn and job portals such as Indeed.&lt;/p&gt;
+
+&lt;h6 id=&quot;-cold-calling-and-unsolicited-emails&quot;&gt;📞 Cold-calling and unsolicited emails&lt;/h6&gt;
+
+&lt;p&gt;Both cold-calling and unsolicited emails can be very annoying, especially if you’re not ‘open to opportunities’. The issue is that how would a recruiter know this? They can only find out by contacting the potential candidate.&lt;/p&gt;
+
+&lt;p&gt;There are so many potential leads, one tactic is to send them out, as quickly as possible. This is probably one reason why some recruiters don’t know very much about said candidate, they didn’t bother to read their profile.&lt;/p&gt;
+
+&lt;p&gt;Its also likely the reason that the emails are not tailored to the candidate which is a common complaint from developers, receiving emails that do not seem directed to you just doesn’t have the same impact as a receiving a personal email&lt;/p&gt;
+
+&lt;h6 id=&quot;-competition&quot;&gt;💃 Competition&lt;/h6&gt;
+
+&lt;p&gt;Its a competitive space. Each recruiter are attempting to recruit from the same pool of candidates; whom are on the market for opportunities. Having to hunt for candidates and to convince said person to consider one of the opportunities on &lt;strong&gt;your&lt;/strong&gt; desk instead of someone else’s desk.&lt;/p&gt;
+
+&lt;h2 id=&quot;-further-thoughts&quot;&gt;🤔 Further Thoughts&lt;/h2&gt;
+
+&lt;p&gt;These challenges probably explain why some people may have had a bad experience with recruiters. If we, as their potential candidate be more empathetic, then we can at least be more understanding and help them help us to get a win/win solution.&lt;/p&gt;
+
+&lt;p&gt;If you are looking for opportunities then recruiters can be really helpful. They often have opportunities you cannot find on the internet and so its worth staying in touch.&lt;/p&gt;
+
+&lt;p&gt;It is probably the case that you’re going to have some recruiters whom give you a really bad experience, but like any industry, having bad customer service will only drive them away.&lt;/p&gt;
+
+&lt;p&gt;It works both ways, if you, the candidate, are difficult to work with, the recruiter themselves may not even consider contacting you in the future. And if you alienate a good recruiter, you could lose opportunities which would’ve otherwise been very beneficial to you.&lt;/p&gt;
+
+&lt;p&gt;Its easy enough to ignore the emails if you’re not open to opportunities, there was a time where I had tried to respond to all of them, but I’ve found that to be too time consuming.&lt;/p&gt;
+
+&lt;p&gt;In terms of the cold-calling, I would suggest removing your personal phone number from any CVs and online profiles you have, should it even be made public on the internet anyway? Instead, save the contact numbers of the recruiters whom you think you’ll be in contact more frequently, you’ll at least know when to answer the call and when to reject them.&lt;/p&gt;
+
+&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
+
+&lt;p&gt;Sometimes putting yourself in someone else’s shoes can add an alternate perspective to why some experiences do not meet your expectations. Recruitment is a very people-oriented industry and yet the challenges they face probably makes it &lt;strong&gt;difficult to do the job how they would like to do it&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;I feel this is quite an interesting topic to cover, I’ve not read any articles or blogs from other developers what they would like from interacting with recruiters, so I decided to write my own.&lt;/p&gt;
+
+&lt;p&gt;The next time I think about this topic, I’ll probably write about what my personal expectations are for recruiters to hopefully be a form of customer feedback for any recruiters reading it.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">I was recently thinking about how I would go about recruitment if I were in their shoes. It is certainly an industry I know nothing about and perhaps there is a reason why their customer service can either be a hit or miss.</summary></entry><entry><title type="html">Improve Retention Rate When Learning</title><link href="http://jameslieu.github.io/improve-retention-rate-when-learning/" rel="alternate" type="text/html" title="Improve Retention Rate When Learning" /><published>2020-06-07T00:00:00+01:00</published><updated>2020-06-07T00:00:00+01:00</updated><id>http://jameslieu.github.io/improve-retention-rate-when-learning</id><content type="html" xml:base="http://jameslieu.github.io/improve-retention-rate-when-learning/">&lt;p&gt;For me personally, I struggle to remember much of conversations I’ve had, places I’ve visited or content I’ve read.&lt;/p&gt;
 
 &lt;p&gt;It’s one of the reasons why I find little value in travelling abroad for holidays. Not being able to remember much when compared to the cost associated, makes the whole experience less worth it for me from a financial perspective.&lt;/p&gt;
 
@@ -752,60 +832,4 @@ environment.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;[1] The 10 pages task, I don’t do consistently unless I have a book I want to read, however, once I decide on a book, I apply this principle in order to motivate me to complete it.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;[2] Based on average page size of 273 for a book from this site: &lt;a href=&quot;https://scribewriting.com/how-long-should-book-be/&quot;&gt;Scribe Writing&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">A guide on how I build habits.</summary></entry><entry><title type="html">Should Companies Be Hiring Juniors?</title><link href="http://jameslieu.github.io/should-companies-be-hiring-juniors/" rel="alternate" type="text/html" title="Should Companies Be Hiring Juniors?" /><published>2020-05-22T17:00:00+01:00</published><updated>2020-05-22T17:00:00+01:00</updated><id>http://jameslieu.github.io/should-companies-be-hiring-juniors</id><content type="html" xml:base="http://jameslieu.github.io/should-companies-be-hiring-juniors/">&lt;p&gt;This question was asked by someone on the Slack channel.
-Here were some of the responses:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Sky uses its own grad scheme instead. Very occasionally they hire juniors. Whether they “should be” or not isn’t really for me to answer&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;in previous companies, it’s pretty much always been lack of bandwidth for mentorship, “we need people who can hit the ground running”, and not being good enough at chunking out junior level work in a way that provides growth and support&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;That argument always annoys me as i suspect its less true than people think it is. I think some people think juniors are a drain on resource but they fundamentally are another hand at the coal face&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;i definitely think more companies should hire juniors, but i also know a lot of companies where being a junior is actively miserable&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;here-was-my-response&quot;&gt;Here was my response:&lt;/h4&gt;
-
-&lt;p&gt;“I think it largely depends on whether the company has a budget for a junior or not.. If the budget is enough to hire a mid to senior, they would like opt for that option instead of bringing on a junior. If the budget isn’t enough to get a senior or mid level developer then maybe thats when they’d consider it?”&lt;/p&gt;
-
-&lt;p&gt;Someone responded:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Mid/Senior devs were once junior devs that were given the chance to grow and learn. They won’t be around forever and if companies don’t allow for new juniors to follow the same path, at some point there’ll be a lack of mid/senior devs as well as juniors with experience.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h6 id=&quot;my-response-to-this&quot;&gt;My response to this:&lt;/h6&gt;
-
-&lt;p&gt;“When this happens, that is when companies will start hiring juniors. The market will adapt based on supply and demand”&lt;/p&gt;
-
-&lt;p&gt;“I agree that companies can benefit from graduate schemes and/or entry-level developer roles.
-But the question is how much of a cost will this be? How much productivity can the junior bring?
-When someone joins a company, senior or not, how long for that person getting up to speed, is a big factor.
-Not to mention requiring the time of existing developers to assist thus also adding to the cost.”&lt;/p&gt;
-
-&lt;p&gt;“The best thing for a junior is getting their foot through the door in order to gain things that are of greater value than salary (that this stage of their career) such as the work experience, learning from seniors (like a mentor),  building a good network, references etc.”&lt;/p&gt;
-
-&lt;p&gt;“And so I think that as a junior, aim to get the best salary/benefits you can but also acknowledge that it could be a lot lower that you might hope for (for now).  Do this for 6 -12 months, build the experience and knowledge required to justify a higher salary and work up the ‘ladder’ as it were or move on to the next company (which btw can be a salary increase of up to 25% at the early stages).”&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
-
-&lt;p&gt;I think that suggesting that companies ‘should’ be hiring juniors is a bit of wishful thinking. As mentioned before, junior salaries can be quite high depending where you live. According to a survey of graduating annual salaries at Makers, it averages at £30k, I’m assuming that most of these are juniors as they have just graduated.&lt;/p&gt;
-
-&lt;p&gt;£30k starting salary is quite decent, arguably too high for this skill level. On indeed.co.uk, some actual mid-level positions in London are £30k-£40k. The question is whether a junior can provide £30k worth of productivity annually?&lt;/p&gt;
-
-&lt;p&gt;I’ve written a post previously about a related topic: &lt;a href=&quot;/to-hire-a-junior-vs-senior-developer/&quot;&gt;To Hire a Junior Vs Senior Developer&lt;/a&gt; which outlines (my opinion) the differences between juniors and seniors and which would be logically the better choice given you have the budget for only one.&lt;/p&gt;
-
-&lt;p&gt;At the end of the day, salaries should mostly be dictated by what amount of productivity an employer can bring. The more junior you are, the less productivity you can bring when compared to mid-senior level developers, but this can be offset by accepting a lower salary. So the answer to the titled question would depend on whether it is more expensive to hire said junior.&lt;/p&gt;
-
-&lt;p&gt;So in conclusion, as per my response: If you’re a junior-level developer, consider taking a low salary because in my opinion, the best thing for a junior, is getting their foot through the door first in order to gain things that are of greater value than salary.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Do any of you work in companies that should be hiring juniors but aren't? What's stopping them?</summary></entry></feed>
+&lt;p&gt;&lt;em&gt;[2] Based on average page size of 273 for a book from this site: &lt;a href=&quot;https://scribewriting.com/how-long-should-book-be/&quot;&gt;Scribe Writing&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">A guide on how I build habits.</summary></entry></feed>
