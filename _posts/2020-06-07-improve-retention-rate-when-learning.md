@@ -52,6 +52,6 @@ Writing more is only **one** way for me to address this and leaving them somewhe
 
 In many ways, I'm already resolving this issue by adding blog entries. However, they're often based on topics I wish to share, so I do some degree of research and thinking before I create those posts.
 
-For this however, writing notes as and when I learn something of value is where I think is slightly different. And so I think I'll prefix these particular posts with **"\<Category\> Notes: \<title\>"** i.e. "Programming Notes: Software Construction"
+For this however, writing notes as and when I learn something of value is where I think is slightly different. And so I think I'll prefix these particular posts with **"Programmer Notes: \<title\>"** i.e. "Programmer Notes: Software Construction"
 
 I don't expect anyone to read these but myself, it will primarily be used as a place for me to refer or to stumble across it if I ever browse through my blog. But the end goal is the continued learning and hopefully a strong retention rate off the back of it.
