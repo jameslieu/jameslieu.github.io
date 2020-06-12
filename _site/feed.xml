@@ -1,4 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-06-11T00:13:55+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Programmer Notes: Software Construction</title><link href="http://jameslieu.github.io/programmer-notes-software-construction/" rel="alternate" type="text/html" title="Programmer Notes: Software Construction" /><published>2020-06-10T00:00:00+01:00</published><updated>2020-06-10T00:00:00+01:00</updated><id>http://jameslieu.github.io/programmer-notes-software-construction</id><content type="html" xml:base="http://jameslieu.github.io/programmer-notes-software-construction/">&lt;p&gt;This is part of my &lt;strong&gt;“Programmer Notes”&lt;/strong&gt; series where I leave notes in the form of a blog post here based on something I’ve read or learned. See &lt;a href=&quot;/improve-retention-rate-when-learning/&quot;&gt;this post&lt;/a&gt; for more context.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-06-13T00:42:46+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Writing Code Too Quickly</title><link href="http://jameslieu.github.io/writing-code-too-quickly/" rel="alternate" type="text/html" title="Writing Code Too Quickly" /><published>2020-06-12T00:00:00+01:00</published><updated>2020-06-12T00:00:00+01:00</updated><id>http://jameslieu.github.io/writing-code-too-quickly</id><content type="html" xml:base="http://jameslieu.github.io/writing-code-too-quickly/">&lt;p&gt;Writing Code very quickly does not necessarily mean you’re being more productive and can actually increase the amount of time to complete a task.&lt;/p&gt;
+
+&lt;p&gt;When writing an email, it’s not uncommon to not realise that there are errors or something missing (i.e. file attachments) in the email before you send it.&lt;/p&gt;
+
+&lt;p&gt;These problems are also present when coding. Not taking the time to plan and proof-read you code can lead to problems which are easily mitigated if you adopt a slower and more methodical approach.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-process-&quot;&gt;The Process 📝&lt;/h2&gt;
+
+&lt;p&gt;I used to “try” to write code very fast. I would write code quickly but often not identifying the problem and solving it in a sensible way. I would find that I’m spending an large amount of time debugging but at the same time not really understanding the problem I’m trying to solve.&lt;/p&gt;
+
+&lt;p&gt;For example, when a unit test is failing, I discover where I think the problem is, start to tweak it, and run the test to see if it passes, if it fails I repeat that process again and again until it passed. It looked something like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 1:&lt;/strong&gt; Make a change.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 2:&lt;/strong&gt; Run test.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 3:&lt;/strong&gt; If the test fails, repeat step 1.&lt;/p&gt;
+
+&lt;p&gt;Imagine doing this over and over until the test finally passes. During this process, because I’m ‘rushing’, there can be typos or missing characters in my changes, which I only discover because the tests notified me when it failed or if the complier fails the build.&lt;/p&gt;
+
+&lt;p&gt;If that didn’t work, I would do a lot of &lt;a href=&quot;/copy-and-paste-programming&quot;&gt;copy-and-pasting&lt;/a&gt; either with blocks of logic or functions from the source code with slight changes. Or I look on the internet for solutions and copy the code from there.&lt;/p&gt;
+
+&lt;p&gt;Having a decent typing speed and using a few keyboard shortcuts on the IDE motivated me to churn out code as quickly as I can.&lt;/p&gt;
+
+&lt;p&gt;It sounds like a great at first glance but there were some serious flaws with this way of working. So I thought I might list my opinions on the pros and cons of this style of coding.&lt;/p&gt;
+
+&lt;h2 id=&quot;pros-&quot;&gt;Pros 👍&lt;/h2&gt;
+
+&lt;h3 id=&quot;-you-feel-more-productive&quot;&gt;💪 You feel more productive&lt;/h3&gt;
+
+&lt;p&gt;You’ll find that you’re very focused on the task, typing in so many lines of code, running your unit tests to get them to pass as you debug or tweak the logic to correct a bug or issue with the application.&lt;/p&gt;
+
+&lt;p&gt;As you’re doing this, time is going by very quickly, you feel good at how focused and productive the day has been.&lt;/p&gt;
+
+&lt;h3 id=&quot;-its-sometimes-faster&quot;&gt;🏃 It’s sometimes faster&lt;/h3&gt;
+
+&lt;p&gt;The increased speed in which you’re working can mean that you’re getting things done faster, providing that the solution you’ve written works and there were no issues.&lt;/p&gt;
+
+&lt;p&gt;If enough time and effort is spent on the requirements and prerequisites prior to coding, then often this way of working is fine and feels great when you have a plan.&lt;/p&gt;
+
+&lt;h2 id=&quot;cons-&quot;&gt;Cons 👎&lt;/h2&gt;
+
+&lt;p&gt;I’ll list the ones based on my own experience as well as some ideas how to address them.&lt;/p&gt;
+
+&lt;h3 id=&quot;-youre-more-prone-to-mistakes&quot;&gt;🤦 You’re more prone to mistakes&lt;/h3&gt;
+
+&lt;p&gt;You’re more likely to make these mistakes if you don’t pace yourself; things like typos, using the wrong variable or misreading the code can really halt your productivity.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Solution: Pace yourself, focus on one step at a time and be sure to read your code as you write it.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-you-dont-read-the-code&quot;&gt;🙄 You don’t read the code&lt;/h3&gt;
+
+&lt;p&gt;You’ll find that ‘skimming through’ the code is faster and matches your pace of working. This is more obvious when self-reviewing your own code, rushing to push the code up as soon as possible can encourage you to ‘skim through’ your code and risk missing any flaws with the code.&lt;/p&gt;
+
+&lt;p&gt;Some of the issues you might introduce are typos, refactoring opportunities, commented-out code, unused code and duplication.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Solution: Read your code often.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-you-havent-actually-identified-the-problem-youre-trying-to-solve&quot;&gt;😬 You haven’t actually identified the problem you’re trying to solve&lt;/h3&gt;
+
+&lt;p&gt;The urge to start coding before coming up with a plan can hide what the real solution or problem is. The solution often isn’t something that’s obvious, you may have an idea how to write it, but what if that idea is incorrect?&lt;/p&gt;
+
+&lt;p&gt;This has happened to me numerous times. You’ll spend hours on a task only to realise that your solution is flawed or even wrong.
+You can be so focused on the task that you don’t realise the time and have spent potentially hours on it before asking for help.&lt;/p&gt;
+
+&lt;p&gt;You speak to a co-worker to see if they can help you, and you both immediately realise that your solution needs to be updated or improved. Even worse if you end up realising this as you were explaining problem to begin with. See &lt;a href=&quot;https://en.wikipedia.org/wiki/Rubber_duck_debugging&quot;&gt;Rubber duck debugging&lt;/a&gt; 🦆&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Solution: Take a moment to make sure you understand the problem, it helps to plan how you’re going to tackle the problem by writing a checklist or some key points on what the problem is.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-you-forget-something&quot;&gt;🙊 You Forget Something&lt;/h3&gt;
+
+&lt;p&gt;Not only are you more likely to make mistakes when coding too quickly, you’re more likely to miss something. When you’ve finally gotten that unit test to pass. You may feel that you’re done, commit your code and push your changes without thinking whether you may need to do anything else.&lt;/p&gt;
+
+&lt;p&gt;A common example would be to run the full test suite again, new logic you have written may have broken another part of the system. So the tests will fail and you’ll need to fix it. It is especially bad if the test suite takes a very long time to run.&lt;/p&gt;
+
+&lt;p&gt;Another key example is the organization of your work, particularly for version control. A good practice when working with Git for example is to commit regularly and to keep your commits. When working too quickly, you may forget to commit and if  you’re working on a large feature. This can be problematic if you haven’t completed the work and you needed to commit the code to hand-over to someone else.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Solution: Commit and self-review your own code regularly&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-you-spend-more-time-debugging&quot;&gt;🐞 You spend more time debugging&lt;/h3&gt;
+
+&lt;p&gt;Probably the main sign and negative aspect of coding too fast.&lt;/p&gt;
+
+&lt;p&gt;Your code doesn’t work and you find yourself chasing tons of bugs and issues.
+You end up spending more time trying to fix problems rather than think about the problem and solution.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Solution: Code a little bit at a time, test and verify it before moving on to the next step.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-you-lose-understanding-of-how-your-code-works&quot;&gt;🙉 You lose understanding of how your code works&lt;/h3&gt;
+
+&lt;p&gt;When working this way, after a while of trying to fix the bug, you may find that you’ve made so many changes and tweaks to get the tests to pass, that you’ve changed too much and no longer know what you’re code is doing.&lt;/p&gt;
+
+&lt;p&gt;And so you’ll attempt to undo (&lt;strong&gt;CTRL+Z&lt;/strong&gt;) everything in order to get it back to the state it was in before all of those changes you made.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Solution: Take a step back and make sure you understand the problem and the solution.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
+
+&lt;p&gt;Often those who write the code the fastest in terms of time are those who are methodical and slow about the process. Attempting to rush the work can lead to many problems if you’re not careful. Slowing down and being methodical in your way of working is not only a safer but also less stressful.&lt;/p&gt;
+
+&lt;p&gt;Developers aren’t measured on how fast they write code but by the quality of the solution and how well it works and maintainable it is. The best code is written slowly and purposefully, not quickly with the intent of meeting an arbitrary deadline.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Writing Code very quickly does not necessarily mean you're being more productive and can actually increase the amount of time to complete a task.</summary></entry><entry><title type="html">Programmer Notes: Software Construction</title><link href="http://jameslieu.github.io/programmer-notes-software-construction/" rel="alternate" type="text/html" title="Programmer Notes: Software Construction" /><published>2020-06-10T00:00:00+01:00</published><updated>2020-06-10T00:00:00+01:00</updated><id>http://jameslieu.github.io/programmer-notes-software-construction</id><content type="html" xml:base="http://jameslieu.github.io/programmer-notes-software-construction/">&lt;p&gt;This is part of my &lt;strong&gt;“Programmer Notes”&lt;/strong&gt; series where I leave notes in the form of a blog post here based on something I’ve read or learned. See &lt;a href=&quot;/improve-retention-rate-when-learning/&quot;&gt;this post&lt;/a&gt; for more context.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -767,80 +867,4 @@ environment.&lt;/p&gt;
 
 &lt;p&gt;So this is part 1 of my Becoming a Software Developer series. There is so much to write and so I need to break down this post into multiple posts.&lt;/p&gt;
 
-&lt;p&gt;In hindsight, I should’ve documented my experience at Makers Academy, they actually suggested it as well. But I suppose that wasn’t something I was interested in at the time. In any case, I look forward to reflecting and thinking about the next entry in this series. 🤔&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Reflecting on how I began my programming journey.</summary></entry><entry><title type="html">Copy-and-paste Programming</title><link href="http://jameslieu.github.io/copy-and-paste-programming/" rel="alternate" type="text/html" title="Copy-and-paste Programming" /><published>2020-05-29T00:00:00+01:00</published><updated>2020-05-29T00:00:00+01:00</updated><id>http://jameslieu.github.io/copy-and-paste-programming</id><content type="html" xml:base="http://jameslieu.github.io/copy-and-paste-programming/">&lt;h2 id=&quot;what-is-copy-and-paste-programming&quot;&gt;What is copy and paste programming?&lt;/h2&gt;
-
-&lt;p&gt;According to &lt;a href=&quot;https://en.wikipedia.org/wiki/Copy-and-paste_programming&quot;&gt;Wikipedia&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Copy-and-paste programming is the production of highly repetitive computer programming code, as produced by copy and paste operations.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I’ve begun experiencing this at work lately, We have a microservice architecture and each of these services are ASP.NET Core applications which are very similar to one another. When we need to create a new service, the infrastructure, packages/libraries and design of these services have similar requirements and can be ported across very easily by copy-and-pasting.&lt;/p&gt;
-
-&lt;h6 id=&quot;what-is-the-issue&quot;&gt;What is the issue?&lt;/h6&gt;
-&lt;p&gt;The issue I think is, that we’ve learned and improved since the creation of some of these older services, when copying the code across to the new service we tend to copy over &lt;strong&gt;everything&lt;/strong&gt; as it was, not improving or updating any of the old logic. This &lt;strong&gt;process&lt;/strong&gt; of copying everything sometimes doesn’t even include reading the code/file and considering whether it is relevant.&lt;/p&gt;
-
-&lt;p&gt;Often the ticket to create this new service only requires us in the first instance, to create a new project that mimics the older services &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/ping&lt;/code&gt; endpoint and a unit test. Also to port across some of the core infrastructure code such as the logging configuration, and any dependencies. It makes sense to copy-and-paste those across, but should things like helper classes, unused libraries, test helpers and (currently) unused common classes be copied across as well?&lt;/p&gt;
-
-&lt;p&gt;There is an argument for copying those across if we know we’re going to use them eventually. The issue with this is that it adds risk to include code we may not use at all. My suggestion to avoid this, is to only copy across code as and when you need them.&lt;/p&gt;
-
-&lt;p&gt;There was a good &lt;a href=&quot;https://stackoverflow.com/a/15700228/2405120&quot;&gt;StackOverflow post&lt;/a&gt; about removing unused code which I think is relevant.&lt;/p&gt;
-
-&lt;p&gt;Below I’ll run through my opinion on what the pros and cons are for copy-and-paste programming.&lt;/p&gt;
-
-&lt;h2 id=&quot;pros-&quot;&gt;Pros 👍&lt;/h2&gt;
-
-&lt;h6 id=&quot;-its-faster&quot;&gt;🏃 Its faster&lt;/h6&gt;
-&lt;p&gt;It is in fact faster to do it this way. We know that the infrastructure is going to be mostly the same, why not just copy and paste the lot across and rename places that need it i.e. Namespaces. And by completing the task faster, we can move on to the next task thus feeling very productive&lt;/p&gt;
-
-&lt;h6 id=&quot;-no-need-to-think-as-much&quot;&gt;😏 No need to think as much&lt;/h6&gt;
-
-&lt;p&gt;When copy and pasting the code across, if you intend to reuse everything, you can do it without too much mental energy.&lt;/p&gt;
-
-&lt;h2 id=&quot;cons-&quot;&gt;Cons 👎&lt;/h2&gt;
-
-&lt;h6 id=&quot;-it-creates-new-challenges-when-reviewing-the-code&quot;&gt;🧐 It creates new challenges when reviewing the code&lt;/h6&gt;
-
-&lt;p&gt;The more code we port across, the easier it is to miss something. The initial ticket was to create a base/plain project which should ideally have only the necessary modules needed, now that there is other code in there, the reviewer now has to go into the code base and check which is being used and which isn’t.&lt;/p&gt;
-
-&lt;p&gt;Having to check each class or method and see if it is needed or not is incredibly time consuming.&lt;/p&gt;
-
-&lt;p&gt;It also causes confusion why those unnecessary classes are there at first glance. And asking the developer to remove the dead code requires even more time.&lt;/p&gt;
-
-&lt;h6 id=&quot;-it-invalidates-the-code-coverage&quot;&gt;📊 It invalidates the code coverage&lt;/h6&gt;
-
-&lt;p&gt;The Code that isn’t used in the new project messes with the code coverage, while in the previous projects they were used and had unit tests. The new project wouldn’t have those same tests as the methods using them are not ported across.&lt;/p&gt;
-
-&lt;p&gt;There is an argument that maybe some of those classes ought to have their own self contained unit tests however.&lt;/p&gt;
-
-&lt;h6 id=&quot;-it-takes-away-the-refactoring-opportunity&quot;&gt;🧹 It takes away the ‘refactoring’ opportunity&lt;/h6&gt;
-
-&lt;p&gt;Technically its not refactoring because its a new project, we’re not editing existing code in the new project. But over time, we as a team are improving the way we work and our knowledge, sometimes the code we’re copying across is perhaps an ‘outdated’ way of working. This can deter the developer to consider a different approach.&lt;/p&gt;
-
-&lt;h6 id=&quot;-the-developer-may-not-even-read-the-code&quot;&gt;🙈 The developer may not even read the code&lt;/h6&gt;
-
-&lt;p&gt;Entire files can be copied across, how will we know whether the code is still relevant to the new project. Not only this, it is the review who has to read it all during the code review. That said, the reviewer may also have the same mindset and approve the code because they know that it is a carbon copy-and-paste and therefore doesn’t feel the need to read it.&lt;/p&gt;
-
-&lt;h6 id=&quot;-there-is-risk-that-the-developer-doesnt-understand-the-code&quot;&gt;🙉 There is risk that the developer doesn’t understand the code&lt;/h6&gt;
-
-&lt;p&gt;Code that is copied across may have been code that they themselves haven’t seen before, instead of reading it and trying to understand the business logic, copying it across can mean you’re adding code that may not be relevant or even is an existing bug.&lt;/p&gt;
-
-&lt;h6 id=&quot;-introducing-bugs&quot;&gt;🐞 Introducing bugs&lt;/h6&gt;
-&lt;p&gt;A further problem is that bugs can easily be introduced by assumptions and design choices made in the separate sources that no longer apply when placed in the new environment.&lt;/p&gt;
-
-&lt;h6 id=&quot;-obfuscated-code&quot;&gt;🧐 Obfuscated code&lt;/h6&gt;
-&lt;p&gt;Such code may also, in effect, be unintentionally obfuscated, as the names of variables, classes, functions and the like are typically left unchanged, even though their purpose may be completely different in the new context.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
-
-&lt;p&gt;Copy-and-paste programming sounds good at first. Its a very attractive way of working as it can make you feel very productive, it also means you can quickly move on to other tasks/tickets.&lt;/p&gt;
-
-&lt;p&gt;But the number of problems that it can introduce is something to consider. I’m not advocating that we never use copy-and-paste but I think its worth actually reading the code and carefully consider whether that code is relevant. And to also take a moment to think whether that code can be improved as well.&lt;/p&gt;
-
-&lt;p&gt;Sure it will take a little longer, but also reduce some of the cons above, therefore makes it worthwhile in my opinion.&lt;/p&gt;
-
-&lt;h3 id=&quot;external-sources-&quot;&gt;External sources 💡&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Copy-and-paste_programming&quot;&gt;Wikipedia - Copy-and-paste Programming&lt;/a&gt;&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">What is copy and paste programming?</summary></entry></feed>
+&lt;p&gt;In hindsight, I should’ve documented my experience at Makers Academy, they actually suggested it as well. But I suppose that wasn’t something I was interested in at the time. In any case, I look forward to reflecting and thinking about the next entry in this series. 🤔&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Reflecting on how I began my programming journey.</summary></entry></feed>
