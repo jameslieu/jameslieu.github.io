@@ -1,4 +1,79 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-06-15T13:31:23+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Writing Code Too Quickly</title><link href="http://jameslieu.github.io/writing-code-too-quickly/" rel="alternate" type="text/html" title="Writing Code Too Quickly" /><published>2020-06-12T00:00:00+01:00</published><updated>2020-06-12T00:00:00+01:00</updated><id>http://jameslieu.github.io/writing-code-too-quickly</id><content type="html" xml:base="http://jameslieu.github.io/writing-code-too-quickly/">&lt;p&gt;Writing Code very quickly does not necessarily mean you’re being more productive and can actually increase the amount of time to complete a task.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-06-18T00:17:21+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Are Meetings Necessary?</title><link href="http://jameslieu.github.io/are-meetings-necessary/" rel="alternate" type="text/html" title="Are Meetings Necessary?" /><published>2020-06-17T00:00:00+01:00</published><updated>2020-06-17T00:00:00+01:00</updated><id>http://jameslieu.github.io/are-meetings-necessary</id><content type="html" xml:base="http://jameslieu.github.io/are-meetings-necessary/">&lt;p&gt;Meetings are a great way to communicate with people within your company. However, they can be huge productivity killers.&lt;/p&gt;
+
+&lt;p&gt;Is a particular meeting even necessary? If you’re meeting for an hour, one perspective is that its not only one hour that is lost, but one hour multiplied by the total number of attendees.&lt;/p&gt;
+
+&lt;p&gt;I think meetings should only be called after a consensus is reached that the meeting is &lt;strong&gt;necessary&lt;/strong&gt;. What does it mean for a meeting to be necessary? The two factors I can think of is &lt;strong&gt;coordination&lt;/strong&gt; and &lt;strong&gt;conflict&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;-coordination&quot;&gt;🤝 Coordination&lt;/h3&gt;
+&lt;p&gt;For when a decision requires collaboration from different people. This includes people within a team, other teams or departments. The decision could be in regards to a feature that needs to be built and so,  speaking only to the relevant people to have a decision made on what their requirements and expectations are is why this meeting is necessary.&lt;/p&gt;
+
+&lt;h3 id=&quot;-conflict&quot;&gt;🤼 Conflict&lt;/h3&gt;
+&lt;p&gt;For when there are disagreements from two or more parties. A meeting in this instance can also be necessary to resolve this conflict and that a consensus has been reached.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-pros-and-cons&quot;&gt;The Pros and Cons&lt;/h2&gt;
+
+&lt;p&gt;Meetings are important and useful, but can also be counter-productive by taking time away from actually getting work done. In my opinion, some of the pros and cons are:&lt;/p&gt;
+
+&lt;h3 id=&quot;pros-&quot;&gt;Pros 👍&lt;/h3&gt;
+
+&lt;h6 id=&quot;-you-may-be-part-of-the-decision-making&quot;&gt;✌ You may be part of the decision making&lt;/h6&gt;
+&lt;p&gt;This kind of activity can help you feel like a valuable member of the team.&lt;/p&gt;
+
+&lt;h6 id=&quot;-you-may-be-able-to-contribute-and-share-knowledge-to-other-attendees&quot;&gt;💡 You may be able to contribute and share knowledge to other attendees&lt;/h6&gt;
+&lt;p&gt;There may be times where your experience or knowledge can have an impact and so sharing that can only be positive.&lt;/p&gt;
+
+&lt;h6 id=&quot;-receive-relevant-information&quot;&gt;📰 Receive relevant information&lt;/h6&gt;
+&lt;p&gt;This is important if its related to work you’re involved in. You may only be listening during the meeting but the content may be insightful.&lt;/p&gt;
+
+&lt;h6 id=&quot;-you-can-ask-questions&quot;&gt;📢 You can ask questions&lt;/h6&gt;
+&lt;p&gt;If you don’t understand something or require further clarity, being present during the discussion allows you to ask questions.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;cons-&quot;&gt;Cons 👎&lt;/h3&gt;
+
+&lt;h6 id=&quot;-the-meeting-may-not-be-relevant-to-you-in-particular&quot;&gt;🤷 The meeting may not be relevant to you in particular&lt;/h6&gt;
+&lt;p&gt;As mentioned before, attending meetings will cost your time and attention. If the contents of the meeting isn’t relevant to you, then you could be spending your time and attention on other things.&lt;/p&gt;
+
+&lt;h6 id=&quot;-you-may-have-nothing-to-add-to-the-discussion&quot;&gt;😫 You may have nothing to add to the discussion&lt;/h6&gt;
+&lt;p&gt;This is related to the above point, the meeting isn’t relevant to you and you have nothing to add, then why is your attendance even necessary? Better to use that time on more pressing tasks&lt;/p&gt;
+
+&lt;h6 id=&quot;-it-can-be-mentally-draining&quot;&gt;😩 It can be mentally draining&lt;/h6&gt;
+&lt;p&gt;This one is often overlooked. People in your team, likely has different energy thresholds for long meetings. I often feel extreme fatigue when a meeting has ended. Finding the energy and motivation to start a new task or continue where I left off can be challenging and therefore severely reduces productivity.&lt;/p&gt;
+
+&lt;h6 id=&quot;-reduces-your-productivity&quot;&gt;☹ Reduces Your Productivity&lt;/h6&gt;
+&lt;p&gt;If you’re in the middle of a task, having to pause and attend a meeting which may not even be relevant to you is sure to affect your overall productivity. Although you can work around this by with good time management provided the meeting was scheduled with enough time.&lt;/p&gt;
+
+&lt;h2 id=&quot;do-you-need-to-attend-&quot;&gt;Do You Need To Attend? 🤷&lt;/h2&gt;
+
+&lt;p&gt;Some meetings &lt;strong&gt;are&lt;/strong&gt; necessary. But we should ask ourselves, “do &lt;strong&gt;I&lt;/strong&gt; need to attend”?&lt;/p&gt;
+
+&lt;p&gt;When meetings are scheduled, it may be relevant to you personally and so your attendance will provide you value.&lt;/p&gt;
+
+&lt;p&gt;The issue is, that we often find ourselves attending meetings, while relevant to other people, is not relevant for you. Meaning, had you not attended that particular meeting, you could’ve been doing something else, something more productive and useful with that time instead.&lt;/p&gt;
+
+&lt;h2 id=&quot;-some-practices-to-consider&quot;&gt;🧍 Some Practices To Consider&lt;/h2&gt;
+
+&lt;p&gt;Being more aware about the meetings you have and conscious how much time they take, it’s worth considering adopting some practices:&lt;/p&gt;
+
+&lt;h3 id=&quot;-dont-meet-unless-absolutely-necessary&quot;&gt;🏃 Don’t meet unless absolutely necessary&lt;/h3&gt;
+
+&lt;p&gt;Find out why you’re meeting; is a meeting necessary? Consider that if you’re meeting for an hour, it’s not just an hour of company time that is being lost; it’s the hour multiplied by the total number of people in attendance. Meetings should only be called after a consensus has been reached that a meeting is necessary.&lt;/p&gt;
+
+&lt;h3 id=&quot;-set-a-time-limit&quot;&gt;⏱ Set A Time Limit&lt;/h3&gt;
+
+&lt;p&gt;Setting a time limit to a suitable length, most people will lose their ability to pay attention the longer the meeting continues. Having a meeting for 15-30 minutes for example can at least guarantee that the attendees are not experiencing too much fatigue. Another benefit of this, is that the people speaking will be encouraged to ‘get to the point’ and be more concise.&lt;/p&gt;
+
+&lt;h3 id=&quot;-ask-people-to-prepare-in-advance&quot;&gt;✍ Ask People To Prepare in Advance&lt;/h3&gt;
+
+&lt;p&gt;I feel meetings should not be used for brainstorming. Having a clear agenda, topics, questions or reading sent to all attendees in advance can make the meeting overall more productive. Thinking ahead and preparing for the meeting will help if you’re not good at ‘thinking on your feet’.&lt;/p&gt;
+
+&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
+
+&lt;p&gt;Meetings have their pros and cons. They’re important but I think it’s also a good idea to be mindful about how much time they cost.
+How much productivity is lost as a result of attending meetings?&lt;/p&gt;
+
+&lt;p&gt;I think attending meetings where you’re an active participant is important and has value, but for those where you’re not, would it not, be just as effective if you were cc’d an email from an attendee with a written summary, key-points or the decisions from said meeting? Food for thought.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Meetings are a great way to communicate with people within your company. However, they can be huge productivity killers.</summary></entry><entry><title type="html">Writing Code Too Quickly</title><link href="http://jameslieu.github.io/writing-code-too-quickly/" rel="alternate" type="text/html" title="Writing Code Too Quickly" /><published>2020-06-12T00:00:00+01:00</published><updated>2020-06-12T00:00:00+01:00</updated><id>http://jameslieu.github.io/writing-code-too-quickly</id><content type="html" xml:base="http://jameslieu.github.io/writing-code-too-quickly/">&lt;p&gt;Writing Code very quickly does not necessarily mean you’re being more productive and can actually increase the amount of time to complete a task.&lt;/p&gt;
 
 &lt;p&gt;When writing an email, it’s not uncommon to not realise that there are errors or something missing (i.e. file attachments) in the email before you send it.&lt;/p&gt;
 
@@ -733,138 +808,4 @@ There were times where I couldn’t think of anything to write and therefore put
 
 &lt;p&gt;Furthermore, when reading through each entry retrospectively, you can see the progression of each day and even adapt your behaviour if you see a negative pattern.&lt;/p&gt;
 
-&lt;p&gt;I haven’t written any journal entries in a while but if I ever get back into it, I’ll likely use this template.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">For regular journaling, a common stuggle is consistency</summary></entry><entry><title type="html">Becoming a Software Developer - Part 1</title><link href="http://jameslieu.github.io/becoming-a-software-developer/" rel="alternate" type="text/html" title="Becoming a Software Developer - Part 1" /><published>2020-05-29T00:00:00+01:00</published><updated>2020-05-29T00:00:00+01:00</updated><id>http://jameslieu.github.io/becoming-a-software-developer</id><content type="html" xml:base="http://jameslieu.github.io/becoming-a-software-developer/">&lt;p&gt;Its been 7 years since I’ve made the decision to change my career and become a developer. And so I thought it would be a great time to write a post on the subject and reflect on my journey to become a software developer.&lt;/p&gt;
-
-&lt;h2 id=&quot;7-years-ago-&quot;&gt;7 Years ago… 📆&lt;/h2&gt;
-&lt;p&gt;It all started in early 2013, my previous employer David Kramaley had gotten in touch by email and mentioned how he remembered I was curious about programming and used to ask questions about it when working with him. He said that a Coding Bootcamp could be  something I may be interested in and provided a link to one based in America.&lt;/p&gt;
-
-&lt;p&gt;I really wished I had the original email, I must’ve deleted it when I was cleaning up my inbox because of wanting to reach &lt;a href=&quot;/achieving-inbox-zero/&quot;&gt;Inbox Zero&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;If I recall correctly, coincidently I had actually become more curious about programming due to hearing about &lt;a href=&quot;https://www.codecademy.com/&quot;&gt;Codecademy&lt;/a&gt;. I had already created an account and have been doing the introduction to programming path. According to my profile, I had created the Codecademy account on &lt;strong&gt;Feb 27th 2013&lt;/strong&gt;. So the email from David would’ve been in early to mid March.&lt;/p&gt;
-
-&lt;p&gt;I really liked the idea of a Coding Bootcamp, learning programming for 10 weeks then being able to get at least a junior position after graduation. This was very attractive to me as I was either unemployed, or I was working a part-time job doing deliveries and/or cashier work at a Chinese take-away. Else it was working my families Fish and Chip shop with my mother. This particular Bootcamp was based in America and I wasn’t willing to relocate, so I quickly Googled for Coding Bootcamps in the UK, there I discovered Makers Academy.&lt;/p&gt;
-
-&lt;h2 id=&quot;makers-academy-&quot;&gt;Makers Academy 🏢&lt;/h2&gt;
-
-&lt;p&gt;I’m so thankful that a Coding Bootcamp was based in a location I can attend. One thing I need to mention is that Makers Academy was a start-up company during this time, they had only &lt;strong&gt;just&lt;/strong&gt; started enrolling students in &lt;strong&gt;February 2013&lt;/strong&gt; which was literally the previous month. Here is a link to their blog post: &lt;a href=&quot;https://blog.makersacademy.com/we-just-turned-five-9a45da48206f&quot;&gt;We Just Turned 5&lt;/a&gt; (which should match the dates I mentioned)&lt;/p&gt;
-
-&lt;p&gt;The cohorts were &lt;strong&gt;very&lt;/strong&gt; small, I think fewer than 8 students maybe? I don’t know exactly how many students there were at the time. But I’m guessing that this was intentional, the courses are very intensive and require a serious commitment from their students thus Makers Academy were &lt;strong&gt;very selective&lt;/strong&gt; in regards to who they allow to enrol.&lt;/p&gt;
-
-&lt;h2 id=&quot;my-interview-&quot;&gt;My Interview 🤞&lt;/h2&gt;
-
-&lt;p&gt;On &lt;strong&gt;27th March 2013&lt;/strong&gt;, I sent my application. I received a confirmation email and 10 minutes after this, invited to interview at Makers Academy.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/becoming-a-software-developer-1.png&quot; style=&quot;height: 100px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I had to schedule a time using a &lt;a href=&quot;https://doodle.com&quot;&gt;Doodle&lt;/a&gt; link, which was quite nice. And in the email I was asked:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Before arriving, please complete the first three tracks (Introduction to Ruby, Control Flow in Ruby &amp;amp; Looping with Ruby) at:  http://www.codecademy.com/tracks/ruby&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Perfect, I had been casually using Codecademy anyway. Codecademy still has my old achievements and what day I completed them (which is pretty cool to look at retrospectively):&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/becoming-a-software-developer-2.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It looks like I started the ruby track on &lt;strong&gt;April 1st 2013&lt;/strong&gt;, so I guess I wasn’t as excited as I thought about the tracks at the time. Although, it could be that the appointment I had with Makers Academy was maybe a week or two ahead which was why I didn’t start the tracks straight away.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-day-of-the-interview-&quot;&gt;The Day of The Interview 📆&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;Note: Its worth noting that this was 7 years ago, I may have misremembered some of this and I don’t have any of my emails to verify any of this.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;This was the day I had met with Evgeny Shadchnev - the co-founder. They asked me some basic questions about my background, why I want to do this, what my motivations were and gauge how interested in programming I was.&lt;/p&gt;
-
-&lt;p&gt;We sat down to do a tech test. It was a very basic task that I should’ve learnt through the Codecademy tracks they requested I complete. I can’t remember the specifics but I do remember failing to complete the (very basic) task. There was another task which was to do a problem solving exercise which I also failed to complete.&lt;/p&gt;
-
-&lt;p&gt;I can’t remember too well what happened afterwards, Evgeny either told me on the day or via email afterwards that they &lt;strong&gt;cannot accept me into the course&lt;/strong&gt;. I was rejected due to my poor performance. In hindsight, I blame myself for not spending more time going through the Codecademy tracks and studying harder! It was mentioned that I can apply again once I improve on the basics.&lt;/p&gt;
-
-&lt;h2 id=&quot;second-interview-attempt-&quot;&gt;Second Interview Attempt 📆&lt;/h2&gt;
-
-&lt;p&gt;I had gone home dejected but I didn’t give up. I remember immediately applying again, and attending a second interview shortly after (a week or so), and I had again failed the tasks.&lt;/p&gt;
-
-&lt;p&gt;I remember that Evgeny had told this in person this time that, they cannot accept me in the next cohort either because he didn’t think I was ready. If I remember correctly, he also mentioned that to ‘code’ I need to have better problem solving skills, this was arguably a skill that cannot be ‘learned’ and therefore programming was maybe not for me.&lt;/p&gt;
-
-&lt;p&gt;I was devastated but this time I was able to respond to him directly, mentioning that I was very serious about this course and if he were to give me a chance, I will not take it for granted. Thankfully, Evgeny had given me this opportunity and enrolled me onto the course, perhaps he appreciated how persistent and determined I was. This was probably the moment that had truly kickstarted my career.&lt;/p&gt;
-
-&lt;p&gt;I have a theory that my enrolling onto the course was a experiment for him to see whether someone (with poor problem solving skills) like me can cope with the course and truly thrive in this industry.&lt;/p&gt;
-
-&lt;p&gt;I was to join the May 2013 cohort.&lt;/p&gt;
-
-&lt;h2 id=&quot;course-fees-&quot;&gt;Course fees 💷&lt;/h2&gt;
-
-&lt;p&gt;At the time, the course fees were &lt;strong&gt;£5000&lt;/strong&gt; for &lt;strong&gt;10 weeks&lt;/strong&gt;. If you were a female then you would automatically get a discount of &lt;strong&gt;£500&lt;/strong&gt; thus costing &lt;strong&gt;£4500&lt;/strong&gt;. A bit controversial in my opinion but as a private company they’re within their rights to charge whatever they want.&lt;/p&gt;
-
-&lt;p&gt;I still have the terms in my email. Here were the payment plan options available to me (in 2013):&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Standard Payment Plan&lt;/strong&gt; – 50% in advance, 50% over six months following the course&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Advance Payment Plan&lt;/strong&gt; – 90% in advance, 10% discount applies&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Deferred Payment Plan&lt;/strong&gt; – no payment due until after the course, with 20% surcharge&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;With the standed and advance plan, the deposit is payable not later than seven days before the commencement of the course. The deposit is non-refundable if the student withdraws from the course within the seven days prior to the start of the course.&lt;/p&gt;
-
-&lt;p&gt;The caveat was that if Makers Academy hadn’t received the deposit seven days before the commencement of a course, Makers Academy may, at its option, re-allocate the place reserved for the student to a wait-listed  student in which case the original student will no longer be able to attend the course.&lt;/p&gt;
-
-&lt;h6 id=&quot;-the-standard-plan&quot;&gt;🔲 The Standard Plan&lt;/h6&gt;
-
-&lt;p&gt;A deposit of 50% up-front and the remaining 50% of the course fee is payable in six equal monthly instalments with the first being due at the  end of the month following the end of the course.&lt;/p&gt;
-
-&lt;p&gt;This for me seemed like a great option for those who wouldn’t normally be able to afford the fees for the course upfront. So a deposit of £2500 and then a monthly plan to pay the rest &lt;strong&gt;after the course&lt;/strong&gt;. Hopefully the student would’ve managed to secure a junior developer role and then pay back a portion of the fee with their salary each month.&lt;/p&gt;
-
-&lt;h6 id=&quot;-the-deferred-payment-plan&quot;&gt;🔲 The Deferred Payment Plan&lt;/h6&gt;
-
-&lt;p&gt;The remaining full course fee plus a surcharge of 20% of the course fee is payable in twelve equal monthly instalments with the first being due at the end of the month following the end of the course.&lt;/p&gt;
-
-&lt;p&gt;This option was for those who can’t pay anything. There are additional terms with this one, one of which the student has to agree that if they get a role through a partner of Makers Academy, the course fee
-payments may, at the option of Makers Academy, be paid directly to Makers Academy by the Partner by deduction from the salary of the student. So there are some serious caveats associated with this one, nonetheless provide another great option for some people.&lt;/p&gt;
-
-&lt;h6 id=&quot;-the-advance-payment-plan&quot;&gt;🔲 The Advance Payment Plan&lt;/h6&gt;
-
-&lt;p&gt;90% in advance and the remaining 10% discounted. This was the plan I had gone for, having no job or money of my own, I turned to my family for a loan, my sister had savings and had happily loaned me the cost of the full course, I’m still so very grateful for that. This meant that it cost me £4500 in total thanks to the discount. Even if my family couldn’t loan me the money, my girlfriend (now wife) also offered to loan me the money if I were unable get it from my family, so I’m very fortunate in this regard.&lt;/p&gt;
-
-&lt;p&gt;I was to pay back my sister with my salary as soon as I get my first paid developer role which I did. When I secured a role I paid her back monthly instalments of £500 over 9 months.&lt;/p&gt;
-
-&lt;h2 id=&quot;course-attendance-and-conduct-&quot;&gt;Course Attendance and Conduct. 📋&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Makers Academy courses are intensive courses that require a serious commitment from all students. Makers Academy wants to ensure that all students on its courses have the best possible opportunity to succeed and therefore reserves the right to suspend from the course any student who in any way disrupts the course
-environment.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;If, despite our careful selection process, we find that a student is failing to keep up with the demands of the course they have chosen, and after consulting with the student we decide that the student is not likely to successfully complete the course, we reserve the right to require the student to leave the course.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;So it gets pretty serious here, if you cannot keep up, they can get you to leave the course though at their discretion, offer a refund for any remaining time. Makes sense, they’re taking a risk with the student and the career change of becoming a software developer requires a huge commitment and you need to hold yourself accountable if you fall behind.&lt;/p&gt;
-
-&lt;h2 id=&quot;is-it-worth-it-&quot;&gt;Is It Worth It? 😑&lt;/h2&gt;
-
-&lt;p&gt;Coding Bootcamps are more expensive nowadays, costing at least &lt;strong&gt;£8000&lt;/strong&gt;. Do I think it’s worth it?&lt;/p&gt;
-
-&lt;p&gt;Investing in yourself never a bad idea. It all comes down to what you think you’ll get out of it. If you can secure a role at the end of the course, you’ll very quickly make that money back. Of course, if you don’t secure a role or decide that you don’t want to pursue a career in programming after graduating, then perhaps it wouldn’t have been worth it.&lt;/p&gt;
-
-&lt;p&gt;While it’s possible to teach yourself with the many free resources online, joining a Coding Bootcamp is one way to fully commit 12 weeks to studying it because of the cost associated with it, not only will you get some structure through the curriculum, you’ll be learning alongside other students whom are changing careers like yourself, have somebody who is teaching you and will take any questions you may have. During my time at Makers Academy, they would often host networking events and invite people from the programming community to do a talk on a programming topic which led to opportunities to talk and network afterwards&lt;/p&gt;
-
-&lt;p&gt;Without an interest in programming, it will be quite diffiult to stay motivated. Because of the sheer volume of knowledge and constant innovation in this industry, you’re constantly having learn even after graduating the course to keep up and progress in your career. And it is dependant on how committed you are and your personal responsibility to continue to study and grow.&lt;/p&gt;
-
-&lt;p&gt;That said, if you are interested or passionate about programming, it is a very rewarding career, there is a lot a value placed in coding and so the salary ranges can be quite high depending where you live and what company you’ll work for. So for me, pursuing a career in software development was one of the best choices I’ve made and enrolling into Makers Academy at that time has changed my life.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
-
-&lt;p&gt;So this is how it all started, its been 7 years since I enrolled into the May cohort. Makers Academy was a highly selective 12-week Coding Bootcamp. They probably designed their policies this way to make sure they get the most committed students and I was very determined to be one of those students.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;£4500 - £5000 for 10 weeks&lt;/strong&gt; seems like a lot (though during my course they changed it to &lt;strong&gt;12 weeks&lt;/strong&gt;). Somebody in my cohort had applied at the very early stages (months ago) but attended the course in May as I did, he apparently paid &lt;strong&gt;£1000-£2000&lt;/strong&gt;, so he got amazing value for that price.&lt;/p&gt;
-
-&lt;p&gt;Looking back, I actually think Evgeny was right in some ways when he told me that some problem solving skills are not ones you can ‘learn’ and so I will struggle in this industry.&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;…to ‘code’ I need to have better problem solving skills, this was arguably a skill that cannot be ‘learned’ and therefore programming was maybe not for me.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I still think this is true today, my problem solving skills are very poor when compared to my colleagues, but I believe that that can be offset through determination and persistence.&lt;/p&gt;
-
-&lt;p&gt;So this is part 1 of my Becoming a Software Developer series. There is so much to write and so I need to break down this post into multiple posts.&lt;/p&gt;
-
-&lt;p&gt;In hindsight, I should’ve documented my experience at Makers Academy, they actually suggested it as well. But I suppose that wasn’t something I was interested in at the time. In any case, I look forward to reflecting and thinking about the next entry in this series. 🤔&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Reflecting on how I began my programming journey.</summary></entry></feed>
+&lt;p&gt;I haven’t written any journal entries in a while but if I ever get back into it, I’ll likely use this template.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">For regular journaling, a common stuggle is consistency</summary></entry></feed>
