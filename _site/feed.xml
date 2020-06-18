@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-06-18T23:21:49+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Self-reviewing Your Code</title><link href="http://jameslieu.github.io/self-reviewing-your-code/" rel="alternate" type="text/html" title="Self-reviewing Your Code" /><published>2020-06-18T00:00:00+01:00</published><updated>2020-06-18T00:00:00+01:00</updated><id>http://jameslieu.github.io/self-reviewing-your-code</id><content type="html" xml:base="http://jameslieu.github.io/self-reviewing-your-code/">&lt;p&gt;Self-reviewing your code is, in my opinion, just as important as having someone else review it before it gets approved and deployed. It is akin to proof-reading an email you wrote before sending it; checking that you haven’t missed anything, whether there are errors or whether there are areas you can refine.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-06-19T00:30:06+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Self-reviewing Your Code</title><link href="http://jameslieu.github.io/self-reviewing-your-code/" rel="alternate" type="text/html" title="Self-reviewing Your Code" /><published>2020-06-18T00:00:00+01:00</published><updated>2020-06-18T00:00:00+01:00</updated><id>http://jameslieu.github.io/self-reviewing-your-code</id><content type="html" xml:base="http://jameslieu.github.io/self-reviewing-your-code/">&lt;p&gt;Self-reviewing your code is, in my opinion, just as important as having someone else review it before it gets approved and deployed. It is akin to proof-reading an email you wrote before sending it; checking that you haven’t missed anything, whether there are errors or whether there are areas you can refine.&lt;/p&gt;
 
 &lt;p&gt;Not self-reviewing adequately is probably more common than we think, I myself have been guilty of doing this. When you think you’re done coding your feature, it is easy to skim through your changes (diff) or not look at them at all. Submit the change. Then let your colleague review it while you work on a new and more exciting task.&lt;/p&gt;
 
@@ -32,7 +32,7 @@
 
 &lt;h3 id=&quot;-my-personal-experience&quot;&gt;🧔 My Personal Experience&lt;/h3&gt;
 
-&lt;p&gt;I once had a colleague who did exactly this. He likes to work quickly which &lt;a href=&quot;/working-too-quickly&quot;&gt;has it’s own problems&lt;/a&gt;, he would open a pull request and then move onto the next task. When I began the code review, it was very often littered with issues, commented out code, code that was used for debugging purposes i.e. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;console.log(&quot;here!!!!&quot;)&lt;/code&gt; etc.&lt;/p&gt;
+&lt;p&gt;I once had a colleague who did exactly this. He likes to work quickly which &lt;a href=&quot;/writing-code-too-quickly&quot;&gt;has it’s own problems&lt;/a&gt;, he would open a pull request and then move onto the next task. When I began the code review, it was very often littered with issues, commented out code, code that was used for debugging purposes i.e. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;console.log(&quot;here!!!!&quot;)&lt;/code&gt; etc.&lt;/p&gt;
 
 &lt;p&gt;After the review, it needs to go back into progress, but my colleague would often be in the middle of the next task, which meant that he wouldn’t pick up the work that was reviewed until the next day or even a few days after depending on how long it would take him to complete the task he was currently working on (which then a PR is created for it for review).&lt;/p&gt;
 
@@ -54,7 +54,39 @@
   &lt;li&gt;A better team code review experience&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I think habit of self-reviewing your code is one of the things that will improve the quality of the code you write. We’re not infallible and should almost expect to write code that is imperfect. Self-reviewing simply allows us to allocate time to &lt;strong&gt;think&lt;/strong&gt; about what was written, check for issues or anything you’ve forgotten or to look for ways to improve it.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Self-reviewing your code is, in my opinion, just as important as having someone else review it before it gets approved and deployed.</summary></entry><entry><title type="html">Are Meetings Necessary?</title><link href="http://jameslieu.github.io/are-meetings-necessary/" rel="alternate" type="text/html" title="Are Meetings Necessary?" /><published>2020-06-17T00:00:00+01:00</published><updated>2020-06-17T00:00:00+01:00</updated><id>http://jameslieu.github.io/are-meetings-necessary</id><content type="html" xml:base="http://jameslieu.github.io/are-meetings-necessary/">&lt;p&gt;Meetings are a great way to communicate with people within your company. However, they can be huge productivity killers.&lt;/p&gt;
+&lt;p&gt;I think habit of self-reviewing your code is one of the things that will improve the quality of the code you write. We’re not infallible and should almost expect to write code that is imperfect. Self-reviewing simply allows us to allocate time to &lt;strong&gt;think&lt;/strong&gt; about what was written, check for issues or anything you’ve forgotten or to look for ways to improve it.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Self-reviewing your code is, in my opinion, just as important as having someone else review it before it gets approved and deployed.</summary></entry><entry><title type="html">Should You build a Programming Portfolio?</title><link href="http://jameslieu.github.io/should-you-build-a-programming-portfolio/" rel="alternate" type="text/html" title="Should You build a Programming Portfolio?" /><published>2020-06-18T00:00:00+01:00</published><updated>2020-06-18T00:00:00+01:00</updated><id>http://jameslieu.github.io/should-you-build-a-programming-portfolio</id><content type="html" xml:base="http://jameslieu.github.io/should-you-build-a-programming-portfolio/">&lt;p&gt;As an aspiring developer, it is good to have a portfolio of projects to not only build knowledge and experience with the technology you’re using but to use as code examples for when applying for a job as a programmer.&lt;/p&gt;
+
+&lt;p&gt;But I wonder whether potential employers actually look at these projects? (Genuine question)&lt;/p&gt;
+
+&lt;p&gt;If I were in the shoes of an employer or responsible for hiring a developer, will I really look at &lt;strong&gt;all&lt;/strong&gt; of the projects in a programmers portfolio?&lt;/p&gt;
+
+&lt;p&gt;Maybe I’ll randomly select a few however, but even then I probably will skim through the logic or check for things like unit tests. I probably wouldn’t pull it down onto my local machine to run or even check that the tests even pass.&lt;/p&gt;
+
+&lt;p&gt;I myself have a portfolio of projects in my &lt;a href=&quot;https://github.com/jameslieu?tab=repositories&quot;&gt;github profile&lt;/a&gt;, I doubt employers look at each individual projects in any detail at all.&lt;/p&gt;
+
+&lt;p&gt;My point is, is there really that much value creating a large number of projects for your portfolio? They can take a lot of time depending on what your project is and having too many will decrease the chances of a potential employer to look at them.&lt;/p&gt;
+
+&lt;h2 id=&quot;my-personal-experience-&quot;&gt;My Personal Experience 🧔&lt;/h2&gt;
+
+&lt;p&gt;As mentioned earlier, I have a &lt;a href=&quot;https://github.com/jameslieu&quot;&gt;Github profile&lt;/a&gt; where I place all of my personal projects.  When attending job interviews, the only time somebody had mentioned it was when they saw a repository called &lt;a href=&quot;https://github.com/jameslieu/project_euler&quot;&gt;project_euler&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;However, as of 18th June 2020, I only have a single completed code challenge in there. Had I had more code challenges in there I think the interviewer/developer would’ve been more impressed.&lt;/p&gt;
+
+&lt;p&gt;I do have a repo called &lt;a href=&quot;https://github.com/jameslieu/csharp_projects&quot;&gt;csharp_projects&lt;/a&gt; which has a variety of code challenges as well as personal projects (specifically written in C#) all within the same repo.&lt;/p&gt;
+
+&lt;p&gt;(The reason I had organized it this way was because I wanted to branch off from PHP to C# professionally which was difficult to do without taking a pay cut, so this repo was the one I sent to potential employers to boost my chances.)&lt;/p&gt;
+
+&lt;p&gt;In hindsight, I think having the &lt;a href=&quot;https://github.com/jameslieu/csharp_projects&quot;&gt;csharp_projects&lt;/a&gt; repo helped, but the amount of time it had taken to build all of these was very costly.&lt;/p&gt;
+
+&lt;p&gt;If I had a single solid project with all of the bells and whistles, deployed for the interviewer to demo, I think that would’ve had a greater impact than all of those smaller projects. Also, having a repo for code challenges would’ve gotten more attention more so than the others.&lt;/p&gt;
+
+&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
+
+&lt;p&gt;Having built many projects and having a sizable portfolio, from a job hunting perspective, I think it actually deters interviewers from actually looking at them at all. I think it would be better to have only 1-2 great (sizable) projects and a repo dedicated to solving programming problems i.e. &lt;a href=&quot;https://github.com/jameslieu/project_euler&quot;&gt;project_euler&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The projects you build should be built with the technology you’re applying with. For example, if I were to apply for ASP.Net Core roles, then ideally that project should be built with ASP.Net Core.&lt;/p&gt;
+
+&lt;p&gt;Having fewer projects will increase likelihood that the potential employer will actually look at your projects. Then having the coding problem repo will be the one where you can demonstrate how you solve programming challenges.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">As an aspiring developer, it is good to have a portfolio of projects to not only build knowledge and experience with the technology you're using but to use as code examples for when applying for a job as a programmer.</summary></entry><entry><title type="html">Are Meetings Necessary?</title><link href="http://jameslieu.github.io/are-meetings-necessary/" rel="alternate" type="text/html" title="Are Meetings Necessary?" /><published>2020-06-17T00:00:00+01:00</published><updated>2020-06-17T00:00:00+01:00</updated><id>http://jameslieu.github.io/are-meetings-necessary</id><content type="html" xml:base="http://jameslieu.github.io/are-meetings-necessary/">&lt;p&gt;Meetings are a great way to communicate with people within your company. However, they can be huge productivity killers.&lt;/p&gt;
 
 &lt;p&gt;Is a particular meeting even necessary? If you’re meeting for an hour, one perspective is that its not only one hour that is lost, but one hour multiplied by the total number of attendees.&lt;/p&gt;
 
@@ -759,72 +791,4 @@ It also presents some of the courses I’ve just started as well including your 
 
 &lt;p&gt;Remember the key take away:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Make any task more approachable and apply a marginal adjustment to your routine.&lt;/strong&gt; 💪 💪&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Even a marginal improvement in our process can have a huge impact on our end result.</summary></entry><entry><title type="html">How To Write a Programming Journal</title><link href="http://jameslieu.github.io/how-to-write-a-programming-journal/" rel="alternate" type="text/html" title="How To Write a Programming Journal" /><published>2020-05-30T00:00:00+01:00</published><updated>2020-05-30T00:00:00+01:00</updated><id>http://jameslieu.github.io/how-to-write-a-programming-journal</id><content type="html" xml:base="http://jameslieu.github.io/how-to-write-a-programming-journal/">&lt;p&gt;I’ve been going through my old notes and found this section: “How to write a programming journal” written on &lt;strong&gt;8th July 2018&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;This was when I had decided to start daily journaling about programming topics and challenges I’ve encountered (although I had skipped many days and stopped altogether at the end of the year).&lt;/p&gt;
-
-&lt;p&gt;I likely had done some research on writing a programming journal may have copied some of the content on this post. I can’t remember whether I wrote my own take on the research I did on this or whether it is a direct copy-and-paste. Regardless, I’ll share my notes here.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-benefits-of-journaling-&quot;&gt;The Benefits of Journaling 📓&lt;/h2&gt;
-
-&lt;h6 id=&quot;-it-helps-you-articulate-your-thoughts&quot;&gt;🤔 It helps you articulate your thoughts.&lt;/h6&gt;
-
-&lt;p&gt;If you’re like me, you probably tend to “think through” your coding problems. Trying to implement an algorithm? You run each step through your mind. Need to design a new class? You sit in front of a blank class file, thinking about what variables and methods it’ll need. Stuff like that.&lt;/p&gt;
-
-&lt;p&gt;And that’s fine for small stuff, but can be unwieldy — even counterproductive — when you have to tackle something more advanced and/or complex.&lt;/p&gt;
-
-&lt;p&gt;That’s when a journal comes in handy. It gives you a place to work through your thoughts (e.g. algorithm steps, design process, or whatever else) in a concrete way. You can see everything before you. Not only does it make you less prone to errors, but it’ll help solidify those concepts in your mind.&lt;/p&gt;
-
-&lt;h6 id=&quot;-it-can-make-you-more-productive&quot;&gt;💪 It can make you more productive.&lt;/h6&gt;
-
-&lt;p&gt;The above-mentioned process of “unloading your thoughts” is more important than you might realize. As it turns out, the simple act of jotting down a task/problem/thought can free up your mind and improve your concentration.&lt;/p&gt;
-
-&lt;p&gt;For example, unloading the details of that newly-designed algorithm into your journal can let you focus on other tasks without wasting “brain CPU cycles” on keeping those details at the back of your mind.&lt;/p&gt;
-
-&lt;p&gt;A journal also forces you to slow down and think. It’s tempting to rush into an implementation, and sometimes that works out fine, but you’ll be better off if you think through the entire solution before you write even one line of code. One hour of planning can prevent many hours of debugging!&lt;/p&gt;
-
-&lt;h6 id=&quot;-it-records-a-history-of-your-progress-and-development&quot;&gt;📈 It records a history of your progress and development.&lt;/h6&gt;
-
-&lt;p&gt;This may be the biggest benefit of journaling, especially for new coders. The hardest part about being a newbie is being blind to your own progress and feeling like you aren’t moving forward. But each journal entry represents a discrete achievement. It feels good, and that’s priceless when learning.&lt;/p&gt;
-
-&lt;p&gt;It’s also useful for staying motivated on long-term projects because the journal acts as an objective reminder of how far you’ve come. When you feel like you aren’t making progress, the journal tells you that you have — and that can be a great motivating boost.&lt;/p&gt;
-
-&lt;p&gt;Lastly, a journal can be physical evidence when you run into patent or copyright issues, but only if you date and sign your entries. This probably won’t be much of an issue unless you work on big projects with millions on the line, though.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-to-write-in-a-programming-journal-&quot;&gt;What to Write in a Programming Journal 📓&lt;/h2&gt;
-
-&lt;h6 id=&quot;-date-and-signature&quot;&gt;📆 Date and signature&lt;/h6&gt;
-&lt;p&gt;Always date your entries for posterity. If your note-taking app can do it automatically, even better.&lt;/p&gt;
-
-&lt;h6 id=&quot;-problems-encountered&quot;&gt;⁉ Problems encountered&lt;/h6&gt;
-&lt;p&gt;When you run into an evasive bug or a conceptually-tough algorithm, write about it. Start with a description, when it seems to occur, and a list of possible causes. If you can reproduce it, include those steps. Sometimes the act of writing these things can lead you to a solution.&lt;/p&gt;
-
-&lt;h6 id=&quot;-solutions-explored&quot;&gt;🎉 Solutions explored&lt;/h6&gt;
-&lt;p&gt;As you try to solve the problems above, record your attempts to fix them. If the solution works, great! If it doesn’t, record why it failed. If a solution is suboptimal, make note of the shortcomings so you can iterate later.&lt;/p&gt;
-
-&lt;p&gt;This methodical approach to bug-fixing is extremely helpful, especially when you’re first starting out and feel overwhelmed by a bug or algorithm — but veterans can benefit from this too.&lt;/p&gt;
-
-&lt;h6 id=&quot;-log-your-successes&quot;&gt;📝 Log your successes&lt;/h6&gt;
-&lt;p&gt;Keep a separate list of every win along the way, perhaps in the back of your notebook. Did that algorithm finally click? Or maybe your five-day search for a bug finally paid off? Write those wins down! Later, when you’re feeling stupid or unproductive, you can refer back and see all of the things you’ve accomplished.&lt;/p&gt;
-
-&lt;p&gt;It’s a simple thing, but can have huge results. I’ve personally found it effective in defeating programming burnout. And as your “Hall of Successes” grows longer, it becomes more powerful as a reminder of your skills and progress.&lt;/p&gt;
-
-&lt;h6 id=&quot;-things-to-revisit-later&quot;&gt;🤓 Things to revisit later&lt;/h6&gt;
-&lt;p&gt;A bug-tracker might be better for tracking todos and bugs (duh) but a journal can be great for jotting down concepts, algorithms, questions, topics, and other “things” that you can’t look into right now but want to research later.&lt;/p&gt;
-
-&lt;h6 id=&quot;-ambitions-and-goals&quot;&gt;🥇 Ambitions and goals&lt;/h6&gt;
-
-&lt;p&gt;This one’s not so much about programming as it is about your future as a programmer. Where do you eventually want to end up? How did today’s session or this year’s project take you toward that goal? Or did it set you back? These kinds of entries can be great for re-centering yourself and your direction.&lt;/p&gt;
-
-&lt;h6 id=&quot;-lessons-learned&quot;&gt;🤦 Lessons learned&lt;/h6&gt;
-&lt;p&gt;After every session, it can be nice to recap everything you did and think about what you learned. Similarly, you should think about recapping every major milestone on your current project and the lessons you’ve learned. This is why developers do post-mortems — by articulating lessons learned, you’re more likely to remember them going forward.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
-
-&lt;p&gt;While I hadn’t written in my programming journal in a while, I can see why it can be useful, especially if you’re a junior.&lt;/p&gt;
-
-&lt;p&gt;I’ve been reading back on my old journal entries written in 2018. It has some notes I made of concepts or questions I had, notes of events of that particular day and how I felt on those days including decisions that were made by the team or by management. Its a great way to see how I’ve grown since writing those entries.&lt;/p&gt;
-
-&lt;p&gt;I don’t know whether I’ll start journaling again but in many ways, these blog posts I’m writing are a form of journaling for me. I enjoy writing them as well as reading through them retrospectively. I may start to go through my old journal entries and create blog posts on the ones I think would be good to share.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">I've been going through my old notes and found this section. &quot;How to write a programming journal&quot; written on 8th July 2018.</summary></entry></feed>
+&lt;p&gt;&lt;strong&gt;Make any task more approachable and apply a marginal adjustment to your routine.&lt;/strong&gt; 💪 💪&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Even a marginal improvement in our process can have a huge impact on our end result.</summary></entry></feed>

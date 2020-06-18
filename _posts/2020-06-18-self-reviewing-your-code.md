@@ -40,7 +40,7 @@ Relying on the reviewer to find those because they feel that reviewing their own
 
 ### &#x1f9d4; My Personal Experience
 
-I once had a colleague who did exactly this. He likes to work quickly which [has it's own problems](/working-too-quickly), he would open a pull request and then move onto the next task. When I began the code review, it was very often littered with issues, commented out code, code that was used for debugging purposes i.e. `console.log("here!!!!")` etc.
+I once had a colleague who did exactly this. He likes to work quickly which [has it's own problems](/writing-code-too-quickly), he would open a pull request and then move onto the next task. When I began the code review, it was very often littered with issues, commented out code, code that was used for debugging purposes i.e. `console.log("here!!!!")` etc.
 
 After the review, it needs to go back into progress, but my colleague would often be in the middle of the next task, which meant that he wouldn't pick up the work that was reviewed until the next day or even a few days after depending on how long it would take him to complete the task he was currently working on (which then a PR is created for it for review).
 
