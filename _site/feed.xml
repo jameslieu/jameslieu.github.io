@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-06-18T00:17:21+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Are Meetings Necessary?</title><link href="http://jameslieu.github.io/are-meetings-necessary/" rel="alternate" type="text/html" title="Are Meetings Necessary?" /><published>2020-06-17T00:00:00+01:00</published><updated>2020-06-17T00:00:00+01:00</updated><id>http://jameslieu.github.io/are-meetings-necessary</id><content type="html" xml:base="http://jameslieu.github.io/are-meetings-necessary/">&lt;p&gt;Meetings are a great way to communicate with people within your company. However, they can be huge productivity killers.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-06-18T23:21:49+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Self-reviewing Your Code</title><link href="http://jameslieu.github.io/self-reviewing-your-code/" rel="alternate" type="text/html" title="Self-reviewing Your Code" /><published>2020-06-18T00:00:00+01:00</published><updated>2020-06-18T00:00:00+01:00</updated><id>http://jameslieu.github.io/self-reviewing-your-code</id><content type="html" xml:base="http://jameslieu.github.io/self-reviewing-your-code/">&lt;p&gt;Self-reviewing your code is, in my opinion, just as important as having someone else review it before it gets approved and deployed. It is akin to proof-reading an email you wrote before sending it; checking that you haven’t missed anything, whether there are errors or whether there are areas you can refine.&lt;/p&gt;
+
+&lt;p&gt;Not self-reviewing adequately is probably more common than we think, I myself have been guilty of doing this. When you think you’re done coding your feature, it is easy to skim through your changes (diff) or not look at them at all. Submit the change. Then let your colleague review it while you work on a new and more exciting task.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-should-we-self-review-our-work-&quot;&gt;Why Should We Self-Review Our Work? 🤔&lt;/h2&gt;
+
+&lt;p&gt;It is conceptually the same reason we proof-read any emails or any writing intended for someone else. You’ll want to catch errors, look for areas which can be refined and check if anything was missed or had been forgotten.&lt;/p&gt;
+
+&lt;p&gt;Often re-reading your code again can give you further confidence that what you’ve worked on is done to a standard that you deem acceptable when contributing to the product you’re working on. Also, depending on the size of the work, when working on a particular feature long enough can reduce the likelihood that we’ll to remember &lt;strong&gt;exactly&lt;/strong&gt; what was added and what was removed.&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-the-worse-that-could-happen-&quot;&gt;What’s the worse that could happen? 🤷&lt;/h2&gt;
+
+&lt;p&gt;From the perspective as a developer for a company, it depends on the scenario really, if you’re working on a system that is only used within the company internally then it’s not as detrimental if you deploy work that breaks the system.&lt;/p&gt;
+
+&lt;p&gt;Another example is a product that doesn’t have any ‘live’ users. There is more leeway for errors or issues under these circumstances. Although, it will not only cause inconvenience for you but for your team members as well.&lt;/p&gt;
+
+&lt;p&gt;It is, however, very serious if the system is used by clients or customers and is a source of revenue for your company. In under any circumstances should anyone be deploying work without being absolutely certain that the changes do not break the system unknowingly. It’s bad for the customer, its bad for the team and it’s bad for the company. Everybody is unhappy, so being extra careful when making changes or updates to the system is paramount.&lt;/p&gt;
+
+&lt;h2 id=&quot;reviewed-by-somebody-else-&quot;&gt;Reviewed by somebody else 🕵&lt;/h2&gt;
+
+&lt;p&gt;It’s a standard practice to have your code reviewed by someone else before it gets released to production. We’re all human and are not infallible, having a second pair of eyes on your code to check for errors, look for improvements and to make sure that it meets the requirements is very valuable and should not be taken for granted when working in a team.&lt;/p&gt;
+
+&lt;p&gt;The code review process has some acceptable trade-offs. The first is that it requires a member of your team to ‘review’ said code, which means that time needs to be allocated to that task. The reviewer will need to read the code and if there is feedback or changes requested, then the code owner needs to either go back to modify the code or to have a discussion about it.&lt;/p&gt;
+
+&lt;p&gt;This takes up a fair amount of time and even more so, if there were obvious defects in the code which would’ve been spotted had the developer been more vigilant with reviewing their own work.&lt;/p&gt;
+
+&lt;p&gt;Having the reviewer leave feedback for ‘commented-out’ code or typos are not only embarrassing but requires time allocated to fix it. Vigilantly self-reviewing your code can at least mitigate those kinds of errors.&lt;/p&gt;
+
+&lt;p&gt;It’s arguably selfish to leave the fault-finding to the reviewer, as mentioned previously, this review process can take time. How can we expect someone else reviewing your work and to be vigilant if we don’t abide by the same standard. At the very least, the developer ought to respect their own work by self-reviewing and making sure that what they’re submitting is done to a high standard.&lt;/p&gt;
+
+&lt;p&gt;Relying on the reviewer to find those because they feel that reviewing their own code will ‘slow’ them down is not only egotistical but a disservice to themselves as the more mistakes they submit, the less confidence the rest of the team will be in the quality and skills of said developer.&lt;/p&gt;
+
+&lt;h3 id=&quot;-my-personal-experience&quot;&gt;🧔 My Personal Experience&lt;/h3&gt;
+
+&lt;p&gt;I once had a colleague who did exactly this. He likes to work quickly which &lt;a href=&quot;/working-too-quickly&quot;&gt;has it’s own problems&lt;/a&gt;, he would open a pull request and then move onto the next task. When I began the code review, it was very often littered with issues, commented out code, code that was used for debugging purposes i.e. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;console.log(&quot;here!!!!&quot;)&lt;/code&gt; etc.&lt;/p&gt;
+
+&lt;p&gt;After the review, it needs to go back into progress, but my colleague would often be in the middle of the next task, which meant that he wouldn’t pick up the work that was reviewed until the next day or even a few days after depending on how long it would take him to complete the task he was currently working on (which then a PR is created for it for review).&lt;/p&gt;
+
+&lt;p&gt;Because there was little self-review even for working on the feedback on the first PR, when that one goes back into review, it is not uncommon for that one to also have issues or require changes again. So the cycle continues&lt;/p&gt;
+
+&lt;p&gt;The problem was that reviewing like this takes a lot of time. Although the code owner felt he was being very productive, but in terms of the productivity from the team as a whole, we were at risk of not completing all the work we had allocated for that sprint. Productivity is compromise and all he had to do is read his own code to reduce the odds of the work to require updates or changes, especially for the obvious defects such as commented out code.&lt;/p&gt;
+
+&lt;p&gt;Bear in mind that I also have tasks of my own that I need to complete (and have reviewed).&lt;/p&gt;
+
+&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
+
+&lt;p&gt;To summarize the key points why self-review is important and worth the time:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Check we haven’t missed anything&lt;/li&gt;
+  &lt;li&gt;Check whether there are errors&lt;/li&gt;
+  &lt;li&gt;Check for areas for refinement&lt;/li&gt;
+  &lt;li&gt;Can identify areas of improvement&lt;/li&gt;
+  &lt;li&gt;A better team code review experience&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I think habit of self-reviewing your code is one of the things that will improve the quality of the code you write. We’re not infallible and should almost expect to write code that is imperfect. Self-reviewing simply allows us to allocate time to &lt;strong&gt;think&lt;/strong&gt; about what was written, check for issues or anything you’ve forgotten or to look for ways to improve it.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Self-reviewing your code is, in my opinion, just as important as having someone else review it before it gets approved and deployed.</summary></entry><entry><title type="html">Are Meetings Necessary?</title><link href="http://jameslieu.github.io/are-meetings-necessary/" rel="alternate" type="text/html" title="Are Meetings Necessary?" /><published>2020-06-17T00:00:00+01:00</published><updated>2020-06-17T00:00:00+01:00</updated><id>http://jameslieu.github.io/are-meetings-necessary</id><content type="html" xml:base="http://jameslieu.github.io/are-meetings-necessary/">&lt;p&gt;Meetings are a great way to communicate with people within your company. However, they can be huge productivity killers.&lt;/p&gt;
 
 &lt;p&gt;Is a particular meeting even necessary? If you’re meeting for an hour, one perspective is that its not only one hour that is lost, but one hour multiplied by the total number of attendees.&lt;/p&gt;
 
@@ -771,41 +827,4 @@ It also presents some of the courses I’ve just started as well including your 
 
 &lt;p&gt;I’ve been reading back on my old journal entries written in 2018. It has some notes I made of concepts or questions I had, notes of events of that particular day and how I felt on those days including decisions that were made by the team or by management. Its a great way to see how I’ve grown since writing those entries.&lt;/p&gt;
 
-&lt;p&gt;I don’t know whether I’ll start journaling again but in many ways, these blog posts I’m writing are a form of journaling for me. I enjoy writing them as well as reading through them retrospectively. I may start to go through my old journal entries and create blog posts on the ones I think would be good to share.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">I've been going through my old notes and found this section. &quot;How to write a programming journal&quot; written on 8th July 2018.</summary></entry><entry><title type="html">Journal Template</title><link href="http://jameslieu.github.io/journal-template/" rel="alternate" type="text/html" title="Journal Template" /><published>2020-05-30T00:00:00+01:00</published><updated>2020-05-30T00:00:00+01:00</updated><id>http://jameslieu.github.io/journal-template</id><content type="html" xml:base="http://jameslieu.github.io/journal-template/">&lt;p&gt;This was also found in my old notes dated in &lt;strong&gt;24th March 2019&lt;/strong&gt;. A good tip for journaling worth sharing.
-For regular journaling, a common stuggle is consistency. I’ve done some research online for tips and tricks to help with this issue.
-These ones I’ve taken as I usually journal in the evenings. I likely copied these from other sources although I don’t know where.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h6 id=&quot;-what-did-i-achieve-today&quot;&gt;😉 What did I achieve today?&lt;/h6&gt;
-
-&lt;p&gt;This question helps me identify whether I actually achieved what I set out to accomplish in the morning, or if I got sidetracked. One lesson I’ve learned from answering this question is it’s easy to overestimate what you think you can achieve in a day, but I remind myself it’s not what you achieve in a day, it’s what you achieve eventually. This is what really matters.&lt;/p&gt;
-
-&lt;h6 id=&quot;-what-lessons-did-i-learn&quot;&gt;🙄 What lessons did I learn?&lt;/h6&gt;
-
-&lt;p&gt;This is my favourite question to answer. This is where you journal your “Aha!” moments. Answers can range from personal, “I learned how to say no to dessert”, to skill-based, “I learned how to remove plosives in an audio recording using Audacity”. The more thorough you are, here, the more you can return to it again and again and learn from it.&lt;/p&gt;
-
-&lt;h6 id=&quot;-im-grateful-for&quot;&gt;🙂 I’m grateful for…&lt;/h6&gt;
-
-&lt;p&gt;Writing down three new things that you’re grateful for, for 21 days in a row, can actually rewire your brain, allowing your brain to work more optimistically and more successfully. I also thank my problems and ask myself what’s great about them. Realising my problem was great because I could make an improvement on the original.&lt;/p&gt;
-
-&lt;h6 id=&quot;-how-am-i-feeling-right-now&quot;&gt;😑 How am I feeling right now?&lt;/h6&gt;
-
-&lt;p&gt;This is an opportunity for me to be vulnerable, to let my guard down, to be open without censoring myself. I’m generally pretty happy, but if I’m feeling a negative emotion, I’ll identify the cause by using a why drill. I’ll ask myself why I’m feeling the emotion, in question, five times. This helps me be at the cause, rather than the effect of my concern.&lt;/p&gt;
-
-&lt;h6 id=&quot;-what-are-3-amazing-things-that-happened-today&quot;&gt;😁 What are 3 amazing things that happened today?&lt;/h6&gt;
-
-&lt;p&gt;I think it’s important to bookend your day by focusing on your “small wins.” “I said no to a dessert.” “I resisted the urge to give into temptation.” “I didn’t sleep in.” “I achieved my most important task.” … These tiny advantages build forward momentum and remind us that bigger achievements are within reach.&lt;/p&gt;
-
-&lt;h6 id=&quot;-how-could-i-have-made-today-better&quot;&gt;🤔 How could I have made today better?”&lt;/h6&gt;
-
-&lt;p&gt;Many of us, when dissatisfied with our day, prefer to write it off, to move past it as quickly and quietly as possible. But by asking yourself how you could have made the day better, you’re forcing your brain to look for improvements. Your day may have been stressful, but don’t write it off until you’ve learned something from it. Look for ONE Thing you can do, either prevent it from happening again or to help you deal with it more effectively.&lt;/p&gt;
-
-&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
-
-&lt;p&gt;If you plan on journaling consistently, having a consistent structure for your entries will really help.
-There were times where I couldn’t think of anything to write and therefore put in less effort for that particular entry. Having this template and predefined questions is enough to get you started.&lt;/p&gt;
-
-&lt;p&gt;Furthermore, when reading through each entry retrospectively, you can see the progression of each day and even adapt your behaviour if you see a negative pattern.&lt;/p&gt;
-
-&lt;p&gt;I haven’t written any journal entries in a while but if I ever get back into it, I’ll likely use this template.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">For regular journaling, a common stuggle is consistency</summary></entry></feed>
+&lt;p&gt;I don’t know whether I’ll start journaling again but in many ways, these blog posts I’m writing are a form of journaling for me. I enjoy writing them as well as reading through them retrospectively. I may start to go through my old journal entries and create blog posts on the ones I think would be good to share.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">I've been going through my old notes and found this section. &quot;How to write a programming journal&quot; written on 8th July 2018.</summary></entry></feed>
