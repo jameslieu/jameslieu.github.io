@@ -2,7 +2,7 @@
 layout: post
 title: "Video Conferencing Etiquette"
 categories: Career
-excerpt: Remote work is becoming more common in this industry, and attending meetings via video conferencing tools are a necessity when working within a team. So I wanted to share a few tips and practices I've learned.
+excerpt: Remote work is becoming more common in this industry, and attending meetings via video conferencing tools are a necessity when working within a team. So I thought I'd share a few video conferencing etiquettes I've learned and adopted in the past year.
 ---
 
 When I started a new role on June 2019, one of the perks was to be able to work from home.
