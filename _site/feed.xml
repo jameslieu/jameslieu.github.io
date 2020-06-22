@@ -1,4 +1,62 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-06-20T01:05:26+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Video Conferencing Etiquette</title><link href="http://jameslieu.github.io/video-conferencing-etiquette/" rel="alternate" type="text/html" title="Video Conferencing Etiquette" /><published>2020-06-19T00:00:00+01:00</published><updated>2020-06-19T00:00:00+01:00</updated><id>http://jameslieu.github.io/video-conferencing-etiquette</id><content type="html" xml:base="http://jameslieu.github.io/video-conferencing-etiquette/">&lt;p&gt;When I started a new role on June 2019, one of the perks was to be able to work from home.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-06-22T17:58:27+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Top Tips For Recruiters From a Developer</title><link href="http://jameslieu.github.io/top-tips-for-recruiters-from-a-developer/" rel="alternate" type="text/html" title="Top Tips For Recruiters From a Developer" /><published>2020-06-22T00:00:00+01:00</published><updated>2020-06-22T00:00:00+01:00</updated><id>http://jameslieu.github.io/top-tips-for-recruiters-from-a-developer</id><content type="html" xml:base="http://jameslieu.github.io/top-tips-for-recruiters-from-a-developer/">&lt;p&gt;So I recently had create a post on &lt;a href=&quot;/my-experience-with-recruiters/&quot;&gt;My Experience With Recruiters&lt;/a&gt;. I think giving constructive criticism is valuable but providing solutions is probably more useful.&lt;/p&gt;
+
+&lt;p&gt;I wanted to give some general feedback this time, to give &lt;strong&gt;my opinion&lt;/strong&gt; on what &lt;strong&gt;I feel would engage me if I were on the market for opportunities&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;-know-your-audience&quot;&gt;😀 Know your audience&lt;/h3&gt;
+
+&lt;p&gt;My profile specifically states what technology I specialise in i.e. C#, JavaScript, etc.  Why would you then send me a job spec for Java or C++ roles? Sending me applications for technologies I have no experience in, only makes me think that you didn’t even bother reading my profile.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Although I respect that you’re trying to get leads, so reading each profile before sending out mass emails makes the process slower, no excuse if you’re calling me on the phone however).&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Still, I’m less likely to work with you if I see that you’re not showing interest.&lt;/p&gt;
+
+&lt;p&gt;I respond the best when the email was tailored to me personally, or when on the phone, the recruiter demonstrates that they’ve read my profile. Even if I’m not on the market for opportunities, I think this kind of customer service is the best, more professional and shows confidence that you know what you’re doing.&lt;/p&gt;
+
+&lt;p&gt;I’m aware that recruiters are talking to many potential customers and so spending too much time doing this for each of them may not be as ideal. My point is that I’m more likely to be engaged if you did this.&lt;/p&gt;
+
+&lt;h3 id=&quot;-be-creative&quot;&gt;✨ Be creative&lt;/h3&gt;
+
+&lt;p&gt;I’ve received so many recruitment emails during my time as a developer. They’re generic enough for me to ignore them completely, meaning I don’t even open them anymore. The ones I do open, have interesting creative subject titles and the content is also interesting.&lt;/p&gt;
+
+&lt;p&gt;Bear in mind it is possible that many of recipients of these recruitment emails are likely already employed and are not actively looking for roles. If you’re planning to create leads from this audience, it would increase your chances if your email isn’t plain and generic.&lt;/p&gt;
+
+&lt;h3 id=&quot;-communication&quot;&gt;😀 Communication&lt;/h3&gt;
+
+&lt;p&gt;Most recruiters start off very polite and enthusiastic, but once you’ve submitted your CV with them to forward to their clients, communication quality goes way down.&lt;/p&gt;
+
+&lt;p&gt;If I’m in the process of working with you, some updates to the application would be appreciated.&lt;/p&gt;
+
+&lt;p&gt;When I was job hunting, I found that I was the one who had to chase up on the progress on the application, there was on recruiter who actually knew the progress of the applications, but just didn’t bother informing me of it, was a little rude about it as well. That guy I’ll never work with again and I know he recruits with roles that matches my profile.&lt;/p&gt;
+
+&lt;p&gt;In contrast to this, one of the recruiters who had successfully gotten me a role had such great communication and interpersonal skills that when I were made redundant at said role years later, I had called him first who then had gotten me another role.&lt;/p&gt;
+
+&lt;h3 id=&quot;-stay-in-touch&quot;&gt;🤝 Stay in touch&lt;/h3&gt;
+
+&lt;p&gt;If you’ve managed to get somebody a role. Ask them to give you a recommendation on LinkedIn, every few months or so, send a message to ask how they’re doing, maintaining communications with the ones you’ve worked with in the past can also one day lead to another opportunity to work with said person.&lt;/p&gt;
+
+&lt;p&gt;I for one often appreciate someone getting in touch just for the sake of saying hi. If you’re trying to sell me something, I may have my guard up however.&lt;/p&gt;
+
+&lt;h3 id=&quot;-know-the-company-youre-recruiting-for&quot;&gt;🏢 Know the company you’re recruiting for&lt;/h3&gt;
+
+&lt;p&gt;When selling me a role, I found that I was more impressed with a recruiter when they talk about the company, if they’ve  successfully recruited for them before, met the people there, have an idea of the office environment, knowing what else the company has to offer i.e. Good coffee, bean bag chairs, free fruit etc.&lt;/p&gt;
+
+&lt;p&gt;If I have questions that may not be in the job spec, if the recruiter can answer them, it suggests that they have a great relationship with the company as well, which then suggests that working with this recruiter is worth my while.&lt;/p&gt;
+
+&lt;h3 id=&quot;-understand-the-tech-youre-recruiting-for&quot;&gt;💻 Understand the tech you’re recruiting for&lt;/h3&gt;
+
+&lt;p&gt;I’m not saying you should learn TDD, but you should at least be aware of what it is or what it means. This includes some of the other items in your spec such as TDD, BDD, Redux, webpack etc&lt;/p&gt;
+
+&lt;p&gt;You don’t need to be an expert on any of these, but being able to explain what the job involves without just reading from the spec can be very engaging for the person you’re trying to recruit. It’s like selling a product to someone, if you don’t really know what you’re selling, it makes it difficult to believe anything you’re saying.&lt;/p&gt;
+
+&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
+
+&lt;p&gt;This is only my opinion and should be taken with a grain of salt. I appreciate that I know nothing of the recruitment industry so my assumptions here can be completely wrong. I’m just providing &lt;strong&gt;feedback from a customer’s perspective&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;I feel that recruiters have a bad reputation among the programming industry and perhaps this is due to the lack of feedback from customers such as myself. I’ve had many good and bad experiences, I feel it’s valuable to recognise and celebrate the good while providing constructive criticism for the bad.&lt;/p&gt;
+
+&lt;p&gt;I’m not expert but recruitment feels like a ‘people’ industry more than anything, and so to successfully to sell your ‘roles’ to us, communication is key, build a network and maintain it.&lt;/p&gt;
+
+&lt;p&gt;In any case, if you’re a recruiter reading this, I hope there are some insights you can take-away from this and I wish you the best of luck.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">I wanted to give some general feedback this time, to give my opinion on what I feel would engage me if I were on the market for opportunities.</summary></entry><entry><title type="html">Video Conferencing Etiquette</title><link href="http://jameslieu.github.io/video-conferencing-etiquette/" rel="alternate" type="text/html" title="Video Conferencing Etiquette" /><published>2020-06-19T00:00:00+01:00</published><updated>2020-06-19T00:00:00+01:00</updated><id>http://jameslieu.github.io/video-conferencing-etiquette</id><content type="html" xml:base="http://jameslieu.github.io/video-conferencing-etiquette/">&lt;p&gt;When I started a new role on June 2019, one of the perks was to be able to work from home.&lt;/p&gt;
 
 &lt;p&gt;Most of the development team worked from home and only required to come into the office once a week on any day they choose. So our everyday meetings were conducted via video conferencing tools such as ‘Zoom’.&lt;/p&gt;
 
@@ -92,7 +150,7 @@
 
 &lt;h3 id=&quot;-my-personal-experience&quot;&gt;🧔 My Personal Experience&lt;/h3&gt;
 
-&lt;p&gt;I once had a colleague who did exactly this. He likes to work quickly which &lt;a href=&quot;/writing-code-too-quickly&quot;&gt;has it’s own problems&lt;/a&gt;, he would open a pull request and then move onto the next task. When I began the code review, it was very often littered with issues, commented out code, code that was used for debugging purposes i.e. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;console.log(&quot;here!!!!&quot;)&lt;/code&gt; etc.&lt;/p&gt;
+&lt;p&gt;I once had a colleague who did exactly this. He likes to work quickly which &lt;a href=&quot;/writing-code-too-quickly&quot;&gt;has it’s own problems&lt;/a&gt;, he would open a pull request and then move onto the next task. When I began the code review, it was very often littered with issues, commented out code, code that was used for debugging purposes i.e. &lt;code class=&quot;highlighter-rouge&quot;&gt;console.log(&quot;here!!!!&quot;)&lt;/code&gt; etc.&lt;/p&gt;
 
 &lt;p&gt;After the review, it needs to go back into progress, but my colleague would often be in the middle of the next task, which meant that he wouldn’t pick up the work that was reviewed until the next day or even a few days after depending on how long it would take him to complete the task he was currently working on (which then a PR is created for it for review).&lt;/p&gt;
 
@@ -698,125 +756,4 @@ It also presents some of the courses I’ve just started as well including your 
 
 &lt;p&gt;There are alternative services which are very similar to Pluralsight but cheaper such as &lt;a href=&quot;https://www.linkedin.com/learning/&quot;&gt;LinkedIn Learning&lt;/a&gt;. Its also worth noting that there are free resources as well you can try, while its true that the content or teaching quality may not be as good as the paid courses they can still be very good. So its worth looking around.&lt;/p&gt;
 
-&lt;p&gt;Either way, I would only recommend it if you’re able to get your company to pay for it, otherwise I’d consider another cheaper service or opt for the free options if you can’t afford to pay for the premium courses. I probably wouldn’t renew my subscription if my company can’t cover the costs.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">I've been using Pluralsight for a few months now. Here is my review.</summary></entry><entry><title type="html">Are Ruby Jobs On A Decline?</title><link href="http://jameslieu.github.io/are-ruby-jobs-on-a-decline/" rel="alternate" type="text/html" title="Are Ruby Jobs On A Decline?" /><published>2020-06-03T00:00:00+01:00</published><updated>2020-06-03T00:00:00+01:00</updated><id>http://jameslieu.github.io/are-ruby-jobs-on-a-decline</id><content type="html" xml:base="http://jameslieu.github.io/are-ruby-jobs-on-a-decline/">&lt;h2 id=&quot;a-decline-in-ruby-opportunities-&quot;&gt;A Decline in Ruby Opportunities? 📉&lt;/h2&gt;
-
-&lt;p&gt;I love Ruby but would I recommend learning it today? No.&lt;/p&gt;
-
-&lt;p&gt;Ruby was my first programming language and I love it even today.&lt;/p&gt;
-
-&lt;p&gt;Ruby was designed to make programming fun. It is succinct and reads like English. To use alongside Ruby on Rails can make for a satisfying coding experience. The community is very welcoming and the vast number of open-source libraries (known as Gems) have made developing with Ruby enjoyable.&lt;/p&gt;
-
-&lt;p&gt;But despite this, there seems to be a decline in job opportunities in London.&lt;/p&gt;
-
-&lt;p&gt;According to this &lt;a href=&quot;https://blog.makersacademy.com/what-is-the-demand-for-ruby-developers-in-london-today-42e05f23656d&quot;&gt;blog post&lt;/a&gt; published in &lt;strong&gt;28th March 2013&lt;/strong&gt;. It states:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Indeed.co.uk lists &lt;a href=&quot;https://www.indeed.co.uk/Ruby-Developer-jobs-in-London&quot;&gt;1,136 Ruby jobs in London&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The search query for job title &lt;strong&gt;Ruby Developer&lt;/strong&gt; in &lt;strong&gt;London&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;So &lt;strong&gt;1,136&lt;/strong&gt; Ruby Jobs In London in &lt;strong&gt;March 2013&lt;/strong&gt;. If you were to click that &lt;a href=&quot;https://www.indeed.co.uk/Ruby-Developer-jobs-in-London&quot;&gt;same link&lt;/a&gt; today (&lt;strong&gt;3rd June 2020&lt;/strong&gt;). There are now only &lt;strong&gt;266&lt;/strong&gt; jobs which is a &lt;strong&gt;76.58%&lt;/strong&gt; decline in 7 years which is huge!&lt;/p&gt;
-
-&lt;p&gt;This was always a concern of mine, I remember speaking to a colleague back in &lt;strong&gt;2014&lt;/strong&gt;. Our tech stack was Ruby on Rails, I asked him whether he thinks Ruby and Ruby on Rails is losing its popularity. He said:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;even if that happens, there will be a lot of projects to maintain and so the job opportunities will still be there.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I’m a little less confident about that statement today. Perhaps that was already happening when I asked him. While there are still a few opportunities (in London), its not looking healthy when compared to other programming languages.&lt;/p&gt;
-
-&lt;h2 id=&quot;is-there-a-reason-to-learn-ruby-today-&quot;&gt;Is there a reason to learn Ruby today? 🤔&lt;/h2&gt;
-
-&lt;p&gt;From a career standpoint, in my opinion, no. I think that if you haven’t already had experience with Ruby, you should avoid it, especially if you’re a beginner. There are other languages that may be more worth investing your time into, particularly due to the job opportunities.&lt;/p&gt;
-
-&lt;p&gt;As of &lt;strong&gt;3rd of June 2020&lt;/strong&gt;, when searching for job opportunities from &lt;a href=&quot;https://indeed.co.uk&quot;&gt;Indeed&lt;/a&gt;, I’ve filtered on job title: &lt;strong&gt;&amp;lt;programming language&amp;gt; Developer&lt;/strong&gt; from &lt;strong&gt;London&lt;/strong&gt; (which is the same filter as the blog post above) for some modern programming languages. Here are the results:&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt; Language &lt;/th&gt;
-      &lt;th&gt;Number Of Jobs&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;C#&lt;/td&gt;
-      &lt;td&gt;865&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;C++&lt;/td&gt;
-      &lt;td&gt;297&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Go&lt;/td&gt;
-      &lt;td&gt;568&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Java&lt;/td&gt;
-      &lt;td&gt;1727&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;JavaScript&lt;/td&gt;
-      &lt;td&gt;1589&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;PHP&lt;/td&gt;
-      &lt;td&gt;356&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Python&lt;/td&gt;
-      &lt;td&gt;1076&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Ruby&lt;/td&gt;
-      &lt;td&gt;266&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Based on these numbers alone, as a beginner, you’re better off choosing between JavaScript, Python, C# or Java. In fact, all of those Ruby Job Opportunities seem to start at &lt;strong&gt;£45,000&lt;/strong&gt; anyway meaning that they’re not roles aimed towards juniors.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/is-ruby-on-a-decline-1.png&quot; style=&quot;border: 1px solid #ccc&quot; /&gt;
-&lt;em&gt;Job opportunities on Indeed.co.uk as of June 2020&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;already-an-experienced-developer-&quot;&gt;Already An Experienced Developer? 🤓&lt;/h2&gt;
-
-&lt;p&gt;What if you’re an experienced developer. Is there value in learning Ruby? Maybe.&lt;/p&gt;
-
-&lt;p&gt;According to the very recent &lt;a href=&quot;https://insights.stackoverflow.com/survey/2020#top-paying-technologies&quot;&gt;2020 Stack Overflow Survey&lt;/a&gt;. Despite Ruby’s decline, it is in the most top paying technologies ranking at 5th place globally.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/is-ruby-on-a-decline-2.png&quot; /&gt;
-&lt;em&gt;Top Paying Technologies - Stack Overflow Survey 2020&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;While it’s true that there are fewer Ruby job opportunities, the salaries for those jobs start at &lt;strong&gt;£45,000&lt;/strong&gt; and can be as high as &lt;strong&gt;£100k&lt;/strong&gt; full-time. There seems to be a high number of contract work as well, starting at &lt;strong&gt;£450&lt;/strong&gt; per day and as high as &lt;strong&gt;£650&lt;/strong&gt; per day.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/is-ruby-on-a-decline-3.png&quot; style=&quot;border: 1px solid #ccc&quot; /&gt;
-&lt;em&gt;Ruby Developer Salary Estimates on Indeed.co.uk as of June 2020&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;If you already experienced with Ruby then there is value continue using it as the salaries are very generous, the disadvantages are that there are fewer opportunities meaning its harder to get a (Ruby Developer) role if that’s all you can do.&lt;/p&gt;
-
-&lt;p&gt;Its like my old colleague said:&lt;/p&gt;
-
-&lt;h6 id=&quot;there-will-be-a-lot-of-projects-to-maintain-and-so-the-job-opportunities-will-still-be-there&quot;&gt;…there will be a lot of projects to maintain and so the job opportunities will still be there.&lt;/h6&gt;
-
-&lt;p&gt;It would seem there are some opportunities but very few when compared to similar programming languages like Python and JavaScript.&lt;/p&gt;
-
-&lt;p&gt;There are other considerations such as, will there be innovation? New interesting greenfield projects you’ll be working on? Or will it be legacy projects and maintenance?&lt;/p&gt;
-
-&lt;p&gt;Will you even enjoy Ruby? While I personally love Ruby, according to the &lt;a href=&quot;https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-dreaded&quot;&gt;2020 Stack Overflow Survey&lt;/a&gt;, Ruby is &lt;strong&gt;7th most dreaded Programming language&lt;/strong&gt;, one below PHP who is 6th place.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/is-ruby-on-a-decline-4.png&quot; /&gt;
-&lt;em&gt;Most Dreaded - Stack Overflow Survey 2020&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;An experienced developer wouldn’t struggle too much to learn Ruby quickly but there are again other programming languages which pay just as well and at the same time seem to be evolving whereas Ruby is a little slow (no pun intended) to innovate, improve or grow. Even PHP is getting better with each version.&lt;/p&gt;
-
-&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
-
-&lt;p&gt;It’s a shame, I really liked Ruby. I actually initially moved on from Ruby because I had moved out of London to an area where there was only &lt;strong&gt;one&lt;/strong&gt; Ruby position where I had interviewed and didn’t get the role, I wrote about my &lt;a href=&quot;/moving-from-ruby-to-php/&quot;&gt;move from Ruby to PHP here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;In January 2019, a recruiter approached me with a remote Ruby opportunity. I had said to him that I would normally not proceed with that role because Ruby seemed to be losing its popularity and he didn’t believe me, he recruits for Ruby roles on a daily basis and was convinced I was wrong. He probably had a few opportunities on his desk but perhaps not looking at the bigger picture.&lt;/p&gt;
-
-&lt;p&gt;That said, I did actually complete a tech test for them and &lt;a href=&quot;/prime-factorization/&quot;&gt;wrote a blog post about it&lt;/a&gt;. Really enjoyed completing that one as well although I didn’t receive a response from the company after submitting it.&lt;/p&gt;
-
-&lt;p&gt;Given the decline in job opportunities for Ruby, I personally would consider specializing in other programming languages. As mentioned above, particularly if you live in London, specializing in JavaScript, Java, Python or C# would be my top picks.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">I love Ruby but would I recommend learning it today? No.</summary></entry></feed>
+&lt;p&gt;Either way, I would only recommend it if you’re able to get your company to pay for it, otherwise I’d consider another cheaper service or opt for the free options if you can’t afford to pay for the premium courses. I probably wouldn’t renew my subscription if my company can’t cover the costs.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">I've been using Pluralsight for a few months now. Here is my review.</summary></entry></feed>
