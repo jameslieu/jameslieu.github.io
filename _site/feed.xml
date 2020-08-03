@@ -1,4 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-07-25T00:24:06+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">100 Days of Pluralsight</title><link href="http://jameslieu.github.io/100-days-of-pluralsight/" rel="alternate" type="text/html" title="100 Days of Pluralsight" /><published>2020-07-24T00:00:00+01:00</published><updated>2020-07-24T00:00:00+01:00</updated><id>http://jameslieu.github.io/100-days-of-pluralsight</id><content type="html" xml:base="http://jameslieu.github.io/100-days-of-pluralsight/">&lt;p&gt;I’ve managed to achieve the 100 day learning streak for Pluralsight&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-08-03T17:31:37+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Pomodoro Technique</title><link href="http://jameslieu.github.io/pomodoro-technique/" rel="alternate" type="text/html" title="Pomodoro Technique" /><published>2020-08-03T00:00:00+01:00</published><updated>2020-08-03T00:00:00+01:00</updated><id>http://jameslieu.github.io/pomodoro-technique</id><content type="html" xml:base="http://jameslieu.github.io/pomodoro-technique/">&lt;p&gt;I’ve been using the Pomodoro technique for work. It greatly improves time management and boosts productivity. I’ve been reflecting on why it’s been so effective for me.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/pomodoro-technique-1.png&quot; style=&quot;height:150px;margin:0 auto&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-the-pomodoro-technique&quot;&gt;What is the Pomodoro technique?&lt;/h2&gt;
+
+&lt;p&gt;According to &lt;a href=&quot;https://en.m.wikipedia.org/wiki/Pomodoro_Technique&quot;&gt;Wikipedia&lt;/a&gt;. the Pomodoro Technique is a time management method developed by Francesco Cirillo.
+The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks.&lt;/p&gt;
+
+&lt;p&gt;There are six steps in the original technique:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Decide on the task to be done.&lt;/li&gt;
+  &lt;li&gt;Set the pomodoro timer (traditionally to 25 minutes).&lt;/li&gt;
+  &lt;li&gt;Work on the task.&lt;/li&gt;
+  &lt;li&gt;End work when the timer rings and put a checkmark on a piece of paper.&lt;/li&gt;
+  &lt;li&gt;If you have fewer than four checkmarks, take a short break (3–5 minutes) and then return to step 2; otherwise continue to step 6.&lt;/li&gt;
+  &lt;li&gt;After four pomodoros, take a longer break (15–30 minutes), reset your checkmark count to zero, then go to step 1.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;my-experience-&quot;&gt;My Experience 🧔&lt;/h2&gt;
+
+&lt;p&gt;I’ve been finding myself pretty tired lately, it’s sometimes hard to focus and be productive, so I’ve started applying this technique into my work days to see if this will help.&lt;/p&gt;
+
+&lt;p&gt;I use an application called &lt;a href=&quot;https://www.focustodo.cn/&quot;&gt;Focus To-do&lt;/a&gt; and also recommend &lt;a href=&quot;https://tide.fm/en_US/&quot;&gt;Tide&lt;/a&gt; for Android/iPhone&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/pomodoro-technique-2.png&quot; style=&quot;height:200px; float:left&quot; /&gt;
+&lt;img src=&quot;/assets/media/pomodoro-technique-3.png&quot; style=&quot;height:200px&quot; /&gt;
+&lt;a href=&quot;https://www.focustodo.cn/&quot;&gt;https://www.focustodo.cn/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Having used the Pomodoro technique, I’ve come to realise some of the other hidden benefits it provides.&lt;/p&gt;
+
+&lt;h3 id=&quot;prompts-you-to-work-&quot;&gt;Prompts you to work ⏱&lt;/h3&gt;
+&lt;p&gt;There are days where your motivation to do anything is lower than usual, maybe you didn’t sleep well the night before, maybe you’re feeling mentally drained. Triggering a Pomodoro timer, will prompt you to start work,&lt;/p&gt;
+
+&lt;h3 id=&quot;helps-with-focus-&quot;&gt;Helps with focus 💡&lt;/h3&gt;
+&lt;p&gt;Knowing that I have one pomodoro (25 minutes) to complete a task or two, the mentality of knowing there is a countdown ongoing, encourages me to remain focused on the task at hand.&lt;/p&gt;
+
+&lt;p&gt;It also helps, to check how much time is left every now and then to consider quickly how I’m progressing and whether I can completely finish the task before the timer runs out or to leave it in a position to pick up where I left off after the break.&lt;/p&gt;
+
+&lt;h3 id=&quot;helps-with-distractions-&quot;&gt;Helps with distractions 💢&lt;/h3&gt;
+&lt;p&gt;It’s not uncommon to be distracted while working, whether it’s looking at your phone or browsing the internet. In my experience, I’ve done this a number of times, but when in the middle of a pomodoro session, I’m conscious about the timer ticking away and so I mentally try not to waste it be focusing on the task.&lt;/p&gt;
+
+&lt;h3 id=&quot;encourages-more-breaks-&quot;&gt;Encourages more breaks ⏳&lt;/h3&gt;
+&lt;p&gt;Having rest breaks will boost energy levels as you work throughout the day. The more you take, the more energy you replenish. But we often don’t realise how long we’ve been working until something distracts us such as going for a loo break, feeling hungry or thirsty.&lt;/p&gt;
+
+&lt;p&gt;The breaks should be away from your desk or monitor. You’re encouraged to move around or look at something that is not your work monitor.&lt;/p&gt;
+
+&lt;p&gt;In my experience, when I’ve worked without many breaks, I tend to be very mentally drained towards the last couple of hours of work and even in the evenings. By adopting the pomodoro technique, the breaks are short and plenty, and for me personally, I’ve found myself to have a lot more energy throughout the day because I had taken the breaks as directed.&lt;/p&gt;
+
+&lt;h3 id=&quot;other-considerations-&quot;&gt;Other Considerations 🤔&lt;/h3&gt;
+
+&lt;p&gt;This technique doesn’t seem to work for everyone. We’ve tried it during pair programming and the team member whom I was paired with said that It breaks the flow of conversation or the train of thought as 25 minutes intervals are too short.&lt;/p&gt;
+
+&lt;p&gt;This is also true for larger meetings of 3 or more people, 25 minutes seems to not be enough time for everyone to contribute to the discussion. If anything, the breaks feels more like an interruption.&lt;/p&gt;
+
+&lt;p&gt;Although, we can increase the Pomodoro time to more than 25 minutes. &lt;a href=&quot;https://zoom.us/&quot;&gt;Zoom&lt;/a&gt; has a 40 minute limit for its free plan. I think 40 minutes is a good number for a break between meetings. As meetings itself can be extremely draining if its duration is too long.&lt;/p&gt;
+
+&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
+
+&lt;p&gt;I personally like this technique, I think it works very well with programming, especially when you’re sitting in front of the monitor for large portions of the day. I feel less tired in the evenings and at the more productive overall. I don’t use this technique every day but I feel like I should.&lt;/p&gt;
+
+&lt;p&gt;Our minds needs regular breaks. Trying focus without giving yourself time to recover will likely drain you towards the end of the day.&lt;/p&gt;
+
+&lt;p&gt;I would recommend this technique for anyone who is struggling to stay motivated or easily distracted. It is especially helpful when working from home.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">I've been using the Pomodoro technique for work. It greatly improves time management and boosts productivity. I've been reflecting on why it's been so effective for me.</summary></entry><entry><title type="html">100 Days of Pluralsight</title><link href="http://jameslieu.github.io/100-days-of-pluralsight/" rel="alternate" type="text/html" title="100 Days of Pluralsight" /><published>2020-07-24T00:00:00+01:00</published><updated>2020-07-24T00:00:00+01:00</updated><id>http://jameslieu.github.io/100-days-of-pluralsight</id><content type="html" xml:base="http://jameslieu.github.io/100-days-of-pluralsight/">&lt;p&gt;I’ve managed to achieve the 100 day learning streak for Pluralsight&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/100-days-of-pluralsight-1.png&quot; style=&quot;height:450px;&quot; /&gt;&lt;/p&gt;
 
@@ -190,7 +254,7 @@
 
 &lt;h3 id=&quot;-my-personal-experience&quot;&gt;🧔 My Personal Experience&lt;/h3&gt;
 
-&lt;p&gt;I once had a colleague who did exactly this. He likes to work quickly which &lt;a href=&quot;/writing-code-too-quickly&quot;&gt;has it’s own problems&lt;/a&gt;, he would open a pull request and then move onto the next task. When I began the code review, it was very often littered with issues, commented out code, code that was used for debugging purposes i.e. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;console.log(&quot;here!!!!&quot;)&lt;/code&gt; etc.&lt;/p&gt;
+&lt;p&gt;I once had a colleague who did exactly this. He likes to work quickly which &lt;a href=&quot;/writing-code-too-quickly&quot;&gt;has it’s own problems&lt;/a&gt;, he would open a pull request and then move onto the next task. When I began the code review, it was very often littered with issues, commented out code, code that was used for debugging purposes i.e. &lt;code class=&quot;highlighter-rouge&quot;&gt;console.log(&quot;here!!!!&quot;)&lt;/code&gt; etc.&lt;/p&gt;
 
 &lt;p&gt;After the review, it needs to go back into progress, but my colleague would often be in the middle of the next task, which meant that he wouldn’t pick up the work that was reviewed until the next day or even a few days after depending on how long it would take him to complete the task he was currently working on (which then a PR is created for it for review).&lt;/p&gt;
 
@@ -588,82 +652,4 @@ You end up spending more time trying to fix problems rather than think about the
 
 &lt;p&gt;I feel this is quite an interesting topic to cover, I’ve not read any articles or blogs from other developers what they would like from interacting with recruiters, so I decided to write my own.&lt;/p&gt;
 
-&lt;p&gt;The next time I think about this topic, I’ll probably write about what my personal expectations are for recruiters to hopefully be a form of customer feedback for any recruiters reading it.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">I was recently thinking about how I would go about recruitment if I were in their shoes. It is certainly an industry I know nothing about and perhaps there is a reason why their customer service can either be a hit or miss.</summary></entry><entry><title type="html">Improve Retention Rate When Learning</title><link href="http://jameslieu.github.io/improve-retention-rate-when-learning/" rel="alternate" type="text/html" title="Improve Retention Rate When Learning" /><published>2020-06-07T00:00:00+01:00</published><updated>2020-06-07T00:00:00+01:00</updated><id>http://jameslieu.github.io/improve-retention-rate-when-learning</id><content type="html" xml:base="http://jameslieu.github.io/improve-retention-rate-when-learning/">&lt;p&gt;For me personally, I struggle to remember much of conversations I’ve had, places I’ve visited or content I’ve read.&lt;/p&gt;
-
-&lt;p&gt;It’s one of the reasons why I find little value in travelling abroad for holidays. Not being able to remember much when compared to the cost associated, makes the whole experience less worth it for me from a financial perspective.&lt;/p&gt;
-
-&lt;p&gt;My ability to retain information is extremely poor and so I need to figure out a way to improve my retention rate.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-learning-pyramid-&quot;&gt;The Learning Pyramid 🎓&lt;/h2&gt;
-
-&lt;p&gt;There is a representation for retention for different types of learning called  &lt;a href=&quot;https://en.wikipedia.org/wiki/Learning_pyramid&quot;&gt;the learning pyramid&lt;/a&gt;. Which I ironically learned from someone else ‘teaching’ it to me.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/Learning-Pyramid.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The learning pyramid is a group of popular learning models and representations relating different degrees of retention induced from various type of learning.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Retention rate&lt;/th&gt;
-      &lt;th&gt;Learning activity before test of knowledge&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;90%&lt;/td&gt;
-      &lt;td&gt;Teach someone else/use immediately.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;75%&lt;/td&gt;
-      &lt;td&gt;Practice what one learned.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;50%&lt;/td&gt;
-      &lt;td&gt;Engaged in a group discussion.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;30%&lt;/td&gt;
-      &lt;td&gt;Watch a demonstration.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;20%&lt;/td&gt;
-      &lt;td&gt;Watch audiovisual.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;10%&lt;/td&gt;
-      &lt;td&gt;Reading.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;5%&lt;/td&gt;
-      &lt;td&gt;Listening to a lecture.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;According to &lt;a href=&quot;https://en.wikipedia.org/wiki/Learning_pyramid&quot;&gt;the learning pyramid&lt;/a&gt;, if I just read or listen to a lecture, the retention rate for that knowledge is low. However, if I were to practice what I’ve learned or teach someone else, then my retention rate would be substantially higher.&lt;/p&gt;
-
-&lt;h2 id=&quot;improving-my-retention-rate-&quot;&gt;Improving My Retention Rate 📈&lt;/h2&gt;
-
-&lt;p&gt;While I don’t actively teach anyone, I can think of some ways to practice what I’ve learned (depending on the topic).
-Alternatively, I think writing notes on what I’ve learned, can at least allow me to re-read key points and hopefully absorb the knowledge better.&lt;/p&gt;
-
-&lt;p&gt;As I learn something either from a book, from someone at work or an article on the internet, it’s probably a good idea to write notes somewhere I visit regularly so I can re-read it. I used to write in a journal, both physical and on the computer, but I never read from there regularly enough. So I think I’ll try adding these notes on this blog instead.&lt;/p&gt;
-
-&lt;p&gt;Writing in my own words can be a way to improve my understanding of the topic. Also leaving the notes somewhere I can access and shared publicly can maybe be a form of ‘teaching’ as well.&lt;/p&gt;
-
-&lt;p&gt;Although, I suspect some of the notes will be written based on content I’ve read somewhere else, so depending on the content, I may or may not write it in my own words.&lt;/p&gt;
-
-&lt;p&gt;It will likely be written in similar way to taking notes when watching a lecture or powerpoint presentation unlike previous blog posts where they’re written in a perspective where I’m sharing my opinion on a topic.&lt;/p&gt;
-
-&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
-
-&lt;p&gt;For me, I’ve been reading more and also stumbling across articles on the internet that has great nuggets of information and not being able to remember much of it is the issue.&lt;/p&gt;
-
-&lt;p&gt;Writing more is only &lt;strong&gt;one&lt;/strong&gt; way for me to address this and leaving them somewhere I can easily read and share in the form of blog posts is the plan, thankfully I’ve taken a liking to writing lately.&lt;/p&gt;
-
-&lt;p&gt;In many ways, I’m already resolving this issue by adding blog entries. However, they’re often based on topics I wish to share, so I do some degree of research and thinking before I create those posts.&lt;/p&gt;
-
-&lt;p&gt;For this however, writing notes as and when I learn something of value is where I think is slightly different. And so I think I’ll prefix these particular posts with &lt;strong&gt;“Programmer Notes: &amp;lt;title&amp;gt;“&lt;/strong&gt; i.e. “Programmer Notes: Software Construction”&lt;/p&gt;
-
-&lt;p&gt;I don’t expect anyone to read these but myself, it will primarily be used as a place for me to refer or to stumble across it if I ever browse through my blog. But the end goal is the continued learning and hopefully a strong retention rate off the back of it.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">I struggle to remember much of conversations I've had, places I've visited or content I've read. My ability to retain information is extremely poor and so I need to figure out a way to improve my retention rate.</summary></entry></feed>
+&lt;p&gt;The next time I think about this topic, I’ll probably write about what my personal expectations are for recruiters to hopefully be a form of customer feedback for any recruiters reading it.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">I was recently thinking about how I would go about recruitment if I were in their shoes. It is certainly an industry I know nothing about and perhaps there is a reason why their customer service can either be a hit or miss.</summary></entry></feed>
