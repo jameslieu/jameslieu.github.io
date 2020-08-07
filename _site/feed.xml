@@ -1,4 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-08-03T17:31:37+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Pomodoro Technique</title><link href="http://jameslieu.github.io/pomodoro-technique/" rel="alternate" type="text/html" title="Pomodoro Technique" /><published>2020-08-03T00:00:00+01:00</published><updated>2020-08-03T00:00:00+01:00</updated><id>http://jameslieu.github.io/pomodoro-technique</id><content type="html" xml:base="http://jameslieu.github.io/pomodoro-technique/">&lt;p&gt;I’ve been using the Pomodoro technique for work. It greatly improves time management and boosts productivity. I’ve been reflecting on why it’s been so effective for me.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.0">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-08-07T23:27:05+01:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Introduction To Cucumber</title><link href="http://jameslieu.github.io/introduction-to-cucumber/" rel="alternate" type="text/html" title="Introduction To Cucumber" /><published>2020-08-07T00:00:00+01:00</published><updated>2020-08-07T00:00:00+01:00</updated><id>http://jameslieu.github.io/introduction-to-cucumber</id><content type="html" xml:base="http://jameslieu.github.io/introduction-to-cucumber/">&lt;p&gt;&lt;img src=&quot;/assets/media/cucumber-tests-1.png&quot; style=&quot;height: 50px; margin:0 auto&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-cucumber-&quot;&gt;What is Cucumber? 🥒&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cucumber.io/&quot;&gt;Cucumber&lt;/a&gt; is an open source tool for running automated tests written in plain language.&lt;/p&gt;
+
+&lt;p&gt;Because they’re written in plain language, they can be read by anyone involved with the product development. And it can be used to help improve communication, collaboration and trust.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/cucumber-tests-2.png&quot; style=&quot;height: 200px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cucumber reads executable specifications written in plain text, it validates the software’s behaviour based on those specifications and they consist of multiple scenarios and each scenario has a list of steps for Cucumber to work through.&lt;/p&gt;
+
+&lt;p&gt;It verifies that the software conforms with the specification and generates a report, indicating success or failure for each scenario.&lt;/p&gt;
+
+&lt;p&gt;In order for Cucumber to understand the scenarios, they must follow some basic syntax rules, called Gherkin.&lt;/p&gt;
+
+&lt;h2 id=&quot;gherkin-syntax-&quot;&gt;Gherkin Syntax 💬&lt;/h2&gt;
+
+&lt;p&gt;So Gherkin is the language Cucumber uses to define test cases. It’s a set of grammar rules that makes plain text structured enough for Cucumber to understand.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/cucumber-tests-6.png&quot; /&gt;
+&lt;em&gt;Example of Gherkin Syntax&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s designed to be non-technical, human readable, and collectively describes use-cases relating to a software system and seeks to enforce firm, unambiguous requirements. As well as document how the system behaves.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/cucumber-tests-5.png&quot; /&gt;
+&lt;em&gt;Gherkin also supports over 70 languages, this is written in Portuguese&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;keywords-&quot;&gt;Keywords 🔍&lt;/h3&gt;
+
+&lt;p&gt;Gherkin uses a set of special keywords to give structure and meaning to executable specifications. Most lines in a Gherkin document start with one of those keywords.&lt;/p&gt;
+
+&lt;h5 id=&quot;-feature&quot;&gt;⛲ Feature&lt;/h5&gt;
+&lt;p&gt;The purpose of the Feature keyword is to provide a high-level description of a software feature, and to group related scenarios. The first primary keyword in a Gherkin document must always be Feature.&lt;/p&gt;
+
+&lt;h5 id=&quot;-scenario-or-example&quot;&gt;❎ Scenario or Example.&lt;/h5&gt;
+&lt;p&gt;This is a concrete example that illustrates a business rule which consists of a list of steps.&lt;/p&gt;
+
+&lt;p&gt;You can have as many steps as you like, but it’s recommended not to have too many. Having too many steps in an scenario, will cause it to lose it’s expressive power as specification and documentation.&lt;/p&gt;
+
+&lt;h3 id=&quot;steps-&quot;&gt;Steps 👣&lt;/h3&gt;
+
+&lt;p&gt;The &lt;strong&gt;Given&lt;/strong&gt; steps are used to describe the initial context of the system. It’s typically something that’s happened in the past.&lt;/p&gt;
+
+&lt;p&gt;When Cucumber executes a &lt;strong&gt;Given&lt;/strong&gt; step, it will configure the system to be in a well-defined state, such as creating and configuring objects or adding data to a test database.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;When&lt;/strong&gt; steps are used to describe an event, or an action. This can be a person interacting with the system, or it can be an event triggered by another system.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;Then&lt;/strong&gt; steps are used to describe an expected outcome, or result. It should use an assertion to compare what the system actually does, to, what the “Step” says the system is supposed to do.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/cucumber-tests-3.png&quot; style=&quot;height:320px;&quot; /&gt;
+&lt;em&gt;Example “Steps” of an API call to search for a contact&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;If you have successive &lt;strong&gt;Given’s&lt;/strong&gt;, &lt;strong&gt;When’s&lt;/strong&gt; or &lt;strong&gt;Then’s&lt;/strong&gt;, you can use &lt;strong&gt;And&lt;/strong&gt; or &lt;strong&gt;But&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-definitions-&quot;&gt;Step Definitions 💭&lt;/h3&gt;
+
+&lt;p&gt;Cucumber tests are divided into individual Features. These Features are subdivided into Scenarios, which are sequences of Steps.&lt;/p&gt;
+
+&lt;p&gt;Steps can be considered a method invocation. Before Cucumber can execute one, it must be told how that step should be performed via a Step Definition.&lt;/p&gt;
+
+&lt;p&gt;Step definitions are the glue between, features written in Gherkin, and the actual test’s implementation.
+They connect Steps to programming code and carries out the action that should be performed.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/cucumber-tests-4.png&quot; /&gt;
+&lt;em&gt;Step Definitions for the above “Steps” example&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;They are methods with an expression, that links it to one or more Steps.&lt;/p&gt;
+
+&lt;p&gt;So when Cucumber executes a Step in a scenario, it will look for a matching Step Definition to execute.&lt;/p&gt;
+
+&lt;h2 id=&quot;key-points-&quot;&gt;Key Points 🔑&lt;/h2&gt;
+
+&lt;p&gt;So just to run through some of the key points&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cucumber is an Open source tool for test automation&lt;/li&gt;
+  &lt;li&gt;It reads executable specifications written in plain text.&lt;/li&gt;
+  &lt;li&gt;The test-cases are written in a language called Gherkin.&lt;/li&gt;
+  &lt;li&gt;Step definitions connect Gherkin steps to programming code via an expression&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
+
+&lt;p&gt;So the question remains. Why?&lt;/p&gt;
+
+&lt;p&gt;Why might we want to write cucumber tests? Bearing in mind that this could be &lt;strong&gt;in addition to unit testing&lt;/strong&gt;. What might we want to achieve? What is the goal of testing?&lt;/p&gt;
+
+&lt;h3 id=&quot;to-increase-confidence-for-stakeholders-through-evidence---dan-north&quot;&gt;“To increase confidence for stakeholders through evidence - Dan North”&lt;/h3&gt;
+
+&lt;p&gt;This is a quote from Dan North - the creator of behaviour driven development. What he means by “stakeholders” is people whose “lives” you touch i.e. your users. But it also can mean product owners, compliance, security, testers, support, other developers.&lt;/p&gt;
+
+&lt;p&gt;Cucumber tests are a form of testing, but you wouldn’t just use Cucumber for that, you’re using it to help communicate requirements. To not only increase confidence for stakeholders but also for yourselves.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;external-resources&quot;&gt;External Resources&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cucumber.io/&quot;&gt;https://cucumber.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/cucumber/cucumber-js&quot;&gt;https://github.com/cucumber/cucumber-js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Cucumber_(software)&quot;&gt;https://en.wikipedia.org/wiki/Cucumber_(software)&lt;/a&gt;&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">What are cucumber tests and why might they be useful</summary></entry><entry><title type="html">Pomodoro Technique</title><link href="http://jameslieu.github.io/pomodoro-technique/" rel="alternate" type="text/html" title="Pomodoro Technique" /><published>2020-08-03T00:00:00+01:00</published><updated>2020-08-03T00:00:00+01:00</updated><id>http://jameslieu.github.io/pomodoro-technique</id><content type="html" xml:base="http://jameslieu.github.io/pomodoro-technique/">&lt;p&gt;I’ve been using the Pomodoro technique for work. It greatly improves time management and boosts productivity. I’ve been reflecting on why it’s been so effective for me.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/pomodoro-technique-1.png&quot; style=&quot;height:150px;margin:0 auto&quot; /&gt;&lt;/p&gt;
 
@@ -254,7 +356,7 @@ The technique uses a timer to break down work into intervals, traditionally 25 m
 
 &lt;h3 id=&quot;-my-personal-experience&quot;&gt;🧔 My Personal Experience&lt;/h3&gt;
 
-&lt;p&gt;I once had a colleague who did exactly this. He likes to work quickly which &lt;a href=&quot;/writing-code-too-quickly&quot;&gt;has it’s own problems&lt;/a&gt;, he would open a pull request and then move onto the next task. When I began the code review, it was very often littered with issues, commented out code, code that was used for debugging purposes i.e. &lt;code class=&quot;highlighter-rouge&quot;&gt;console.log(&quot;here!!!!&quot;)&lt;/code&gt; etc.&lt;/p&gt;
+&lt;p&gt;I once had a colleague who did exactly this. He likes to work quickly which &lt;a href=&quot;/writing-code-too-quickly&quot;&gt;has it’s own problems&lt;/a&gt;, he would open a pull request and then move onto the next task. When I began the code review, it was very often littered with issues, commented out code, code that was used for debugging purposes i.e. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;console.log(&quot;here!!!!&quot;)&lt;/code&gt; etc.&lt;/p&gt;
 
 &lt;p&gt;After the review, it needs to go back into progress, but my colleague would often be in the middle of the next task, which meant that he wouldn’t pick up the work that was reviewed until the next day or even a few days after depending on how long it would take him to complete the task he was currently working on (which then a PR is created for it for review).&lt;/p&gt;
 
@@ -572,84 +674,4 @@ You end up spending more time trying to fix problems rather than think about the
 
 &lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
 
-&lt;p&gt;McConnell, S., 2004. &lt;em&gt;Code Complete, Second Edition.&lt;/em&gt; Redmond (Washington): Microsoft Press.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">What is software construction? And why it is important?</summary></entry><entry><title type="html">My Experience With Recruiters</title><link href="http://jameslieu.github.io/my-experience-with-recruiters/" rel="alternate" type="text/html" title="My Experience With Recruiters" /><published>2020-06-09T00:00:00+01:00</published><updated>2020-06-09T00:00:00+01:00</updated><id>http://jameslieu.github.io/my-experience-with-recruiters</id><content type="html" xml:base="http://jameslieu.github.io/my-experience-with-recruiters/">&lt;p&gt;Developers have often spoken very negatively on their experiences with recruiters. I myself have had some poor experiences with a lot a recruiters.&lt;/p&gt;
-
-&lt;p&gt;Experiences such as:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Being lied to&lt;/li&gt;
-  &lt;li&gt;Lying to their client about my salary expectations&lt;/li&gt;
-  &lt;li&gt;Lying to their client about my skill level&lt;/li&gt;
-  &lt;li&gt;No updates on the state of the application&lt;/li&gt;
-  &lt;li&gt;Being rude&lt;/li&gt;
-  &lt;li&gt;Even getting angry towards me&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Despite this, I know those recruiters are the minority, majority of recruiters are usually very polite, professional and are just doing the best they can.&lt;/p&gt;
-
-&lt;p&gt;While I understand why some developers might talk about recruiters with distain, I think it is unfair to say that &lt;strong&gt;all&lt;/strong&gt; recruiters are bad. People often only remember the bad experiences anyway. What about the good ones?&lt;/p&gt;
-
-&lt;p&gt;I was recently thinking about how I would go about recruitment if I were in their shoes. It is certainly an industry I know nothing about and perhaps there is a reason why their customer service can either be a hit or miss.&lt;/p&gt;
-
-&lt;h2 id=&quot;some-bad-experiences-&quot;&gt;Some Bad Experiences 👎&lt;/h2&gt;
-
-&lt;p&gt;I remember being a junior and just graduated from the Coding Bootcamp course I’ve enrolled on. I’ve uploaded my CV online and created accounts on many job search portals such as indeed, jobsite, CWJobs etc.&lt;/p&gt;
-
-&lt;p&gt;These job portals have toggle feature where you can make your profile visible to recruiters. My mistake is adding my phone number because as soon as I toggled this on I was flooded with phone calls from recruiters.&lt;/p&gt;
-
-&lt;p&gt;At the time, I was job hunting so I answered all of them thinking that there are opportunities for me as my profile for these sites clearly states my experience, skill level, what technologies I’m using and what I’m looking for in a position. However, my experience with almost all of them doesn’t seem to be the case.&lt;/p&gt;
-
-&lt;p&gt;Those recruiters either had no idea what my experience level was and were trying to present me roles which I’m not qualified for at all. There were even a few times where the position wasn’t even for technologies I was familiar with.&lt;/p&gt;
-
-&lt;p&gt;Many of these recruiters also don’t seem to know much of the technology they’re recruiting for, although I understand that that isn’t necessarily a requirement for the role, they should at least know the difference between some of them i.e. Java vs JavaScript.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; the difference between &lt;strong&gt;Java&lt;/strong&gt; and &lt;strong&gt;JavaScript&lt;/strong&gt; is like the difference between &lt;strong&gt;Car&lt;/strong&gt; and &lt;strong&gt;Carpet&lt;/strong&gt; 😁&lt;/p&gt;
-
-&lt;h2 id=&quot;many-good-experiences-&quot;&gt;Many Good Experiences 👍&lt;/h2&gt;
-
-&lt;p&gt;That said, I’ve worked with many great recruiters, recruiters who have gone above and beyond to keep me informed on the &lt;strong&gt;state of an application&lt;/strong&gt;, the &lt;strong&gt;back and fourth communication between myself and the employer&lt;/strong&gt;. They get in touch from time to time and it is often clear that &lt;strong&gt;they have great relationships with their clients&lt;/strong&gt; as well.&lt;/p&gt;
-
-&lt;p&gt;It is these recruiters whom I think deserve credit where it’s due. Those whom I’ll add on LinkedIn and give a recommendation. These are the recruiters whom I directly contact to ask what opportunities there are when I’m on the market.&lt;/p&gt;
-
-&lt;p&gt;I’ve even had recruiters who’ve worked outside office hours for me. I’m sure it’s for their own self-interest, but that kind of motivation makes for great customer service and I think that kind of hard-work deserves recognition.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-challenges-&quot;&gt;The Challenges 🧗&lt;/h2&gt;
-
-&lt;p&gt;What are some of the challenges recruiters have to face? I’ll give my opinion on what I think those are.&lt;/p&gt;
-
-&lt;h6 id=&quot;-creating-leads&quot;&gt;🤞 Creating Leads&lt;/h6&gt;
-
-&lt;p&gt;&lt;strong&gt;One&lt;/strong&gt; of the challenges I believe recruiters are facing is creating leads, there are many developers who are already employed somewhere, it is not uncommon for developers to be &lt;strong&gt;open to opportunities&lt;/strong&gt; and not &lt;strong&gt;actively looking&lt;/strong&gt;. These are the pool of candidates that recruiters need to tap into, places to look are social media platforms like LinkedIn and job portals such as Indeed.&lt;/p&gt;
-
-&lt;h6 id=&quot;-cold-calling-and-unsolicited-emails&quot;&gt;📞 Cold-calling and unsolicited emails&lt;/h6&gt;
-
-&lt;p&gt;Both cold-calling and unsolicited emails can be very annoying, especially if you’re not ‘open to opportunities’. The issue is that how would a recruiter know this? They can only find out by contacting the potential candidate.&lt;/p&gt;
-
-&lt;p&gt;There are so many potential leads, one tactic is to send them out, as quickly as possible. This is probably one reason why some recruiters don’t know very much about said candidate, they didn’t bother to read their profile.&lt;/p&gt;
-
-&lt;p&gt;Its also likely the reason that the emails are not tailored to the candidate which is a common complaint from developers, receiving emails that do not seem directed to you just doesn’t have the same impact as a receiving a personal email&lt;/p&gt;
-
-&lt;h6 id=&quot;-competition&quot;&gt;💃 Competition&lt;/h6&gt;
-
-&lt;p&gt;Its a competitive space. Each recruiter are attempting to recruit from the same pool of candidates; whom are on the market for opportunities. Having to hunt for candidates and to convince said person to consider one of the opportunities on &lt;strong&gt;your&lt;/strong&gt; desk instead of someone else’s desk.&lt;/p&gt;
-
-&lt;h2 id=&quot;-further-thoughts&quot;&gt;🤔 Further Thoughts&lt;/h2&gt;
-
-&lt;p&gt;These challenges probably explain why some people may have had a bad experience with recruiters. If we, as their potential candidate be more empathetic, then we can at least be more understanding and help them help us to get a win/win solution.&lt;/p&gt;
-
-&lt;p&gt;If you are looking for opportunities then recruiters can be really helpful. They often have opportunities you cannot find on the internet and so its worth staying in touch.&lt;/p&gt;
-
-&lt;p&gt;It is probably the case that you’re going to have some recruiters whom give you a really bad experience, but like any industry, having bad customer service will only drive them away.&lt;/p&gt;
-
-&lt;p&gt;It works both ways, if you, the candidate, are difficult to work with, the recruiter themselves may not even consider contacting you in the future. And if you alienate a good recruiter, you could lose opportunities which would’ve otherwise been very beneficial to you.&lt;/p&gt;
-
-&lt;p&gt;Its easy enough to ignore the emails if you’re not open to opportunities, there was a time where I had tried to respond to all of them, but I’ve found that to be too time consuming.&lt;/p&gt;
-
-&lt;p&gt;In terms of the cold-calling, I would suggest removing your personal phone number from any CVs and online profiles you have, should it even be made public on the internet anyway? Instead, save the contact numbers of the recruiters whom you think you’ll be in contact more frequently, you’ll at least know when to answer the call and when to reject them.&lt;/p&gt;
-
-&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
-
-&lt;p&gt;Sometimes putting yourself in someone else’s shoes can add an alternate perspective to why some experiences do not meet your expectations. Recruitment is a very people-oriented industry and yet the challenges they face probably makes it &lt;strong&gt;difficult to do the job how they would like to do it&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;I feel this is quite an interesting topic to cover, I’ve not read any articles or blogs from other developers what they would like from interacting with recruiters, so I decided to write my own.&lt;/p&gt;
-
-&lt;p&gt;The next time I think about this topic, I’ll probably write about what my personal expectations are for recruiters to hopefully be a form of customer feedback for any recruiters reading it.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">I was recently thinking about how I would go about recruitment if I were in their shoes. It is certainly an industry I know nothing about and perhaps there is a reason why their customer service can either be a hit or miss.</summary></entry></feed>
+&lt;p&gt;McConnell, S., 2004. &lt;em&gt;Code Complete, Second Edition.&lt;/em&gt; Redmond (Washington): Microsoft Press.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">What is software construction? And why it is important?</summary></entry></feed>
