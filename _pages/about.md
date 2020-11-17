@@ -35,12 +35,13 @@ I also regularly read programming articles on sites such as:
 
 When I find the time, I try to spend some of it playing video games. I usually game on PC and I'm currently playing:
 
-- &#x1f987; Batman: Arkham City
+- &#x1f52b; Star Wars: Knights of the old Republic II
 - &#x1f5e1; Baldur's Gate II
 - &#x1f6e1; Final Fantasy VI
+- &#x1f52b; ~~Star Wars: Knights of the old Republic~~
+- &#x1f5e1; ~~Dishonoured~~
 - &#x1f5e1; ~~Middle Earth: Shadow of Mordor~~
 - &#x1f4dc; ~~The Elder's Scroll VI: Oblivion~~
-- &#x1f3f9; ~~Divinity Original Sin~~
 
 ## Tech Stack
 - C# / .NET Core
