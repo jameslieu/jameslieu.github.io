@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-11-17T11:50:19+00:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Introduction To Cucumber</title><link href="http://jameslieu.github.io/introduction-to-cucumber/" rel="alternate" type="text/html" title="Introduction To Cucumber" /><published>2020-08-07T00:00:00+01:00</published><updated>2020-08-07T00:00:00+01:00</updated><id>http://jameslieu.github.io/introduction-to-cucumber</id><content type="html" xml:base="http://jameslieu.github.io/introduction-to-cucumber/">&lt;p&gt;&lt;img src=&quot;/assets/media/cucumber-tests-1.png&quot; style=&quot;height: 50px; margin:0 auto&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-11-17T16:27:36+00:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Journal Entry: Coding Bootcamp Hindsight</title><link href="http://jameslieu.github.io/coding-bootcamp-hindsight/" rel="alternate" type="text/html" title="Journal Entry: Coding Bootcamp Hindsight" /><published>2020-11-17T00:00:00+00:00</published><updated>2020-11-17T00:00:00+00:00</updated><id>http://jameslieu.github.io/coding-bootcamp-hindsight</id><content type="html" xml:base="http://jameslieu.github.io/coding-bootcamp-hindsight/">&lt;p&gt;&lt;em&gt;Note: this was an old entry in my programming journal dated 2018-07-09, this is unedited since I wrote it and I’ll leave an update at the bottom about how I feel about it today.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This journal entry also laid out my past work experiences and how I really started to gain momentum in my learning and career progression.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;coding-bootcamp-hindsight---2018-08-09&quot;&gt;Coding Bootcamp Hindsight - 2018-08-09&lt;/h2&gt;
+
+&lt;p&gt;I was just posting my response to the reddit post that started all of this journal stuff (my initial response had disappeared off my phone as I didn’t submit it and the reddit app refreshed when I changed the app from Youtube for Evy).&lt;/p&gt;
+
+&lt;p&gt;I’ve outlined how it’s perfectly possible to start a career in programming without attending a Bootcamp like Makers academy, after attending and thinking back on it I don’t know if they really taught me anything. They basically asked us to do a lot of self learning and provided someone to help answer questions, I also remember that I never really absorbed any information from the teaching they did, it was all very clunky and the classes basically involved looking at Ruby Koans or Git/Command-line equivalents.&lt;/p&gt;
+
+&lt;p&gt;It was not until I graduated and had to look for work did I start to learn things. Even then I struggled but luckly managed to find some Jobs where I was able to slowly pick things up. Not at Psyt or LoyaltyLion but at Velti/mGage and Rentify, that was when I had colleagues who I was able to learn from.&lt;/p&gt;
+
+&lt;p&gt;Velti/mGage had Dan and Emre, who I was able to speak with and look at the codebase in detail.&lt;/p&gt;
+
+&lt;p&gt;At Rentify, I really managed to pick things up through the challenges I faced there, the team was larger and they gave me real tasks to work on. Through that came many mistakes and learning experiences, I picked up JavaScript, a bit of ReactJS, Ruby on Rails in depth and had projects/features I can call my own. Edwin, Ryan, Joe and Luke really helped kickstart the programming knowledge I had today, Edwin especially helped and unofficially acted as the mentor I needed to learn the basics properly and grow into the dev I am today. It was unfortunate that I left at such a low note, failing to complete the feature that was assigned to me and ultimately left a poor impression on my last day. No point dwelling on this, I don’t think I became that close with them all ultimately.&lt;/p&gt;
+
+&lt;p&gt;Now I’m a PHP developer here at TwentyCI where the team is significantly smaller and so my role here encourages me to take in more responsibilities and improve my knowledge in programming so I can further my career. Tom has been a great help at explaining PHP and Laravel when I joined the project, once I got some hands on experience I think I began to pick things up quite quickly to the point where problems and challenges are not impossible to overcome at my level anymore. Bear in mind that Tom usually takes on the more difficult tasks or new work, whereas I pick up some of the simpler easier stuff (which I don’t mind), its largely stress free and so I think I’ll stay and only consider new opportunities once we get the property business going.&lt;/p&gt;
+
+&lt;p&gt;Summary&lt;/p&gt;
+
+&lt;p&gt;Hindsight is a great thing. It allows me to think back on decisions made and learn from them, it also feels like my experiences and mistakes can be used to help and inform others that might be wondering if they should follow the same path. Dwelling on mistakes or poor decisions can be useful but sometimes unproductive as well, better to think over it and consider how you would do something differently for next time and if a similar scenario comes your way, you may be able to use what you’ve learned to drive your decisions moving forward.&lt;/p&gt;
+
+&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
+
+&lt;p&gt;So my thoughts about Coding Bootcamps have changed since I wrote this entry, I think it’s disingenuous of me to say I didn’t learn &lt;em&gt;anything&lt;/em&gt;, but I do feel I didn’t get my &lt;strong&gt;money’s worth&lt;/strong&gt; insofar that it had cost me £4500, and the knowledge I had gained at the time was &lt;strong&gt;not worth £4500&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;That said, I managed to use the foundations of what I had learned to get an return on investment on that very quickly and maybe that was where the value actually came from.&lt;/p&gt;
+
+&lt;p&gt;So when asking myself was it worth the money, I would say no. Was the decision to enroll to this bootcamp, when I did, as a career changing move, absolutely.&lt;/p&gt;
+
+&lt;p&gt;Also, it’s worth noting that I was an early member of Maker’s Academy and they were still figuring out the curriculum. They also hadn’t built the reputation and partners they have today, so it was a bigger struggle for us early adopters than those who have enrolled in the past few years.&lt;/p&gt;
+
+&lt;p&gt;Do I recommend it? Probably I would, if you’re serious about pursuing a career in software development. It can be pretty expensive but you’d be able to get a return on that investment very quickly providing you put in the time and energy to make that happen.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">An old programming journal entry - 2018-07-09</summary></entry><entry><title type="html">Introduction To Cucumber</title><link href="http://jameslieu.github.io/introduction-to-cucumber/" rel="alternate" type="text/html" title="Introduction To Cucumber" /><published>2020-08-07T00:00:00+01:00</published><updated>2020-08-07T00:00:00+01:00</updated><id>http://jameslieu.github.io/introduction-to-cucumber</id><content type="html" xml:base="http://jameslieu.github.io/introduction-to-cucumber/">&lt;p&gt;&lt;img src=&quot;/assets/media/cucumber-tests-1.png&quot; style=&quot;height: 50px; margin:0 auto&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;what-is-cucumber-&quot;&gt;What is Cucumber? 🥒&lt;/h2&gt;
 
@@ -585,93 +617,4 @@ You end up spending more time trying to fix problems rather than think about the
 
 &lt;p&gt;Often those who write the code the fastest in terms of time are those who are methodical and slow about the process. Attempting to rush the work can lead to many problems if you’re not careful. Slowing down and being methodical in your way of working is not only a safer but also less stressful.&lt;/p&gt;
 
-&lt;p&gt;Developers aren’t measured on how fast they write code but by the quality of the solution and how well it works and maintainable it is. The best code is written slowly and purposefully, not quickly with the intent of meeting an arbitrary deadline.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Writing Code very quickly does not necessarily mean you're being more productive and can actually increase the amount of time to complete a task.</summary></entry><entry><title type="html">Programmer Notes: Software Construction</title><link href="http://jameslieu.github.io/programmer-notes-software-construction/" rel="alternate" type="text/html" title="Programmer Notes: Software Construction" /><published>2020-06-10T00:00:00+01:00</published><updated>2020-06-10T00:00:00+01:00</updated><id>http://jameslieu.github.io/programmer-notes-software-construction</id><content type="html" xml:base="http://jameslieu.github.io/programmer-notes-software-construction/">&lt;p&gt;This is part of my &lt;strong&gt;“Programmer Notes”&lt;/strong&gt; series where I leave notes in the form of a blog post here based on something I’ve read or learned. See &lt;a href=&quot;/improve-retention-rate-when-learning/&quot;&gt;this post&lt;/a&gt; for more context.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;what-is-construction&quot;&gt;What is Construction?&lt;/h2&gt;
-
-&lt;p&gt;You know what “construction” means when it’s used outside software development. “Construction” is the work “construction workers” do when they build a house, a school, or a skyscraper. When you were younger, you built things out of “construction paper”.&lt;/p&gt;
-
-&lt;p&gt;In common usage, “construction” refers to the process of building, the process might include some aspects of planning, designing, and checking your work, but mostly “construction” refers to the hands-on part of creating something.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-is-software-construction&quot;&gt;What is Software Construction?&lt;/h2&gt;
-
-&lt;p&gt;Developing software is a complicated process. Researchers have identified numerous distinct activities that go into software development. They include:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Problem definition&lt;/li&gt;
-  &lt;li&gt;Requirements development&lt;/li&gt;
-  &lt;li&gt;Construction planning&lt;/li&gt;
-  &lt;li&gt;Software architecture, or high-level design&lt;/li&gt;
-  &lt;li&gt;Detailed design&lt;/li&gt;
-  &lt;li&gt;Coding and debugging&lt;/li&gt;
-  &lt;li&gt;Unit testing&lt;/li&gt;
-  &lt;li&gt;Integration testing&lt;/li&gt;
-  &lt;li&gt;Integration&lt;/li&gt;
-  &lt;li&gt;System testing&lt;/li&gt;
-  &lt;li&gt;Corrective maintenance&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Construction is mostly coding and debugging but also involves detailed design, construction planning, unit testing integration testing, and other activities.&lt;/p&gt;
-
-&lt;p&gt;Construction is also sometimes known as “coding” or “programming” “Coding” isn’t really the best word because it implied the mechanical translation of a preexisting design into a computer language; construction is not at all mechanical and involves substantial creativity and judgment.&lt;/p&gt;
-
-&lt;p&gt;Here are some specific tasks involved in construction:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Verifying that the groundwork has been laid so that construction can proceed successfully&lt;/li&gt;
-  &lt;li&gt;Determining how your code will be tested&lt;/li&gt;
-  &lt;li&gt;Designing and writing classes and routines&lt;/li&gt;
-  &lt;li&gt;Creating and naming variables and named constants&lt;/li&gt;
-  &lt;li&gt;Selecting control structures and organizing blocks og statements&lt;/li&gt;
-  &lt;li&gt;Unit testing, integration testing and debugging your own code&lt;/li&gt;
-  &lt;li&gt;Reviewing other team members’ low level designs and code and having them review yours&lt;/li&gt;
-  &lt;li&gt;Polishing code by carefully formatting and commenting it&lt;/li&gt;
-  &lt;li&gt;Integrating software components that were created separately&lt;/li&gt;
-  &lt;li&gt;Tuning code to make it faster and use fewer resources&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;why-is-software-construction-important&quot;&gt;Why Is Software Construction Important?&lt;/h2&gt;
-
-&lt;p&gt;If you agree that improving software development is important in general, the question is Why is construction an important focus?&lt;/p&gt;
-
-&lt;p&gt;Here’s why:&lt;/p&gt;
-
-&lt;h3 id=&quot;construction-is-a-large-part-of-software-development&quot;&gt;Construction is a large part of software development&lt;/h3&gt;
-
-&lt;p&gt;Depending on the size of the project, construction typically takes 30 to 80 percent of the total time spent on a project. Anything that takes up that much project time is bound to affect the success of the project.&lt;/p&gt;
-
-&lt;h3 id=&quot;construction-is-the-central-activity-in-software-development&quot;&gt;Construction is the central activity in software development&lt;/h3&gt;
-
-&lt;p&gt;Requirements and architecture are done before construction so that you can do construction effectively. System testing (in the strict sense of independent testing) is done after construction to verify that construction has been done correctly. Construction is at the center of the software-development process.&lt;/p&gt;
-
-&lt;h3 id=&quot;with-a-focus-on-construction-the-individual-programmers-productivity-can-improve-enormously&quot;&gt;With a focus on construction, the individual programmer’s productivity can improve enormously&lt;/h3&gt;
-
-&lt;p&gt;A study (1968) showed that the productivity of individual programmers varied by a factor of 10 to 20 during construction.&lt;/p&gt;
-
-&lt;h3 id=&quot;constructions-product-the-source-code-is-often-the-only-accurate-description-of-the-software&quot;&gt;Construction’s product, the source code, is often the only accurate description of the software&lt;/h3&gt;
-
-&lt;p&gt;In many projects, the only documentation available to programmers is the code itself. Requirements specifications and design documents can go out of date, but the source code is always up to date. Consequently, It’s imperative that the source code be of the highest quality.&lt;/p&gt;
-
-&lt;h3 id=&quot;construction-is-the-only-activity-thats-guaranteed-to-be-done&quot;&gt;Construction is the only activity that’s guaranteed to be done&lt;/h3&gt;
-
-&lt;p&gt;The ideal software project goes through careful requirements development and architectural design before construction begins. Imperfect real-world projects, however, often skip requirements and design to jump into construction.&lt;/p&gt;
-
-&lt;p&gt;They drop testing because they have too many errors to fix and they’ve run out of time. But no matter how rushed or poorly planned a project is, you can’t drop construction. Improving construction is thus a way of improving any software development effort, no matter how abbreviated&lt;/p&gt;
-
-&lt;h2 id=&quot;key-points&quot;&gt;Key Points&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Software Construction is the central activity in software development; construction is the only activity that’s guaranteed to happen on every project.&lt;/li&gt;
-  &lt;li&gt;The main activities in construction are detailed design, coding, debugging, integration, and developer testing (unit testing and integration testing)&lt;/li&gt;
-  &lt;li&gt;Other common terms for construction are ‘coding’ or ‘programming’&lt;/li&gt;
-  &lt;li&gt;The quality of the construction substantially affects the quality of the software.&lt;/li&gt;
-  &lt;li&gt;Your understanding of how to do construction determines how good a programmer you are.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
-
-&lt;p&gt;McConnell, S., 2004. &lt;em&gt;Code Complete, Second Edition.&lt;/em&gt; Redmond (Washington): Microsoft Press.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">What is software construction? And why it is important?</summary></entry></feed>
+&lt;p&gt;Developers aren’t measured on how fast they write code but by the quality of the solution and how well it works and maintainable it is. The best code is written slowly and purposefully, not quickly with the intent of meeting an arbitrary deadline.&lt;/p&gt;</content><author><name>James Lieu</name></author><summary type="html">Writing Code very quickly does not necessarily mean you're being more productive and can actually increase the amount of time to complete a task.</summary></entry></feed>
