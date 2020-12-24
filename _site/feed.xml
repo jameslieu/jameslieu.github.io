@@ -1,4 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-12-21T15:47:58+00:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Introduction to Event Driven Architecture</title><link href="http://jameslieu.github.io/introduction-to-event-driven-architecture/" rel="alternate" type="text/html" title="Introduction to Event Driven Architecture" /><published>2020-12-21T00:00:00+00:00</published><updated>2020-12-21T00:00:00+00:00</updated><id>http://jameslieu.github.io/introduction-to-event-driven-architecture</id><content type="html" xml:base="http://jameslieu.github.io/introduction-to-event-driven-architecture/">&lt;p&gt;Event driven architecture is a design pattern built around the production, detection and reaction to events that take place in time.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-12-24T16:47:59+00:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Pointers in Go (Golang)</title><link href="http://jameslieu.github.io/pointers-in-go/" rel="alternate" type="text/html" title="Pointers in Go (Golang)" /><published>2020-12-24T00:00:00+00:00</published><updated>2020-12-24T00:00:00+00:00</updated><id>http://jameslieu.github.io/pointers-in-go</id><content type="html" xml:base="http://jameslieu.github.io/pointers-in-go/">&lt;p&gt;&lt;img src=&quot;/assets/media/pointers-in-go-1.jpeg&quot; style=&quot;height:200px; margin: auto&quot; /&gt;
+I’m learning a little bit of Go (Golang). There are a few areas in this programming language which are familiar to me and there are many areas which are not.
+One of which are Pointers.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-a-pointer-&quot;&gt;What is a Pointer? 👉&lt;/h2&gt;
+
+&lt;p&gt;A pointer is a variable that stores the address of a value, rather than the value itself. If you think of a computer’s memory (RAM) as a JSON object, a pointer would be like the key and a normal variable would be the value.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{
+  &quot;pointer&quot;: &quot;variableValue&quot;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;syntax&quot;&gt;Syntax&lt;/h2&gt;
+
+&lt;h3 id=&quot;creating-a-pointer-&quot;&gt;Creating a Pointer: 🥨&lt;/h3&gt;
+
+&lt;p&gt;To create a pointer variable, you prefix your value with an ampersand (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;amp;&lt;/code&gt;)&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;someString := &quot;&quot;
+someStringPointer := &amp;amp;someString
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If you print that pointer you will see a memory address.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;package main
+
+import &quot;fmt&quot;
+
+func main() {
+  someString := &quot;some string&quot;
+  someStringPointer := &amp;amp;someString
+  fmt.Println(someStringPointer)
+}
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;This will print something that looks like this: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0xc00000e1e0&lt;/code&gt;, Which is the memory address of that variable in your machine.&lt;/p&gt;
+
+&lt;h3 id=&quot;describing-a-pointer-&quot;&gt;Describing a pointer: ✳&lt;/h3&gt;
+
+&lt;p&gt;In a function signature or type definition, the asterisk or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*&lt;/code&gt; is used to designate that a value is a pointer.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;func PassPointer(pointer *string) {
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;modify-the-original-variable-&quot;&gt;Modify the original variable: ✳&lt;/h3&gt;
+
+&lt;p&gt;You can use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*&lt;/code&gt; to modify the value of the original variable which the pointer references&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;someString := &quot;some value&quot;
+someStringPointer := &amp;amp;someString
+*someStringPointer = &quot;new value&quot;
+fmt.Println(someString)
+}
+
+// Prints &quot;new value&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;someString&lt;/code&gt; variable will now equal: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;new value&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;when-should-pointers-be-used-&quot;&gt;When Should Pointers Be Used 🤷&lt;/h2&gt;
+
+&lt;p&gt;These are the reasons I’ve read where you might want to use a pointer:&lt;/p&gt;
+
+&lt;h3 id=&quot;-a-function-that-mutates-one-of-its-parameters&quot;&gt;🤝 A function that mutates one of it’s parameters&lt;/h3&gt;
+
+&lt;p&gt;When calling a function that takes a pointer as an argument and expect that the variable will be mutated. If the variable doesn’t need to be mutated then a pointer probably wouldn’t need to be used&lt;/p&gt;
+
+&lt;h3 id=&quot;-better-performance&quot;&gt;⏱ Better performance&lt;/h3&gt;
+
+&lt;p&gt;If you have a large string in memory, it can be very expensive to copy that variable each time it is passed to a new function. It may be worthwhile to pass a pointer instead to save CPU and memory&lt;/p&gt;
+
+&lt;h3 id=&quot;-need-a-nil-value-option&quot;&gt;🤙 Need a Nil value option&lt;/h3&gt;
+&lt;p&gt;Sometimes a function needs to know what something’s value is, as well as if it exists or not. For example, if a JSON object is:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{ &quot;name&quot;: &quot;James&quot; } // *name: &quot;James&quot;
+{ &quot;name&quot;: &quot;&quot; }      // *name: &quot;&quot;
+{}                  // *name: nil
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;These are the ones I know of so far, I’m sure there are other uses I’m not aware of.&lt;/p&gt;
+
+&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
+
+&lt;p&gt;There is no passing by reference in Go. So pointers are a way to do this if required. There are probably more benefits to using pointers that I haven’t mentioned, but I’ve only just started learning all of this very recently.&lt;/p&gt;
+
+&lt;p&gt;It seems that working with normal values are usually fine, and from what I’ve read about pointers, it ok to avoid them generally speaking. They may be useful tools if used effectively but can easily lead to unreadable code and make it difficult to debug.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">What is a Pointer?</summary></entry><entry><title type="html">Introduction to Event Driven Architecture</title><link href="http://jameslieu.github.io/introduction-to-event-driven-architecture-copy/" rel="alternate" type="text/html" title="Introduction to Event Driven Architecture" /><published>2020-12-21T00:00:00+00:00</published><updated>2020-12-21T00:00:00+00:00</updated><id>http://jameslieu.github.io/introduction-to-event-driven-architecture%20copy</id><content type="html" xml:base="http://jameslieu.github.io/introduction-to-event-driven-architecture-copy/">&lt;p&gt;Event driven architecture is a design pattern built around the production, detection and reaction to events that take place in time.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/event-driven-1.png&quot; /&gt;&lt;/p&gt;
 
@@ -484,79 +570,4 @@ The technique uses a timer to break down work into intervals, traditionally 25 m
 
 &lt;p&gt;The projects you build should be built with the technology you’re applying with. For example, if I were to apply for ASP.Net Core roles, then ideally that project should be built with ASP.Net Core.&lt;/p&gt;
 
-&lt;p&gt;Having fewer projects will increase likelihood that the potential employer will actually look at your projects. Then having the coding problem repo will be the one where you can demonstrate how you solve programming challenges.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Career" /><summary type="html">As an aspiring developer, it is good to have a portfolio of projects to not only build knowledge and experience with the technology you're using but to use as code examples for when applying for a job as a programmer.</summary></entry><entry><title type="html">Are Meetings Necessary?</title><link href="http://jameslieu.github.io/are-meetings-necessary/" rel="alternate" type="text/html" title="Are Meetings Necessary?" /><published>2020-06-17T00:00:00+01:00</published><updated>2020-06-17T00:00:00+01:00</updated><id>http://jameslieu.github.io/are-meetings-necessary</id><content type="html" xml:base="http://jameslieu.github.io/are-meetings-necessary/">&lt;p&gt;Meetings are a great way to communicate with people within your company. However, they can be huge productivity killers.&lt;/p&gt;
-
-&lt;p&gt;Is a particular meeting even necessary? If you’re meeting for an hour, one perspective is that its not only one hour that is lost, but one hour multiplied by the total number of attendees.&lt;/p&gt;
-
-&lt;p&gt;I think meetings should only be called after a consensus is reached that the meeting is &lt;strong&gt;necessary&lt;/strong&gt;. What does it mean for a meeting to be necessary? The two factors I can think of is &lt;strong&gt;coordination&lt;/strong&gt; and &lt;strong&gt;conflict&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;-coordination&quot;&gt;🤝 Coordination&lt;/h3&gt;
-&lt;p&gt;For when a decision requires collaboration from different people. This includes people within a team, other teams or departments. The decision could be in regards to a feature that needs to be built and so,  speaking only to the relevant people to have a decision made on what their requirements and expectations are is why this meeting is necessary.&lt;/p&gt;
-
-&lt;h3 id=&quot;-conflict&quot;&gt;🤼 Conflict&lt;/h3&gt;
-&lt;p&gt;For when there are disagreements from two or more parties. A meeting in this instance can also be necessary to resolve this conflict and that a consensus has been reached.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-pros-and-cons&quot;&gt;The Pros and Cons&lt;/h2&gt;
-
-&lt;p&gt;Meetings are important and useful, but can also be counter-productive by taking time away from actually getting work done. In my opinion, some of the pros and cons are:&lt;/p&gt;
-
-&lt;h3 id=&quot;pros-&quot;&gt;Pros 👍&lt;/h3&gt;
-
-&lt;h6 id=&quot;-you-may-be-part-of-the-decision-making&quot;&gt;✌ You may be part of the decision making&lt;/h6&gt;
-&lt;p&gt;This kind of activity can help you feel like a valuable member of the team.&lt;/p&gt;
-
-&lt;h6 id=&quot;-you-may-be-able-to-contribute-and-share-knowledge-to-other-attendees&quot;&gt;💡 You may be able to contribute and share knowledge to other attendees&lt;/h6&gt;
-&lt;p&gt;There may be times where your experience or knowledge can have an impact and so sharing that can only be positive.&lt;/p&gt;
-
-&lt;h6 id=&quot;-receive-relevant-information&quot;&gt;📰 Receive relevant information&lt;/h6&gt;
-&lt;p&gt;This is important if its related to work you’re involved in. You may only be listening during the meeting but the content may be insightful.&lt;/p&gt;
-
-&lt;h6 id=&quot;-you-can-ask-questions&quot;&gt;📢 You can ask questions&lt;/h6&gt;
-&lt;p&gt;If you don’t understand something or require further clarity, being present during the discussion allows you to ask questions.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;cons-&quot;&gt;Cons 👎&lt;/h3&gt;
-
-&lt;h6 id=&quot;-the-meeting-may-not-be-relevant-to-you-in-particular&quot;&gt;🤷 The meeting may not be relevant to you in particular&lt;/h6&gt;
-&lt;p&gt;As mentioned before, attending meetings will cost your time and attention. If the contents of the meeting isn’t relevant to you, then you could be spending your time and attention on other things.&lt;/p&gt;
-
-&lt;h6 id=&quot;-you-may-have-nothing-to-add-to-the-discussion&quot;&gt;😫 You may have nothing to add to the discussion&lt;/h6&gt;
-&lt;p&gt;This is related to the above point, the meeting isn’t relevant to you and you have nothing to add, then why is your attendance even necessary? Better to use that time on more pressing tasks&lt;/p&gt;
-
-&lt;h6 id=&quot;-it-can-be-mentally-draining&quot;&gt;😩 It can be mentally draining&lt;/h6&gt;
-&lt;p&gt;This one is often overlooked. People in your team, likely has different energy thresholds for long meetings. I often feel extreme fatigue when a meeting has ended. Finding the energy and motivation to start a new task or continue where I left off can be challenging and therefore severely reduces productivity.&lt;/p&gt;
-
-&lt;h6 id=&quot;-reduces-your-productivity&quot;&gt;☹ Reduces Your Productivity&lt;/h6&gt;
-&lt;p&gt;If you’re in the middle of a task, having to pause and attend a meeting which may not even be relevant to you is sure to affect your overall productivity. Although you can work around this by with good time management provided the meeting was scheduled with enough time.&lt;/p&gt;
-
-&lt;h2 id=&quot;do-you-need-to-attend-&quot;&gt;Do You Need To Attend? 🤷&lt;/h2&gt;
-
-&lt;p&gt;Some meetings &lt;strong&gt;are&lt;/strong&gt; necessary. But we should ask ourselves, “do &lt;strong&gt;I&lt;/strong&gt; need to attend”?&lt;/p&gt;
-
-&lt;p&gt;When meetings are scheduled, it may be relevant to you personally and so your attendance will provide you value.&lt;/p&gt;
-
-&lt;p&gt;The issue is, that we often find ourselves attending meetings, while relevant to other people, is not relevant for you. Meaning, had you not attended that particular meeting, you could’ve been doing something else, something more productive and useful with that time instead.&lt;/p&gt;
-
-&lt;h2 id=&quot;-some-practices-to-consider&quot;&gt;🧍 Some Practices To Consider&lt;/h2&gt;
-
-&lt;p&gt;Being more aware about the meetings you have and conscious how much time they take, it’s worth considering adopting some practices:&lt;/p&gt;
-
-&lt;h3 id=&quot;-dont-meet-unless-absolutely-necessary&quot;&gt;🏃 Don’t meet unless absolutely necessary&lt;/h3&gt;
-
-&lt;p&gt;Find out why you’re meeting; is a meeting necessary? Consider that if you’re meeting for an hour, it’s not just an hour of company time that is being lost; it’s the hour multiplied by the total number of people in attendance. Meetings should only be called after a consensus has been reached that a meeting is necessary.&lt;/p&gt;
-
-&lt;h3 id=&quot;-set-a-time-limit&quot;&gt;⏱ Set A Time Limit&lt;/h3&gt;
-
-&lt;p&gt;Setting a time limit to a suitable length, most people will lose their ability to pay attention the longer the meeting continues. Having a meeting for 15-30 minutes for example can at least guarantee that the attendees are not experiencing too much fatigue. Another benefit of this, is that the people speaking will be encouraged to ‘get to the point’ and be more concise.&lt;/p&gt;
-
-&lt;h3 id=&quot;-ask-people-to-prepare-in-advance&quot;&gt;✍ Ask People To Prepare in Advance&lt;/h3&gt;
-
-&lt;p&gt;I feel meetings should not be used for brainstorming. Having a clear agenda, topics, questions or reading sent to all attendees in advance can make the meeting overall more productive. Thinking ahead and preparing for the meeting will help if you’re not good at ‘thinking on your feet’.&lt;/p&gt;
-
-&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
-
-&lt;p&gt;Meetings have their pros and cons. They’re important but I think it’s also a good idea to be mindful about how much time they cost.
-How much productivity is lost as a result of attending meetings?&lt;/p&gt;
-
-&lt;p&gt;I think attending meetings where you’re an active participant is important and has value, but for those where you’re not, would it not, be just as effective if you were cc’d an email from an attendee with a written summary, key-points or the decisions from said meeting? Food for thought.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Productivity" /><summary type="html">Meetings are a great way to communicate with people within your company. However, they can be huge productivity killers.</summary></entry></feed>
+&lt;p&gt;Having fewer projects will increase likelihood that the potential employer will actually look at your projects. Then having the coding problem repo will be the one where you can demonstrate how you solve programming challenges.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Career" /><summary type="html">As an aspiring developer, it is good to have a portfolio of projects to not only build knowledge and experience with the technology you're using but to use as code examples for when applying for a job as a programmer.</summary></entry></feed>
