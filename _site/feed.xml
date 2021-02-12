@@ -1,4 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2020-12-24T16:47:59+00:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Pointers in Go (Golang)</title><link href="http://jameslieu.github.io/pointers-in-go/" rel="alternate" type="text/html" title="Pointers in Go (Golang)" /><published>2020-12-24T00:00:00+00:00</published><updated>2020-12-24T00:00:00+00:00</updated><id>http://jameslieu.github.io/pointers-in-go</id><content type="html" xml:base="http://jameslieu.github.io/pointers-in-go/">&lt;p&gt;&lt;img src=&quot;/assets/media/pointers-in-go-1.jpeg&quot; style=&quot;height:200px; margin: auto&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://jameslieu.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.github.io/" rel="alternate" type="text/html" /><updated>2021-02-12T16:59:33+00:00</updated><id>http://jameslieu.github.io/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Inversion of Control (IoC)</title><link href="http://jameslieu.github.io/inversion-of-control/" rel="alternate" type="text/html" title="Inversion of Control (IoC)" /><published>2021-02-12T00:00:00+00:00</published><updated>2021-02-12T00:00:00+00:00</updated><id>http://jameslieu.github.io/inversion-of-control</id><content type="html" xml:base="http://jameslieu.github.io/inversion-of-control/">&lt;p&gt;Upon attempting to understand inversion of control, I stumbled across a few buzz words which are related but not quite the same, which can get confusing and so I decided to share my learning on some of these terms, what they are and why they’re useful in programming.&lt;/p&gt;
+
+&lt;p&gt;The four terms I’m going to briefly cover are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;🔄 Inversion of Control (IoC)&lt;/li&gt;
+  &lt;li&gt;🤝 Dependency Inversion (DIP)&lt;/li&gt;
+  &lt;li&gt;💉 Dependency Injection (DI)&lt;/li&gt;
+  &lt;li&gt;🗳 IoC Container&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;inversion-of-control-&quot;&gt;Inversion of Control 🔄&lt;/h2&gt;
+
+&lt;p&gt;Inversion of control (IoC) is a programming principle and is used to invert different types of controls in object oriented design to achieve loose coupling. “Control” refers to any additional responsibilities a class has outside of it’s main responsibility.&lt;/p&gt;
+
+&lt;p&gt;IoC is all about inverting the control. In layman’s terms, suppose you drive a car to work. The IoC principle suggests to invert the control, meaning that instead of driving the car yourself to get to work, you can get taxi where somebody else will be driving the car. You wouldn’t be driving yourself and so you can focus on your main responsibilities.&lt;/p&gt;
+
+&lt;p&gt;The IoC principle helps in designing loosely coupled classes which make them testable, maintainable and extensible.&lt;/p&gt;
+
+&lt;h2 id=&quot;dependency-inversion-principle-&quot;&gt;Dependency Inversion Principle 🤝&lt;/h2&gt;
+&lt;p&gt;The dependency inversion principle (DIP) is one of the SOLID object-oriented principle invented by Robert Martin (a.k.a. Uncle Bob).
+The definition of DIP is&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;High-level modules should not depend on low-level modules. Both should depend on the abstraction.&lt;/li&gt;
+  &lt;li&gt;Abstractions should not depend on details. Details should depend on abstractions.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;what-is-an-abstraction&quot;&gt;What is an abstraction?&lt;/h4&gt;
+&lt;p&gt;Abstraction means something which is non-concrete. When you can create an object from something such as a class, that is considered a concretion, and so abstraction in programming is to create an interface or abstract class which are non-concrete and you wouldn’t be able to instantiate it.&lt;/p&gt;
+
+&lt;p&gt;You cannot create an object of an interface or abstract class. As per DIP, modules should not depend of concrete classes, they should depend on interfaces or an abstract class.&lt;/p&gt;
+
+&lt;p&gt;The advantages of implementing DIP is classes are loosely coupled  and will not depend on any concrete class but instead includes a reference to an interface. This then means that we can, if necessary, use another class which &lt;strong&gt;implements&lt;/strong&gt; that interface with a different implementation.&lt;/p&gt;
+
+&lt;h2 id=&quot;dependency-injection-&quot;&gt;Dependency Injection 💉&lt;/h2&gt;
+
+&lt;p&gt;Dependency Injection (DI) is a design pattern used to implement IoC. It allows the creation of dependent objects outside of a class and provides those objects to a class through different ways. Using DI, we move the creation and binding of the dependent objects outside of the class that depends on them.&lt;/p&gt;
+
+&lt;h4 id=&quot;types-of-dependency-injection&quot;&gt;Types of Dependency Injection&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Constructor Injection: The injector supplies the dependency through the class constructor.&lt;/li&gt;
+  &lt;li&gt;Property Injection: The injector supplies the dependency through a public property of the client class.&lt;/li&gt;
+  &lt;li&gt;Method Injection: The class implements an interface which declares the methods to supply the dependency and the injector uses this interface to supply the dependency.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In professional projects, there are many dependent classes and implementing these patterns is time consuming. Here the IoC Container (aka the DI container) helps us.&lt;/p&gt;
+
+&lt;h2 id=&quot;ioc-container-&quot;&gt;IoC Container 🗳&lt;/h2&gt;
+
+&lt;p&gt;IoC Container, also known as DI Container, is a framework for implementing &lt;strong&gt;automatic&lt;/strong&gt; dependency injection. It managed object creation and it’s life-time, and also injects dependencies to the class.&lt;/p&gt;
+
+&lt;p&gt;The IoC container creates an object of the specified class and also injects all the dependency objects through a constructor, a property or method at run time and disposes it at the appropriate time. This is done so we don’t have to create and manage objects manually.&lt;/p&gt;
+
+&lt;h3 id=&quot;di-lifecycle&quot;&gt;DI lifecycle&lt;/h3&gt;
+
+&lt;h4 id=&quot;-register&quot;&gt;📋 Register&lt;/h4&gt;
+&lt;p&gt;The container must know which dependency to instantiate when it encounters a particular type. The process is called registration.&lt;/p&gt;
+
+&lt;h4 id=&quot;-resolve&quot;&gt;🏋 Resolve&lt;/h4&gt;
+&lt;p&gt;When using the IoC container, we don’t need to create objects manually, the container does it automatically. This is called resolution. The container creates an object of the specified type, injects the required dependencies if any and returns the object.&lt;/p&gt;
+
+&lt;h4 id=&quot;-dispose&quot;&gt;🗑 Dispose&lt;/h4&gt;
+&lt;p&gt;The container will manage the lifetime of the dependent objects. Most IoC containers include lifetime managers to manage an object’s lifecycle and dispose it.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">What is the IoC principle and why is it useful?</summary></entry><entry><title type="html">Pointers in Go (Golang)</title><link href="http://jameslieu.github.io/pointers-in-go/" rel="alternate" type="text/html" title="Pointers in Go (Golang)" /><published>2020-12-24T00:00:00+00:00</published><updated>2020-12-24T00:00:00+00:00</updated><id>http://jameslieu.github.io/pointers-in-go</id><content type="html" xml:base="http://jameslieu.github.io/pointers-in-go/">&lt;p&gt;&lt;img src=&quot;/assets/media/pointers-in-go-1.jpeg&quot; style=&quot;height:200px; margin: auto&quot; /&gt;
 I’m learning a little bit of Go (Golang). There are a few areas in this programming language which are familiar to me and there are many areas which are not.
 One of which are Pointers.&lt;/p&gt;
 
@@ -538,36 +600,4 @@ The technique uses a timer to break down work into intervals, traditionally 25 m
   &lt;li&gt;A better team code review experience&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I think habit of self-reviewing your code is one of the things that will improve the quality of the code you write. We’re not infallible and should almost expect to write code that is imperfect. Self-reviewing simply allows us to allocate time to &lt;strong&gt;think&lt;/strong&gt; about what was written, check for issues or anything you’ve forgotten or to look for ways to improve it.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">Self-reviewing your code is, in my opinion, just as important as having someone else review it before it gets approved and deployed.</summary></entry><entry><title type="html">Should You build a Programming Portfolio?</title><link href="http://jameslieu.github.io/should-you-build-a-programming-portfolio/" rel="alternate" type="text/html" title="Should You build a Programming Portfolio?" /><published>2020-06-18T00:00:00+01:00</published><updated>2020-06-18T00:00:00+01:00</updated><id>http://jameslieu.github.io/should-you-build-a-programming-portfolio</id><content type="html" xml:base="http://jameslieu.github.io/should-you-build-a-programming-portfolio/">&lt;p&gt;As an aspiring developer, it is good to have a portfolio of projects to not only build knowledge and experience with the technology you’re using but to use as code examples for when applying for a job as a programmer.&lt;/p&gt;
-
-&lt;p&gt;But I wonder whether potential employers actually look at these projects? (Genuine question)&lt;/p&gt;
-
-&lt;p&gt;If I were in the shoes of an employer or responsible for hiring a developer, will I really look at &lt;strong&gt;all&lt;/strong&gt; of the projects in a programmers portfolio?&lt;/p&gt;
-
-&lt;p&gt;Maybe I’ll randomly select a few however, but even then I probably will skim through the logic or check for things like unit tests. I probably wouldn’t pull it down onto my local machine to run or even check that the tests even pass.&lt;/p&gt;
-
-&lt;p&gt;I myself have a portfolio of projects in my &lt;a href=&quot;https://github.com/jameslieu?tab=repositories&quot;&gt;github profile&lt;/a&gt;, I doubt employers look at each individual projects in any detail at all.&lt;/p&gt;
-
-&lt;p&gt;My point is, is there really that much value creating a large number of projects for your portfolio? They can take a lot of time depending on what your project is and having too many will decrease the chances of a potential employer to look at them.&lt;/p&gt;
-
-&lt;h2 id=&quot;my-personal-experience-&quot;&gt;My Personal Experience 🧔&lt;/h2&gt;
-
-&lt;p&gt;As mentioned earlier, I have a &lt;a href=&quot;https://github.com/jameslieu&quot;&gt;Github profile&lt;/a&gt; where I place all of my personal projects.  When attending job interviews, the only time somebody had mentioned it was when they saw a repository called &lt;a href=&quot;https://github.com/jameslieu/project_euler&quot;&gt;project_euler&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;However, as of 18th June 2020, I only have a single completed code challenge in there. Had I had more code challenges in there I think the interviewer/developer would’ve been more impressed.&lt;/p&gt;
-
-&lt;p&gt;I do have a repo called &lt;a href=&quot;https://github.com/jameslieu/csharp_projects&quot;&gt;csharp_projects&lt;/a&gt; which has a variety of code challenges as well as personal projects (specifically written in C#) all within the same repo.&lt;/p&gt;
-
-&lt;p&gt;(The reason I had organized it this way was because I wanted to branch off from PHP to C# professionally which was difficult to do without taking a pay cut, so this repo was the one I sent to potential employers to boost my chances.)&lt;/p&gt;
-
-&lt;p&gt;In hindsight, I think having the &lt;a href=&quot;https://github.com/jameslieu/csharp_projects&quot;&gt;csharp_projects&lt;/a&gt; repo helped, but the amount of time it had taken to build all of these was very costly.&lt;/p&gt;
-
-&lt;p&gt;If I had a single solid project with all of the bells and whistles, deployed for the interviewer to demo, I think that would’ve had a greater impact than all of those smaller projects. Also, having a repo for code challenges would’ve gotten more attention more so than the others.&lt;/p&gt;
-
-&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
-
-&lt;p&gt;Having built many projects and having a sizable portfolio, from a job hunting perspective, I think it actually deters interviewers from actually looking at them at all. I think it would be better to have only 1-2 great (sizable) projects and a repo dedicated to solving programming problems i.e. &lt;a href=&quot;https://github.com/jameslieu/project_euler&quot;&gt;project_euler&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The projects you build should be built with the technology you’re applying with. For example, if I were to apply for ASP.Net Core roles, then ideally that project should be built with ASP.Net Core.&lt;/p&gt;
-
-&lt;p&gt;Having fewer projects will increase likelihood that the potential employer will actually look at your projects. Then having the coding problem repo will be the one where you can demonstrate how you solve programming challenges.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Career" /><summary type="html">As an aspiring developer, it is good to have a portfolio of projects to not only build knowledge and experience with the technology you're using but to use as code examples for when applying for a job as a programmer.</summary></entry></feed>
+&lt;p&gt;I think habit of self-reviewing your code is one of the things that will improve the quality of the code you write. We’re not infallible and should almost expect to write code that is imperfect. Self-reviewing simply allows us to allocate time to &lt;strong&gt;think&lt;/strong&gt; about what was written, check for issues or anything you’ve forgotten or to look for ways to improve it.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">Self-reviewing your code is, in my opinion, just as important as having someone else review it before it gets approved and deployed.</summary></entry></feed>
