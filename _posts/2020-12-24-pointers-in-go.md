@@ -13,7 +13,7 @@ One of which are Pointers.
 
 A pointer is a variable that stores the address of a value, rather than the value itself. If you think of a computer's memory (RAM) as a JSON object, a pointer would be like the key and a normal variable would be the value.
 
-```
+```json
 {
   "pointer": "variableValue"
 }
@@ -25,13 +25,13 @@ A pointer is a variable that stores the address of a value, rather than the valu
 
 To create a pointer variable, you prefix your value with an ampersand (`&`)
 
-```
+```go
 someString := ""
 someStringPointer := &someString
 ```
 
 If you print that pointer you will see a memory address.
-```
+```go
 package main
 
 import "fmt"
@@ -49,7 +49,7 @@ This will print something that looks like this: `0xc00000e1e0`, Which is the mem
 
 In a function signature or type definition, the asterisk or `*` is used to designate that a value is a pointer.
 
-```
+```go
 func PassPointer(pointer *string) {
 }
 ```
@@ -58,7 +58,7 @@ func PassPointer(pointer *string) {
 
 You can use the `*` to modify the value of the original variable which the pointer references
 
-```
+```go
 someString := "some value"
 someStringPointer := &someString
 *someStringPointer = "new value"
@@ -85,7 +85,7 @@ If you have a large string in memory, it can be very expensive to copy that vari
 ### &#x1f919; Need a Nil value option
 Sometimes a function needs to know what something's value is, as well as if it exists or not. For example, if a JSON object is:
 
-```
+```json
 { "name": "James" } // *name: "James"
 { "name": "" }      // *name: ""
 {}                  // *name: nil
