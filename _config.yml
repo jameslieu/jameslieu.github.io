@@ -44,8 +44,8 @@ google_analytics: UA-167989014-1
 
 # Your website URL (e.g. http://jameslieu.github.io or http://www.jameslieu.co.uk)
 # Used for Sitemap.xml and your RSS feed
-url: http://jameslieu.github.io
-enforce_ssl: https://jameslieu.github.io
+url: http://jameslieu.co.uk
+enforce_ssl: https://jameslieu.co.uk
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
