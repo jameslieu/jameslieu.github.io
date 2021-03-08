@@ -33,15 +33,13 @@ I also regularly read programming articles on sites such as:
 
 ###### &#x1f579; Gaming
 
-When I find the time, I try to spend some of it playing video games. I usually game on PC and I'm currently playing:
+When I find the time, I try to spend some of it playing video games. I usually game on PC and these are the games I highly recommend:
 
-- &#x1f52b; Star Wars: Knights of the old Republic II
-- &#x1f5e1; Baldur's Gate II
-- &#x1f6e1; Final Fantasy VI
-- &#x1f52b; ~~Star Wars: Knights of the old Republic~~
-- &#x1f5e1; ~~Dishonoured~~
-- &#x1f5e1; ~~Middle Earth: Shadow of Mordor~~
-- &#x1f4dc; ~~The Elder's Scroll VI: Oblivion~~
+- &#x1f6e1; Dragon Age: Origins
+- &#x1f6e1; Final Fantasy X
+- &#x1f468;&#x200d;&#x1f4bc; Yakuza 0
+- &#x1f5e1; Middle Earth: Shadow of Mordor
+- &#x1f4dc; The Elder's Scroll VI: Oblivion
 
 ## Tech Stack
 - C# / .NET Core
