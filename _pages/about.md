@@ -35,7 +35,7 @@ I also regularly read programming articles on sites such as:
 
 When I find the time, I try to spend some of it playing video games. I usually game on PC and these are the games I highly recommend:
 
-- &#x1f6e1; Dragon Age: Origins
+- &#x1f409; Dragon Age: Origins
 - &#x1f6e1; Final Fantasy X
 - &#x1f468;&#x200d;&#x1f4bc; Yakuza 0
 - &#x1f5e1; Middle Earth: Shadow of Mordor
