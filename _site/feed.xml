@@ -1,4 +1,212 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://jameslieu.co.uk/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.co.uk/" rel="alternate" type="text/html" /><updated>2021-03-17T09:26:53+00:00</updated><id>http://jameslieu.co.uk/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Configuring ASP.NET Core: The Startup Class</title><link href="http://jameslieu.co.uk/dotnet-config-startup/" rel="alternate" type="text/html" title="Configuring ASP.NET Core: The Startup Class" /><published>2021-03-17T00:00:00+00:00</published><updated>2021-03-17T00:00:00+00:00</updated><id>http://jameslieu.co.uk/dotnet-config-startup</id><content type="html" xml:base="http://jameslieu.co.uk/dotnet-config-startup/">&lt;p&gt;In my goal to further improve my understanding of C# .NET Core and ASP.NET Core, I’ve realised that I don’t fully understand how the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Startup.cs&lt;/code&gt; class actually works.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://jameslieu.co.uk/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.co.uk/" rel="alternate" type="text/html" /><updated>2021-03-19T10:22:12+00:00</updated><id>http://jameslieu.co.uk/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Git For Junior Developers</title><link href="http://jameslieu.co.uk/git-for-junior-developers/" rel="alternate" type="text/html" title="Git For Junior Developers" /><published>2021-03-19T00:00:00+00:00</published><updated>2021-03-19T00:00:00+00:00</updated><id>http://jameslieu.co.uk/git-for-junior-developers</id><content type="html" xml:base="http://jameslieu.co.uk/git-for-junior-developers/">&lt;p&gt;&lt;img src=&quot;/assets/media/git-logo.jpg&quot; style=&quot;height:100px; margin: auto&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When learning Git, it had taken a while to actually understand it.&lt;/p&gt;
+
+&lt;p&gt;Having worked as a developer for a number of years I’ve found that I only really use a handful of git commands and so any learning for less commonly used commands like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Cherry picking&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Rebase&lt;/code&gt; was really unnecessary as a junior.&lt;/p&gt;
+
+&lt;p&gt;Those commands had a larger learning curve and often led to confusion and frustration when trying to use them.&lt;/p&gt;
+
+&lt;p&gt;I’ve also experienced working in a team who have never worked with Git and the tech lead wanted to move the whole team to Git without actually teaching them, this led to numerous problems as well as my own challenges trying to teach some of them. I’ve written a blog post about it &lt;a href=&quot;/git-workflow&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;So the purpose of this post is to recommend &lt;strong&gt;specifically&lt;/strong&gt; which commands are most commonly used (anecdotally), and what juniors need to know &lt;em&gt;at minimum&lt;/em&gt; to get by in the industry.&lt;/p&gt;
+
+&lt;h2 id=&quot;all-you-need-to-know-&quot;&gt;All you need to know 👌&lt;/h2&gt;
+
+&lt;h4 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Know how to use the command line interface.
+    &lt;ul&gt;
+      &lt;li&gt;I recommend NOT using a Git GUI until you understand the basics&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Install Git to your local machine&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;introduction&quot;&gt;Introduction&lt;/h4&gt;
+
+&lt;p&gt;Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.&lt;/p&gt;
+
+&lt;h4 id=&quot;master&quot;&gt;Master&lt;/h4&gt;
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt; branch is the convention name for the “main” branch which is considered the code used for production. This branch is the base which you build upon, and so you would “branch” off this one to achieve to add new features or changes.&lt;/p&gt;
+
+&lt;h4 id=&quot;branch&quot;&gt;Branch&lt;/h4&gt;
+&lt;p&gt;Think of &lt;strong&gt;branching&lt;/strong&gt; as cloning or duplicating the code base, any edits you make to a new &lt;strong&gt;branch&lt;/strong&gt; will not affect the original. When you’re edits are complete you can then &lt;strong&gt;commit&lt;/strong&gt; those edits and then &lt;strong&gt;merge&lt;/strong&gt; your edits with the original (where you branched off from).&lt;/p&gt;
+
+&lt;h4 id=&quot;commit&quot;&gt;Commit&lt;/h4&gt;
+&lt;p&gt;The first clarification I think is important to remember is the fundamental idea that Git tracks &lt;strong&gt;commits&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Think of &lt;strong&gt;Commits&lt;/strong&gt; as the &lt;em&gt;state&lt;/em&gt; of the codebase. So, if you &lt;strong&gt;branch&lt;/strong&gt; off &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt; for example, you have all of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt;’s &lt;strong&gt;commits&lt;/strong&gt;. In the new branch you add some code then &lt;strong&gt;commit&lt;/strong&gt; it, your branch has those &lt;strong&gt;Commits&lt;/strong&gt; including &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt;’s &lt;strong&gt;Commits&lt;/strong&gt; (since you last &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git pulled&lt;/code&gt;). However, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt; will not have the branch’s new &lt;strong&gt;commits&lt;/strong&gt; (until you &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;merge&lt;/code&gt; them)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/git-workflow-1.png&quot; style=&quot;height: 500px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;my-most-used-git-commands-&quot;&gt;My Most Used Git Commands 👍&lt;/h2&gt;
+
+&lt;p&gt;So I’ve looked at my &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/.bash_history&lt;/code&gt; file, it records the last 2000 commands, so as of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;18/03/2021&lt;/code&gt; my most common &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git&lt;/code&gt; commands are:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Command&lt;/th&gt;
+      &lt;th&gt;Count&lt;/th&gt;
+      &lt;th&gt;Notes&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;git status&lt;/td&gt;
+      &lt;td&gt;400&lt;/td&gt;
+      &lt;td&gt;I spam this to check for unstaged/staged code, and to look at branch name&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;git checkout&lt;/td&gt;
+      &lt;td&gt;173&lt;/td&gt;
+      &lt;td&gt;Multiple uses, create branches, change branches, reverse changes&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;git pull&lt;/td&gt;
+      &lt;td&gt;115&lt;/td&gt;
+      &lt;td&gt;Update en existing branch, commonly used to update &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;git push&lt;/td&gt;
+      &lt;td&gt;81&lt;/td&gt;
+      &lt;td&gt;Always with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;origin &amp;lt;branch&amp;gt;&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;git commit&lt;/td&gt;
+      &lt;td&gt;40&lt;/td&gt;
+      &lt;td&gt;I use this with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-m&lt;/code&gt; or to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--amend&lt;/code&gt; them&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;git add&lt;/td&gt;
+      &lt;td&gt;37&lt;/td&gt;
+      &lt;td&gt;Sometimes I use a git editor to stage code, but I’m surprised this isn’t higher&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;git diff&lt;/td&gt;
+      &lt;td&gt;34&lt;/td&gt;
+      &lt;td&gt;I only use this to check files changes before reversing changes with checkout&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;git branch&lt;/td&gt;
+      &lt;td&gt;35&lt;/td&gt;
+      &lt;td&gt;I only use this to delete my local branches with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-D&lt;/code&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;git log&lt;/td&gt;
+      &lt;td&gt;20&lt;/td&gt;
+      &lt;td&gt;Only used to check logged commits either for myself or to see timestamp of latest&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;git stash&lt;/td&gt;
+      &lt;td&gt;17&lt;/td&gt;
+      &lt;td&gt;Stashing code and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pop&lt;/code&gt;, for when needed to switch branches without commit&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;git fetch&lt;/td&gt;
+      &lt;td&gt;13&lt;/td&gt;
+      &lt;td&gt;Sometimes, new branches on remote need to be fetched&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;git merge&lt;/td&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;This is really used to update existing branches, I merge code to master via BitBucket&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;git reset&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;Used to undo a commit but I tend to use VSCode’s built in GUI as it’s easier&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;git rebase&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;Only if my local master needed updating alongside my local branch I was working with&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;git init&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;Initialize git for a directory, not commonly used when compared with others&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;git clone&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;Used to clone code in remote repository, not commonly used and usually copy/paste&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;git config&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;Use to set config, primarily changing the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;autocrlf&lt;/code&gt; to false, when running into issues&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;It’s worth noting that I also use &lt;a href=&quot;https://www.sourcetreeapp.com/&quot;&gt;SourceTree&lt;/a&gt; when reviewing code changes. So staging and commiting code from that GUI is not factored in, as well as bash history only recording the last 2000 lines.&lt;/p&gt;
+
+&lt;p&gt;Although there is a sizable list here the only ones I use on a day-to-day basis and recommend learning at minimum are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;git status&lt;/li&gt;
+  &lt;li&gt;git checkout&lt;/li&gt;
+  &lt;li&gt;git pull&lt;/li&gt;
+  &lt;li&gt;git push&lt;/li&gt;
+  &lt;li&gt;git commit&lt;/li&gt;
+  &lt;li&gt;git add&lt;/li&gt;
+  &lt;li&gt;git merge&lt;/li&gt;
+  &lt;li&gt;git remote (maybe)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;local-respository-vs-remote-repository-&quot;&gt;Local Respository vs Remote Repository 🚀&lt;/h2&gt;
+&lt;p&gt;A project where Git is used is known as a &lt;strong&gt;repository&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Local&lt;/strong&gt; repository means the project on your local machine or computer and is only available to you.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Remote&lt;/strong&gt; repository is the project which is hosted by a Git based hosting provider i.e. &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;, &lt;a href=&quot;https://gitlab.com&quot;&gt;GitLab&lt;/a&gt; or &lt;a href=&quot;https://bitbucket.com&quot;&gt;BitBucket&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The remote repository is what allows teams to collaborate against the same code base, making changes to code will almost always be done an a computer, so we need a “local” copy of the code base to do this, when you’ve made your branch, edits and commits.&lt;/p&gt;
+
+&lt;p&gt;You can then &lt;strong&gt;push&lt;/strong&gt; branches including &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt; to the remote making it available to your team via the internet. Your team can then have the option of &lt;strong&gt;pulling&lt;/strong&gt; that code back onto &lt;em&gt;their&lt;/em&gt; local machine and thus be able to access and make edits of their own.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/git-workflow-3.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The key thing to bear in mind is that you need to actively try to keep both your local and remote repository as up to date as possible.
+This also includes your local branches where you initially branched off master, but maybe later, the master branch has been updated since. So to deal with this, you can update your “local” master then &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;merge&lt;/code&gt; your updated local master with your local branch.&lt;/p&gt;
+
+&lt;p&gt;So pushing and pulling regularly is a good habit to have.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion-️&quot;&gt;Conclusion 💁‍♂️&lt;/h2&gt;
+
+&lt;p&gt;Essentially, in my opinion, this is &lt;strong&gt;all&lt;/strong&gt; a junior developer needs to know to get by with Git. If you can learn the minimal commands and some grounding on some key features as mentioned, you should have enough to get by with Git. Anything else can be handled pragmatically and Googled when you encounter a problem. Even things like “merge conflicts” can be dealt with on the job and often requires direct communication with the team member, not necessary to practice in order to get started.&lt;/p&gt;
+
+&lt;p&gt;While this is a very basic introduction to Git and there are many advanced features of Git that wasn’t included in this post.&lt;/p&gt;
+
+&lt;p&gt;But by applying the 80/20 rule, where 20% of the commands/features of Git will yield 80% of the results.&lt;/p&gt;
+
+&lt;p&gt;There are different Git workflows which would be good to learn but again, not mandatory and can be different depending on the team.
+I’ve written a blog post about working with a particular Git workflow &lt;a href=&quot;/git-workflow&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Sure if you wanted to level up your Git knowledge and understand what other features it has, then of course feel free to learn them, my point is that, anecdotally, I’ve found that learning and even trying to remember those features you’re not likely to use is not the best use of time, especially as a junior where that time can be used more effectively.&lt;/p&gt;
+
+&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
+
+&lt;p&gt;The reason I wanted to write this post was primarily to do with making it as simple to learn a topic as possible.&lt;/p&gt;
+
+&lt;p&gt;In my experience, when I’ve tried to learn something new, I find that I’m spending too much time on a topic and often never utilizing that knowledge. Git was a perfect example of this and having worked with it for a while I actually can serve up some data to prove my point.&lt;/p&gt;
+
+&lt;p&gt;I think I’ll create more of these kinds of posts, not only to make it simple for anyone reading this, but to revisit some of the topics myself.&lt;/p&gt;
+
+&lt;p&gt;For fun, I also saw a few git typos in my &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/.bash_history&lt;/code&gt; file, often occuring when I spam &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git status&lt;/code&gt;:
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git satus&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git stat&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git stattus&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git staus&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git statua&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git stauts&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git statu&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git dif&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git stasj&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;🤷&lt;/p&gt;
+
+&lt;h3 id=&quot;external-sources-&quot;&gt;External sources 💡&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://git-scm.com/&quot;&gt;Git&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/git-workflow&quot;&gt;Git Workflow (blog post)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Git&quot;&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">How can we simplify learning Git?</summary></entry><entry><title type="html">Configuring ASP.NET Core: The Startup Class</title><link href="http://jameslieu.co.uk/dotnet-config-startup/" rel="alternate" type="text/html" title="Configuring ASP.NET Core: The Startup Class" /><published>2021-03-17T00:00:00+00:00</published><updated>2021-03-17T00:00:00+00:00</updated><id>http://jameslieu.co.uk/dotnet-config-startup</id><content type="html" xml:base="http://jameslieu.co.uk/dotnet-config-startup/">&lt;p&gt;In my goal to further improve my understanding of C# .NET Core and ASP.NET Core, I’ve realised that I don’t fully understand how the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Startup.cs&lt;/code&gt; class actually works.&lt;/p&gt;
 
 &lt;p&gt;This code is usually pre-generated by Visual Studio and I’ve never really needed to add to or edit this class, including at my job. Whenever I did, it was often to copy/paste code from documentation when using new libraries i.e. AutoFac.&lt;/p&gt;
 
@@ -925,44 +1133,4 @@ The technique uses a timer to break down work into intervals, traditionally 25 m
 
 &lt;p&gt;Our minds needs regular breaks. Trying focus without giving yourself time to recover will likely drain you towards the end of the day.&lt;/p&gt;
 
-&lt;p&gt;I would recommend this technique for anyone who is struggling to stay motivated or easily distracted. It is especially helpful when working from home.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Productivity" /><summary type="html">I've been using the Pomodoro technique for work. It greatly improves time management and boosts productivity. I've been reflecting on why it's been so effective for me.</summary></entry><entry><title type="html">100 Days of Pluralsight</title><link href="http://jameslieu.co.uk/100-days-of-pluralsight/" rel="alternate" type="text/html" title="100 Days of Pluralsight" /><published>2020-07-24T00:00:00+01:00</published><updated>2020-07-24T00:00:00+01:00</updated><id>http://jameslieu.co.uk/100-days-of-pluralsight</id><content type="html" xml:base="http://jameslieu.co.uk/100-days-of-pluralsight/">&lt;p&gt;I’ve managed to achieve the 100 day learning streak for Pluralsight&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/100-days-of-pluralsight-1.png&quot; style=&quot;height:450px;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A few months ago, I’ve written a post about &lt;a href=&quot;/how-i-build-habits&quot;&gt;how I build habits&lt;/a&gt;, where I outline a method I use to create habits that allow me to perform tasks consistently in a maintainable way.&lt;/p&gt;
-
-&lt;p&gt;By applying this method, I have managed to watch Pluralsight daily for &lt;strong&gt;100 days straight&lt;/strong&gt;. I’d thought it would be good to share this milestone as well as reinforce the idea that &lt;strong&gt;small consistent actions can make a big impact on the end result&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;By only aiming to watch a minimum of 10 minutes of Pluralsight videos a day, I was able to consume so much content. Here are the receipts:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/100-days-of-pluralsight-2.png&quot; /&gt;
-&lt;em&gt;My Personal Profile as of 24th July 2020&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;So here is my 100 day learning streak insight. It also states I’ve watched 75+ hours of content, this is not actually the case, Pluralsight does not account for when you watch the courses are a higher speed i.e. 1.5x - 2.0x speed.&lt;/p&gt;
-
-&lt;p&gt;The audio for the videos seem to also be artificially slowed which seems a little disingenuous as it means the courses duration are not quite the length they say they are. I mention this in my &lt;a href=&quot;/pluralsight-review&quot;&gt;Pluralsight review&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Now onto the courses:
- &lt;img src=&quot;/assets/media/100-days-of-pluralsight-3.gif&quot; /&gt;
-&lt;em&gt;All the courses I’ve watched so far as of 24th July 2020&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The ‘red badge’ icon on the left of each course listed, are the ones I’ve completed. There were a few I didn’t finish watching because I either found not relevant, or I was already well-versed on the remaining videos or I’m currently watching them.&lt;/p&gt;
-
-&lt;p&gt;Bear in mind that this history includes courses completed even before the start of my streak. In fact, with the exception of two days (one in March and another in April), I’ve been watching Pluralsight daily since &lt;strong&gt;February 24th 2020&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/100-days-of-pluralsight-4.gif&quot; /&gt;
- &lt;em&gt;My daily streaks up until October (when I purchased the subscription)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;I remember those days I missed, each one I had basically forgotten to watch it that day, they were also days where my evening was unusually busy (on both days). Had I not broken my streak both times, my daily learning streak would’ve been &lt;strong&gt;151 days&lt;/strong&gt; today&lt;/p&gt;
-
-&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
-
-&lt;p&gt;As mentioned, I was really only able to achieve this due to &lt;a href=&quot;/how-i-build-habits&quot;&gt;building a habit&lt;/a&gt;. I highly recommend having a read to help you achieve your goals, whether its to exercise more or read more, this is an excellent way to get started.&lt;/p&gt;
-
-&lt;p&gt;Will I continue with this habit? Probably, my company did pay for a annual subscription, so it’d be a good idea to get as much value from it as I can. I don’t regret consuming this much content, they’re very educational and very relevant to my career.&lt;/p&gt;
-
-&lt;p&gt;It doesn’t look like anything special happens once I reached this milestone. It would be nice for Pluralsight to acknowledge it by sending an email or introduce achievement badges of some sort, perhaps that would encourage me to aim even higher, 200 daily streaks? 1 year? Regardless, its not really that important.&lt;/p&gt;
-
-&lt;p&gt;Would I recommend Pluralsight? &lt;a href=&quot;/pluralsight-review&quot;&gt;See my review here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;In any case, I’m pretty proud of my 100 day streak milestone!&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Productivity" /><summary type="html">I've managed to achieve the 100 day learning streak for Pluralsight</summary></entry></feed>
+&lt;p&gt;I would recommend this technique for anyone who is struggling to stay motivated or easily distracted. It is especially helpful when working from home.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Productivity" /><summary type="html">I've been using the Pomodoro technique for work. It greatly improves time management and boosts productivity. I've been reflecting on why it's been so effective for me.</summary></entry></feed>
