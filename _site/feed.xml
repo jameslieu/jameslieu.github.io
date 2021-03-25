@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://jameslieu.co.uk/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.co.uk/" rel="alternate" type="text/html" /><updated>2021-03-25T09:18:30+00:00</updated><id>http://jameslieu.co.uk/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Git For Junior Developers</title><link href="http://jameslieu.co.uk/git-for-junior-developers/" rel="alternate" type="text/html" title="Git For Junior Developers" /><published>2021-03-19T00:00:00+00:00</published><updated>2021-03-19T00:00:00+00:00</updated><id>http://jameslieu.co.uk/git-for-junior-developers</id><content type="html" xml:base="http://jameslieu.co.uk/git-for-junior-developers/">&lt;p&gt;&lt;img src=&quot;/assets/media/git-logo.jpg&quot; style=&quot;height:100px; margin: auto&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://jameslieu.co.uk/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.co.uk/" rel="alternate" type="text/html" /><updated>2021-03-25T09:44:04+00:00</updated><id>http://jameslieu.co.uk/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Git For Junior Developers</title><link href="http://jameslieu.co.uk/git-for-junior-developers/" rel="alternate" type="text/html" title="Git For Junior Developers" /><published>2021-03-19T00:00:00+00:00</published><updated>2021-03-19T00:00:00+00:00</updated><id>http://jameslieu.co.uk/git-for-junior-developers</id><content type="html" xml:base="http://jameslieu.co.uk/git-for-junior-developers/">&lt;p&gt;&lt;img src=&quot;/assets/media/git-logo.jpg&quot; style=&quot;height:100px; margin: auto&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;When learning Git, it had taken a while to actually understand it.&lt;/p&gt;
 
@@ -22,6 +22,14 @@
   &lt;/li&gt;
   &lt;li&gt;Install Git to your local machine&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h2 id=&quot;basic-workflow&quot;&gt;Basic workflow&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/git-workflow-5.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is a flowchart of what your basic workflow will look like, I’ve highlighted the commands you use to achieve each step. This is a fairly simplified chart but essentially this will be how you work with Git majority of the time.&lt;/p&gt;
+
+&lt;p&gt;There are going to be some steps inbetween depending on edge cases such as stashing code or reverting code using Git if you needed to, but otherwise this chart is pretty much Git in a nutshell.&lt;/p&gt;
 
 &lt;h4 id=&quot;introduction&quot;&gt;Introduction&lt;/h4&gt;
 
@@ -56,6 +64,39 @@
 &lt;p&gt;&lt;img src=&quot;/assets/media/git-workflow-1.png&quot; style=&quot;height: 500px;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The ability to branch off another branch grants numerous ways to collaborate or contribute to a project.&lt;/p&gt;
+
+&lt;h2 id=&quot;local-respository-vs-remote-repository-&quot;&gt;Local Respository vs Remote Repository 🚀&lt;/h2&gt;
+&lt;p&gt;A project where Git is used is known as a &lt;strong&gt;repository&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Local&lt;/strong&gt; repository means the project on your local machine or computer and is only available to you.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Remote&lt;/strong&gt; repository is the project which is hosted by a Git based hosting provider i.e. &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;, &lt;a href=&quot;https://gitlab.com&quot;&gt;GitLab&lt;/a&gt; or &lt;a href=&quot;https://bitbucket.com&quot;&gt;BitBucket&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The remote repository is what allows teams to collaborate against the same code base, making changes to code will almost always be done an a computer, so we need a “local” copy of the code base to do this, when you’ve made your branch, edits and commits.&lt;/p&gt;
+
+&lt;p&gt;You can then &lt;strong&gt;push&lt;/strong&gt; branches including &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt; to the remote making it available to your team via the internet. Your team can then have the option of &lt;strong&gt;pulling&lt;/strong&gt; that code back onto &lt;em&gt;their&lt;/em&gt; local machine and thus be able to access and make edits of their own.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/git-workflow-3.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The key thing to bear in mind is that you need to actively try to keep both your local and remote repository as up to date as possible.
+This also includes your local branches where you initially branched off master, but maybe later, the master branch has been updated since. So to deal with this, you can update your “local” master then &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;merge&lt;/code&gt; your updated local master with your local branch.&lt;/p&gt;
+
+&lt;p&gt;So pushing and pulling regularly is a good habit to have.&lt;/p&gt;
+
+&lt;h2 id=&quot;advantages&quot;&gt;Advantages&lt;/h2&gt;
+
+&lt;p&gt;Some of the other advantages relevant to developers are:&lt;/p&gt;
+
+&lt;h4 id=&quot;being-able-to-see-whats-changed&quot;&gt;Being able to see what’s changed.&lt;/h4&gt;
+&lt;p&gt;So Git tracks changes allowing you to see what has been changed since the last version. You can use that to quickly identify if any lines can be improved or even missing.&lt;/p&gt;
+
+&lt;h4 id=&quot;quickly-revert-any-changes-you-may-not-want&quot;&gt;Quickly revert any changes you may not want,&lt;/h4&gt;
+&lt;p&gt;Some developers may have used comments or logging code for debugging. Being able to see those lines and easily revert them is very useful.&lt;/p&gt;
+
+&lt;p&gt;Or even better, you may wanted to make a proof of concept or refactor some code but decide against committing that code, you can easily reverse all untracked or unstaged changes back to it’s last commit.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-source-code-is-easily-accessible&quot;&gt;The source code is easily accessible&lt;/h4&gt;
+&lt;p&gt;You can push your source code to a Git hosting service like Github, and anyone who has access can easily download the code to their local machine.&lt;/p&gt;
 
 &lt;h2 id=&quot;my-most-used-git-commands-&quot;&gt;My Most Used Git Commands 👍&lt;/h2&gt;
 
@@ -172,47 +213,6 @@
   &lt;li&gt;git merge&lt;/li&gt;
   &lt;li&gt;git remote (maybe)&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h2 id=&quot;local-respository-vs-remote-repository-&quot;&gt;Local Respository vs Remote Repository 🚀&lt;/h2&gt;
-&lt;p&gt;A project where Git is used is known as a &lt;strong&gt;repository&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Local&lt;/strong&gt; repository means the project on your local machine or computer and is only available to you.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Remote&lt;/strong&gt; repository is the project which is hosted by a Git based hosting provider i.e. &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;, &lt;a href=&quot;https://gitlab.com&quot;&gt;GitLab&lt;/a&gt; or &lt;a href=&quot;https://bitbucket.com&quot;&gt;BitBucket&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The remote repository is what allows teams to collaborate against the same code base, making changes to code will almost always be done an a computer, so we need a “local” copy of the code base to do this, when you’ve made your branch, edits and commits.&lt;/p&gt;
-
-&lt;p&gt;You can then &lt;strong&gt;push&lt;/strong&gt; branches including &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt; to the remote making it available to your team via the internet. Your team can then have the option of &lt;strong&gt;pulling&lt;/strong&gt; that code back onto &lt;em&gt;their&lt;/em&gt; local machine and thus be able to access and make edits of their own.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/git-workflow-3.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The key thing to bear in mind is that you need to actively try to keep both your local and remote repository as up to date as possible.
-This also includes your local branches where you initially branched off master, but maybe later, the master branch has been updated since. So to deal with this, you can update your “local” master then &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;merge&lt;/code&gt; your updated local master with your local branch.&lt;/p&gt;
-
-&lt;p&gt;So pushing and pulling regularly is a good habit to have.&lt;/p&gt;
-
-&lt;h2 id=&quot;basic-workflow&quot;&gt;Basic workflow&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/git-workflow-5.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Here is a flowchart of what your basic workflow will look like, I’ve highlighted the commands you use to achieve each step. This is a fairly simplified chart but essentially this will be how you work with Git majority of the time.&lt;/p&gt;
-
-&lt;p&gt;There are going to be some steps inbetween depending on edge cases such as stashing code or reverting code using Git if you needed to, but otherwise this chart is pretty much Git in a nutshell.&lt;/p&gt;
-
-&lt;h2 id=&quot;advantages&quot;&gt;Advantages&lt;/h2&gt;
-
-&lt;p&gt;Some of the other advantages relevant to developers are:&lt;/p&gt;
-
-&lt;h4 id=&quot;being-able-to-see-whats-changed&quot;&gt;Being able to see what’s changed.&lt;/h4&gt;
-&lt;p&gt;So Git tracks changes allowing you to see what has been changed since the last version. You can use that to quickly identify if any lines can be improved or even missing.&lt;/p&gt;
-
-&lt;h4 id=&quot;quickly-revert-any-changes-you-may-not-want&quot;&gt;Quickly revert any changes you may not want,&lt;/h4&gt;
-&lt;p&gt;Some developers may have used comments or logging code for debugging. Being able to see those lines and easily revert them is very useful.&lt;/p&gt;
-
-&lt;p&gt;Or even better, you may wanted to make a proof of concept or refactor some code but decide against committing that code, you can easily reverse all untracked or unstaged changes back to it’s last commit.&lt;/p&gt;
-
-&lt;h4 id=&quot;the-source-code-is-easily-accessible&quot;&gt;The source code is easily accessible&lt;/h4&gt;
-&lt;p&gt;You can push your source code to a Git hosting service like Github, and anyone who has access can easily download the code to their local machine.&lt;/p&gt;
 
 &lt;h2 id=&quot;conclusion-️&quot;&gt;Conclusion 💁‍♂️&lt;/h2&gt;
 

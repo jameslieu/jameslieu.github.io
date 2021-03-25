@@ -25,6 +25,14 @@ So the purpose of this post is to recommend **specifically** which commands are 
     - I recommend NOT using a Git GUI until you understand the basics
 - Install Git to your local machine
 
+## Basic workflow
+
+<img src="/assets/media/git-workflow-5.jpg"/>
+
+Here is a flowchart of what your basic workflow will look like, I've highlighted the commands you use to achieve each step. This is a fairly simplified chart but essentially this will be how you work with Git majority of the time.
+
+There are going to be some steps inbetween depending on edge cases such as stashing code or reverting code using Git if you needed to, but otherwise this chart is pretty much Git in a nutshell.
+
 #### Introduction
 
 Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.
@@ -34,6 +42,7 @@ In other version control systems, each developer gets a working copy that points
 Git, however, is a distributed version control system. Instead of a working copy, each developer gets their own local repository, complete with a fully-tracked history.
 
 This means that it is easy for developers to collaborate and even prevents any one developer from blocking the work from another because they would each have their own local repository.
+
 
 
 #### Master
@@ -59,6 +68,39 @@ Any edits you make to this new branch will not affect the original. When you’r
 <img src="/assets/media/git-workflow-1.png" style="height: 500px;"/>
 
 The ability to branch off another branch grants numerous ways to collaborate or contribute to a project.
+
+## Local Respository vs Remote Repository &#x1f680;
+A project where Git is used is known as a **repository**.
+
+**Local** repository means the project on your local machine or computer and is only available to you.
+
+**Remote** repository is the project which is hosted by a Git based hosting provider i.e. [GitHub](https://github.com), [GitLab](https://gitlab.com) or [BitBucket](https://bitbucket.com)
+
+The remote repository is what allows teams to collaborate against the same code base, making changes to code will almost always be done an a computer, so we need a "local" copy of the code base to do this, when you've made your branch, edits and commits.
+
+You can then **push** branches including `master` to the remote making it available to your team via the internet. Your team can then have the option of **pulling** that code back onto *their* local machine and thus be able to access and make edits of their own.
+
+<img src="/assets/media/git-workflow-3.png"/>
+
+The key thing to bear in mind is that you need to actively try to keep both your local and remote repository as up to date as possible.
+This also includes your local branches where you initially branched off master, but maybe later, the master branch has been updated since. So to deal with this, you can update your "local" master then `merge` your updated local master with your local branch.
+
+So pushing and pulling regularly is a good habit to have.
+
+## Advantages
+
+Some of the other advantages relevant to developers are:
+
+#### Being able to see what’s changed.
+So Git tracks changes allowing you to see what has been changed since the last version. You can use that to quickly identify if any lines can be improved or even missing.
+
+#### Quickly revert any changes you may not want,
+Some developers may have used comments or logging code for debugging. Being able to see those lines and easily revert them is very useful.
+
+Or even better, you may wanted to make a proof of concept or refactor some code but decide against committing that code, you can easily reverse all untracked or unstaged changes back to it’s last commit.
+
+#### The source code is easily accessible
+You can push your source code to a Git hosting service like Github, and anyone who has access can easily download the code to their local machine.
 
 ## My Most Used Git Commands &#x1f44d;
 
@@ -86,7 +128,6 @@ So I've looked at my `~/.bash_history` file, it records the last 2000 commands, 
 
 It's worth noting that I also use [SourceTree](https://www.sourcetreeapp.com/) when reviewing code changes. So staging and commiting code from that GUI is not factored in, as well as bash history only recording the last 2000 lines.
 
-
 Although there is a sizable list here the only ones I use on a day-to-day basis and recommend learning at minimum are:
 
 - git status
@@ -98,46 +139,7 @@ Although there is a sizable list here the only ones I use on a day-to-day basis 
 - git merge
 - git remote (maybe)
 
-## Local Respository vs Remote Repository &#x1f680;
-A project where Git is used is known as a **repository**.
 
-**Local** repository means the project on your local machine or computer and is only available to you.
-
-**Remote** repository is the project which is hosted by a Git based hosting provider i.e. [GitHub](https://github.com), [GitLab](https://gitlab.com) or [BitBucket](https://bitbucket.com)
-
-The remote repository is what allows teams to collaborate against the same code base, making changes to code will almost always be done an a computer, so we need a "local" copy of the code base to do this, when you've made your branch, edits and commits.
-
-You can then **push** branches including `master` to the remote making it available to your team via the internet. Your team can then have the option of **pulling** that code back onto *their* local machine and thus be able to access and make edits of their own.
-
-<img src="/assets/media/git-workflow-3.png"/>
-
-The key thing to bear in mind is that you need to actively try to keep both your local and remote repository as up to date as possible.
-This also includes your local branches where you initially branched off master, but maybe later, the master branch has been updated since. So to deal with this, you can update your "local" master then `merge` your updated local master with your local branch.
-
-So pushing and pulling regularly is a good habit to have.
-
-## Basic workflow
-
-<img src="/assets/media/git-workflow-5.jpg"/>
-
-Here is a flowchart of what your basic workflow will look like, I've highlighted the commands you use to achieve each step. This is a fairly simplified chart but essentially this will be how you work with Git majority of the time.
-
-There are going to be some steps inbetween depending on edge cases such as stashing code or reverting code using Git if you needed to, but otherwise this chart is pretty much Git in a nutshell.
-
-## Advantages
-
-Some of the other advantages relevant to developers are:
-
-#### Being able to see what’s changed.
-So Git tracks changes allowing you to see what has been changed since the last version. You can use that to quickly identify if any lines can be improved or even missing.
-
-#### Quickly revert any changes you may not want,
-Some developers may have used comments or logging code for debugging. Being able to see those lines and easily revert them is very useful.
-
-Or even better, you may wanted to make a proof of concept or refactor some code but decide against committing that code, you can easily reverse all untracked or unstaged changes back to it’s last commit.
-
-#### The source code is easily accessible
-You can push your source code to a Git hosting service like Github, and anyone who has access can easily download the code to their local machine.
 
 ## Conclusion &#x1f481;&#x200d;&#x2642;&#xfe0f;
 
