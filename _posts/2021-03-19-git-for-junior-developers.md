@@ -29,6 +29,13 @@ So the purpose of this post is to recommend **specifically** which commands are 
 
 Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.
 
+In other version control systems, each developer gets a working copy that points back to a single central repository.
+
+Git, however, is a distributed version control system. Instead of a working copy, each developer gets their own local repository, complete with a fully-tracked history.
+
+This means that it is easy for developers to collaborate and even prevents any one developer from blocking the work from another because they would each have their own local repository.
+
+
 #### Master
 The `master` branch is the convention name for the "main" branch which is considered the code used for production. This branch is the base which you build upon, and so you would "branch" off this one to achieve to add new features or changes.
 
@@ -36,11 +43,22 @@ The `master` branch is the convention name for the "main" branch which is consid
 Think of **branching** as cloning or duplicating the code base, any edits you make to a new **branch** will not affect the original. When you're edits are complete you can then **commit** those edits and then **merge** your edits with the original (where you branched off from).
 
 #### Commit
-The first clarification I think is important to remember is the fundamental idea that Git tracks **commits**.
+Ok to start, the first clarification to mention, is that Git tracks code with commits.
 
-Think of **Commits** as the *state* of the codebase. So, if you **branch** off `master` for example, you have all of `master`'s **commits**. In the new branch you add some code then **commit** it, your branch has those **Commits** including `master`'s **Commits** (since you last `git pulled`). However, `master` will not have the branch's new **commits** (until you `merge` them)
+Think of Commits as the **versions** of the codebase, and each commit is it’s own version. When a developer is working on a Git repository, they’re usually working with the last or latest commit as that is the most up-to-date version of the codebase.
+
+In fact, a developer can theoretically choose any existing commit on a Git repository they wanted to work on. So if it helps, Git commits are basically unique versions of the code base. Hence version control.
+
+#### Feature Branches
+Git utilizes a feature called branching. Although the word branch is synonymous with a branch of a tree or subdivision of a bank for example, in Git, it is actually easier, in my opinion to think of feature branches as a clone of the code base.
+
+For example, if you have a project which uses Git, that project will have a branch by default. Git allows you to create a new branch on that project which essentially has the same state of the code base as the original branch you’ve branched off of.
+
+Any edits you make to this new branch will not affect the original. When you’re edits are complete you can then commit those edits which at that time is only available to the branch you’re on. And you then have the option to merge your commits with the original branch.
 
 <img src="/assets/media/git-workflow-1.png" style="height: 500px;"/>
+
+The ability to branch off another branch grants numerous ways to collaborate or contribute to a project.
 
 ## My Most Used Git Commands &#x1f44d;
 
@@ -97,6 +115,29 @@ The key thing to bear in mind is that you need to actively try to keep both your
 This also includes your local branches where you initially branched off master, but maybe later, the master branch has been updated since. So to deal with this, you can update your "local" master then `merge` your updated local master with your local branch.
 
 So pushing and pulling regularly is a good habit to have.
+
+## Basic workflow
+
+<img src="/assets/media/git-workflow-5.jpg"/>
+
+Here is a flowchart of what your basic workflow will look like, I've highlighted the commands you use to achieve each step. This is a fairly simplified chart but essentially this will be how you work with Git majority of the time.
+
+There are going to be some steps inbetween depending on edge cases such as stashing code or reverting code using Git if you needed to, but otherwise this chart is pretty much Git in a nutshell.
+
+## Advantages
+
+Some of the other advantages relevant to developers are:
+
+#### Being able to see what’s changed.
+So Git tracks changes allowing you to see what has been changed since the last version. You can use that to quickly identify if any lines can be improved or even missing.
+
+#### Quickly revert any changes you may not want,
+Some developers may have used comments or logging code for debugging. Being able to see those lines and easily revert them is very useful.
+
+Or even better, you may wanted to make a proof of concept or refactor some code but decide against committing that code, you can easily reverse all untracked or unstaged changes back to it’s last commit.
+
+#### The source code is easily accessible
+You can push your source code to a Git hosting service like Github, and anyone who has access can easily download the code to their local machine.
 
 ## Conclusion &#x1f481;&#x200d;&#x2642;&#xfe0f;
 
