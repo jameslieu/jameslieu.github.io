@@ -4,6 +4,7 @@ title: "Git For Junior Developers"
 categories: Programming
 excerpt: How can we simplify learning Git?
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/22Y9LTswLME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <img src="/assets/media/git-logo.jpg" style="height:100px; margin: auto">
 
