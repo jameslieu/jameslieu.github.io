@@ -1,4 +1,133 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://jameslieu.co.uk/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.co.uk/" rel="alternate" type="text/html" /><updated>2021-03-28T21:31:45+01:00</updated><id>http://jameslieu.co.uk/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Git For Junior Developers</title><link href="http://jameslieu.co.uk/git-for-junior-developers/" rel="alternate" type="text/html" title="Git For Junior Developers" /><published>2021-03-19T00:00:00+00:00</published><updated>2021-03-19T00:00:00+00:00</updated><id>http://jameslieu.co.uk/git-for-junior-developers</id><content type="html" xml:base="http://jameslieu.co.uk/git-for-junior-developers/">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/22Y9LTswLME&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://jameslieu.co.uk/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.co.uk/" rel="alternate" type="text/html" /><updated>2021-03-30T20:21:28+01:00</updated><id>http://jameslieu.co.uk/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Choosing Your First Programming Language</title><link href="http://jameslieu.co.uk/choosing-your-first-programming-language/" rel="alternate" type="text/html" title="Choosing Your First Programming Language" /><published>2021-03-30T00:00:00+01:00</published><updated>2021-03-30T00:00:00+01:00</updated><id>http://jameslieu.co.uk/choosing-your-first-programming-language</id><content type="html" xml:base="http://jameslieu.co.uk/choosing-your-first-programming-language/">&lt;p&gt;Choosing your first programming language can be one of the most important decisions made when starting your programming journey.&lt;/p&gt;
+
+&lt;p&gt;It’s crucial because this will be the one you’ll be &lt;strong&gt;learning&lt;/strong&gt; with. This could be anywhere between:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Building projects&lt;/li&gt;
+  &lt;li&gt;Reading or contributing to existing source code&lt;/li&gt;
+  &lt;li&gt;Learning programming principles or concepts&lt;/li&gt;
+  &lt;li&gt;Solving programming challenges&lt;/li&gt;
+  &lt;li&gt;Debugging&lt;/li&gt;
+  &lt;li&gt;Searching for solutions when you’re stuck using Google&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You’re able to achieve all of this with most programming languages, but some are in better positions than others to make learning how to code substantially easier.
+Not only this, but to position yourself, so that you can get your first programming job as soon as possible.&lt;/p&gt;
+
+&lt;p&gt;Here are some steps you can take to choose the right programming language for you.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-create-a-shortlist&quot;&gt;1. Create a Shortlist&lt;/h2&gt;
+
+&lt;p&gt;The first step I would recommend is to create a shortlist. It’s not too difficult to find some websites or even videos on which are the most popular languages in 2021.
+The shortlist you create could be different from others depending on what path you want to take.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/choose-programming-language-1.jpg&quot; style=&quot;height: 200px; margin: 10px 0;&quot; /&gt;
+For example, if you wanted to be a front-end or UI developer then really the language you’ll want to go with is JavaScript.
+HTML and CSS are not programming languages but you would need to learn those as well, often people would recommend you learn those first.
+I think you should learn JavaScript first before those two.&lt;/p&gt;
+
+&lt;p&gt;Another example would be Game Development, games can theoretically be created using any programming language, but professionally, it would be between C# or C++.&lt;/p&gt;
+
+&lt;p&gt;Here are some sources on what programming languages are popular.&lt;/p&gt;
+
+&lt;h4 id=&quot;stack-overflow-survey&quot;&gt;Stack Overflow Survey&lt;/h4&gt;
+&lt;p&gt;The &lt;a href=&quot;https://insights.stackoverflow.com/survey/2020#most-popular-technologies&quot;&gt;Stack Overflow survey 2020&lt;/a&gt; is a popular comprehensive annual developer survey.&lt;/p&gt;
+
+&lt;p&gt;You can get a good idea on what is popular among developers, what programming languages they enjoy, what they would like to start using or learning , and also what they’re using professionally, which indicates it’s job prospects.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/choose-programming-language-2.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;google-it&quot;&gt;Google it&lt;/h4&gt;
+&lt;p&gt;You can Google &lt;a href=&quot;https://www.google.com/search?q=most+popular+programming+languages+2021&quot;&gt;most popular programming languages&lt;/a&gt; as well.
+This topic is very popular and has many articles or videos on the subject, and from what I’ve seen there is a degree of consistency between them all. So it shouldn’t take long at all to create your shortlist.&lt;/p&gt;
+
+&lt;h4 id=&quot;tiobe-index&quot;&gt;Tiobe Index&lt;/h4&gt;
+&lt;p&gt;The &lt;a href=&quot;https://www.tiobe.com/tiobe-index/&quot;&gt;Tiobe Index&lt;/a&gt; is a good indicator on what’s popular. It’s updated monthly and ratings are based on the number of skilled engineers world-wide, courses and third party vendors.
+Popular search engines such as Google, Bing, Yahoo!, Wikipedia, Amazon, and YouTube are used to calculate the ratings. It’s not an indicator of what is the best language but how frequent a language is mentioned on the internet, I wouldn’t rely solely on this to choose your programming language but you can use this data to see trends. This is how I started to realise that, Ruby, my first programming language is starting to decline in popularity.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/choose-programming-language.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you have a shortlist, my recommendation is to narrow it down to 3 options.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-consider-the-most-important-factor&quot;&gt;2. Consider the Most Important Factor&lt;/h2&gt;
+
+&lt;p&gt;The most important factor, in my opinion, is to decide based on job opportunities in your area.&lt;/p&gt;
+
+&lt;p&gt;I assume that as a junior, you want to learn to code in order to pursue a career in programming.&lt;/p&gt;
+
+&lt;p&gt;If so, choosing a programming language where there are many opportunities available to you is a priority, especially when you have little to no professional experience.&lt;/p&gt;
+
+&lt;p&gt;The priority should not be simply, learning what language looks the most pretty, the easiest to learn or even necessarily choosing it based how many people like it.&lt;/p&gt;
+
+&lt;p&gt;It would be more effective to prioritize getting a job because once you do, your ability to learn dramatically increases, you’ll have gained some benefits such as:
+	- a live application to contribute to
+	- a team of developers including seniors to work with and learn from
+	- The opportunity to grow your network
+	- Gain professional experience&lt;/p&gt;
+
+&lt;p&gt;More importantly, you’re being paid a salary while learning. The starting amount may not be that great but the true value of getting the job is the experience and opportunity of working you will have gained.&lt;/p&gt;
+
+&lt;p&gt;Once you get your foot through the door, then your career trajectory will begin to go up. In fact, your salary and earning potential will also go up, but the first hurdle is to get that job.&lt;/p&gt;
+
+&lt;h4 id=&quot;why-dont-i-just-learn-python&quot;&gt;Why Don’t I Just Learn Python?&lt;/h4&gt;
+
+&lt;p&gt;Python is considered a very beginner friendly language, and would be the one I would typically recommend. In fact, most of the “most popular programming language” articles or videos on the internet will likely have Python in their list.&lt;/p&gt;
+
+&lt;p&gt;The issue is if you plan to build your career as a Python developer, what good is it, to learn python if there are no job opportunities available to you because of where you live?
+If there were then absolutely go for Python as your first programming language.&lt;/p&gt;
+
+&lt;p&gt;This may no longer be a problem because more and more companies are offering remote working opportunities.&lt;/p&gt;
+
+&lt;p&gt;Otherwise, the exception is to learn it ONLY if you’re learning it as a hobby with no intention of getting a job with it in the near future.
+Learning Python in order to learn programming concepts and a base &lt;strong&gt;before&lt;/strong&gt; switching to a different programming language is also a viable strategy but will stagnate your learning because you would need additional time to learn the features of the new programming language.&lt;/p&gt;
+
+&lt;p&gt;My recommendation is to choose only one language and focus ONLY on this, there are going to be other languages you may need to learn as part of your job such as HTML/CSS maybe JavaScript if you’re considering a full-stack developer role. I myself, switched server-side language a few times in my professional career, and I think it stagnated my learning to some degree.&lt;/p&gt;
+
+&lt;h4 id=&quot;example&quot;&gt;Example&lt;/h4&gt;
+
+&lt;p&gt;On &lt;a href=&quot;https://indeed.co.uk&quot;&gt;indeed.co.uk&lt;/a&gt;, in London there are 2000+ Python developer jobs, but if you lived in a location such as Milton Keyes, there are fewer than 20 job applications,&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/choose-programming-language-4.jpg&quot; style=&quot;margin: 10px 0; border: 1px solid #eee&quot; /&gt;
+&lt;em&gt;There are &lt;strong&gt;2,130 Python Developer jobs&lt;/strong&gt; in London 30/03/2021&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/choose-programming-language-3.jpg&quot; style=&quot;margin: 10px 0; border: 1px solid #eee&quot; /&gt;
+&lt;em&gt;There are only &lt;strong&gt;20 Python Developer jobs&lt;/strong&gt; in Milton Keynes 30/03/2021&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Note that these are general Python developer jobs which includes mid to senior roles, so those opportunities may not be available for juniors anyway.
+But this is true for any programming language job, more job opportunities increases likelihood to not only get an interview but to potentially receive a job offer.&lt;/p&gt;
+
+&lt;h2 id=&quot;tooling&quot;&gt;Tooling&lt;/h2&gt;
+
+&lt;p&gt;The tooling available is something to think about, although not mandatory.
+Anything that will make working in programming easier is worth considering.&lt;/p&gt;
+
+&lt;p&gt;Being able to easily debug code, leverage open-source libraries for specific requirements, easily set up your development environment, deployment is not trivial.
+Being blocked from learning because you cannot get a library to work or to set up your debugger and having to investigate how, can be very frustrating and waste a lot time.&lt;/p&gt;
+
+&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
+
+&lt;p&gt;An active community for the programming language you choose is very useful, because you’re able to leverage their knowledge and experience by asking questions, finding related blog posts or articles,
+You can join forums or online communities like reddit and it’s easier to find solutions to problems from your own projects if other people have also experienced and shared it.&lt;/p&gt;
+
+&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
+
+&lt;p&gt;So these are some of the things you can do to help choose your first programming language. Once you learn the very basics of programming such as data types, variables, loops methods, classes etc, then it’s not a bad idea to look at the other programming languages in your shortlist&lt;/p&gt;
+
+&lt;p&gt;If you wanted my opinion, I would recommend 3 languages to start with as a beginner.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;C#&lt;/li&gt;
+  &lt;li&gt;JavaScript&lt;/li&gt;
+  &lt;li&gt;Python&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;But if you only wanted my opinion on which to choose first, I may be biased because I’m a C# developer, but in my years as a programmer, I have used numerous programming languages professionally such as Ruby, PHP, JavaScript, TypeScript and also experienced some others such as Golang. I would go with C# every time.&lt;/p&gt;
+
+&lt;p&gt;Having experienced those other languages first hand, I can confidently say that C# is the one I wished I started learning first and I would recommend this programming language the most. That said you can’t go wrong with JavaScript or Python either so long as there are job opportunities for these languages in your area.&lt;/p&gt;
+
+&lt;p&gt;If there are very few job opportunities using these programming languages in your area, then figure out which ones are, Java, PHP, Ruby, Golang, Rust, C++ are also viable options but I would only choose these based on job opportunities, because as a first programming language, there are going to be reasons why they’re less suited for beginners compared to the ones I am recommending.&lt;/p&gt;
+
+&lt;p&gt;That said, I’m just a random guy on the internet, don’t just take my word on it, but I hope this post has been useful for you, to at least consider my thoughts and logic behind my choices.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">There are a few factors to consider before deciding which one to go with.</summary></entry><entry><title type="html">Git For Junior Developers</title><link href="http://jameslieu.co.uk/git-for-junior-developers/" rel="alternate" type="text/html" title="Git For Junior Developers" /><published>2021-03-19T00:00:00+00:00</published><updated>2021-03-19T00:00:00+00:00</updated><id>http://jameslieu.co.uk/git-for-junior-developers</id><content type="html" xml:base="http://jameslieu.co.uk/git-for-junior-developers/">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/22Y9LTswLME&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/media/git-logo.jpg&quot; style=&quot;height:100px; margin: auto&quot; /&gt;&lt;/p&gt;
 
@@ -1111,68 +1240,4 @@ They connect Steps to programming code and carries out the action that should be
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/cucumber/cucumber-js&quot;&gt;https://github.com/cucumber/cucumber-js&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Cucumber_(software)&quot;&gt;https://en.wikipedia.org/wiki/Cucumber_(software)&lt;/a&gt;&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">What are cucumber tests and why might they be useful</summary></entry><entry><title type="html">Pomodoro Technique</title><link href="http://jameslieu.co.uk/pomodoro-technique/" rel="alternate" type="text/html" title="Pomodoro Technique" /><published>2020-08-03T00:00:00+01:00</published><updated>2020-08-03T00:00:00+01:00</updated><id>http://jameslieu.co.uk/pomodoro-technique</id><content type="html" xml:base="http://jameslieu.co.uk/pomodoro-technique/">&lt;p&gt;I’ve been using the Pomodoro technique for work. It greatly improves time management and boosts productivity. I’ve been reflecting on why it’s been so effective for me.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/pomodoro-technique-1.png&quot; style=&quot;height:150px;margin:0 auto&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;what-is-the-pomodoro-technique&quot;&gt;What is the Pomodoro technique?&lt;/h2&gt;
-
-&lt;p&gt;According to &lt;a href=&quot;https://en.m.wikipedia.org/wiki/Pomodoro_Technique&quot;&gt;Wikipedia&lt;/a&gt;. the Pomodoro Technique is a time management method developed by Francesco Cirillo.
-The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks.&lt;/p&gt;
-
-&lt;p&gt;There are six steps in the original technique:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Decide on the task to be done.&lt;/li&gt;
-  &lt;li&gt;Set the pomodoro timer (traditionally to 25 minutes).&lt;/li&gt;
-  &lt;li&gt;Work on the task.&lt;/li&gt;
-  &lt;li&gt;End work when the timer rings and put a checkmark on a piece of paper.&lt;/li&gt;
-  &lt;li&gt;If you have fewer than four checkmarks, take a short break (3–5 minutes) and then return to step 2; otherwise continue to step 6.&lt;/li&gt;
-  &lt;li&gt;After four pomodoros, take a longer break (15–30 minutes), reset your checkmark count to zero, then go to step 1.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;my-experience-&quot;&gt;My Experience 🧔&lt;/h2&gt;
-
-&lt;p&gt;I’ve been finding myself pretty tired lately, it’s sometimes hard to focus and be productive, so I’ve started applying this technique into my work days to see if this will help.&lt;/p&gt;
-
-&lt;p&gt;I use an application called &lt;a href=&quot;https://www.focustodo.cn/&quot;&gt;Focus To-do&lt;/a&gt; and also recommend &lt;a href=&quot;https://tide.fm/en_US/&quot;&gt;Tide&lt;/a&gt; for Android/iPhone&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/pomodoro-technique-2.png&quot; style=&quot;height:200px; float:left&quot; /&gt;
-&lt;img src=&quot;/assets/media/pomodoro-technique-3.png&quot; style=&quot;height:200px&quot; /&gt;
-&lt;a href=&quot;https://www.focustodo.cn/&quot;&gt;https://www.focustodo.cn/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Having used the Pomodoro technique, I’ve come to realise some of the other hidden benefits it provides.&lt;/p&gt;
-
-&lt;h3 id=&quot;prompts-you-to-work-&quot;&gt;Prompts you to work ⏱&lt;/h3&gt;
-&lt;p&gt;There are days where your motivation to do anything is lower than usual, maybe you didn’t sleep well the night before, maybe you’re feeling mentally drained. Triggering a Pomodoro timer, will prompt you to start work,&lt;/p&gt;
-
-&lt;h3 id=&quot;helps-with-focus-&quot;&gt;Helps with focus 💡&lt;/h3&gt;
-&lt;p&gt;Knowing that I have one pomodoro (25 minutes) to complete a task or two, the mentality of knowing there is a countdown ongoing, encourages me to remain focused on the task at hand.&lt;/p&gt;
-
-&lt;p&gt;It also helps, to check how much time is left every now and then to consider quickly how I’m progressing and whether I can completely finish the task before the timer runs out or to leave it in a position to pick up where I left off after the break.&lt;/p&gt;
-
-&lt;h3 id=&quot;helps-with-distractions-&quot;&gt;Helps with distractions 💢&lt;/h3&gt;
-&lt;p&gt;It’s not uncommon to be distracted while working, whether it’s looking at your phone or browsing the internet. In my experience, I’ve done this a number of times, but when in the middle of a pomodoro session, I’m conscious about the timer ticking away and so I mentally try not to waste it be focusing on the task.&lt;/p&gt;
-
-&lt;h3 id=&quot;encourages-more-breaks-&quot;&gt;Encourages more breaks ⏳&lt;/h3&gt;
-&lt;p&gt;Having rest breaks will boost energy levels as you work throughout the day. The more you take, the more energy you replenish. But we often don’t realise how long we’ve been working until something distracts us such as going for a loo break, feeling hungry or thirsty.&lt;/p&gt;
-
-&lt;p&gt;The breaks should be away from your desk or monitor. You’re encouraged to move around or look at something that is not your work monitor.&lt;/p&gt;
-
-&lt;p&gt;In my experience, when I’ve worked without many breaks, I tend to be very mentally drained towards the last couple of hours of work and even in the evenings. By adopting the pomodoro technique, the breaks are short and plenty, and for me personally, I’ve found myself to have a lot more energy throughout the day because I had taken the breaks as directed.&lt;/p&gt;
-
-&lt;h3 id=&quot;other-considerations-&quot;&gt;Other Considerations 🤔&lt;/h3&gt;
-
-&lt;p&gt;This technique doesn’t seem to work for everyone. We’ve tried it during pair programming and the team member whom I was paired with said that It breaks the flow of conversation or the train of thought as 25 minutes intervals are too short.&lt;/p&gt;
-
-&lt;p&gt;This is also true for larger meetings of 3 or more people, 25 minutes seems to not be enough time for everyone to contribute to the discussion. If anything, the breaks feels more like an interruption.&lt;/p&gt;
-
-&lt;p&gt;Although, we can increase the Pomodoro time to more than 25 minutes. &lt;a href=&quot;https://zoom.us/&quot;&gt;Zoom&lt;/a&gt; has a 40 minute limit for its free plan. I think 40 minutes is a good number for a break between meetings. As meetings itself can be extremely draining if its duration is too long.&lt;/p&gt;
-
-&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
-
-&lt;p&gt;I personally like this technique, I think it works very well with programming, especially when you’re sitting in front of the monitor for large portions of the day. I feel less tired in the evenings and at the more productive overall. I don’t use this technique every day but I feel like I should.&lt;/p&gt;
-
-&lt;p&gt;Our minds needs regular breaks. Trying focus without giving yourself time to recover will likely drain you towards the end of the day.&lt;/p&gt;
-
-&lt;p&gt;I would recommend this technique for anyone who is struggling to stay motivated or easily distracted. It is especially helpful when working from home.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Productivity" /><summary type="html">I&apos;ve been using the Pomodoro technique for work. It greatly improves time management and boosts productivity. I&apos;ve been reflecting on why it&apos;s been so effective for me.</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Cucumber_(software)&quot;&gt;https://en.wikipedia.org/wiki/Cucumber_(software)&lt;/a&gt;&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">What are cucumber tests and why might they be useful</summary></entry></feed>
