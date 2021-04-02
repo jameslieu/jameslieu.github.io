@@ -5,6 +5,8 @@ categories: Programming
 excerpt: There are a few factors to consider before deciding which one to go with.
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-NjvNJspF8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Choosing your first programming language can be one of the most important decisions made when starting your programming journey.
 
 It's crucial because this will be the one you'll be **learning** with. This could be anywhere between:
