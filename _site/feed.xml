@@ -1,4 +1,72 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://jameslieu.co.uk/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.co.uk/" rel="alternate" type="text/html" /><updated>2021-04-02T14:28:19+01:00</updated><id>http://jameslieu.co.uk/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Choosing Your First Programming Language</title><link href="http://jameslieu.co.uk/choosing-your-first-programming-language/" rel="alternate" type="text/html" title="Choosing Your First Programming Language" /><published>2021-03-30T00:00:00+01:00</published><updated>2021-03-30T00:00:00+01:00</updated><id>http://jameslieu.co.uk/choosing-your-first-programming-language</id><content type="html" xml:base="http://jameslieu.co.uk/choosing-your-first-programming-language/">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-NjvNJspF8s&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://jameslieu.co.uk/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.co.uk/" rel="alternate" type="text/html" /><updated>2021-04-03T22:08:03+01:00</updated><id>http://jameslieu.co.uk/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Why Some People Fail to Learn Programming</title><link href="http://jameslieu.co.uk/why-some-people-fail-to-learn-programming/" rel="alternate" type="text/html" title="Why Some People Fail to Learn Programming" /><published>2021-04-03T00:00:00+01:00</published><updated>2021-04-03T00:00:00+01:00</updated><id>http://jameslieu.co.uk/why-some-people-fail-to-learn-programming</id><content type="html" xml:base="http://jameslieu.co.uk/why-some-people-fail-to-learn-programming/">&lt;h3 id=&quot;short-answer-those-people-failed-to-learn-programming-because-they-chose-to-fail&quot;&gt;Short answer: Those people failed to learn programming because they chose to fail.&lt;/h3&gt;
+
+&lt;h2 id=&quot;why-did-they-fail&quot;&gt;Why Did They Fail?&lt;/h2&gt;
+
+&lt;p&gt;Maybe they chose the wrong courses, or the wrong programming language, or they chose to watch Netflix instead of sitting at their desk to study. The point is everything you do in your life is your choice.&lt;/p&gt;
+
+&lt;p&gt;I don’t want to sound too harsh, but with all things in life, holding ourselves accountable is the best way to grow and move forward, blaming others or things outside of your control is neither productive nor necessarily the reality of what happened.&lt;/p&gt;
+
+&lt;p&gt;So if you failed to learn programming or pursue a programming career, that is a choice you chose to make.&lt;/p&gt;
+
+&lt;p&gt;Don’t blame it on anything, don’t blame it on anyone or past mistakes, those are current things you’re choosing to do. Also bear in mind, that is not necessarily a bad thing either.&lt;/p&gt;
+
+&lt;p&gt;So if you wanted to learn programming, you would’ve learned programming, you would’ve put in the hours, did the research, find the relevant courses or even paid money to learn to code.&lt;/p&gt;
+
+&lt;p&gt;We all lose interest in things, such as studying programming concepts or building that personal project or portfolio. If you want results, you just have to work whether you feel like it or not, you can’t blame it on anything or anyone.&lt;/p&gt;
+
+&lt;p&gt;When it came to try to get your first programming job or a career in programming, if you failed to do that, it was because you chose to fail.&lt;/p&gt;
+
+&lt;h2 id=&quot;my-own-experience&quot;&gt;My Own Experience&lt;/h2&gt;
+
+&lt;p&gt;In case you weren’t aware, I started my programming journey by enrolling to a Web Development Bootcamp.&lt;/p&gt;
+
+&lt;p&gt;In my cohort, from what I can tell, only 2 people including myself have become developers from that experience. That’s not to say that &lt;strong&gt;everyone&lt;/strong&gt; that didn’t turn into developers didn’t get value from the Bootcamp but if from what I can tell they didn’t become software developers.&lt;/p&gt;
+
+&lt;p&gt;Some were able to use their programming knowledge to help with their own businesses or career paths, while not necessarily coding related but within the industry they ended up in.&lt;/p&gt;
+
+&lt;h3 id=&quot;i-couldve-failed&quot;&gt;I could’ve failed&lt;/h3&gt;
+
+&lt;p&gt;I could’ve easily been one of the people didn’t become a developer from this. I remember that I really struggled to grasp the concepts and basics of programming during the course.&lt;/p&gt;
+
+&lt;p&gt;In fact, when initially applying for this bootcamp, &lt;strong&gt;I was rejected twice&lt;/strong&gt;, the reason was that during the technical test, I had failed to demonstrate good problem solving skills as well as any proof that I studied particularly hard on the days leading up to the day of the interview and technical test.&lt;/p&gt;
+
+&lt;p&gt;I was told both times that I have poor problem solving skills and would struggle to succeed in this career path. I remember the second time, I basically had to beg to be given a chance to enrol, and I said that if I failed, then it would be on me because I’m prepared to lose the tuition.&lt;/p&gt;
+
+&lt;p&gt;Having given the opportunity, I chose to work hard. That said, he was right, my problem solving skills were terrible and I struggled. I was able to do very little and getting a job after this was really tough.&lt;/p&gt;
+
+&lt;h2 id=&quot;my-first-few-roles&quot;&gt;My First Few Roles&lt;/h2&gt;
+
+&lt;p&gt;I managed to find a start-up company who were willing to take me on for free as an internship. I had worked there for 3 months (had my expenses covered).&lt;/p&gt;
+
+&lt;p&gt;I helped with their website but did a poor job (I remember I used inline CSS 😱), I was then tasked with trying to create a prototype mobile app and also learning how to create mobile apps using “Ruby Motion”, the whole thing was a bit of a mess, but I persevered and ended up leveraging this experience to not only get a recommendation on LinkedIn but a reference in order to progress to the next role.&lt;/p&gt;
+
+&lt;p&gt;I really had no idea what I was doing. During this time I was also tasked to do illustration and animation for these start ups, even then the quality and standard was poor, my prospects were not looking good.&lt;/p&gt;
+
+&lt;h2 id=&quot;little-talent&quot;&gt;Little Talent&lt;/h2&gt;
+
+&lt;p&gt;The reality is that I have some experience but very little talent for animation, illustration and problem solving.&lt;/p&gt;
+
+&lt;p&gt;These are things I acknowledge but I didn’t let that stop me from aiming higher, I instead took advantage of other qualities I had, such as good work ethics, being easy to work with and striving to learn more on the job or in my own time.&lt;/p&gt;
+
+&lt;p&gt;And therefore, I was able to get that reference in order to move to the next role.&lt;/p&gt;
+
+&lt;p&gt;I used some free time to learn to code, build projects and tried to expose myself to programming related topics through websites like Reddit or HackerNews for example.&lt;/p&gt;
+
+&lt;p&gt;I kept my CV up to date, made sure I spoke with recruiters and send applications where I could.&lt;/p&gt;
+
+&lt;p&gt;Each subsequent job was a milestone, and with each milestone I was able to get better and grow. Not only was my knowledge in programming growing, but my salary and earning potential. Growing on the job made it easier because I was being paid to do it (among providing a service to my employers).&lt;/p&gt;
+
+&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
+
+&lt;p&gt;Admittedly I didn’t do as much self-learning or study as I “should” have. But I made efforts where I could and that reflects my growth from a career standpoint.&lt;/p&gt;
+
+&lt;p&gt;Ultimately, there are some who have grown substantially more than I have in less time, as well as grown less than I have in the same amount of time.&lt;/p&gt;
+
+&lt;p&gt;I only have myself to blame and if I wanted to get better, I need to choose to get better and take the steps necessary to achieve that.&lt;/p&gt;
+
+&lt;p&gt;And any successes I have achieved thus far, were due to me choosing to succeed in that space.&lt;/p&gt;
+
+&lt;p&gt;Holding ourselves accountable instead of blaming and being a victim, is the mindset that will greatly improve your outlook on life once you adopt it.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">Probably not the answer you're expecting.</summary></entry><entry><title type="html">Choosing Your First Programming Language</title><link href="http://jameslieu.co.uk/choosing-your-first-programming-language/" rel="alternate" type="text/html" title="Choosing Your First Programming Language" /><published>2021-03-30T00:00:00+01:00</published><updated>2021-03-30T00:00:00+01:00</updated><id>http://jameslieu.co.uk/choosing-your-first-programming-language</id><content type="html" xml:base="http://jameslieu.co.uk/choosing-your-first-programming-language/">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-NjvNJspF8s&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Choosing your first programming language can be one of the most important decisions made when starting your programming journey.&lt;/p&gt;
 
@@ -1140,106 +1208,4 @@ It would be preferable to move-on and even better to receive an event notifying 
 
 &lt;p&gt;Also, it’s worth noting that I was an early member of Maker’s Academy and they were still figuring out the curriculum. They also hadn’t built the reputation and partners they have today, so it was a bigger struggle for us early adopters than those who have enrolled in the past few years.&lt;/p&gt;
 
-&lt;p&gt;Do I recommend it? Probably I would, if you’re serious about pursuing a career in software development. It can be pretty expensive but you’d be able to get a return on that investment very quickly providing you put in the time and energy to make that happen.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Career" /><summary type="html">An old programming journal entry - 2018-07-09</summary></entry><entry><title type="html">Introduction To Cucumber</title><link href="http://jameslieu.co.uk/introduction-to-cucumber/" rel="alternate" type="text/html" title="Introduction To Cucumber" /><published>2020-08-07T00:00:00+01:00</published><updated>2020-08-07T00:00:00+01:00</updated><id>http://jameslieu.co.uk/introduction-to-cucumber</id><content type="html" xml:base="http://jameslieu.co.uk/introduction-to-cucumber/">&lt;p&gt;&lt;img src=&quot;/assets/media/cucumber-tests-1.png&quot; style=&quot;height: 50px; margin:0 auto&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;what-is-cucumber-&quot;&gt;What is Cucumber? 🥒&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://cucumber.io/&quot;&gt;Cucumber&lt;/a&gt; is an open source tool for running automated tests written in plain language.&lt;/p&gt;
-
-&lt;p&gt;Because they’re written in plain language, they can be read by anyone involved with the product development. And it can be used to help improve communication, collaboration and trust.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/cucumber-tests-2.png&quot; style=&quot;height: 200px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Cucumber reads executable specifications written in plain text, it validates the software’s behaviour based on those specifications and they consist of multiple scenarios and each scenario has a list of steps for Cucumber to work through.&lt;/p&gt;
-
-&lt;p&gt;It verifies that the software conforms with the specification and generates a report, indicating success or failure for each scenario.&lt;/p&gt;
-
-&lt;p&gt;In order for Cucumber to understand the scenarios, they must follow some basic syntax rules, called Gherkin.&lt;/p&gt;
-
-&lt;h2 id=&quot;gherkin-syntax-&quot;&gt;Gherkin Syntax 💬&lt;/h2&gt;
-
-&lt;p&gt;So Gherkin is the language Cucumber uses to define test cases. It’s a set of grammar rules that makes plain text structured enough for Cucumber to understand.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/cucumber-tests-6.png&quot; /&gt;
-&lt;em&gt;Example of Gherkin Syntax&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;It’s designed to be non-technical, human readable, and collectively describes use-cases relating to a software system and seeks to enforce firm, unambiguous requirements. As well as document how the system behaves.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/cucumber-tests-5.png&quot; /&gt;
-&lt;em&gt;Gherkin also supports over 70 languages, this is written in Portuguese&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;keywords-&quot;&gt;Keywords 🔍&lt;/h3&gt;
-
-&lt;p&gt;Gherkin uses a set of special keywords to give structure and meaning to executable specifications. Most lines in a Gherkin document start with one of those keywords.&lt;/p&gt;
-
-&lt;h5 id=&quot;-feature&quot;&gt;⛲ Feature&lt;/h5&gt;
-&lt;p&gt;The purpose of the Feature keyword is to provide a high-level description of a software feature, and to group related scenarios. The first primary keyword in a Gherkin document must always be Feature.&lt;/p&gt;
-
-&lt;h5 id=&quot;-scenario-or-example&quot;&gt;❎ Scenario or Example.&lt;/h5&gt;
-&lt;p&gt;This is a concrete example that illustrates a business rule which consists of a list of steps.&lt;/p&gt;
-
-&lt;p&gt;You can have as many steps as you like, but it’s recommended not to have too many. Having too many steps in an scenario, will cause it to lose it’s expressive power as specification and documentation.&lt;/p&gt;
-
-&lt;h3 id=&quot;steps-&quot;&gt;Steps 👣&lt;/h3&gt;
-
-&lt;p&gt;The &lt;strong&gt;Given&lt;/strong&gt; steps are used to describe the initial context of the system. It’s typically something that’s happened in the past.&lt;/p&gt;
-
-&lt;p&gt;When Cucumber executes a &lt;strong&gt;Given&lt;/strong&gt; step, it will configure the system to be in a well-defined state, such as creating and configuring objects or adding data to a test database.&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;When&lt;/strong&gt; steps are used to describe an event, or an action. This can be a person interacting with the system, or it can be an event triggered by another system.&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;Then&lt;/strong&gt; steps are used to describe an expected outcome, or result. It should use an assertion to compare what the system actually does, to, what the “Step” says the system is supposed to do.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/cucumber-tests-3.png&quot; style=&quot;height:320px;&quot; /&gt;
-&lt;em&gt;Example “Steps” of an API call to search for a contact&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;If you have successive &lt;strong&gt;Given’s&lt;/strong&gt;, &lt;strong&gt;When’s&lt;/strong&gt; or &lt;strong&gt;Then’s&lt;/strong&gt;, you can use &lt;strong&gt;And&lt;/strong&gt; or &lt;strong&gt;But&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;step-definitions-&quot;&gt;Step Definitions 💭&lt;/h3&gt;
-
-&lt;p&gt;Cucumber tests are divided into individual Features. These Features are subdivided into Scenarios, which are sequences of Steps.&lt;/p&gt;
-
-&lt;p&gt;Steps can be considered a method invocation. Before Cucumber can execute one, it must be told how that step should be performed via a Step Definition.&lt;/p&gt;
-
-&lt;p&gt;Step definitions are the glue between, features written in Gherkin, and the actual test’s implementation.
-They connect Steps to programming code and carries out the action that should be performed.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/cucumber-tests-4.png&quot; /&gt;
-&lt;em&gt;Step Definitions for the above “Steps” example&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;They are methods with an expression, that links it to one or more Steps.&lt;/p&gt;
-
-&lt;p&gt;So when Cucumber executes a Step in a scenario, it will look for a matching Step Definition to execute.&lt;/p&gt;
-
-&lt;h2 id=&quot;key-points-&quot;&gt;Key Points 🔑&lt;/h2&gt;
-
-&lt;p&gt;So just to run through some of the key points&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Cucumber is an Open source tool for test automation&lt;/li&gt;
-  &lt;li&gt;It reads executable specifications written in plain text.&lt;/li&gt;
-  &lt;li&gt;The test-cases are written in a language called Gherkin.&lt;/li&gt;
-  &lt;li&gt;Step definitions connect Gherkin steps to programming code via an expression&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
-
-&lt;p&gt;So the question remains. Why?&lt;/p&gt;
-
-&lt;p&gt;Why might we want to write cucumber tests? Bearing in mind that this could be &lt;strong&gt;in addition to unit testing&lt;/strong&gt;. What might we want to achieve? What is the goal of testing?&lt;/p&gt;
-
-&lt;h3 id=&quot;to-increase-confidence-for-stakeholders-through-evidence---dan-north&quot;&gt;“To increase confidence for stakeholders through evidence - Dan North”&lt;/h3&gt;
-
-&lt;p&gt;This is a quote from Dan North - the creator of behaviour driven development. What he means by “stakeholders” is people whose “lives” you touch i.e. your users. But it also can mean product owners, compliance, security, testers, support, other developers.&lt;/p&gt;
-
-&lt;p&gt;Cucumber tests are a form of testing, but you wouldn’t just use Cucumber for that, you’re using it to help communicate requirements. To not only increase confidence for stakeholders but also for yourselves.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;external-resources&quot;&gt;External Resources&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://cucumber.io/&quot;&gt;https://cucumber.io/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/cucumber/cucumber-js&quot;&gt;https://github.com/cucumber/cucumber-js&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Cucumber_(software)&quot;&gt;https://en.wikipedia.org/wiki/Cucumber_(software)&lt;/a&gt;&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">What are cucumber tests and why might they be useful</summary></entry></feed>
+&lt;p&gt;Do I recommend it? Probably I would, if you’re serious about pursuing a career in software development. It can be pretty expensive but you’d be able to get a return on that investment very quickly providing you put in the time and energy to make that happen.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Career" /><summary type="html">An old programming journal entry - 2018-07-09</summary></entry></feed>
