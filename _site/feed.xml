@@ -1,4 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://jameslieu.co.uk/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.co.uk/" rel="alternate" type="text/html" /><updated>2021-04-03T22:08:03+01:00</updated><id>http://jameslieu.co.uk/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Why Some People Fail to Learn Programming</title><link href="http://jameslieu.co.uk/why-some-people-fail-to-learn-programming/" rel="alternate" type="text/html" title="Why Some People Fail to Learn Programming" /><published>2021-04-03T00:00:00+01:00</published><updated>2021-04-03T00:00:00+01:00</updated><id>http://jameslieu.co.uk/why-some-people-fail-to-learn-programming</id><content type="html" xml:base="http://jameslieu.co.uk/why-some-people-fail-to-learn-programming/">&lt;h3 id=&quot;short-answer-those-people-failed-to-learn-programming-because-they-chose-to-fail&quot;&gt;Short answer: Those people failed to learn programming because they chose to fail.&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://jameslieu.co.uk/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.co.uk/" rel="alternate" type="text/html" /><updated>2021-04-08T00:17:57+01:00</updated><id>http://jameslieu.co.uk/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Testing with Visual Studio and .NET 5 (2021)</title><link href="http://jameslieu.co.uk/testing-with-visual-studio/" rel="alternate" type="text/html" title="Testing with Visual Studio and .NET 5 (2021)" /><published>2021-04-07T00:00:00+01:00</published><updated>2021-04-07T00:00:00+01:00</updated><id>http://jameslieu.co.uk/testing-with-visual-studio</id><content type="html" xml:base="http://jameslieu.co.uk/testing-with-visual-studio/">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/BBz8DP10kIA&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Automated tests are one of the most effective ways to be confident that, when developing software, your code actually works as expected.&lt;/p&gt;
+
+&lt;p&gt;Testing your code is instrumental to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Improve code quality&lt;/li&gt;
+  &lt;li&gt;Reduce bugs&lt;/li&gt;
+  &lt;li&gt;Increased confidence in your code&lt;/li&gt;
+  &lt;li&gt;Automate regression testing&lt;/li&gt;
+  &lt;li&gt;Refactoring your code.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;why-should-we-test&quot;&gt;Why Should We Test?&lt;/h2&gt;
+
+&lt;p&gt;The reason why we would want to test our code is to ensure that our code works, under varying circumstances, with different inputs. Depending on the program you write, your user may not enter inputs that you would normally expect, and so knowing how your code will behave when this happens, is good to know and whether that behaviour is expected or even acceptable.&lt;/p&gt;
+
+&lt;p&gt;Testing also improves the quality of your code, you’ll find that when you have tests in place, the quality of your code will improve, this could be due to being certain, that the behaviour of your code is working correctly therefore giving you confidence to alter and improve it without breaking the underlying logic or functionality.&lt;/p&gt;
+
+&lt;p&gt;It also helps you focus on quality because you’re having to think about all of the scenarios you need to test, it may even highlight that there are areas in your implementation which need to be addressed such as error handling or failing gracefully in order to keep the user experience of your application smooth.&lt;/p&gt;
+
+&lt;p&gt;An advantage of testing is that once the tests are written and passing, they are very repeatable. Meaning you can run them as frequently as you want and they should succeed every time, and if at any point during the development cycle some tests are failing, it’s likely due to any updates or edits made to the codebase since.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-test&quot;&gt;How to Test?&lt;/h2&gt;
+
+&lt;p&gt;Basically it is you writing methods to test other methods in your code base. These are often written in a test project or within its own directory&lt;/p&gt;
+
+&lt;p&gt;You arrange the environment or scenario which will include preparing your code to be invoked by the test method and then asserting what outcome you are expecting&lt;/p&gt;
+
+&lt;p&gt;Each test ideally will cover a scenario within your code, this includes if/else statements, cases, loops.&lt;/p&gt;
+
+&lt;p&gt;Anywhere there’s logic and has some functionality should have tests to cover those lines of code to minimize or remove any unexpected behaviour your code may encounter.&lt;/p&gt;
+
+&lt;h2 id=&quot;advantages&quot;&gt;Advantages&lt;/h2&gt;
+
+&lt;p&gt;The benefits of doing all of this is that you can perform what’s called a regression test. Meaning if you make updates to your code, running your tests again will inform you whether the functionality is still intact, despite any updates you’ve just made.&lt;/p&gt;
+
+&lt;p&gt;Bear in mind, that regression testing is not exclusive to automated tests, some companies have QA departments to do manual regression testing for their products, but understandably, automated tests ran by the codebase will not only be faster, but is repeatable, consistent and less prone to human error or oversight.&lt;/p&gt;
+
+&lt;p&gt;You can also automate the setup and tear down of each test to make sure the scenario and environment is the same every time.&lt;/p&gt;
+
+&lt;p&gt;Tests can also be treated as documentation for any developer who maintains the source code, some projects are large and it is unlikely that any one developer will remember every piece of logic that is written, so well written tests with good titles can be used to document business logic and other functionality.&lt;/p&gt;
+
+&lt;h2 id=&quot;disadvantages&quot;&gt;Disadvantages&lt;/h2&gt;
+
+&lt;p&gt;It requires more time up-front. Not only does the developer have to write the functionality but the tests as well. Tests need to be  thorough and covering all the edge cases will take time.&lt;/p&gt;
+
+&lt;p&gt;The second disadvantage is that the tests are only as good as the developer who writes the tests, if the tests are poorly written or not thorough, then relying on those without any other regression test increases risk. If your tests are brittle, then they can also require time to “fix” those tests whenever you add logic even though the actual functionality hasn’t actually been altered.&lt;/p&gt;
+
+&lt;p&gt;It’s harder to test UI with these tests so having a QA team or the developer, manually check the UI is still required.&lt;/p&gt;
+
+&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
+
+&lt;p&gt;Testing is a common requirement for most job roles, being able to test your code well is a must-have skill for any junior developer wanting to get into the industry. It is often overlooked when learning, but spending some time to understand the concepts and getting good at testing is a worthwhile use of time.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">Automated tests is one of the most effective ways to be confident that your code actually works.</summary></entry><entry><title type="html">Why Some People Fail to Learn Programming</title><link href="http://jameslieu.co.uk/why-some-people-fail-to-learn-programming/" rel="alternate" type="text/html" title="Why Some People Fail to Learn Programming" /><published>2021-04-03T00:00:00+01:00</published><updated>2021-04-03T00:00:00+01:00</updated><id>http://jameslieu.co.uk/why-some-people-fail-to-learn-programming</id><content type="html" xml:base="http://jameslieu.co.uk/why-some-people-fail-to-learn-programming/">&lt;h3 id=&quot;short-answer-those-people-failed-to-learn-programming-because-they-chose-to-fail&quot;&gt;Short answer: Those people failed to learn programming because they chose to fail.&lt;/h3&gt;
 
 &lt;h2 id=&quot;why-did-they-fail&quot;&gt;Why Did They Fail?&lt;/h2&gt;
 
@@ -66,7 +120,7 @@
 
 &lt;p&gt;And any successes I have achieved thus far, were due to me choosing to succeed in that space.&lt;/p&gt;
 
-&lt;p&gt;Holding ourselves accountable instead of blaming and being a victim, is the mindset that will greatly improve your outlook on life once you adopt it.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">Probably not the answer you're expecting.</summary></entry><entry><title type="html">Choosing Your First Programming Language</title><link href="http://jameslieu.co.uk/choosing-your-first-programming-language/" rel="alternate" type="text/html" title="Choosing Your First Programming Language" /><published>2021-03-30T00:00:00+01:00</published><updated>2021-03-30T00:00:00+01:00</updated><id>http://jameslieu.co.uk/choosing-your-first-programming-language</id><content type="html" xml:base="http://jameslieu.co.uk/choosing-your-first-programming-language/">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-NjvNJspF8s&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;Holding ourselves accountable instead of blaming and being a victim, is the mindset that will greatly improve your outlook on life once you adopt it.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">Probably not the answer you&apos;re expecting.</summary></entry><entry><title type="html">Choosing Your First Programming Language</title><link href="http://jameslieu.co.uk/choosing-your-first-programming-language/" rel="alternate" type="text/html" title="Choosing Your First Programming Language" /><published>2021-03-30T00:00:00+01:00</published><updated>2021-03-30T00:00:00+01:00</updated><id>http://jameslieu.co.uk/choosing-your-first-programming-language</id><content type="html" xml:base="http://jameslieu.co.uk/choosing-your-first-programming-language/">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-NjvNJspF8s&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Choosing your first programming language can be one of the most important decisions made when starting your programming journey.&lt;/p&gt;
 
@@ -1176,36 +1230,4 @@ It would be preferable to move-on and even better to receive an event notifying 
 
 &lt;p&gt;This is a basic introduction of Event Driven, there are other benefits to using Event driven architecture such as a reversal of dependencies and high responsiveness.&lt;/p&gt;
 
-&lt;p&gt;Furthermore there are many challenges to consider when &lt;strong&gt;consuming&lt;/strong&gt; Event Driven systems as well which I may write another post on.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">What is Event Driven?</summary></entry><entry><title type="html">Journal Entry: Coding Bootcamp Hindsight</title><link href="http://jameslieu.co.uk/coding-bootcamp-hindsight/" rel="alternate" type="text/html" title="Journal Entry: Coding Bootcamp Hindsight" /><published>2020-11-17T00:00:00+00:00</published><updated>2020-11-17T00:00:00+00:00</updated><id>http://jameslieu.co.uk/coding-bootcamp-hindsight</id><content type="html" xml:base="http://jameslieu.co.uk/coding-bootcamp-hindsight/">&lt;p&gt;&lt;em&gt;Note: this was an old entry in my programming journal dated 2018-07-09, this is unedited since I wrote it and I’ll leave an update at the bottom about how I feel about it today.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;This journal entry also laid out my past work experiences and how I really started to gain momentum in my learning and career progression.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;coding-bootcamp-hindsight---2018-08-09&quot;&gt;Coding Bootcamp Hindsight - 2018-08-09&lt;/h2&gt;
-
-&lt;p&gt;I was just posting my response to the reddit post that started all of this journal stuff (my initial response had disappeared off my phone as I didn’t submit it and the reddit app refreshed when I changed the app from Youtube for Evy).&lt;/p&gt;
-
-&lt;p&gt;I’ve outlined how it’s perfectly possible to start a career in programming without attending a Bootcamp like Makers academy, after attending and thinking back on it I don’t know if they really taught me anything. They basically asked us to do a lot of self learning and provided someone to help answer questions, I also remember that I never really absorbed any information from the teaching they did, it was all very clunky and the classes basically involved looking at Ruby Koans or Git/Command-line equivalents.&lt;/p&gt;
-
-&lt;p&gt;It was not until I graduated and had to look for work did I start to learn things. Even then I struggled but luckly managed to find some Jobs where I was able to slowly pick things up. Not at Psyt or LoyaltyLion but at Velti/mGage and Rentify, that was when I had colleagues who I was able to learn from.&lt;/p&gt;
-
-&lt;p&gt;Velti/mGage had Dan and Emre, who I was able to speak with and look at the codebase in detail.&lt;/p&gt;
-
-&lt;p&gt;At Rentify, I really managed to pick things up through the challenges I faced there, the team was larger and they gave me real tasks to work on. Through that came many mistakes and learning experiences, I picked up JavaScript, a bit of ReactJS, Ruby on Rails in depth and had projects/features I can call my own. Edwin, Ryan, Joe and Luke really helped kickstart the programming knowledge I had today, Edwin especially helped and unofficially acted as the mentor I needed to learn the basics properly and grow into the dev I am today. It was unfortunate that I left at such a low note, failing to complete the feature that was assigned to me and ultimately left a poor impression on my last day. No point dwelling on this, I don’t think I became that close with them all ultimately.&lt;/p&gt;
-
-&lt;p&gt;Now I’m a PHP developer here at TwentyCI where the team is significantly smaller and so my role here encourages me to take in more responsibilities and improve my knowledge in programming so I can further my career. Tom has been a great help at explaining PHP and Laravel when I joined the project, once I got some hands on experience I think I began to pick things up quite quickly to the point where problems and challenges are not impossible to overcome at my level anymore. Bear in mind that Tom usually takes on the more difficult tasks or new work, whereas I pick up some of the simpler easier stuff (which I don’t mind), its largely stress free and so I think I’ll stay and only consider new opportunities once we get the property business going.&lt;/p&gt;
-
-&lt;p&gt;Summary&lt;/p&gt;
-
-&lt;p&gt;Hindsight is a great thing. It allows me to think back on decisions made and learn from them, it also feels like my experiences and mistakes can be used to help and inform others that might be wondering if they should follow the same path. Dwelling on mistakes or poor decisions can be useful but sometimes unproductive as well, better to think over it and consider how you would do something differently for next time and if a similar scenario comes your way, you may be able to use what you’ve learned to drive your decisions moving forward.&lt;/p&gt;
-
-&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
-
-&lt;p&gt;So my thoughts about Coding Bootcamps have changed since I wrote this entry, I think it’s disingenuous of me to say I didn’t learn &lt;em&gt;anything&lt;/em&gt;, but I do feel I didn’t get my &lt;strong&gt;money’s worth&lt;/strong&gt; insofar that it had cost me £4500, and the knowledge I had gained at the time was &lt;strong&gt;not worth £4500&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;That said, I managed to use the foundations of what I had learned to get an return on investment on that very quickly and maybe that was where the value actually came from.&lt;/p&gt;
-
-&lt;p&gt;So when asking myself was it worth the money, I would say no. Was the decision to enroll to this bootcamp, when I did, as a career changing move, absolutely.&lt;/p&gt;
-
-&lt;p&gt;Also, it’s worth noting that I was an early member of Maker’s Academy and they were still figuring out the curriculum. They also hadn’t built the reputation and partners they have today, so it was a bigger struggle for us early adopters than those who have enrolled in the past few years.&lt;/p&gt;
-
-&lt;p&gt;Do I recommend it? Probably I would, if you’re serious about pursuing a career in software development. It can be pretty expensive but you’d be able to get a return on that investment very quickly providing you put in the time and energy to make that happen.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Career" /><summary type="html">An old programming journal entry - 2018-07-09</summary></entry></feed>
+&lt;p&gt;Furthermore there are many challenges to consider when &lt;strong&gt;consuming&lt;/strong&gt; Event Driven systems as well which I may write another post on.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">What is Event Driven?</summary></entry></feed>
