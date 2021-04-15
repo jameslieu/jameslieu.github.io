@@ -1,4 +1,67 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://jameslieu.co.uk/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.co.uk/" rel="alternate" type="text/html" /><updated>2021-04-08T00:17:57+01:00</updated><id>http://jameslieu.co.uk/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Testing with Visual Studio and .NET 5 (2021)</title><link href="http://jameslieu.co.uk/testing-with-visual-studio/" rel="alternate" type="text/html" title="Testing with Visual Studio and .NET 5 (2021)" /><published>2021-04-07T00:00:00+01:00</published><updated>2021-04-07T00:00:00+01:00</updated><id>http://jameslieu.co.uk/testing-with-visual-studio</id><content type="html" xml:base="http://jameslieu.co.uk/testing-with-visual-studio/">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/BBz8DP10kIA&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://jameslieu.co.uk/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.co.uk/" rel="alternate" type="text/html" /><updated>2021-04-15T08:39:28+01:00</updated><id>http://jameslieu.co.uk/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">What are CRC Cards?</title><link href="http://jameslieu.co.uk/crc-cards/" rel="alternate" type="text/html" title="What are CRC Cards?" /><published>2021-04-13T00:00:00+01:00</published><updated>2021-04-13T00:00:00+01:00</updated><id>http://jameslieu.co.uk/crc-cards</id><content type="html" xml:base="http://jameslieu.co.uk/crc-cards/">&lt;p&gt;They are commonly used for brainstorming to help design object-oriented software.&lt;/p&gt;
+
+&lt;p&gt;CRC cards are used after “use-case” descriptions before class diagrams within software development.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/crc-cards-1.jpg&quot; style=&quot;height:400px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;They are usually created from index cards. The card is partitioned into three areas&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;On the top: the class name&lt;/li&gt;
+  &lt;li&gt;On the left: the responsibilities of the class&lt;/li&gt;
+  &lt;li&gt;On the right: collaborators (other classes) with which this class interacts to fulfill its responsibilities.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Using a small card minimises the complexity of the design. And focuses on the essentials of the class and prevents designers from getting into the small details and implementation at a time when details like those are probably counter-productive.&lt;/p&gt;
+
+&lt;p&gt;One benefit is that it discourages giving the class too many responsibilities.&lt;/p&gt;
+
+&lt;p&gt;If they’re are written on physical cards, they can easily be laid out on a table and re-arranged when discussing design.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-create&quot;&gt;How to create&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Begin by writing out a scenario which identifies the major actors and actions which are performed by the actors.&lt;/li&gt;
+  &lt;li&gt;Only write actors and actions specific to the scenario.&lt;/li&gt;
+  &lt;li&gt;Nouns should turn into the classes of the card&lt;/li&gt;
+  &lt;li&gt;Verbs typically turn into the responsibility of the card&lt;/li&gt;
+  &lt;li&gt;Collaborators are the other cards that the card will be interacting.&lt;/li&gt;
+  &lt;li&gt;Use in small groups / for small projects&lt;/li&gt;
+  &lt;li&gt;Keep it informal&lt;/li&gt;
+  &lt;li&gt;Use to brainstorm many different logical paths.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/crc-cards-2.jpg&quot; style=&quot;height:400px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;pros-vs-cons&quot;&gt;Pros vs Cons&lt;/h2&gt;
+
+&lt;h3 id=&quot;advantages&quot;&gt;Advantages&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Very cooperative and very collaborative technique&lt;/li&gt;
+  &lt;li&gt;Helps determine what classes are needed&lt;/li&gt;
+  &lt;li&gt;Ongoing process&lt;/li&gt;
+  &lt;li&gt;User inpur is very useful&lt;/li&gt;
+  &lt;li&gt;Allows for learning from others&lt;/li&gt;
+  &lt;li&gt;Allows to compare ideas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;disadvantages&quot;&gt;Disadvantages&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Not great if you need a lot of detail&lt;/li&gt;
+  &lt;li&gt;Cooperation of users required&lt;/li&gt;
+  &lt;li&gt;No timeline throughout the cards&lt;/li&gt;
+  &lt;li&gt;Hard with large projects.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
+
+&lt;p&gt;Sometimes when planning work before coding, its good to think about where code belongs or what responsibilities a class should have because it will help with the organisation as well as making things easier for developers.&lt;/p&gt;
+
+&lt;p&gt;It can be difficult to sum up all the pieces of code, functions or classes needed to build a feature and methods like this can help make the overall design be more thoughtout and less prone to brittleness in the future&lt;/p&gt;
+
+&lt;p&gt;I personally haven’t seen or experienced a CRC-card session, but if I were to apply the thought process behind the concept and apply it to my own workflow, I’d bet that the quality of the work I create would improve.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">Class-Responsibility-Collaboration cards</summary></entry><entry><title type="html">Testing with Visual Studio and .NET 5 (2021)</title><link href="http://jameslieu.co.uk/testing-with-visual-studio/" rel="alternate" type="text/html" title="Testing with Visual Studio and .NET 5 (2021)" /><published>2021-04-07T00:00:00+01:00</published><updated>2021-04-07T00:00:00+01:00</updated><id>http://jameslieu.co.uk/testing-with-visual-studio</id><content type="html" xml:base="http://jameslieu.co.uk/testing-with-visual-studio/">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/BBz8DP10kIA&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Automated tests are one of the most effective ways to be confident that, when developing software, your code actually works as expected.&lt;/p&gt;
 
@@ -120,7 +183,7 @@
 
 &lt;p&gt;And any successes I have achieved thus far, were due to me choosing to succeed in that space.&lt;/p&gt;
 
-&lt;p&gt;Holding ourselves accountable instead of blaming and being a victim, is the mindset that will greatly improve your outlook on life once you adopt it.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">Probably not the answer you&apos;re expecting.</summary></entry><entry><title type="html">Choosing Your First Programming Language</title><link href="http://jameslieu.co.uk/choosing-your-first-programming-language/" rel="alternate" type="text/html" title="Choosing Your First Programming Language" /><published>2021-03-30T00:00:00+01:00</published><updated>2021-03-30T00:00:00+01:00</updated><id>http://jameslieu.co.uk/choosing-your-first-programming-language</id><content type="html" xml:base="http://jameslieu.co.uk/choosing-your-first-programming-language/">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-NjvNJspF8s&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;Holding ourselves accountable instead of blaming and being a victim, is the mindset that will greatly improve your outlook on life once you adopt it.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">Probably not the answer you're expecting.</summary></entry><entry><title type="html">Choosing Your First Programming Language</title><link href="http://jameslieu.co.uk/choosing-your-first-programming-language/" rel="alternate" type="text/html" title="Choosing Your First Programming Language" /><published>2021-03-30T00:00:00+01:00</published><updated>2021-03-30T00:00:00+01:00</updated><id>http://jameslieu.co.uk/choosing-your-first-programming-language</id><content type="html" xml:base="http://jameslieu.co.uk/choosing-your-first-programming-language/">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-NjvNJspF8s&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Choosing your first programming language can be one of the most important decisions made when starting your programming journey.&lt;/p&gt;
 
@@ -1188,46 +1251,4 @@ One of which are Pointers.&lt;/p&gt;
 
 &lt;p&gt;There is no passing by reference in Go. So pointers are a way to do this if required. There are probably more benefits to using pointers that I haven’t mentioned, but I’ve only just started learning all of this very recently.&lt;/p&gt;
 
-&lt;p&gt;It seems that working with normal values are usually fine, and from what I’ve read about pointers, it ok to avoid them generally speaking. They may be useful tools if used effectively but can easily lead to unreadable code and make it difficult to debug.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">What is a Pointer?</summary></entry><entry><title type="html">Introduction to Event Driven Architecture</title><link href="http://jameslieu.co.uk/introduction-to-event-driven-architecture-copy/" rel="alternate" type="text/html" title="Introduction to Event Driven Architecture" /><published>2020-12-21T00:00:00+00:00</published><updated>2020-12-21T00:00:00+00:00</updated><id>http://jameslieu.co.uk/introduction-to-event-driven-architecture%20copy</id><content type="html" xml:base="http://jameslieu.co.uk/introduction-to-event-driven-architecture-copy/">&lt;p&gt;Event driven architecture is a design pattern built around the production, detection and reaction to events that take place in time.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/media/event-driven-1.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Historically business applications tend to be data centric where everything is in databases,
-The priority was you always had a valid copy of your data, your business was essentially in your database.
-But that doesn’t always lend itself to responsive applications that needs to give you information kind of in the moment.&lt;/p&gt;
-
-&lt;p&gt;So another way of designing business applications is event-driven. Essentially where the data is all in flight.
-So it’s all flying around between each of the pieces of software and the first priority is that the system remains responsive&lt;/p&gt;
-
-&lt;p&gt;Imagine a application where you need to make a payment and you call an API saying “submit this payment”, you receive a success response but it takes some time to actually complete the payment in the background. So it’s not a synchronous call.&lt;/p&gt;
-
-&lt;p&gt;However, You wouldn’t want to wait until it’s finished or to poll to constantly ask “is the payment complete”.
-It would be preferable to move-on and even better to receive an event notifying you when it’s done. This was  example of an responsive interaction which is event driven.&lt;/p&gt;
-
-&lt;h2 id=&quot;pros-&quot;&gt;Pros 👍&lt;/h2&gt;
-
-&lt;h3 id=&quot;loose-coupling&quot;&gt;Loose coupling&lt;/h3&gt;
-&lt;p&gt;Services do not need to be dependent on each other.&lt;/p&gt;
-
-&lt;h3 id=&quot;scalability&quot;&gt;Scalability&lt;/h3&gt;
-&lt;p&gt;Since the services are no longer coupled, the throughput of service 1, no longer needs to meet the throughput of service 2.&lt;/p&gt;
-
-&lt;h3 id=&quot;asynchronicity&quot;&gt;Asynchronicity&lt;/h3&gt;
-&lt;p&gt;Since services are no longer dependent on a result being returned synchronously, a fire and forget model can be used, which can greatly speed up a process. Although this can have downsides.&lt;/p&gt;
-
-&lt;h3 id=&quot;point-in-time-recovery&quot;&gt;Point in time recovery&lt;/h3&gt;
-&lt;p&gt;If events are backed by a queue or maintaining some kind of history, it is possible to replay events, or even go back in time and recover state.&lt;/p&gt;
-
-&lt;h2 id=&quot;cons-&quot;&gt;Cons 👎&lt;/h2&gt;
-
-&lt;h3 id=&quot;over-engineering-of-processes&quot;&gt;Over-engineering of processes&lt;/h3&gt;
-&lt;p&gt;Sometimes a simple call from one service to another is enough. If a process uses event driven architecture, it usually requires more infrastructure and work to support it.&lt;/p&gt;
-
-&lt;h3 id=&quot;inconsistencies&quot;&gt;Inconsistencies&lt;/h3&gt;
-&lt;p&gt;Because processes now rely on eventual consistency, it is not typical to support ACID transactions, so handling of duplications, or out of sequence events can make service code more complicated, harder to test and debug all situations.&lt;/p&gt;
-
-&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
-
-&lt;p&gt;This is a basic introduction of Event Driven, there are other benefits to using Event driven architecture such as a reversal of dependencies and high responsiveness.&lt;/p&gt;
-
-&lt;p&gt;Furthermore there are many challenges to consider when &lt;strong&gt;consuming&lt;/strong&gt; Event Driven systems as well which I may write another post on.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">What is Event Driven?</summary></entry></feed>
+&lt;p&gt;It seems that working with normal values are usually fine, and from what I’ve read about pointers, it ok to avoid them generally speaking. They may be useful tools if used effectively but can easily lead to unreadable code and make it difficult to debug.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">What is a Pointer?</summary></entry></feed>
