@@ -1,4 +1,240 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://jameslieu.co.uk/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.co.uk/" rel="alternate" type="text/html" /><updated>2021-04-15T08:39:28+01:00</updated><id>http://jameslieu.co.uk/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">What are CRC Cards?</title><link href="http://jameslieu.co.uk/crc-cards/" rel="alternate" type="text/html" title="What are CRC Cards?" /><published>2021-04-13T00:00:00+01:00</published><updated>2021-04-13T00:00:00+01:00</updated><id>http://jameslieu.co.uk/crc-cards</id><content type="html" xml:base="http://jameslieu.co.uk/crc-cards/">&lt;p&gt;They are commonly used for brainstorming to help design object-oriented software.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://jameslieu.co.uk/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.co.uk/" rel="alternate" type="text/html" /><updated>2021-04-19T10:58:54+01:00</updated><id>http://jameslieu.co.uk/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Find Out If You Enjoy Programming</title><link href="http://jameslieu.co.uk/find-out-if-you-enjoy-programming/" rel="alternate" type="text/html" title="Find Out If You Enjoy Programming" /><published>2021-04-19T00:00:00+01:00</published><updated>2021-04-19T00:00:00+01:00</updated><id>http://jameslieu.co.uk/find-out-if-you-enjoy-programming</id><content type="html" xml:base="http://jameslieu.co.uk/find-out-if-you-enjoy-programming/">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RN8ZXxq2awQ&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;In many ways, the point of programming is to use a computer to solve problems. Pretty much every code a developer writes involves problem solving in one form or another, do they need to automate a process? Fetch data from somewhere? to store data into a database? How would they achieve this?&lt;/p&gt;
+
+&lt;p&gt;All of these involve solving a problem, and it is this problem solving process which appears to make programming enjoyable for developers.&lt;/p&gt;
+
+&lt;p&gt;With this in mind, what would be the fastest way for someone who has no programming experience to find out whether they would enjoy it or not?&lt;/p&gt;
+
+&lt;h2 id=&quot;why-do-devlopers-enjoy-it&quot;&gt;Why Do Devlopers Enjoy It?&lt;/h2&gt;
+
+&lt;p&gt;I’ve Googled “why do developers love coding”. And you can see developers respond with answers such as:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Puzzles and Problem solving&lt;/li&gt;
+  &lt;li&gt;Creating something amazing from scratch&lt;/li&gt;
+  &lt;li&gt;The sheer joy of making things, Programming is fundamentally about creating solutions to problems.&lt;/li&gt;
+  &lt;li&gt;Converting ideas / imaginations into reality&lt;/li&gt;
+  &lt;li&gt;The pleasure of making things that are useful to other people&lt;/li&gt;
+  &lt;li&gt;Programming improves our problem solving skills.&lt;/li&gt;
+  &lt;li&gt;Liking coding because they like puzzles and makes their lives easier&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;These are some of the answers I’ve seen and agree with personally. Things like&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Having a strong sense of purpose or accomplishments&lt;/li&gt;
+  &lt;li&gt;The satisfaction of finding solutions to problems&lt;/li&gt;
+  &lt;li&gt;The constant learning and the option of learning different languages, frameworks or technologies&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Altogether, these reasons to me can be boiled down to two primary reasons why programming is enjoyable.&lt;/p&gt;
+
+&lt;h3 id=&quot;learning-and-problem-solving&quot;&gt;Learning And Problem Solving&lt;/h3&gt;
+
+&lt;p&gt;So in my opinion, the fastest way to first find out whether somebody will enjoy this is to choose a beginner friendly programming problem or exercise to solve, and needs to have utilize a number of features of programming combined to solve it.&lt;/p&gt;
+
+&lt;h2 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h2&gt;
+
+&lt;p&gt;Ideally they would be following this exercise on their computer, the point is for them to actually follow and do the exercise to determine whether they’ll enjoy programming or not.&lt;/p&gt;
+
+&lt;p&gt;So if I were somebody who was unsure about whether I’ll be interested in this, I would want the least barrier to entry. So here are some prerequisites I think will help with that.&lt;/p&gt;
+
+&lt;h3 id=&quot;no-installation-required&quot;&gt;No installation required&lt;/h3&gt;
+&lt;p&gt;There should be no downloading or installing programming languages to your computer&lt;/p&gt;
+
+&lt;h3 id=&quot;no-programming-knowledge-required&quot;&gt;No programming knowledge required&lt;/h3&gt;
+
+&lt;p&gt;They also wouldn’t need any experience with programming yet as I’ll run through the very basics and exactly what they would need to know in order to complete the short exercise.&lt;/p&gt;
+
+&lt;p&gt;And so to meet this requirement, the programming language I have chosen for this exercise is &lt;strong&gt;JavaScript&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The main reason is that it’s a good beginner friendly language, and because most web browsers support it, you wouldn’t need to download anything in order to get started.&lt;/p&gt;
+
+&lt;p&gt;Ok so I’ll begin by going though, specifically the javascript basics needed to solve the exercise.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-basics&quot;&gt;The Basics&lt;/h2&gt;
+
+&lt;h3 id=&quot;strings&quot;&gt;Strings&lt;/h3&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Strings are created with ' or &quot;.&lt;/span&gt;
+&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;abc&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Hello, world&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;01/01/2001&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In computer programming, a string is a data type, and is basically a sequence of characters. They are created with a single quote or double quote. And in layman’s terms, you can use them to construct words or other sequences of characters.&lt;/p&gt;
+
+&lt;h3 id=&quot;integers&quot;&gt;Integers&lt;/h3&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// integers are whole numbers&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;123&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Some basic arithmetic works as you'd expect.&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// = 2&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// = 7&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// = 20&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;35&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// = 7&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Integers are whole numbers. And basic arithmetic works as you’d expect.&lt;/p&gt;
+
+&lt;h3 id=&quot;variables&quot;&gt;Variables&lt;/h3&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;teamName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;‘&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Foobar&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;’&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;numberOfCars&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;gameName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;‘&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;tic&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;tac&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;toe&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;’&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rows&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fullName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;‘&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;John&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Doe&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;’&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Computer programs use variables to store information. Any data type can be stored in a variable for example, a person’s name, their age, date of birth.&lt;/p&gt;
+
+&lt;p&gt;You can assign a variable using either the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;var&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;let&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;const&lt;/code&gt; keyword.&lt;/p&gt;
+
+&lt;p&gt;It is preferred to use either the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;const&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;let&lt;/code&gt; keyword. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Const&lt;/code&gt; for when you don’t need to reassign this variable, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;let&lt;/code&gt; for when you do.&lt;/p&gt;
+
+&lt;p&gt;Avoid using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;var&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;boolean&quot;&gt;Boolean&lt;/h3&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;isActive&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;isDisabled&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In computer science, Boolean is a data type that has one of two possible values (usually denoted true and false)&lt;/p&gt;
+
+&lt;h3 id=&quot;comparison-operators&quot;&gt;Comparison Operators&lt;/h3&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Equality is ===&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// = true&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// = false&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Inequality is !==&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// = false&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// = true&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// More comparisons&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// = true&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// = false&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// = true&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// = true&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;These are used in logical statements to determine equality, inequality or difference between values. When using comparison operators, it’s “return type” is a boolean.&lt;/p&gt;
+
+&lt;p&gt;For example, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1 == 1&lt;/code&gt; is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;true&lt;/code&gt;,  and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2 == 1&lt;/code&gt; is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;false&lt;/code&gt;
+To compare whether something is NOT equal to something, use the exclamation mark followed by the equals character.&lt;/p&gt;
+
+&lt;p&gt;And other comparison operators are  less than, more than, less than or equal to OR more than or equal to.&lt;/p&gt;
+
+&lt;h3 id=&quot;concatenation&quot;&gt;Concatenation&lt;/h3&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Strings are concatenated with +&lt;/span&gt;
+&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Hello &lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;world!&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// = &quot;Hello world!&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// ... which works with more than just strings&lt;/span&gt;
+&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;1, 2, &lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// = &quot;1, 2, 3&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Strings and or numbers can be concatenated by using the plus operator. Think of it as combining two values together&lt;/p&gt;
+
+&lt;h3 id=&quot;conditional-statements&quot;&gt;Conditional Statements&lt;/h3&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// evaluated if count is 3&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// evaluated if count is 4&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// evaluated if it's not either 3 or 4&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;conditional statements, or if / else statements are used to perform actions based on certain conditions.&lt;/p&gt;
+
+&lt;p&gt;To use these statements, use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;if&lt;/code&gt; keyword followed by your condition in parenthesis which needs to be a boolean value,&lt;/p&gt;
+
+&lt;p&gt;In this example, if the count equals 3 then the block directly underneath will be evaluated, else if count is equal to 4 then the block underneath that will be executed, and if neither of those are true then the following else statement will be executed.&lt;/p&gt;
+
+&lt;p&gt;You can also use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;if&lt;/code&gt; statement without any preceding &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;else&lt;/code&gt; statements, if the condition isn’t met, then the logic within its block will not be executed.&lt;/p&gt;
+
+&lt;h3 id=&quot;loops&quot;&gt;Loops&lt;/h3&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// will run 5 times&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// An infinite loop!&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;So loops are used to execute a block of statement, a specified number of times, OR till a specified condition is true.&lt;/p&gt;
+
+&lt;p&gt;The one we’re using for this exercise is &lt;strong&gt;the while loop&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;So, the While Loop is used to, execute a block of statements, till a specified condition is true, if the condition becomes false the While Loop terminates.&lt;/p&gt;
+
+&lt;p&gt;We do need make sure we have a way to break out of the loop, otherwise we could end up with an infinite loop and crash the program.&lt;/p&gt;
+
+&lt;h3 id=&quot;consolelog&quot;&gt;console.log&lt;/h3&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;gameName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;‘&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;tic&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;tac&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;toe&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;’&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;gameName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// tic tac toe&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;the-exercise&quot;&gt;The Exercise&lt;/h2&gt;
+
+&lt;p&gt;Print the lyrics for the &lt;a href=&quot;http://99-bottles-of-beer.net/lyrics.html&quot;&gt;99 bottles of beer&lt;/a&gt; song into the console.&lt;/p&gt;
+
+&lt;p&gt;The lyrics are very repetitive, where it counts from 99 bottles of beer down to 0 bottles of beer. As shown in the javascript basics, you might already be able to picture how you would solve this.&lt;/p&gt;
+
+&lt;p&gt;I’ve created a video which goes through the exercise.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RN8ZXxq2awQ&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;In my tutorial, although there were a few steps to achieve the outcome, ultimately there were two actions in play.&lt;/p&gt;
+
+&lt;p&gt;The first was learning something new, programming basics such as strings, integers, conditional operators and loops.&lt;/p&gt;
+
+&lt;p&gt;The second was to use those programming tools in order to solve a problem, in our case it was to first print a countdown of the number of bottles on the wall in the console&lt;/p&gt;
+
+&lt;p&gt;A Beginner level challenge, but the process of discovering and solving those problems is what we should pay attention to. If you were bored of breaking down the problem into steps and eventually solving it then programming is probably not for you.&lt;/p&gt;
+
+&lt;p&gt;Try other programming challenges or refining this existing one, try different loops such as the “while” or “do while” loop and see if you can achieve the same result.&lt;/p&gt;
+
+&lt;p&gt;However, if you did enjoy completing the task and seeing your results onto the console, then perhaps programming could be enjoyable and may be something you should consider learning and even pursue a career in.&lt;/p&gt;
+
+&lt;p&gt;Here is the solution to the problem&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;word&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;bottles&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;99&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;word&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;bottle&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;prev&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; bottles of beer on the wall, &lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; bottles of beer, Take one down, pass it around, &lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; &lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;word&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;  &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; of beer on the wall.&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;1 bottle of beer on the wall, 1 bottle of beer. Take one down and pass it around, no more bottles of beer on the wall.&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;No more bottles of beer on the wall, no more bottles of beer. Go to the store and buy some more, 99 bottles of beer on the wall.&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
+
+&lt;p&gt;Often I see people ask about whether they should become software developers or make the leap and switch careers and pursue one in programming. In this career and like many others, it really helps if you enjoy it.&lt;/p&gt;
+
+&lt;p&gt;And when curious or interested about a new topic or leisure, you can only really find out if it’s something you’d enjoy by getting “hands-on” and trying it out.&lt;/p&gt;
+
+&lt;p&gt;It can be daunting to see the many different ways of learning or getting started, but in my experience, just learning the basics on it’s own isn’t as interesting or enjoyable. It’s only when you apply those basics and fundamentals to something do you really start to discover whether it’s something you can enjoy or not.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">What would be the fastest way for someone who has no programming experience to find out whether they would enjoy it or not?</summary></entry><entry><title type="html">What are CRC Cards?</title><link href="http://jameslieu.co.uk/crc-cards/" rel="alternate" type="text/html" title="What are CRC Cards?" /><published>2021-04-13T00:00:00+01:00</published><updated>2021-04-13T00:00:00+01:00</updated><id>http://jameslieu.co.uk/crc-cards</id><content type="html" xml:base="http://jameslieu.co.uk/crc-cards/">&lt;p&gt;They are commonly used for brainstorming to help design object-oriented software.&lt;/p&gt;
 
 &lt;p&gt;CRC cards are used after “use-case” descriptions before class diagrams within software development.&lt;/p&gt;
 
@@ -1165,90 +1401,4 @@ The definition of DIP is&lt;/p&gt;
 &lt;p&gt;When using the IoC container, we don’t need to create objects manually, the container does it automatically. This is called resolution. The container creates an object of the specified type, injects the required dependencies if any and returns the object.&lt;/p&gt;
 
 &lt;h4 id=&quot;-dispose&quot;&gt;🗑 Dispose&lt;/h4&gt;
-&lt;p&gt;The container will manage the lifetime of the dependent objects. Most IoC containers include lifetime managers to manage an object’s lifecycle and dispose it.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">What is the IoC principle and why is it useful?</summary></entry><entry><title type="html">Pointers in Go (Golang)</title><link href="http://jameslieu.co.uk/pointers-in-go/" rel="alternate" type="text/html" title="Pointers in Go (Golang)" /><published>2020-12-24T00:00:00+00:00</published><updated>2020-12-24T00:00:00+00:00</updated><id>http://jameslieu.co.uk/pointers-in-go</id><content type="html" xml:base="http://jameslieu.co.uk/pointers-in-go/">&lt;p&gt;&lt;img src=&quot;/assets/media/pointers-in-go-1.jpeg&quot; style=&quot;height:200px; margin: auto&quot; /&gt;
-I’m learning a little bit of Go (Golang). There are a few areas in this programming language which are familiar to me and there are many areas which are not.
-One of which are Pointers.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-is-a-pointer-&quot;&gt;What is a Pointer? 👉&lt;/h2&gt;
-
-&lt;p&gt;A pointer is a variable that stores the address of a value, rather than the value itself. If you think of a computer’s memory (RAM) as a JSON object, a pointer would be like the key and a normal variable would be the value.&lt;/p&gt;
-
-&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;pointer&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;variableValue&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;syntax&quot;&gt;Syntax&lt;/h2&gt;
-
-&lt;h3 id=&quot;creating-a-pointer-&quot;&gt;Creating a Pointer: 🥨&lt;/h3&gt;
-
-&lt;p&gt;To create a pointer variable, you prefix your value with an ampersand (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;amp;&lt;/code&gt;)&lt;/p&gt;
-
-&lt;div class=&quot;language-go highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;someString&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;someStringPointer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;someString&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;If you print that pointer you will see a memory address.&lt;/p&gt;
-&lt;div class=&quot;language-go highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;fmt&quot;&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;someString&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;some string&quot;&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;someStringPointer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;someString&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;fmt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Println&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;someStringPointer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;This will print something that looks like this: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0xc00000e1e0&lt;/code&gt;, Which is the memory address of that variable in your machine.&lt;/p&gt;
-
-&lt;h3 id=&quot;describing-a-pointer-&quot;&gt;Describing a pointer: ✳&lt;/h3&gt;
-
-&lt;p&gt;In a function signature or type definition, the asterisk or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*&lt;/code&gt; is used to designate that a value is a pointer.&lt;/p&gt;
-
-&lt;div class=&quot;language-go highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PassPointer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pointer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;modify-the-original-variable-&quot;&gt;Modify the original variable: ✳&lt;/h3&gt;
-
-&lt;p&gt;You can use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*&lt;/code&gt; to modify the value of the original variable which the pointer references&lt;/p&gt;
-
-&lt;div class=&quot;language-go highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;someString&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;some value&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;someStringPointer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;someString&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;someStringPointer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;new value&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;fmt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Println&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;someString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;// Prints &quot;new value&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;someString&lt;/code&gt; variable will now equal: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;new value&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;when-should-pointers-be-used-&quot;&gt;When Should Pointers Be Used 🤷&lt;/h2&gt;
-
-&lt;p&gt;These are the reasons I’ve read where you might want to use a pointer:&lt;/p&gt;
-
-&lt;h3 id=&quot;-a-function-that-mutates-one-of-its-parameters&quot;&gt;🤝 A function that mutates one of it’s parameters&lt;/h3&gt;
-
-&lt;p&gt;When calling a function that takes a pointer as an argument and expect that the variable will be mutated. If the variable doesn’t need to be mutated then a pointer probably wouldn’t need to be used&lt;/p&gt;
-
-&lt;h3 id=&quot;-better-performance&quot;&gt;⏱ Better performance&lt;/h3&gt;
-
-&lt;p&gt;If you have a large string in memory, it can be very expensive to copy that variable each time it is passed to a new function. It may be worthwhile to pass a pointer instead to save CPU and memory&lt;/p&gt;
-
-&lt;h3 id=&quot;-need-a-nil-value-option&quot;&gt;🤙 Need a Nil value option&lt;/h3&gt;
-&lt;p&gt;Sometimes a function needs to know what something’s value is, as well as if it exists or not. For example, if a JSON object is:&lt;/p&gt;
-
-&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;James&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;*name:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;James&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;      &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;*name:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;                  &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;*name:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;These are the ones I know of so far, I’m sure there are other uses I’m not aware of.&lt;/p&gt;
-
-&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
-
-&lt;p&gt;There is no passing by reference in Go. So pointers are a way to do this if required. There are probably more benefits to using pointers that I haven’t mentioned, but I’ve only just started learning all of this very recently.&lt;/p&gt;
-
-&lt;p&gt;It seems that working with normal values are usually fine, and from what I’ve read about pointers, it ok to avoid them generally speaking. They may be useful tools if used effectively but can easily lead to unreadable code and make it difficult to debug.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">What is a Pointer?</summary></entry></feed>
+&lt;p&gt;The container will manage the lifetime of the dependent objects. Most IoC containers include lifetime managers to manage an object’s lifecycle and dispose it.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">What is the IoC principle and why is it useful?</summary></entry></feed>
