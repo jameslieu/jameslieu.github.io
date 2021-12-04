@@ -1,4 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://jameslieu.co.uk/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.co.uk/" rel="alternate" type="text/html" /><updated>2021-05-04T23:25:23+01:00</updated><id>http://jameslieu.co.uk/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Find Out If You Enjoy Programming</title><link href="http://jameslieu.co.uk/find-out-if-you-enjoy-programming/" rel="alternate" type="text/html" title="Find Out If You Enjoy Programming" /><published>2021-04-19T00:00:00+01:00</published><updated>2021-04-19T00:00:00+01:00</updated><id>http://jameslieu.co.uk/find-out-if-you-enjoy-programming</id><content type="html" xml:base="http://jameslieu.co.uk/find-out-if-you-enjoy-programming/">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RN8ZXxq2awQ&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://jameslieu.co.uk/feed.xml" rel="self" type="application/atom+xml" /><link href="http://jameslieu.co.uk/" rel="alternate" type="text/html" /><updated>2021-12-04T22:52:18+00:00</updated><id>http://jameslieu.co.uk/feed.xml</id><title type="html">James Lieu</title><subtitle>Software Developer</subtitle><author><name>James Lieu</name></author><entry><title type="html">Sorting Visualiser</title><link href="http://jameslieu.co.uk/sorting-visualiser/" rel="alternate" type="text/html" title="Sorting Visualiser" /><published>2021-12-04T00:00:00+00:00</published><updated>2021-12-04T00:00:00+00:00</updated><id>http://jameslieu.co.uk/sorting-visualiser</id><content type="html" xml:base="http://jameslieu.co.uk/sorting-visualiser/">&lt;p&gt;&lt;img src=&quot;/assets/media/quicksort.gif&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A project I’ve always wanted to create is a visualisation of sorting algorithms ever since I saw it elsewhere on the internet.&lt;/p&gt;
+
+&lt;p&gt;With the release of .NET 6, I wanted to see how far the Blazor web framework has come along. And so I used this as an opportunity to create this sorting visualiser using the Blazor framework.&lt;/p&gt;
+
+&lt;p&gt;This project not only allows me to learn the basics of Blazor but also explore the various known/popular sorting algorithms.&lt;/p&gt;
+
+&lt;p&gt;Here is the &lt;a href=&quot;https://github.com/jameslieu/SortingVisualiser&quot;&gt;link to the project on Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;/h2&gt;
+
+&lt;p&gt;Visual Studio makes it easy to create a base Blazor Web Assembly project with some example pages. I started with this and then created my own page.&lt;/p&gt;
+
+&lt;p&gt;The first thing I did was write an array generator. This will generate a random array of integers on page load, I’ve also added a button which triggers this function on click, so the user can generate a new one as they please.&lt;/p&gt;
+
+&lt;p&gt;On the template, I iterated over the array and created a div element with a width of 5px, its height is mapped to the array elements which then gives us a visualisation of the unsorted array.&lt;/p&gt;
+
+&lt;p&gt;I then created a function which handled the sorting. Prior to doing this, I had created a class library of the sorting algorithm (I started with quick sort), this was so I could explore and study it (with unit tests) before applying it to this application.&lt;/p&gt;
+
+&lt;h2 id=&quot;challenges&quot;&gt;Challenges&lt;/h2&gt;
+
+&lt;p&gt;The main challenge was animating the swap. The step needed was to have the array re-render as soon as we swapped the elements. Thankfully Blazor already had a built-in function &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;StateHasChanged()&lt;/code&gt; which enabled me to manually trigger a re-render as soon as we swap the elements when sorting.&lt;/p&gt;
+
+&lt;p&gt;In terms of visualising the animation, some basic CSS was needed to change the colour each time a swap was taking place. I used 2 pointers (3 for quicksort to visualise the pivot) to track the indices of the array and passed that into a function which was responsible for changing the background colour of the elements. And so each time a re-render was triggered, the background colour of each element was changed accordingly.&lt;/p&gt;
+
+&lt;p&gt;I also needed to add a delay/sleep onto the function otherwise the function will run too quickly and we wouldn’t be able see the animation. Adding a delay of 20ms was good enough.&lt;/p&gt;
+
+&lt;h2 id=&quot;summary-&quot;&gt;Summary 📝&lt;/h2&gt;
+
+&lt;p&gt;For everyday use, I’ve always used the built-in sort functions from the programming language I’m using. But doesn’t mean there isn’t value in learning different ways to write an algorithm. It’s interesting to see the various solutions, and it is helps to have visualisation of the problem/solution.&lt;/p&gt;
+
+&lt;p&gt;There is room for improvement, I could refactor the visualiser to be a single component to be reused instead of duplicating it for each sorting algorithm.&lt;/p&gt;
+
+&lt;p&gt;In any case, I’m glad I wrote this project, it was quite simple in the end but its good to have spent some time creating it. I’m pleased with the outcome.&lt;/p&gt;
+
+&lt;p&gt;There are many other sorting visualisers on the internet which have additional features such as adjusting speed, array size and even sound effects. I don’t think I’d put in the time to do it as the main feature of seeing the elements swap and watching the bars sort in real time is enough for me.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/bubblesort.gif&quot; /&gt;
+&lt;em&gt;Bubble sort&lt;/em&gt;&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">I created a simple sorting visualiser using Blazor Web Assembly</summary></entry><entry><title type="html">Find Out If You Enjoy Programming</title><link href="http://jameslieu.co.uk/find-out-if-you-enjoy-programming/" rel="alternate" type="text/html" title="Find Out If You Enjoy Programming" /><published>2021-04-19T00:00:00+01:00</published><updated>2021-04-19T00:00:00+01:00</updated><id>http://jameslieu.co.uk/find-out-if-you-enjoy-programming</id><content type="html" xml:base="http://jameslieu.co.uk/find-out-if-you-enjoy-programming/">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RN8ZXxq2awQ&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;In many ways, the point of programming is to use a computer to solve problems. Pretty much every code a developer writes involves problem solving in one form or another, do they need to automate a process? Fetch data from somewhere? to store data into a database? How would they achieve this?&lt;/p&gt;
 
@@ -57,8 +98,8 @@
 
 &lt;h3 id=&quot;strings&quot;&gt;Strings&lt;/h3&gt;
 
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Strings are created with ' or &quot;.&lt;/span&gt;
-&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;abc&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Strings are created with &apos; or &quot;.&lt;/span&gt;
+&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;abc&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Hello, world&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;01/01/2001&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -70,7 +111,7 @@
 &lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// integers are whole numbers&lt;/span&gt;
 &lt;span class=&quot;mi&quot;&gt;123&lt;/span&gt;
 
-&lt;span class=&quot;c1&quot;&gt;// Some basic arithmetic works as you'd expect.&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// Some basic arithmetic works as you&apos;d expect.&lt;/span&gt;
 &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// = 2&lt;/span&gt;
 &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// = 7&lt;/span&gt;
 &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// = 20&lt;/span&gt;
@@ -150,7 +191,7 @@ To compare whether something is NOT equal to something, use the exclamation mark
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
     &lt;span class=&quot;c1&quot;&gt;// evaluated if count is 4&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// evaluated if it's not either 3 or 4&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// evaluated if it&apos;s not either 3 or 4&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -213,12 +254,12 @@ To compare whether something is NOT equal to something, use the exclamation mark
 
 &lt;p&gt;Here is the solution to the problem&lt;/p&gt;
 
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;word&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;bottles&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;word&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;bottles&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;99&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 
 &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;nx&quot;&gt;word&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;bottle&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;word&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;bottle&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
     &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;prev&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; bottles of beer on the wall, &lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; bottles of beer, Take one down, pass it around, &lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; &lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;word&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;  &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; of beer on the wall.&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
@@ -419,7 +460,7 @@ To compare whether something is NOT equal to something, use the exclamation mark
 
 &lt;p&gt;And any successes I have achieved thus far, were due to me choosing to succeed in that space.&lt;/p&gt;
 
-&lt;p&gt;Holding ourselves accountable instead of blaming and being a victim, is the mindset that will greatly improve your outlook on life once you adopt it.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">Probably not the answer you're expecting.</summary></entry><entry><title type="html">Choosing Your First Programming Language</title><link href="http://jameslieu.co.uk/choosing-your-first-programming-language/" rel="alternate" type="text/html" title="Choosing Your First Programming Language" /><published>2021-03-30T00:00:00+01:00</published><updated>2021-03-30T00:00:00+01:00</updated><id>http://jameslieu.co.uk/choosing-your-first-programming-language</id><content type="html" xml:base="http://jameslieu.co.uk/choosing-your-first-programming-language/">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-NjvNJspF8s&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;Holding ourselves accountable instead of blaming and being a victim, is the mindset that will greatly improve your outlook on life once you adopt it.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">Probably not the answer you&apos;re expecting.</summary></entry><entry><title type="html">Choosing Your First Programming Language</title><link href="http://jameslieu.co.uk/choosing-your-first-programming-language/" rel="alternate" type="text/html" title="Choosing Your First Programming Language" /><published>2021-03-30T00:00:00+01:00</published><updated>2021-03-30T00:00:00+01:00</updated><id>http://jameslieu.co.uk/choosing-your-first-programming-language</id><content type="html" xml:base="http://jameslieu.co.uk/choosing-your-first-programming-language/">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-NjvNJspF8s&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Choosing your first programming language can be one of the most important decisions made when starting your programming journey.&lt;/p&gt;
 
@@ -1339,66 +1380,4 @@ And so to solve this problem we can use an IoC Container.&lt;/p&gt;
 
 &lt;p&gt;Dependency Injection is a very useful pattern to write clean code. While it is not always necessary it will make the maintainability and testibility of your applications easier and less brittle.&lt;/p&gt;
 
-&lt;p&gt;One issue this can create is the caller code having the burden of instantiating many dependencies which could include dependencies which have their own dependencies. This leads to the next piece of the puzzle which I’ll write about soon, using an IoC Container framework to automatically deal with that problem.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">An introduction to Dependency Injection</summary></entry><entry><title type="html">Inversion of Control (IoC)</title><link href="http://jameslieu.co.uk/inversion-of-control/" rel="alternate" type="text/html" title="Inversion of Control (IoC)" /><published>2021-02-12T00:00:00+00:00</published><updated>2021-02-12T00:00:00+00:00</updated><id>http://jameslieu.co.uk/inversion-of-control</id><content type="html" xml:base="http://jameslieu.co.uk/inversion-of-control/">&lt;p&gt;Upon attempting to understand inversion of control, I stumbled across a few buzz words which are related but not quite the same, which can get confusing and so I decided to share my learning on some of these terms, what they are and why they’re useful in programming.&lt;/p&gt;
-
-&lt;p&gt;The four terms I’m going to briefly cover are:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;🔄 Inversion of Control (IoC)&lt;/li&gt;
-  &lt;li&gt;🤝 Dependency Inversion (DIP)&lt;/li&gt;
-  &lt;li&gt;💉 Dependency Injection (DI)&lt;/li&gt;
-  &lt;li&gt;🗳 IoC Container&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;inversion-of-control-&quot;&gt;Inversion of Control 🔄&lt;/h2&gt;
-
-&lt;p&gt;Inversion of control (IoC) is a programming principle and is used to invert different types of controls in object oriented design to achieve loose coupling. “Control” refers to any additional responsibilities a class has outside of it’s main responsibility.&lt;/p&gt;
-
-&lt;p&gt;IoC is all about inverting the control. In layman’s terms, suppose you drive a car to work. The IoC principle suggests to invert the control, meaning that instead of driving the car yourself to get to work, you can get taxi where somebody else will be driving the car. You wouldn’t be driving yourself and so you can focus on your main responsibilities.&lt;/p&gt;
-
-&lt;p&gt;The IoC principle helps in designing loosely coupled classes which make them testable, maintainable and extensible.&lt;/p&gt;
-
-&lt;h2 id=&quot;dependency-inversion-principle-&quot;&gt;Dependency Inversion Principle 🤝&lt;/h2&gt;
-&lt;p&gt;The dependency inversion principle (DIP) is one of the SOLID object-oriented principle invented by Robert Martin (a.k.a. Uncle Bob).
-The definition of DIP is&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;High-level modules should not depend on low-level modules. Both should depend on the abstraction.&lt;/li&gt;
-  &lt;li&gt;Abstractions should not depend on details. Details should depend on abstractions.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;what-is-an-abstraction&quot;&gt;What is an abstraction?&lt;/h4&gt;
-&lt;p&gt;Abstraction means something which is non-concrete. When you can create an object from something such as a class, that is considered a concretion, and so abstraction in programming is to create an interface or abstract class which are non-concrete and you wouldn’t be able to instantiate it.&lt;/p&gt;
-
-&lt;p&gt;You cannot create an object of an interface or abstract class. As per DIP, modules should not depend of concrete classes, they should depend on interfaces or an abstract class.&lt;/p&gt;
-
-&lt;p&gt;The advantages of implementing DIP is classes are loosely coupled  and will not depend on any concrete class but instead includes a reference to an interface. This then means that we can, if necessary, use another class which &lt;strong&gt;implements&lt;/strong&gt; that interface with a different implementation.&lt;/p&gt;
-
-&lt;h2 id=&quot;dependency-injection-&quot;&gt;Dependency Injection 💉&lt;/h2&gt;
-
-&lt;p&gt;Dependency Injection (DI) is a design pattern used to implement IoC. It allows the creation of dependent objects outside of a class and provides those objects to a class through different ways. Using DI, we move the creation and binding of the dependent objects outside of the class that depends on them.&lt;/p&gt;
-
-&lt;h4 id=&quot;types-of-dependency-injection&quot;&gt;Types of Dependency Injection&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Constructor Injection: The injector supplies the dependency through the class constructor.&lt;/li&gt;
-  &lt;li&gt;Property Injection: The injector supplies the dependency through a public property of the client class.&lt;/li&gt;
-  &lt;li&gt;Method Injection: The class implements an interface which declares the methods to supply the dependency and the injector uses this interface to supply the dependency.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In professional projects, there are many dependent classes and implementing these patterns is time consuming. Here the IoC Container (aka the DI container) helps us.&lt;/p&gt;
-
-&lt;h2 id=&quot;ioc-container-&quot;&gt;IoC Container 🗳&lt;/h2&gt;
-
-&lt;p&gt;IoC Container, also known as DI Container, is a framework for implementing &lt;strong&gt;automatic&lt;/strong&gt; dependency injection. It managed object creation and it’s life-time, and also injects dependencies to the class.&lt;/p&gt;
-
-&lt;p&gt;The IoC container creates an object of the specified class and also injects all the dependency objects through a constructor, a property or method at run time and disposes it at the appropriate time. This is done so we don’t have to create and manage objects manually.&lt;/p&gt;
-
-&lt;h3 id=&quot;di-lifecycle&quot;&gt;DI lifecycle&lt;/h3&gt;
-
-&lt;h4 id=&quot;-register&quot;&gt;📋 Register&lt;/h4&gt;
-&lt;p&gt;The container must know which dependency to instantiate when it encounters a particular type. The process is called registration.&lt;/p&gt;
-
-&lt;h4 id=&quot;-resolve&quot;&gt;🏋 Resolve&lt;/h4&gt;
-&lt;p&gt;When using the IoC container, we don’t need to create objects manually, the container does it automatically. This is called resolution. The container creates an object of the specified type, injects the required dependencies if any and returns the object.&lt;/p&gt;
-
-&lt;h4 id=&quot;-dispose&quot;&gt;🗑 Dispose&lt;/h4&gt;
-&lt;p&gt;The container will manage the lifetime of the dependent objects. Most IoC containers include lifetime managers to manage an object’s lifecycle and dispose it.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">What is the IoC principle and why is it useful?</summary></entry></feed>
+&lt;p&gt;One issue this can create is the caller code having the burden of instantiating many dependencies which could include dependencies which have their own dependencies. This leads to the next piece of the puzzle which I’ll write about soon, using an IoC Container framework to automatically deal with that problem.&lt;/p&gt;</content><author><name>James Lieu</name></author><category term="Programming" /><summary type="html">An introduction to Dependency Injection</summary></entry></feed>
