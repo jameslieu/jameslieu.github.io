@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 
-I'm a software developer with 8+ years of commercial experience. I am familiar with the SOLID principles, OOP, MVC, ORM, API development, relational database design and RESTful conventions.
+I'm a software developer. I am familiar with the SOLID principles, OOP, MVC, ORM, API development, relational database design and RESTful conventions.
 
 
 ## Interests &#x1f3ae;
